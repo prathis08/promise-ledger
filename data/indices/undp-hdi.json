@@ -1,0 +1,110 @@
+{
+  "slug": "undp-hdi",
+  "name": "Human Development Index",
+  "publisher": "UNDP Human Development Report Office",
+  "url": "https://hdr.undp.org/data-center/specific-country-data",
+  "higher_is_better": false,
+  "metric": "Rank",
+  "out_of_label": "countries and territories ranked",
+  "points": [
+    {
+      "year": 2004,
+      "value": 127,
+      "out_of": 177,
+      "source_url": "https://www.rediff.com/money/2004/jul/15hdi.htm"
+    },
+    {
+      "year": 2005,
+      "value": 127,
+      "out_of": 177,
+      "source_url": "https://www.hindustantimes.com/india/india-ranked-127-in-human-development/story-IpoeWS3LuK8uwzBWCL4h9L.html"
+    },
+    {
+      "year": 2006,
+      "value": 126,
+      "out_of": 177,
+      "source_url": "https://economictimes.indiatimes.com/news/economy/indicators/india-drops-down-2-places-in-hdi-ranks-128th/articleshow/2576073.cms"
+    },
+    {
+      "year": 2007,
+      "value": 128,
+      "out_of": 177,
+      "source_url": "https://economictimes.indiatimes.com/news/economy/indicators/india-drops-down-2-places-in-hdi-ranks-128th/articleshow/2576073.cms"
+    },
+    {
+      "year": 2009,
+      "value": 134,
+      "out_of": 182,
+      "source_url": "https://www.indiatoday.in/india/story/india-ranks-134-among-182-countries-on-human-development-index-57934-2009-10-04"
+    },
+    {
+      "year": 2010,
+      "value": 119,
+      "out_of": 169,
+      "source_url": "https://economictimes.indiatimes.com/news/economy/indicators/india-ranks-119-on-human-development-index/articleshow/6874453.cms"
+    },
+    {
+      "year": 2011,
+      "value": 134,
+      "out_of": 187,
+      "source_url": "https://www.hindustantimes.com/india/india-ranks-134-in-human-development-index/story-G2jsEEmDIUkwY0d4OhaA2K.html"
+    },
+    {
+      "year": 2013,
+      "value": 136,
+      "out_of": 187,
+      "source_url": "https://hdr.undp.org/system/files/documents/global-report-document/hdr2013encomplete.pdf"
+    },
+    {
+      "year": 2014,
+      "value": 135,
+      "out_of": 187,
+      "source_url": "https://www.downtoearth.org.in/amp/story/environment/india-ranked-135-in-human-development-report-2014-45465"
+    },
+    {
+      "year": 2015,
+      "value": 130,
+      "out_of": 188,
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/migration/in/GHDR-2015-Briefing-India-Explanatory-Note.pdf"
+    },
+    {
+      "year": 2016,
+      "value": 131,
+      "out_of": 188,
+      "source_url": "https://www.gktoday.in/india-ranks-131-2016-human-development-index/"
+    },
+    {
+      "year": 2018,
+      "value": 130,
+      "out_of": 189,
+      "source_url": "https://www.undp.org/node/143611"
+    },
+    {
+      "year": 2020,
+      "value": 131,
+      "out_of": 189,
+      "source_url": "https://www.deccanherald.com/india/india-ranks-131-out-of-189-countries-in-uns-human-development-index-928067.html"
+    },
+    {
+      "year": 2022,
+      "value": 132,
+      "out_of": 191,
+      "source_url": "https://www.undp.org/node/350716"
+    },
+    {
+      "year": 2024,
+      "value": 134,
+      "out_of": 193,
+      "source_url": "https://m.thewire.in/article/world/human-development-index-india-ranks-134th-falls-behind-bangladesh-sri-lanka-bhutan-and-china"
+    },
+    {
+      "year": 2025,
+      "value": 130,
+      "out_of": 193,
+      "source_url": "https://www.undp.org/india/press-releases/indias-human-development-continues-make-progress-ranks-130-out-193-countries"
+    }
+  ],
+  "govt_response": [],
+  "methodology_note": "'year' is the REPORT year, not the data year: 2014 report uses 2013 data; 2015 report 2014 data; 2016 report (released March 2017) 2015 data; 2018 statistical update 2017 data; 2020 report 2019 data; 2021/22 report (released Sept 2022, labelled 2022) 2021 data; 2023/24 report (released March 2024, labelled 2024) 2022 data; 2025 report 2023 data. UNDP states ranks and HDI values are not comparable across editions because of data revisions. UNDP's comparable revised HDI-value series (via Our World in Data) for India: 2013 0.615, 2015 0.633, 2017 0.649, 2019 0.651, 2021 0.647, 2022 0.676, 2023 0.685. UNDP's 2025 release says India moved from 133 (2022) to 130 (2023) in the revised dataset, which differs from the 134 published in the 2023/24 report. Gaps: 2013 report, 2017 (none), 2019 report (some outlets report 129, unverified here). No government rebuttal located.\n\nBack-fill (pre-2014 editions, researched by deepseek, unreviewed): 'year' is the REPORT year, not the data year: 2014 report uses 2013 data; 2015 report 2014 data; 2016 report (released March 2017) 2015 data; 2018 statistical update 2017 data; 2020 report 2019 data; 2021/22 report (released Sept 2022, labelled 2022) 2021 data; 2023/24 report (released March 2024, labelled 2024) 2022 data; 2025 report 2023 data. UNDP states ranks and HDI values are not comparable across editions because of data revisions. UNDP's comparable revised HDI-value series (via Our World in Data) for India: 2013 0.615, 2015 0.633, 2017 0.649, 2019 0.651, 2021 0.647, 2022 0.676, 2023 0.685. UNDP's 2025 release says India moved from 133 (2022) to 130 (2023) in the revised dataset, which differs from the 134 published in the 2023/24 report. Gaps: 2013 report, 2017 (none), 2019 report (some outlets report 129, unverified here). No government rebuttal located. Earlier editions added: 2004 HDR (2002 data), 2005 HDR (2003 data), 2006 HDR (2004 data), 2007/2008 HDR (2005 data; this was a single joint edition, so there is no separate 2008 point), 2009 HDR (2007 data), 2010 HDR (2008 data), 2011 HDR (2011 data) and 2013 HDR (2012 data). MAJOR METHODOLOGY BREAK: the 2010 HDR replaced the old literacy/gross-enrolment formula with mean and expected years of schooling, switched from GDP to GNI per capita, and changed the aggregation to a geometric mean; 2004-2009 ranks use the old methodology and are not directly comparable with 2010 onward. There was no 2012 edition (the series went from the 2011 report to the 2013 report).",
+  "related_claims": []
+}

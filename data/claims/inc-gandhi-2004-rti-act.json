@@ -1,0 +1,64 @@
+{
+  "id": "inc-gandhi-2004-rti-act",
+  "speaker": "Sonia Gandhi",
+  "party": "INC",
+  "role": "Congress President",
+  "level": "party",
+  "state": null,
+  "date": "2004-03-01",
+  "venue": "Indian National Congress manifesto for the 2004 Lok Sabha elections, New Delhi",
+  "language": "en",
+  "quote_original": "The Right to Information Act at the centre will be made more progressive, meaningful and useful to the public.",
+  "quote_english": "The Right to Information Act at the centre will be made more progressive, meaningful and useful to the public.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The RTI Act, 2005 replaced the Freedom of Information Act, 2002 and created a time-bound disclosure regime with penalties for delay, matching the manifesto's stated target.",
+  "topics": [
+    "governance",
+    "corruption"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Congress Manifesto 2004 (full text, Internet Archive)",
+      "url": "https://archive.org/download/CongressManifesto2004/Congress%20Manifesto%202004_djvu.txt"
+    },
+    {
+      "title": "Congress Manifesto 2004 (PDF)",
+      "url": "https://archive.org/download/CongressManifesto2004/Congress%20Manifesto%202004_text.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "India Code",
+      "title": "The Right to Information Act, 2005 (Act No. 22 of 2005)",
+      "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/17520/1/rti_act_2005_eng.pdf",
+      "date": "2005-06-15",
+      "key_figure": "Act No. 22 of 2005; received presidential assent on 15 June 2005."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Central Information Commission",
+      "title": "Right to Information Act",
+      "url": "https://cic.gov.in/rti_act",
+      "date": "2026-10-17",
+      "key_figure": "CIC lists the Right to Information Act, 2005 as the governing statute."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "The 2004 Congress manifesto said the Right to Information Act at the Centre would be made more progressive, meaningful and useful to the public. It did not set a deadline for the change.\n\nThe Right to Information Act, 2005 replaced the Freedom of Information Act, 2002. It set time limits for public authorities to respond, created a two-tier appeal system and provided penalties for delay. The Act received presidential assent in June 2005 and came into force in October 2005.\n\nThe manifesto's target was met by the 2005 Act. The entry is scored against the stated target rather than a date because no deadline was given.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The manifesto release date is not shown on the archive page; 2004-03-01 is used as an approximate date. No deadline was stated for this promise.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

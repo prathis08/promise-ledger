@@ -1,0 +1,73 @@
+{
+  "id": "inc-manmohan-singh-2008-nuclear-isolation",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2008-09-06",
+  "venue": "Statement in New Delhi after the Nuclear Suppliers Group waiver",
+  "language": "en",
+  "quote_original": "marks the end of India's decades-long isolation from the nuclear mainstream and of the technology denial regime",
+  "quote_english": "marks the end of India's decades-long isolation from the nuclear mainstream and of the technology denial regime",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The 45-member Nuclear Suppliers Group waived its guidelines for India on 6 September 2008, after the IAEA approved India's safeguards agreement on 1 August 2008 and before the US Congress approved the 123 Agreement.",
+  "topics": [
+    "foreign-policy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Arms Control Today: NSG, Congress Approve Nuclear Trade with India (quotes Singh's 6 September 2008 statement)",
+      "url": "https://www.armscontrol.org/act/2008-10/nsg-congress-approve-nuclear-trade-india"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "intl_org",
+      "publisher": "Arms Control Association / Arms Control Today",
+      "title": "NSG, Congress Approve Nuclear Trade with India",
+      "url": "https://www.armscontrol.org/act/2008-10/nsg-congress-approve-nuclear-trade-india",
+      "date": "2008-10-07",
+      "key_figure": "NSG waiver agreed 6 September 2008; US House approved the 123 Agreement 298-117 on 27 September 2008 and the Senate 86-13 on 1 October 2008"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "US Department of State (archive)",
+      "title": "U.S.-India: Civil Nuclear Cooperation",
+      "url": "https://2001-2009.state.gov/p/sca/c17361.htm",
+      "date": "2008-08-01",
+      "key_figure": "IAEA Board of Governors approved India's safeguards agreement on 1 August 2008, paving the way for the NSG decision"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of External Affairs",
+      "title": "Frequently Asked Questions on the India-US Nuclear Agreement",
+      "url": "https://www.mea.gov.in/Uploads/PublicationDocs/19149_Frequently_Asked_Questions_01-11-2008.pdf",
+      "date": "2008-11-01",
+      "key_figure": "MEA explanation of the 123 Agreement and civil nuclear cooperation"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "MEA: Frequently Asked Questions on the India-US Nuclear Agreement",
+      "url": "https://www.mea.gov.in/Uploads/PublicationDocs/19149_Frequently_Asked_Questions_01-11-2008.pdf",
+      "summary": "The government described the agreement as cooperation for peaceful uses of nuclear energy with no reference to extraneous issues."
+    }
+  ],
+  "chart": null,
+  "analysis": "After the Nuclear Suppliers Group agreed on 6 September 2008 to adjust its guidelines to enable full civil nuclear cooperation with India, Prime Minister Manmohan Singh said the decision \"marks the end of India's decades-long isolation from the nuclear mainstream and of the technology denial regime\".\n\nThe NSG waiver followed the IAEA Board of Governors' approval of India's safeguards agreement on 1 August 2008, and preceded the US Congress's approval of the India-US 123 Agreement in late September and October 2008. India had been subject to nuclear trade restrictions since its 1974 test and the NSG's 1992 rule.\n\nIndia subsequently signed civil nuclear cooperation agreements with several countries, though the operationalisation of some projects has been slow. The 6 September 2008 statement is reproduced verbatim in contemporaneous arms-control reporting.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The Arms Control Today article quotes Singh's 6 September 2008 statement directly; the MEA FAQ PDF was identified in search results but not parsed as text.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

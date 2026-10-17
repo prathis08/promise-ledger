@@ -1,0 +1,62 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statement",
+  "deadline": null,
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Quint: Karnataka elections - PM Narendra Modi on Cariappa, Thimayya",
+      "url": "https://www.thequint.com/amp/story/videos/news-videos/karnataka-elections-pm-narendra-modi-on-cariappa-thimayya"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2018-nehru-insulted-thimayya-cariappa",
+  "date": "2018-05-03",
+  "venue": "Election rally, Karnataka (town not named by The Quint)",
+  "language": "hi",
+  "quote_english": "Gen. Thimayya was repeatedly insulted by the then prime minister Nehru and the then defence minister Krishna Menon and was forced to resign (as reported by The Quint).",
+  "verdict": "false",
+  "topics": [
+    "governance"
+  ],
+  "summary": "Historical record cited by The Quint: Roy Bucher, not Thimayya, was Army chief in 1948; Thimayya did not resign in 1948 and the defence minister then was Baldev Singh, not Krishna Menon.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "The Quint (WebQoof)",
+      "title": "Karnataka elections: PM Narendra Modi on Cariappa, Thimayya",
+      "url": "https://www.thequint.com/amp/story/videos/news-videos/karnataka-elections-pm-narendra-modi-on-cariappa-thimayya",
+      "date": "2018-05-07",
+      "key_figure": "Rated mostly false for the Thimayya claims; Cariappa part partly grounded"
+    },
+    {
+      "type": "news",
+      "publisher": "The Asian Age",
+      "title": "How Modi, Cong got military history wrong",
+      "url": "https://www.asianage.com/opinion/columnists/050518/how-modi-cong-got-military-history-wrong.html",
+      "date": "2018-05-05",
+      "key_figure": "Opinion column making the same chronology points; also says Congress's Surjewala erred on Menon's post"
+    },
+    {
+      "type": "news",
+      "publisher": "Swarajya",
+      "title": "Fact check: did Modi lie about Nehru and Menon insulting General Thimayya",
+      "url": "https://swarajyamag.com/amp/story/politics%2Ffact-check-did-modi-lie-about-nehru-and-menon-insulting-general-thimayya",
+      "date": "2018-05",
+      "key_figure": "Dissenting view: argues Modi was right on the substance of the insult claim (not independently verified)"
+    }
+  ],
+  "analysis": "Modi said at a Karnataka rally that Gen. K.S. Thimayya was repeatedly insulted by Nehru and defence minister Krishna Menon and forced to resign, and that Field Marshal Cariappa's treatment should be remembered.\n\nThe Quint noted that Gen. Roy Bucher was Army chief in 1948, Thimayya became chief in 1957, and Baldev Singh was defence minister in 1948.  Congress's Randeep Surjewala also made an incorrect claim in response and deleted his tweet.\n\nSwarajya argued Modi's underlying point stood. The sources differ on interpretation of the insult; the dated errors are documented.",
+  "confidence": "medium",
+  "notes": "Primary archival sources (Army records, Parliament debates) were not accessed; the verdict rests on The Quint's summary and corroborating press. Rally date is 3 May 2018 per The Quint; Swarajya gives a different date.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

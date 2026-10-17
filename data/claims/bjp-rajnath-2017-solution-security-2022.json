@@ -1,0 +1,83 @@
+{
+  "id": "bjp-rajnath-2017-solution-security-2022",
+  "speaker": "Rajnath Singh",
+  "party": "BJP",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2017-08-18",
+  "venue": "'Sankalp se Siddhi — New India Movement (2017-2022)' programme, Lucknow",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "There are a lot of problems — terrorism, naxalism, the Kashmir problem... I can assure you this much: by 2022 we have pledged to create a 'New India'... So a solution will be found to all these problems before 2022.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2022-08-15",
+  "verdict": "unachieved",
+  "summary": "Armed conflict in Jammu and Kashmir, left-wing extremism and the Northeast insurgency continued after 2022; official and SATP data record continued terror and Naxal violence in that year and later.",
+  "topics": [
+    "terrorism",
+    "kashmir",
+    "internal-security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Mint / PTI: Solution to Kashmir, terrorism, naxalism will be found by 2022 — Rajnath Singh (19 Aug 2017)",
+      "url": "https://www.livemint.com/Politics/zc84ybi5C41QUFp9C9axXN/A-solution-to-Kashmir-terrorism-naxalism-will-be-found-by.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "index",
+      "publisher": "South Asia Terrorism Portal (SATP)",
+      "title": "Jammu & Kashmir assessment: fatalities by year",
+      "url": "https://satp.org/terrorism-assessment/india-jammukashmir",
+      "date": "2025-04-06",
+      "key_figure": "Total J&K fatalities: 253 (2022), 134 (2023), 127 (2024). Violence had not ceased by 2022 or after."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Home Affairs data reported by ETV Bharat",
+      "title": "66% drop in terrorist incidents and fatalities over past decade in J&K, says MHA",
+      "url": "https://www.etvbharat.com/en/!bharat/66-percent-drop-in-terrorist-incidents-and-fatalities-over-past-decade-in-j-and-k-says-mha-enn24080507267",
+      "date": "2024-08-05",
+      "key_figure": "Terrorist-initiated incidents and encounters: 7,217 (June 2004-May 2014) vs 2,263 (June 2014-31 July 2024) — i.e. incidents continued at roughly 200-plus a year on average across the Modi period."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Home Affairs",
+      "title": "Union Government's Comprehensive Strategy against Naxalism",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2182437",
+      "date": "2025-10-25",
+      "key_figure": "LWE described as an ongoing campaign with 336 new security camps in six years; the government's own target for a Naxal-free India was later set at 31 March 2026."
+    },
+    {
+      "type": "news",
+      "publisher": "Greater Kashmir / JKNS",
+      "title": "Terror attacks, stone pelting, hartals reduced sharply in PM Modi govt: HM Amit Shah (Rajya Sabha, 21 Mar 2025)",
+      "url": "https://www.greaterkashmir.com/jammu-kashmir/terror-attacks-stone-pelting-hartals-reduced-sharply-in-pm-modi-govt-hm-amit-shah",
+      "date": "2025-03-21",
+      "key_figure": "Shah said there had been a 70% reduction in deaths due to terrorism in J&K — a framing that concedes violence continued rather than ended."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Home Minister chairs review of LWE-affected States — 'SAMADHAN' doctrine (8 May 2017)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1489488",
+      "summary": "The government's defence is the SAMADHAN operational strategy and a range of development and security measures; it does not claim the specific 2022 'solution' deadline was met."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 18 August 2017, addressing the 'Sankalp se Siddhi' New India programme in Lucknow, Union Home Minister Rajnath Singh said a solution would be found to terrorism, Naxalism, the Kashmir problem and North East insurgency before 2022, tying it to the government's 'New India 2022' pledge.\n\nAfter 2022, all three problem sets continued. SATP records 253 total fatalities in J&K in 2022, 134 in 2023 and 127 in 2024, including the April 2025 Pahalgam attack. MHA-linked data show terror-related incidents and encounters continuing through the period.\n\nOn Naxalism, the government's own campaign and target-setting continued: in 2024 and 2025 Shah set a 31 March 2026 deadline to eliminate left-wing extremism, and PIB described an ongoing security-camp and development campaign. Insurgency-related incidents in the Northeast also continued after 2022, with a series of peace accords signed.\n\nThe specific threshold — 'a solution... before 2022' — was not reached, and the entry is recorded as unachieved rather than as an ongoing effort. Police and security data in this domain are government-supplied and definitions vary between series.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is the English translation from Mint/PTI; the original Hindi was not located. The deadline 2022-08-15 is the '75th year of independence / New India 2022' target referenced in the speech. SATP is an independent tracker but uses its own definitions. No single primary document aggregates 'terrorism + naxalism + Kashmir + Northeast' outcomes. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 4,
+    "matched": 4,
+    "score": 1.0
+  }
+}

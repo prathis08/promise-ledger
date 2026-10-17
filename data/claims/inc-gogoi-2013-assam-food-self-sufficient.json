@@ -1,0 +1,67 @@
+{
+  "id": "inc-gogoi-2013-assam-food-self-sufficient",
+  "speaker": "Tarun Gogoi",
+  "party": "INC",
+  "role": "Chief Minister, Assam",
+  "level": "state",
+  "state": "Assam",
+  "date": "2013-08-20",
+  "venue": "Guwahati (launch of Food Security Scheme campaign)",
+  "language": "en",
+  "quote_original": "In Assam, about 2.25 crore people from around 40 lakh families will benefit from the scheme and we will have no difficulty in implementing the scheme as we are self-sufficient on the food-front.",
+  "quote_english": "In Assam, about 2.25 crore people from around 40 lakh families will benefit from the scheme and we will have no difficulty in implementing the scheme as we are self-sufficient on the food-front.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Assam has a rice surplus, but it depends on other states for most other food products, so 'self-sufficient on the food-front' overstates the position.",
+  "topics": [
+    "agriculture",
+    "income"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Gogoi launches promotional campaign of Food Security scheme",
+      "url": "https://www.business-standard.com/article/pti-stories/gogoi-launches-promotional-campaign-of-food-security-scheme-113082000734_1.html",
+      "channel": "Business Standard / PTI"
+    },
+    {
+      "platform": "news",
+      "title": "Assam CM launches food security scheme campaign",
+      "url": "https://www.business-standard.com/article/news-ians/assam-cm-launches-food-security-scheme-campaign-113082000800_1.html",
+      "channel": "Business Standard / IANS"
+    }
+  ],
+  "transcript_sources": [],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "Quantity achieved, quality next",
+      "url": "https://indianexpress.com/article/news-archive/web/quantity-achieved-quality-next/",
+      "date": "2013-07-25",
+      "key_figure": "Assam first registered a rice surplus in 2000-01; paddy output reached 50.45 lakh tonnes by 2011-12"
+    },
+    {
+      "type": "news",
+      "publisher": "Business Northeast",
+      "title": "Assam to become self sufficient in major crops by 2026",
+      "url": "https://www.business-northeast.com/assam-to-become-self-sufficient-in-major-crops-by-2026",
+      "key_figure": "State agriculture director: Assam is self-sufficient in rice and tea but depends on other states for most other products"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Assam's rice output moved into surplus in the early 2000s and reached 50.45 lakh tonnes by 2011-12, and the World Bank described the state as self-sufficient in rice. The state agriculture department, however, describes Assam as self-sufficient in rice and tea while depending on other states for most other agricultural products. The chief minister's phrase 'self-sufficient on the food-front' is therefore accurate for rice but broader than the evidence for the full food basket.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is from a PTI report of the speech. The verdict treats 'food-front' as the overall foodgrain/food basket; if read as rice alone, the claim would be true. [ingest: 1 dead evidence link(s) removed] [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

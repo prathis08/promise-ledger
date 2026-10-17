@@ -1,0 +1,63 @@
+{
+  "id": "inc-singh-2004-iraq-no-troops",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2004-07-07",
+  "venue": "Lok Sabha, Parliament House, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "India will not send troops to Iraq.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "India did not deploy troops to Iraq after the 2003 invasion, and the July 2004 statement remained the government's position.",
+  "topics": [
+    "foreign-policy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "India will not send troops to Iraq: PM",
+      "url": "https://www.rediff.com/news/2004/jul/07iraq.htm"
+    },
+    {
+      "title": "Manmohan Singh rules out troops to Iraq",
+      "url": "https://www.hindustantimes.com/india/manmohan-singh-rules-out-troops-to-iraq/story-iczWOB5aPhDwSrWhjG0KpM.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Rediff / PTI",
+      "title": "India will not send troops to Iraq: PM",
+      "url": "https://www.rediff.com/news/2004/jul/07iraq.htm",
+      "date": "2004-07-07",
+      "key_figure": "Manmohan Singh ruled out sending troops and said there was no change in policy."
+    },
+    {
+      "type": "news",
+      "publisher": "The Irish Times",
+      "title": "India's PM rules out sending troops to Iraq",
+      "url": "https://www.irishtimes.com/news/india-s-pm-rules-out-sending-troops-to-iraq-1.1148184",
+      "date": "2004-07-08",
+      "key_figure": "India ruled out troops despite the transfer of power to an interim Iraqi administration."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Manmohan Singh told the Lok Sabha on 7 July 2004 that India would not send troops to Iraq, according to PTI reports. The statement was made during Question Hour after opposition members raised the issue.\n\nIndia had been asked to contribute to the US-led coalition after the 2003 invasion. The government's position was that the decision was consistent with Parliament's resolution on Iraq.\n\nNo Indian combat contingent was deployed to Iraq during the UPA period. The policy statement held.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is the reported wording, not a verbatim Lok Sabha transcript. No primary Parliament record was opened.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

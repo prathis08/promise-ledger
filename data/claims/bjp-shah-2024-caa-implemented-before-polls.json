@@ -1,0 +1,86 @@
+{
+  "id": "bjp-shah-2024-caa-implemented-before-polls",
+  "speaker": "Amit Shah",
+  "party": "BJP",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2024-02-10",
+  "venue": "ET Now Global Business Summit 2024, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "CAA will be implemented before the Lok Sabha polls after issuing the rules in this regard.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2024-04-19",
+  "verdict": "true",
+  "summary": "The Citizenship (Amendment) Rules, 2024 were notified on 11 March 2024, before the Lok Sabha elections began, and the government began granting citizenship under the Act.",
+  "topics": [
+    "citizenship",
+    "internal-security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Hindu: CAA will be implemented before Lok Sabha election, says Amit Shah (10 Feb 2024)",
+      "url": "https://www.thehindu.com/news/national/caa-will-be-implemented-before-lok-sabha-election-says-amit-shah/article67833557.ece"
+    },
+    {
+      "title": "The New Indian Express: CAA will be implemented before 2024 polls, says Amit Shah (10 Feb 2024)",
+      "url": "https://www.newindianexpress.com/india/2024/Feb/10/bjp-always-welcomes-new-allies-talks-are-on-with-akali-dal-amit-shah"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Rediff / PTI",
+      "title": "Centre notifies CAA rules ahead of Lok Sabha polls (11 Mar 2024)",
+      "url": "https://www.rediff.com/news/report/centre-likely-to-notify-caa-rules-today/20240311.htm",
+      "date": "2024-03-11",
+      "key_figure": "Rules for the CAA were notified on 11 March 2024; district magistrates and home secretaries in nine states had been empowered to grant citizenship under the 1955 Act."
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "CAA rules implementation: reactions (14 Mar 2024)",
+      "url": "https://www.thehindu.com/news/national/citizenship-amendment-act-implementation-reaction-live-march-14-2024/article67949593.ece",
+      "date": "2024-03-14",
+      "key_figure": "The Union government notified the rules on Monday (11 March), fast-tracking citizenship for undocumented non-Muslim migrants from Pakistan, Bangladesh and Afghanistan who came before 31 December 2014."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Home Affairs",
+      "title": "Parliament passes the Citizenship (Amendment) Bill 2019 (background to the 2019 law)",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=195783",
+      "date": "2019-12-11",
+      "key_figure": "The CAA was a 2019 manifesto commitment; Shah told the Rajya Sabha the Bill aimed at granting rather than taking away citizenship."
+    },
+    {
+      "type": "news",
+      "publisher": "Akashvani (News on AIR) / PIB",
+      "title": "Amit Shah lauds decision to grant citizenship under CAA (15 May 2024)",
+      "url": "https://newsonair.gov.in/amit-shah-lauds-decision-to-grant-citizenship-under-caa/",
+      "date": "2024-05-15",
+      "key_figure": "Shah said applicants from six minority communities had started receiving Indian citizenship under the Citizenship (Amendment) Rules 2024."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "NewsBharati: CAA rules notified — Modi government fulfils another 2019 manifesto promise",
+      "url": "https://www.newsbharati.com/Encyc/2024/3/12/CAA-rules-notified.html",
+      "summary": "The government described the notification as delivery of the 2019 manifesto commitment; Shah posted that the rules would enable persecuted minorities from Pakistan, Bangladesh and Afghanistan to acquire citizenship."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 10 February 2024, at the ET Now Global Business Summit in New Delhi, Shah said the rules for the Citizenship (Amendment) Act would be issued and the law implemented before the Lok Sabha elections.\n\nThe Ministry of Home Affairs notified the Citizenship (Amendment) Rules, 2024 on 11 March 2024, five days before the election schedule was announced and before the first phase of polling on 19 April. The rules created an online process for eligible non-Muslim migrants from Afghanistan, Bangladesh and Pakistan who arrived by 31 December 2014.\n\nBJP 2024 campaign material and Shah's own posts presented the notification as fulfilment of a 2019 manifesto pledge. On 15 May 2024 Shah said people had begun receiving citizenship under the rules. The stated deadline was therefore met.\n\nOne caveat: the Act excludes Muslim communities and its implementation was described by the U.S. State Department and others as something to be 'closely monitored'; that is a policy controversy, not a deadline failure.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The exact quote is a close paraphrase of the English-language reports (The Hindu, New Indian Express); I did not find an official transcript. The Hindu article is updated to 11 Feb 2024 but reports the 10 Feb event. 'Before the Lok Sabha polls' is taken as the 19 April 2024 first polling phase. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

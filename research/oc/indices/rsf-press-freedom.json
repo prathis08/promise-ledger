@@ -1,0 +1,74 @@
+{
+  "slug": "rsf-press-freedom",
+  "name": "World Press Freedom Index",
+  "publisher": "Reporters Without Borders (RSF)",
+  "url": "https://rsf.org/en/country/india",
+  "higher_is_better": false,
+  "metric": "Rank",
+  "out_of_label": "countries and territories ranked",
+  "points": [
+    {
+      "year": 2015,
+      "value": 136,
+      "out_of": 180,
+      "source_url": "https://www.pressreader.com/india/the-free-press-journal/20160421/281870117616379"
+    },
+    {
+      "year": 2016,
+      "value": 133,
+      "out_of": 180,
+      "source_url": "https://www.pressreader.com/india/the-free-press-journal/20160421/281870117616379"
+    },
+    {
+      "year": 2019,
+      "value": 140,
+      "out_of": 180,
+      "source_url": "https://en.wikipedia.org/wiki/World_Press_Freedom_Index"
+    },
+    {
+      "year": 2020,
+      "value": 142,
+      "out_of": 180,
+      "source_url": "https://en.wikipedia.org/wiki/World_Press_Freedom_Index"
+    },
+    {
+      "year": 2021,
+      "value": 142,
+      "out_of": 180,
+      "source_url": "https://en.wikipedia.org/wiki/World_Press_Freedom_Index"
+    },
+    {
+      "year": 2022,
+      "value": 150,
+      "out_of": 180,
+      "source_url": "https://en.wikipedia.org/wiki/World_Press_Freedom_Index"
+    },
+    {
+      "year": 2023,
+      "value": 161,
+      "out_of": 180,
+      "source_url": "https://en.wikipedia.org/wiki/World_Press_Freedom_Index"
+    },
+    {
+      "year": 2024,
+      "value": 159,
+      "out_of": 180,
+      "source_url": "https://en.wikipedia.org/wiki/World_Press_Freedom_Index"
+    },
+    {
+      "year": 2025,
+      "value": 151,
+      "out_of": 180,
+      "source_url": "https://rsf.org/en/country/india"
+    },
+    {
+      "year": 2026,
+      "value": 157,
+      "out_of": 180,
+      "source_url": "https://rsf.org/en/country/india"
+    }
+  ],
+  "govt_response": [],
+  "methodology_note": "RSF changed its methodology in 2022 (five indicators: political, economic, legislative, social, security), so scores before and after 2022 are not strictly comparable; ranks are comparable only loosely. Scores (0-100, higher better): 2019 54.33, 2020 54.67, 2021 53.44, 2022 41, 2023 36.62, 2024 31.28, 2025 32.96, 2026 31.96. 2015 and 2016 ranks are from press coverage of the 2016 index (India 133rd, up three from 136th). Gaps: 2013, 2014, 2017, 2018 not confirmed with a retrievable source (one report cited 140th in 2013 and 138th in 2018, but unverified). No official Indian government response located; Indian government has generally not accepted RSF methodology but a specific statement was not retrieved.",
+  "related_claims": []
+}

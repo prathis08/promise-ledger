@@ -1,0 +1,70 @@
+{
+  "id": "inc-manmohan-2005-village-electrification-2009",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2005-04-04",
+  "venue": "Launch of Rajiv Gandhi Grameen Vidyutikaran Yojana, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Plan to bring electricity to every village in the country by 2009.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2009-12-31",
+  "verdict": "missed-deadline",
+  "summary": "The 2009 deadline was missed: by May 2014 about 1.05 lakh of the 1.25 lakh unelectrified villages had been connected, leaving roughly 20,000 villages without grid electricity.",
+  "topics": [
+    "energy",
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "BBC News: All India 'to have power by 2009'",
+      "url": "http://news.bbc.co.uk/2/hi/south_asia/4408999.stm"
+    },
+    {
+      "title": "PMO archive: PM launches Rajiv Gandhi Gramin Vidyutikaran Yojana",
+      "url": "https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=87"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "cag",
+      "publisher": "Comptroller and Auditor General of India",
+      "title": "Report No. 27 of 2013: Performance Audit of Rajiv Gandhi Grameen Vidyutikaran Yojana",
+      "url": "https://cag.gov.in/en/audit-report/details/913",
+      "date": "2014-02-11",
+      "key_figure": "Target: electrify 1,25,000 un-electrified villages and 7.8 crore rural households by 2009"
+    },
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "All villages electrified, but darkness pervades",
+      "url": "https://indianexpress.com/article/india/india-news-india/electricity-in-india-villages-problems-still-no-light-poverty-3030107/",
+      "date": "2016-09-14",
+      "key_figure": "By May 2014, about 1.05 lakh of 1.25 lakh unelectrified villages had been electrified; 18,542 remained on 1 April 2015"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: 99,470 villages covered under RGGVY",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=77617",
+      "summary": "The Ministry of Power reported that electrification works in 99,470 villages had been completed and 1,73,79,364 BPL households connected as of 31 October 2011."
+    }
+  ],
+  "chart": null,
+  "analysis": "The National Common Minimum Programme committed the UPA government to completing household electrification in five years, by 2009. The RGGVY target was 1,25,000 un-electrified villages and 7.8 crore rural households, including free connections for 2.34 crore BPL households.\n\nBy May 2014, about 1.05 lakh of the 1.25 lakh villages that were un-electrified in 2005 had been electrified. The Indian Express reported 18,542 villages still un-electrified on 1 April 2015.\n\nThe CAG's 2013 performance audit set out the 2009 target. The government's own 2011 release reported 99,470 villages covered and a revised Bharat Nirman target of 1 lakh villages by March 2012, which also slipped.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The PMO speech page timed out during research; the BBC report and CAG audit were used for the promise and target. Village electrification is defined by the 2006 policy as basic infrastructure plus 10% household connections, not universal household access.",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

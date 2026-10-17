@@ -1,0 +1,70 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statistic",
+  "deadline": null,
+  "media": [
+    {
+      "platform": "youtube",
+      "title": "Modi's Mysore convocation address (link as cited by FactChecker)",
+      "url": "https://www.youtube.com/watch?v=PF_oJW37Sko",
+      "timestamp_seconds": null,
+      "channel": ""
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PM addresses centenary convocation of University of Mysore (narendramodi.in)",
+      "url": "https://narendramodi.in/prime-minister-narendra-modi-addresses-centenary-convocation-of-university-of-mysore-via-video-conferencing"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2020-iit-iim-iiit-numbers-before-2014",
+  "date": "2020-10-19",
+  "venue": "Centenary convocation, University of Mysore (virtual)",
+  "language": "hi",
+  "quote_english": "There were only 16 IITs till 2014; there were nine IIITs; until then India had only 13 IIMs (as quoted by FactChecker).",
+  "verdict": "true",
+  "topics": [
+    "education"
+  ],
+  "summary": "Lok Sabha replies confirm 16 IITs (2013), 9 IIITs and 13 IIMs before 2014; the AIIMS part of the same speech was rated only partly true.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in (IndiaSpend)",
+      "title": "Fact-checking PM Modi's claims on setting up new IITs, IIMs, AIIMS",
+      "url": "https://factchecker.in/factchecking-pm-modis-claims-on-setting-up-iits-aiims-in-india",
+      "date": "2020-10-24",
+      "key_figure": "IIT, IIIT, IIM claims rated true; AIIMS partly true"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Lok Sabha",
+      "title": "IIT list, Dec 2013 (as cited by FactChecker)",
+      "url": "http://loksabhaph.nic.in/Questions/QResult15.aspx?qref=148126&lsno=15",
+      "date": "2013-12",
+      "key_figure": "16 IITs"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Lok Sabha",
+      "title": "IIM reply, Dec 2019 (as cited by FactChecker)",
+      "url": "http://164.100.24.220/loksabhaquestions/annex/172/AU2202.pdf",
+      "date": "2019-12",
+      "key_figure": "Seven new IIMs since 2014; 20 in total"
+    }
+  ],
+  "analysis": "FactChecker verified Modi's pre-2014 institution counts against Lok Sabha replies: 16 IITs (now 23 including ISM Dhanbad's upgrade), 9 IIITs (25 now) and 13 IIMs (20 now).\n\nThe same speech said more than double 15 AIIMS had been established since 2014; FactChecker found 15 sanctioned but only seven functional as of October 2020, with six of those sanctioned earlier, and rated that part partly true. It also noted seven IIMs were added under the previous government in 2007-11.\n\nThis entry covers only the IIT/IIIT/IIM counts.",
+  "confidence": "high",
+  "notes": "Verdict is scoped to the three counts the fact-checker rated true; the AIIMS claim is a separate, partly-true statement in the same speech. Quote is paraphrased/excerpted via FactChecker.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

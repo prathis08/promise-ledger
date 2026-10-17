@@ -1,0 +1,78 @@
+{
+  "id": "bjp-yogi-2017-farm-loan-waiver",
+  "speaker": "Yogi Adityanath",
+  "party": "BJP",
+  "role": "Chief Minister, Uttar Pradesh",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "date": "2017-04-04",
+  "venue": "Lucknow, Uttar Pradesh (state government announcement)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "loans of up to ₹1 lakh taken by 86 lakh of the 2.15 crore small and marginal farmers (till 31 March 2017) would be waived.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Uttar Pradesh allocated ₹36,000 crore and reported waiving crop loans of about 86 lakh small and marginal farmers, but the scheme was capped at ₹1 lakh per farmer and one loan account, and independent reporting found lower coverage and negligible waivers for many farmers.",
+  "topics": [
+    "agriculture",
+    "income"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Hindu: Yogi waives farm loans up to Rs. 1 lakh",
+      "url": "https://www.thehindu.com/news/national/other-states/yogi-waives-farm-loans-up-to-rs-1-lakh/article61798537.ece"
+    },
+    {
+      "title": "Times of India: Yogi Adityanath government waives farm loans worth Rs 36,000 crore",
+      "url": "https://timesofindia.indiatimes.com/india/yogi-adityanath-government-waives-farm-loans-worth-rs-36000-crore/articleshow/58018426.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Hindustan Times",
+      "title": "UP's farm loan waiver scheme marred by criticism and controversies",
+      "url": "https://www.hindustantimes.com/india-news/up-s-farm-loan-waiver-scheme-marred-by-criticism-and-controversies/story-Sm3Q3KMBBjhzHjIwPp3GRL.html",
+      "date": "2018-04-05",
+      "key_figure": "About ₹21,000 crore spent, benefiting 3.3 million farmers by April 2018; cap of ₹1 lakh and one loan account per farmer; projected beneficiary number roughly halved"
+    },
+    {
+      "type": "news",
+      "publisher": "NDTV",
+      "title": "In UP, These Loan Waivers Are Making Farmers Very Angry",
+      "url": "https://www.ndtv.com/india-news/in-up-these-loan-waivers-are-making-farmers-very-angry-1749453",
+      "date": "2017",
+      "key_figure": "Some farmers received loan-waiver certificates for very small amounts"
+    },
+    {
+      "type": "news",
+      "publisher": "Firstpost",
+      "title": "Yogi Adityanath orders loan waiver of 86 lakh farmers",
+      "url": "https://www.firstpost.com/india/yogi-adityanath-orders-loan-waiver-of-86-lakh-farmers-in-bid-to-prevent-mandsaur-like-strike-3536495.html",
+      "date": "2017",
+      "key_figure": "Direction to waive loans of 86 lakh farmers"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Hindustan Times: UP agriculture minister defends the loan waiver scheme",
+      "url": "https://www.hindustantimes.com/india-news/up-s-farm-loan-waiver-scheme-marred-by-criticism-and-controversies/story-Sm3Q3KMBBjhzHjIwPp3GRL.html",
+      "summary": "The state agriculture minister said the scheme was not closed and that eligible farmers left out could still apply, and that the government was working to double farmers' income by 2022."
+    }
+  ],
+  "chart": null,
+  "analysis": "Uttar Pradesh's 2017 farm loan waiver followed a BJP assembly election promise. In April 2017 the state government announced waivers of crop loans up to ₹1 lakh for small and marginal farmers, with a reported allocation of ₹36,000 crore and a stated coverage of about 86 lakh farmers.\n\nHindustan Times reported that by April 2018 the state had spent about ₹21,000 crore, benefiting 3.3 million farmers, and that the number projected to benefit was nearly halved; it also reported a cap of ₹1 lakh and a limit of one loan account per farmer. NDTV reported that some farmers received waiver certificates of very small amounts.\n\nThe government has said the scheme was implemented and that about ₹36,000 crore was waived for around 86 lakh farmers.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The exact wording of the CM's April 2017 announcement was not captured verbatim; the reported English wording is used. Government and independent figures for beneficiaries and amounts differ; the verdict reflects the gap between the announced scope and the documented relief. No salesforce-level 2017 YouTube clip was verified. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

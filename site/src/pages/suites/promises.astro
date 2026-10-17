@@ -1,0 +1,49 @@
+---
+import { u } from '../../lib/site';
+import Base from '../../layouts/Base.astro';
+import Badge from '../../components/Badge.astro';
+import Cell from '../../components/Cell.astro';
+import { getData } from '../../lib/data';
+import { getBench, f3 } from '../../lib/bench';
+import { SUITES, VERDICT_SCORES_B, DOMAINS } from '../../lib/scoring';
+const b = getBench();
+const cases = b.cases.filter((c) => c.suite === 'B').sort((a, c) => c.date.localeCompare(a.date));
+const prow = b.rows.filter((r) => r.kind === 'party');
+const st = { n: prow.reduce((a, r) => a + r.B.n, 0) };
+const unscored = getData().claims.filter((c) => c.scored === false && c.claim_type === 'promise');
+const dn = (id: string | null) => DOMAINS.find((d) => d.id === id)?.name ?? '';
+const num = (x: number) => (Math.abs(x) >= 1000 ? x.toLocaleString('en-US') : String(x));
+const Bar = (v: number | null) => v;
+---
+<Base title="Suite B: Promise Delivery">
+  <h1>Suite B: {SUITES.B.name}</h1>
+  <p class="muted">Test cases: claims of type promise. Score by verdict: {Object.entries(VERDICT_SCORES_B).map(([k, v]) => `${k} = ${v}`).join(', ')}. Unverifiable is not graded.</p>
+  <div class="tablewrap"><table class="dense"><thead><tr><th>Party</th><th>Suite B</th></tr></thead><tbody>{prow.map((r) => <tr><th scope="row">{r.label}</th><td><Cell st={r.B} extra={`on-time rate ${f3(r.B.share)} · abstained ${r.B.abstained} · not yet due ${r.B.pending}`} /></td></tr>)}</tbody></table></div>
+  <div class="tablewrap"><table class="dense">
+    <thead><tr><th>Test case</th><th>Date</th><th>Party</th><th>Speaker</th><th>Domain</th><th>Verdict</th><th class="r">Score</th><th>Confidence</th></tr></thead>
+    <tbody>{cases.map((c) => (
+      <tr><td><a href={u(`/claims/${c.id}/`)} class="num">{c.id}</a></td><td class="num">{c.date}</td><td>{c.party}</td><td>{c.speaker}</td><td>{dn(c.domain)}</td>
+        <td><Badge verdict={c.verdict} /></td><td class="r num">{c.notYetDue ? 'not yet due' : c.score == null ? 'n/a' : c.score.toFixed(2)}</td><td>{c.confidence}</td></tr>
+    ))}</tbody>
+  </table></div>
+  <p class="kv">n/a = not graded in this suite (abstained). {cases.length} cases listed, {st.n} graded.</p>
+  {unscored.length > 0 && <p class="kv">Not scored (context only): {unscored.map((c, i) => <>{i > 0 && ', '}<a href={u(`/claims/${c.id}/`)}>{c.id}</a></>)}.</p>}
+
+  <h2>Gap closed (promises with a numeric target)</h2>
+  <p class="muted">gap = (value − baseline) / (target − baseline), clamped to [0, 1]. Baseline: series point at or before the claim date, else the first point. "At deadline": last point at or before the deadline. "Latest": most recent point.</p>
+  {b.gaps.length === 0 ? <p class="muted">No promises with numeric targets.</p> : (
+    <div class="tablewrap"><table class="dense">
+      <thead><tr><th>Test case</th><th>Target</th><th>Baseline</th><th>At deadline</th><th>Latest</th><th>Caveats</th></tr></thead>
+      <tbody>{b.gaps.map((g) => (
+        <tr>
+          <td><a href={u(`/claims/${g.id}/`)} class="num">{g.id}</a></td>
+          <td class="num">{num(g.target)}<br /><span class="kv">{g.unit}</span></td>
+          <td class="num">{num(g.baseline.y)}<br /><span class="kv">{g.baseline.x}</span></td>
+          <td>{g.gapAtDeadline == null ? <span class="na">no point by deadline</span> : <><div class="bar" role="img" aria-label={`gap closed at deadline ${g.gapAtDeadline.toFixed(2)}`}><i style={`width:${g.gapAtDeadline * 100}%`}></i></div><span class="num">{g.gapAtDeadline.toFixed(3)}</span> <span class="kv">{num(g.atDeadline!.y)} @ {g.atDeadline!.x}</span></>}</td>
+          <td><div class="bar" role="img" aria-label={`gap closed latest ${g.gapLatest.toFixed(2)}`}><i style={`width:${g.gapLatest * 100}%`}></i></div><span class="num">{g.gapLatest.toFixed(3)}</span> <span class="kv">{num(g.latest.y)} @ {g.latest.x}</span></td>
+          <td>{g.caveats.map((c) => <span class="flag" title={c}>caveat</span>)}{g.caveats.map((c) => <div class="kv">{c}</div>)}</td>
+        </tr>
+      ))}</tbody>
+    </table></div>
+  )}
+</Base>

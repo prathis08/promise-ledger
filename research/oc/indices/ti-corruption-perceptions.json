@@ -1,0 +1,92 @@
+{
+  "slug": "ti-corruption-perceptions",
+  "name": "Corruption Perceptions Index",
+  "publisher": "Transparency International",
+  "url": "https://www.transparency.org/en/countries/india",
+  "higher_is_better": true,
+  "metric": "Score (0-100, higher = cleaner)",
+  "out_of_label": "maximum score",
+  "points": [
+    {
+      "year": 2013,
+      "value": 36,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2013"
+    },
+    {
+      "year": 2014,
+      "value": 38,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2014"
+    },
+    {
+      "year": 2015,
+      "value": 38,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2015"
+    },
+    {
+      "year": 2016,
+      "value": 40,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2016"
+    },
+    {
+      "year": 2017,
+      "value": 40,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2017"
+    },
+    {
+      "year": 2018,
+      "value": 41,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2018"
+    },
+    {
+      "year": 2019,
+      "value": 41,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2019"
+    },
+    {
+      "year": 2020,
+      "value": 40,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2020"
+    },
+    {
+      "year": 2021,
+      "value": 40,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2021"
+    },
+    {
+      "year": 2022,
+      "value": 40,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2022"
+    },
+    {
+      "year": 2023,
+      "value": 39,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2023"
+    },
+    {
+      "year": 2024,
+      "value": 38,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2024"
+    },
+    {
+      "year": 2025,
+      "value": 39,
+      "out_of": 100,
+      "source_url": "https://www.transparency.org/en/cpi/2025"
+    }
+  ],
+  "govt_response": [],
+  "methodology_note": "Score (post-2012 scale) is comparable across years; rank is not, as country coverage changes. Ranks known from reports: 2024: 96th of 180; 2025: 91st of 182 (score 39). Scores 2013-2024 per Our World in Data's TI series (https://ourworldindata.org/grapher/ti-corruption-perception-index); 2025 per press coverage (Catholic Connect, Drishti IAS). Per-point links go to TI's edition pages. No specific government rebuttal located.",
+  "related_claims": []
+}

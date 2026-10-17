@@ -1,0 +1,71 @@
+{
+  "id": "inc-gandhi-2004-repeal-pota",
+  "speaker": "Sonia Gandhi",
+  "party": "INC",
+  "role": "Congress President and UPA Chairperson",
+  "level": "party",
+  "state": null,
+  "date": "2004-03-01",
+  "venue": "Indian National Congress manifesto for the 2004 Lok Sabha election",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The Congress 2004 manifesto promised to scrap the Prevention of Terrorism Act (POTA), arguing that the law had been misused, particularly against minority communities.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "POTA was repealed in September 2004, in the first year of the Congress-led UPA government, as the 2004 manifesto had pledged.",
+  "topics": [
+    "terrorism",
+    "security",
+    "internal-security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Open Magazine: The Delhi riots bail debate misses the point that India needs an anti-terror law (records the 2004 Congress manifesto pledge to scrap POTA)",
+      "url": "https://openthemagazine.com/india/the-delhi-riots-bail-debate-misses-the-point-that-india-needs-an-anti-terror-law"
+    },
+    {
+      "title": "Al Jazeera: India rescinds anti-terror law (17 Sep 2004)",
+      "url": "https://www.aljazeera.com/news/2004/9/17/india-rescinds-anti-terror-law"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Al Jazeera / AFP",
+      "title": "India rescinds anti-terror law",
+      "url": "https://www.aljazeera.com/news/2004/9/17/india-rescinds-anti-terror-law",
+      "date": "2004-09-17",
+      "key_figure": "The cabinet decided on 17 September 2004 to replace POTA; the government statement said the UPA was fulfilling a promise made after coming to power in May 2004."
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Prevention of Terrorism Act repealed to save Congress vote bank: Amit Shah",
+      "url": "https://www.thehindu.com/news/national/prevention-of-terrorism-act-repealed-to-save-congress-vote-bank-amit-shah/article61595231.ece",
+      "date": null,
+      "key_figure": "Report on Amit Shah's speech referring to the UPA's 2004 repeal of POTA; the repeal itself is not in dispute."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Government statement quoted by AFP, 17 September 2004",
+      "url": "https://www.aljazeera.com/news/2004/9/17/india-rescinds-anti-terror-law",
+      "summary": "The government said its intention was to protect people against misuse of POTA, that the Act would be repealed without compromising the fight against terrorism, and that the Unlawful Activities (Prevention) Act would be upgraded with terrorism provisions."
+    }
+  ],
+  "chart": null,
+  "analysis": "The 2004 Congress manifesto promised to repeal POTA, the anti-terror law enacted by the NDA government in 2002. The Congress-led UPA took office in May 2004 and the cabinet decided on 17 September 2004 to replace POTA, with the repeal following in Parliament.\n\nThe repeal was paired with amendments to the Unlawful Activities (Prevention) Act, which the government presented as retaining terrorism-related powers while removing POTA's contested provisions.\n\nOn the specific pledge, the record is consistent: the law was repealed within months of the UPA taking office. The BJP has since argued that the repeal weakened India's counter-terror framework, but that is a policy criticism rather than a dispute about whether the promise was kept.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The exact release date of the 2004 manifesto was not confirmed, so the date is set to 2004-03-01. The pledge is reported by Open Magazine and Al Jazeera; the original manifesto PDF was not opened. The repeal date is from AFP/Al Jazeera (cabinet decision 17 September 2004); the POTA Repeal Act was passed later.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

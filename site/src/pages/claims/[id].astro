@@ -1,0 +1,116 @@
+---
+import { u } from '../../lib/site';
+import Base from '../../layouts/Base.astro';
+import Badge from '../../components/Badge.astro';
+import Chart from '../../components/Chart.astro';
+import ReviewPanel from '../../components/ReviewPanel.astro';
+import { t } from '../../i18n/en';
+import { getData, seriesBySlug, youtubeId, startSeconds } from '../../lib/data';
+import { scoreClaim } from '../../lib/scoring';
+export function getStaticPaths() {
+  return getData().claims.map((claim) => ({ params: { id: claim.id }, props: { claim } }));
+}
+const { claim: c } = Astro.props;
+const L = t.claim;
+const draft = c.review_status === 'draft' || c.review_status === 'in-review';
+const unscored = c.scored === false;
+const ctx = getData().claims.filter((x) => x.scored === false && x.context_for === c.id);
+const sc = unscored ? null : scoreClaim(c);
+const paras = c.analysis.split(/\n\s*\n/).filter(Boolean);
+const series = c.chart ? seriesBySlug(c.chart.series) : undefined;
+const chartCfg = series && series.points.length ? {
+  kind: series.points.length > 8 ? 'line' : 'bar', labels: series.points.map((p) => p.x), values: series.points.map((p) => p.y),
+  label: series.title, yTitle: series.unit, target: c.chart!.target ?? null, targetLabel: c.chart!.target_label,
+} : null;
+const media = c.media.map((m) => {
+  const id = youtubeId(m.url);
+  return { ...m, yt: id, start: id ? startSeconds(m.url, m.timestamp_seconds) : 0 };
+});
+const ratingValue: Record<string, number> = { false: 1, misleading: 2, unachieved: 2, 'missed-deadline': 2, 'in-progress': 3, unverifiable: 3, true: 5 };
+const ld = {
+  '@context': 'https://schema.org', '@type': 'ClaimReview',
+  url: Astro.url.href, claimReviewed: c.quote_english || c.quote_original, datePublished: c.last_reviewed || undefined,
+  author: { '@type': 'Organization', name: t.siteName },
+  itemReviewed: { '@type': 'Claim', author: { '@type': 'Person', name: c.speaker }, datePublished: c.date, appearance: c.transcript_sources.concat(c.media as any).filter((x) => x.url).map((x) => x.url) },
+  reviewRating: { '@type': 'Rating', ratingValue: ratingValue[c.verdict], bestRating: 5, worstRating: 1, alternateName: t.verdicts[c.verdict] },
+};
+const fmt = (u?: string) => u && /^https?:\/\//.test(u) ? u : undefined;
+---
+<Base title={c.summary || c.id} description={c.summary}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld).replace(/</g, '\\u003c')} />
+  {draft && <div class="banner draft" role="alert">{t.draftBanner}</div>}
+  {c.review_status === 'disputed' && <div class="banner draft" role="alert">DISPUTED: a trusted reviewer has rejected this entry or asked for changes. See the review section below.</div>}
+  <p class="sans small"><a href={u('/')}>← {t.nav.home}</a></p>
+  <p><Badge verdict={c.verdict} /> <span class="sans small muted">{t.claimTypes[c.claim_type]} · {t.confidence[c.confidence]} confidence</span></p>
+  <h1>{c.summary}</h1>
+  {unscored && <p><span class="nscored">Not scored</span> <span class="sans small">{c.scoring_note}</span></p>}
+  {sc && <p class="kv">Test case in Suite {sc.suite} · score {sc.score == null ? 'n/a (not graded)' : sc.score.toFixed(2)}</p>}
+  {ctx.map((x) => (
+    <aside class="ctxbox"><strong>Context</strong> <span class="kv">(not scored)</span>
+      <blockquote style="margin:6px 0">“{x.quote_english || x.quote_original}”</blockquote>
+      <div class="sans small">{x.speaker}, {x.date}. {x.summary} <a href={u(`/claims/${x.id}/`)}>Open entry</a></div></aside>
+  ))}
+
+  {c.quote_original && <blockquote class="quote" lang={c.language || undefined}><span class="lbl">{L.original}</span>{c.quote_original}</blockquote>}
+  {c.quote_english && <blockquote class="quote"><span class="lbl">{L.english}{!c.quote_is_verbatim && <> · <strong>{L.paraphrased}</strong></>}</span>{c.quote_english}</blockquote>}
+  {!c.quote_is_verbatim && <p class="sans small muted">{L.paraphrasedNote}</p>}
+
+  <dl class="facts">
+    <dt>Speaker</dt><dd>{c.speaker}</dd>
+    <dt>Party</dt><dd>{c.party}</dd>
+    {c.role && <><dt>Office</dt><dd>{c.role}{c.state && c.level === 'state' && !c.role.includes(c.state) ? `, ${c.state}` : ''}</dd></>}
+    {c.venue && <><dt>{L.venue}</dt><dd>{c.venue}</dd></>}
+    <dt>{L.date}</dt><dd>{c.date}</dd>
+    {c.deadline && <><dt>{L.deadline}</dt><dd>{c.deadline}</dd></>}
+    {c.topics.length > 0 && <><dt>Topics</dt><dd>{c.topics.join(', ')}</dd></>}
+    {c.researched_by && <><dt>Researched by</dt><dd class="kv">{c.researched_by}</dd></>}
+    {c.grounding && <><dt>Grounding check</dt><dd class="kv">{c.grounding.checked ? `${c.grounding.matched} of ${c.grounding.checked} checkable evidence pages contain the cited figures` : 'no evidence page could be checked automatically (PDF or blocked)'}</dd></>}
+  </dl>
+
+  {media.some((m) => m.url) && <h2>{L.video}</h2>}
+  {media.filter((m) => m.url).map((m) => m.yt ? (
+    <figure style="margin:0">
+      <div class="video"><iframe src={`https://www.youtube-nocookie.com/embed/${m.yt}?start=${m.start}&rel=0`} title={m.title || 'YouTube video'} loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <figcaption class="sans small muted">{m.title} {m.channel && `· ${m.channel}`} · <a href={m.url} rel="noopener">{L.watch}</a></figcaption>
+    </figure>
+  ) : (
+    <p class="sans small">{fmt(m.url) ? <a href={m.url} rel="noopener">{m.title || m.url}</a> : (m.title || '')} {m.platform && <span class="muted">({m.platform})</span>}</p>
+  ))}
+  {c.transcript_sources.length > 0 && <>
+    <h2>{L.transcripts}</h2>
+    <ul class="sans small">{c.transcript_sources.map((s) => <li>{fmt(s.url) ? <a href={s.url} rel="noopener">{s.title || s.url}</a> : s.title}</li>)}</ul>
+  </>}
+
+  <h2>{L.evidence}</h2>
+  {c.evidence.length === 0 ? <p class="muted">{t.noData}</p> : (
+    <div class="tablewrap"><table>
+      <thead><tr><th>{L.colType}</th><th>{L.colPublisher}</th><th>{L.colTitle}</th><th>{L.colDate}</th><th>{L.colFigure}</th></tr></thead>
+      <tbody>{c.evidence.map((e) => (
+        <tr><td>{e.type ? (t.evidenceTypes[e.type] ?? e.type) : ''}</td><td>{e.publisher}</td>
+          <td>{fmt(e.url) ? <a href={e.url} rel="noopener">{e.title || e.url}</a> : e.title}</td><td>{e.date}</td><td>{e.key_figure}</td></tr>
+      ))}</tbody>
+    </table></div>
+  )}
+
+  {chartCfg && <>
+    <h2>{L.chart}</h2>
+    <Chart config={chartCfg} label={series!.title} />
+    <p class="sans small muted">{series!.title} ({series!.unit}){series!.source?.publisher && <> — {L.source}: {fmt(series!.source.url) ? <a href={series!.source.url} rel="noopener">{series!.source.publisher}{series!.source.title ? `, ${series!.source.title}` : ''}</a> : series!.source.publisher}</>}. {c.chart!.target != null && `${L.target}: ${c.chart!.target}${c.chart!.target_label ? ` (${c.chart!.target_label})` : ''}.`} {series!.note}</p>
+  </>}
+
+  {c.govt_response.length > 0 && <>
+    <h2>{L.govtResponse}</h2>
+    {c.govt_response.map((r) => <div class="card"><strong>{fmt(r.url) ? <a href={r.url} rel="noopener">{r.title || r.url}</a> : r.title}</strong><p style="margin:.3em 0 0">{r.summary}</p></div>)}
+  </>}
+
+  {paras.length > 0 && <><h2>{L.analysis}</h2>{paras.map((p) => <p>{p}</p>)}</>}
+
+  <h2>{L.confidence} & review</h2>
+  <dl class="facts">
+    <dt>{L.confidence}</dt><dd>{t.confidence[c.confidence]}</dd>
+    <dt>{L.reviewStatus}</dt><dd>{c.review_status}</dd>
+    {c.last_reviewed && <><dt>{L.lastReviewed}</dt><dd>{c.last_reviewed}</dd></>}
+  </dl>
+  {c.notes && <><h2>{L.notes}</h2><p class="sans small">{c.notes}</p></>}
+  <ReviewPanel claim={c} />
+</Base>

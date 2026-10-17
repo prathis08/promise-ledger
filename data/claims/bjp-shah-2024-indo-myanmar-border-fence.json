@@ -1,0 +1,78 @@
+{
+  "id": "bjp-shah-2024-indo-myanmar-border-fence",
+  "speaker": "Amit Shah",
+  "party": "BJP",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2024-02-06",
+  "venue": "Announcement via post on X, reported by PIB, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "It has been decided to construct a fence along the entire 1,643-kilometre-long Indo-Myanmar border. To facilitate better surveillance, a patrol track along the border will also be paved.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "in-progress",
+  "summary": "Ten kilometres at Moreh had been fenced when announced; in 2025 officials and a parliamentary panel said the full 1,643-km fence would take about ten years, with ₹31,000 crore approved in March 2024.",
+  "topics": [
+    "internal-security",
+    "security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PIB: Modi government is committed to building impenetrable borders — entire 1,643-km Indo-Myanmar border to be fenced (6 Feb 2024)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2003199"
+    },
+    {
+      "title": "The Hindu: Govt will fence entire border with Myanmar, says Shah (6 Feb 2024)",
+      "url": "https://www.thehindu.com/news/national/india-to-fence-entire-border-with-myanmar/article67818240.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Entire border with Myanmar to be fenced in ten years, say government officials (15 Mar 2025)",
+      "url": "https://www.thehindu.com/news/national/entire-border-with-myanmar-to-be-fenced-in-ten-years-say-government-officials/article69334398.ece",
+      "date": "2025-03-15",
+      "key_figure": "The 1,643-km border would be ringed with an anti-cut, anti-climb fence 'in the next ten years'; a 10 March 2025 parliamentary panel report said the CCS approved ₹31,000 crore in March 2024."
+    },
+    {
+      "type": "news",
+      "publisher": "The Times of India",
+      "title": "Govt to spend Rs 31,000 crore to fence 1,643 km India-Myanmar border (18 Sep 2024)",
+      "url": "https://timesofindia.indiatimes.com/india/govt-to-spend-rs-31000-crore-to-fence-1643-km-india-myanmar-border/articleshow/113454941.cms",
+      "date": "2024-09-18",
+      "key_figure": "The Centre approved a plan to fence the entire 1,643-km border at an estimated ₹31,000 crore."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Home Affairs",
+      "title": "MHA decides to scrap Free Movement Regime between India and Myanmar (8 Feb 2024)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2003884",
+      "date": "2024-02-08",
+      "key_figure": "MHA recommended immediate suspension of the Free Movement Regime, a step accompanying the fencing plan."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB, 6 Feb 2024: fence works covering about 20 km in Manipur approved",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2003199",
+      "summary": "The government said 10 km in Moreh was already fenced, two 1-km hybrid-surveillance pilot projects were under execution, and about 20 km more in Manipur had been approved."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 6 February 2024 the Home Ministry announced via Shah's X post that the entire 1,643-km India-Myanmar border would be fenced, with a patrol track, alongside a decision on 8 February to scrap the Free Movement Regime. At announcement, 10 km at Moreh had been fenced and two 1-km hybrid-surveillance pilot projects were under way.\n\nIn March 2024 the Cabinet Committee on Security approved about ₹31,000 crore for fencing and access roads (reported via a March 2025 parliamentary panel). In March 2025 officials said the entire border would be fenced over roughly ten years.\n\nNo completion date was attached to the original pledge. By the available record the project is a long-duration programme with small completed stretches against a 1,643-km target, so the promise is recorded as in progress rather than met or missed.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote follows the PIB rendering of Shah's X post; I did not open the X post itself. The PIB release of 6 Feb 2024 is the announcement document. Progress figures beyond 2025 were not located, so the in-progress verdict relies on the ten-year timeline reported in March 2025. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

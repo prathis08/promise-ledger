@@ -1,0 +1,64 @@
+{
+  "speaker": "Narendra Modi",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "chart": null,
+  "id": "modi-2018-highway-27km-per-day",
+  "date": "2018-05-27",
+  "venue": "Rally at Baghpat, Uttar Pradesh, after inaugurating Eastern Peripheral Expressway and Delhi-Meerut Expressway phase I",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Highway construction has reached 27 km a day, up from 12 km a day under the Congress government. (as reported by PTI/Deccan Herald)",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "MoRTH data cited by Business Today put pre-May-2014 pace at 11.67 km/day and FY2017-18 at 26.9 km/day, matching the figures stated; the later switch to lane-km counting limits like-for-like comparison.",
+  "topics": [
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM inaugurates Eastern Peripheral Expressway and Phase I of Delhi-Meerut Expressway (PMO)",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pm-inaugurates-eastern-peripheral-expressway-and-phase-i-of-delhi-meerut-expressway/"
+    },
+    {
+      "title": "Modi inaugurates two expressways (Deccan Herald)",
+      "url": "https://www.deccanherald.com/amp/story/india%2Fmodi-inaugurates-two-expressways-672055.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "MoRTH data as reported by Business Today",
+      "title": "Modi government constructed 73% more highways compared to UPA's last 4 years",
+      "url": "https://www.businesstoday.in/amp/industry/infra/story/modi-government-constructed-73-percent-more-highways-compared-upa-last-4-years-148794-2018-06-13",
+      "date": "2018-06-13",
+      "key_figure": "11.67 km/day until May 2014; 26.9 km/day in FY2017-18; 9,829 km built in FY2017-18"
+    },
+    {
+      "type": "fact_check",
+      "publisher": "The Wire",
+      "title": "Fact Check: Did UPA build more highway length than NDA?",
+      "url": "https://thewire.in/politics/fact-chec-highway-length-upa-nda",
+      "date": "2023-01-01",
+      "key_figure": "Yardstick changed in 2018 to lane-km, making pre/post-2018 per-day comparisons difficult (page body not retrievable; per search summary)"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "MoRTH pace figures",
+      "url": "https://www.businesstoday.in/amp/industry/infra/story/modi-government-constructed-73-percent-more-highways-compared-upa-last-4-years-148794-2018-06-13",
+      "summary": "The ministry's data show the pace rising from about 12 km/day in 2014-15 to a reported peak near 36.5 km/day in 2020-21 and about 28.6 km/day in 2021-22 (the latter figures via secondary reports)."
+    }
+  ],
+  "analysis": "At Baghpat on 27 May 2018 Modi was reported to say that highway construction had risen from 12 km a day under the previous government to 27 km a day. These are national figures, not figures for the expressway being inaugurated.\n\nMoRTH data reported by Business Today give 11.67 km/day before May 2014 and 26.9 km/day in FY2017-18, consistent with the statement.\n\nThe Wire notes that from 2018 the ministry began counting lane-km, so later and earlier per-day figures are not strictly comparable. A reported later peak was about 36.5 km/day in 2020-21.",
+  "confidence": "medium",
+  "notes": "Quote is paraphrased from PTI/DH reports (DH page 403 on fetch; claim seen in search summaries). Wire article date (2023) and body not verified. No video found. MoRTH primary document not opened; figures are via Business Today citing MoRTH. Date 2018-05-27 is the EPE inauguration date; Baghpat rally same day per reports.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "inc-gandhi-2009-panchayat-women-40pct",
+  "speaker": "Sonia Gandhi",
+  "party": "INC",
+  "role": "Congress President and UPA Chairperson",
+  "level": "party",
+  "state": null,
+  "date": "2009-03-24",
+  "venue": "Indian National Congress manifesto for the 2009 Lok Sabha elections, New Delhi",
+  "language": "en",
+  "quote_original": "Today, about 40% of the elected representatives in panchayats are women, compared to a reservation of 33% mandated for them.",
+  "quote_english": "Today, about 40% of the elected representatives in panchayats are women, compared to a reservation of 33% mandated for them.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Official data put women at 35.8% of district panchayat members in 2010 and 46% of all PRI representatives by 2024, broadly consistent with the manifesto's 'about 40%' figure.",
+  "topics": [
+    "governance",
+    "women"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Congress manifesto for General Elections 2009 (full text)",
+      "url": "https://www.smetimes.in/smetimes/general-elections-2009/news/2009/Apr/14/congress-manifesto-for-general-elections-2009-full-text.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau",
+      "title": "Participation of Women in Panchayati Raj System",
+      "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=73916",
+      "date": "2012-08-01",
+      "key_figure": "35.80% of district panchayat members were women in 2010, according to the State of Panchayats Report 2008-09."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau",
+      "title": "Elected Women Representatives of Panchayati Raj Institutions",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2019625",
+      "date": "2024-05-04",
+      "key_figure": "Over 46% of elected representatives in Panchayati Raj institutions were women."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "The 2009 Congress manifesto said about 40% of elected panchayat representatives were women, against a reservation of 33%.\n\nA PIB release citing the State of Panchayats Report 2008-09 put women at 35.80% of district panchayat members in 2010. A 2024 PIB release put women at over 46% of all elected representatives in Panchayati Raj institutions.\n\nThe available official figures bracket the manifesto's 'about 40%' figure. The 2010 figure covered district panchayats only, so the claim is treated as broadly supported rather than exact for every tier.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "No all-India all-tier figure for 2009 was found. The 2010 PIB figure covered district panchayats only; later data show 46% overall. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

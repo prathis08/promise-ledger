@@ -1,0 +1,55 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statistic",
+  "deadline": null,
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM addresses HT Leadership Summit (narendramodi.in)",
+      "url": "https://www.narendramodi.in/man/pm-addresses-ht-leadership-summit-385906"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2017-capex-1-49-to-2-64-lakh-crore",
+  "date": "2017-11-30",
+  "venue": "Hindustan Times Leadership Summit, New Delhi",
+  "language": "hi",
+  "quote_english": "Capital expenditure rose from Rs 1.49 lakh crore to Rs 2.64 lakh crore (paraphrase from FactChecker's list).",
+  "verdict": "false",
+  "topics": [
+    "economy",
+    "governance"
+  ],
+  "summary": "FactChecker compared three-year totals from Budget data: Rs 6.9 lakh crore under Modi vs Rs 5.15 lakh crore under the previous government's last three years, a smaller rise than the claim implied.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in / BOOM",
+      "title": "9 of Prime Minister Modi's 16 claims on schemes true, 3 false",
+      "url": "https://www.boomlive.in/9-modis-16-claims-govt-schemes-true-3-false",
+      "date": "2017-12-18",
+      "key_figure": "Rated 9 true, 3 false, 2 partly true, 2 unclear across the 30 Nov 2017 HT Leadership Summit speech"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Finance",
+      "title": "Union Budget documents (as cited by FactChecker)",
+      "url": "https://indiabudget.nic.in/",
+      "date": "2017",
+      "key_figure": "Capex Rs 6.9 lakh crore (Modi, 3 years) vs Rs 5.15 lakh crore (previous 3 years), per FactChecker"
+    }
+  ],
+  "analysis": "FactChecker rated this claim false using Budget data. Comparing three-year totals, capital expenditure was about Rs 6.9 lakh crore under Modi's first three years and Rs 5.15 lakh crore in the previous government's last three years, a rise of roughly a third rather than the near-doubling implied by the quoted yearly figures.\n\nThe fact-checker's exact comparison basis was only summarised in the source we could read.",
+  "confidence": "low",
+  "notes": "Only the summary table from BOOM's republication was read; the Budget documents themselves were not opened and the generic indiabudget.nic.in link is the only primary link available. Reviewer should obtain the specific Budget tables.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

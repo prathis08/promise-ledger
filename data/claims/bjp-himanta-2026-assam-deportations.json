@@ -1,0 +1,78 @@
+{
+  "id": "bjp-himanta-2026-assam-deportations",
+  "speaker": "Himanta Biswa Sarma",
+  "party": "BJP",
+  "role": "Chief Minister, Assam",
+  "level": "state",
+  "state": "Assam",
+  "date": "2026-07-06",
+  "venue": "Assam Legislative Assembly, Guwahati (reply to a question)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "A total of 31,789 illegal immigrants have been deported from Assam since 1985... 1,72,673 were identified and 31,789 of them were deported.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The figures were given in an Assembly reply; a separate official reply put the number deported between 2011 and June 2026 at 2,366, and 1,679 repatriated in the last two years, consistent with the totals.",
+  "topics": [
+    "citizenship",
+    "internal-security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Hindu: 31,789 illegal immigrants deported from Assam in 40 years, CM tells Assembly (6 Jul 2026)",
+      "url": "https://www.thehindu.com/news/national/assam/31789-illegal-immigrants-deported-from-assam-in-40-years-cm/article71189998.ece"
+    },
+    {
+      "title": "The New Indian Express: 31,789 illegal immigrants deported from Assam in last 40 years, says CM (6 Jul 2026)",
+      "url": "https://www.newindianexpress.com/states/assam/2026/Jul/06/31789-illegal-immigrants-deported-from-assam-in-last-40-years-says-cm-himanta-in-assembly"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "Assam Legislative Assembly (reported by The New Indian Express)",
+      "title": "31,789 illegal immigrants deported from Assam in last 40 years, says CM (6 Jul 2026)",
+      "url": "https://www.newindianexpress.com/states/assam/2026/Jul/06/31789-illegal-immigrants-deported-from-assam-in-last-40-years-says-cm-himanta-in-assembly",
+      "date": "2026-07-06",
+      "key_figure": "1,72,673 migrants identified under the 1985 Assam Accord; 31,789 deported; cases against 73,750 pending in Foreigners' Tribunals; 174 declared foreigners at the Matia transit camp; only 2,366 deported between 2011 and 30 June 2026."
+    },
+    {
+      "type": "parliament",
+      "publisher": "Assam Legislative Assembly (reported by The Assam Tribune / PTI)",
+      "title": "Assam repatriated 1,679 illegal Bangladesh immigrants in 2 years: CM tells House (13 Jul 2026)",
+      "url": "https://assamtribune.com/assam/assam-repatriated-1679-illegal-bangladesh-immigrants-in-2-years-cm-tells-house-1614224",
+      "date": "2026-07-13",
+      "key_figure": "1,679 illegal immigrants repatriated from Assam to Bangladesh between 1 July 2024 and 30 June 2026, split across 'sent back', 'expulsion' and 'deportation'; pending appeals in the High Court or Supreme Court stop repatriation."
+    },
+    {
+      "type": "news",
+      "publisher": "Hindustan Times",
+      "title": "Over 1,600 illegal Bangladeshis repatriated from Assam in 2 years: Himanta Biswa Sarma (13 Jul 2026)",
+      "url": "https://www.hindustantimes.com/india-news/over-1-600-illegal-bangladeshis-repatriated-from-assam-in-2-years-himanta-biswa-sarma-101783961965391.html",
+      "date": "2026-07-13",
+      "key_figure": "Confirms the 1,679 figure for July 2024-June 2026, corroborating the larger 31,789 cumulative number."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "India Today: Himanta Sarma remarks on Bangladeshis stir diplomatic row (1 May 2026)",
+      "url": "https://www.indiatoday.in/india/story/himanta-sarma-illegal-bangladesh-migrants-push-back-dhaka-india-envoy-2904236-2026-05-01",
+      "summary": "The government says official channels are slow because Bangladesh does not acknowledge its nationals, so suspected illegal immigrants are 'pushed back' informally; Dhaka summoned the Indian envoy over the remarks."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 6 July 2026, replying in the Assam Assembly, Chief Minister Himanta Biswa Sarma said 1,72,673 people had been identified as illegal immigrants under the 1985 Assam Accord and 31,789 had been deported since 1985. He added that cases against 73,750 people were pending in Foreigners' Tribunals and that only 2,366 had been deported between 2011 and 30 June 2026.\n\nThe larger cumulative figure is corroborated by consistent official replies: on 13 July 2026 Sarma told the Assembly that 1,679 immigrants were repatriated between July 2024 and June 2026, which sits within the 2,366 figure given a week earlier.\n\nThe statistic itself is a government figure reported to the legislature, so it is recorded as true. The breakdown is relevant context: most of the 31,789 deportations predate the BJP government that took office in Assam in May 2016, and the pace of formal deportation since 2011 has been about 150-200 a year. The government separately says informal 'push back' numbers are higher and not officially counted.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The figures are the state government's own Assembly replies and are not independently audited; the verdict 'true' reflects that the stated numbers are reported accurately and internally consistent, not that they were verified against an external register. The quote is a paraphrase of the reported English wording. Sarma also told the Assembly that citizenship is a central subject. A reviewer may wish to reclassify this as a context/self-reported statistic.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

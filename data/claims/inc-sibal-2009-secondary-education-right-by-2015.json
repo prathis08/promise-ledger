@@ -1,0 +1,65 @@
+{
+  "id": "inc-sibal-2009-secondary-education-right-by-2015",
+  "speaker": "Kapil Sibal",
+  "party": "INC",
+  "role": "Union Minister for Human Resource Development",
+  "level": "central",
+  "state": null,
+  "date": "2009-12-04",
+  "venue": "ICC Regional CEO Forum on Globalisation and Inclusive Growth, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Hopefully by 2013 or 2015, we should make free and compulsory education a right at secondary stage also.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2015-12-31",
+  "verdict": "unachieved",
+  "summary": "Sibal said in December 2009 that free and compulsory education would be made a right at the secondary stage by 2013 or 2015; the RTE Act 2009 continued to cover only ages 6-14 and no secondary-stage right was enacted by 2014.",
+  "topics": [
+    "education"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Sibal for making secondary education a right of every child (The Hindu)",
+      "url": "https://www.thehindu.com/news/national/Sibal-for-making-secondary-education-a-right-of-every-child/article16851520.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau (Ministry of Human Resource Development)",
+      "title": "Year End Review 2009 — School Education and Literacy",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=56534",
+      "date": "2009-12-31",
+      "key_figure": "RTE Act 2009 provides free and compulsory education to children aged six to fourteen years; secondary education addressed through Rashtriya Madhyamik Shiksha Abhiyan (launched March 2009)"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau (Ministry of Human Resource Development)",
+      "title": "English Releases — Right to Education / 86th Amendment",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=52554",
+      "date": "2009-01-01",
+      "key_figure": "Article 21A and the RTE Act 2009 make education a fundamental right for children aged 6-14 only"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Year End Review 2009 — School Education",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=56534",
+      "summary": "The ministry records that the statutory right covers ages 6-14 and that secondary schooling was being expanded through RMSA rather than a constitutional right."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 4 December 2009, HRD Minister Kapil Sibal said the government hoped to make free and compulsory education a right at the secondary stage by 2013 or 2015, after the RTE Act had made elementary education a fundamental right.\n\nThe Right of Children to Free and Compulsory Education Act 2009 and Article 21A apply to children aged six to fourteen years. Secondary education was being expanded through a scheme, the Rashtriya Madhyamik Shiksha Abhiyan, not through a legal entitlement.\n\nNo law extending the right to secondary education was enacted during the 2009-2014 period, and the stated 2013/2015 window passed without such a right coming into force.",
+  "confidence": "low",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The claim is a hope framed with a conditional deadline ('hopefully by 2013 or 2015'). A dedicated source confirming that no secondary-education right was enacted was not located; the verdict rests on the statutory scope of the RTE Act described in PIB releases. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

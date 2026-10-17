@@ -1,0 +1,86 @@
+{
+  "id": "bjp-mandaviya-2022-medical-colleges",
+  "speaker": "Mansukh Mandaviya",
+  "party": "BJP",
+  "role": "Union Minister of Health and Family Welfare",
+  "level": "central",
+  "state": null,
+  "date": "2022-12-15",
+  "venue": "Outside Parliament, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "There is a 71 per cent increase in medical colleges, from 387 before 2014 to 660 as of now. The number of MBBS seats increased by 87 per cent and PG seats by 105 per cent in the last eight years.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "PIB and Health Ministry figures record 387 medical colleges before 2014 rising to about 660 by 2023, and MBBS seats rising from about 51,348 to over one lakh, matching the minister's numbers.",
+  "topics": [
+    "health",
+    "education"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "MBBS seats crosses 1 lakh mark; rise in PG seats by 110 per cent: Mandaviya",
+      "url": "https://health.economictimes.indiatimes.com/news/policy/mbbs-seats-crosses-1-lakh-mark-rise-in-pg-seats-by-110-per-cent-mandaviya/98691985",
+      "timestamp_seconds": null,
+      "channel": "ET HealthWorld"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "Deccan Herald: MBBS seats increased by 87%, PG by 105% during NDA rule — Mandaviya",
+      "url": "https://www.deccanherald.com/india/mbbs-seats-increased-by-87-pg-by-105-during-nda-rule-mandaviya-1172040.html"
+    },
+    {
+      "title": "Careers360: Mandaviya on medical education expansion",
+      "url": "https://news.careers360.com/mbbs-seats-increased-87-pg-105-during-nda-rule-heath-minister-mansukh-mandaviya"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "Revolutionizing Medical Education in India",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/may/doc2023515197801.pdf",
+      "date": "2023-05-01",
+      "key_figure": "Medical colleges up ~70% from 387 in 2014 to 660 in 2023; AIIMS up from 7 to 22."
+    },
+    {
+      "type": "news",
+      "publisher": "Mint",
+      "title": "71% increase in medical colleges since 2014: health ministry",
+      "url": "https://www.livemint.com/news/india/71-increase-in-medical-colleges-since-2014-health-ministry-11678969111744.html",
+      "date": null,
+      "key_figure": "Medical colleges up 71% from 387 before 2014 to 660; MBBS seats up 97% from 51,348 to 101,043."
+    },
+    {
+      "type": "news",
+      "publisher": "BW Healthcare World",
+      "title": "Total MBBS seats surpassed 1 lakh, PG seats up by 110%: Mandaviya",
+      "url": "https://www.bwhealthcareworld.com/article/total-mbbs-seats-surpassed-1-lakh-pg-seats-up-by-110-mandaviya-469369",
+      "date": null,
+      "key_figure": "MBBS seats crossed one lakh; PG seats up 110%; medical colleges 387 (pre-2014) to 660."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Revolutionizing Medical Education in India",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/may/doc2023515197801.pdf",
+      "summary": "The government states the number of medical colleges rose from 387 in 2014 to 660 in 2023 and AIIMS from 7 to 22 as part of medical-education expansion."
+    }
+  ],
+  "chart": null,
+  "analysis": "Speaking to reporters outside Parliament on 15 December 2022, the Union Health Minister said there had been a 71 per cent increase in medical colleges, from 387 before 2014 to 660, along with an 87 per cent rise in MBBS seats and a 105 per cent rise in PG seats over eight years.\n\nGovernment material published since is consistent: a PIB document records medical colleges rising about 70 per cent, from 387 in 2014 to 660 in 2023, with AIIMS rising from 7 to 22. Mint reported the Health Ministry stating a 71 per cent increase in medical colleges and a 97 per cent rise in MBBS seats, from 51,348 before 2014 to 101,043.\n\nDifferent outlets quote slightly different percentage rises for MBBS and PG seats depending on the comparison date, but the college counts and the direction of change match official figures.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "This measures medical colleges, a different metric from the excluded modi-2021-medical-seats-60000-added claim (which concerned medical seats). Percentages for MBBS/PG seats vary across reports (87%/105% in the minister's December 2022 statement; 97% in later ministry figures) depending on base year. The PIB PDF date is set to 2023-05-01 because only the month is indicated by the URL.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

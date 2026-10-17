@@ -1,0 +1,69 @@
+{
+  "id": "inc-jairam-2011-rural-sanitation-73-percent",
+  "speaker": "Jairam Ramesh",
+  "party": "INC",
+  "role": "Union Minister for Rural Development",
+  "level": "central",
+  "state": null,
+  "date": "2011-09-06",
+  "venue": "Rajya Sabha, Parliament of India, New Delhi (written reply)",
+  "language": "en",
+  "quote_original": "The sanitation coverage in rural areas of the country was 21.9 per cent as per census 2001, but with the effective implementation of Total Sanitation Campaign, its coverage in the rural areas has increased to approximately 73 per cent as of July 2011.",
+  "quote_english": "The sanitation coverage in rural areas of the country was 21.9 per cent as per census 2001, but with the effective implementation of Total Sanitation Campaign, its coverage in the rural areas has increased to approximately 73 per cent as of July 2011.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "The minister reported 73 per cent rural sanitation coverage in September 2011, while Census 2011 counted 32.7 per cent of rural households with a latrine within their premises; his own later Lok Sabha reply cited the 32.7 per cent Census figure.",
+  "topics": [
+    "sanitation"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Total Sanitation Coverage in the Country will be Completed by 2017 (PIB release)",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=75671",
+      "date": "2011-09-06"
+    },
+    {
+      "title": "Total Sanitation Coverage in the Country will be Completed by 2017 (reproduction of PIB text)",
+      "url": "https://currentaffairsappsc.blogspot.com/2011/09/total-sanitation-coverage-in-country.html",
+      "date": "2011-09-06"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau",
+      "title": "Sanitation coverage in rural areas",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=87126",
+      "key_figure": "Rural sanitation coverage 32.7 per cent as per Census 2011, up from 21.9 per cent in 2001"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Office of the Registrar General and Census Commissioner, India",
+      "title": "Census of India 2011: Availability and Type of Latrine Facility, 2001-2011",
+      "url": "https://sswm.info/sites/default/files/reference_attachments/GOI%202012%20Latrine%20coverage.pdf",
+      "key_figure": "32.7 per cent of rural households had a latrine within the premises in Census 2011"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Later Lok Sabha reply citing Census 2011 sanitation coverage",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=87126",
+      "summary": "In a later reply, the Rural Development Minister reported rural sanitation coverage of 32.7 per cent as per Census 2011, replacing the administrative 73 per cent figure."
+    }
+  ],
+  "chart": null,
+  "analysis": "In a Rajya Sabha reply in September 2011, Jairam Ramesh reported rural sanitation coverage of about 73 per cent as of July 2011, up from 21.9 per cent in Census 2001. The figure came from the Total Sanitation Campaign's administrative progress reports.\n\nCensus 2011 counted 32.7 per cent of rural households with a latrine within their premises. In a later Lok Sabha reply, the same minister cited the Census figure of 32.7 per cent, a much lower measure of household access.\n\nThe 73 per cent figure therefore measures toilets constructed or reported under the programme, not the share of rural households with a working latrine; presented as sanitation coverage without that qualification, it is misleading.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "PIB pages returned HTTP 403 to automated fetches; the 2011 release text was read through a blog reproduction that attributes the reply to Jairam Ramesh in the Rajya Sabha. The 32.7 per cent Census figure appeared in the PIB search snippet and in the Census latrine PDF. The exact Rajya Sabha sitting date may differ by a day from the 6 September 2011 blog publication. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

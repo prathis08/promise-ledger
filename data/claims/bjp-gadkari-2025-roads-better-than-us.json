@@ -1,0 +1,80 @@
+{
+  "id": "bjp-gadkari-2025-roads-better-than-us",
+  "speaker": "Nitin Gadkari",
+  "party": "BJP",
+  "role": "Union Minister of Road Transport and Highways",
+  "level": "central",
+  "state": null,
+  "date": "2025-04-15",
+  "venue": "AIMA 10th National Leadership Conclave, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Infrastructure development is very important for India... within the next 18 months, the country's road infrastructure will surpass that of the United States of America.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "unverifiable",
+  "summary": "In April 2025 the Highways Minister said India's road infrastructure would surpass the United States' within 18 months, but the claim defines no measurable benchmark and comparative road-length data place the US network ahead of India's.",
+  "topics": [
+    "infrastructure"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Working to achieve 100 km per day highway construction goal: Nitin Gadkari",
+      "url": "https://www.ndtv.com/auto/working-to-achieve-100-km-per-day-highway-construction-goal-nitin-gadkari-8169061",
+      "channel": "NDTV"
+    },
+    {
+      "platform": "news",
+      "title": "Indian roads will be better than U.S. in two years: Nitin Gadkari",
+      "url": "https://www.thehindu.com/news/national/indian-roads-will-be-better-than-us-in-two-years-nitin-gadkari/article69375929.ece",
+      "channel": "The Hindu"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "Akashvani/News On AIR report of Gadkari's AIMA address",
+      "url": "https://newsonair.gov.in/union-minister-nitin-gadkari-sets-goal-of-highway-construction-100-km-day"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Road Transport and Highways",
+      "title": "Year End Review 2025 - Ministry of Road Transport & Highways",
+      "url": "https://archive.pib.gov.in/newsite/PrintRelease.aspx?relid=281666",
+      "date": "2025-12-30",
+      "key_figure": "National Highways 1,46,560 km; India has the world's second-largest road network"
+    },
+    {
+      "type": "index",
+      "publisher": "World Population Review",
+      "title": "Highway Systems by Country 2026",
+      "url": "https://worldpopulationreview.com/country-rankings/highway-systems-by-country",
+      "date": "2026-09-25",
+      "key_figure": "United States total road network about 6.6 million km vs India about 6.4 million km"
+    },
+    {
+      "type": "news",
+      "publisher": "Business Standard / PTI",
+      "title": "National highways construction pace slows to 29 km per day in FY25: Gadkari",
+      "url": "https://www.business-standard.com/india-news/national-highways-construction-pace-slows-to-29-km-per-day-in-fy25-gadkari-125072300886_1.html",
+      "date": "2025-07-23",
+      "key_figure": "National highway construction pace 29 km/day in FY 2024-25 (10,660 km constructed)"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "At AIMA's 10th National Leadership Conclave on 15 April 2025, Road Transport and Highways Minister Nitin Gadkari said India's road infrastructure would surpass that of the United States within 18 months, and separately set a highway-construction goal of 100 km per day.\n\nPIB and MoRTH data report National Highways at about 1,46,560 km and describe India as having the world's second-largest road network. Comparative data place the United States' total road network at about 6.6 million km against India's about 6.4 million km. In FY 2024-25, National Highway construction ran at about 29 km per day, against the 100 km per day goal.\n\nBecause the statement does not specify a measurable benchmark for 'surpass' and mixes network length, quality and construction pace, the outcome cannot be scored against a single metric; it is recorded as unverifiable.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "Gadkari has made similar 'better than the US' statements on several dates (March 2025, April 2025 for Madhya Pradesh, June 2025); this entry uses the 15 April 2025 AIMA statement, which carries the 18-month window. Quotation is reported wording, not a transcript, so not marked verbatim. Comparative road-length figures come from a secondary compilation, not a government source, and are used only for context.",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

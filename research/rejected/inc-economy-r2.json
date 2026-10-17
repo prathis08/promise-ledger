@@ -1,0 +1,192 @@
+[
+  {
+    "errors": [
+      "2 evidence URLs dead (404); 0 left",
+      "all source-of-quote URLs dead"
+    ],
+    "claim": {
+      "id": "inc-chidambaram-2008-gdp-growth-8-8",
+      "speaker": "P. Chidambaram",
+      "party": "INC",
+      "role": "Union Finance Minister",
+      "level": "central",
+      "state": null,
+      "date": "2008-02-29",
+      "venue": "Lok Sabha, New Delhi",
+      "language": "en",
+      "quote_original": "In the current year too, according to the Advance Estimates by the Central Statistical Organisation (CSO), the growth rate will be 8.7 per cent - although I am confident that we will maintain the average of 8.8 per cent.",
+      "quote_english": "In the current year too, according to the Advance Estimates by the Central Statistical Organisation (CSO), the growth rate will be 8.7 per cent - although I am confident that we will maintain the average of 8.8 per cent.",
+      "quote_is_verbatim": true,
+      "claim_type": "statement",
+      "deadline": null,
+      "verdict": "false",
+      "summary": "The Finance Minister projected 8.8% GDP growth for 2008-09; revised national accounts data show 6.7%.",
+      "topics": [
+        "economy"
+      ],
+      "media": [],
+      "transcript_sources": [],
+      "evidence": [],
+      "govt_response": [],
+      "chart": null,
+      "analysis": "Chidambaram's 2008-09 Budget speech projected 8.7% growth for the year and said he was confident of maintaining the 8.8% average of the previous four years. The projection was made before the full impact of the global financial crisis.\n\nThe Economic Survey 2008-09, using revised CSO estimates, put 2008-09 GDP growth at 6.7%, 2.1 percentage points below the 8.8% average of the preceding five years. In May 2008 the Finance Minister had also said growth would be 'not less than 8.5%'.\n\nThe outturn was below both the Budget projection and the later 8.5% floor. The survey identifies the global crisis and a sharp deceleration in agriculture, manufacturing and construction as the main factors.",
+      "confidence": "high",
+      "review_status": "draft",
+      "last_reviewed": "2026-10-17",
+      "notes": "Budget speech from indiabudget.gov.in. Actual growth from Economic Survey 2008-09 revised estimates.",
+      "researched_by": "deepseek-v4.1-flash-free"
+    }
+  },
+  {
+    "errors": [
+      "1 evidence URLs dead (404); 1 left"
+    ],
+    "claim": {
+      "id": "inc-mukherjee-2012-gdp-growth-7-6",
+      "speaker": "Pranab Mukherjee",
+      "party": "INC",
+      "role": "Union Finance Minister",
+      "level": "central",
+      "state": null,
+      "date": "2012-03-16",
+      "venue": "Lok Sabha, New Delhi",
+      "language": "en",
+      "quote_original": "I expect India's GDP growth in 2012-13 to be 7.6 per cent, +/- 0.25 per cent.",
+      "quote_english": "I expect India's GDP growth in 2012-13 to be 7.6 per cent, +/- 0.25 per cent.",
+      "quote_is_verbatim": true,
+      "claim_type": "statement",
+      "deadline": null,
+      "verdict": "false",
+      "summary": "The Finance Minister projected 7.6% GDP growth for 2012-13; the advance estimate was 5.0%.",
+      "topics": [
+        "economy"
+      ],
+      "media": [],
+      "transcript_sources": [
+        {
+          "title": "PIB: Union Budget 2012-13 Summary",
+          "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=81056"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "govt_data",
+          "publisher": "Press Information Bureau",
+          "title": "Union Budget 2012-13 Summary",
+          "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=81056",
+          "date": "2012-03-16",
+          "key_figure": "GDP growth in 2012-13 expected at 7.6% +/- 0.25%."
+        }
+      ],
+      "govt_response": [
+        {
+          "title": "PIB: Budget 2012-13 summary notes global crisis",
+          "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=81056",
+          "summary": "The Finance Ministry said the global crisis had affected India but that India remained among the front runners in economic growth."
+        }
+      ],
+      "chart": null,
+      "analysis": "Pranab Mukherjee's 2012-13 Budget speech projected GDP growth of 7.6% +/- 0.25% for the year, after 6.9% growth in 2011-12. The projection assumed a recovery in industrial investment.\n\nThe CSO's advance estimate for 2012-13, reported in the Economic Survey 2012-13, put growth at 5.0%. Later revisions on the 2004-05 base put it at 4.5%; on the 2011-12 base the figure is 5.5%.\n\nThe outturn was 2.1 to 2.6 percentage points below the lower bound of the Budget projection.",
+      "confidence": "high",
+      "review_status": "draft",
+      "last_reviewed": "2026-10-17",
+      "notes": "Budget speech PDF from indiabudget.gov.in. Actual from Economic Survey 2012-13; later revisions differ by base year.",
+      "researched_by": "deepseek-v4.1-flash-free"
+    }
+  },
+  {
+    "errors": [
+      "2 evidence URLs dead (404); 0 left",
+      "all source-of-quote URLs dead"
+    ],
+    "claim": {
+      "id": "inc-chidambaram-2013-fiscal-deficit-4-8",
+      "speaker": "P. Chidambaram",
+      "party": "INC",
+      "role": "Union Finance Minister",
+      "level": "central",
+      "state": null,
+      "date": "2013-02-28",
+      "venue": "Lok Sabha, New Delhi",
+      "language": "en",
+      "quote_original": "Red lines were drawn for the fiscal deficit at 5.3 percent of GDP this year and 4.8 percent of GDP in 2013-14.",
+      "quote_english": "Red lines were drawn for the fiscal deficit at 5.3 percent of GDP this year and 4.8 percent of GDP in 2013-14.",
+      "quote_is_verbatim": true,
+      "claim_type": "statement",
+      "deadline": null,
+      "verdict": "true",
+      "summary": "The Budget set a 4.8%-of-GDP fiscal deficit red line for 2013-14; provisional data show 4.5%.",
+      "topics": [
+        "economy"
+      ],
+      "media": [],
+      "transcript_sources": [],
+      "evidence": [],
+      "govt_response": [
+        {
+          "title": "Interim Budget 2014-15: fiscal deficit below the red line",
+          "url": "https://www.indiabudget.gov.in/budget2021-22/doc/bspeech/bs201314.pdf",
+          "summary": "The Finance Minister said the 2013-14 fiscal deficit would be contained at 4.6% of GDP, below the 4.8% red line."
+        }
+      ],
+      "chart": null,
+      "analysis": "The 2013-14 Budget set a fiscal-deficit red line of 4.8% of GDP, down from 5.2% in 2012-13. The Finance Minister said the red lines were a promise he would not cross.\n\nThe Economic Survey 2013-14 reports the provisional fiscal deficit for 2013-14 at 4.5% of GDP. The interim Budget of February 2014 put the revised estimate at 4.6%, below the 4.8% line.\n\nThe outcome was within the target. The survey attributes the improvement mainly to expenditure compression rather than higher revenue.",
+      "confidence": "high",
+      "review_status": "draft",
+      "last_reviewed": "2026-10-17",
+      "notes": "The 4.8% figure was both a Budget estimate and a red-line commitment. Provisional actual 4.5%; revised estimate 4.6%.",
+      "researched_by": "deepseek-v4.1-flash-free"
+    }
+  },
+  {
+    "errors": [
+      "1 evidence URLs dead (404); 1 left"
+    ],
+    "claim": {
+      "id": "inc-gandhi-2009-upa-growth-9-percent",
+      "speaker": "Sonia Gandhi",
+      "party": "INC",
+      "role": "Congress President",
+      "level": "party",
+      "state": null,
+      "date": "2009-03-24",
+      "venue": "New Delhi",
+      "language": "en",
+      "quote_original": "Average growth in the first four years of the Congress-led UPA government was 9% per year for the first time in our history.",
+      "quote_english": "Average growth in the first four years of the Congress-led UPA government was 9% per year for the first time in our history.",
+      "quote_is_verbatim": false,
+      "claim_type": "statistic",
+      "deadline": null,
+      "verdict": "true",
+      "summary": "The 2009 Congress manifesto said UPA growth averaged 9% a year in its first four years; official data put the average at about 8.8-9.1%.",
+      "topics": [
+        "economy"
+      ],
+      "media": [],
+      "transcript_sources": [
+        {
+          "title": "Indian National Congress, Lok Sabha Elections 2009 Manifesto (PDF)",
+          "url": "http://im.rediff.com/news/2009/mar/24Manifesto_Loksabha_2009_INC.pdf"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "news",
+          "publisher": "Indian National Congress",
+          "title": "Indian National Congress, Lok Sabha Elections 2009 Manifesto",
+          "url": "http://im.rediff.com/news/2009/mar/24Manifesto_Loksabha_2009_INC.pdf",
+          "date": "2009-03-24",
+          "key_figure": "Average growth in the first four years of the UPA government: 9% per year."
+        }
+      ],
+      "govt_response": [],
+      "chart": null,
+      "analysis": "The 2009 Congress manifesto stated that average growth in the first four years of the UPA government was 9% per year. The Economic Survey 2008-09 reports GDP growth of 8.5%, 7.5%, 9.5% and 9.7% for 2004-05 to 2007-08 on the series used in that survey, an average of about 8.8%.\n\nOther vintages of the national accounts put the four-year average at about 9.1%. The manifesto's 9% figure is a rounded representation of those estimates.\n\nThe claim is consistent with the official growth data available in 2009, within rounding.",
+      "confidence": "medium",
+      "review_status": "draft",
+      "last_reviewed": "2026-10-17",
+      "notes": "Manifesto text from the 2009 PDF. The 9% figure is a rounded average; different national-accounts vintages give about 8.8-9.1%.",
+      "researched_by": "deepseek-v4.1-flash-free"
+    }
+  }
+]

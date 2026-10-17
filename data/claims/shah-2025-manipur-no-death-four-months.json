@@ -1,0 +1,74 @@
+{
+  "id": "shah-2025-manipur-no-death-four-months",
+  "speaker": "Amit Shah",
+  "date": "2025-04-03",
+  "venue": "Lok Sabha, debate on statutory resolution confirming President's Rule in Manipur",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "The situation is in control. There has been no death in the last four months. I won't say the situation is satisfactory.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Shah said Manipur was under control with no deaths in four months, but press reports document at least three violence-linked deaths in Manipur between mid-December 2024 and 8 March 2025.",
+  "topics": [
+    "internal-security",
+    "security",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Tribune: Lok Sabha discusses Manipur post 2 am, Shah says situation under control, not satisfactory (3 Apr 2025)",
+      "url": "https://www.tribuneindia.com/news/india/unprecedented-lok-sabha-discusses-manipur-post-2-am-shah-says-situation-under-control-not-satisfactory"
+    },
+    {
+      "title": "Business Standard: Situation in Manipur under control but can't be termed satisfactory: Shah",
+      "url": "https://www.business-standard.com/india-news/situation-in-manipur-under-control-but-can-t-be-termed-satisfactory-shah-125040301079_1.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Wire",
+      "title": "Manipur deaths since November 2024 contradict Amit Shah's claim",
+      "url": "https://m.thewire.in/article/government/manipur-deaths-november-2024-amit-shah",
+      "date": "2025-04-04",
+      "key_figure": "Deaths after the claimed period began: 14 Dec 2024, two migrant workers from Bihar killed in Kakching (police: unresolved); 8 Mar 2025, one Kuki man killed and 48 injured in Kangpokpi on first day of free-movement order. The Wire counts at least 34 deaths Nov 2024-Mar 2025 (21 clashes, 13 relief-camp deaths, the latter attributed by a Kuki body to medical neglect)."
+    },
+    {
+      "type": "fact_check",
+      "publisher": "The Quint (WebQoof)",
+      "title": "Claim by Amit Shah about 'no violence' in Manipur in last four months misleading",
+      "url": "https://fithindi.thequint.com/amp/story/news/webqoof/amit-shah-no-violence-in-manipur-from-december-to-march-fact-check",
+      "date": "2025-04-05",
+      "key_figure": "Quint reported finding seven instances of deaths in Manipur since December (per search-result summary; page could not be opened). Fact-check date approximate."
+    },
+    {
+      "type": "news",
+      "publisher": "The Tribune",
+      "title": "Shah in Lok Sabha: situation in control; opposition cites 260 deaths, 67,000+ displaced",
+      "url": "https://www.tribuneindia.com/news/india/unprecedented-lok-sabha-discusses-manipur-post-2-am-shah-says-situation-under-control-not-satisfactory",
+      "date": "2025-04-03",
+      "key_figure": "Shah conceded the situation was not satisfactory; displaced people remain in relief camps; about 260 deaths overall since May 2023 per the debate."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "MoS Home Nityanand Rai, Lok Sabha, 2025 (per search summary)",
+      "url": "https://www.deccanherald.com/india/lok-sabha-passes-resolution-to-extend-presidents-rule-in-manipur-by-6-months-3656633",
+      "summary": "A search summary of this report says MoS Home Nityanand Rai said in the Lok Sabha that no deaths due to violence were reported in Manipur in the previous four months; the article itself was not opened, and date and exact wording are unverified."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 3 April 2025, in the Lok Sabha debate confirming President's Rule, Shah said the Manipur situation was under control with no deaths in the previous four months, while adding it was not satisfactory because displaced people were still in relief camps. He gave an overall figure of about 260 deaths since May 2023, 80 percent of them in the first month (Business Standard).\n\nThe Wire reports specific killings after the start of that period: two Bihar migrant workers in Kakching on 14 December 2024 and one man in Kangpokpi on 8 March 2025, plus earlier deaths in November 2024. Police described the Kakching case as unsolved. The Quint fact-check rated the claim misleading, citing seven instances of deaths since December.\n\nSome counted deaths are disputed in cause (relief-camp deaths attributed by Kuki groups to medical neglect), and the government's own definition of 'violence-related' death was not found. At least the three killings in specific incidents fall within the four-month window, so the 'no death' statement is not supported by press reports. The 'under control' judgement is an assessment, not a testable figure.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Shah's exact Hindi wording not found; English from The Tribune. The Wire says Shah repeated 'no violence since November' in the Rajya Sabha on 4 April 2025. The Quint page returned 403 so its detail is from a search summary only. Quint publication date not confirmed. No official Manipur Police fatality list was found. Earlier Shah statements on Manipur in 2023 (29 May visit, 9 Aug 2023 no-confidence speech) were checked only for wording; no 'under control' quote found for those dates.",
+  "party": "BJP",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

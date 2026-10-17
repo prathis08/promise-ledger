@@ -1,0 +1,64 @@
+{
+  "id": "inc-singh-2008-ctbt-no-sign",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2008-06-11",
+  "venue": "Address to Indian Foreign Service probationers, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "India will not sign the CTBT that prevents it from conducting further nuclear tests and impinges on its sovereignty.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "India has not signed the CTBT, so the 2008 statement held.",
+  "topics": [
+    "foreign-policy",
+    "security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "India will not sign CTBT: Manmohan",
+      "url": "https://www.dnaindia.com/india/report-india-will-not-sign-ctbt-manmohan-1170431"
+    },
+    {
+      "title": "India will not sign CTBT: PM",
+      "url": "https://www.indiatoday.in/latest-headlines/story/india-will-not-sign-ctbt-pm-26182-2008-06-11"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "intl_org",
+      "publisher": "Arms Control Association",
+      "title": "The Status of the Comprehensive Test Ban Treaty: Signatories and Ratifiers",
+      "url": "https://www.armscontrol.org/factsheets/status-comprehensive-test-ban-treaty-signatories-and-ratifiers",
+      "date": "2024-07-01",
+      "key_figure": "India, Pakistan and North Korea are the three Annex 2 states that have not signed the CTBT."
+    },
+    {
+      "type": "news",
+      "publisher": "India Today",
+      "title": "India resists Japan's CTBT demand",
+      "url": "https://www.indiatoday.in/latest-headlines/story/manmohan-resists-japans-ctbt-demand-favours-universal-disarmament-63977-2009-12-28",
+      "date": "2009-12-28",
+      "key_figure": "India continued to refuse to sign the CTBT, calling it a flawed pact."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Speaking to Indian Foreign Service probationers on 11 June 2008, Manmohan Singh said India would not sign the CTBT because it would prevent further nuclear tests and impinge on sovereignty, according to press reports.\n\nIndia has not signed the treaty. The Arms Control Association's status table, last reviewed in July 2024, lists India, Pakistan and North Korea as the three Annex 2 states that have not signed.\n\nThe statement therefore held. India has maintained a voluntary moratorium on nuclear testing without joining the treaty.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is the reported wording. The Arms Control Association status table was last reviewed in July 2024 and lists India as not having signed.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

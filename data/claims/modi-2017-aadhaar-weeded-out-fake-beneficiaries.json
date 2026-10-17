@@ -1,0 +1,63 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statistic",
+  "deadline": null,
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM addresses HT Leadership Summit (narendramodi.in)",
+      "url": "https://www.narendramodi.in/man/pm-addresses-ht-leadership-summit-385906"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2017-aadhaar-weeded-out-fake-beneficiaries",
+  "date": "2017-11-30",
+  "venue": "Hindustan Times Leadership Summit, New Delhi",
+  "language": "hi",
+  "quote_english": "Aadhaar has weeded out crores of fake beneficiaries from government schemes (paraphrase from FactChecker's list).",
+  "verdict": "false",
+  "topics": [
+    "governance",
+    "digital"
+  ],
+  "summary": "FactChecker rated the claim false: a CAG audit and an RTI reply did not support crores of fake beneficiaries being removed, e.g. only 4% of 9.4 million deleted MGNREGA job cards were fake.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in / BOOM",
+      "title": "9 of Prime Minister Modi's 16 claims on schemes true, 3 false",
+      "url": "https://www.boomlive.in/9-modis-16-claims-govt-schemes-true-3-false",
+      "date": "2017-12-18",
+      "key_figure": "Rated 9 true, 3 false, 2 partly true, 2 unclear across the 30 Nov 2017 HT Leadership Summit speech"
+    },
+    {
+      "type": "cag",
+      "publisher": "CAG (as reported by FactChecker)",
+      "title": "Auditor rejects government claims on LPG savings",
+      "url": "https://factchecker.in/auditor-rejects-government-claims-on-lpg-savings-affluent-hold-on-to-subsidy/",
+      "date": "2017",
+      "key_figure": "74,000 consumer IDs linked to 37,000 Aadhaar numbers; 9.6 lakh ineligible consumers received Rs 49.21 crore"
+    },
+    {
+      "type": "rti",
+      "publisher": "Ministry of Rural Development RTI reply (as reported by Hindustan Times)",
+      "title": "Nearly a crore fake job cards struck off from MGNREGA",
+      "url": "https://www.hindustantimes.com/india-news/fund-leakage-nearly-a-crore-fake-job-cards-struck-off-from-mgnrega-scheme/story-JpsHg1k0mKNE5BNxKF4aKL.html",
+      "date": "2017",
+      "key_figure": "Only 4% of 9.4 million deleted job cards were fake"
+    }
+  ],
+  "analysis": "FactChecker examined Modi's statement that Aadhaar weeded out crores of fake beneficiaries and rated it false.\n\nIt cited a CAG audit of the LPG subsidy, which found duplicate and ineligible consumer records but not crores of fakes, and an RTI reply showing only about 4% of 9.4 million deleted MGNREGA job cards were fake. The Prime Minister did not say which schemes he meant.\n\nLater versions of the claim (8 crore in 2019, 10 crore in 2023-24) are separate statements and are not assessed here.",
+  "confidence": "medium",
+  "notes": "The exact wording of the claim is unclear and the verdict rests on the fact-checker's reading. Quote is a paraphrase. The CAG report itself was not opened, only the FactChecker summary.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

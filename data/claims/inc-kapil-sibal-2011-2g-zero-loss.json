@@ -1,0 +1,78 @@
+{
+  "id": "inc-kapil-sibal-2011-2g-zero-loss",
+  "speaker": "Kapil Sibal",
+  "party": "INC",
+  "role": "Union Minister of Communications and Information Technology",
+  "level": "central",
+  "state": null,
+  "date": "2011-01-07",
+  "venue": "Press conference, New Delhi (reported by The Hindu / PTI)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "There was \"no loss at all\" to the exchequer due to the allocation of licences and 2G spectrum in 2008; the CAG's loss projection was \"utterly erroneous\" and presumptive.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "The CAG's Report No. 19 of 2010 put the presumptive loss at about Rs 1.76 lakh crore; the CBI's charge-sheet cited Rs 30,984 crore, and the Supreme Court declined to accept the minister's stand.",
+  "topics": [
+    "corruption",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Text of the Press Statement given by Shri Kapil Sibal on 2G Spectrum Issues (PIB)",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=68943"
+    },
+    {
+      "title": "The Hindu: 2G spectrum allocation lacked transparency: Sibal",
+      "url": "https://www.thehindu.com/news/national/2G-spectrum-allocation-lacked-transparency-Sibal/article15514492.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "cag",
+      "publisher": "Comptroller and Auditor General of India",
+      "title": "Report No. 19 of 2010 – Performance Audit of Issue of Licences and Allocation of 2G Spectrum",
+      "url": "https://cag.gov.in/en/audit-report/details/2314",
+      "date": "2010-11-16",
+      "key_figure": "Report tabled 16 November 2010; audit flagged lack of transparency and non-maximisation of revenue in the January 2008 licence issue"
+    },
+    {
+      "type": "news",
+      "publisher": "India Today",
+      "title": "CAG says Raja caused Rs 1.76 lakh cr loss in scam",
+      "url": "https://www.indiatoday.in/2g-scam/investigations/story/cag-says-raja-caused-rs-176-lakh-cr-loss-in-scam-84990-2010-11-02",
+      "date": "2010-11-02",
+      "key_figure": "Loss of Rs 176,379 crore in the 2G spectrum allocation"
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu / PTI",
+      "title": "2G spectrum allocation lacked transparency: Sibal",
+      "url": "https://www.thehindu.com/news/national/2G-spectrum-allocation-lacked-transparency-Sibal/article15514492.ece",
+      "date": "2011-01-10",
+      "key_figure": "Sibal said there was \"no loss at all\" and that the CAG's Rs 1.76 lakh crore figure was presumptive and \"utterly erroneous\"; The Hindu also records that the Supreme Court did not take cognisance of his stand"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Text of the Press Statement given by Shri Kapil Sibal on 2G Spectrum Issues",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=68943",
+      "summary": "The minister's official press statement disputed the CAG's presumptive-loss methodology and defended the 2008 allocation against the reported loss figure."
+    }
+  ],
+  "chart": null,
+  "analysis": "In the first week of January 2011, Telecom Minister Kapil Sibal held a press conference at which he disputed the Comptroller and Auditor General's reading of the 2008 2G spectrum allocation, saying there was \"no loss at all\" to the exchequer and calling the CAG's loss projection presumptive and \"utterly erroneous\".\n\nThe CAG's Report No. 19 of 2010, a performance audit tabled on 16 November 2010, estimated a presumptive loss of about Rs 1.76 lakh crore from the January 2008 issue of 120 licences at 2001 prices. The CBI's charge-sheet later put the loss at Rs 30,984 crore.\n\nReporting at the time records that the Supreme Court declined to take cognisance of the minister's stand. The Audit Report page confirms the report's tabling date and its findings on the allocation process; the precise loss figure appears in the report itself.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The PIB statement URL was seen in search results but returned HTTP 403 when fetched. The exact day of the press conference is taken as circa 7 January 2011 from The Hindu report published 10 January 2011; the day is approximate.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

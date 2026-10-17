@@ -1,0 +1,74 @@
+{
+  "id": "inc-sibal-2013-panchayat-broadband",
+  "speaker": "Kapil Sibal",
+  "party": "INC",
+  "role": "Union Minister of Communications and Information Technology",
+  "level": "central",
+  "state": null,
+  "date": "2013-08-30",
+  "venue": "Parliament (Rajya Sabha), New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Gram Panchayats will get broadband speed of up to 100 Mbps under a government project that aims to connect all 2.5 lakh panchayats in the country over the next two years.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2015-08-31",
+  "verdict": "missed-deadline",
+  "summary": "Kapil Sibal said in 2013 that the National Optical Fibre Network would connect all 2.5 lakh gram panchayats with up to 100 Mbps broadband within about two years; by 2014 only a few hundred kilometres of the planned 300,000 km of optical fibre had been laid, and the first phase was completed only in December 2017.",
+  "topics": [
+    "digital",
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Shri Kapil Sibal presides over Signing of Tripartite MoU on ROW & NOFN between GOI, State Government and BBNL - PIB",
+      "url": "https://archive.pib.gov.in/newsite/PrintRelease.aspx?relid=94655"
+    },
+    {
+      "title": "Gram panchayats to get broadband speed of up to 100 mbps: Kapil Sibal - Economic Times",
+      "url": "https://economictimes.indiatimes.com/tech/internet/gram-panchayats-to-get-broadband-speed-of-up-to-100-mbps-kapil-sibal/articleshow/22162512.cms"
+    },
+    {
+      "title": "Panchayats to get 100mbps broadband speed: Sibal - Times of India",
+      "url": "https://timesofindia.indiatimes.com/tech-news/Panchayats-to-get-100mbps-broadband-speed-Sibal/articleshow/22164030.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "index",
+      "publisher": "Wikipedia (compiling government/BBNL data)",
+      "title": "Bharat Broadband Network - implementation history",
+      "url": "https://en.wikipedia.org/wiki/Bharat_Broadband_Network",
+      "date": "2017-12-01",
+      "key_figure": "Between 2011 and 2014 only about 350 km of the 300,000 km Phase-I optical fibre was laid; Phase-I was completed in December 2017"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau, Ministry of Communications",
+      "title": "Shri Kapil Sibal presides over Signing of Tripartite MoU on ROW & NOFN",
+      "url": "https://archive.pib.gov.in/newsite/PrintRelease.aspx?relid=94655",
+      "date": "2013-04-12",
+      "key_figure": "Project to connect all 250,000 gram panchayats with optical fibre"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Tripartite MoUs signed for National Optical Fibre Network",
+      "url": "https://archive.pib.gov.in/newsite/PrintRelease.aspx?relid=94655",
+      "summary": "The government described NOFN as a project to connect all 2.5 lakh gram panchayats with a minimum 100 Mbps, funded from the Universal Service Obligation Fund."
+    }
+  ],
+  "chart": null,
+  "analysis": "The PIB release of 12 April 2013 set out the National Optical Fibre Network plan to connect all 250,000 gram panchayats. In late August 2013, Sibal was reported in Parliament as saying the project would connect all 2.5 lakh panchayats at up to 100 Mbps over the next two years.\n\nProgress between 2011 and 2014 was limited: reports compiled from government data indicate that only a few hundred kilometres of the roughly 300,000 km of optical fibre required for Phase-I had been laid by 2014, and Phase-I was completed in December 2017.\n\nThe two-year connectivity target set in 2013 was not met within that period.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The TOI and ET URLs were seen in search results; the PIB release and the Wikipedia Bharat Broadband Network article were read. The exact sitting date of Sibal's Rajya Sabha reply is reported as Friday 30 August 2013 by the news reports.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

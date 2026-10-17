@@ -1,0 +1,79 @@
+{
+  "id": "bjp-sitharaman-2020-agri-infrastructure-fund",
+  "speaker": "Nirmala Sitharaman",
+  "party": "BJP",
+  "role": "Union Finance Minister",
+  "level": "central",
+  "state": null,
+  "date": "2020-05-15",
+  "venue": "Press conference on Atmanirbhar Bharat Abhiyan (third tranche), New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Financing facility of Rs. 1,00,000 crore will be provided for funding Agriculture Infrastructure Projects at farm-gate & aggregation points.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "in-progress",
+  "summary": "As on 30 June 2025, about Rs 66,310 crore had been sanctioned under the Agriculture Infrastructure Fund for 1,13,419 projects against the Rs 1 lakh crore facility, and the scheme period has been extended.",
+  "topics": [
+    "agriculture",
+    "infrastructure",
+    "income"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PIB: Finance Minister announces measures to strengthen Agriculture Infrastructure ... Rs 1 lakh crore Agri Infrastructure Fund",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=204019"
+    },
+    {
+      "title": "PMIndia: PM launches financing facility of Rs 1 Lakh Crore under Agriculture Infrastructure Fund",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pm-launches-financing-facility-of-rs-1-lakh-crore-under-agriculture-infrastructure-fund/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "Agriculture Infrastructure Fund (press note)",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=154999&reg=3&lang=2",
+      "date": "2025-08-09",
+      "key_figure": "Rs 66,310 crore sanctioned for 1,13,419 projects as on 30 June 2025"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Lok Sabha (Ministry of Agriculture and Farmers Welfare)",
+      "title": "Unstarred Question on Agriculture Infrastructure Fund",
+      "url": "https://sansad.in/getFile/loksabhaquestions/annex/184/AU256_fPjSiM.pdf?source=pqals",
+      "date": "2025-02-04",
+      "key_figure": "Rs 56,334 crore sanctioned for 92,393 projects as on 26.01.2025"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Department of Agriculture and Farmers Welfare",
+      "title": "National Agriculture Infra Financing Facility",
+      "url": "https://agriinfra.dac.gov.in/",
+      "date": "2025",
+      "key_figure": "Size of the financing facility: Rs 1 lakh crore"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PMIndia: PM launches financing facility of Rs 1 Lakh Crore under Agriculture Infrastructure Fund",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pm-launches-financing-facility-of-rs-1-lakh-crore-under-agriculture-infrastructure-fund/",
+      "summary": "The government states the fund provides loans with 3% interest subvention and credit guarantee to farmers, PACS, FPOs and agri-entrepreneurs, and that the scheme runs over a multi-year period."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 15 May 2020 the Finance Minister announced a Rs 1 lakh crore financing facility for farm-gate and post-harvest infrastructure under the Agriculture Infrastructure Fund, launched by the Prime Minister on 9 August 2020.\n\nAs on 30 June 2025, Rs 66,310 crore had been sanctioned for 1,13,419 projects, according to a PIB note; a Lok Sabha reply in February 2025 reported Rs 56,334 crore sanctioned for 92,393 projects as on 26 January 2025.\n\nThe facility is a credit line routed through banks and financial institutions, with interest subvention and credit guarantee. Sanctions remain below the Rs 1 lakh crore facility size, and the scheme period has been extended.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The original scheme document described a 10-year window (FY2020-FY2029); later communications refer to loan disbursement completing by the end of FY2025-26. Because the target is a facility size rather than a dated milestone, the verdict is in-progress. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

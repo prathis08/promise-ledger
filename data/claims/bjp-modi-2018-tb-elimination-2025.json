@@ -1,0 +1,85 @@
+{
+  "id": "bjp-modi-2018-tb-elimination-2025",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2018-03-13",
+  "venue": "Delhi End TB Summit, Vigyan Bhawan, New Delhi",
+  "language": "hi",
+  "quote_original": "दुनिया भर में TB को खत्म करने के लिए वर्ष 2030 तक का समय तय किया गया है। लेकिन आज मैं ये घोषणा कर रहा हूं कि भारत ने वर्ष 2030 से 5 साल और पहले, यानि 2025 तक TB को खत्म करने का लक्ष्य अपने लिए तय किया है",
+  "quote_english": "I am confident that India can be free of TB by 2025... India has decided to end TB five years before the target year, i.e. by 2025 instead of 2030.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2025-12-31",
+  "verdict": "missed-deadline",
+  "summary": "India's tuberculosis incidence was about 185-187 per 100,000 in 2024-2025, and India recorded roughly 27 lakh cases in 2024, so the stated goal of TB elimination by 2025 was not met.",
+  "topics": [
+    "health"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PIB: PM inaugurates 'The Delhi End TB Summit'; launches TB Free India Campaign",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=177354"
+    },
+    {
+      "title": "Text of PM's address at the inaugural session of End TB Summit (narendramodi.in)",
+      "url": "https://www.narendramodi.in/text-of-pm-s-address-at-the-inaugural-session-of-end-tb-summit-539297"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "intl_org",
+      "publisher": "World Health Organization",
+      "title": "Global tuberculosis report 2024 (landing page)",
+      "url": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2024",
+      "date": "2024-10-29",
+      "key_figure": "In 2023 TB returned to being the world's leading infectious disease killer; India carried the largest share of the global TB burden."
+    },
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "Why hasn't India met its target of eliminating TB by 2025?",
+      "url": "https://indianexpress.com/article/explained/explained-health/india-tb-10365654/",
+      "date": "2025-11-12",
+      "key_figure": "Global TB Report 2025: India recorded ~27.1 lakh TB cases and more than 3 lakh deaths in 2024."
+    },
+    {
+      "type": "news",
+      "publisher": "Newslaundry",
+      "title": "Four times over target: India's TB elimination problem",
+      "url": "https://www.newslaundry.com/2026/03/30/four-times-over-target-indias-tb-elimination-problem",
+      "date": "2026-03-30",
+      "key_figure": "~2.7 million TB cases in 2025, incidence ~185 per 100,000 — more than four times the National Strategic Plan's 2025 elimination target."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Central TB Division, MoHFW",
+      "title": "India TB Report 2024",
+      "url": "https://tbcindia.mohfw.gov.in/wp-content/uploads/2024/10/TB-Report_for-Web_08_10-2024-1.pdf",
+      "date": null,
+      "key_figure": "National TB Elimination Programme annual report describing the 2025 elimination goal."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: India's TB elimination efforts (MoHFW)",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2114549",
+      "summary": "The government describes the 2025 TB elimination goal as one of the world's most ambitious health missions and points to record-high case reporting, better diagnostics, private-sector partnerships and patient cash support."
+    }
+  ],
+  "chart": null,
+  "analysis": "At the Delhi End TB Summit on 13 March 2018, the Prime Minister announced a target of TB elimination in India by 2025, five years ahead of the global SDG deadline of 2030.\n\nThe WHO Global TB Report 2024 recorded that TB returned as the world's leading infectious disease killer in 2023, and that India carried the largest share of the global burden. Press analyses of the WHO Global TB Report 2025 state that India recorded roughly 27.1 lakh cases and more than 3 lakh deaths in 2024. A March 2026 Newslaundry analysis based on 2025 case numbers put India's incidence at about 185 per 100,000 population, more than four times the National Strategic Plan's 2025 elimination threshold. India's incidence decline between 2015 and 2024 was faster than the global average, but the absolute elimination target for 2025 was not met.\n\nGovernment releases describe the campaign as ongoing under the National TB Elimination Programme and cite improvements in case detection and treatment.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The speech was delivered in Hindi; quote_english is the PMO/PIB English rendering and quote_original is the PMO India tweet excerpt carried on narendramodi.in. 'Elimination' is conventionally defined as under 1 case per million population per year, far below observed incidence. WHO notes that burden estimates are revised annually and comparisons across report editions are not appropriate. The Hindu (article68845844) and The Wire also reported that the 2025 target would be missed; those URLs were seen in search results but the exact publication dates were not confirmed, so they are not listed as evidence.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

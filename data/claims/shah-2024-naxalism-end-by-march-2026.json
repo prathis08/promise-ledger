@@ -1,0 +1,78 @@
+{
+  "id": "shah-2024-naxalism-end-by-march-2026",
+  "speaker": "Amit Shah",
+  "date": "2024-12-16",
+  "venue": "Chhattisgarh visit (Raipur/Jagdalpur), per Amar Ujala headline dated 2024-12-16",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Naxalism will be ended from the country before 31 March 2026.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2026-03-31",
+  "verdict": "in-progress",
+  "summary": "The 31 March 2026 deadline has passed; Shah told Parliament on 30 March 2026 and a Jagdalpur press conference on 19 May 2026 that Naxalism is ended, and official figures show a steep fall, but the claim is a government self-assessment without independent verification.",
+  "topics": [
+    "internal-security",
+    "security",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Amar Ujala: Amit Shah Chhattisgarh visit, Naxalism will end before 31 March 2026 (16 Dec 2024)",
+      "url": "https://www.amarujala.com/chhattisgarh/amit-shah-cg-visit-naxalism-will-end-before-31-march-2026-amit-shah-appeal-and-warning-for-naxalite-2024-12-16"
+    },
+    {
+      "title": "The Hitavada: Shah reiterates March 2026 as deadline to eliminate Naxalism (24 Jun 2025, Nava Raipur)",
+      "url": "https://www.thehitavada.com/Encyc/2025/6/24/Shah-reiterates-March-2026-as-deadline-to-eliminate-Naxalism.html"
+    },
+    {
+      "title": "ThePrint/PTI: Naxalism eradicated from country before March 31 deadline due to valour of forces: Shah (19 May 2026)",
+      "url": "https://theprint.in/india/naxalism-eradicated-from-country-before-march-31-deadline-due-to-valour-of-forces-shah/2935404/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Newsgram (report on Lok Sabha speech)",
+      "title": "India Naxal-free, Maoist leadership decimated: HM Amit Shah",
+      "url": "https://www.newsgram.com/india/2026/03/30/india-naxal-free-maoist-leadership-decimated-hm-amit-shah",
+      "date": "2026-03-30",
+      "key_figure": "Shah in Lok Sabha (30 Mar 2026): in the last three years 4,839 surrendered, 2,218 arrested, 706 killed in encounters; 12 top central leaders killed, one absconding with surrender talks said to be under way."
+    },
+    {
+      "type": "news",
+      "publisher": "ORF",
+      "title": "A Naxal-Free India? Between Operational Success and Strategic Vigilance",
+      "url": "https://www.orfonline.org/expert-speak/a-naxal-free-india-between-operational-success-and-strategic-vigilance",
+      "date": "2026-04-28",
+      "key_figure": "Two districts (Bijapur, West Singhbhum) still classed most affected, down from about 200 in 2005; the statistics are government figures, not independently verified; author notes shift of Maoists towards urban/civil-society activity."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Dataful (compiling MHA LWE Division data and Parliament Q&A)",
+      "title": "Final phase of Naxalism: fewer districts, fewer incidents, increased surrenders",
+      "url": "https://insights.dataful.in/articles/final-phase-of-naxalism-fewer-districts-fewer-incidents-increased-surrenders",
+      "date": "2025-10-31",
+      "key_figure": "LWE deaths 1,005 (2010) to 130 (2024); 6 districts in the 'most affected' category in 2025; over 1,500 cadres surrendered in 2025."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Shah, Jagdalpur press conference, 19 May 2026",
+      "url": "https://theprint.in/india/naxalism-eradicated-from-country-before-march-31-deadline-due-to-valour-of-forces-shah/2935404/",
+      "summary": "Shah said Naxalism has been completely eradicated from the country ahead of the set deadline and credited security forces; the PTI report gives no figures or definition of 'eradicated'."
+    }
+  ],
+  "chart": null,
+  "analysis": "The 31 March 2026 target was repeated by Shah through 2024 and 2025 (Chhattisgarh visits in December 2024, June 2025 and October 2025 per press reports) and linked to a 24 August 2024 meeting of state police chiefs, per Shah's own account.\n\nOn 30 March 2026 Shah told the Lok Sabha that 706 Maoists were killed, 2,218 arrested and 4,839 surrendered over three years, and said India had become Naxal-free while a formal announcement was pending. On 19 May 2026 he said at a Jagdalpur press conference that Naxalism had been completely eradicated before the deadline.\n\nOfficial LWE data show a large decline: deaths from 1,005 in 2010 to 130 in 2024 (Dataful compiling MHA data). Reports on the number of districts still classed as affected vary: ORF cites two, another source cites six 'most affected' in 2025, and one summary cites zero as of April 2026. ORF notes the statistics are government-supplied and that a Maoist leader was reportedly still at large.\n\nBecause the central claim of complete eradication is a government self-assessment with no independent audit available to this review, and the sources conflict on residual districts, the entry is marked in-progress rather than true.",
+  "confidence": "low",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The Dec 2024 date comes from the Amar Ujala URL slug/search result; I did not open the page, so the exact quote and venue (Raipur vs Jagdalpur) are unconfirmed. Shah's earlier public statements of the 2026 deadline (Aug 2024) not independently located. Did not find SATP 2025-26 LWE figures, an MHA/PIB primary document, or what happened after May 2026 (Oct 2026 status unchecked). The ddnews.gov.in explainer could not be fetched. Press of Asia's claim of a Lok Sabha 'declaration' was not used. A human reviewer should check for any post-May 2026 Maoist violence and the MHA's latest LWE-district list.",
+  "party": "BJP",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

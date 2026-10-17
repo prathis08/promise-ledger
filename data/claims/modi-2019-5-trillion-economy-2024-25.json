@@ -1,0 +1,98 @@
+{
+  "id": "modi-2019-5-trillion-economy-2024-25",
+  "speaker": "Narendra Modi",
+  "date": "2019-06-15",
+  "venue": "Fifth Governing Council meeting of NITI Aayog, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The goal to make India a 5 trillion dollar economy by 2024 is challenging, but can surely be achieved.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2025-03-31",
+  "verdict": "missed-deadline",
+  "summary": "India's nominal GDP was about US$3.76 trillion in 2024-25 (World Bank/IMF-based), short of the US$5 trillion target; the government has since moved the target year to 2027-28.",
+  "topics": [
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM's opening remarks at fifth meeting of Governing Council of NITI Aayog",
+      "url": "https://www.narendramodi.in/pm-s-opening-remarks-at-fifth-meeting-of-governing-council-of-niti-aayog"
+    },
+    {
+      "title": "PMO/PIB item on the NITI Aayog meeting (pmindia.gov.in)",
+      "url": "https://www.pmindia.gov.in/?p=5854601"
+    },
+    {
+      "title": "Modi says Budget lays roadmap for India becoming USD 5 trn economy by 2024-25 (Daily Pioneer, 6 July 2019)",
+      "url": "https://www.dailypioneer.com/2019/top-stories/modi-says-budget-lays-roadmap-for-india-becoming-usd-5-trn-economy-by-2024-25.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "intl_org",
+      "publisher": "World Bank (WDI)",
+      "title": "GDP (current US$) - India",
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.CD?format=json&per_page=100&date=2010:2025",
+      "date": "2026-10-08",
+      "key_figure": "US$2.70 trn (2018-19 base), 3.50 trn (2023-24), 3.76 trn (2024-25), 3.96 trn (2025-26); fiscal-year labelling inferred"
+    },
+    {
+      "type": "news",
+      "publisher": "Business Today",
+      "title": "Why India is the sixth largest economy in the world",
+      "url": "https://www.businesstoday.in/latest/economy/story/why-india-is-the-sixth-largest-economy-in-the-world-548751-2026-08-12",
+      "date": "2026-08-12",
+      "key_figure": "Government told Parliament IMF (April 2026 WEO) puts nominal GDP at US$3.92 trn for FY2025-26, rank sixth (per search summary)"
+    },
+    {
+      "type": "news",
+      "publisher": "Outlook Business",
+      "title": "Economic Survey outlines plan for $5 trillion economy by 2024-25",
+      "url": "https://www.outlookbusiness.com/finance/economic-survey-outlines-plan-for-5-trillion-economy-by-2024-25-3186",
+      "date": "2019-07-04",
+      "key_figure": "Economic Survey 2018-19: target requires about 8% real GDP growth"
+    },
+    {
+      "type": "news",
+      "publisher": "The Quint (opinion)",
+      "title": "Modi's third-largest and $5 trillion economy targets are off track",
+      "url": "https://www.thequint.com/amp/story/opinion/modis-third-largest-and-5-trillion-economy-targets-are-off-track-india",
+      "date": "",
+      "key_figure": "Cites IMF: US$3.50 trn in 2023-24, US$3.76 trn in 2024-25 (opinion)"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Sitharaman: $5 trillion in 2027-28 (Deccan Herald)",
+      "url": "https://deccanherald.com/amp/story/business/economy/india-to-be-5-trillion-economy-by-2027-28-finance-minister-2843494",
+      "summary": "In February 2024 the Finance Minister said India would reach US$5 trillion in 2027-28."
+    },
+    {
+      "title": "Goyal: on track for $5 trillion in next three years (The Week/PTI, June 2025)",
+      "url": "https://www.theweek.in/wire-updates/business/2025/06/25/cal1-wb-goyal.html",
+      "summary": "Commerce Minister said India is 'well on track' to reach the goal in the next three years and called it a milestone toward Viksit Bharat 2047."
+    },
+    {
+      "title": "CEA Nageswaran: $5 trillion by 2025-26 or 2026-27 (Scroll, Feb 2022)",
+      "url": "https://scroll.in/latest/1016487/scroll_in",
+      "summary": "Chief Economic Adviser said India should reach $5 trillion by 2025-26 or 2026-27, two years after the original target."
+    }
+  ],
+  "chart": {
+    "series": "gdp-usd",
+    "target": 5.0,
+    "target_label": "US$5 trillion target (2024-25)"
+  },
+  "analysis": "On 15 June 2019 Modi told the NITI Aayog Governing Council that the goal of a US$5 trillion economy by 2024 was challenging but achievable; the Economic Survey (4 July 2019) and Budget (5 July) set it out as a 2024-25 target with a base of about US$2.7 trillion.\n\nWorld Bank data (fiscal-year labelling inferred) put nominal GDP at US$3.76 trillion in 2024-25 and US$3.96 trillion in 2025-26; the government told Parliament that the IMF April 2026 WEO figure for FY2025-26 is US$3.92 trillion. The target was therefore not met by 2024-25.\n\nNominal dollar GDP depends on the exchange rate as well as growth; the rupee depreciated in the period, and the 2020 contraction also affected the path. The government has since cited 2027-28 as the new date. There is ambiguity whether '2024' meant FY2023-24 or FY2024-25; under either reading the target was missed.",
+  "confidence": "high",
+  "notes": "Quote is the wording from the PMO/PIB item as relayed in search results; exact sentence not verified on the page (narendramodi.in fetch timed out), so quote_is_verbatim=false. Date of first '$5 trillion' public statement by Modi may predate June 2019 (campaign/Oct 2018 statements not checked). The Quint item is opinion; Business Today GDP figure is from a search summary.",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

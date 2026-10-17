@@ -1,0 +1,60 @@
+{
+  "id": "inc-gogoi-2011-assam-much-peaceful",
+  "speaker": "Tarun Gogoi",
+  "party": "INC",
+  "role": "Chief Minister, Assam",
+  "level": "state",
+  "state": "Assam",
+  "date": "2011-05-13",
+  "venue": "Guwahati, after the 2011 Assam assembly election results",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Today Assam is a much peaceful state. But outside perception is that it is a disturbed area.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Assam insurgency fatalities fell to 94 in 2011 from 392 in 2009, though incidents continued and the state remained under the 'disturbed area' tag.",
+  "topics": [
+    "internal-security",
+    "security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "India Today: Reaching out to militant groups main priority: Tarun Gogoi (13 May 2011)",
+      "url": "https://www.indiatoday.in/assembly-elections-2011/assam/story/reaching-out-to-militant-groups-main-priority-tarun-gogoi-133679-2011-05-12"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "index",
+      "publisher": "South Asia Terrorism Portal (SATP)",
+      "title": "Assam Assessment 2014",
+      "url": "https://web.archive.org/web/20140215151306/http://satp.org/satporgtp/countries/india/states/assam/index.html",
+      "date": "2014-02-15",
+      "key_figure": "Fatalities: 392 (2009), 158 (2010), 94 (2011), 91 (2012), 101 (2013); the 1998 peak was 783. The Union Home Ministry extended the state's 'disturbed area' tag in 2013."
+    },
+    {
+      "type": "news",
+      "publisher": "Wikipedia",
+      "title": "2008 Assam bombings",
+      "url": "https://en.wikipedia.org/wiki/2008_Assam_bombings",
+      "date": null,
+      "key_figure": "The 30 October 2008 serial bombings killed 81 people, the high point against which the later decline is measured."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "After the 2011 Assam assembly election, Gogoi said 'Today Assam is a much peaceful state', while complaining that the state was still perceived as disturbed.\n\nSATP data show fatalities falling to 94 in 2011 from 392 in 2009, against a 1998 peak of 783. The same assessment records 91 fatalities in 2012 and 101 in 2013, and notes that the Union Home Ministry extended the state's 'disturbed area' tag in 2013.\n\nThe comparative claim that Assam was 'much peaceful' is supported by the fatality trend, although low-level violence and abductions continued.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Date from the India Today report (13 May 2011). The 'disturbed area' tag detail is from the SATP assessment. SATP is a secondary compiler of official and media data.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

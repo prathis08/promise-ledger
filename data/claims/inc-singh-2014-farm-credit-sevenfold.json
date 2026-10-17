@@ -1,0 +1,68 @@
+{
+  "id": "inc-singh-2014-farm-credit-sevenfold",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2014-01-03",
+  "venue": "New Delhi (release of UPA government report card)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Farm credit has been raised to Rs 7,00,000 crore in 2013-14 fiscal from Rs 1,04,500 crore in 2004-05 fiscal.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Agricultural credit reached Rs 7.3-7.35 lakh crore in 2013-14, roughly six to seven times the 2004-05 level depending on the credit series used.",
+  "topics": [
+    "agriculture",
+    "economy"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Agriculture credit rises seven-fold during UPA's tenure: PM",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/agriculture-credit-rises-seven-fold-during-upas-tenure-pm/article64201028.ece",
+      "channel": "The Hindu BusinessLine"
+    }
+  ],
+  "transcript_sources": [],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "Agriculture credit crosses Rs 20 lakh crore till January, sharp jump from Rs 7.3 lakh crore in 2013-14",
+      "url": "https://indianexpress.com/article/business/agriculture-credit-crosses-rs-20-lakh-crore-till-january-fy24-9175024/",
+      "date": "2024-02-22",
+      "key_figure": "Institutional credit for agriculture was Rs 7.3 lakh crore in 2013-14"
+    },
+    {
+      "type": "news",
+      "publisher": "Business Standard / ANI",
+      "title": "Agricultural credit likely to touch Rs 7,35,000 crore; target for 2014-15 kept at Rs 8,00,000 crore",
+      "url": "https://www.business-standard.com/article/news-ani/agricultural-credit-likely-to-touch-rs-7-35-000-crore-target-for-2014-15-kept-at-rs-8-00-000-crore-114021700845_1.html",
+      "date": "2014-02-17",
+      "key_figure": "Agricultural credit likely to touch Rs 7.35 lakh crore in 2013-14, exceeding the Rs 7 lakh crore target"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "UPA report card: farm credit up seven-fold",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/agriculture-credit-rises-seven-fold-during-upas-tenure-pm/article64201028.ece",
+      "summary": "The report card said credit rose from Rs 1,04,500 crore in 2004-05 to Rs 7 lakh crore in 2013-14 and cited 11 crore Kisan Credit Cards."
+    }
+  ],
+  "chart": null,
+  "analysis": "The UPA report card put agricultural credit at Rs 7 lakh crore in 2013-14, against Rs 1,04,500 crore in 2004-05, and described the increase as seven-fold. Independent official figures put 2013-14 credit at Rs 7.3-7.35 lakh crore. The 2004-05 baseline differs across series: the Economic Survey's institutional credit figure is Rs 1,25,309 crore, which would imply an increase of about six-fold. On either series the increase is large and close to the reported order of magnitude.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 'seven-fold' description depends on the report card's Rs 1,04,500 crore baseline. Using the Economic Survey's Rs 1,25,309 crore for 2004-05 gives roughly a six-fold rise. The claim is therefore rounded rather than exact. [ingest: 1 dead evidence link(s) removed]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

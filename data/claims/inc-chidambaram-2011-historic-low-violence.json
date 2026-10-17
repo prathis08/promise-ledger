@@ -1,0 +1,74 @@
+{
+  "id": "inc-chidambaram-2011-historic-low-violence",
+  "speaker": "P. Chidambaram",
+  "party": "INC",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2011-12-30",
+  "venue": "Annual press conference, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "2011 had seen a historic low level of terror and Naxalite-related violence in states affected by the twin problems.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Home Ministry figures cited by Chidambaram showed 64 deaths in Jammu and Kashmir in 2011 against 116 in 2010, 101 deaths in the North-East against 114, and 589 deaths in Maoist-affected states against 1,003; independent data also records 2011-12 as a low point in the post-2001 period.",
+  "topics": [
+    "terrorism",
+    "internal-security",
+    "security",
+    "kashmir"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Indian Express: Historic low in terror, Naxal violence (1 Jan 2012)",
+      "url": "https://indianexpress.com/article/news-archive/web/historic-low-in-terror-naxal-violence/"
+    },
+    {
+      "title": "India Today: Chidambaram claims near triumph over terror (31 Dec 2011)",
+      "url": "https://www.indiatoday.in/india/north/story/p-chidambaram-claims-near-triumph-over-terror-150435-2011-12-30"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "Historic low in terror, Naxal violence",
+      "url": "https://indianexpress.com/article/news-archive/web/historic-low-in-terror-naxal-violence/",
+      "date": "2012-01-01",
+      "key_figure": "J&K: 31 civilians and 33 security personnel killed in 2011, against 47 and 69 in 2010; North-East: 69 civilians and 32 security personnel, against 94 and 20; Maoist-affected states: 447 civilians and 142 security personnel, against 718 and 285."
+    },
+    {
+      "type": "news",
+      "publisher": "India Today",
+      "title": "Chidambaram claims near triumph over terror in the country",
+      "url": "https://www.indiatoday.in/india/north/story/p-chidambaram-claims-near-triumph-over-terror-150435-2011-12-30",
+      "date": "2011-12-31",
+      "key_figure": "MHA figures: 64 deaths in J&K in 2011 vs 116 in 2010; Maoist-affected states 589 vs 1,003."
+    },
+    {
+      "type": "index",
+      "publisher": "South Asia Terrorism Portal (SATP)",
+      "title": "Jammu and Kashmir Assessment - Year 2014",
+      "url": "https://web.archive.org/web/20140215153923/http://satp.org/satporgtp/countries/india/states/jandk/index.html",
+      "date": "2014-02-15",
+      "key_figure": "J&K terrorism-related fatalities: 117 in 2012, 181 in 2013; SATP describes a sustained decline in fatalities since 2001 before the 2013 reversal."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Chidambaram's year-end review presented 2011 as a year of historic lows in terrorism and Maoist violence. The figures he cited were internally consistent: J&K deaths fell from 116 to 64, North-East deaths from 114 to 101, and deaths in Maoist-affected states from 1,003 to 589.\n\nIndependent SATP data also places the 2011-12 period at a low point: J&K recorded 117 terrorism-related fatalities in 2012 before rising to 181 in 2013, against the much higher levels of the 1990s and 2000s.\n\nThe claim is about casualty levels, not the absence of attacks. 2011 also saw the 13 July Mumbai bombings and the 7 September Delhi bombing, which Chidambaram acknowledged as setbacks in the same review.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 'historic low' wording is the Indian Express's report of his statement; the verbatim quote available is 'The year 2011 has been a satisfactory year with many achievements, yet with some setbacks.' The comparison is limited to the UPA period in some MHA tables, so 'historic' is a characterisation rather than a single defined statistical series.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "bjp-modi-2024-ed-attached-1-lakh-crore",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2024-04-05",
+  "venue": "Election rally, Churu, Rajasthan",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "The ED alone has seized assets worth more than Rs 1 lakh crore in 10 years.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Enforcement Directorate data shows provisional attachments rising from about Rs 5,000 crore before 2014 to more than Rs 1 lakh crore in the following decade, reaching Rs 1,54,594 crore cumulatively by March 2025.",
+  "topics": [
+    "corruption"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Lok Sabha Elections 2024 April 5 updates: ED alone has seized assets worth more than Rs 1 lakh crore in 10 years - PM Modi at rally in Rajasthan's Churu (WION live blog)",
+      "url": "https://www.wionews.com/india-election-2024/lok-sabha-elections-2024-live-modi-to-hold-rally-in-assam-on-april-17-707924"
+    },
+    {
+      "title": "PM Modi's interview with ANI: Full transcript",
+      "url": "https://www.malaysiasun.com/news/274273664/pm-modi-interview-with-ani-full-transcript"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Enforcement Directorate",
+      "title": "ED Annual Report 2024-25 (Director's message)",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/may/doc202551549501.pdf",
+      "date": "2025-04-26",
+      "key_figure": "Assets under provisional attachment Rs 1,54,594 crore as of 31 March 2025; Rs 30,036 crore attached in FY 2024-25"
+    },
+    {
+      "type": "news",
+      "publisher": "The Economic Times",
+      "title": "Litigation on 2 significant issues holding up final attachment of assets worth over Rs 50K crore: ED",
+      "url": "https://m.economictimes.com/news/india/litigation-on-2-significant-issues-holding-up-final-attachment-of-assets-worth-over-rs-50k-crore-ed/articleshow/120827961.cms",
+      "date": "2025-05-02",
+      "key_figure": "ED attached assets worth Rs 1.55 lakh crore since 2005; Rs 1.07 lakh crore confirmed by the Adjudicating Authority"
+    },
+    {
+      "type": "news",
+      "publisher": "The Times of India",
+      "title": "SC order ensures that seized assets worth Rs 1 lakh crore remain with ED",
+      "url": "https://timesofindia.indiatimes.com/india/sc-order-ensures-that-seized-assets-worth-rs-1-lakh-crore-remain-with-ed/articleshow/93172876.cms",
+      "date": "2022-07-28",
+      "key_figure": "Assets worth over Rs 1 lakh crore attached by the ED"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "'Paap ka dar': PM Modi defends ED actions, says honest need not fear",
+      "url": "https://timesofindia.indiatimes.com/india/paap-ka-dar-pm-modi-defends-ed-actions-says-honest-need-not-fear/articleshow/109319231.cms",
+      "summary": "The government defends the rise in ED actions as legitimate enforcement against corruption, stating that those who are honest need not fear."
+    }
+  ],
+  "chart": null,
+  "analysis": "At an election rally in Churu, Rajasthan on 5 April 2024, Modi said the Enforcement Directorate had seized assets worth more than Rs 1 lakh crore in ten years. In an ANI interview broadcast on 15 April 2024 he repeated that assets worth Rs 1 lakh crore had been attached in his tenure.\n\nThe Enforcement Directorate's annual report (2024-25) states that assets under provisional attachment reached Rs 1,54,594 crore by 31 March 2025, with Rs 30,036 crore attached in FY 2024-25 alone, and that enforcement activity rose sharply after 2014 compared with the period before it.\n\nAttachments are provisional and require confirmation by the PMLA Adjudicating Authority and courts; the confirmed value (Rs 1,06,730 crore) is lower than the attached value, and litigation stays apply to some attachments. The order of magnitude in the statement is consistent with ED data.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The claim uses 'seized'; ED's figures are for provisional 'attachment' under PMLA. The NDTV report of the same speech was not accessible (HTTP 403), so the WION live blog and ANI transcript are used. Pre-2014 comparison figure (Rs 5,000 crore) is widely cited by the ED/government; not independently opened here.",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

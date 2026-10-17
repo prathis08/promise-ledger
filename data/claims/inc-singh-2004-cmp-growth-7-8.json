@@ -1,0 +1,64 @@
+{
+  "id": "inc-singh-2004-cmp-growth-7-8",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2004-05-27",
+  "venue": "Release of the UPA National Common Minimum Programme, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "to ensure that the economy grows at least 7-8% per year in a sustained manner over a decade and more and in a manner that generates employment so that each family is assured of a safe and viable livelihood",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2014-05-31",
+  "verdict": "true",
+  "summary": "Real GDP growth averaged about 7.6% a year over the UPA decade (2004-05 to 2013-14), within the 7-8% range set out in the Common Minimum Programme.",
+  "topics": [
+    "economy",
+    "jobs"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Common Minimum Programme: the complete document, Economic Times",
+      "url": "https://m.economictimes.com/news/economy/policy/the-common-minimum-programme-the-complete-document/articleshow/703712.cms"
+    },
+    {
+      "title": "Text of the CMP, Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/text-of-the-cmp/articleshow/703777.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Economic and Political Weekly (Ghatak, 'Growth in the Time of UPA')",
+      "title": "Key indicators during NDA and UPA years",
+      "url": "https://personal.lse.ac.uk/ghatak/upa-epw.pdf",
+      "date": "2014-01-01",
+      "key_figure": "Average annual real GDP growth: NDA (1998-2004) 5.9%; UPA-I (2004-09) 8.0%; UPA-II (2009-13) 7.0%; UPA (2004-13) 7.6%"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "MoSPI",
+      "title": "Statistical Year Book India, Chapter 7: Five Year Plans",
+      "url": "https://www.mospi.gov.in/sites/default/files/Statistical_year_book_india_chapters/ch7.pdf",
+      "date": "2013-01-01",
+      "key_figure": "Eleventh Plan (2007-2012) average annual GDP growth achieved 8%; Tenth Plan 7.6%"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "The UPA's Common Minimum Programme, adopted in May 2004, listed as its first economic objective ensuring that the economy grows at least 7-8% per year in a sustained manner over a decade and more, with employment generation.\n\nIndependent compilations of official data put average real GDP growth for 2004-05 to 2013-14 at about 7.6% (UPA-I 8.0%, UPA-II 7.0%). That falls inside the 7-8% band the CMP set, although annual growth was uneven, ranging from about 9% in some years to under 5% in 2012-13 and 2013-14.\n\nThe promise is measured on the stated metric (average growth over the period), not on the employment condition attached to it; employment growth over the period was a separate and more contested question.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The CMP is a UPA document; it is attributed here to the Prime Minister who led the UPA government. Growth figures are at factor cost on the 2004-05 series; the EPW table was consulted via search-result text, not the full PDF. No unverified YouTube video was cited.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

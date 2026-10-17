@@ -1,0 +1,61 @@
+{
+  "id": "inc-dikshit-2010-delhi-safest",
+  "speaker": "Sheila Dikshit",
+  "party": "INC",
+  "role": "Chief Minister, Delhi",
+  "level": "state",
+  "state": "Delhi",
+  "date": "2010-03-30",
+  "venue": "Delhi Legislative Assembly",
+  "language": "en",
+  "quote_original": "Delhi has been described as the safest city amongst 37 cities in the country in the latest survey conducted by the Confederation of Indian Industry and another independent agency.",
+  "quote_english": "Delhi has been described as the safest city amongst 37 cities in the country in the latest survey conducted by the Confederation of Indian Industry and another independent agency.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Dikshit cited a private CII survey of 37 cities; the NCRB's Crime in India 2009 report recorded Delhi as the most unsafe metro, with 13.2% of crimes reported in 35 mega cities and the highest crime rate against children.",
+  "topics": [
+    "security",
+    "internal-security",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Rediff/PTI: Delhi, the safest city in India: Dikshit (30 Mar 2010)",
+      "url": "https://www.rediff.com/news/report/delhi-the-safest-city-in-india-dikshit/20100331.htm"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "National Crime Records Bureau, via The Indian Express",
+      "title": "Delhi tops among metros in crimes, atrocities on women",
+      "url": "https://indianexpress.com/article/india/crime/delhi-tops-among-metros-in-crimes-atrocities-on-women/",
+      "date": "2011-01-21",
+      "key_figure": "Delhi accounted for 13.2% of 3,43,749 crimes reported in 35 mega cities in 2009, followed by Bengaluru (9.4%) and Mumbai (9.1%); Delhi reported the highest crime rate against children (16.0 vs national average 2.1)."
+    },
+    {
+      "type": "news",
+      "publisher": "India Today",
+      "title": "Delhi registered 4 per cent rise in crime in 2011",
+      "url": "https://www.indiatoday.in/india/north/story/delhi-registered-4-per-cent-rise-in-crime-in-2011-88792-2012-01-06",
+      "date": "2012-01-06",
+      "key_figure": "Delhi recorded a 4% increase in crime in 2011, with sharp rises in kidnapping for ransom, attempted murder and rape."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Dikshit told the Delhi Assembly that a Confederation of Indian Industry survey of 37 cities, conducted with another independent agency, had described Delhi as the safest city. She also said the crime rate was lower than in other international cities.\n\nThe NCRB's Crime in India 2009 report, reported by The Indian Express in January 2011, recorded Delhi as the most unsafe metro: 13.2% of all crimes reported in 35 mega cities took place in Delhi, ahead of Bengaluru and Mumbai, and Delhi had the highest crime rate against children.\n\nThe private CII survey was not located, so its methodology and indicators could not be checked. Because the claim rests on an unverified private survey while official NCRB data points in the opposite direction, the 'safest city' characterisation is misleading rather than a clean factual statement.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The CII survey itself was not found online. Dikshit's statement was made in the Assembly on 30 March 2010; Rediff's report is dated 30 March 2010 at 23:56 IST. NCRB data for 2009 was the most recent official series available at the time of the statement.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

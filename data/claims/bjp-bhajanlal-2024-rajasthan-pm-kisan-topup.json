@@ -1,0 +1,72 @@
+{
+  "id": "bjp-bhajanlal-2024-rajasthan-pm-kisan-topup",
+  "speaker": "Bhajan Lal Sharma",
+  "party": "BJP",
+  "role": "Chief Minister, Rajasthan",
+  "level": "state",
+  "state": "Rajasthan",
+  "date": "2024-06-08",
+  "venue": "Jaipur, Rajasthan (announcement)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "As a result, the annual amount of Rs 6,000 given by the central government to farmers has now been increased to Rs 8,000.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Rajasthan began paying an additional ₹2,000 per year to farmers on top of the central PM-KISAN amount, taking the total to ₹8,000; by November 2025 the state top-up was ₹3,000, taking the total to ₹9,000.",
+  "topics": [
+    "agriculture",
+    "income"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Hindu: Rajasthan CM announces ₹2000 hike in Kisan Samman Nidhi assistance to farmers",
+      "url": "https://www.thehindu.com/news/national/rajasthan-cm-announces-2000-hike-in-kisan-samman-nidhi-assistance-to-farmers-after-bjps-dismal-performance-in-ls-poll/article68266934.ece"
+    },
+    {
+      "title": "Deccan Herald: Rajasthan govt increases PM Kisan Samman Nidhi amount by Rs 2,000",
+      "url": "https://www.deccanherald.com/india/rajasthan/rajasthan-govt-increases-pm-kisan-samman-nidhi-amount-by-rs-2000-3058470"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Times of India",
+      "title": "21st installment of farmer income scheme released",
+      "url": "https://timesofindia.indiatimes.com/city/jaipur/21st-installment-of-farmer-income-scheme-released/articleshow/125445876.cms",
+      "date": "2025-11-20",
+      "key_figure": "State providing ₹3,000 per year under Chief Minister Kisan Samman Nidhi; farmers receiving ₹9,000 annually, to be raised to ₹12,000"
+    },
+    {
+      "type": "news",
+      "publisher": "CNBC-TV18",
+      "title": "Rajasthan budget: Bhajanlal Sharma-led BJP govt hikes PM-Kisan amount to ₹8,000, raises wheat MSP",
+      "url": "https://www.cnbctv18.com/economy/rajasthan-budget-bhajanlal-sharma-led-bjp-govt-hikes-pm-kisan-amount-to-8000-raises-wheat-msp-19010461.htm",
+      "date": "2024-02-08",
+      "key_figure": "Additional ₹2,000 to farmers, taking the total to ₹8,000 per annum"
+    },
+    {
+      "type": "news",
+      "publisher": "India TV",
+      "title": "Rajasthan government increases 'PM Kisan Samman Nidhi' amount by Rs 2,000",
+      "url": "https://www.indiatvnews.com/rajasthan/rajasthan-government-increases-pm-kisan-samman-nidhi-amount-by-rs-2000-cm-bhajan-lal-sharma-annadaata-utthan-farmer-upliftment-latest-updates-2024-06-08-935928",
+      "date": "2024-06-08",
+      "key_figure": "Total annual amount increased to ₹8,000"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "In June 2024 the Rajasthan Chief Minister announced an additional ₹2,000 per year for farmers on top of the central PM-KISAN amount, taking the total to ₹8,000.\n\nBy November 2025, the Chief Minister said the state was providing ₹3,000 per year under the Chief Minister Kisan Samman Nidhi, so that farmers were receiving ₹9,000 annually, with a plan to raise this to ₹12,000.\n\nThe measure is a state top-up to the central scheme, funded from the state budget.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The announcement overlapped with the state budget presentation in February 2024 and was reiterated by the Chief Minister in June 2024. The 2025 report confirms the top-up was being paid and had been increased above the promised ₹2,000.",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

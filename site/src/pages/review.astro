@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import Badge from '../components/Badge.astro';
+import { getData } from '../lib/data';
+import { u, REPO_URL } from '../lib/site';
+const { claims } = getData();
+const STATUSES = ['verified', 'in-review', 'disputed', 'draft'] as const;
+const count = (s: string, p?: string) => claims.filter((c) => c.review_status === s && (!p || c.party === p)).length;
+const conf = { low: 0, medium: 1, high: 2 } as const;
+const approvals = (c: (typeof claims)[number]) => c.reviews.filter((r) => r.trusted && r.decision === 'approve' && r.checks_complete).length;
+// Review queue: disputed first (needs fixing), then fewest approvals, lowest confidence, weakest grounding, oldest research.
+const queue = claims.filter((c) => c.review_status !== 'verified').sort((a, b) =>
+  Number(b.review_status === 'disputed') - Number(a.review_status === 'disputed') ||
+  approvals(b) - approvals(a) ||
+  conf[a.confidence] - conf[b.confidence] ||
+  (a.grounding?.score ?? 0.5) - (b.grounding?.score ?? 0.5) ||
+  a.id.localeCompare(b.id));
+const newIssue = (id: string) => `${REPO_URL}/issues/new?template=claim-review.yml&title=${encodeURIComponent(`Review: ${id}`)}&claim_id=${encodeURIComponent(id)}`;
+const pct = (n: number) => `${((n / Math.max(1, claims.length)) * 100).toFixed(0)}%`;
+---
+<Base title="Review claims">
+  <h1>Review claims</h1>
+  <p class="muted">Every entry starts as a draft, many of them researched by an AI model. Nothing should be trusted until people have checked it. Anyone can review; reviews from the trusted reviewer list count toward verification.</p>
+
+  <div class="tablewrap"><table class="dense">
+    <thead><tr><th>Status</th><th class="r">All</th><th class="r">BJP</th><th class="r">INC</th></tr></thead>
+    <tbody>{STATUSES.map((s) => <tr><th scope="row">{s}</th><td class="r num">{count(s)} <span class="kv">({pct(count(s))})</span></td><td class="r num">{count(s, 'BJP')}</td><td class="r num">{count(s, 'INC')}</td></tr>)}</tbody>
+  </table></div>
+
+  <h2>How to review a claim</h2>
+  <ol>
+    <li>Open the claim page and read the quote, verdict, evidence and analysis.</li>
+    <li><b>Check the quote.</b> Open the transcript or video source. Is the wording right, or correctly labelled "paraphrased"? Was it said by this person, on this date?</li>
+    <li><b>Check the evidence.</b> Open at least two evidence links. Do they say what the "key figure" says? Prefer primary data (ministry data, Parliament answers, CAG, RBI, NSO).</li>
+    <li><b>Check the verdict</b> against the definitions on the <a href={u('/methodology/')}>methodology</a> page. Would a careful person from either side of politics agree with it?</li>
+    <li><b>Check the wording</b> is neutral, and that any government or party response is included.</li>
+    <li>Press <b>Review this claim on GitHub</b>, tick the checklist, choose a decision and submit. A bot records your review on the claim within a few minutes and the site updates.</li>
+  </ol>
+  <p class="kv">Rules: a claim is <b>verified</b> after two approvals from different trusted reviewers with the full checklist ticked. Any trusted "reject" or "request changes" marks it <b>disputed</b> until the entry is fixed. Your latest review replaces your earlier one on the same claim. Corrections to the data itself: open a pull request against <code>data/claims/&lt;id&gt;.json</code>. Trusted reviewers are listed in <a href={`${REPO_URL}/blob/main/reviewers.json`} rel="noopener">reviewers.json</a>.</p>
+
+  <h2>Review queue ({queue.length})</h2>
+  <p class="kv">Order: disputed first, then entries closest to verification, then lowest confidence and weakest automated grounding.</p>
+  <div class="tablewrap"><table class="dense">
+    <thead><tr><th>Claim</th><th>Party</th><th>Speaker</th><th>Verdict</th><th>Confidence</th><th class="r">Grounding</th><th>Status</th><th class="r">Approvals</th><th></th></tr></thead>
+    <tbody>{queue.map((c) => (
+      <tr><td><a href={u(`/claims/${c.id}/`)} class="num">{c.id}</a></td><td>{c.party}</td><td>{c.speaker}</td><td><Badge verdict={c.verdict} /></td>
+        <td>{c.confidence}</td><td class="r num">{c.grounding?.checked ? `${c.grounding.matched}/${c.grounding.checked}` : '—'}</td>
+        <td>{c.review_status}</td><td class="r num">{approvals(c)}/2</td>
+        <td><a href={newIssue(c.id)} rel="noopener">Review</a></td></tr>
+    ))}</tbody>
+  </table></div>
+</Base>

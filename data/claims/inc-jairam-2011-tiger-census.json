@@ -1,0 +1,65 @@
+{
+  "id": "inc-jairam-2011-tiger-census",
+  "speaker": "Jairam Ramesh",
+  "party": "INC",
+  "role": "Union Minister of Environment and Forests",
+  "level": "central",
+  "state": null,
+  "date": "2011-03-28",
+  "venue": "New Delhi (release of the report 'Tiger Estimate in India')",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The 2010 National Tiger Assessment estimated the total population of wild tigers in India at 1,706.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The Ministry of Environment and Forests, under Jairam Ramesh, released the 2010 National Tiger Assessment which estimated 1,706 wild tigers; the 2014 assessment reported 2,226 tigers, an increase of about 30.5 per cent.",
+  "topics": [
+    "environment"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Ministry of Environment and Forests, 'Tiger Estimate in India' 2010 (report released 28 March 2011, archived)",
+      "url": "https://web.archive.org/web/20110612082807/http://moef.nic.in/downloads/public-information/tiger-brochure.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Environment and Forests",
+      "title": "Tiger Estimate in India (2010 National Tiger Assessment)",
+      "url": "https://web.archive.org/web/20110612082807/http://moef.nic.in/downloads/public-information/tiger-brochure.pdf",
+      "date": "2011-03-28",
+      "key_figure": "1,706 wild tigers estimated in 2010"
+    },
+    {
+      "type": "index",
+      "publisher": "Wikipedia (compiling MoEF/NTCA/WII data)",
+      "title": "Project Tiger - tiger population",
+      "url": "https://en.wikipedia.org/wiki/Project_Tiger",
+      "date": "2022-01-01",
+      "key_figure": "1,706 in 2010; 2,226 in 2014 (+30.5 per cent); 2,967 (average) in 2018"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Project Tiger - tiger population",
+      "url": "https://en.wikipedia.org/wiki/Project_Tiger",
+      "summary": "The Ministry of Environment and Forests reported the wild tiger population at 2,226 in 2014, an increase of 30.5 per cent over the 2010 estimate."
+    }
+  ],
+  "chart": null,
+  "analysis": "The 2010 National Tiger Assessment, released by the Ministry of Environment and Forests on 28 March 2011, estimated India's wild tiger population at 1,706, using camera-trap and sign-survey methods introduced in 2006.\n\nThe subsequent 2014 assessment reported 2,226 tigers, an increase of about 30.5 per cent over the 2010 figure, and later cycles reported further increases.\n\nThe figure of 1,706 released in 2011 is consistent with the subsequent government estimates.",
+  "confidence": "low",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "A direct news quote from Jairam Ramesh announcing the figure could not be confirmed with an openable URL, so the government report 'Tiger Estimate in India' is listed as the source; the archived PDF did not render in the fetcher (only the Wayback wrapper loaded), and the 1,706/2,226 figures were confirmed from the Wikipedia 'Project Tiger' page. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

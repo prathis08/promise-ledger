@@ -1,0 +1,78 @@
+{
+  "id": "bjp-mohanyadav-2025-mp-naxal-free",
+  "speaker": "Mohan Yadav",
+  "party": "BJP",
+  "role": "Chief Minister, Madhya Pradesh",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "date": "2025-12-11",
+  "venue": "'Rehabilitation to Rejuvenation' programme, Balaghat / Bhopal (video conference), Madhya Pradesh",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Madhya Pradesh has now become completely free from Naxal violence... the state became Naxal-free with the surrender of the last two Naxalites on December 11.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "unverifiable",
+  "summary": "The Chief Minister declared the state Naxal-free after two cadres surrendered in Balaghat; it is a state self-assessment with no independent audit, and the government said the campaign and rehabilitation would continue.",
+  "topics": [
+    "internal-security",
+    "security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "ThePrint / PTI: With surrender of two cadres, MP CM declares state free of Naxalism (12 Dec 2025)",
+      "url": "https://theprint.in/india/with-surrender-of-two-cadres-mp-cm-declares-state-free-of-naxalism/2803919/"
+    },
+    {
+      "title": "ANI: 'Madhya Pradesh becomes naxal-free,' says CM Yadav (12 Dec 2025)",
+      "url": "https://www.aninews.in/news/national/general-news/madhya-pradesh-becomes-naxal-free-says-cm-yadav20251212100410"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "ThePrint / PTI",
+      "title": "With surrender of two cadres, MP CM declares state free of Naxalism (12 Dec 2025)",
+      "url": "https://theprint.in/india/with-surrender-of-two-cadres-mp-cm-declares-state-free-of-naxalism/2803919/",
+      "date": "2025-12-12",
+      "key_figure": "Two Naxalites (Deepak, Rohit) surrendered in Balaghat; the Balaghat SP said no more hardcore Naxals were active in the district. 42 cadres carrying a total bounty of ₹7.75 crore surrendered across the MP-Maharashtra-Chhattisgarh zone in 42 days."
+    },
+    {
+      "type": "news",
+      "publisher": "ETV Bharat / PTI",
+      "title": "Special package to be provided for 3 districts once affected by Naxal violence, says MP CM Yadav (13 Dec 2025)",
+      "url": "https://www.etvbharat.com/en/state/special-package-to-be-provided-for-3-districts-once-affected-by-naxal-violence-says-madhya-pradesh-chief-minister-mohan-yadav-enn25121305155",
+      "date": "2025-12-13",
+      "key_figure": "Yadav said the government would provide a special development package for Balaghat, Mandla and Dindori and take 'all necessary steps to ensure this snake does not raise its hood again', indicating the assessment is forward-looking."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Home Affairs",
+      "title": "Union Government's Comprehensive Strategy against Naxalism",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2182437",
+      "date": "2025-10-25",
+      "key_figure": "The MHA said Naxal-affected districts fell from 126 in 2014 to 18, with 336 new security camps in six years; the national target was a Naxal-free India by 31 March 2026."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Akashvani (News on AIR): MP CM declares state free of Naxalism after Maoist surrender in Balaghat (12 Dec 2025)",
+      "url": "https://newsonair.gov.in/madhya-pradesh-cm-mohan-yadav-declares-state-free-of-naxalism-after-maoist-surrender-in-balaghat",
+      "summary": "The state government's position is that coordinated central and state operations led to the surrender of the last two active cadres and that Balaghat now has no active hardcore Naxals."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 11 December 2025 two Naxalites surrendered at a CRPF camp in Balaghat. The Madhya Pradesh Chief Minister declared the state 'completely free from Naxal violence'. The Balaghat Superintendent of Police said no more hardcore Naxals were active in the district.\n\nBy the government's own account, the declaration rests on the surrender of the last two identified cadres, after 42 surrenders in the MP-Maharashtra-Chhattisgarh zone in 42 days. The MHA's national data show the number of Naxal-affected districts falling from 126 (2014) to 18 (2025).\n\nThere is no independent audit of the absence of Naxal activity, and the Chief Minister said the government would act to ensure the movement does not revive. Because 'Naxal-free' is a government self-assessment rather than a measured, independently verified outcome, the entry is recorded as unverifiable.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is a translation/paraphrase from PTI (ThePrint) and ANI; the original Hindi was not captured verbatim. The declared date of the surrender is 11 December 2025 (reported 12 December). I did not locate SATP or MHA district-level data confirming zero residual Naxal activity in Balaghat for 2026; a reviewer should check the latest MHA LWE-affected-district list for Madhya Pradesh. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 1,
+    "score": 0.5
+  }
+}

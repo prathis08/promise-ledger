@@ -1,0 +1,69 @@
+{
+  "id": "inc-ysr-2004-jalayagnam-irrigation",
+  "speaker": "Y. S. Rajasekhara Reddy",
+  "party": "INC",
+  "role": "Chief Minister, Andhra Pradesh",
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "date": "2004-05-01",
+  "venue": "Andhra Pradesh (election promise and launch of Jalayagnam programme)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Jalayagnam was an election promise to provide irrigation to 8.2 million acres in five years.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2009-04-30",
+  "verdict": "unachieved",
+  "summary": "Y.S. Rajasekhara Reddy launched the Jalayagnam irrigation programme on a promise to bring 8.2 million acres under irrigation within five years; by 2009 around 12 projects had been completed and irrigation had been provided to about 18 lakh acres.",
+  "topics": [
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Jalayagnam (programme description and original promise)",
+      "url": "https://en.wikipedia.org/wiki/Jalayagnam"
+    },
+    {
+      "title": "Jalayagnam - YSR Congress Party",
+      "url": "https://www.ysrcongress.com/jalayagnam-676"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Jalayagnam, graft and polls (archived)",
+      "url": "https://web.archive.org/web/20090412135212/http://www.hindu.com/2009/04/08/stories/2009040850061200.htm",
+      "date": "2009-04-08",
+      "key_figure": "About Rs 40,000 crore spent; 12 projects completed and irrigation provided to 18 lakh acres; target was to add about one crore acres"
+    },
+    {
+      "type": "index",
+      "publisher": "Wikipedia",
+      "title": "Jalayagnam",
+      "url": "https://en.wikipedia.org/wiki/Jalayagnam",
+      "date": "2026-10-01",
+      "key_figure": "Election promise to irrigate 8.2 million acres in five years"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Jalayagnam - YSR Congress Party",
+      "url": "https://www.ysrcongress.com/jalayagnam-676",
+      "summary": "The party presents Jalayagnam as a water-management programme implemented to bring 8.2 million acres under irrigation in five years."
+    }
+  ],
+  "chart": null,
+  "analysis": "Jalayagnam was described in opposition and media accounts as an election promise by Y.S. Rajasekhara Reddy to bring 8.2 million acres under irrigation within five years, launched after the Congress government took office in 2004.\n\nThe Hindu reported in April 2009 that about Rs 40,000 crore had been spent, 12 projects had been completed and irrigation had been provided to 18 lakh acres, against a target of adding roughly one crore acres. The programme was also the subject of corruption allegations from opposition parties, which the government rejected.\n\nAgainst the stated five-year, 8.2 million acre target, the acreage reported by 2009 was a small fraction.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The exact date of the promise is uncertain; day is set to the first of May 2004 (when Reddy took office). The YSR Congress URL was seen in search results and was not fetched directly.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

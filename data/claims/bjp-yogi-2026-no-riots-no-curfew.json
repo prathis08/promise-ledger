@@ -1,0 +1,82 @@
+{
+  "id": "bjp-yogi-2026-no-riots-no-curfew",
+  "speaker": "Yogi Adityanath",
+  "party": "BJP",
+  "role": "Chief Minister, Uttar Pradesh",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "date": "2026-10-13",
+  "venue": "Teachers' conference, Bareilly, Uttar Pradesh",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Uttar Pradesh has changed now, as there are no riots or disturbances. Mafias have been wiped out... No curfew, no riots; everything is fine in Uttar Pradesh now.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Government figures show communal and rioting incidents in Uttar Pradesh during the period, including 195 communal-violence incidents and 44 deaths in 2017 (Lok Sabha figure), the November 2024 Sambhal violence and thousands of registered rioting cases.",
+  "topics": [
+    "internal-security",
+    "security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Dainik Bhaskar (English): Yogi Adityanath Bareilly visit — 'no riots, no curfew' (13 Oct 2026)",
+      "url": "https://www.bhaskarenglish.in/local/uttar-pradesh/news/yogi-adityanath-bareilly-village-watchmen-honorarium-cashless-health-139345037.html"
+    },
+    {
+      "title": "The New Indian Express: CM Yogi defends UP police encounters, cites zero-tolerance policy (3 Feb 2026)",
+      "url": "https://www.newindianexpress.com/india/2026/Feb/03/cm-yogi-adityanath-defends-up-police-encounters-cites-zero-tolerance-for-crime-policy"
+    },
+    {
+      "title": "Ground News (IANS/SocialNews aggregation): CM Adityanath warns against provoking riots in UP (13 Oct 2026)",
+      "url": "https://ground.news/article/if-we-riot-now-our-father-and-grandfathers-earnings-will-be-lost-cm-yogi-lashed-out-in-bareilly"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "The Wire",
+      "title": "Fact Check: Yogi Adityanath's claim that there were no riots during his tenure (4 Jan 2019)",
+      "url": "https://m.thewire.in/article/communalism/yogi-adityanath-up-riots-facts-check",
+      "date": "2019-01-04",
+      "key_figure": "Then MoS Home Hansraj Ahir told the Lok Sabha (11 Dec 2018) there were 195 incidents of communal violence in UP in 2017, with 44 dead and 542 injured — the highest of any state; a similar 'no riots' claim by Adityanath was rated false."
+    },
+    {
+      "type": "parliament",
+      "publisher": "Uttar Pradesh Assembly proceedings reported by The Times of India",
+      "title": "'Never stood for justice': UP CM accuses opposition... (Sambhal violence debate, 16 Dec 2024)",
+      "url": "https://timesofindia.indiatimes.com/india/never-stood-for-justice-up-cm-accuses-opposition-of-turning-blind-eye-to-violence-against-hindus-in-sambhal/articleshow/116367450.cms",
+      "date": "2024-12-16",
+      "key_figure": "Yogi himself addressed the November 2024 Sambhal violence and stone-pelting in the Assembly; he cited NCRB figures of 815 communal riots and 192 deaths in UP between 2012 and 2017 and a 97-99% decline claimed since 2017."
+    },
+    {
+      "type": "news",
+      "publisher": "The Statesman (reporting NCRB data)",
+      "title": "Sharp decline in cases of riots and extortion in UP... (8 May 2026)",
+      "url": "https://www.thestatesman.com/india/sharp-decline-in-cases-of-riots-and-extortion-in-up-thanks-to-yogi-govs-zero-tolerance-policy-towards-crimes-1503591497.html",
+      "date": "2026-05-08",
+      "key_figure": "The report states UP's NCRB rioting crime rate was 1.1 (vs national 2.2) and that 3,160 rioting cases were registered — i.e. riot-section cases exist even under the government's own framing."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "UP government position via NCRB 'Crime in India 2023' (reported by The Statesman, 1 Oct 2025)",
+      "url": "https://www.thestatesman.com/india/with-zero-communal-riots-up-emerges-as-law-and-order-model-under-yogi-govt-1503493846.html",
+      "summary": "The state says NCRB recorded zero communal or religious riots in UP in 2023 and a crime rate a quarter below the national average, presenting this as evidence of its zero-tolerance policy."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 13 October 2026 in Bareilly, Yogi Adityanath said Uttar Pradesh has no riots or curfews and that mafia groups have been eliminated. He has repeated versions of the slogan 'No curfew, no danga, UP mai sab changa' at multiple events, including February 2026 and September 2026.\n\nRecorded data conflict with a literal 'no riots' reading. A Lok Sabha reply by the then MoS Home said Uttar Pradesh had 195 communal-violence incidents in 2017 with 44 deaths and 542 injured — the highest of any state — and The Wire rated a 2019 version of the claim false. In November 2024 the Sambhal violence occurred; the Chief Minister himself discussed it and stone-pelting in the Assembly in December 2024.\n\nThe state's defence relies on NCRB figures. Those figures show a fall in communal riots but also record thousands of rioting-section cases (a rioting crime rate of 1.1-1.3), which is inconsistent with the claim that no rioting occurs. Definitions differ ('communal riots' versus all rioting cases), and death tolls in specific incidents are disputed, so the statement is recorded as misleading rather than false.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is the English rendering in Dainik Bhaskar English (13 Oct 2026) and the IANS/SocialNews aggregation; the original Hindi was not captured verbatim. The Wire fact-check is from 2019 and concerns an earlier identical claim; I did not find a single fact-check covering the 2026 wording. No independent district-level communal-incident count for 2025-2026 was located (search was intermittently unavailable).",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

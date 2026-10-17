@@ -1,0 +1,36 @@
+---
+// Renders a Chart.js chart from a JSON config in a data attribute. Script is bundled by Astro (no CDN).
+const { config, label, height } = Astro.props;
+---
+<div class="chartbox" style={height ? `height:${height}px` : undefined}>
+  <canvas data-chart={JSON.stringify(config)} role="img" aria-label={label}></canvas>
+</div>
+<script>
+  import { Chart, LineController, BarController, LineElement, PointElement, BarElement, CategoryScale, LinearScale, Legend, Tooltip } from 'chart.js';
+  Chart.register(LineController, BarController, LineElement, PointElement, BarElement, CategoryScale, LinearScale, Legend, Tooltip);
+  const css = getComputedStyle(document.documentElement);
+  const v = (n: string) => css.getPropertyValue(n).trim();
+  Chart.defaults.color = v('--muted');
+  Chart.defaults.borderColor = v('--line');
+  Chart.defaults.font.family = v('--sans');
+  document.querySelectorAll<HTMLCanvasElement>('canvas[data-chart]').forEach((el) => {
+    const c = JSON.parse(el.dataset.chart!);
+    const datasets = [{
+      label: c.label, data: c.values, borderColor: v('--v-in-progress'), backgroundColor: v('--v-in-progress'),
+      tension: 0, pointRadius: 4, borderWidth: 2,
+    }] as any[];
+    if (c.target != null) datasets.push({
+      label: c.targetLabel || 'Target', data: c.labels.map(() => c.target), type: 'line', borderDash: [6, 5],
+      borderColor: v('--v-missed-deadline'), backgroundColor: v('--v-missed-deadline'), pointRadius: 0, borderWidth: 2,
+    });
+    new Chart(el, {
+      type: c.kind === 'bar' ? 'bar' : 'line',
+      data: { labels: c.labels, datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        scales: { y: { reverse: !!c.invert, title: { display: !!c.yTitle, text: c.yTitle }, beginAtZero: !c.invert && c.kind === 'bar' } },
+        plugins: { legend: { display: datasets.length > 1 }, tooltip: { callbacks: { afterLabel: (ctx: any) => (c.notes && ctx.datasetIndex === 0 ? c.notes[ctx.dataIndex] || '' : '') } } },
+      },
+    });
+  });
+</script>

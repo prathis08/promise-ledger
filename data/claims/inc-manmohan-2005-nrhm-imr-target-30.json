@@ -1,0 +1,77 @@
+{
+  "id": "inc-manmohan-2005-nrhm-imr-target-30",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2005-04-12",
+  "venue": "Launch of the National Rural Health Mission, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The National Rural Health Mission would reduce the infant mortality rate to 30 per 1,000 live births and the maternal mortality ratio to 100 per 100,000 live births by 2012.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2012-12-31",
+  "verdict": "missed-deadline",
+  "summary": "The National Rural Health Mission, launched on 12 April 2005, set a target of IMR 30 per 1,000 live births by 2012; SRS data place IMR at 42 in 2012, down from 58 in 2005.",
+  "topics": [
+    "health"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "National Rural Health Mission — launch (National Health Mission)",
+      "url": "https://nhm.gov.in/index1.php?lang=1&level=1&sublinkid=969&lid=49"
+    },
+    {
+      "title": "PM's address at the launch of the National Rural Health Mission (archivepmo)",
+      "url": "https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=96"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "National Health Mission, Ministry of Health and Family Welfare",
+      "title": "NRHM Framework for Implementation (2005–2012)",
+      "url": "https://www.nhm.gov.in/images/pdf/about-nrhm/nrhm-framework-implementation/nrhm-framework-latest.pdf",
+      "date": "2005-01-01",
+      "key_figure": "Target: IMR reduced to 30/1000 live births by 2012; MMR to 100/100,000 by 2012"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau",
+      "title": "Achievements under the National Rural Health Mission",
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=123670",
+      "date": "2015-07-24",
+      "key_figure": "IMR reduced from 58 in 2005 to 42 in 2012 (SRS)"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "NITI Aayog",
+      "title": "National Health Mission: Impact and Learnings for the future",
+      "url": "https://www.niti.gov.in/sites/default/files/2023-03/National%20Health%20mission%20Impact%20and%20Learnings%20for%20future.pdf",
+      "date": "2023-03-01",
+      "key_figure": "NRHM's 2012 targets for MMR, IMR and TFR were later extended to 2020 under the National Health Mission"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Achievements under the National Rural Health Mission (2015)",
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=123670",
+      "summary": "The government cites the fall in IMR from 58 (2005) to 42 (2012) and lists capacity and human-resource additions under NRHM."
+    }
+  ],
+  "chart": null,
+  "analysis": "NRHM was launched on 12 April 2005 with quantified targets for 2012, including an infant mortality rate of 30 per 1,000 live births and a maternal mortality ratio of 100 per 100,000 live births.\n\nSample Registration System data reported by the government show IMR at 58 in 2005 and 42 in 2012, and the mission's own framework document lists the same 2012 targets. Neither the IMR nor the MMR target was reached by 2012.\n\nA 2023 NITI Aayog review records that the 2012 targets were later extended to 2020 under the National Health Mission. The government's public position emphasises the absolute decline in infant mortality and the expansion of rural health infrastructure rather than the unmet target date.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "PIB and archivepmo URLs were taken from search-result listings; automated GET of pib.gov.in returned HTTP 403 during this research. NRHM framework PDF and NHM pages were seen via search snippets. Date of the PM's launch address is given as 12 April 2005 per the National Health Mission page. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

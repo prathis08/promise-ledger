@@ -1,0 +1,77 @@
+{
+  "id": "inc-ramesh-2012-nirmal-bharat-open-defecation-free",
+  "speaker": "Jairam Ramesh",
+  "party": "INC",
+  "role": "Union Minister for Rural Development, Drinking Water and Sanitation",
+  "level": "central",
+  "state": null,
+  "date": "2012-09-28",
+  "venue": "Press interaction, New Delhi (Nirmal Bharat Yatra announcement)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "India will be an open defecation free country in the next ten years and sanitation issue should become a national obsession.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2022-12-31",
+  "verdict": "unachieved",
+  "summary": "Jairam Ramesh announced in 2012 that India would be open-defecation free within ten years; Census 2011 had recorded 53.1% of households and 69.3% of rural households without a latrine within their premises.",
+  "topics": [
+    "sanitation"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Make Nirmal Bharat a national obsession, says Jairam Ramesh (PIB release)",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=88045"
+    },
+    {
+      "title": "Poor sanitation record is blot on India: Ramesh (Times of India)",
+      "url": "https://timesofindia.indiatimes.com/india/Poor-sanitation-record-is-blot-on-India-Ramesh/articleshow/12913916.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Times of India",
+      "title": "Poor sanitation record is blot on India: Ramesh",
+      "url": "https://timesofindia.indiatimes.com/india/Poor-sanitation-record-is-blot-on-India-Ramesh/articleshow/12913916.cms",
+      "date": "2012-06-29",
+      "key_figure": "Central government target to make every gram panchayat open-defecation free in the next 10 years; commitment to raise Nirmal Bharat Abhiyan funding"
+    },
+    {
+      "type": "news",
+      "publisher": "The Free Library / ANI",
+      "title": "Jairam Ramesh appeals to eliminate open defecation",
+      "url": "https://www.thefreelibrary.com/Jairam+Ramesh+appeals+to+eliminate+open+defecation.-a0295396263",
+      "date": "2012-07-06",
+      "key_figure": "Ramesh urges support for 'Clean India campaign' to make the country free of open defecation in next ten years"
+    },
+    {
+      "type": "index",
+      "publisher": "National Center for Biotechnology Information (PMC)",
+      "title": "Understanding Open Defecation in the Age of Swachh Bharat Abhiyan: Implications for Sanitation and Child Health in India",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7068267/",
+      "date": "2020-01-01",
+      "key_figure": "National toilet coverage improved but large regional disparities in construction and use remained"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Make Nirmal Bharat a national obsession, says Jairam Ramesh",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=88045",
+      "summary": "The ministry framed Nirmal Bharat Abhiyan as a ten-year national mission to end open defecation and announced the Nirmal Bharat Yatra from Wardha."
+    }
+  ],
+  "chart": null,
+  "analysis": "At a press interaction on 28 September 2012, Rural Development and Sanitation Minister Jairam Ramesh said India would be free of open defecation within ten years, i.e. by about 2022, under Nirmal Bharat Abhiyan (the successor to the Total Sanitation Campaign).\n\nCensus 2011, the most recent census available at the time, recorded that 53.1% of all households and 69.3% of rural households had no latrine within their premises. Times of India reported the ministry's target of making every gram panchayat open-defecation free within ten years.\n\nIndependent studies of the period found that increases in toilet construction did not translate into use at scale. The ten-year deadline fell outside the INC/UPA period, and the goal was not reached by 2022 according to later national surveys and peer-reviewed analyses.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "PIB relid=88045 returned HTTP 403 to automated fetch but is a real release located via search. The 2011 Census percentages are widely reported figures; a direct census table URL was not located through the available search tools. The stated deadline (≈2022) falls outside the INC era, which is stated in the analysis. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

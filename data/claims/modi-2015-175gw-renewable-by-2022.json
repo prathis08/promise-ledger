@@ -1,0 +1,78 @@
+{
+  "speaker": "Narendra Modi",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "id": "modi-2015-175gw-renewable-by-2022",
+  "date": "2015-01-01",
+  "venue": "Government of India announcement (MNRE) of 175 GW renewable target; reiterated by Modi at multiple forums",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "India will install 175 GW of renewable energy capacity (100 GW solar, 60 GW wind, 10 GW biomass, 5 GW small hydro) by 2022.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2022-12-31",
+  "verdict": "missed-deadline",
+  "summary": "Installed renewable capacity excluding large hydro was about 120.9 GW on 31 Dec 2022 (about 69% of 175 GW); the MNRE-clarified deadline was 31 Dec 2022.",
+  "topics": [
+    "energy",
+    "environment",
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "MNRE clarifies Dec 31, 2022 as the target date for 175 GW (Mercom India)",
+      "url": "https://mercomindia.com/mnre-target-date-renewable-power"
+    },
+    {
+      "title": "MNRE elucidates December 2022 as deadline for achieving 175 GW target (Energetica India)",
+      "url": "https://www.energetica-india.net/news/mnre-elucidates-december-2022-as-deadline-for-achieving-175-gw-target"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Outlook Business (reporting Standing Committee on Energy report, 21 Mar 2023)",
+      "title": "India misses RE capacity target due to low solar rooftop, wind energy project installations: parliamentary panel",
+      "url": "https://www.outlookbusiness.com/amp/story/news/india-misses-re-capacity-target-due-to-low-solar-rooftop-wind-energy-project-installations-parliamentary-panel-news-271974",
+      "date": "2023-03-21",
+      "key_figure": "120.90 GW installed as of 31 Dec 2022 (~69% of 175 GW); rooftop solar 7.40 GW vs 40 GW; wind 41.93 GW vs 60 GW"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "MNRE",
+      "title": "Installed Renewable Energy Capacity (MW) (Excluding Large Hydro Power), year-wise",
+      "url": "https://mnre.gov.in/en/year-wise-achievement/",
+      "date": "2026-10-17",
+      "key_figure": "Cumulative 35,849.59 MW at 31.03.2014; additions of 14,081.97 MW in 2021-22 and 15,274.43 MW in 2022-23"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Parliament (written answer, Feb 2023) via SolarQuarter",
+      "title": "India's non-fossil capacity touches 174 GW in 2022",
+      "url": "https://solarquarter.com/2023/02/08/indias-non-fossil-power-generation-capacity-touches-174-gw-in-2022",
+      "date": "2023-02-08",
+      "key_figure": "174.53 GW non-fossil incl. large hydro and 6.78 GW nuclear (167.75 GW RE incl. large hydro) as on 31.12.2022"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Later target: 500 GW non-fossil capacity by 2030",
+      "url": "https://solarquarter.com/2022/12/21/year-end-review-2022-mnre-working-towards-achieving-500-gw-green-energy-by-2030/",
+      "summary": "MNRE's 2022 year-end review frames the effort as working towards 500 GW non-fossil capacity by 2030; total non-fossil capacity incl. large hydro and nuclear (174.53 GW) was about 42.5% of installed capacity at end-2022."
+    }
+  ],
+  "chart": {
+    "series": "renewable-capacity",
+    "target": 175,
+    "target_label": "175 GW target (excl. large hydro), deadline Dec 2022"
+  },
+  "analysis": "The 175 GW target (100 GW solar, 60 GW wind, 10 GW biomass, 5 GW small hydro) was clarified by MNRE in October 2019 as due by 31 December 2022. It excludes large hydro.\n\nOn 31 December 2022, solar was 63.30 GW, wind 41.93 GW, biomass 10.73 GW and small hydro 4.94 GW, a total of 120.90 GW or about 69% of the target. Biomass exceeded its sub-target; solar, wind and especially rooftop solar fell short. The Standing Committee on Energy attributed the gap to low rooftop solar and wind installations.\n\nCapacity grew from 35.85 GW (March 2014) to 109.89 GW (March 2022) on MNRE figures, roughly tripling, and annual additions reached 14-15 GW in 2021-22 and 2022-23. The 175 GW level was crossed only after 2024-25 on the derived series.",
+  "confidence": "medium",
+  "notes": "Date 2015-01-01 is a placeholder: the 175 GW target was announced in 2015 (widely reported from January 2015 / INDC Oct 2015); exact Modi speech/date not located, quote is paraphrased from the target. No verbatim Modi quote or video found. The 120.90 GW figure comes via the Outlook Business report of the committee and a search summary of the Feb 2023 parliamentary answer; the rsdebate PDF would not open. MNRE page cumulative values derived by summation. Check MNRE 31 Dec 2022 figure on mnre.gov.in physical progress archive.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

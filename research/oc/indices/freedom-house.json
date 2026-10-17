@@ -1,0 +1,90 @@
+{
+  "slug": "freedom-house",
+  "name": "Freedom in the World",
+  "publisher": "Freedom House",
+  "url": "https://freedomhouse.org/country/india/freedom-world/2026",
+  "higher_is_better": true,
+  "metric": "Total score (0-100)",
+  "out_of_label": "maximum score",
+  "points": [
+    {
+      "year": 2017,
+      "value": 77,
+      "out_of": 100,
+      "source_url": "https://freedomhouse.org/country/india/freedom-world/2017",
+      "status": "Free"
+    },
+    {
+      "year": 2018,
+      "value": 77,
+      "out_of": 100,
+      "source_url": "https://freedomhouse.org/country/india/freedom-world/2018",
+      "status": "Free"
+    },
+    {
+      "year": 2019,
+      "value": 75,
+      "out_of": 100,
+      "source_url": "https://freedomhouse.org/country/india/freedom-world/2019",
+      "status": "Free"
+    },
+    {
+      "year": 2020,
+      "value": 71,
+      "out_of": 100,
+      "source_url": "https://freedomhouse.org/country/india/freedom-world/2020",
+      "status": "Free"
+    },
+    {
+      "year": 2021,
+      "value": 67,
+      "out_of": 100,
+      "source_url": "https://freedomhouse.org/country/india/freedom-world/2021",
+      "status": "Partly Free"
+    },
+    {
+      "year": 2022,
+      "value": 66,
+      "out_of": 100,
+      "source_url": "https://freedomhouse.org/country/india/freedom-world/2022",
+      "status": "Partly Free"
+    },
+    {
+      "year": 2023,
+      "value": 66,
+      "out_of": 100,
+      "source_url": "https://freedomhouse.org/country/india/freedom-world/2023",
+      "status": "Partly Free"
+    },
+    {
+      "year": 2024,
+      "value": 66,
+      "out_of": 100,
+      "source_url": "https://freedomhouse.org/country/india/freedom-world/2024",
+      "status": "Partly Free"
+    },
+    {
+      "year": 2025,
+      "value": 63,
+      "out_of": 100,
+      "source_url": "https://freedomhouse.org/country/india/freedom-world/2025",
+      "status": "Partly Free"
+    },
+    {
+      "year": 2026,
+      "value": 62,
+      "out_of": 100,
+      "source_url": "https://freedomhouse.org/country/india/freedom-world/2026",
+      "status": "Partly Free"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "MEA/government reaction to Freedom House 'Partly Free' (2021)",
+      "url": "https://fithindi.thequint.com/amp/story/news/hot-news/mea-mulls-over-releasing-world-new-democracy-report-press-freedom-index-by-think-tank",
+      "summary": "Press reports on the government's response to 2021 downgrades; exact MEA wording not retrieved. Treat as unconfirmed."
+    }
+  ],
+  "methodology_note": "'year' is the edition year (covers the prior calendar year). Status fell from Free to Partly Free in the 2021 edition. Edition pages for 2014-2016 were not retrievable (404) and pre-2017 scores are not given on the same 100-point basis here, so those years are omitted. Freedom House pages show a 'Global Freedom Score' of 62 in the sidebar for the latest edition (2026) and also 63 for 2025 in one extract; edition headline scores are used.",
+  "related_claims": []
+}

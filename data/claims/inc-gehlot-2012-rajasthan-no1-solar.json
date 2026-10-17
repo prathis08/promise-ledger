@@ -1,0 +1,60 @@
+{
+  "id": "inc-gehlot-2012-rajasthan-no1-solar",
+  "speaker": "Ashok Gehlot",
+  "party": "INC",
+  "role": "Chief Minister, Rajasthan",
+  "level": "state",
+  "state": "Rajasthan",
+  "date": "2012-04-01",
+  "venue": "Dhoodsar village, Jaisalmer, Rajasthan",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Rajasthan is number one in the entire country in regard to solar energy.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "false",
+  "summary": "Rajasthan was not India's largest solar-capacity state in April 2012; Gujarat remained the leader until Rajasthan overtook it in June 2015.",
+  "topics": [
+    "energy",
+    "environment"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Times of India: 40MW solar energy plant starts power production",
+      "url": "https://timesofindia.indiatimes.com/city/jaipur/40MW-solar-energy-plant-starts-power-production/articleshow/12488007.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Solar Now / Times of India",
+      "title": "600 MW solar power projects to be inaugurated in Gujarat on 19th April 2012",
+      "url": "https://now.solar/2012/04/13/650-mw-solar-power-projects-to-be-inaugurated-in-gujarat-on-19th-april-2012/",
+      "date": "2012-04-13",
+      "key_figure": "Gujarat was to dedicate 600 MW of solar capacity at Charanka on 19 April 2012"
+    },
+    {
+      "type": "news",
+      "publisher": "Times of India",
+      "title": "Rajasthan pips Gujarat in solar power, becomes No. 1 in country",
+      "url": "https://timesofindia.indiatimes.com/india/Rajasthan-pips-Gujarat-in-solar-power-becomes-No-1-in-country/articleshow/47776965.cms",
+      "date": "2015-06-23",
+      "key_figure": "Rajasthan became No. 1 only in June 2015 with 1,167 MW against Gujarat's 1,000 MW; Gujarat had remained the leader until recently"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Gehlot spoke at the inauguration of the 40 MW Dhursar plant in Jaisalmer, described as the country's largest single solar plant. State-level installed capacity is a different measure.\n\nGujarat dedicated 600 MW of solar capacity at Charanka on 19 April 2012, weeks after Gehlot's statement. Rajasthan overtook Gujarat only in June 2015, when MNRE data showed Rajasthan at 1,167 MW and Gujarat at 1,000 MW.\n\nThe 2015 Times of India report said Gujarat had remained the undisputed leader in solar energy generation until recently. The April 2012 claim of national No. 1 status was not supported by state-level capacity data.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The Times of India report is dated 1 April 2012 but says the inauguration took place on a Saturday. The claim refers to state-level solar leadership, not the size of a single plant.",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

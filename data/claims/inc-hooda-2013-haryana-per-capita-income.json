@@ -1,0 +1,74 @@
+{
+  "id": "inc-hooda-2013-haryana-per-capita-income",
+  "speaker": "Bhupinder Singh Hooda",
+  "party": "INC",
+  "role": "Chief Minister, Haryana",
+  "level": "state",
+  "state": "Haryana",
+  "date": "2013-04-19",
+  "venue": "HT conclave on investment opportunities, Sonepat-Kundli, Haryana",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Per capita income also, we are ahead of Gujarat. Per capita investment also, we are ahead of Gujarat.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Haryana's per capita income (NSDP per capita) in 2012-13 was about Rs 1,21,269, higher than Gujarat's about Rs 1,02,826.",
+  "topics": [
+    "income",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Haryana ahead of Gujarat in development parameters: Bhupinder Singh Hooda, Economic Times (19 April 2013)",
+      "url": "https://m.economictimes.com/news/politics-and-nation/haryana-ahead-of-gujarat-in-development-parameters-bhupinder-singh-hooda/articleshow/19635128.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Reserve Bank of India (NSDP per capita; via state-wise compilation)",
+      "title": "State-wise NSDP per capita, current prices",
+      "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=23468",
+      "date": "2015-01-01",
+      "key_figure": "2012-13 NSDP per capita: Haryana Rs 1,21,269; Gujarat Rs 1,02,826"
+    },
+    {
+      "type": "index",
+      "publisher": "Wikipedia (cites RBI Handbook of Statistics on Indian States)",
+      "title": "List of Indian states and union territories by GDP per capita",
+      "url": "https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita",
+      "date": "2026-01-01",
+      "key_figure": "Haryana per capita 2011-12 Rs 1,06,085 and 2012-13 Rs 1,21,269, both above Gujarat's Rs 87,481 and Rs 1,02,826"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Directorate of Economics and Statistics, Government of Haryana",
+      "title": "Per Capita Income of Haryana (series)",
+      "url": "https://esaharyana.gov.in/document-category/gsdp-nsdp-per-capita-income-of-haryana",
+      "date": "2014-01-01",
+      "key_figure": "State's own published per capita income and NSDP series for 2012-13 and 2013-14"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Haryana government per-capita income publications",
+      "url": "https://esaharyana.gov.in/document-category/gsdp-nsdp-per-capita-income-of-haryana",
+      "summary": "The Haryana Directorate of Economics and Statistics publishes state per-capita-income and NSDP figures that were the basis of the Chief Minister's comparison."
+    }
+  ],
+  "chart": null,
+  "analysis": "Speaking at an investment conclave in April 2013, the Haryana Chief Minister said Haryana was ahead of Gujarat on per capita income and per capita investment, in the context of the debate over the 'Gujarat model'.\n\nState-wise NSDP per-capita data for 2012-13 place Haryana at about Rs 1,21,269 and Gujarat at about Rs 1,02,826; the gap was similar in 2011-12. On the specific per-capita-income comparison he made, the claim holds.\n\nHaryana was not the highest in the country on this measure, since Goa, Delhi and Sikkim were above it; the claim was a specific Haryana-versus-Gujarat comparison, and it is assessed only as such.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Direct quotes appear in the Economic Times report; no video/transcript was located, so quote_is_verbatim is false. The outcome comparison uses RBI/NSDP per-capita data accessed via a secondary compilation (the exact RBI table was not opened). Haryana also later claimed the highest per-capita income in the country (September 2014), which is outside the INC era window and not treated here.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "speaker": "Narendra Modi",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "chart": null,
+  "id": "modi-2019-ganga-clean-by-2020-gadkari",
+  "date": "2019-01-19",
+  "venue": "BJP SC Morcha gathering (statement by Union Minister Nitin Gadkari, Modi government)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "By March next year, Ganga will be 100 per cent clean. [Nitin Gadkari, Union Minister for Water Resources, as reported by WION, 20 Jan 2019]",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2020-03-31",
+  "verdict": "missed-deadline",
+  "summary": "Water-quality data from CPCB through 2022-23 show faecal coliform above bathing limits at most monitored stations outside Uttarakhand; the 2019/2020 cleanliness deadlines passed without the river being declared clean.",
+  "topics": [
+    "environment",
+    "infrastructure",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Ganga to be 100% clean by March next year: Nitin Gadkari (WION, 20 Jan 2019)",
+      "url": "https://www.wionews.com/india-news/ganga-to-be-100-clean-by-march-next-year-nitin-gadkari-191515"
+    },
+    {
+      "title": "Ganga will be completely clean by March 2020, says Gadkari (Quint)",
+      "url": "https://fithindi.thequint.com/amp/story/news/india/river-ganga-will-be-completely-clean-by-march-2020-nitin-gadkari"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Down To Earth",
+      "title": "Sewage overload: Why the Ganga remains polluted despite cleanliness drives",
+      "url": "https://www.downtoearth.org.in/environment/sewage-overload-why-the-ganga-remains-polluted-despite-cleanliness-drives-88651",
+      "date": "2023-04-07",
+      "key_figure": "Jan 2023: 71% of monitored stations alarming for faecal coliform (CPCB tested 59 of 97); five Ganga states treat ~3,959 of 10,139 MLD sewage (NGT, Jul 2022)"
+    },
+    {
+      "type": "news",
+      "publisher": "Down To Earth",
+      "title": "Ganga clean-up deadline revised again, but is it achievable?",
+      "url": "https://www.downtoearth.org.in/news/water/ganga-clean-up-deadline-revised-again-but-is-it-achievable--64982",
+      "date": "2019-06-07",
+      "key_figure": "By Apr 2019: 98 of 298 sanctioned projects complete; Rs 6,838.67 crore spent of Rs 28,451.29 crore sanctioned; deadline moved 2019 -> 2020 -> 2021"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "CPCB (as reported)",
+      "title": "CPCB main-stem Ganga assessment 2022 (Jan-Sep), as summarised in search results",
+      "url": "https://www.udayavani.com/?p=625535",
+      "date": "2022-12-01",
+      "key_figure": "Median DO within limits; BOD marginally above limit (3.3-4.7 mg/L) in some UP/WB stretches. Secondary report; CPCB original not opened"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Jal Shakti Minister, Parliament, Feb 2023 (as reported by Down To Earth)",
+      "url": "https://www.downtoearth.org.in/environment/sewage-overload-why-the-ganga-remains-polluted-despite-cleanliness-drives-88651",
+      "summary": "Government told Parliament the Namami Gange Programme has reduced the river's pollution load, with 409 projects (Rs 32,912.40 crore outlay) taken up since 2014."
+    }
+  ],
+  "analysis": "The Namami Gange mission was announced in the 2014 budget; Down To Earth reports it was described as aiming for a clean Ganga by 2019. Minister Uma Bharti said in 2015 the river would be among the cleanest by October 2018. Nitin Gadkari, who took over the ministry in September 2017, said in January 2019 the Ganga would be 100 per cent clean by March 2020 (earlier reports had him citing 70-80% by March 2019).\n\nBy April 2019, 98 of 298 sanctioned projects were complete and about a quarter of sanctioned funds spent. The deadline was later pushed to 2021 under minister Gajendra Singh Shekhawat.\n\nIn 2022-23, CPCB data showed dissolved oxygen and pH within limits but BOD above limits at 17 stations in 2022, and faecal coliform above the 2,500 MPN/100 ml limit at most stations in Bihar and West Bengal. Uttarakhand stations were within limits.",
+  "confidence": "medium",
+  "notes": "IMPORTANT: this is a statement by Gadkari (a minister), not Modi; the schema speaker field only allows Modi/Shah so speaker is set to Narendra Modi - reviewer should decide whether to keep, reframe as a government promise, or drop. The 2019 Gandhi-150th anniversary link is reported by Madras Courier / DTE as the Modi government's claim; no Modi quote found. Jan 2019 date inferred from WION article date (20 Jan 2019, speech on 'Saturday'); other reports have similar Gadkari statements in Dec 2018 and Mar 2019. The Udayavani CPCB link is a secondary report. No CPCB or NMCG primary document opened."
+}

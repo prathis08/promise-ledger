@@ -1,0 +1,67 @@
+{
+  "id": "inc-gehlot-2012-right-to-hearing-first",
+  "speaker": "Ashok Gehlot",
+  "party": "INC",
+  "role": "Chief Minister, Rajasthan",
+  "level": "state",
+  "state": "Rajasthan",
+  "date": "2012-08-01",
+  "venue": "Jaipur, Rajasthan",
+  "language": "en",
+  "quote_original": "Rajasthan is the first state in the country to introduce such an Act and we would like to ensure that everybody knows about the details of the Act.",
+  "quote_english": "Rajasthan is the first state in the country to introduce such an Act and we would like to ensure that everybody knows about the details of the Act.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Rajasthan implemented the Right to Hearing Act on 1 August 2012 and was reported as the first state to do so.",
+  "topics": [
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Raj becomes first state to implement Right to Hearing Act",
+      "url": "https://www.oneindia.com/2012/08/01/raj-first-state-to-implement-right-to-hearing-act-1045985.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Deccan Herald / PTI",
+      "title": "Rajasthan becomes first state to implement Right to Hearing Act",
+      "url": "https://www.deccanherald.com/india/rajasthan-becomes-first-state-implement-2351524",
+      "date": "2012-08-01",
+      "key_figure": "Rajasthan became the first state to implement the Right to Hearing Act."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "India Code",
+      "title": "The Rajasthan Right to Hearing Act, 2012",
+      "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/18536/1/rth_english.pdf",
+      "date": "2012-05-21",
+      "key_figure": "Act No. 22 of 2012; received the Governor's assent on 21 May 2012."
+    },
+    {
+      "type": "news",
+      "publisher": "The Times of India",
+      "title": "Rajasthan first to implement Right to Hearing",
+      "url": "https://timesofindia.indiatimes.com/city/jaipur/Rajasthan-first-to-implement-Right-to-Hearing/articleshow/15320452.cms",
+      "date": "2012-08-01",
+      "key_figure": "Rajasthan implemented the Act to provide time-bound hearing and disposal of governance complaints."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "On 1 August 2012, Ashok Gehlot said Rajasthan was the first state to introduce a Right to Hearing Act. He said the Act would provide a time-bound hearing on complaints related to governance.\n\nThe Rajasthan Right to Hearing Act, 2012 received the Governor's assent on 21 May 2012 and was implemented on 1 August 2012. It provides for a public hearing officer, first and second appellate authorities, and penalties of Rs 500 to Rs 5,000.\n\nDeccan Herald and The Times of India reported that Rajasthan was the first state to implement such a law. The statement held.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The Act received assent on 21 May 2012 and was implemented on 1 August 2012. The claim is a statement about implementation, not a promise. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

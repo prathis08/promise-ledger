@@ -1,0 +1,65 @@
+{
+  "id": "inc-dikshit-2013-delhi-power-tariffs",
+  "speaker": "Sheila Dikshit",
+  "party": "INC",
+  "role": "Chief Minister, Delhi",
+  "level": "state",
+  "state": "Delhi",
+  "date": "2013-12-01",
+  "venue": "Public rally in Delhi and other venues during 2013",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The power tariff in Delhi is much lower than that in other metropolitan cities and even other cities and towns in the National Capital Region.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Chief Minister Sheila Dikshit said Delhi's power tariffs were the lowest among cities; a Mint claim check citing a Deloitte analysis found that in 2013 only Maharashtra, West Bengal and Madhya Pradesh had higher retail tariffs than Delhi.",
+  "topics": [
+    "energy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Claim Check: Sheila Dikshit on Delhi's power tariffs - Mint",
+      "url": "https://www.livemint.com/Politics/r6pfNXjJMHYev5sh9R9awK/Sheila-Dikshit-on-Delhis-power-tariffs.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "Mint (Livemint)",
+      "title": "Claim Check: Sheila Dikshit on Delhi's power tariffs",
+      "url": "https://www.livemint.com/Politics/r6pfNXjJMHYev5sh9R9awK/Sheila-Dikshit-on-Delhis-power-tariffs.html",
+      "date": "2013-12-03",
+      "key_figure": "Deloitte analysis: only Maharashtra, West Bengal and Madhya Pradesh had higher retail tariffs than Delhi in 2013; Mint verdict: 'She is wrong about the first but right about the second'"
+    },
+    {
+      "type": "news",
+      "publisher": "Daily Mail India",
+      "title": "Sheila Dikshit claims hike in electricity tariff is due to 24-hour supply",
+      "url": "https://www.dailymail.com/indiahome/indianews/article-2301351/Sheila-Dikshit-claims-hike-electricity-tariff-24-hour-supply.html",
+      "date": "2013-03-01",
+      "key_figure": "Dikshit defended tariff levels while linking bills to uninterrupted supply"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Claim Check: Sheila Dikshit on Delhi's power tariffs - Mint",
+      "url": "https://www.livemint.com/Politics/r6pfNXjJMHYev5sh9R9awK/Sheila-Dikshit-on-Delhis-power-tariffs.html",
+      "summary": "Mint found Dikshit was wrong that Delhi's tariffs were the lowest among cities, but right that the Delhi Electricity Regulatory Commission, not the government, decides tariffs."
+    }
+  ],
+  "chart": null,
+  "analysis": "Dikshit made the tariff claim at multiple venues in 2013, including a rally on 1 December, according to Mint's claim check. She also said tariffs could not be changed or amended by the government.\n\nMint's analysis, based on a Deloitte comparison of 2013 retail tariffs for a 300 kWh monthly consumption on a 4 kW connection, found that only Maharashtra, West Bengal and Madhya Pradesh had higher tariffs than Delhi. It concluded she was wrong on the 'lowest tariffs' point but right that the DERC sets tariffs.\n\nThe claim that Delhi's tariffs were the lowest among cities is not supported by the tariff comparison, though the procedural point about the regulator was correct.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The Daily Mail article was seen in search results and was not fetched directly; its date is approximate (early 2013). The Mint claim check was read directly. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

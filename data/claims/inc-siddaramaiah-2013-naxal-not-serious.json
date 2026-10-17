@@ -1,0 +1,66 @@
+{
+  "id": "inc-siddaramaiah-2013-naxal-not-serious",
+  "speaker": "Siddaramaiah",
+  "party": "INC",
+  "role": "Chief Minister, Karnataka",
+  "level": "state",
+  "state": "Karnataka",
+  "date": "2013-06-18",
+  "venue": "Interaction with journalists, Bangalore",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The Naxal problem is 'not very serious' in Karnataka, where only three or four districts have been affected by it.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "SATP's 2013 Karnataka timeline records low-level Maoist incidents and no LWE fatalities, concentrated in a few Malnad and coastal districts; the state had requested the Centre to declare three or four districts as Naxal-hit.",
+  "topics": [
+    "internal-security",
+    "security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Firstpost/PTI: Karnataka: Siddaramaiah offers to hold dialogue with Naxals (18 Jun 2013)",
+      "url": "https://www.firstpost.com/india/karnataka-siddaramaiah-offers-to-hold-dialogue-with-naxals-883169.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "index",
+      "publisher": "South Asia Terrorism Portal (SATP)",
+      "title": "Karnataka Timeline - Year 2013",
+      "url": "https://www.satp.org/satporgtp/countries/india/maoist/timelines/2013/Karnataka.htm",
+      "date": "2013-12-31",
+      "key_figure": "2013 incidents included an Anti-Naxal Force trooper injured in Chikmagalur (15 May), a motorbike burnt in Sringeri (9 June), a van and shed burnt in Kuthlur (9 November), and an attack on a forest check-post near Sringeri (17 November); no LWE fatalities are listed."
+    },
+    {
+      "type": "news",
+      "publisher": "Firstpost / PTI",
+      "title": "Karnataka: Siddaramaiah offers to hold dialogue with Naxals",
+      "url": "https://www.firstpost.com/india/karnataka-siddaramaiah-offers-to-hold-dialogue-with-naxals-883169.html",
+      "date": "2013-06-18",
+      "key_figure": "Siddaramaiah said the Naxal problem was 'not very serious' in Karnataka and that only three or four districts had been affected; the state had asked the Centre to declare them Naxal-hit."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Karnataka government's offer of talks, June 2013",
+      "url": "https://www.firstpost.com/india/karnataka-siddaramaiah-offers-to-hold-dialogue-with-naxals-883169.html",
+      "summary": "Siddaramaiah said his government was ready to hold talks with Naxals and would welcome surrenders, while also taking up development work in tribal and backward areas."
+    }
+  ],
+  "chart": null,
+  "analysis": "Siddaramaiah's June 2013 statement described the Naxal problem as 'not very serious' in Karnataka and said only three or four districts were affected. His government simultaneously asked the Centre to declare those districts Naxal-hit so that they could receive central assistance.\n\nSATP's 2013 Karnataka timeline records low-level incidents: an Anti-Naxal Force trooper injured in Chikmagalur in May, a motorbike burnt in Sringeri in June, a van and shed burnt in Kuthlur in November, and an attack on a forest check-post near Sringeri in November. No LWE fatalities are listed for the year.\n\nThe comparative judgement is supported by the low intensity of violence relative to states such as Chhattisgarh and Jharkhand. The same timeline records a November spurt and an MHA internal note warning that the Maoists were trying to open a new theatre in the Western Ghats, so the statement described the situation at mid-2013 rather than the whole year.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Firstpost was accessible through a reader proxy during research; the direct page returned HTTP 403. 'Not very serious' is a judgement, and SATP records a later 2013 spurt in Maoist activity in coastal and Malnad districts. The claim is rated true only as a comparative description of the low intensity at the time.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

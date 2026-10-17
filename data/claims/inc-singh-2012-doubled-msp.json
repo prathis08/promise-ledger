@@ -1,0 +1,60 @@
+{
+  "id": "inc-singh-2012-doubled-msp",
+  "speaker": "Manmohan Singh",
+  "date": "2012-08-15",
+  "venue": "Red Fort, New Delhi (Independence Day address)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "In the last 8 years, we have doubled the support prices of crops.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The Prime Minister said support prices had doubled in eight years; CACP-fixed MSP data show paddy (common) rising from about Rs 560/quintal in 2004-05 to Rs 1,250 in 2012-13 and wheat from about Rs 640 to Rs 1,350 over the same period.",
+  "topics": [
+    "agriculture",
+    "prices"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Prime Minister Dr. Manmohan Singh's Independence Day Speech, 2012 (official English rendering)",
+      "url": "https://www.indianembassyusa.gov.in/ArchivesDetails?id=1857"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Commission for Agricultural Costs and Prices (CACP), Government of Maharashtra compilation",
+      "title": "Minimum Support Prices Recommended by CACP and Fixed by Government (Crop Year)",
+      "url": "https://krishi.maharashtra.gov.in/Site/Upload/Pdf/Minimum_Support_Prices.pdf?MenuID=1073",
+      "date": "2015-02-18",
+      "key_figure": "Paddy (common) MSP Rs 645 (2007-08) rising to Rs 1,250 (2012-13); wheat MSP Rs 1,000 (2007-08) rising to Rs 1,350 (2012-13)"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Reserve Bank of India",
+      "title": "Minimum Support Price for Foodgrains according to crop year",
+      "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/24T_130920245798BB09403A4D29ACBB15D01C631D93.PDF",
+      "date": "2024-09-13",
+      "key_figure": "Historical MSP series for paddy (common), wheat and other crops by crop year"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "The 2012 Independence Day address stated that crop support prices had doubled over the previous eight years. CACP-fixed MSP data for the two main cereals support the direction and roughly the size of the increase.\n\nPaddy (common) MSP was Rs 560 per quintal in 2004-05 and rose to Rs 1,250 in 2012-13; wheat MSP was Rs 640 per quintal in 2004-05 and rose to Rs 1,350 in 2012-13. Both more than doubled across the period.\n\nMSP is announced by the central government on CACP recommendations and applies to 22-plus crops, with wide differences across crops and years. The claim is consistent with the official MSP series for the major cereals.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 2004-05 MSP base values (Rs 560 paddy common, Rs 640 wheat) are widely cited and appear in the RBI MSP series; the RBI/Maharashtra tables seen in search results cover 2007-08 onwards in the excerpts shown, so the 2004-05 base is given as reported. Quote is from the official English rendering (speech delivered in Hindi).",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "bjp-goyal-2023-2-trillion-exports-by-2030",
+  "speaker": "Piyush Goyal",
+  "date": "2023-03-31",
+  "venue": "Unveiling of the Foreign Trade Policy 2023, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "I am confident that we will cross USD 2 trillion by 2030. We will achieve exports of USD 1 trillion each in goods and services by 2030.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2030-12-31",
+  "verdict": "in-progress",
+  "summary": "India's total merchandise and services exports were about US$863 billion in FY2025-26 against the US$2 trillion target the Commerce Minister set for 2030, so the goal is not yet due.",
+  "topics": [
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "India on track to achieve $2 trillion exports by 2030: Piyush Goyal (PTI, The Economic Times, 31 March 2023)",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-achieve-2-trillion-exports-by-2030-piyush-goyal/articleshow/99147887.cms"
+    },
+    {
+      "title": "India aims for $2 trillion in total exports by 2030-31: Piyush Goyal (Business Standard)",
+      "url": "https://www.business-standard.com/markets/capital-market-news/india-aims-for-2-trillion-in-total-exports-by-2030-31-piyush-goyal-126043000318_1.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Economic Times",
+      "title": "India's exports hit record USD 863 bn; on track for USD 2 trillion target by 2030: Piyush Goyal",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-exports-hit-record-usd-863-bn-despite-global-turmoil-on-track-for-usd-2-trillion-target-by-2030-piyush-goyal/articleshow/131120346.cms",
+      "date": "",
+      "key_figure": "Total exports US$863 billion in FY2025-26; target US$2 trillion by 2030"
+    },
+    {
+      "type": "news",
+      "publisher": "DD News (Prashar Bharati)",
+      "title": "India targets $2 trillion exports by 2030-31; Piyush Goyal pushes MSME, agri and Brand India focus",
+      "url": "https://ddnews.gov.in/en/india-targets-2-trillion-exports-by-2030-31-piyush-goyal-pushes-msme-agri-and-brand-india-focus/",
+      "date": "",
+      "key_figure": "Commerce Ministry review meeting on the US$2 trillion export plan"
+    },
+    {
+      "type": "news",
+      "publisher": "Akashvani / News on Air",
+      "title": "India aims for $2 trillion in total exports by 2030-31, says Minister Piyush Goyal",
+      "url": "https://newsonair.gov.in/india-aims-for-2-trillion-in-total-exports-by-2030-31-says-minister-piyush-goyal/",
+      "date": "",
+      "key_figure": "Target split as US$1 trillion merchandise plus US$1 trillion services exports"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Goyal: exports on track despite global turmoil (The Economic Times)",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-exports-hit-record-usd-863-bn-despite-global-turmoil-on-track-for-usd-2-trillion-target-by-2030-piyush-goyal/articleshow/131120346.cms",
+      "summary": "The Commerce and Industry Minister said exports touched a record US$863 billion in FY2025-26 and that India remains on track for the US$2 trillion target by 2030."
+    }
+  ],
+  "chart": null,
+  "analysis": "Goyal set the target on 31 March 2023 while unveiling the Foreign Trade Policy 2023, when total exports were about US$765 billion.\n\nGovernment and Commerce Ministry communications in 2026 cite total exports of about US$863 billion in FY2025-26 and state that the US$2 trillion target for 2030-31 remains on track.\n\nThe target is a projection rather than a recorded outcome. With the deadline in 2030-31 it is not yet due, so it is recorded as in progress. Export outcomes depend on global demand, exchange rates and trade agreements.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Quote wording is from The Economic Times report of the speech; no official transcript was opened, so quote_is_verbatim=false. Target year is described as '2030' in the 2023 statement and as '2030-31' in later ministry communications; the later framing is used for the deadline. Exact publication dates of the 2026 evidence items could not be confirmed, so their date fields are blank.",
+  "party": "BJP",
+  "role": "Union Minister of Commerce and Industry",
+  "level": "central",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

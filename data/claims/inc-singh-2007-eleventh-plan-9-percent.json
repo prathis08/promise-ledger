@@ -1,0 +1,69 @@
+{
+  "id": "inc-singh-2007-eleventh-plan-9-percent",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister and Chairman, Planning Commission",
+  "level": "central",
+  "state": null,
+  "date": "2007-12-19",
+  "venue": "National Development Council meeting, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "It sets a target for 9% growth in the five year period 2007-08 to 2011-12 with acceleration during the period to reach 10% by the end of the Plan.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2012-03-31",
+  "verdict": "missed-deadline",
+  "summary": "The Eleventh Five Year Plan targeted average GDP growth of 9% a year but the realised average was 8.0%.",
+  "topics": [
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Eleventh Five Year Plan (Vol. 1), Planning Commission of India",
+      "url": "https://www.niti.gov.in/sites/default/files/2023-08/11th_vol1.pdf"
+    },
+    {
+      "title": "MoSPI Statistical Year Book India, Chapter 7: Five Year Plans",
+      "url": "https://www.mospi.gov.in/sites/default/files/Statistical_year_book_india_chapters/ch7.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "MoSPI",
+      "title": "Statistical Year Book India, Chapter 7: Five Year Plans",
+      "url": "https://www.mospi.gov.in/sites/default/files/Statistical_year_book_india_chapters/ch7.pdf",
+      "date": "2013-01-01",
+      "key_figure": "Eleventh Plan (2007-2012) Target Growth 9%, Actual Growth 8%"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Planning Commission / NITI Aayog",
+      "title": "Eleventh Five Year Plan, Volume 1",
+      "url": "https://www.niti.gov.in/sites/default/files/2023-08/11th_vol1.pdf",
+      "date": "2008-01-01",
+      "key_figure": "Target of 9% growth for 2007-08 to 2011-12, accelerating to 10% by the end of the Plan"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Twelfth Five Year Plan (2012-2017) — records Eleventh Plan average growth of 8%",
+      "url": "https://www.un.org/development/desa/disabilities/wp-content/uploads/sites/15/2019/10/India_Twelfth-Five-Year-Plan-2012%E2%80%932017.pdf",
+      "summary": "Government plan documents state that the Eleventh Plan average growth of 8.0% was lower than the 9% target, and attribute the shortfall to two global crises (2008 and 2011)."
+    }
+  ],
+  "chart": null,
+  "analysis": "The Eleventh Five Year Plan (2007-08 to 2011-12) set an average growth target of 9% per year, with acceleration to 10% by the end of the Plan period. The Prime Minister chaired the Planning Commission that adopted the Plan.\n\nOfficial data put the realised average for the Plan period at 8.0% per year. Yearly growth was 9.3% (2007-08), 6.7% (2008-09), 8.6% (2009-10), 9.3% (2010-11) and 6.2% (2011-12), so the target was missed, although 8% was still the highest plan average achieved up to that point.\n\nGovernment documents attribute the shortfall to two global slowdowns during the period and to domestic supply-side and monetary conditions in 2011-12.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Date used is the National Development Council meeting that approved the Eleventh Plan (December 2007); the exact day was not re-verified here. Quote is the Plan document's own description of the target, not a spoken transcript.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

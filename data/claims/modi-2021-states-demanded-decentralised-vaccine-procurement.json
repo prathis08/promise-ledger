@@ -1,0 +1,72 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statement",
+  "deadline": null,
+  "media": [
+    {
+      "platform": "youtube",
+      "title": "PM address to the nation, 7 June 2021 (link as cited by Alt News)",
+      "url": "https://www.youtube.com/watch?v=d_442UtroDM",
+      "timestamp_seconds": null,
+      "channel": ""
+    }
+  ],
+  "transcript_sources": [],
+  "govt_response": [
+    {
+      "title": "BJP leaders citing Rahul Gandhi's April 2021 letter and opposition statements",
+      "url": "https://twitter.com/amitmalviya/status/1392835301278588931",
+      "summary": "BJP leaders (e.g. Amit Malviya, Smriti Irani) argued opposition leaders and states had asked for greater state role in procurement; Alt News says Rahul Gandhi and Anand Sharma held no state office."
+    }
+  ],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2021-states-demanded-decentralised-vaccine-procurement",
+  "date": "2021-06-07",
+  "venue": "Address to the nation (televised)",
+  "language": "hi",
+  "quote_english": "Several state governments again said that the vaccine work should be de-centralized and left to the states ... the Centre decided to give 25 per cent of the work to them (as quoted by Alt News).",
+  "verdict": "misleading",
+  "topics": [
+    "health",
+    "governance"
+  ],
+  "summary": "Alt News found no evidence that states had broadly asked to procure vaccines themselves; most opposition-ruled states asked the Centre to procure and allocate, with a few exceptions such as Odisha.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "Alt News",
+      "title": "Had states demanded decentralized vaccine procurement as claimed by PM Modi?",
+      "url": "https://www.altnews.in/had-states-demanded-decentralized-vaccine-procurement-as-claimed-by-pm-modi/",
+      "date": "2021-06-09",
+      "key_figure": "Rated misleading"
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Chhattisgarh: availability of scarce resource like vaccines should not be decentralised (cited by Alt News)",
+      "url": "https://www.thehindu.com/news/national/availability-of-scarce-resource-like-covid-19-vaccines-should-not-be-decentralised-says-chhattisgarh-health-minister/article34367487.ece",
+      "date": "2021-04",
+      "key_figure": "State position cited by Alt News as opposed to decentralisation"
+    },
+    {
+      "type": "news",
+      "publisher": "Times of India",
+      "title": "Vaccine purchase should be centralised, distribution decentralised: Rahul Gandhi (cited by Alt News)",
+      "url": "https://timesofindia.indiatimes.com/india/vaccine-purchase-should-be-centralised-distribution-decentralised-rahul-gandhi/articleshow/82628614.cms",
+      "date": "2021-04",
+      "key_figure": "Opposition leader's letter supported greater state say in procurement and distribution, per Alt News"
+    }
+  ],
+  "analysis": "In his 7 June 2021 address Modi said states had demanded decentralisation of vaccine work, leading the Centre to give them 25% of procurement from May 1. Alt News reviewed state and opposition statements before 19 April 2021.\n\nIt found most states, including Tamil Nadu, Kerala, Rajasthan, Punjab, Chhattisgarh and Delhi, asked the Centre to procure and allocate. Odisha's 30 March letter asked that vaccines be available in the open market for those who can afford them. Maharashtra's letter seeking to procure came 8 May, after the policy was announced.\n\nThe Supreme Court had called the policy 'arbitrary and irrational' days before the speech.",
+  "confidence": "medium",
+  "notes": "Alt News did not report a formal government response to its article. Rating 'Misleading' is Alt News's own. The Hindi wording of the quote was not retrieved; English as quoted by Alt News.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "bjp-vaishnaw-2025-railways-100pc-electrification",
+  "speaker": "Ashwini Vaishnaw",
+  "party": "BJP",
+  "role": "Union Minister of Railways",
+  "level": "central",
+  "state": null,
+  "date": "2025-02-24",
+  "venue": "Madhya Pradesh Global Investors Summit 2025, Bhopal (addressed via video conferencing)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "More than 97 per cent of the Indian Railways is already electrified, and by FY26, it is expected to be 100 per cent electrified.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2026-03-31",
+  "verdict": "missed-deadline",
+  "summary": "In February 2025 the Railway Minister said 100% electrification would be completed in FY 2025-26; by July 2026 PIB reported 99.6% of the broad-gauge network electrified, with residual sections still under execution after the deadline passed.",
+  "topics": [
+    "railways",
+    "infrastructure"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Indian Railways to be 100% electrified by FY26: Ashwini Vaishnaw",
+      "url": "https://energy.economictimes.indiatimes.com/news/renewable/indian-railways-to-be-100-electrified-by-fy26-ashwini-vaishnaw/118543678",
+      "channel": "ETEnergyworld"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PIB: Indian Railways marching towards Net Zero - Shri Ashwini Vaishnaw",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2105892"
+    },
+    {
+      "title": "PIB: 'Amazing' Union Budget, says Union Minister Ashwini Vaishnaw",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2098714"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Railways",
+      "title": "India Emerges as Global Leader in Railway Electrification",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287573",
+      "date": "2026-07-22",
+      "key_figure": "About 99.6% of the broad-gauge network electrified; 48,072 route km added between 2014 and 2026"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "Mission 100% Electrification: Powering the Future of Indian Railways",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=156834&lang=1&reg=3",
+      "date": "2026-01-06",
+      "key_figure": "69,427 route km (about 99.2%) electrified as of November 2025; residual 574 route km (0.8%) in five states"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Research Designs and Standards Organisation (RDSO), Indian Railways",
+      "title": "Status of Railway Electrification as on 31.07.2026",
+      "url": "https://rdso.indianrailways.gov.in/railwayboard/uploads/directorate/ele_engg/2026/Status%20of%20Railway%20Electrification%20as%20on%2031_07_2026%20English.pdf",
+      "date": "2026-07-31",
+      "key_figure": "Broad-gauge electrification status as on 31 July 2026"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Indian Railways nears full electrification at 99.2%",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2205232",
+      "summary": "Ministry of Railways states 100% electrification has been achieved across 14 zones and 25 states/UTs, with the remaining stretches taken up and described as challenging to execute."
+    }
+  ],
+  "chart": null,
+  "analysis": "At the Madhya Pradesh Global Investors Summit on 24 February 2025, Railway Minister Ashwini Vaishnaw said more than 97% of Indian Railways was already electrified and that 100% electrification was expected in FY 2025-26.\n\nPIB reported about 99.2% of the broad-gauge network electrified as of November 2025 and about 99.6% as of July 2026; the residual stretches (574 route km, 0.8%, across five states at the end of 2025) remain under execution. The government states 100% electrification has been completed across 14 zones and 25 states/UTs.\n\nThe stated FY 2025-26 deadline (31 March 2026) passed without the network reaching 100%, so the claim is recorded as missed-deadline, while noting the network is close to completion.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "Vaishnaw has repeated the 100%-by-FY26 target at multiple venues; this entry uses the 24 February 2025 PIB release. Some later PIB statements from other ministers (e.g. Amit Shah, September 2026) describe 100% electrification as imminent rather than complete. Quotation is from ETEnergyworld reporting, not a transcript, so not marked verbatim. [ingest: 3 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

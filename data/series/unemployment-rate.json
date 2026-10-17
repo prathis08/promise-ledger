@@ -1,0 +1,41 @@
+{
+ "slug": "unemployment-rate",
+ "title": "Unemployment rate, usual status (ps+ss), age 15+, all-India",
+ "unit": "% of labour force",
+ "source": {
+  "publisher": "NSO / MoSPI",
+  "title": "Periodic Labour Force Survey Annual Report 2023-24, press note (Table 3)",
+  "url": "https://mospi.gov.in/sites/default/files/press_release/Press_note_AR_PLFS_2023_24_22092024.pdf"
+ },
+ "points": [
+  {
+   "x": "2017-18",
+   "y": 6.0
+  },
+  {
+   "x": "2018-19",
+   "y": 5.8
+  },
+  {
+   "x": "2019-20",
+   "y": 4.8
+  },
+  {
+   "x": "2020-21",
+   "y": 4.2
+  },
+  {
+   "x": "2021-22",
+   "y": 4.1
+  },
+  {
+   "x": "2022-23",
+   "y": 3.2
+  },
+  {
+   "x": "2023-24",
+   "y": 3.2
+  }
+ ],
+ "note": "Years are July-June survey rounds. PLFS began in 2017-18, so there is no strictly comparable official series for 2013-14 to 2016-17 (earlier NSSO employment-unemployment surveys used a different design). Later PLFS releases moved to calendar-year reports; secondary sources cite 3.1% for calendar 2025 but this was not checked against a MoSPI document."
+}

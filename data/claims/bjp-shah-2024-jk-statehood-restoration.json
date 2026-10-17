@@ -1,0 +1,77 @@
+{
+  "id": "bjp-shah-2024-jk-statehood-restoration",
+  "speaker": "Amit Shah",
+  "party": "BJP",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2024-09-07",
+  "venue": "BJP workers' rally, Ploura, Jammu North, Jammu and Kashmir",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "It is the central government and BJP and I have already said inside Parliament that we will restore statehood at an appropriate time after assembly elections.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2024-10-08",
+  "verdict": "unachieved",
+  "summary": "Jammu and Kashmir remained a Union Territory in October 2026, two years after Shah's 2024 statement, and the J&K Assembly passed a resolution on 28 September 2026 seeking immediate restoration of full statehood.",
+  "topics": [
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Restoration of J-K statehood after assembly polls: Amit Shah (PTI / Rediff)",
+      "url": "https://www.rediff.com/news/report/restoration-of-j-k-statehood-after-assembly-polls-amit-shah/20240907.htm"
+    },
+    {
+      "title": "Only Central government can restore statehood to Jammu and Kashmir (Akashvani / News On AIR)",
+      "url": "https://newsonair.gov.in/union-home-minister-amit-shah-says-only-central-government-can-restore-statehood-to-jammu-and-kashmir"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Jammu & Kashmir Assembly passes Statehood resolution amid BJP uproar",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/omar-abdullah-resolution-on-statehood-debate-in-jammu-kashmir-assembly/article71518226.ece",
+      "date": "2026-09-28",
+      "key_figure": "Resolution seeking restoration of full Statehood passed with support of about 60 of 90 MLAs"
+    },
+    {
+      "type": "news",
+      "publisher": "The New Indian Express",
+      "title": "Amit Shah says J&K statehood will be restored at 'appropriate time'",
+      "url": "https://www.newindianexpress.com/india/2025/Oct/18/jk-statehood-will-be-restored-at-appropriate-time-says-amit-shah-omar-abdullah-mulling-approaching-sc",
+      "date": "2025-10-18",
+      "key_figure": "No timeline given, one year after the elected government took office"
+    },
+    {
+      "type": "news",
+      "publisher": "The New Indian Express",
+      "title": "Congress demands immediate restoration of full statehood to J&K",
+      "url": "https://www.newindianexpress.com/india/2026/Aug/05/congress-demands-immediate-restoration-of-full-statehood-to-jk",
+      "date": "2026-08-05",
+      "key_figure": "Statehood not restored seven years after the 2019 reorganisation"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "J&K statehood to be restored at 'appropriate time', says Amit Shah (PTI / The New Indian Express)",
+      "url": "https://www.newindianexpress.com/india/2025/Oct/18/jk-statehood-will-be-restored-at-appropriate-time-says-amit-shah-omar-abdullah-mulling-approaching-sc",
+      "summary": "The Home Minister says statehood will be restored at an appropriate time following discussions with the J&K Chief Minister."
+    }
+  ],
+  "chart": null,
+  "analysis": "Addressing a BJP rally in Jammu on 7 September 2024, ahead of the assembly elections, Shah said the Centre would restore Jammu and Kashmir's statehood 'at an appropriate time after assembly elections'.\n\nJammu and Kashmir continued to be a Union Territory after the elections (results announced on 8 October 2024). In October 2025 Shah said statehood would be restored at an 'appropriate time', without giving a date.\n\nOn 28 September 2026 the J&K Legislative Assembly passed a resolution calling for the immediate restoration of full statehood. As of October 2026 statehood had not been restored.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The deadline used is the J&K assembly election results date (8 October 2024), since Shah tied restoration to 'after assembly elections'; his wording also included 'at an appropriate time'.",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

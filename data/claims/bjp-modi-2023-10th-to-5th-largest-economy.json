@@ -1,0 +1,77 @@
+{
+  "id": "bjp-modi-2023-10th-to-5th-largest-economy",
+  "speaker": "Narendra Modi",
+  "date": "2023-08-15",
+  "venue": "Independence Day address from the Red Fort, Delhi",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "India has risen from the 10th largest economy in the world to the 5th largest economy.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "World Bank data show India's nominal GDP rose from about US$1.86 trillion (10th largest) in 2013 to about US$3.76 trillion (5th largest, ahead of the UK) in 2024.",
+  "topics": [
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Prime Minister attributes India's rise to 5th largest economy in the world to efforts of 140 crore people of India (PIB, 15 August 2023)",
+      "url": "https://pib.gov.in/Pressreleaseshare.aspx?PRID=1948952"
+    },
+    {
+      "title": "Text of PM's address at the G20 Trade and Investment Ministers' Meeting (narendramodi.in)",
+      "url": "https://www.narendramodi.in/text-of-pm-s-address-during-g20-trade-and-investment-ministers-meeting-573220"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "intl_org",
+      "publisher": "World Bank (World Development Indicators)",
+      "title": "GDP (current US$): India, UK, Japan, Germany, France, US, China, Brazil, Russia, Italy, Canada",
+      "url": "https://api.worldbank.org/v2/country/IND;GBR;JPN;DEU;FRA;USA;CHN/indicator/NY.GDP.MKTP.CD?format=json&per_page=1000&date=2013:2024",
+      "date": "2026-10-08",
+      "key_figure": "India US$1.86 trn in 2013 and US$3.76 trn in 2024; UK US$3.70 trn in 2024"
+    },
+    {
+      "type": "intl_org",
+      "publisher": "World Bank (World Development Indicators)",
+      "title": "2013 GDP (current US$): India, Brazil, Russia, Italy, Canada and others",
+      "url": "https://api.worldbank.org/v2/country/IND;BRA;RUS;ITA;CAN;GBR;FRA;JPN;DEU/indicator/NY.GDP.MKTP.CD?format=json&per_page=500&date=2013:2013",
+      "date": "2026-10-08",
+      "key_figure": "In 2013 India (US$1.857 trn) was behind the US, China, Japan, Germany, France, UK, Brazil, Russia and Italy, i.e. 10th"
+    },
+    {
+      "type": "news",
+      "publisher": "The Diplomat",
+      "title": "Modi says India's economy will be among top 3 in the world in 5 years",
+      "url": "https://thediplomat.com/2023/08/modi-says-indias-economy-will-be-among-top-3-in-the-world-in-5-years/",
+      "date": "2023-08",
+      "key_figure": "Notes India's US$3.5 trillion economy overtook the UK to become the fifth largest"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB item on the Prime Minister's Independence Day 2023 address",
+      "url": "https://pib.gov.in/Pressreleaseshare.aspx?PRID=1948952",
+      "summary": "The government attributed the rise from 10th to 5th largest to reduced leakages, a stronger economy and higher spending on welfare."
+    }
+  ],
+  "chart": null,
+  "analysis": "Speaking from the Red Fort on 15 August 2023, Modi said India had risen from the 10th largest to the 5th largest economy in the world.\n\nWorld Bank GDP (current US$) data show India at about US$1.86 trillion in 2013, behind the United States, China, Japan, Germany, France, the United Kingdom, Brazil, Russia and Italy, and at about US$3.76 trillion in 2024, ahead of the United Kingdom (US$3.70 trillion) and fifth overall.\n\nThe ranking is sensitive to exchange rates and to the year chosen, but on the World Bank series both the direction of change and the fifth-place position in 2024 are consistent with the statement.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The World Bank API data were read directly, which supports the verdict. quote_english is the PIB summary wording, so quote_is_verbatim=false. Rankings use World Bank nominal GDP (current US$); some outlets using IMF data describe India as 4th largest from 2025 after overtaking Japan, which does not contradict the 2023 statement.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 2,
+    "score": 0.6666666666666666
+  }
+}

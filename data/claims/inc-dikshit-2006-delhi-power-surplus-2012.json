@@ -1,0 +1,65 @@
+{
+  "id": "inc-dikshit-2006-delhi-power-surplus-2012",
+  "speaker": "Sheila Dikshit",
+  "party": "INC",
+  "role": "Chief Minister, Delhi",
+  "level": "state",
+  "state": "Delhi",
+  "date": "2006-12-09",
+  "venue": "National Development Council meeting, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "As a result, we will be adding 8,288 MW of power thereby enhancing the power availability in the capital to 12,917 MW by 2011-12, which will make Delhi power surplus.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2012-03-31",
+  "verdict": "missed-deadline",
+  "summary": "Delhi did not record a power surplus by 2011-12; CEA monthly data show a peak deficit of 433 MW in August 2012, although officials reported a winter surplus later that year.",
+  "topics": [
+    "energy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Hindustan Times: Delhi to be power surplus by 2011-12: Dikshit",
+      "url": "https://www.hindustantimes.com/india/delhi-to-be-power-surplus-by-2011-12-dikshit/story-sTg84tLm4ADFeTlxKfP5QK.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "index",
+      "publisher": "CEIC / Central Electricity Authority",
+      "title": "Electricity: Power: Delhi: Peak Surplus or Deficit",
+      "url": "https://www.ceicdata.com/en/india/electricity-demand-and-supply/electricity-power-delhi-peak-surplus-or-deficit",
+      "date": "2026-10-17",
+      "key_figure": "Record low of -433 MW in August 2012; series sourced to CEA"
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Delhi has surplus power",
+      "url": "https://www.thehindu.com/news/cities/Delhi/delhi-has-surplus-power/article4163268.ece",
+      "date": "2012-12-04",
+      "key_figure": "Delhi officials said the city had 700-800 MW of surplus power and no buyers"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "The Hindu: Delhi has surplus power",
+      "url": "https://www.thehindu.com/news/cities/Delhi/delhi-has-surplus-power/article4163268.ece",
+      "summary": "Delhi power officials said in December 2012 that the city had 700-800 MW of surplus power and asked the Centre to help find buyers."
+    }
+  ],
+  "chart": null,
+  "analysis": "Dikshit projected 8,288 MW of new capacity, taking Delhi's power availability to 12,917 MW by 2011-12. CEA monthly data compiled by CEIC record a peak deficit of 433 MW in August 2012, the largest shortfall in the series.\n\nIn December 2012, Delhi power officials said the city had 700-800 MW of surplus power and asked the Centre to help find buyers. That statement came after the 2011-12 deadline and describes a winter month, not the annual peak.\n\nThe claim's own test was whether Delhi would be power surplus by 2011-12. The CEA monthly series shows a deficit in August 2012, so the deadline was not met.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The CEIC series is sourced to CEA, but the underlying CEA monthly report was not directly accessible. Delhi's reported winter surplus in December 2012 came after the 2011-12 deadline.",
+  "grounding": {
+    "checked": 2,
+    "matched": 1,
+    "score": 0.5
+  }
+}

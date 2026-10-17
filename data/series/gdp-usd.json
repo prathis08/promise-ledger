@@ -1,0 +1,65 @@
+{
+ "slug": "gdp-usd",
+ "title": "India nominal GDP in current US dollars",
+ "unit": "US$ trillion (current prices)",
+ "source": {
+  "publisher": "World Bank (World Development Indicators, NY.GDP.MKTP.CD)",
+  "title": "GDP (current US$) - India",
+  "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.CD?format=json&per_page=100&date=2010:2025"
+ },
+ "points": [
+  {
+   "x": "2013-14",
+   "y": 1.857
+  },
+  {
+   "x": "2014-15",
+   "y": 2.039
+  },
+  {
+   "x": "2015-16",
+   "y": 2.104
+  },
+  {
+   "x": "2016-17",
+   "y": 2.295
+  },
+  {
+   "x": "2017-18",
+   "y": 2.651
+  },
+  {
+   "x": "2018-19",
+   "y": 2.703
+  },
+  {
+   "x": "2019-20",
+   "y": 2.836
+  },
+  {
+   "x": "2020-21",
+   "y": 2.675
+  },
+  {
+   "x": "2021-22",
+   "y": 3.167
+  },
+  {
+   "x": "2022-23",
+   "y": 3.25
+  },
+  {
+   "x": "2023-24",
+   "y": 3.501
+  },
+  {
+   "x": "2024-25",
+   "y": 3.761
+  },
+  {
+   "x": "2025-26",
+   "y": 3.956
+  }
+ ],
+ "note": "Retrieved 2026-10-17 from the World Bank API (last updated 2026-10-08). World Bank labels India's data by the year in which the fiscal year starts; the values (e.g. 3.76 for the year labelled 2024) match IMF/press figures quoted for fiscal 2024-25, so x is shown as fiscal year. Labelling convention should be confirmed by a reviewer. The 2024-25 target in the claim was $5 trillion."
+}

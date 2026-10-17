@@ -1,0 +1,64 @@
+{
+  "id": "inc-reddy-2004-free-power-farmers",
+  "speaker": "Y. S. Rajasekhara Reddy",
+  "date": "2004-05-14",
+  "venue": "Andhra Pradesh Chief Minister's Office, Hyderabad (order after taking oath)",
+  "language": "te",
+  "quote_original": "",
+  "quote_english": "Free electricity to agricultural pumpsets was a campaign promise in the 2004 Andhra Pradesh assembly election; Reddy ordered it immediately after being sworn in as Chief Minister on 14 May 2004.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2004-06-30",
+  "verdict": "true",
+  "summary": "Free power to farmers was a Congress promise in the 2004 Andhra Pradesh election; YSR ordered the scheme on taking office in May 2004 and the agricultural subsidy continued through his term.",
+  "topics": [
+    "agriculture",
+    "energy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Free electricity to farmers (Andhra Pradesh) - Wikipedia (documents the 2004 order and scheme)",
+      "url": "https://en.wikipedia.org/wiki/Free_electricity_to_farmers_(Andhra_Pradesh)"
+    },
+    {
+      "title": "Andhra Pradesh 2004-2009 Congress manifesto/term record - Rajakiyam.org",
+      "url": "https://rajakiyam.org/manifestos/RC_inc_ap_2004"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "MANAGE (National Institute of Agricultural Extension Management), Government of India",
+      "title": "New Agricultural Schemes - Andhra Pradesh",
+      "url": "https://www.manage.gov.in/fpoacademy/SGSchemes/andhrapradesh.pdf",
+      "date": "2021-10-13",
+      "key_figure": "Free power scheme was introduced in 2004 and has been functioning since then; agriculture electricity cash transfer estimated at about Rs 8,400 crore per annum"
+    },
+    {
+      "type": "news",
+      "publisher": "Wikipedia (citing India Today, 7 June 2004; rediff.com)",
+      "title": "Andhra Pradesh CM Y.S. Rajasekhara Reddy orders free power to state farmers",
+      "url": "https://en.wikipedia.org/wiki/Free_electricity_to_farmers_(Andhra_Pradesh)",
+      "date": "2013-07-19",
+      "key_figure": "Scheme signed on 14 May 2004; initial annual subsidy bill about Rs 400 crore; about 7 hours of power supply a day to fields"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Free power to agriculture was a Congress election promise in Andhra Pradesh in 2004. On the day he was sworn in as Chief Minister, Y. S. Rajasekhara Reddy signed an order providing free electricity to agricultural pumpsets.\n\nThe initial subsidy bill was reported at about Rs 400 crore and the scheme supplied about seven hours of power a day to farms. A Government of India (MANAGE) document records that the free power scheme was introduced in 2004 and has continued in operation since then, with the annual agriculture electricity subsidy estimated at about Rs 8,400 crore per annum in later years.\n\nThe promise was implemented immediately on assuming office; the policy question that followed concerned the fiscal cost of the subsidy, which grew substantially over time.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Primary 2004 news articles (India Today, 7 June 2004; rediff.com) are referenced through the Wikipedia page but their direct URLs were not opened during research; the scheme's existence and 2004 start are corroborated by the MANAGE government document and later official statements. Quote is the reported wording, not verbatim.",
+  "party": "INC",
+  "role": "Chief Minister, Andhra Pradesh",
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

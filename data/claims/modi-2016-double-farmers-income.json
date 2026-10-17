@@ -1,0 +1,81 @@
+{
+  "id": "modi-2016-double-farmers-income",
+  "speaker": "Narendra Modi",
+  "date": "2016-02-28",
+  "venue": "Kisan rally, Bareilly, Uttar Pradesh",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Farmers' income should double by 2022, the 75th year of India's independence (paraphrase of the PM's stated aim at the rally and in his posted tweets).",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2022-12-31",
+  "verdict": "missed-deadline",
+  "summary": "The latest NSO survey (2018-19) put average monthly income per agricultural household at Rs 10,218, well short of a doubling of the 2015-16 baseline, and no official post-2019 figure showing doubling has been published.",
+  "topics": [
+    "agriculture",
+    "income"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM Modi addresses a farmers rally in Bareilly, Uttar Pradesh (narendramodi.in)",
+      "url": "https://www.narendramodi.in/pm-modi-addresses-a-farmers-rally-in-bareilly-uttar-pradesh-424525"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "NSO / MoSPI",
+      "title": "Situation Assessment of Agricultural Households, 77th round (NSS Report 587), reference year July 2018-June 2019",
+      "url": "https://microdata.gov.in/nada43/index.php/catalog/157/overview",
+      "date": "2021-09-10",
+      "key_figure": "Average monthly income per agricultural household Rs 10,218 (2018-19) vs Rs 6,426 (2012-13, 70th round), as reported in secondary coverage of the NSS reports"
+    },
+    {
+      "type": "news",
+      "publisher": "Scroll.in",
+      "title": "Doubling farmers' income: a decade under Modi",
+      "url": "https://scroll.in/article/1063427/a-decade-under-modi-farmers-income-yet-to-double-msp-growth-slows-down",
+      "date": "",
+      "key_figure": "DFI committee baseline Rs 96,703/yr (2015-16); 10.4% annual growth needed; 2018-19 income Rs 1,22,616/yr; crop-cultivation income fell about 1.5% a year since 2015-16"
+    },
+    {
+      "type": "news",
+      "publisher": "Down To Earth",
+      "title": "Govt says farmers' incomes more than doubled; but doesn't give any number",
+      "url": "https://www.downtoearth.org.in/agriculture/govt-says-farmers-incomes-more-than-doubled-but-doesn-t-give-any-number-83814",
+      "date": "2022-07-20",
+      "key_figure": "Target about Rs 21,146/month (2015-16 base Rs 8,059, inflation-adjusted) vs Rs 10,218 in 2018-19"
+    },
+    {
+      "type": "news",
+      "publisher": "Down To Earth",
+      "title": "Can farm income be doubled by next year",
+      "url": "https://www.downtoearth.org.in/agriculture/can-farm-income-be-doubled-by-next-year-75614",
+      "date": "",
+      "key_figure": "Required growth 10.4% a year vs observed 2.8-3.4%; notes March 2020 Standing Committee on Agriculture report (not read directly)"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Written Lok Sabha reply by Agriculture Minister N.S. Tomar, 19 July 2022 (as reported by Down To Earth)",
+      "url": "https://www.downtoearth.org.in/agriculture/govt-says-farmers-incomes-more-than-doubled-but-doesn-t-give-any-number-83814",
+      "summary": "Minister said 'it has been seen that it has more than doubled', crediting government schemes and citing an ICAR compilation of success stories of about 75,000 farmers whose income reportedly more than doubled, based on recall; no national figures were given."
+    }
+  ],
+  "chart": {
+    "series": "farm-income",
+    "target": 16118,
+    "target_label": "2x of 2015-16 baseline (Rs 8,059/month, 2015-16 prices)"
+  },
+  "analysis": "The Bareilly rally of 28 February 2016 and the Budget 2016-17 speech (reported as 'double farmers' income' in five years or by 2022) set the aim. The Dalwai Committee estimated 2015-16 average income at Rs 96,703 a year (about Rs 8,059 a month) and said about 10.4% annual real growth was needed.\n\nThe NSO's 77th-round survey (2018-19) found Rs 10,218 a month, about 27% above the 2015-16 estimate in nominal terms over three years. Commentators estimate real farm income growth well under the required pace. The survey compares different survey rounds and years, so the comparison is approximate. No later NSO round with comparable figures was found.\n\nThe government says incomes more than doubled but has published no national figures to support this; it cited recall-based success stories.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Exact Hindi wording not retrieved (narendramodi.in page timed out on direct fetch; content known from search snippet). Budget speech wording unverified: reports say 'five years' (Al Jazeera) and 'by 2022' (Taxheal/Plastemart); official text on indiabudget.gov.in not fetched. No video found. Parliament PDF on rsdebate.nic.in redirected; Standing Committee report not read directly. Chart target uses 2x of Rs 8,059 in 2015-16 prices; the DTE inflation-adjusted figure (Rs 21,146) is in 2022-23 prices, and Scroll quotes 192,694/yr, so figures differ slightly by source. 2018-19 value is nominal.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "bjp-sitharaman-2024-pmay-urban-2",
+  "speaker": "Nirmala Sitharaman",
+  "party": "BJP",
+  "role": "Union Finance Minister",
+  "level": "central",
+  "state": null,
+  "date": "2024-07-23",
+  "venue": "Lok Sabha, Parliament House, New Delhi (Union Budget 2024-25 speech)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Under the PM Awas Yojana Urban 2.0, housing needs of 1 crore urban poor and middle-class families will be addressed with an investment of ₹10 lakh crore. This will include the central assistance of ₹2.2 lakh crore in the next 5 years.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2029-03-31",
+  "verdict": "in-progress",
+  "summary": "The scheme was approved for 1 crore houses over five years from 2024; by October 2026 about 20.8 lakh houses had been sanctioned, so the target is not yet met.",
+  "topics": [
+    "housing"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Budget 2024: FM announces ₹10 lakh crore investment into scheme for urban housing",
+      "url": "https://www.thehindu.com/business/budget/budget-2024-fm-announces-10-lakh-crore-investment-into-scheme-for-urban-housing/article68436021.ece",
+      "timestamp_seconds": null,
+      "channel": "The Hindu"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "Union Budget 2024-25 Speech (PDF)",
+      "url": "https://www.indiabudget.gov.in/budget2024-25/doc/Budget_Speech.pdf"
+    },
+    {
+      "title": "PIB: PM's package of schemes announced in Budget 2024-25 (PMAY-U 2.0)",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/jul/doc2024723352501.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PMO / Government of India",
+      "title": "Cabinet approves Pradhan Mantri Awas Yojana-Urban 2.0 Scheme",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-pradhan-mantri-awas-yojana-urban-2-0-scheme/",
+      "date": "2024-08-09",
+      "key_figure": "1 crore houses for urban poor and middle-class families; investment ₹10 lakh crore; government assistance ₹2.30 lakh crore."
+    },
+    {
+      "type": "news",
+      "publisher": "DD India",
+      "title": "PMAY-U 2.0: Over 1.93 lakh additional houses approved; total sanctions reach 20.80 lakh",
+      "url": "https://ddindia.co.in/2026/10/pmay-u-2-0-over-1-93-lakh-additional-houses-approved-total-sanctions-reach-20-80-lakh/",
+      "date": null,
+      "key_figure": "Total houses sanctioned under PMAY-U 2.0 reached 20.80 lakh after the 10th CSMC meeting."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "MoHUA (PIB)",
+      "title": "MoHUA sanctions additional houses under PMAY-U 2.0",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2179800",
+      "date": "2025-10-15",
+      "key_figure": "1.41 lakh additional houses sanctioned at the 5th CSMC meeting."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Housing & Urban Affairs",
+      "title": "Pradhan Mantri Awas Yojana - Urban 2.0 (scheme page)",
+      "url": "https://www.mohua.gov.in/offerings/schemes-and-services/details/pradhan-mantri-awas-yojana-urban-MjNzYjMtQWa",
+      "date": null,
+      "key_figure": "PMAY-U 2.0 'Housing for All' Mission effective 01.09.2024; 1 crore additional households."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PMO: Cabinet approves PMAY-U 2.0",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-pradhan-mantri-awas-yojana-urban-2-0-scheme/",
+      "summary": "The government states the scheme will address housing needs of one crore families with an investment of ₹10 lakh crore, ensuring better quality of life."
+    }
+  ],
+  "chart": null,
+  "analysis": "In the Union Budget 2024-25 speech, the Finance Minister announced PM Awas Yojana-Urban 2.0 for one crore urban poor and middle-class families, with an investment of ₹10 lakh crore and central assistance of ₹2.2 lakh crore over five years. The Union Cabinet formally approved the scheme on 9 August 2024, and MoHUA records it as effective from 1 September 2024.\n\nMoHUA sanction data reported by DD India show that total houses sanctioned under PMAY-U 2.0 reached about 20.80 lakh by October 2026, against the one-crore target. A PIB release of 15 October 2025 recorded 1.41 lakh additional houses sanctioned at the fifth CSMC meeting.\n\nThe five-year implementation window runs from 2024, so the target is still open.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "This is a distinct promise from the earlier 'Housing for All by 2022' commitment (modi-2017-housing-for-all-by-2022): it is a new scheme (PMAY-U 2.0) with a new one-crore target and a 2024-2029 window. The ₹2.2 lakh crore figure is used in the Budget speech while the PMO/moHUA pages cite ₹2.30 lakh crore government assistance; both appear in official material. DD India publication date not confirmed; the URL indicates October 2026. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 4,
+    "matched": 3,
+    "score": 0.75
+  }
+}

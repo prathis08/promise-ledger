@@ -1,0 +1,53 @@
+{
+  "id": "modi-2019-ayushman-bharat-50-crore-cover",
+  "speaker": "Narendra Modi",
+  "date": "2019-09-27",
+  "venue": "United Nations General Assembly, New York",
+  "language": "en",
+  "quote_original": "Every year 50 crore get benefits of health insurance to the tune of Rs. 5 lakh",
+  "quote_english": "Every year 50 crore get benefits of health insurance to the tune of Rs. 5 lakh",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "About 50 crore people were eligible for cover of up to Rs 5 lakh per family, but BOOM found only about 4.5 million had used the scheme in its first year.",
+  "topics": [
+    "health",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Public welfare to global welfare: PM Modi's UNGA address (BOOM, quotes the speech)",
+      "url": "https://boomlive.in/public-welfare-to-global-welfare-pm-modis-unga-address-at-new-york"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "BOOM",
+      "title": "Public welfare to global welfare: PM Modi's UNGA address",
+      "url": "https://boomlive.in/public-welfare-to-global-welfare-pm-modis-unga-address-at-new-york",
+      "date": "2019-09-27",
+      "key_figure": "National Health Authority (14 Sept 2019): about 10.74 crore families, roughly 50 crore people covered; about 4.5 million availed in first year; rated Partially True in body (summary box says False)"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "National Health Authority release, 14 September 2019 (as cited by BOOM)",
+      "url": "https://boomlive.in/public-welfare-to-global-welfare-pm-modis-unga-address-at-new-york",
+      "summary": "The NHA described the scheme as covering about 10.74 crore families, roughly 50 crore beneficiaries, with cover up to Rs 5 lakh per family per year."
+    }
+  ],
+  "chart": null,
+  "analysis": "The scheme (PM-JAY) entitles about 10.74 crore poorer families, roughly 50 crore people, to cover of up to Rs 5 lakh per family per year. The statement says 50 crore 'get benefits' every year, which suggests use rather than eligibility.\n\nBOOM found about 4.5 million people had availed treatment in the first year. Read as eligibility, the figure matches the National Health Authority; read as annual beneficiaries, it does not.",
+  "confidence": "low",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Only one evidence item found; needs a second (e.g. NHA/PIB or Lok Sabha figures on hospital admissions). BOOM's rating is internally inconsistent (body Partially True, summary False). Verdict is mine and based on that single fact-check. Topic is health though outside my domain list; assigned to welfare-schemes item 7.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "global-innovation-index",
+  "name": "Global Innovation Index",
+  "publisher": "WIPO (with Cornell University and INSEAD in earlier editions)",
+  "url": "https://www.wipo.int/en/web/global-innovation-index",
+  "higher_is_better": false,
+  "metric": "Rank",
+  "out_of_label": "economies ranked",
+  "points": [
+    {
+      "year": 2013,
+      "value": 66,
+      "out_of": null,
+      "source_url": "https://ssrana.in/?p=8955"
+    },
+    {
+      "year": 2014,
+      "value": 76,
+      "out_of": 143,
+      "source_url": "https://yourstory.com/2014/08/global-innovation-index-2014"
+    },
+    {
+      "year": 2015,
+      "value": 81,
+      "out_of": null,
+      "source_url": "https://www.qatar-tribune.com/article/198481/business/indias-journey-in-innovation-reaches-new-milestone"
+    },
+    {
+      "year": 2016,
+      "value": 66,
+      "out_of": 128,
+      "source_url": "https://biovoicenews.com/india-rises-to-66th-rank-on-global-innovation-index/"
+    },
+    {
+      "year": 2017,
+      "value": 60,
+      "out_of": null,
+      "source_url": "https://yourstory.com/2017/06/india-60th-global-innovation-index"
+    },
+    {
+      "year": 2018,
+      "value": 57,
+      "out_of": null,
+      "source_url": "https://www.wipo.int/edocs/gii-ranking/2018/in.pdf"
+    },
+    {
+      "year": 2019,
+      "value": 52,
+      "out_of": 129,
+      "source_url": "https://www.wipo.int/edocs/gii-ranking/2019/in.pdf"
+    },
+    {
+      "year": 2020,
+      "value": 48,
+      "out_of": 131,
+      "source_url": "https://www.wipo.int/edocs/gii-ranking/2020/in.pdf"
+    },
+    {
+      "year": 2021,
+      "value": 46,
+      "out_of": 132,
+      "source_url": "https://www.wipo.int/edocs/gii-ranking/2021/in.pdf"
+    },
+    {
+      "year": 2022,
+      "value": 40,
+      "out_of": 132,
+      "source_url": "https://www.wipo.int/edocs/gii-ranking/2022/in.pdf"
+    },
+    {
+      "year": 2023,
+      "value": 40,
+      "out_of": 132,
+      "source_url": "https://www.wipo.int/edocs/gii-ranking/2023/in.pdf"
+    },
+    {
+      "year": 2024,
+      "value": 39,
+      "out_of": 133,
+      "source_url": "https://www.wipo.int/edocs/gii-ranking/2024/in.pdf"
+    },
+    {
+      "year": 2025,
+      "value": 38,
+      "out_of": 139,
+      "source_url": "https://www.wipo.int/edocs/gii-ranking/2025/in.pdf"
+    },
+    {
+      "year": 2026,
+      "value": 38,
+      "out_of": 139,
+      "source_url": "https://www.wipo.int/edocs/gii-ranking/2026/in.pdf"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Economic Survey 2025-26 on GII rank improving to 38th in 2025 from 66th in 2019",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219992&reg=48&lang=2",
+      "summary": "Government cites the rise as evidence of strengthening innovation performance; India is first among lower-middle-income economies and in Central and Southern Asia."
+    },
+    {
+      "title": "Lok Sabha reply describing GII 2017 result",
+      "url": "https://eparlib.nic.in/bitstream/123456789/768405/1/AU5626.pdf",
+      "summary": "Parliamentary answer describing the 2017 result as a 21-place improvement from 81st in 2015 and 6 places from 66th in 2016."
+    }
+  ],
+  "methodology_note": "WIPO states data availability and changes to the GII model framework influence year-on-year comparisons; the 2025 confidence interval for India's rank is 37-41 and for 2026 is 34-39. Out-of counts not confirmed (omitted) for 2013, 2015, 2017, 2018; sources conflict for 2017 (127 vs 130). 2013 (66) and 2014 (76, down ten) per press/secondary tables; 2018 WIPO brief says 57th, up three from 2017. WIPO country briefs 2019-2026 are primary sources. India's rise is real across the series but part of it reflects model changes.",
+  "related_claims": []
+}

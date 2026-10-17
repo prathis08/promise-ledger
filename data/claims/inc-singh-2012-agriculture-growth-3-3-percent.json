@@ -1,0 +1,72 @@
+{
+  "id": "inc-singh-2012-agriculture-growth-3-3-percent",
+  "speaker": "Manmohan Singh",
+  "date": "2012-08-15",
+  "venue": "Red Fort, New Delhi (Independence Day address)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Because of our Government's efforts for development of agriculture and for protecting the interests of farmers, agriculture has grown at an average rate of 3.3 per cent in the 11th Plan which is substantially higher than the 2.4 per cent we achieved in the 10th Plan.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The Prime Minister stated that agriculture grew at an average of 3.3 per cent in the Eleventh Plan versus 2.4 per cent in the Tenth Plan; official estimates put Eleventh Plan agricultural growth in the 3.3-3.7 per cent range, above the Tenth Plan's 2.4 per cent.",
+  "topics": [
+    "agriculture",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Prime Minister Dr. Manmohan Singh's Independence Day Speech, 2012 (official English rendering)",
+      "url": "https://www.indianembassyusa.gov.in/ArchivesDetails?id=1857"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "PM confident of 4% growth in agriculture",
+      "url": "https://www.thehindu.com/news/national/pm-confident-of-4-growth-in-agriculture/article3426190.ece",
+      "date": "2012-05-16",
+      "key_figure": "Minister of State for Planning stated agriculture grew by 3.3 per cent during the Eleventh Plan"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "NITI Aayog",
+      "title": "Agriculture in Post-Independence India: growth trajectory",
+      "url": "https://www.niti.gov.in/node/346",
+      "date": "2021-09-24",
+      "key_figure": "Agriculture and allied GVA trend growth: 2.74% (1990-91 to 2004-05) and 3.56% (2004-05 to 2020-21)"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Prime Minister's Office",
+      "title": "PM's speech at Fourth Anniversary of UPA-II Government",
+      "url": "https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=1315",
+      "date": "2013-05-22",
+      "key_figure": "3.7 per cent growth per year in agriculture during the Eleventh Plan compared with 2.4 per cent in the Tenth Plan"
+    }
+  ],
+  "govt_response": [],
+  "chart": {
+    "series": "agriculture-gva-growth",
+    "target": 4.0,
+    "target_label": "Eleventh Plan target"
+  },
+  "analysis": "The Prime Minister's 2012 Independence Day address compared average agricultural growth in the Eleventh Plan (2007-12) with the Tenth Plan (2002-07), giving 3.3 per cent against 2.4 per cent. In May 2013, at the fourth anniversary of UPA-II, he placed Eleventh Plan agricultural growth at 3.7 per cent against 2.4 per cent in the Tenth Plan.\n\nThe lower 3.3 per cent figure was also stated in Parliament by the Minister of State for Planning in 2012. NITI Aayog's later long-run series shows agriculture and allied GVA growing at about 3.56 per cent per year over 2004-05 to 2020-21, faster than 2.74 per cent over 1990-91 to 2004-05.\n\nBoth the 3.3 per cent and 3.7 per cent figures are within the range reported by different official sources for the Eleventh Plan, and both exceed the Tenth Plan figure of 2.4 per cent. The claim rests on official growth estimates rather than a contested number.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The Independence Day address was delivered in Hindi; the quote is the government's official English rendering, so quote_is_verbatim is false. Official sources give 3.3% or 3.7% for the same Plan period depending on series and revision. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

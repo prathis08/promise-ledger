@@ -1,0 +1,65 @@
+{
+  "id": "inc-shinde-2010-62000mw-11th-plan",
+  "speaker": "Sushilkumar Shinde",
+  "party": "INC",
+  "role": "Union Minister of Power",
+  "level": "central",
+  "state": null,
+  "date": "2010-03-28",
+  "venue": "Solapur, Maharashtra",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "About 62,000 MW capacity addition would certainly be achieved out of the 78,700 MW target envisaged for the 11th Plan.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Power Minister Sushilkumar Shinde said in March 2010 that about 62,000 MW of the 78,700 MW 11th Plan capacity-addition target would certainly be achieved; official figures show 54,964 MW was actually added (88 per cent of the 62,374 MW revised target).",
+  "topics": [
+    "energy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Power Ministry achieves 21221 MW capacity addition - Construction Week India",
+      "url": "https://www.constructionweekonline.in/business/power-ministry-achieves-21221-mw-capacity-addition"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "Press Information Bureau, Ministry of Power",
+      "title": "Capacity Addition Target",
+      "url": "https://archive.pib.gov.in/newsite/PrintRelease.aspx?relid=87247",
+      "date": "2012-09-03",
+      "key_figure": "11th Plan target 78,700 MW, revised to 62,374 MW; achieved 54,964 MW (88 per cent of the revised target)"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Press Information Bureau, Ministry of Power",
+      "title": "Capacity Addition of Power",
+      "url": "https://archive.pib.gov.in/newsite/PrintRelease.aspx?relid=98536",
+      "date": "2013-08-22",
+      "key_figure": "Thermal capacity added in the 11th Plan was 48,540 MW; 20,832 MW of the original target could not be commissioned"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Capacity Addition Target (Rajya Sabha reply)",
+      "url": "https://archive.pib.gov.in/newsite/PrintRelease.aspx?relid=87247",
+      "summary": "The government stated the 11th Plan target was revised downward to 62,374 MW by the Planning Commission's mid-term appraisal and that 54,964 MW (88 per cent) was achieved."
+    }
+  ],
+  "chart": null,
+  "analysis": "Construction Week India reported on 28 March 2010 that, after 21,221 MW had been commissioned in the 11th Plan to that point, Power Minister Sushilkumar Shinde said about 62,000 MW would certainly be achieved. Central Electricity Authority projections at the time estimated 62,374 MW with a high degree of certainty.\n\nA PIB release of 3 September 2012 recorded that the original 78,700 MW target for the 11th Plan was revised to 62,374 MW and that 54,964 MW was achieved, which is 88 per cent of the revised target and about 70 per cent of the original target.\n\nThe 62,000 MW figure cited by the minister was not reached; actual addition was 54,964 MW.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The Construction Week article quotes Shinde; the two PIB releases (Rajya Sabha and Lok Sabha replies) provide the outcome figures and were read directly.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

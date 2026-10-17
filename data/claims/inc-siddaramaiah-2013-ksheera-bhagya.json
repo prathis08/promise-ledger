@@ -1,0 +1,80 @@
+{
+  "id": "inc-siddaramaiah-2013-ksheera-bhagya",
+  "speaker": "Siddaramaiah",
+  "party": "INC",
+  "role": "Chief Minister, Karnataka",
+  "level": "state",
+  "state": "Karnataka",
+  "date": "2013-08-01",
+  "venue": "Hoskote, Karnataka",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Over 65 lakh schoolchildren in 51,000 government schools and 39 lakh children in anganwadi centres will receive 150 ml of milk three times a week under the Ksheera Bhagya scheme.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Ksheera Bhagya was launched on 1 August 2013; official and press accounts say it covered about 1.04 crore children (65 lakh school and 39 lakh anganwadi) with 150 ml of milk three times a week.",
+  "topics": [
+    "health",
+    "education"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Siddaramaiah launches Ksheera Bhagya scheme",
+      "url": "https://www.thehindu.com/news/cities/bangalore/siddaramaiah-launches-ksheera-bhagya-scheme/article4977524.ece",
+      "date": "2013-08-01"
+    },
+    {
+      "title": "Finally, free milk for govt schoolkids becomes reality",
+      "url": "https://www.deccanherald.com/india/karnataka/finally-free-milk-govt-schoolkids-2275786",
+      "date": "2013-08-01"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Siddaramaiah launches Ksheera Bhagya scheme",
+      "url": "https://www.thehindu.com/news/cities/bangalore/siddaramaiah-launches-ksheera-bhagya-scheme/article4977524.ece",
+      "date": "2013-08-01",
+      "key_figure": "65 lakh schoolchildren in 51,000 government schools and 39 lakh anganwadi children; 150 ml of milk three times a week"
+    },
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "Karnataka Assembly elections: From BSY to Siddaramaiah, the land of milk and money",
+      "url": "https://indianexpress.com/article/india/karnatakas-milk-subsidy-win-win-for-kisans-and-kids-siddaramaiah-5160046/",
+      "date": "2018-05-02",
+      "key_figure": "Ksheera Bhagya provides a 150-ml glass of free milk to around 1.04 crore children: 65 lakh school and 39 lakh anganwadi children"
+    },
+    {
+      "type": "news",
+      "publisher": "Deccan Herald",
+      "title": "Finally, free milk for govt schoolkids becomes reality",
+      "url": "https://www.deccanherald.com/india/karnataka/finally-free-milk-govt-schoolkids-2275786",
+      "date": "2013-08-01",
+      "key_figure": "150 ml of milk every alternate day of the week under Ksheera Bhagya, launched by Chief Minister Siddaramaiah"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "The Hindu: launch report",
+      "url": "https://www.thehindu.com/news/cities/bangalore/siddaramaiah-launches-ksheera-bhagya-scheme/article4977524.ece",
+      "summary": "The Chief Minister said the programme would help tackle malnutrition among children and benefit milk farmers in the state."
+    }
+  ],
+  "chart": null,
+  "analysis": "Ksheera Bhagya was launched at Hoskote on 1 August 2013. The scheme provided 150 ml of milk three times a week to children in government schools and anganwadi centres.\n\nThe Hindu reported 65 lakh schoolchildren in 51,000 government schools and 39 lakh anganwadi children, about 1.04 crore children in total. The Indian Express later described the same coverage.\n\nThe scheme was implemented and continued; the initial three-day-a-week schedule was later extended. The claim is supported by the launch reports and subsequent coverage data.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is the reported scheme description at the Chief Minister's launch, not a verbatim quotation. The Hindu article says milk was to be given three times a week; Deccan Herald describes an alternate-day schedule, which is consistent with three days in a six-day school week. The scheme was later extended to five days a week in 2017.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 2,
+    "score": 0.6666666666666666
+  }
+}

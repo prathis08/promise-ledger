@@ -1,0 +1,69 @@
+[
+  {
+    "errors": [
+      "all source-of-quote URLs dead"
+    ],
+    "claim": {
+      "id": "inc-chidambaram-2004-double-farm-credit",
+      "speaker": "P. Chidambaram",
+      "date": "2004-07-08",
+      "venue": "Lok Sabha, Union Budget 2004-05 speech",
+      "language": "en",
+      "quote_original": "",
+      "quote_english": "It is my intention to double the flow of agricultural credit in three years.",
+      "quote_is_verbatim": true,
+      "claim_type": "promise",
+      "deadline": "2007-07-08",
+      "verdict": "true",
+      "summary": "The 2004-05 Budget set a target of doubling the flow of agricultural credit in three years with 2004-05 as base year; the Ministry of Agriculture's own annual report states the target was achieved in two years.",
+      "topics": [
+        "agriculture",
+        "economy"
+      ],
+      "media": [],
+      "transcript_sources": [],
+      "evidence": [
+        {
+          "type": "govt_data",
+          "publisher": "Department of Agriculture and Cooperation, Ministry of Agriculture",
+          "title": "Annual Report 2013-14",
+          "url": "https://agriwelfare.gov.in/Documents/Annual-Report-2013-14.pdf",
+          "date": "2014-01-01",
+          "key_figure": "The target of doubling the flow of agricultural credit in three years with base year 2004-05 was achieved in two years; agricultural credit flow reached Rs 5,11,029 crore in 2011-12"
+        },
+        {
+          "type": "govt_data",
+          "publisher": "Reserve Bank of India",
+          "title": "Report on Trend and Progress / agricultural credit doubling",
+          "url": "https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=2240",
+          "date": "2008-01-01",
+          "key_figure": "Actual disbursements exceeded the annual targets for each of the four years after the June 2004 credit policy announcement"
+        },
+        {
+          "type": "govt_data",
+          "publisher": "Prime Minister's Office",
+          "title": "PM's Independence Day Speech, 2008",
+          "url": "https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=677",
+          "date": "2008-08-15",
+          "key_figure": "In the past four years bank credit for the agricultural sector increased from Rs 81,000 crore to Rs 2,25,000 crore"
+        }
+      ],
+      "govt_response": [],
+      "chart": {
+        "series": "agricultural-credit",
+        "target": 2,
+        "target_label": "2x of 2004-05 base"
+      },
+      "analysis": "The Budget speech said the intention was to double the flow of agricultural credit within three years, with a comprehensive agricultural credit policy announced on 18 June 2004 as the starting point. The statement of intent carried no separate sanction; it was an implementation target for scheduled commercial banks, RRBs and cooperative institutions.\n\nRBI's own review notes that actual disbursements exceeded the annual targets in each of the years after the June 2004 announcement. The Department of Agriculture's Annual Report 2013-14 states explicitly that the target of doubling the flow of agricultural credit in three years, with 2004-05 as base year, was achieved in two years.\n\nIn the 2008 Independence Day address the Prime Minister placed bank credit for agriculture at Rs 2,25,000 crore in 2007-08 against Rs 81,000 crore four years earlier. On the government's own data the doubling target was met ahead of the three-year window.",
+      "confidence": "high",
+      "review_status": "draft",
+      "last_reviewed": "2026-10-17",
+      "notes": "The RBI page title used here was seen in search results; the base figure of Rs 81,000 crore and the Rs 2,25,000 crore figure come from the PM's 2008 Independence Day speech.",
+      "party": "INC",
+      "role": "Union Finance Minister",
+      "level": "central",
+      "state": null,
+      "researched_by": "deepseek-v4.1-flash-free"
+    }
+  }
+]

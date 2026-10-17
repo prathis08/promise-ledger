@@ -1,0 +1,82 @@
+{
+  "id": "shah-2019-article-370-end-terrorism",
+  "speaker": "Amit Shah",
+  "date": "2019-08-11",
+  "venue": "Book launch event, Chennai (as reported by The Week)",
+  "language": "en",
+  "quote_original": "after (scrapping) Article 370, terrorism in Kashmir will end and it will progress on the path of development",
+  "quote_english": "After scrapping Article 370, terrorism in Kashmir will end and it will progress on the path of development.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "in-progress",
+  "summary": "Official data show terror-initiated incidents in J&K fell from 228 (2018) to 41 (to 15 Nov 2023), but terrorism has not ended: SATP records 127 fatalities in 2024 and the April 2025 Pahalgam attack killed 26 civilians.",
+  "topics": [
+    "kashmir",
+    "terrorism",
+    "security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Week: Article 370 removal will lead to end of terrorism in Kashmir: Shah (11 Aug 2019)",
+      "url": "https://www.theweek.in/news/india/2019/08/11/article-370-removal-will-lead-to-end-of-terrorism-in-kashmir-shah.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "Ministry of Home Affairs (MoS Nityanand Rai, written reply, 6 Dec 2023)",
+      "title": "Terror-initiated incidents in J&K by year",
+      "url": "https://www.dailyexcelsior.com/news/archive/terror-incidents-constantly-declining-in-jk-lowest-in-2023-mha",
+      "date": "2023-12-06",
+      "key_figure": "Terror-initiated incidents: 228 (2018), 153 (2019), 126 (2020), 129 (2021), 125 (2022), 41 (2023 to 15 Nov). Civilians killed: 55 (2018), 44 (2019), 38, 41, 31, 13 (2023 to 15 Nov). Security personnel killed: 91, 80, 63, 42, 32, 20."
+    },
+    {
+      "type": "index",
+      "publisher": "South Asia Terrorism Portal (SATP)",
+      "title": "Jammu & Kashmir assessment: fatalities by year",
+      "url": "https://satp.org/terrorism-assessment/india-jammukashmir",
+      "date": "2025-04-06",
+      "key_figure": "Total fatalities: 452 (2018), 283 (2019), 321 (2020), 274 (2021), 253 (2022), 134 (2023), 127 (2024; 31 civilians, 26 security forces, 69 terrorists)."
+    },
+    {
+      "type": "fact_check",
+      "publisher": "BOOM",
+      "title": "Has terror in J&K seen a decline post scrapping of Article 370?",
+      "url": "https://www.boomlive.in/politics/has-terror-in-jk-seen-a-decline-post-scrapping-of-article-370-6166",
+      "date": "2019-11-29",
+      "key_figure": "MHA reply: 20 killed (17 civilians, 3 security personnel) in terror-related incidents from 5 Aug to late Nov 2019; SATP counted 25 killing incidents and 21 deaths versus 100 incidents and 72 deaths in the same months of 2018."
+    },
+    {
+      "type": "news",
+      "publisher": "Deccan Herald / Punjab Kesari (PTI-ANI)",
+      "title": "Pahalgam attack, April 2025: Amit Shah reaches Srinagar to review security",
+      "url": "https://www.deccanherald.com/india/pahalgam-terror-attack-amit-shah-to-reach-srinagar-soon-to-review-security-vows-to-not-spare-perpetrators-3504602",
+      "date": "2025-04-22",
+      "key_figure": "Attack on tourists at Baisaran meadow near Pahalgam on 22 April 2025; initial reports put the death toll at 26."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Shah, 25 Jan 2024: 70% decline in terror incidents since abrogation",
+      "url": "https://www.theweek.in/news/india/2024/01/25/new-era-of-peace-and-security-has-begun-in-jammu-and-kashmir-amit-shah.amp.html",
+      "summary": "Shah said total terrorism-related incidents fell 70%, civilian deaths fell 81% and security-force deaths fell 48% after abrogation, and described this as the start of a new era of peace and security. The Wire has argued the comparison baseline (earlier decades) is not like-for-like."
+    }
+  ],
+  "chart": {
+    "series": "jk-terror-incidents",
+    "target": null,
+    "target_label": "Article 370 abrogated 5 Aug 2019"
+  },
+  "analysis": "On 11 August 2019, six days after Article 370 was read down, Shah said terrorism in Kashmir would end after its scrapping. He also described the provision in the Lok Sabha as a root cause of terrorism (reported by WION; not checked against the debate record).\n\nMHA figures show terror-initiated incidents fell from 228 (2018) to 153 (2019), about 125-129 a year in 2020-22 and 41 in 2023 up to 15 November. Civilian deaths fell from 55 to 13 and security-force deaths from 91 to 20 over the same series. SATP's total fatality count fell from 452 (2018) to 134 (2023). Incident counts were roughly flat at 125-129 a year in 2020-2022 before the 2023 drop.\n\nThe decline has not been to zero. SATP recorded 127 fatalities in 2024, including 31 civilians. On 22 April 2025 militants killed tourists at Baisaran near Pahalgam; early reports counted 26 dead. Shah himself said in 2024 and later that violence had fallen by roughly 70-80%, a framing that concedes it has not ended.\n\nThe ledger therefore records the 'terrorism will end' prediction as in progress: a large, MHA-documented decline, but not an end. Different MHA replies use different incident definitions, so only same-series comparisons are valid.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Quote is from The Week's English report; I could not find a video or the original-language wording. The Lok Sabha 5 Aug 2019 speech (terrorism root cause, '41 thousand' deaths) was only seen via WION summary and is not cited as a source. Pahalgam toll: initial reports said 26; some reports later said 28; I did not locate the MHA figure. SATP 2018 civilian/SF split not retrieved. The Wire critique page could not be fully read (only headline retrieved) so it is not used as evidence. Verdict is a judgment call between 'in-progress' and 'unachieved'.",
+  "party": "BJP",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

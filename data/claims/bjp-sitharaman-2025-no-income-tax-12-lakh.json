@@ -1,0 +1,78 @@
+{
+  "id": "bjp-sitharaman-2025-no-income-tax-12-lakh",
+  "speaker": "Nirmala Sitharaman",
+  "date": "2025-02-01",
+  "venue": "Union Budget 2025-26 speech, Parliament (Lok Sabha)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "There will be no tax on income up to Rs 12,00,000 per annum, under the New Tax Regime.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The Budget 2025-26 nil-tax threshold of Rs 12 lakh (Rs 12.75 lakh with the standard deduction) under the new tax regime was enacted and applied from FY2025-26.",
+  "topics": [
+    "income",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "No income tax on annual income up to Rs 12 lakh under new tax regime (PIB, Budget 2025-26)",
+      "url": "https://pib.gov.in/Pressreleaseshare.aspx?PRID=2098406"
+    },
+    {
+      "title": "Union Budget 2025: No income tax payable for income up to Rs 12 lakh under new tax regime, says Nirmala Sitharaman (The Hindu, 1 February 2025)",
+      "url": "https://www.thehindu.com/business/budget/union-budget-2025-no-income-tax-payable-on-income-up-to-12-lakh-says-nirmala-sitharaman/article69167571.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau",
+      "title": "No income tax on annual income up to Rs 12 lakh under new tax regime",
+      "url": "https://pib.gov.in/Pressreleaseshare.aspx?PRID=2098406",
+      "date": "2025-02-01",
+      "key_figure": "Proposed nil tax up to Rs 12 lakh under the new regime; documented as a Budget 2025-26 measure"
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Union Budget 2025: No income tax payable for income up to Rs 12 lakh under new tax regime, says Nirmala Sitharaman",
+      "url": "https://www.thehindu.com/business/budget/union-budget-2025-no-income-tax-payable-on-income-up-to-12-lakh-says-nirmala-sitharaman/article69167571.ece",
+      "date": "2025-02-01",
+      "key_figure": "Effective nil-tax limit Rs 12.75 lakh with the Rs 75,000 standard deduction; fourth revision since 2014"
+    },
+    {
+      "type": "news",
+      "publisher": "TaxGuru",
+      "title": "Budget 2025-26: No income tax up to Rs 12 lakh under new tax regime",
+      "url": "https://www.taxguru.in/income-tax/income-tax-annual-income-upto-rs-12-lakh-new-tax-regime.html",
+      "date": "",
+      "key_figure": "New slabs applied for the assessment year corresponding to FY2025-26"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB on the Budget 2025-26 income tax relief",
+      "url": "https://pib.gov.in/Pressreleaseshare.aspx?PRID=2098406",
+      "summary": "The government described the measure as continued relief for the middle class under the new tax regime and an across-the-board reduction in tax burden."
+    }
+  ],
+  "chart": null,
+  "analysis": "In her Budget 2025-26 speech on 1 February 2025, Sitharaman proposed that no income tax be payable on income up to Rs 12 lakh under the new tax regime, with the Rs 75,000 standard deduction raising the effective threshold to Rs 12.75 lakh for salaried taxpayers.\n\nThe change was incorporated into the Finance Act and the revised slabs applied from FY2025-26. The nil-tax threshold had earlier been raised to Rs 7 lakh in 2023.\n\nThis claim is recorded as true: the measure was enacted and took effect as announced. The relief applies only under the new tax regime, not the old one.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "quote_english is the widely reported wording; quote_is_verbatim=false because no official speech transcript was opened. The PIB page returned HTTP 403 on direct fetch, so its content is relied on via search-result text; The Hindu article was read. Confidence is medium because the Finance Act itself was not opened. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "party": "BJP",
+  "role": "Union Finance Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

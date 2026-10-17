@@ -1,0 +1,63 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statistic",
+  "deadline": null,
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM's speech at launch of PM Ayushman Bharat Health Infrastructure Mission in Varanasi (pmindia.gov.in)",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-at-launch-of-pm-ayushman-bharat-health-infrastructure-mission-in-varanasi/"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "बीते 7 वर्षों में देश में मेडिकल की 60,000 नई सीटें जोड़ी गई हैं",
+  "id": "modi-2021-medical-seats-60000-added",
+  "date": "2021-10-25",
+  "venue": "Launch of PM Ayushman Bharat Health Infrastructure Mission, Varanasi",
+  "language": "hi",
+  "quote_english": "60,000 new medical seats have been added in the last seven years (PMO translation, as quoted by FactChecker). He also said there were fewer than 90,000 medical seats before 2014.",
+  "verdict": "misleading",
+  "topics": [
+    "health",
+    "education"
+  ],
+  "summary": "MoHFW annual reports show about 76,000 total medical seats in 2013-14 and about 1.29 lakh in 2020-21 (a net rise of roughly 52,500), not a base above 90,000 or an addition of 60,000; seats did rise substantially.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in (IndiaSpend)",
+      "title": "PIB, Modi claim medical seats have increased, but quote different numbers",
+      "url": "https://factchecker.in/fact-check/modi-pib-quote-medical-seats-difference-783623",
+      "date": "2021-10-27",
+      "key_figure": "Rated misleading; official data shows ~52,489 net seats added, not 60,000"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Health and Family Welfare",
+      "title": "Annual Report 2013-14",
+      "url": "https://main.mohfw.gov.in/sites/default/files/Chapter1515.pdf",
+      "date": null,
+      "key_figure": "76,175 medical seats in 2013-14 (51,979 UG, 24,196 PG)"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Health and Family Welfare",
+      "title": "Annual Report 2020-21",
+      "url": "https://main.mohfw.gov.in/sites/default/files/Annual%20Report%202020-21%20English.pdf",
+      "date": "2021",
+      "key_figure": "1,28,664 medical seats in 2020-21 (86,649 UG, 42,015 PG)"
+    }
+  ],
+  "analysis": "Modi said 60,000 medical seats were added in seven years and that there were under 90,000 seats before 2014. FactChecker compared this with MoHFW annual reports.\n\nThe 2013-14 report lists 76,175 seats and the 2020-21 report 1,28,664, a net addition of about 52,489. PIB's separate figure of 51,348 to 85,825 undergraduate seats (+34,477) matched undergraduate-only data. The fact-checker also notes about 48.65% of undergraduate seats were in private colleges (Lok Sabha reply, Feb 2021).\n\nMedical seats did rise sharply under the period; the objection is to the specific figures.",
+  "confidence": "high",
+  "notes": "FactChecker reported the PMO did not respond to its request for comment. Later claims (2026) that colleges more than doubled are consistent with government data but were not separately fact-checked and are not covered here. Devanagari quote reconstructed from the transliteration quoted by FactChecker; treat as approximate.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

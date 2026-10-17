@@ -1,0 +1,68 @@
+{
+  "id": "inc-reddy-2004-jalayagnam",
+  "speaker": "Y. S. Rajasekhara Reddy",
+  "date": "2004-06-01",
+  "venue": "Andhra Pradesh Government (Jalayagnam irrigation programme launch)",
+  "language": "te",
+  "quote_original": "",
+  "quote_english": "Jalayagnam comprised 86 irrigation projects taken up from 2004-05 with the aim of creating an ayacut of 97.46 lakh acres and stabilising an existing ayacut of 22.53 lakh acres.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2009-05-31",
+  "verdict": "unachieved",
+  "summary": "Jalayagnam, launched in 2004 with 86 projects and a target of about 97 lakh acres of new irrigation, was found by CAG's 2012 performance audit to have been taken up without adequate planning and clearances and to have largely not delivered the intended irrigation potential within the term.",
+  "topics": [
+    "agriculture",
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Andhra Pradesh 2004-2009 Congress term record - Rajakiyam.org",
+      "url": "https://rajakiyam.org/manifestos/RC_inc_ap_2004"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "cag",
+      "publisher": "Comptroller and Auditor General of India",
+      "title": "Report No. 2 of 2012 - Performance Audit of Jalayagnam in Andhra Pradesh",
+      "url": "https://cag.gov.in/en/audit-report/details/1369",
+      "date": "2013-06-21",
+      "key_figure": "86 projects (44 major, 30 medium, 4 flood banks, 8 modernisation) estimated at Rs 1.86 lakh crore; aimed to create ayacut of 97.46 lakh acres and stabilise 22.53 lakh acres"
+    },
+    {
+      "type": "cag",
+      "publisher": "South Asia Network on Dams, Rivers and People (CAG findings summary)",
+      "title": "CAG blows the lid off massive irrigation scam in Andhra Pradesh",
+      "url": "https://sandrp.in/wp-content/uploads/2018/03/cag-blows-the-lid-off-massive-irrigation-scam-in-andhra-pradesh.pdf",
+      "date": "2013-07-19",
+      "key_figure": "As on March 2012, about Rs 80,000 crore spent on Jalayagnam projects with 86 projects costing over Rs 1.86 lakh crore"
+    },
+    {
+      "type": "news",
+      "publisher": "The Economic Times",
+      "title": "CAG report exposes irregularities in AP irrigation projects",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/cag-report-exposes-irregularities-in-ap-irrigation-projects/articleshow/20702065.cms",
+      "date": "2013-07-19",
+      "key_figure": "CAG criticised major irrigation projects taken up without adequate planning and without clearances from the Central Water Commission, Planning Commission and Ministry of Environment and Forests"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Jalayagnam was the flagship irrigation programme of the YSR government, launched in 2004. It comprised 86 projects with an approved cost of about Rs 1.86 lakh crore; 74 projects were sanctioned between 2004-05 and 2008-09. The stated objective was to create a new ayacut of 97.46 lakh acres and stabilise 22.53 lakh acres, mainly in the drought-prone Telangana and Rayalaseema regions.\n\nCAG's performance audit (Report No. 2 of 2012) reviewed implementation of the programme as a whole and of individual projects. It recorded that several projects were taken up without adequate planning and without clearances from agencies including the Central Water Commission, Planning Commission and Ministry of Environment and Forests, and that works did not achieve the objective of providing irrigation to the intended agricultural land.\n\nBy the end of YSR's term in 2009 a large share of the targeted new irrigation potential had not been realised, and spending continued well beyond the term. Press reporting in 2013 recorded that about Rs 80,000 crore had been spent on the programme as of March 2012.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The deadline is set to the end of YSR's term (2009); the projects ran well past that date. The exact month of the launch is not asserted here; date is set to 2004-06-01 with the year established by the CAG and MANAGE documents.",
+  "party": "INC",
+  "role": "Chief Minister, Andhra Pradesh",
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

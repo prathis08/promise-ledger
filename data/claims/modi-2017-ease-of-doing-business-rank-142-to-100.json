@@ -1,0 +1,63 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statistic",
+  "deadline": null,
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM addresses HT Leadership Summit (narendramodi.in)",
+      "url": "https://www.narendramodi.in/man/pm-addresses-ht-leadership-summit-385906"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2017-ease-of-doing-business-rank-142-to-100",
+  "date": "2017-11-30",
+  "venue": "Hindustan Times Leadership Summit, New Delhi",
+  "language": "hi",
+  "quote_english": "India's Ease of Doing Business rank rose from 142 to 100 because of a systemic overhaul (paraphrase from FactChecker's list).",
+  "verdict": "misleading",
+  "topics": [
+    "economy",
+    "governance"
+  ],
+  "summary": "India's rank did rise 42 places (142 to 100) but the World Bank warned rankings across years are not comparable because of methodology changes; FactChecker rated the claim 'false'.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in / BOOM",
+      "title": "9 of Prime Minister Modi's 16 claims on schemes true, 3 false",
+      "url": "https://www.boomlive.in/9-modis-16-claims-govt-schemes-true-3-false",
+      "date": "2017-12-18",
+      "key_figure": "Rated 9 true, 3 false, 2 partly true, 2 unclear across the 30 Nov 2017 HT Leadership Summit speech"
+    },
+    {
+      "type": "index",
+      "publisher": "World Bank",
+      "title": "Doing Business 2018 full report",
+      "url": "https://www.doingbusiness.org/~/media/WBG/DoingBusiness/Documents/Annual-Reports/English/DB2018-Full-Report.pdf",
+      "date": "2017-10-31",
+      "key_figure": "Rank 100; report cautions on cross-year comparability due to methodology changes"
+    },
+    {
+      "type": "index",
+      "publisher": "World Bank",
+      "title": "Doing Business 2015 full report",
+      "url": "https://www.doingbusiness.org/~/media/WBG/DoingBusiness/Documents/Annual-Reports/English/DB15-Full-Report.pdf",
+      "date": "2014-10-29",
+      "key_figure": "Earlier-edition ranking used as comparison baseline"
+    }
+  ],
+  "analysis": "FactChecker accepted that the headline rank rose 42 places between 2015 and 2018 but rated the claim false because it attributed the rise to a systemic overhaul while the World Bank cautions that ranks from different editions use different methodologies.\n\nOur scale maps this to misleading: the numbers are real, the causal and comparative framing is not supported by the World Bank's own caveats.",
+  "confidence": "medium",
+  "notes": "FactChecker's label was 'False'; we use 'misleading' because the numbers cited are accurate. The Doing Business reports were later discontinued by the World Bank (2021) after data irregularities in other editions; not researched here.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

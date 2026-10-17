@@ -1,0 +1,69 @@
+{
+  "id": "inc-manmohan-2009-rajiv-awas-yojana-five-years",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2009-08-15",
+  "venue": "Independence Day address, Red Fort, Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "In the next five years, we will provide better housing facilities to slum dwellers through a new scheme, Rajiv Awas Yojana. ... Today, lakhs of our citizens live in slums which lack basic amenities. We wish to make our country slum free as early as possible.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2014-08-15",
+  "verdict": "missed-deadline",
+  "summary": "Rajiv Awas Yojana was announced in 2009 with a stated five-year aim of making India slum-free; Census 2011 still recorded about 65.5 million slum residents and the ministry projected about 93 million by 2012.",
+  "topics": [
+    "housing"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Govt to provide houses to slum dwellers in five years (PM's Independence Day speech, Hindustan Times)",
+      "url": "https://www.hindustantimes.com/delhi/govt-to-provide-houses-to-slum-dwellers-in-five-years/story-6IR9mtN3iMX6V9vMfctc9O.html"
+    },
+    {
+      "title": "President's address to Parliament, June 2009 — Rajiv Awas Yojana (President of India)",
+      "url": "http://presidentofindia.nic.in/smt-pratibha-devisingh-patil/speeches/address-honble-president-india-shrimati-pratibha-devisingh"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Slum-free India scheme to be taken up as national mission",
+      "url": "https://www.thehindu.com/news/national/slumfree-india-scheme-to-be-taken-up-as-national-mission/article2358818.ece",
+      "date": "2011-08-15",
+      "key_figure": "Housing and Urban Poverty Alleviation Ministry estimate: about 93.06 million people would live in slums by 2012; scheme expected to begin in 250 cities with an estimated 32.10 million slum residents"
+    },
+    {
+      "type": "news",
+      "publisher": "Hindustan Times / PTI",
+      "title": "Govt to provide houses to slum dwellers in five years",
+      "url": "https://www.hindustantimes.com/delhi/govt-to-provide-houses-to-slum-dwellers-in-five-years/story-6IR9mtN3iMX6V9vMfctc9O.html",
+      "date": "2009-08-15",
+      "key_figure": "Token allocation of Rs 150 crore in the scheme's first year"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "President's address to Parliament, June 2009",
+      "url": "http://presidentofindia.nic.in/smt-pratibha-devisingh-patil/speeches/address-honble-president-india-shrimati-pratibha-devisingh",
+      "summary": "The government described RAY as support under JNNURM to states willing to assign property rights to slum dwellers, aimed at a slum-free India in five years."
+    }
+  ],
+  "chart": null,
+  "analysis": "Rajiv Awas Yojana (RAY) was announced in June 2009 and the Prime Minister repeated the five-year housing aim in his Independence Day address of 15 August 2009. Phase I was approved in June 2011, with a first-year token allocation of Rs 150 crore.\n\nCensus 2011 counted about 65.5 million people living in slums. The Housing and Urban Poverty Alleviation Ministry estimated that about 93.06 million people would live in slums by 2012, and a 2011 report said the scheme was expected to begin in 250 cities holding an estimated 32.10 million slum residents.\n\nThe five-year window from the 2009 announcement ended in 2014. Slums were not eliminated and the scheme was still in an early rollout phase by the end of the INC/UPA period.\n\nThe verdict rests on the persistence of slum populations against the stated goal; no post-2014 primary evaluation document was located during this research.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The five-year count is taken from the 2009 Independence Day speech. A precise post-2014 official evaluation of RAY (completed houses vs target) was not located through the search tools available, so confidence is medium.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

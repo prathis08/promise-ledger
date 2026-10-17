@@ -1,0 +1,86 @@
+{
+  "id": "bjp-shah-2024-no-stone-pelting-2023",
+  "speaker": "Amit Shah",
+  "party": "BJP",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2024-01-31",
+  "venue": "Posts on X by the Home Minister's office, reported by PTI, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Not a single incident of stone pelting took place in Jammu and Kashmir in 2023.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Official MHA and Rajya Sabha answers recorded nil organised stone-pelting and nil organised hartals in 2023, against 1,221-1,767 stone-pelting incidents in 2018; sporadic incidents have occurred in other years.",
+  "topics": [
+    "kashmir",
+    "security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Week / PTI: Modi govt rebuilt J-K, ended era of terrorism; no stone pelting incident in 2023, says Amit Shah (31 Jan 2024)",
+      "url": "https://www.theweek.in/wire-updates/national/2024/01/31/del82-jk-shah.html"
+    },
+    {
+      "title": "The Federal / PTI: no stone pelting incident in 2023, says Amit Shah (31 Jan 2024)",
+      "url": "https://thefederal.com/top-stories/modi-govt-rebuilt-j-k-ended-terrorism-era-no-stone-pelting-incident-in-2023-amit-shah-108321"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Times of India",
+      "title": "J&K terror incidents fell to 44 in 2023 from 228 in 2018: MHA (1 Jan 2024)",
+      "url": "https://timesofindia.indiatimes.com/india/jk-terror-incidents-fell-to-44-in-2023-from-228-in-2018-mha/amp_articleshow/106426551.cms",
+      "date": "2024-01-01",
+      "key_figure": "'Nil' incidents of organised hartals and organised stone-pelting related to terrorism and separatism recorded up to 15 December 2023, against 52 hartals and 1,221 stone-pelting incidents in 2018."
+    },
+    {
+      "type": "parliament",
+      "publisher": "Rajya Sabha / MoS Home Nityanand Rai (reported by Akashvani)",
+      "title": "No organised stone-pelting or hartal in J&K since 2023: written reply (24 Jul 2024)",
+      "url": "https://newsonair.gov.in/jk-sees-surge-in-foreign-tourism-and-improved-law-order-since-2023-with-no-organized-stone-pelting-or-hartal/",
+      "date": "2024-07-24",
+      "key_figure": "No single incident of organised stone-pelting or organised hartal since 2023; J&K recorded 2.11 crore tourist visits in 2023."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Home Affairs data reported by NDTV",
+      "title": "Stone pelting, strikes stopped following Article 370 abrogation: Centre (5 Aug 2024)",
+      "url": "https://www.ndtv.com/india-news/stone-pelting-strikes-stopped-following-article-370-abrogation-centre-6271208",
+      "date": "2024-08-05",
+      "key_figure": "In 2023 no incidents of stone pelting or strikes were reported (a 100% drop from 2,654 incidents in 2010), per MHA data."
+    },
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "Stone-pelting in Srinagar as protests against Khamenei killing lead to clashes (2 Mar 2026)",
+      "url": "https://indianexpress.com/article/india/khameneis-killing-jammu-kashmir-protests-shutdown-us-israel-strikes-in-iran-10560774",
+      "date": "2026-03-02",
+      "key_figure": "The report describes this as the first stone-throwing protest in the Valley since the 2019 abrogation, indicating the 2023 record referred to organised, terror-linked incidents rather than a permanent end."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB / MHA reply, March 2025: 2,654 stone-pelting incidents a year under the previous government; zero under the Modi government",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2149811&lang=2&reg=3",
+      "summary": "The government's position is that organised stone-pelting fell from an average of 2,654 incidents a year (2010-2014) to zero."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 31 January 2024 Shah's office posted that not a single incident of stone-pelting took place in Jammu and Kashmir in 2023. PTI reported the statement.\n\nOfficial data support the statement for the category actually counted. An MHA compilation reported by TOI recorded 'nil' organised hartals and organised stone-pelting linked to terrorism and separatism up to 15 December 2023, against 52 hartals and 1,221 stone-pelting incidents in 2018. A Rajya Sabha reply in July 2024 said there had been no organised stone-pelting or organised hartal since 2023, and NDTV reported MHA data showing a 100% drop from 2,654 incidents in 2010.\n\nThe claim is exact only under the 'organised' qualifier: sporadic stone-throwing has occurred in other years, including a protest in Srinagar in March 2026 that the Indian Express described as the first such protest since 2019. Because the claim is specifically about 2023 and the official 2023 record is nil, it is recorded as true with the qualifier noted.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The wording is from PTI/The Week and refers to a post by Shah's office, so quote_is_verbatim is false. The primary MHA document was not opened; the figures come via TOI/NDTV/Akashvani reporting of MHA and Rajya Sabha replies. The literal phrasing ('not a single incident') is broader than the official 'organised' category; a reviewer may prefer 'misleading' if sporadic incidents within 2023 are documented. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

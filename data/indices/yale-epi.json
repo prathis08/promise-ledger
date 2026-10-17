@@ -1,0 +1,80 @@
+{
+  "slug": "yale-epi",
+  "name": "Environmental Performance Index",
+  "publisher": "Yale Center for Environmental Law & Policy / Columbia CIESIN",
+  "url": "https://epi.yale.edu/",
+  "higher_is_better": false,
+  "metric": "Rank",
+  "out_of_label": "countries ranked",
+  "points": [
+    {
+      "year": 2006,
+      "value": 118,
+      "out_of": 133,
+      "source_url": "https://ciesin.columbia.edu/sites/ciesin.columbia.edu/files/content/2006-epi-full-report.cleaned.pdf"
+    },
+    {
+      "year": 2008,
+      "value": 120,
+      "out_of": 149,
+      "source_url": "https://sustentabilidad.uai.edu.ar/pdf/negocios/2008EPI_Rankings_1page.pdf"
+    },
+    {
+      "year": 2010,
+      "value": 123,
+      "out_of": 163,
+      "source_url": "https://www.hindustantimes.com/world/india-ranks-123rd-in-pollution-control-iceland-on-top/story-Gg2xtHGLH8mt6NXnS3dQ6H.html"
+    },
+    {
+      "year": 2012,
+      "value": 125,
+      "out_of": 132,
+      "source_url": "https://economictimes.indiatimes.com/india-ranks-125th-in-environment-performance-index-report/articleshow/11672699.cms"
+    },
+    {
+      "year": 2014,
+      "value": 155,
+      "out_of": null,
+      "source_url": "https://www.rgics.org/environment/deciphering-indias-176th-global-rank-in-the-environmental-performance-index-2024/"
+    },
+    {
+      "year": 2018,
+      "value": 177,
+      "out_of": 180,
+      "source_url": "https://www.downtoearth.org.in/news/wildlife-biodiversity/india-must-redouble-sustainability-efforts-environment-performance-index-71603"
+    },
+    {
+      "year": 2020,
+      "value": 168,
+      "out_of": 180,
+      "source_url": "https://mail.morungexpress.com/india-ranks-168th-on-environmental-performance-index"
+    },
+    {
+      "year": 2022,
+      "value": 180,
+      "out_of": 180,
+      "source_url": "https://m.thewire.in/article/environment/india-second-from-lowest-in-environment-performance-index"
+    },
+    {
+      "year": 2024,
+      "value": 176,
+      "out_of": 180,
+      "source_url": "https://www.rgics.org/environment/deciphering-indias-176th-global-rank-in-the-environmental-performance-index-2024/"
+    },
+    {
+      "year": 2026,
+      "value": 176,
+      "out_of": 177,
+      "source_url": "https://www.drishtiias.com/state-pcs-current-affairs/india-ranked-176th-in-environmental-performance-index-2026/print_manually"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "MoEF&CC rejects EPI 2022 ranking",
+      "url": "https://indianexpress.com/article/explained/environment-index-and-india-7963597/",
+      "summary": "Environment ministry said several indicators rest on 'surmises and unscientific methods' (Indian Express explainer, June 2022); also reported in Hindustan Times: https://www.hindustantimes.com/opinion/indias-lagging-sustainability-performance-101656338200590.html"
+    }
+  ],
+  "methodology_note": "EPI is biennial and the indicator set changes substantially between editions (e.g. new climate-change indicators in 2022), so ranks across editions are not strictly comparable. Out-of count for 2014 not confirmed (omitted). 2016 edition (reported by some as 141st) and 2012/2010 not confirmed and omitted. Scores: 2018 30.57, 2020 27.6, 2024 27.6 (Wikipedia), 2026 22.46 (Estonia top at 74.79; Laos last at 21.78) per press coverage. 2014 and 2024 points cite an analysis noting a fall from 155th (2014) to 176th (2024). The 2022 rank (180 of 180) was the lowest of any country that edition.\n\nBack-fill (pre-2014 editions, researched by deepseek, unreviewed): EPI is biennial and the indicator set changes substantially between editions (e.g. new climate-change indicators in 2022), so ranks across editions are not strictly comparable. Out-of count for 2014 not confirmed (omitted). 2016 edition (reported by some as 141st) and 2012/2010 not confirmed and omitted. Scores: 2018 30.57, 2020 27.6, 2024 27.6 (Wikipedia), 2026 22.46 (Estonia top at 74.79; Laos last at 21.78) per press coverage. 2014 and 2024 points cite an analysis noting a fall from 155th (2014) to 176th (2024). The 2022 rank (180 of 180) was the lowest of any country that edition. Earlier editions added: the Pilot 2006 EPI ranked India 118th of 133 (score 47.7); the 2008 EPI ranked India 120th of 149 (score 60.3); the 2010 EPI ranked India 123rd of 163; the 2012 EPI ranked India 125th of 132. METHODOLOGY BREAK: the pilot 2006 index used 16 indicators across six policy categories, the 2008 and 2010 editions used 25 indicators across ten categories, and the 2012 edition used 22 indicators across ten categories, with country coverage changing from 133 to 149 to 163 to 132; ranks and scores are therefore not comparable across these editions. There was no 2004 EPI (the series began with the Pilot 2006 edition), and the 2016 edition was not confirmed and is omitted.",
+  "related_claims": []
+}

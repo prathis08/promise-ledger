@@ -1,0 +1,77 @@
+{
+  "id": "inc-reddy-2007-aarogyasri-health-insurance",
+  "speaker": "Y. S. Rajasekhara Reddy",
+  "party": "INC",
+  "role": "Chief Minister, Andhra Pradesh",
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "date": "2007-04-01",
+  "venue": "Andhra Pradesh (state-wide launch of the health insurance scheme)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The state government will provide free hospital treatment to below-poverty-line families through a new health insurance scheme (Aarogyasri).",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The Andhra Pradesh government under Chief Minister Y. S. Rajasekhara Reddy launched the Aarogyasri health insurance scheme in 2007; state records describe it as a state-sponsored scheme for BPL families covering thousands of listed procedures.",
+  "topics": [
+    "health"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Dr. YSR Aarogyasri scheme — Government of Andhra Pradesh / Dr. NTR Vaidya Seva Trust",
+      "url": "https://drntrvaidyaseva.ap.gov.in/dr.ysr-aarogyasri-scheme"
+    },
+    {
+      "title": "Dr. YSR Aarogyasri Health Care Trust (Government of Andhra Pradesh)",
+      "url": "https://drntrvaidyaseva.ap.gov.in/asri1"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Government of Andhra Pradesh (Dr. NTR Vaidya Seva Trust)",
+      "title": "Dr. YSR Aarogyasri Health Insurance Scheme",
+      "url": "https://drntrvaidyaseva.ap.gov.in/asri1",
+      "date": "2020-01-01",
+      "key_figure": "State-sponsored Dr. YSR Aarogyasri health insurance scheme providing cashless, evidence-based care to poor families and protecting them from catastrophic health expenditure"
+    },
+    {
+      "type": "news",
+      "publisher": "Times of India",
+      "title": "Revanth pledges to fulfil YSR's dreams, revive key irrigation projects",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/revanth-pledges-to-fulfil-ysrs-dreams-revive-key-irrigation-projects/articleshow/123663024.cms",
+      "date": "2024-09-02",
+      "key_figure": "Aarogyasri health coverage listed among YSR's flagship initiatives"
+    },
+    {
+      "type": "news",
+      "publisher": "Policybazaar",
+      "title": "Aarogyasri Health Insurance Scheme",
+      "url": "https://www.policybazaar.com/health-insurance/govt-scheme/aarogyasri/",
+      "date": "2023-01-01",
+      "key_figure": "Scheme launched by Chief Minister Dr Y. S. Rajasekhara Reddy in 2007, providing cashless treatment to BPL families across 3,000+ procedures"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Government of Andhra Pradesh: Dr. YSR Aarogyasri Health Insurance Scheme",
+      "url": "https://drntrvaidyaseva.ap.gov.in/asri1",
+      "summary": "The state presents Aarogyasri as a pioneer scheme for equity and financial protection in health care for poor families."
+    }
+  ],
+  "chart": null,
+  "analysis": "The Aarogyasri health insurance scheme was introduced by the Government of Andhra Pradesh in 2007 under Chief Minister Y. S. Rajasekhara Reddy. It provided cashless hospital treatment for a defined list of surgical and medical procedures to below-poverty-line families.\n\nState scheme records describe Aarogyasri as a state-sponsored health insurance programme to assist poor families with catastrophic health expenditure, initially with cover of about Rs 2 lakh per family per year across thousands of listed procedures.\n\nThe scheme was retained and renamed by later state governments, and Maharashtra's Rajiv Gandhi Jeevandayee Arogya Yojana was modelled on it, indicating that it was implemented and sustained rather than being a paper announcement.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "No verbatim quote by YSR at the launch was located through the available search tools, so quote_is_verbatim is false and only the reported wording is given. The exact launch day is uncertain (scheme convention dates are given as 2005/2007; some sources say 2 April 2007), so the date is set to 2007-04-01 and the day should be confirmed in review. The claim is treated as a statement of what the state government would deliver, which subsequent scheme records show was delivered. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

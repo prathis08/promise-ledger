@@ -1,0 +1,25 @@
+{
+  "slug": "farm-income",
+  "title": "Average monthly income per agricultural household",
+  "unit": "Rs per month (nominal)",
+  "source": {
+    "publisher": "NSO / MoSPI",
+    "title": "Situation Assessment Survey of Agricultural Households (70th and 77th rounds); 2015-16 is the DFI Committee estimate",
+    "url": "https://microdata.gov.in/nada43/index.php/catalog/157/overview"
+  },
+  "points": [
+    {
+      "x": "2012-13",
+      "y": 6426
+    },
+    {
+      "x": "2015-16",
+      "y": 8059
+    },
+    {
+      "x": "2018-19",
+      "y": 10218
+    }
+  ],
+  "note": "2015-16 is a committee estimate (Rs 96,703/yr) derived from 2012-13 data, per Scroll and Down To Earth, not a survey result. Rounds are not strictly comparable. Nominal values; target line is 2x of the 2015-16 baseline."
+}

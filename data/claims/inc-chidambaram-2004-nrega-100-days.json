@@ -1,0 +1,78 @@
+{
+  "id": "inc-chidambaram-2004-nrega-100-days",
+  "speaker": "P. Chidambaram",
+  "party": "INC",
+  "role": "Union Finance Minister",
+  "level": "central",
+  "state": null,
+  "date": "2004-07-08",
+  "venue": "Lok Sabha, Parliament House, New Delhi (Union Budget 2004-05 speech)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Work has begun on the National Employment Guarantee Act. The object is to guarantee 100 days of employment in a year to one able-bodied person in every poor household.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2005-12-31",
+  "verdict": "true",
+  "summary": "The UPA enacted the National Rural Employment Guarantee Act in 2005, which gives a legal guarantee of at least 100 days of wage employment a year to rural households that demand work.",
+  "topics": [
+    "jobs",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Union Budget 2004-05, Speech of Finance Minister P. Chidambaram (Part B)",
+      "url": "https://www.indiabudget.gov.in/doc/bspeech/bs200405.pdf"
+    },
+    {
+      "title": "Text of the UPA Common Minimum Programme (Employment section), Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/text-of-the-cmp/articleshow/703777.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Government of India (India Code)",
+      "title": "The Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (Act No. 42 of 2005)",
+      "url": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_18_21_00009_200542_1517807324969&filename=a2005-42.pdf&type=actfile",
+      "date": "2005-08-23",
+      "key_figure": "Section 3(1): not less than one hundred days of guaranteed wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB, Ministry of Rural Development",
+      "title": "Effective implementation of Mahatma Gandhi National Rural Employment Guarantee Scheme",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2112680",
+      "date": "2025-03-19",
+      "key_figure": "MGNREGA provides a legal guarantee for 100 days of employment per year to every rural household; 2006-07 to 2013-14 outlay about Rs 2,13,220 crore"
+    },
+    {
+      "type": "news",
+      "publisher": "IHDS / NCAER, University of Maryland",
+      "title": "MGNREGA: A Catalyst for Rural Transformation",
+      "url": "https://ihds.umd.edu/system/files/2021-03/MGNREGA%20Report%20Complete2015-08-08.pdf",
+      "date": "2015-08-08",
+      "key_figure": "Rural households that worked under MGNREGA: 5.26 crore (2009-10) falling to 4.79 crore (2013-14); 283.59 crore and 220.22 crore person-days"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Indian National Congress Manifesto 2009 (states NREGA 'has been an outstanding success')",
+      "url": "https://www.iocongress.org/uploads/manifesto/1547546675_Manifesto_2009.pdf",
+      "summary": "The Congress's 2009 manifesto describes the National Rural Employment Guarantee Act, first promised in its 2004 manifesto, as an outstanding success and pledges at least 100 days of work at a real wage of Rs 100 a day."
+    }
+  ],
+  "chart": null,
+  "analysis": "The UPA Common Minimum Programme (May 2004) committed the government to 'immediately enact a National Employment Guarantee Act' giving a legal guarantee of at least 100 days of employment to one able-bodied person in every rural, urban poor and lower middle class household. In the July 2004 budget speech the Finance Minister said the object was to guarantee 100 days of employment in a year to one able-bodied person in every poor household.\n\nParliament passed the National Rural Employment Guarantee Act in August 2005 and it came into force in February 2006; the law guarantees at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer for unskilled manual work. The core promise was therefore delivered.\n\nThe enacted law narrowed the scope to rural households, so the CMP's reference to urban poor and lower middle class households was not covered by the entitlement. Implementation data also show that the household-level guarantee of 100 days was not always met; the number of households that worked fell from 5.26 crore in 2009-10 to about 4.79 crore in 2013-14, and average days per household were below 100.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 2004-05 budget speech quote was seen through the indexed speech text (the PDF itself could not be fetched here; wording is from the government budget archive / search snippet). The CMP wording uses 'at least 100 days ... for at least one able-bodied person in every rural, urban poor and lower middle class household'. The enacted Act (2005) covers rural households only; implementation figures vary by source. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

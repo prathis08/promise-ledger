@@ -1,0 +1,81 @@
+{
+  "id": "modi-2013-2-crore-jobs-a-year",
+  "speaker": "Narendra Modi",
+  "date": "2013-11-21",
+  "venue": "Vijay Shankhnad rally, Agra, Uttar Pradesh",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Widely attributed paraphrase: Modi/BJP promised 2 crore jobs every year. Fact-checkers report that at Agra he said the Congress had promised 1 crore jobs a year.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "unverifiable",
+  "summary": "No verbatim Modi statement promising '2 crore jobs a year' was found; fact-checkers trace the figure to a misreport of an Agra speech about Congress's 1 crore pledge, while official unemployment data show a fall from 6.0% (2017-18) to 3.2% (2023-24) on PLFS.",
+  "topics": [
+    "jobs",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Narendra Modi addresses Vijay Shankhnad Rally in Agra (narendramodi.in event page; summarises the speech, no jobs quote found on page per search snippet)",
+      "url": "https://www.narendramodi.in/bjp-would-bring-a-change-in-lives-of-people-through-the-mantra-of-development-narendra-modi-in-agra"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "Logically Facts",
+      "title": "Fact check: Narendra Modi had promised 2 crore jobs during the 2014 election campaigns",
+      "url": "https://www.logicallyfacts.com/en/fact-check/false-narendra-modi-had-promised-2-crore-jobs-during-the-2014-election-campaigns",
+      "date": "",
+      "key_figure": "Reports that on 21 Nov 2013 in Agra Modi said Congress had promised 1 crore jobs a year; calls the 2 crore attribution fabricated (summary from search results; page could not be opened)"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "NSO / MoSPI",
+      "title": "PLFS Annual Report 2023-24 press note, Table 3: unemployment rate, usual status (ps+ss), age 15+",
+      "url": "https://mospi.gov.in/sites/default/files/press_release/Press_note_AR_PLFS_2023_24_22092024.pdf",
+      "date": "2024-09-22",
+      "key_figure": "All-India UR: 6.0% (2017-18), 5.8%, 4.8%, 4.2%, 4.1%, 3.2% (2022-23), 3.2% (2023-24)"
+    },
+    {
+      "type": "news",
+      "publisher": "Business Standard",
+      "title": "Jobs as jumlas (opinion)",
+      "url": "https://business-standard.com/article/opinion/jobs-as-jumlas-118121000674_1.html",
+      "date": "2018-12-10",
+      "key_figure": "Frames the 2014 pledge as 10 million (1 crore) jobs, not 2 crore (opinion piece; date inferred from URL)"
+    },
+    {
+      "type": "news",
+      "publisher": "Scroll.in",
+      "title": "Madhya Pradesh polls: Rahul Gandhi says PM Narendra Modi betrayed and lied to people about jobs",
+      "url": "https://scroll.in/latest/903349/madhya-pradesh-polls-rahul-gandhi-says-pm-narendra-modi-betrayed-and-lied-to-people-about-jobs",
+      "date": "",
+      "key_figure": "Example of the 'two crore jobs every year' attribution being made by an opposition leader"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "OpIndia: BJP never promised 2 crore jobs a year",
+      "url": "https://www.opindia.com/?p=831157",
+      "summary": "Argues the 2 crore figure distorts the Agra speech, in which Modi criticised the Congress's 2004 pledge of 1 crore jobs, and that it was a PTI misquote repeated by other outlets. Partisan outlet; not an official government statement."
+    }
+  ],
+  "chart": {
+    "series": "unemployment-rate",
+    "target": null,
+    "target_label": "No numeric target verified"
+  },
+  "analysis": "The phrase '2 crore jobs a year' is commonly attributed to Modi's 2013-14 campaign. Fact-checkers (Logically Facts, summarised in search results) say that on 21 November 2013 in Agra he referred to a Congress promise of 1 crore jobs a year, and that the 2 crore version was a misreport. The 2014 BJP manifesto is cited by Logically Facts as containing no such number; this was not independently checked here.\n\nBecause no verbatim Modi sentence with the 2 crore figure was found, the ledger cannot confirm the promise as quoted. Modi and the BJP did campaign on job creation generally; whether any numeric target was set in other speeches was not established.\n\nFor context, PLFS (usual status, age 15+) shows unemployment at 6.0% in 2017-18 and 3.2% in 2023-24. PLFS began in 2017-18, so no strictly comparable official series exists for 2013-14 to 2016-17. The unemployment rate does not measure the number of jobs created, so it neither confirms nor refutes any specific jobs target.",
+  "confidence": "medium",
+  "notes": "Exact Agra wording not obtained: Logically Facts, Modi's YouTube video of the Agra rally and the Hindi transcript could not be opened/located; no YouTube URL given because none was found. Evidence on Logically Facts is from a search summary. EPFO payroll / CMIE data and government employment-generation claims were not retrieved; add if reviewer wants them. Verdict is 'unverifiable' rather than false because other speeches were not exhaustively searched.",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "party": "BJP",
+  "role": "BJP Prime Ministerial candidate",
+  "level": "party",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

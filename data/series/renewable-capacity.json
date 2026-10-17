@@ -1,0 +1,65 @@
+{
+  "slug": "renewable-capacity",
+  "title": "India installed renewable energy capacity, excluding large hydro",
+  "unit": "GW (cumulative, end of fiscal year unless noted)",
+  "source": {
+    "publisher": "MNRE",
+    "title": "Installed Renewable Energy Capacity (MW) (Excluding Large Hydro Power) - year-wise achievement",
+    "url": "https://mnre.gov.in/en/year-wise-achievement/"
+  },
+  "points": [
+    {
+      "x": "Mar 2014",
+      "y": 35.85
+    },
+    {
+      "x": "Mar 2015",
+      "y": 39.95
+    },
+    {
+      "x": "Mar 2016",
+      "y": 47.09
+    },
+    {
+      "x": "Mar 2017",
+      "y": 58.56
+    },
+    {
+      "x": "Mar 2018",
+      "y": 70.65
+    },
+    {
+      "x": "Mar 2019",
+      "y": 79.41
+    },
+    {
+      "x": "Mar 2020",
+      "y": 88.26
+    },
+    {
+      "x": "Mar 2021",
+      "y": 95.8
+    },
+    {
+      "x": "Mar 2022",
+      "y": 109.89
+    },
+    {
+      "x": "Dec 2022",
+      "y": 120.9
+    },
+    {
+      "x": "Mar 2023",
+      "y": 125.16
+    },
+    {
+      "x": "Mar 2024",
+      "y": 143.64
+    },
+    {
+      "x": "Mar 2025",
+      "y": 172.37
+    }
+  ],
+  "note": "All points except Dec 2022 are derived by summing MNRE's cumulative-till-31.03.2014 figure (35,849.59 MW) and its annual additions (total row) as displayed on the MNRE year-wise page on 2026-10-17; rounded to 2 decimals. Dec 2022 (120.90 GW = solar 63.30 + wind 41.93 + bio 10.73 + small hydro 4.94) is from a Lok Sabha/Rajya Sabha answer of Feb 2023 as reported, and the Standing Committee on Energy. Definition matches the 175 GW target (solar, wind, biomass, small hydro; large hydro excluded). MNRE's 2025-26 total row looked anomalous on the page, so the series stops at Mar 2025."
+}

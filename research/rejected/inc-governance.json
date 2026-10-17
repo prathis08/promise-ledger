@@ -1,0 +1,53 @@
+[
+  {
+    "errors": [
+      "1 evidence URLs dead (404); 1 left"
+    ],
+    "claim": {
+      "id": "inc-sonia-gandhi-2004-rti-act",
+      "speaker": "Sonia Gandhi",
+      "party": "INC",
+      "role": "Congress President / Chairperson, UPA",
+      "level": "party",
+      "state": null,
+      "date": "2004-03-01",
+      "venue": "Indian National Congress manifesto for the 2004 Lok Sabha elections",
+      "language": "en",
+      "quote_original": "",
+      "quote_english": "The Congress's 2004 election manifesto included a commitment to a right-to-information law, and the UPA's National Common Minimum Programme also promised an RTI Act (reported wording).",
+      "quote_is_verbatim": false,
+      "claim_type": "promise",
+      "deadline": null,
+      "verdict": "true",
+      "summary": "The Right to Information Act was passed in May 2005 and came fully into force on 12 October 2005, within the UPA-I term, delivering the manifesto target.",
+      "topics": [
+        "governance",
+        "corruption"
+      ],
+      "media": [],
+      "transcript_sources": [
+        {
+          "title": "Indian National Congress, 2004 Lok Sabha election manifesto",
+          "url": "https://archive.org/details/CongressManifesto2004/mode/1up"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "news",
+          "publisher": "The Indian Express",
+          "title": "Manmohan Singh govt's lasting legacy: RTI Act",
+          "url": "https://indianexpress.com/article/political-pulse/manmohan-singh-govt-lasting-legacy-rti-act-9746170/",
+          "date": "2024-12-27",
+          "key_figure": "RTI Bill introduced December 2004; passed Lok Sabha 11 May 2005 and Rajya Sabha 12 May 2005; implemented 12 October 2005"
+        }
+      ],
+      "govt_response": [],
+      "chart": null,
+      "analysis": "The Indian National Congress's 2004 Lok Sabha manifesto carried a right-to-information commitment, and the UPA's National Common Minimum Programme also promised an RTI Act.\n\nThe Right to Information Bill was introduced in Parliament in December 2004, passed by the Lok Sabha on 11 May 2005 and by the Rajya Sabha on 12 May 2005, and received the President's assent on 15 June 2005; the Act came fully into force on 12 October 2005.\n\nThe Indian Express, reviewing the Manmohan Singh government's record, describes the Act as the fulfilment of the 2004 manifesto promise, while noting that the CBI was exempted from its purview in 2010 during the same government's term.",
+      "confidence": "medium",
+      "review_status": "draft",
+      "last_reviewed": "2026-10-17",
+      "notes": "Manifesto release date approximate (2004); the exact sentence on RTI in the 2004 manifesto could not be retrieved, so quote_is_verbatim is false and the wording is paraphrased. The link between the 2004 manifesto and the RTI Act is documented by The Indian Express. The rti.gov.in URL was identified via the Wikipedia RTI page and was not separately fetched."
+    }
+  }
+]

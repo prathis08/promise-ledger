@@ -1,0 +1,74 @@
+{
+  "id": "inc-singh-2011-inflation-7-percent",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2011-02-16",
+  "venue": "Interaction with editors of the electronic media, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "And at the end of the fiscal year, the inflation rate should come down to no more than 7 percent.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "false",
+  "summary": "Wholesale price inflation remained above 7% through 2010-11 and 2011-12, the period the Prime Minister was referring to.",
+  "topics": [
+    "prices",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Prime Minister Manmohan Singh's interaction with Editors of the Electronic Media on Feb.16, 2011 (transcript), The Hindu",
+      "url": "https://www.thehindu.com/news/resources/Prime-Minister-Manmohan-Singhs-interaction-with-Editors-of-the-Electronic-Media-on-Feb.16-2011/article15446992.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Economic and Political Weekly (Ghatak, 'Growth in the Time of UPA')",
+      "title": "Key indicators during NDA and UPA years",
+      "url": "https://personal.lse.ac.uk/ghatak/upa-epw.pdf",
+      "date": "2014-01-01",
+      "key_figure": "General inflation (industrial workers): UPA-I 6.1%, UPA-II 10.4%; food inflation: UPA-I 7.0%, UPA-II 11.6%"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "MoSPI",
+      "title": "Statistical Year Book India, Prices chapter",
+      "url": "https://mospi.gov.in/sites/default/files/Statistical_year_book_india_chapters/Prices%20Writeup_0.pdf",
+      "date": "2014-01-01",
+      "key_figure": "Annual WPI inflation series for the late-2000s/early-2010s includes readings of 9.6%, 8.9% and 7.6%, i.e. above the 7% mark beforer and around 2010-11"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Reserve Bank of India",
+      "title": "RBI press release: Survey of Professional Forecasters",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=24460",
+      "date": "2011-07-01",
+      "key_figure": "Forecasters' median estimate for WPI inflation in Q1 2011-12 was 8.2%, revised up from 6.4%"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PM's own explanation in the same interaction (global oil/commodity prices, open economy)",
+      "url": "https://www.thehindu.com/news/resources/Prime-Minister-Manmohan-Singhs-interaction-with-Editors-of-the-Electronic-Media-on-Feb.16-2011/article15446992.ece",
+      "summary": "The Prime Minister said inflation was being driven by rising international oil, food and commodity prices and that tighter monetary policy alone could slow it at the cost of growth."
+    }
+  ],
+  "chart": null,
+  "analysis": "In a February 2011 interaction the Prime Minister said the inflation rate should come down to no more than 7% by the end of that fiscal year (March 2011).\n\nWholesale price inflation did not fall to that level. Independent compilations put general (industrial-worker) inflation at an average of about 10.4% during UPA-II and food inflation at about 11.6%, with WPI readings above 8-9% in both 2010-11 and 2011-12. The Reserve Bank's own forecaster survey in mid-2011 expected WPI inflation above 8% in the first quarter of 2011-12.\n\nThe claim is assessed as false on its stated metric (headline inflation below 7% by end-March 2011); inflation was a persistent problem through UPA-II.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The PM's sentence is verbatim from the transcript. The precise annual WPI figure for 2010-11 is not stated unambiguously in the fetched snippets; the MoSPI chapter's year-to-value mapping was not fully verifiable here, so the verdict rests mainly on the EPW compilation and the RBI forecast survey. A monthly WPI release for March 2011 (about 8-9%) was not retrieved.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

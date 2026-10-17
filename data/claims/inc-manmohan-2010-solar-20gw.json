@@ -1,0 +1,70 @@
+{
+  "id": "inc-manmohan-2010-solar-20gw",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2010-01-11",
+  "venue": "Solar Energy Conclave 2010, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The mission planned to create an installed capacity of 20,000 MW by the end of the 13th Plan.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2022-03-31",
+  "verdict": "true",
+  "summary": "The Jawaharlal Nehru National Solar Mission, launched by Prime Minister Manmohan Singh on 11 January 2010, set an initial grid-connected solar target of 20,000 MW by 2022; India crossed 20,000 MW of installed solar capacity in 2018 and had about 54,000 MW by March 2022.",
+  "topics": [
+    "energy",
+    "environment"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Manmohan Singh launches 'Solar India' - The Hindu (archived)",
+      "url": "https://web.archive.org/web/20100115080517/http://www.hindu.com/2010/01/12/stories/2010011260911100.htm"
+    },
+    {
+      "title": "National Solar Mission (overview and targets)",
+      "url": "https://en.wikipedia.org/wiki/National_Solar_Mission"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "index",
+      "publisher": "Wikipedia (compiling MNRE / CEA data)",
+      "title": "National Solar Mission - installed capacity table",
+      "url": "https://en.wikipedia.org/wiki/National_Solar_Mission",
+      "date": "2022-03-31",
+      "key_figure": "Installed solar capacity 53,996 MW as on 31 March 2022; 20 GW crossed in 2018"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Central Electricity Authority (CEA)",
+      "title": "Installed Capacity Reports",
+      "url": "https://cea.nic.in/installed-capacity-report/?lang=en",
+      "date": "2022-03-31",
+      "key_figure": "CEA installed-capacity series used for the solar capacity figures"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "MNRE: Jawaharlal Nehru National Solar Mission",
+      "url": "https://archive.pib.gov.in/newsite/PrintRelease.aspx?relid=90837",
+      "summary": "PIB release (17 December 2012) stating the mission had set a target of 20,000 MW of grid-connected solar power by 2022."
+    }
+  ],
+  "chart": null,
+  "analysis": "The Hindu reported that, at the 11 January 2010 launch, Manmohan Singh said the mission planned to create 20,000 MW of installed capacity by the end of the 13th Plan (2022).\n\nInstalled solar capacity grew from about 11 MW in 2010 to 2,632 MW by March 2014 (end of the INC-led UPA period). It crossed 20 GW in 2018 and reached about 54,000 MW by March 2022, exceeding the original 20 GW target. The Phase-3 goal was later raised to 100 GW, and the 100 GW milestone was reached in January 2025.\n\nThe claim is therefore assessed against the original 20,000 MW target and the stated 2022 timeline; both were met.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The launch date and wording are from The Hindu (archived). The 20,000 MW figure was the mission's initial Phase-3 target, later revised upward to 100 GW. The CEA installed-capacity URL was seen in the National Solar Mission reference list but was not fetched directly.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

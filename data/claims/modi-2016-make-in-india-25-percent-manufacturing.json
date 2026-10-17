@@ -1,0 +1,82 @@
+{
+  "id": "modi-2016-make-in-india-25-percent-manufacturing",
+  "speaker": "Narendra Modi",
+  "date": "2016-02-13",
+  "venue": "Inauguration of Make in India Week, Mumbai",
+  "language": "en",
+  "quote_original": "We want the share of manufacturing in our GDP to go up to 25 per cent in the near future.",
+  "quote_english": "We want the share of manufacturing in our GDP to go up to 25 per cent in the near future.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2022-12-31",
+  "verdict": "missed-deadline",
+  "summary": "Manufacturing's share of GDP has stayed roughly flat or fallen since 2014 (World Bank: 15.1% in 2014-15, 13.5% in 2025-26; MoSPI GVA share about 17-18%), far from the 25% goal that the National Manufacturing Policy had set for 2022.",
+  "topics": [
+    "manufacturing",
+    "economy",
+    "jobs"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Deccan Herald: 'Manufacturing to be 25% of GDP: PM' (quote relayed in search result; page returned 403 on fetch)",
+      "url": "https://www.deccanherald.com/content/528729/manufacturing-25-gdp-pm.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "intl_org",
+      "publisher": "World Bank (WDI)",
+      "title": "Manufacturing, value added (% of GDP) - India",
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/NV.IND.MANF.ZS?format=json&per_page=100&date=2010:2025",
+      "date": "2026-10-08",
+      "key_figure": "15.07% (2014-15), 14.9% (2018-19), 14.4% (2021-22), 13.1% (2024-25), 13.5% (2025-26); fiscal-year labelling inferred"
+    },
+    {
+      "type": "news",
+      "publisher": "ThePrint (citing MoSPI)",
+      "title": "10 yrs of Make in India: the manufacturing sector is back to where it was in 2013-14",
+      "url": "https://theprint.in/economy/10-yrs-of-make-in-india-the-manufacturing-sector-is-back-to-where-it-was-in-2013-14/2283732/",
+      "date": "2024-09-25",
+      "key_figure": "Share 17.3% (2013-14), peak 18.5% (2021-22), 17.7% (2022-23), 17.3% (2023-24)"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Rajya Sabha (Unstarred Q. 1322, 2 Aug 2024)",
+      "title": "Rajya Sabha reply on manufacturing share of GVA (constant prices)",
+      "url": "https://rsdebate.nic.in/bitstream/123456789/750188/1/PQ_265_02082024_U1322_p234_p235.pdf",
+      "date": "2024-08-02",
+      "key_figure": "Manufacturing share of GVA at constant prices 17.2% (2013-14) to 17.3% (2023-24), per search summary; PDF not opened"
+    },
+    {
+      "type": "news",
+      "publisher": "The Wire",
+      "title": "Make in India: 10 years, government silence",
+      "url": "https://thewire.in/economy/make-in-india-10-years-government-silence",
+      "date": "",
+      "key_figure": "Critical assessment of the 25% target (not opened)"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Goyal ties 25% manufacturing share to Viksit Bharat 2047 (BusinessWorld)",
+      "url": "https://businessworld.in/article/in-amrit-kaal-towards-viksit-bharat-2047-share-of-manufacturing-will-also-rise-to-25-piyush-goyal-534319",
+      "summary": "Commerce Minister said the share of manufacturing will rise to 25% in the Amrit Kaal toward 2047, i.e. the goal remains but the date has moved."
+    }
+  ],
+  "chart": {
+    "series": "manufacturing-share-gdp",
+    "target": 25,
+    "target_label": "25% of GDP (target year 2022, later restated)"
+  },
+  "analysis": "Modi said at Make in India Week in Mumbai on 13 February 2016 that the government wanted manufacturing's share of GDP to rise to 25% 'in the near future'. The figure comes from the National Manufacturing Policy (2011), which targeted 25% by 2022 and 100 million additional jobs; secondary sources describe the 2022 date as part of Make in India's objectives and later restated as 2025. The 2022 deadline is the policy's, not a date in Modi's quoted sentence.\n\nThe measured share has not risen. World Bank data give 15.1% for 2014-15 and 13.1-13.5% in 2024-26. MoSPI-based figures (constant-price GVA share) are higher, about 17.2-18.5%, but also show no sustained increase (17.3% in 2013-14, 17.3% in 2023-24). Both bases fall well short of 25%.\n\nThe government has restated the 25% objective with later dates (2025, 2030 or 2047 in various statements).",
+  "confidence": "medium",
+  "notes": "Quote and date come from a search-result snippet attributing the sentence to Deccan Herald/PTI (page not fetchable); date 13 Feb 2016 corroborated by a second source in search results. Original Make in India launch speech (25 Sep 2014) was not found to contain the 25% figure. Rajya Sabha PQ and The Wire pages not opened. No YouTube link found.",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

@@ -1,0 +1,144 @@
+{
+  "slug": "global-hunger-index",
+  "name": "Global Hunger Index",
+  "publisher": "Concern Worldwide / Welthungerhilfe (earlier editions with IFPRI)",
+  "url": "https://www.globalhungerindex.org/india.html",
+  "higher_is_better": false,
+  "metric": "Rank",
+  "out_of_label": "countries ranked",
+  "points": [
+    {
+      "year": 2008,
+      "value": 66,
+      "out_of": 88,
+      "source_url": "https://www.thehindu.com/sci-tech/agriculture/India-ranked-dismal-66th-in-Global-Hunger-Index/article16875885.ece"
+    },
+    {
+      "year": 2009,
+      "value": 65,
+      "out_of": 84,
+      "source_url": "https://www.sansad.in/getFile/annex/221/Au509.pdf?source=pqars"
+    },
+    {
+      "year": 2010,
+      "value": 67,
+      "out_of": 84,
+      "source_url": "https://www.sansad.in/getFile/annex/221/Au509.pdf?source=pqars"
+    },
+    {
+      "year": 2011,
+      "value": 67,
+      "out_of": 81,
+      "source_url": "https://www.globalhungerindex.org/pdf/en/2011/synopsis.pdf"
+    },
+    {
+      "year": 2012,
+      "value": 65,
+      "out_of": 79,
+      "source_url": "https://www.governancenow.com/views/think-tanks/india-ranks-63rd-global-hunger-index"
+    },
+    {
+      "year": 2013,
+      "value": 63,
+      "out_of": 78,
+      "source_url": "https://www.downtoearth.org.in/environment/india-ranked-poorest-in-south-asia-on-hunger-index-42462"
+    },
+    {
+      "year": 2014,
+      "value": 55,
+      "out_of": 76,
+      "source_url": "https://www.altnews.in/has-indias-global-hunger-index-ranking-fallen-from-55-in-2014-to-102-in-2019-a-fact-check/"
+    },
+    {
+      "year": 2015,
+      "value": 80,
+      "out_of": 104,
+      "source_url": "https://www.altnews.in/has-indias-global-hunger-index-ranking-fallen-from-55-in-2014-to-102-in-2019-a-fact-check/"
+    },
+    {
+      "year": 2016,
+      "value": 97,
+      "out_of": 118,
+      "source_url": "https://www.altnews.in/has-indias-global-hunger-index-ranking-fallen-from-55-in-2014-to-102-in-2019-a-fact-check/"
+    },
+    {
+      "year": 2017,
+      "value": 100,
+      "out_of": 119,
+      "source_url": "https://www.altnews.in/has-indias-global-hunger-index-ranking-fallen-from-55-in-2014-to-102-in-2019-a-fact-check/"
+    },
+    {
+      "year": 2018,
+      "value": 103,
+      "out_of": 119,
+      "source_url": "https://www.altnews.in/has-indias-global-hunger-index-ranking-fallen-from-55-in-2014-to-102-in-2019-a-fact-check/"
+    },
+    {
+      "year": 2019,
+      "value": 102,
+      "out_of": 117,
+      "source_url": "https://www.altnews.in/has-indias-global-hunger-index-ranking-fallen-from-55-in-2014-to-102-in-2019-a-fact-check/"
+    },
+    {
+      "year": 2020,
+      "value": 94,
+      "out_of": 107,
+      "source_url": "https://sentinelassam.com/national-news/india-ranks-94-among-107-at-global-hunger-index-2020-507382"
+    },
+    {
+      "year": 2021,
+      "value": 101,
+      "out_of": 116,
+      "source_url": "https://news.careers360.com/global-hunger-index-2021-world-hunger-index-india-pakistan-nepal-bangladesh-china-brazil/amp"
+    },
+    {
+      "year": 2022,
+      "value": 107,
+      "out_of": 121,
+      "source_url": "https://www.deccanherald.com/india/ranked-107-india-slams-erroneous-global-hunger-index-citing-methodological-issues-1153889.html"
+    },
+    {
+      "year": 2023,
+      "value": 111,
+      "out_of": 125,
+      "source_url": "https://www.tribuneindia.com/news/india/india-ranks-111th-on-global-hunger-index-2023-govt-calls-it-flawed-measure-that-doesnt-reflect-true-position-552722"
+    },
+    {
+      "year": 2024,
+      "value": 105,
+      "out_of": 127,
+      "source_url": "https://catholicconnect.in/news/india-ranks-105th-in-global-hunger-index-classified-as-serious"
+    },
+    {
+      "year": 2025,
+      "value": 102,
+      "out_of": 123,
+      "source_url": "https://visionias.in/current-affairs/monthly-magazine/2025-11-12/society/global-hunger-index-1"
+    },
+    {
+      "year": 2026,
+      "value": 100,
+      "out_of": 122,
+      "source_url": "https://www.globalhungerindex.org/ranking.html"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Government questions methodology and data accuracy of Global Hunger Index (March 2021 report)",
+      "url": "https://www.insightsonindia.com/2021/03/20/government-questions-methodology-and-data-accuracy-of-global-hunger-index/",
+      "summary": "Secondary summary of the government's 2021 position questioning the GHI's methodology and data. Original official document not retrieved."
+    },
+    {
+      "title": "Ministry of Women and Child Development on GHI 2022 (as reported by Deccan Herald)",
+      "url": "https://www.deccanherald.com/india/ranked-107-india-slams-erroneous-global-hunger-index-citing-methodological-issues-1153889.html",
+      "summary": "Ministry called the index an 'erroneous measure of hunger': three of four indicators relate to child health and cannot represent the whole population, and the undernourishment indicator is based on a small (3,000) opinion poll. Fact-checkers (FactChecker/Janata Weekly) found parts of this argument misleading or lacking context."
+    },
+    {
+      "title": "Government rejects GHI 2023 as flawed (Tribune)",
+      "url": "https://www.tribuneindia.com/news/india/india-ranks-111th-on-global-hunger-index-2023-govt-calls-it-flawed-measure-that-doesnt-reflect-true-position-552722",
+      "summary": "Ministry said the index suffers from serious methodological issues and shows malafide intent. GHI publishers rejected the objections (The Wire: https://cms.thewire.in/world/india-ranks-111th-among-125-countries-in-global-hunger-index-report)."
+    }
+  ],
+  "methodology_note": "GHI publishers state that ranks and scores are NOT comparable across editions: underlying UN data are revised each year, the number of ranked countries changes, and the method changed in 2015. Notably the 2014 edition (55 of 76) excluded 44 countries with scores below 5; reports say including them would have placed India near 99 (The Quint). Score (lower is better) is more informative than rank: 17.8 (2014 ed.), 29.0 (2015), 28.5 (2016), 31.4 (2017), 31.1 (2018), 30.3 (2019), 29.1 (2022), 27.3 (2024), 25.8 (2025), 24.1 (2026); GHI recommends comparing scores only via the revised time series in a single report. Scores for 2020, 2021, 2023 not captured here. Wikipedia lists a 2026 score of 24.8 and rank 103; the official site and Careers360 say 24.1 and rank 100 (tied with Ethiopia), which is used. Per-point sources are news reports quoting the GHI report; the official country page is the 'url'.\n\nBack-fill (pre-2014 editions, researched by deepseek, unreviewed): GHI publishers state that ranks and scores are NOT comparable across editions: underlying UN data are revised each year, the number of ranked countries changes, and the method changed in 2015. Notably the 2014 edition (55 of 76) excluded 44 countries with scores below 5; reports say including them would have placed India near 99 (The Quint). Score (lower is better) is more informative than rank: 17.8 (2014 ed.), 29.0 (2015), 28.5 (2016), 31.4 (2017), 31.1 (2018), 30.3 (2019), 29.1 (2022), 27.3 (2024), 25.8 (2025), 24.1 (2026); GHI recommends comparing scores only via the revised time series in a single report. Scores for 2020, 2021, 2023 not captured here. Wikipedia lists a 2026 score of 24.8 and rank 103; the official site and Careers360 say 24.1 and rank 100 (tied with Ethiopia), which is used. Per-point sources are news reports quoting the GHI report; the official country page is the 'url'. Earlier editions added: 2008 (66 of 88), 2009 (65 of 84), 2010 (67 of 84), 2011 (67 of 81), 2012 (65 of 79, score 22.9) and 2013 (63 of 78, score 21.3). The 2006 edition's India rank could not be confirmed and is omitted; no separate 2007 edition was located. The 2009-2010 ranks come from an official Rajya Sabha reply, the 2011 rank from the GHI 2011 report, and 2008/2012/2013 from press reports. Methodology breaks: the GHI changed its formula in 2015 (after this window); the 2014 edition ranked only 76 countries because countries scoring below 5 were excluded, so the 2014 rank (55) is not comparable with 2013 or earlier; the publishers state ranks/scores are not comparable across editions in any case.",
+  "related_claims": []
+}

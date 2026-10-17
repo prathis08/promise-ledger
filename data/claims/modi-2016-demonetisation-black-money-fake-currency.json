@@ -1,0 +1,93 @@
+{
+  "id": "modi-2016-demonetisation-black-money-fake-currency",
+  "speaker": "Narendra Modi",
+  "date": "2016-11-08",
+  "venue": "Address to the nation (televised), New Delhi",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "This step will strengthen the hands of the common man in the fight against corruption, black money and fake currency.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2016-12-30",
+  "verdict": "unachieved",
+  "summary": "The goals stated on 8 Nov 2016 were curbing black money, fake currency and terror financing; RBI reported 99.3% of the banned notes returned, banknotes in circulation later far exceeded 2016 levels, and counterfeit detections fell in 2017-18 but fake notes in new denominations have continued to be found.",
+  "topics": [
+    "economy",
+    "black-money",
+    "terrorism",
+    "digital"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Text of Prime Minister's address to the nation (English text, as reproduced by TaxGuru)",
+      "url": "https://taxguru.in/corporate-law/prime-ministers-address-nation-500-1000-rs-notes.html"
+    },
+    {
+      "title": "India takes historic step to fight Corruption, Black Money & Terrorism (narendramodi.in text of address)",
+      "url": "https://www.narendramodi.in/ma/text-of-prime-minister-s-address-to-the-nation-533024"
+    },
+    {
+      "title": "'Give me till Dec 30, I will give you the India you desire', says Modi (YourStory) - Goa/Panaji speech, 13 Nov 2016",
+      "url": "https://yourstory.com/2016/11/modi-clean-country/"
+    },
+    {
+      "title": "Give Me Time Until 30 Dec, Will Not Trouble the Honest, Says Modi (The Quint)",
+      "url": "https://www.thequint.com/amp/story/news/india/narendra-modi-goa-pune-visit-infrastructure-project-brics-mopa-tuem"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Business Today (reporting RBI Annual Report 2017-18)",
+      "title": "RBI says 99.3% demonetised notes were returned; major points from annual report",
+      "url": "https://www.businesstoday.in/latest/economy-politics/story/rbi-says-99pc-demonetised-notes-were-returned-10-major-points-108971-2018-08-29",
+      "date": "2018-08-29",
+      "key_figure": "SBNs returned Rs 15,310.73 bn of Rs 15,417.93 bn in circulation on 8 Nov 2016 (99.3%); about Rs 10,720 crore not returned"
+    },
+    {
+      "type": "news",
+      "publisher": "Business Standard / PTI (reporting RBI Annual Report 2017-18)",
+      "title": "99.3% of junked Rs 500, Rs 1,000 notes returned to banks: RBI",
+      "url": "https://www.business-standard.com/article/pti-stories/99-3-of-junked-rs-500-rs-1-000-notes-returned-to-banks-rbi-118082900391_1.html",
+      "date": "2018-08-29",
+      "key_figure": "99.3% of SBNs returned"
+    },
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in",
+      "title": "Congress rebuts demonetisation objectives with misleading data",
+      "url": "https://www.factchecker.in/fact-check/congress-demonetisation-fifth-anniversary-misleading-data-tweet-786443",
+      "date": "2021-11-08",
+      "key_figure": "RBI banking-system counterfeit detections: 7.62 lakh (2016-17), 5.22 lakh (2017-18); NCRB 2017 seizures ~3.55 lakh fake notes"
+    },
+    {
+      "type": "news",
+      "publisher": "Taxscan (reporting RBI Annual Report 2024-25)",
+      "title": "RBI Annual Report FY 2024-25: 98.2% of Rs 2000 notes back, currency in circulation tops Rs 36.9 lakh crore",
+      "url": "https://www.taxscan.in/?p=523136",
+      "date": "2025-05-29",
+      "key_figure": "Currency in circulation Rs 36.87 lakh crore at end-March 2025; cash/GDP 11.1%"
+    },
+    {
+      "type": "news",
+      "publisher": "Deccan Chronicle (reporting RBI Annual Report 2024-25)",
+      "title": "Fake Rs 500 notes surged 37% in FY25: RBI annual report",
+      "url": "https://deccanchronicle.com/nation/fake-rs-500-denomination-notes-surged-37-in-fy25-rbi-annual-report-1882183",
+      "date": "2025-05-30",
+      "key_figure": "2.17 lakh counterfeit notes detected in 2024-25; fake Rs 500 (new design) up 37.3% to 1.18 lakh"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "In the 8 November 2016 address the stated aims were to break the grip of corruption and black money, to curb fake currency used by 'enemies from across the border', and to cut terror financing. The text also said holders would have until 30 December 2016 ('50 days') to deposit old notes. At a Goa event on 13 November 2016 Modi asked for time until 30 December (press reports); the 'give me 50 days' phrasing was not found verbatim in the sources opened.\n\nThe RBI Annual Report 2017-18 (as reported) said Rs 15.31 lakh crore of Rs 15.42 lakh crore specified bank notes came back, 99.3%. The speech did not itself say how much would remain unreturned, but the policy was widely discussed as a way to extinguish unaccounted cash; the returned share leaves little unreturned value.\n\nRBI counterfeit detections in the banking system were 7.62 lakh in 2016-17 and 5.22 lakh in 2017-18, then 2.17 lakh in 2024-25, though fake Rs 500 notes of the new design rose in 2024-25. Currency in circulation was Rs 36.87 lakh crore in March 2025. Digital payments growth and tax-base effects, which supporters cite as benefits, were not assessed here. The Supreme Court (2023, 4-1) upheld the decision-making process; it did not rule on outcomes.",
+  "confidence": "medium",
+  "notes": "Verdict is a judgment on the mixed outcome of the stated goals; reviewer may prefer 'misleading' or split into separate claims per goal. Not obtained: RBI primary PDF (rbi.org.in not opened; figures via news reports of the Annual Report), PIB original, Nov 2016 currency-in-circulation baseline, any YouTube URL of the address or Goa speech. Government's defence (e.g. digitisation, tax-base widening) not sourced; govt_response left empty. The 'Dec 30 / punishment' passage is from search summaries only.",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

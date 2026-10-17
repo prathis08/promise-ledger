@@ -1,0 +1,80 @@
+{
+  "id": "inc-chidambaram-2012-nctc-operational",
+  "speaker": "P. Chidambaram",
+  "party": "INC",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2012-03-01",
+  "venue": "National Counter Terrorism Centre order / Chief Ministers' meeting on NCTC, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The Standing Council shall ensure that NCTC is the single and effective point of control and coordination of all counter terrorism measures.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2012-03-01",
+  "verdict": "unachieved",
+  "summary": "The NCTC was meant to be commissioned on 1 March 2012 but was never operationalised after opposition from states; it remained a proposal.",
+  "topics": [
+    "terrorism",
+    "security",
+    "internal-security",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PIB: P Chidambaram's opening statement at Chief Ministers' meeting on NCTC (5 May 2012)",
+      "url": "https://web.archive.org/web/20220126151746/https://pib.gov.in/newsite/erelcontent.aspx?relid=83154"
+    },
+    {
+      "title": "NDTV: 10 big facts on Centre vs state over NCTC, new anti-terror agency (4-6 May 2012)",
+      "url": "https://web.archive.org/web/20121229083916/http://www.ndtv.com/article/india/10-big-facts-on-centre-vs-state-over-nctc-new-anti-terror-agency-206533"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "NDTV",
+      "title": "10 big facts on Centre vs state over NCTC, new anti-terror agency",
+      "url": "https://web.archive.org/web/20121229083916/http://www.ndtv.com/article/india/10-big-facts-on-centre-vs-state-over-nctc-new-anti-terror-agency-206533",
+      "date": "2012-05-04",
+      "key_figure": "The NCTC was meant to be commissioned on 1 March 2012 but the launch was not operationalised after opposition from a group of chief ministers."
+    },
+    {
+      "type": "parliament",
+      "publisher": "Ministry of Home Affairs / PIB",
+      "title": "Chidambaram's opening statement at the Chief Ministers' meeting on NCTC",
+      "url": "https://web.archive.org/web/20220126151746/https://pib.gov.in/newsite/erelcontent.aspx?relid=83154",
+      "date": "2012-05-05",
+      "key_figure": "Two months after the intended launch, Chidambaram said he looked forward to support 'to establish the NCTC'; states had raised objections and two standard operating procedures were circulated to address them."
+    },
+    {
+      "type": "news",
+      "publisher": "Wikipedia",
+      "title": "National Counter Terrorism Centre",
+      "url": "https://en.wikipedia.org/wiki/National_Counter_Terrorism_Centre",
+      "date": null,
+      "key_figure": "The proposed federal agency met opposition from state chief ministers and the proposal was discarded."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Chidambaram's defence of the NCTC, 5 May 2012",
+      "url": "https://web.archive.org/web/20220126151746/https://pib.gov.in/newsite/erelcontent.aspx?relid=83154",
+      "summary": "Chidambaram said the NCTC's powers derived from the UAPA, that counter-terrorism is a shared responsibility of the Centre and states, and that standard operating procedures had been circulated to address states' concerns."
+    }
+  ],
+  "chart": null,
+  "analysis": "The NCTC was designed after the 2008 Mumbai attacks as a single point of control and coordination for counter-terrorism, with powers to search and arrest. It was meant to be commissioned on 1 March 2012.\n\nA group of chief ministers, including Mamata Banerjee, Narendra Modi, Naveen Patnaik and Jayalalithaa, opposed the agency as an infringement of federalism. NDTV reported that the launch was not operationalised after that opposition. At a chief ministers' meeting on 5 May 2012, Chidambaram was still seeking support to establish the NCTC.\n\nThe agency never became operational in the UPA period, and the proposal was later described as discarded. The 1 March 2012 target was therefore missed.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 1 March 2012 commissioning date is from NDTV. The NCTC order's exact notification date (reported as 3 February 2012) was not independently confirmed, so the claim date is set to the intended commissioning date. The quote is the text of paragraph 6.1 of the order as read out by Chidambaram on 5 May 2012. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

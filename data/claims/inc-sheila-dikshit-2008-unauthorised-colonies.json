@@ -1,0 +1,79 @@
+{
+  "id": "inc-sheila-dikshit-2008-unauthorised-colonies",
+  "speaker": "Sheila Dikshit",
+  "party": "INC",
+  "role": "Chief Minister, Delhi",
+  "level": "state",
+  "state": "Delhi",
+  "date": "2008-11-01",
+  "venue": "Delhi Assembly election campaign (provisional regularisation certificates issued to unauthorised colonies)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Ahead of the 2008 Delhi Assembly polls the Dikshit government gave provisional regularisation certificates to unauthorised colonies and promised to regularise them; in 2012 she said the government was \"fulfilling the promise it made in 2008\" (reported wording).",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "unachieved",
+  "summary": "Of the 1,639 colonies given provisional regularisation certificates, 917 were regularised in 2012; the remaining colonies were not regularised by the end of the term, and the process was challenged.",
+  "topics": [
+    "governance"
+  ],
+  "media": [
+    {
+      "platform": "youtube",
+      "title": "Delhi government regularises over 900 illegal colonies",
+      "url": "https://www.youtube.com/watch?v=dF0zpHpN98s"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "The Economic Times / PTI: Sheila Dikshit announces regularising of 917 unauthorised colonies",
+      "url": "https://m.economictimes.com/wealth/personal-finance-news/sheila-dikshit-announces-regularising-of-917-unauthorised-colonies/articleshow/15900936.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Economic Times / PTI",
+      "title": "Sheila Dikshit announces regularising of 917 unauthorised colonies",
+      "url": "https://m.economictimes.com/wealth/personal-finance-news/sheila-dikshit-announces-regularising-of-917-unauthorised-colonies/articleshow/15900936.cms",
+      "date": "2012-08-28",
+      "key_figure": "917 of 1,639 colonies with provisional certificates regularised; the report notes that not a single colony had been regularised until then"
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu (op-ed)",
+      "title": "The promise of regularisation",
+      "url": "https://www.thehindu.com/opinion/op-ed/the-promise-of-regularisation/article5678050.ece",
+      "date": "2014-02-12",
+      "key_figure": "Some unauthorised colonies received provisional certificates despite incomplete applications; regularisation remained incomplete and contested"
+    },
+    {
+      "type": "news",
+      "publisher": "Firstpost",
+      "title": "Sheila Dikshit's trump card: The voting power of unauthorised colonies",
+      "url": "https://www.firstpost.com/politics/sheila-dikshits-trump-card-the-voting-power-of-unauthorised-colonies-917777.html",
+      "date": "2013-07-01",
+      "key_figure": "Dikshit made good the promise by regularising over half of those colonies (895) in September 2012"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "The Economic Times: Dikshit says government is fulfilling 2008 promise",
+      "url": "https://m.economictimes.com/wealth/personal-finance-news/sheila-dikshit-announces-regularising-of-917-unauthorised-colonies/articleshow/15900936.cms",
+      "summary": "The Chief Minister said her government had made a \"historical decision\" to regularise 917 colonies, benefiting 40 lakh residents, and was fulfilling the promise it made in 2008."
+    }
+  ],
+  "chart": null,
+  "analysis": "Ahead of the 2008 Delhi Assembly elections, the Sheila Dikshit government issued provisional regularisation certificates to 1,639 unauthorised colonies and promised to regularise them if the Congress returned to power. The Economic Times report notes that no colony had been regularised before 2012.\n\nOn 28 August 2012 Chief Minister Dikshit announced the regularisation of 917 of those colonies, and said the government was \"fulfilling the promise it made in 2008\". A section of colonies (on Archaeological Survey of India or forest land) was left out, and another report records that some colonies received provisional certificates despite incomplete applications.\n\nIn February 2014 the Delhi government sought action against Dikshit following a Lokayukta order on the regularisation of unauthorised colonies. The full set of colonies covered by the 2008 promise had not been regularised by the end of the term, and the process continued under later governments.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 2008 promise predates the 28 August 2012 announcement; the claim date is set to November 2008 (before the assembly polls) and is approximate. The exact wording of the 2008 promise was not located in a primary transcript, so quote_is_verbatim is false. Verdict 'unachieved' reflects partial delivery (917 of 1,639 by 2012) rather than total failure.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

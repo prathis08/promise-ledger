@@ -1,0 +1,77 @@
+{
+  "id": "inc-kamalnath-2010-20km-highways",
+  "speaker": "Kamal Nath",
+  "party": "INC",
+  "role": "Union Minister of Road Transport and Highways",
+  "level": "central",
+  "state": null,
+  "date": "2010-01-10",
+  "venue": "Automobile dealers association conference, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "We are currently doing 9 km a day and would be in a position to scale up to 20 km a day by April-May 2010.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2010-04-30",
+  "verdict": "missed-deadline",
+  "summary": "Kamal Nath said in January 2010 that highway construction would rise from about 9 km a day to 20 km a day by April-May 2010; official figures for June 2009 to September 2010 show an average of 12.01 km a day, and the ministry was criticised in Parliament for not meeting the target.",
+  "topics": [
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Will build 20 km a day by April: Nath - The Indian Express",
+      "url": "https://indianexpress.com/article/news-archive/web/will-build-20-km-a-day-by-april-nath/"
+    },
+    {
+      "title": "We are hoping to build 20 km road per day starting April: Kamal Nath - Economic Times",
+      "url": "https://economictimes.indiatimes.com/opinion/interviews/we-are-hoping-to-build-20-km-road-per-day-starting-april-kamal-nath/articleshow/5453175.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "Press Information Bureau, Ministry of Road Transport & Highways",
+      "title": "Construction of National Highways",
+      "url": "https://archive.pib.gov.in/newsite/PrintRelease.aspx?relid=66832",
+      "date": "2010-11-09",
+      "key_figure": "Average 12.01 km of National Highways per day achieved from June 2009 to September 2010"
+    },
+    {
+      "type": "news",
+      "publisher": "Hindustan Times",
+      "title": "Nath grilled over highway target",
+      "url": "https://www.hindustantimes.com/india/nath-grilled-over-highway-target/story-uCRt2POzOdLfb2PyfxoSQI.html",
+      "date": "2010-11-09",
+      "key_figure": "Lok Sabha; ministry criticised for failing to reach 20 km a day"
+    },
+    {
+      "type": "news",
+      "publisher": "NDTV",
+      "title": "Kamal Nath's ambitious target: 20 km of road per day",
+      "url": "https://www.ndtv.com/india-news/kamal-naths-ambitious-target-20-km-of-road-per-day-408922",
+      "date": "2010-01-01",
+      "key_figure": "Target of 20 km a day"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Nath grilled over highway target - Hindustan Times",
+      "url": "https://www.hindustantimes.com/india/nath-grilled-over-highway-target/story-uCRt2POzOdLfb2PyfxoSQI.html",
+      "summary": "In the Lok Sabha Kamal Nath said he had only promised to initiate the process of reaching 20 km a day within a year, that 20 km a day was impossible in the current circumstances, and that 12.1 km a day had already been achieved."
+    }
+  ],
+  "chart": null,
+  "analysis": "The Indian Express (10 January 2010) quoted Kamal Nath saying highway construction was running at about 9 km a day and would be scaled to 20 km a day by April-May 2010. The Economic Times and NDTV carried the same target.\n\nA PIB release of 9 November 2010 recorded average construction of 12.01 km of National Highways per day over June 2009 to September 2010. The same week, Hindustan Times reported that Nath was questioned in the Lok Sabha over the failure to meet the 20 km a day goal; he replied that the target had been to initiate the process within a year, and described 20 km a day as impossible under then-current conditions.\n\nThe 20 km a day pace was therefore not reached by the stated April 2010 date.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The ET and NDTV URLs were seen in search results and were not fetched directly; the Indian Express article, the PIB release and the Hindustan Times article were read. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

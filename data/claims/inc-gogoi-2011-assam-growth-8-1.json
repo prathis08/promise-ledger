@@ -1,0 +1,59 @@
+{
+  "id": "inc-gogoi-2011-assam-growth-8-1",
+  "speaker": "Tarun Gogoi",
+  "party": "INC",
+  "role": "Chief Minister, Assam",
+  "level": "state",
+  "state": "Assam",
+  "date": "2011-06-15",
+  "venue": "Press conference, New Delhi",
+  "language": "en",
+  "quote_original": "Assam's growth rate has touched 8.1 per cent and is almost at par with the all-India average GDP growth rate.",
+  "quote_english": "Assam's growth rate has touched 8.1 per cent and is almost at par with the all-India average GDP growth rate.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The Chief Minister said Assam's growth had reached 8.1%, roughly matching the national rate; Planning Commission data at the time showed 8.1%, later revised to 7.34%.",
+  "topics": [
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "State's GDP growth at par with nation (The Assam Tribune)",
+      "url": "https://assamtribune.com/states-gdp-growth-at-par-with-nation"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Assam Tribune",
+      "title": "State's GDP growth at par with nation",
+      "url": "https://assamtribune.com/states-gdp-growth-at-par-with-nation",
+      "date": "2011-06-15",
+      "key_figure": "Gogoi, quoting Planning Commission figures: Assam growth 8.1%, almost at par with all-India."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Directorate of Economics and Statistics, Assam",
+      "title": "Economic Survey, Assam, 2011-12",
+      "url": "https://des.assam.gov.in/sites/default/files/swf_utility_folder/departments/ecostat_medhassu_in_oid_3/menu/document/economic_survey2011-12_0.pdf",
+      "date": "2011-12-24",
+      "key_figure": "2010-11 growth 7.34% (quick estimates); 2011-12 advance estimate 8.42%."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Tarun Gogoi said Assam's growth rate had reached 8.1% and was almost at par with the all-India average, citing Planning Commission figures released the previous day. India's GDP growth for 2010-11 was then estimated at 8.5%.\n\nAssam's Economic Survey 2011-12 later put the state's 2010-11 growth at 7.34% on quick estimates, while the advance estimate for 2011-12 was 8.42%. The 8.1% figure was therefore a provisional Planning Commission estimate that was subsequently revised down.\n\nAt the time of the statement, the 8.1% figure was the official Planning Commission number, and the gap with the 8.5% national estimate was 0.4 percentage points.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The Assam Tribune page metadata shows 2010-09-15 but the text refers to June 15 and the 2011-12 Plan, so the statement date is taken as 2011-06-15. Assam's later quick estimate for 2010-11 was 7.34%.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

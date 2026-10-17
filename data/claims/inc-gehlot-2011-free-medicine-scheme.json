@@ -1,0 +1,73 @@
+{
+  "id": "inc-gehlot-2011-free-medicine-scheme",
+  "speaker": "Ashok Gehlot",
+  "party": "INC",
+  "role": "Chief Minister, Rajasthan",
+  "level": "state",
+  "state": "Rajasthan",
+  "date": "2011-10-02",
+  "venue": "Ramkaran Joshi Government General Hospital, Dausa, Rajasthan",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "We have started with 200 medicines and it will be increased to 400 medicines by January. ... Most of the states started the scheme with 50-60 medicines, but in Rajasthan, we have started with 200 medicines.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2012-01-31",
+  "verdict": "true",
+  "summary": "Rajasthan's Chief Minister's Free Medicine Scheme launched on 2 October 2011 with 200 medicines and expanded to 400-plus by January; the state reported 52.4 crore free-medicine beneficiaries between October 2011 and December 2017.",
+  "topics": [
+    "health"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Over 400 free medicines from Jan: Gehlot (Times of India)",
+      "url": "https://timesofindia.indiatimes.com/city/jaipur/Over-400-free-medicines-from-Jan-Gehlot/articleshow/10212525.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "Explained: What is Rajasthan's free medicine scheme",
+      "url": "https://indianexpress.com/article/explained/explained-rajasthan-free-medicine-scheme-5827614/",
+      "date": "2019-07-13",
+      "key_figure": "Scheme implemented 2 October 2011; free tests added from 2013; beneficiaries 52.4 crore (Oct 2011–Dec 2017); medicines raised from 608 to 712"
+    },
+    {
+      "type": "news",
+      "publisher": "Drishti IAS",
+      "title": "Free Medicine Scheme of Rajasthan",
+      "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/free-medicine-scheme-of-rajasthan",
+      "date": "2024-07-26",
+      "key_figure": "Mukhyamantri Nishulk Dava Yojana launched 2 October 2011; ranked first among 16 states in an NHM assessment"
+    },
+    {
+      "type": "news",
+      "publisher": "ETV Bharat",
+      "title": "Rajasthan Secures 1st Rank Nationwide to Successfully Implement Free Medicine Scheme",
+      "url": "https://www.etvbharat.com/en/!state/rajasthan-free-medicine-scheme-drugs-and-vaccines-enn24072700657",
+      "date": "2024-07-27",
+      "key_figure": "Free medicine scheme launched in Rajasthan on 2 October 2011 by then Chief Minister Ashok Gehlot; Rajasthan scored highest across parameters in a Ministry of Health and Family Welfare assessment"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Rajasthan government scheme continuation and expansion",
+      "url": "https://indianexpress.com/article/explained/explained-rajasthan-free-medicine-scheme-5827614/",
+      "summary": "The state has continued and expanded the scheme; subsequent budgets raised the number of free medicines and free diagnostic tests."
+    }
+  ],
+  "chart": null,
+  "analysis": "The Chief Minister's Free Medicine Scheme (Mukhyamantri Nishulk Dava Yojana) was launched in Rajasthan on 2 October 2011, offering essential medicines free of cost at government health facilities. At the launch at Dausa, Chief Minister Ashok Gehlot said the scheme began with 200 medicines and would be raised to 400 by January.\n\nThe state later reported to the Rajasthan Assembly that free-medicine beneficiaries numbered 52.4 crore between 2 October 2011 and December 2017, while free diagnostic tests were added from 2013. The number of free medicines was subsequently raised to 608 and then 712.\n\nThe scheme carried over across changes of government. A Ministry of Health and Family Welfare assessment placed Rajasthan first among 16 states on implementation of free-medicine schemes.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 400-medicines-by-January promise was delivered and exceeded, so the verdict is true. Beneficiary counts are cumulative visits, not unique individuals, as the Indian Express report notes.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

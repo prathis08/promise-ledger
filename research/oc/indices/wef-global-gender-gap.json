@@ -1,0 +1,86 @@
+{
+  "slug": "wef-global-gender-gap",
+  "name": "Global Gender Gap Index",
+  "publisher": "World Economic Forum",
+  "url": "https://www.weforum.org/publications/series/global-gender-gap-report/",
+  "higher_is_better": false,
+  "metric": "Rank",
+  "out_of_label": "countries ranked",
+  "points": [
+    {
+      "year": 2013,
+      "value": 101,
+      "out_of": 136,
+      "source_url": "https://www3.weforum.org/docs/WEF_GenderGap_Report_2013.pdf"
+    },
+    {
+      "year": 2014,
+      "value": 114,
+      "out_of": 142,
+      "source_url": "https://www3.weforum.org/docs/GGGR14/GGGR_CompleteReport_2014.pdf"
+    },
+    {
+      "year": 2016,
+      "value": 87,
+      "out_of": 144,
+      "source_url": "https://www3.weforum.org/docs/GGGR16/WEF_Global_Gender_Gap_Report_2016.pdf"
+    },
+    {
+      "year": 2017,
+      "value": 108,
+      "out_of": 144,
+      "source_url": "https://www3.weforum.org/docs/WEF_GGGR_2017.pdf"
+    },
+    {
+      "year": 2018,
+      "value": 108,
+      "out_of": 149,
+      "source_url": "https://www3.weforum.org/docs/WEF_GGGR_2018.pdf"
+    },
+    {
+      "year": 2020,
+      "value": 112,
+      "out_of": 153,
+      "source_url": "https://www3.weforum.org/docs/WEF_GGGR_2020.pdf"
+    },
+    {
+      "year": 2021,
+      "value": 140,
+      "out_of": 156,
+      "source_url": "https://www3.weforum.org/docs/WEF_GGGR_2021.pdf"
+    },
+    {
+      "year": 2022,
+      "value": 135,
+      "out_of": 146,
+      "source_url": "https://www3.weforum.org/docs/WEF_GGGR_2022.pdf"
+    },
+    {
+      "year": 2023,
+      "value": 127,
+      "out_of": 146,
+      "source_url": "https://www3.weforum.org/docs/WEF_GGGR_2023.pdf"
+    },
+    {
+      "year": 2024,
+      "value": 129,
+      "out_of": 146,
+      "source_url": "https://www3.weforum.org/docs/WEF_GGGR_2024.pdf"
+    },
+    {
+      "year": 2025,
+      "value": 131,
+      "out_of": 148,
+      "source_url": "https://reports.weforum.org/docs/WEF_GGGR_2025.pdf"
+    },
+    {
+      "year": 2026,
+      "value": 131,
+      "out_of": 145,
+      "source_url": "https://www.freepressjournal.in/india/india-retains-131st-rank-in-global-gender-gap-index-2026-iceland-tops-list"
+    }
+  ],
+  "govt_response": [],
+  "methodology_note": "Score (0-1, 1 = parity) is the more comparable measure; India's scores per WEF reports: 2013 0.6551, 2014 0.6455, 2016 0.683, 2017 0.669, 2018 0.665, 2020 0.668, 2021 0.625, 2022 0.629, 2023 0.643, 2024 0.641, 2025 0.644 (2026: about 64.5% per press). The rank fell sharply in 2021 mainly due to a drop in political empowerment (fewer women ministers) and estimated earned income; WEF notes ranks shift with country coverage. 2015 edition (reported as 108th of 145) was not retrievable and is omitted. 2019 had no edition. The 2026 point is from press coverage of the WEF release (mid-September 2026); the WEF 2026 PDF could not be fetched. All other points are read directly from the WEF report PDFs. No specific government rebuttal located.",
+  "related_claims": []
+}

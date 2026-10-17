@@ -1,0 +1,97 @@
+{
+  "id": "bjp-modi-2023-lakhpati-didi",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2023-08-15",
+  "venue": "Red Fort, Delhi (77th Independence Day address)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "It is my dream to make two crore 'lakhpati didis' in the country... Today 10 crore women are associated with women self-help groups.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Government data show the two-crore Lakhpati Didi target was crossed; the official dashboard reported about 3.46 crore Lakhpati Didis as of 31 March 2026.",
+  "topics": [
+    "women"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "My dream is to make 2 crore lakhpati didis: PM Modi on 77th Independence Day",
+      "url": "https://www.indiatoday.in/india/story/independence-day-pm-modi-says-his-dream-to-make-two-crore-lakhpati-didis-2421265-2023-08-15",
+      "timestamp_seconds": null,
+      "channel": "India Today"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PMO: Aim is to create 2 crore Lakhpati Didis",
+      "url": "https://www.pmindia.gov.in/en/news_updates/aim-is-to-create-2-crore-lakhpati-didis-womens-shgs-to-power-drone-ki-udaan-pm/"
+    },
+    {
+      "title": "PIB: Press Release on 77th Independence Day address",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1949467&lang=2&reg=3"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Finance",
+      "title": "Target for Lakhpati Didi to be enhanced from 2 crore to 3 crore",
+      "url": "https://pib.gov.in/Pressreleaseshare.aspx?PRID=2001109",
+      "date": "2024-02-01",
+      "key_figure": "Success had already assisted nearly one crore women to become Lakhpati Didis; interim Budget raised the target from 2 crore to 3 crore."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Lakhpati Didi (Ministry of Rural Development) dashboard",
+      "title": "Lakhpati Didi — Our Impact",
+      "url": "https://lakhpatididi.gov.in/",
+      "date": null,
+      "key_figure": "3.46 crore Lakhpati Didis; 6.21 crore potential Lakhpati Didis."
+    },
+    {
+      "type": "news",
+      "publisher": "DD India",
+      "title": "Over 1.48 crore women become 'Lakhpati Didis' under poverty alleviation programme",
+      "url": "https://ddindia.co.in/2025/07/over-1-48-crore-women-become-lakhpati-didis-under-poverty-alleviation-programme-govt/",
+      "date": "2025-07-01",
+      "key_figure": "1.48 crore SHG women had achieved Lakhpati Didi status till June 2025."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "Lakhpati Didi Scheme — A Milestone in Women's Economic Upliftment",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/aug/doc2024829382701.pdf",
+      "date": "2024-08-29",
+      "key_figure": "More than one crore SHG women already made Lakhpati Didis by August 2024."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Target for Lakhpati Didi enhanced from 2 crore to 3 crore",
+      "url": "https://pib.gov.in/Pressreleaseshare.aspx?PRID=2001109",
+      "summary": "The government says the scheme's success led it to raise the target to 3 crore, and that 83 lakh SHGs with nine crore women are part of the programme."
+    }
+  ],
+  "chart": {
+    "series": "lakhpati-didis",
+    "target": 20000000,
+    "target_label": "2 crore (original 2023 target)"
+  },
+  "analysis": "Announcing the Lakhpati Didi initiative from the Red Fort on 15 August 2023, the Prime Minister set a target of two crore Lakhpati Didis — women in self-help groups with an annual household income of at least ₹1 lakh.\n\nPIB material for the interim Budget of 1 February 2024 recorded that nearly one crore women had already become Lakhpati Didis, and raised the target to three crore. DD India reported that 1.48 crore women had reached the status by June 2025. The official Lakhpati Didi dashboard shows 3.46 crore Lakhpati Didis against 6.21 crore potential Lakhpati Didis.\n\nOn these figures the original two-crore target set in August 2023 was crossed, and a new target of six crore by 2029-30 has since been announced.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "No explicit deadline was stated in the 15 August 2023 announcement, so 'deadline' is null; the claim is scored on the two-crore target. The speech was in Hindi and quote_english is the widely reported English wording. The dashboard figure (3.46 crore) reflects the government's own count and is not independently audited. The 'nearly 1 crore by Feb 2024' and '3.46 crore by 2026' figures are large; definitions (annual household income of ₹1 lakh) are set by the scheme. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

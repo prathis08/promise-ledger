@@ -1,0 +1,55 @@
+{
+  "id": "shah-2018-electricity-16000-villages",
+  "speaker": "Amit Shah",
+  "date": "2018-02-05",
+  "venue": "Rajya Sabha, maiden speech (Motion of Thanks debate)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "There were 18,000 villages that did not have access to electricity when we came to power. We have completed the work of providing electricity to 16,000 villages.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "BOOM rated true: 16,282 of 18,452 unelectrified villages had been electrified by 5 February 2018 per the GARV dashboard, though only 1,290 villages (8%) had every household connected.",
+  "topics": [
+    "energy",
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "BOOM: Fact-checking 10 claims in Amit Shah's Rajya Sabha speech",
+      "url": "https://www.boomlive.in/factchecking-10-claims-in-amit-shahs-rajya-sabha-speech"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Power, GARV dashboard",
+      "title": "Rural electrification dashboard",
+      "url": "https://garv.gov.in/dashboard",
+      "date": "2018-02-05",
+      "key_figure": "As cited by BOOM: 16,282 of 18,452 un-electrified villages electrified as of 5 Feb 2018; 1,290 villages (about 8%) had all households electrified. Live dashboard now shows later data."
+    },
+    {
+      "type": "fact_check",
+      "publisher": "BOOM",
+      "title": "Fact-checking 10 claims in Amit Shah's Rajya Sabha speech",
+      "url": "https://www.boomlive.in/factchecking-10-claims-in-amit-shahs-rajya-sabha-speech",
+      "date": "2018-02-06",
+      "key_figure": "Verdict True on claim 2 (electrification). Publication date approximate."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "On 5 February 2018 Shah said about 18,000 villages lacked electricity when the government took office and that work had been completed in 16,000.\n\nBOOM used the Ministry of Power's GARV dashboard: 16,282 of 18,452 villages had been electrified as of 5 February 2018, which matches the claim.\n\nOnly 1,290 of the villages (about 8 percent) had all households connected (BOOM). The statement is accurate on the metric used, but 'electrified village' is not the same as every household having power.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The GARV dashboard URL is a live page and may show different numbers now. English wording from BOOM. No video found.",
+  "party": "BJP",
+  "role": "BJP President",
+  "level": "party",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

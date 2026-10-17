@@ -1,0 +1,69 @@
+{
+  "id": "bjp-yogi-2022-no-riots-up",
+  "speaker": "Yogi Adityanath",
+  "party": "BJP",
+  "role": "Chief Minister, Uttar Pradesh",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "date": "2022-09-04",
+  "venue": "Public event, Bijnor, Uttar Pradesh",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "On the basis of the recently released NCRB report, it has been observed that no riots have occurred in the state in the past five years; UP has become danga-mukt (riot-free).",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "false",
+  "summary": "NCRB data cited by fact-checkers records 35,040 rioting cases and 35 communal riots in Uttar Pradesh between 2017 and 2021, contradicting the claim of no riots in five years.",
+  "topics": [
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Fact Check: Were there no riots in Uttar Pradesh in the past five years, as Adityanath claims? (FactChecker.in / Scroll.in)",
+      "url": "https://scroll.in/article/1032288/fact-check-were-there-no-riots-in-uttar-pradesh-in-the-past-five-years-as-adityanath-claims"
+    },
+    {
+      "title": "No riots in last 5 years, UP is now completely 'dangamukt': Yogi Adityanath (NDTV)",
+      "url": "https://www.ndtv.com/india-news/no-riots-in-last-5-years-up-is-now-completely-dangamukt-yogi-adityanath-3313807"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in / Scroll.in",
+      "title": "Were there no riots in Uttar Pradesh in the past five years, as Adityanath claims?",
+      "url": "https://scroll.in/article/1032288/fact-check-were-there-no-riots-in-uttar-pradesh-in-the-past-five-years-as-adityanath-claims",
+      "date": "2022-09-08",
+      "key_figure": "35,040 rioting cases and 35 communal riots in UP, 2017-2021 (NCRB)"
+    },
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in",
+      "title": "UP Not Riot-Free in Four Years, Yogi's Claim False",
+      "url": "https://www.factchecker.in/fact-check/riots-communal-incidents-uttar-pradesh-bjp-736914",
+      "date": "2021-03-20",
+      "key_figure": "5,714 riot cases in 2019; 8,990 in 2017; 195 communal-violence cases in 2017"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "With zero communal riots, UP emerges as law and order model under Yogi govt (The Statesman)",
+      "url": "https://www.thestatesman.com/india/with-zero-communal-riots-up-emerges-as-law-and-order-model-under-yogi-govt-1503493846.html",
+      "summary": "The UP government and its supporters cite NCRB 'Crime in India 2023' to claim zero communal riots in 2023 and a declining trend in riot-related cases."
+    }
+  ],
+  "chart": null,
+  "analysis": "At a public event in Bijnor in early September 2022, Adityanath said no riots had taken place in Uttar Pradesh in the preceding five years and that the state had become 'danga-mukt' (riot-free).\n\nFact-checkers examining NCRB 'Crime in India' data reported 35,040 cases of rioting in the state during 2017-2021, and 35 cases of communal riots in the same period. The state recorded 5,714 riot cases in 2019 alone, down from 8,990 in 2017.\n\nRecorded riot and communal-violence figures did decline over the period, and state data for later years shows a further fall, but the absolute claim that no riots occurred in the five years is not supported by the recorded crime data.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "Adityanath made a similar claim on 19 March 2021 ('no riots in four years') and repeated riot-free claims in later years. NCRB data cited here is as reported by fact-checkers; I did not open the raw NCRB tables.",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

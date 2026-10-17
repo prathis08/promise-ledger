@@ -1,0 +1,91 @@
+{
+  "id": "bjp-modi-2021-ethanol-20-percent-2025",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2021-06-05",
+  "venue": "World Environment Day event / release of Roadmap for Ethanol Blending in India 2020-25, New Delhi",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Government has resolved to meet the target of 20% ethanol blending in petrol by 2025. Earlier the resolve was to achieve the target by 2030, which is now preponed by 5 years.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2025-12-31",
+  "verdict": "true",
+  "summary": "On 5 June 2021 the PM advanced the ethanol-blending target to 20% by 2025 (from 2030); PIB states India reached 20% blending in 2025-26, five years ahead of the original 2030 schedule.",
+  "topics": [
+    "energy",
+    "environment"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "20% ethanol blended petrol target preponed to 2025: PM Modi",
+      "url": "https://www.livemint.com/news/india/20-ethanol-blended-petrol-target-preponed-to-2025-pm-modi-11622881850274.html",
+      "channel": "Mint"
+    },
+    {
+      "platform": "news",
+      "title": "20% ethanol blending: Target 2025, 5 years early",
+      "url": "https://indianexpress.com/article/india/ethanol-blending-target-govt-oil-marketing-companies-7345917/",
+      "channel": "The Indian Express"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PIB: Roadmap for ethanol blending in India 2020-25 released by the Prime Minister",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1727206"
+    },
+    {
+      "title": "NITI Aayog: Roadmap for Ethanol Blending in India 2020-25 (PDF)",
+      "url": "https://www.niti.gov.in/sites/default/files/2021-06/EthanolBlendingInIndia_compressed.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Department of Food and Public Distribution",
+      "title": "Ethanol Blending in India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281287",
+      "date": "2026-07-05",
+      "key_figure": "Ethanol blending rose from less than 1.5% in 2013-14 to 20% in 2025-26; India achieved the 20% target five years ahead of schedule"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "PIB release on advancing the 20% ethanol blending target",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2043042",
+      "date": "2023-01-01",
+      "key_figure": "Target advanced from 2030 to ESY 2025-26; OMCs achieved 10% blending in June 2022, five months ahead of target"
+    },
+    {
+      "type": "news",
+      "publisher": "India Today",
+      "title": "Why the government wants to blend more ethanol with petrol",
+      "url": "https://www.indiatoday.in/business/story/ethanol-blended-petrol-india-government-push-reason-explained-2766519-2025-08-05",
+      "date": "2025-08-05",
+      "key_figure": "Average blending 17.98% in February 2025; E20 target hit by March 2025, five years ahead of schedule"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Government highlights safety, performance and national benefits of E20",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288271",
+      "summary": "Government states India achieved 20% ethanol blending five years ahead of the original target and that concerns about E20 are not supported by evidence."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 5 June 2021 (World Environment Day) PM Narendra Modi advanced the national ethanol-blending target to 20% by 2025, from the earlier indicative date of 2030.\n\nPIB states ethanol blending increased from less than 1.5% in 2013-14 to 20% in 2025-26, and that India reached the 20% target five years ahead of the original 2030 schedule. Monthly official figures cited in press reporting showed average blending of 17.98% in February 2025, before the 20% level was reached in March 2025.\n\nThe 2025 deadline was met, so the promise is recorded as true.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "Original 2030 target comes from the National Biofuel Policy 2018; the claim records the advanced 2025 date the PM announced on 5 June 2021. Wording is from the PMO statement as quoted by Mint, so not marked verbatim. The reference to 'five years ahead of schedule' compares against the original 2030 target, not the advanced 2025 date. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

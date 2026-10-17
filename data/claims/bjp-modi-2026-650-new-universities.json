@@ -1,0 +1,88 @@
+{
+  "id": "bjp-modi-2026-650-new-universities",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2026-08-15",
+  "venue": "Red Fort, Delhi (80th Independence Day address)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "From 2004 to 2014 there were fewer than 350 universities in the country... and today, within these 10-12 years, nearly 650 new universities have been added. We are approaching the figure of 1,000.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "AISHE data show university-level institutions rising from about 760 in 2014-15 to about 1,289 in 2023-24 (an increase of roughly 529) and from 723 to 1,113 in an earlier PIB release, which does not match the stated 650 additions or the 'fewer than 350 in 2014' starting point.",
+  "topics": [
+    "education"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Brought 650 new universities, doubled medical seats since 2014: Modi",
+      "url": "https://theprint.in/india/brought-650-new-universities-doubled-medical-seats-since-2014-modi/3015863/",
+      "timestamp_seconds": null,
+      "channel": "ThePrint (PTI)"
+    },
+    {
+      "platform": "news",
+      "title": "Brought 650 New Universities, Doubled Medical Seats, Since 2014: PM Modi",
+      "url": "https://www.ndtv.com/education/brought-650-new-universities-doubled-medical-seats-since-2014-modi-11912968",
+      "timestamp_seconds": null,
+      "channel": "NDTV"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "ThePrint/PTI report of the Prime Minister's Independence Day 2026 address",
+      "url": "https://theprint.in/india/brought-650-new-universities-doubled-medical-seats-since-2014-modi/3015863/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Education (AISHE)",
+      "title": "India's Higher Education Sector",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc_9738_20260830_10073001.pdf",
+      "date": "2026-08-30",
+      "key_figure": "Universities increased from 760 in 2014-15 to 1,289 in 2023-24 (growth of 69.6%); colleges rose from 38,498 to 48,246."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "Holistic Growth with Rise in Higher Education Institutions",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/apr/doc2023422183701.pdf",
+      "date": "2023-04-21",
+      "key_figure": "Universities up from 723 in 2014 to 1,113 in 2023; 5,298 colleges added (38,498 to 43,796)."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "Higher educational institutions increased significantly in nine years",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1918809",
+      "date": "2023-04-21",
+      "key_figure": "Universities rose from 723 (2014) to 1,113 (2023)."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Holistic growth with rise in higher education institutions",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/apr/doc2023422183701.pdf",
+      "summary": "The government highlights a rapid rise in higher-education institutions (universities, IITs, IIMs and colleges) since 2014 under its own reporting."
+    }
+  ],
+  "chart": null,
+  "analysis": "In his Independence Day address on 15 August 2026, the Prime Minister said that from 2004 to 2014 there were fewer than 350 universities, and that 'nearly 650 new universities' had been added in the following 10-12 years, taking the figure toward 1,000.\n\nGovernment education statistics give different levels. A PIB release of April 2023 stated that the number of universities rose from 723 in 2014 to 1,113 in 2023, an increase of 390. A PIB document published in August 2026, citing the All India Survey on Higher Education (AISHE) 2023-24, recorded university-level institutions rising from 760 in 2014-15 to 1,289 in 2023-24, an increase of about 529.\n\nBoth official series indicate a substantial expansion, but the stated addition of 'nearly 650' universities and the 'fewer than 350' starting point do not correspond to the AISHE counts.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The speech was in Hindi; the quoted English is the PTI rendering. Different AISHE editions and different definitions of 'university' (UGC-recognised universities vs AISHE university-level institutions, which include deemed and private universities) produce different totals, so the claim is marked 'misleading' rather than 'false'. This is distinct from the excluded modi-2020-iit-iim-iiit-numbers-before-2014 claim, which concerned IITs/IIMs/IIITs. The PTI report's transcription of the medical-colleges sentence is internally inconsistent ('400 medical seats... 850 medical seats') and is not used here. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "inc-jairam-2010-forest-cover-increase",
+  "speaker": "Jairam Ramesh",
+  "party": "INC",
+  "role": "Minister of State for Environment and Forests",
+  "level": "central",
+  "state": null,
+  "date": "2010-11-29",
+  "venue": "Rajya Sabha, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The country's forest and tree cover has increased by 728 and 1,106 sq km respectively.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The India State of Forest Report 2009 recorded a net increase of 728 sq km in forest cover and 1,106 sq km in tree cover between 2005 and 2007.",
+  "topics": [
+    "environment"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Hindu: Forest, tree cover increasing, says Ramesh",
+      "url": "https://www.thehindu.com/sci-tech/energy-and-environment/Forest-tree-cover-increasing-says-Ramesh/article15720839.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Forest Survey of India",
+      "title": "India State of Forest Report 2009, Chapter 2",
+      "url": "https://www.fsi.nic.in/sfr2009/chapter2.pdf",
+      "date": "2009-11-30",
+      "key_figure": "Net increase of 728 sq km in forest cover and 1,106 sq km in tree cover between 2005 and 2007"
+    },
+    {
+      "type": "index",
+      "publisher": "India Environment Portal",
+      "title": "India State of Forest Report 2009",
+      "url": "https://www.indiaenvironmentportal.org.in/reports-and-documents/india-state-of-forest-report-2009-2/",
+      "date": "2009-11-30",
+      "key_figure": "Forest and tree cover estimated at 78.37 million ha, 23.84% of India's geographical area in 2007"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Ramesh's written reply in the Rajya Sabha cited the India State of Forest Report 2009. The report recorded a net increase of 728 sq km in forest cover and 1,106 sq km in tree cover between 2005 and 2007.\n\nThe same report put forest and tree cover at 78.37 million hectares, or 23.84% of India's geographical area in 2007. The increase is consistent with the report's national totals.\n\nThe claim is a statement about the reported change, not about the quality or density of forest cover.",
+  "confidence": "low",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The Rajya Sabha reply was based on ISFR 2009; the report's reference years are 2005 and 2007. [QA: automated grounding check could not find the cited figures on the evidence page; confidence lowered to low pending manual review.]",
+  "grounding": {
+    "checked": 1,
+    "matched": 0,
+    "score": 0.0
+  }
+}

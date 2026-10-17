@@ -1,0 +1,69 @@
+{
+  "id": "shah-2015-15-lakh-chunavi-jumla",
+  "speaker": "Amit Shah",
+  "date": "2015-02-05",
+  "venue": "Interview, ABP News",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "This is a jumla. 15 lakhs will not be credited in anyone's account.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Shah, as BJP president, described the 15 lakh figure as a political 'jumla' and said it would not be credited to anyone's account; no such deposits have been made, and a minister said in 2018 the government lacked the funds.",
+  "topics": [
+    "black-money",
+    "governance",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "BOOM: Did Modi promise to deposit Rs 15 lakh in every account? A factcheck",
+      "url": "https://www.boomlive.in/did-modi-promise-to-deposit-rs-15-lakh-in-every-account-a-factcheck"
+    },
+    {
+      "title": "Deccan Herald: Amit Shah calls Modi's Rs 15 lakh remark a 'jumla'",
+      "url": "https://www.deccanherald.com/india/amit-shah-calls-modi-bluff-2111288"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "BOOM",
+      "title": "Did Modi promise to deposit Rs 15 lakh in every account?",
+      "url": "https://www.boomlive.in/did-modi-promise-to-deposit-rs-15-lakh-in-every-account-a-factcheck",
+      "date": "2019-01-01",
+      "key_figure": "Earliest '15 lakh' mention traced to Modi's 7 Nov 2013 Kanker rally, where it referred to black money abroad being brought back, not a deposit promise; PMO told an RTI applicant the question was not 'information' under the RTI Act. Date shown is approximate (January 2019 per search summary)."
+    },
+    {
+      "type": "parliament",
+      "publisher": "Minister of State Ramdas Athawale (public statement, Dec 2018), as reported by BOOM",
+      "title": "Athawale on Rs 15 lakh",
+      "url": "https://www.boomlive.in/did-modi-promise-to-deposit-rs-15-lakh-in-every-account-a-factcheck",
+      "date": "2018-12-01",
+      "key_figure": "Athawale said people would get Rs 15 lakh 'slowly' and that the government lacked the funds, having asked the RBI, which did not agree (day of month not given)."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Shah's explanation in the same interview",
+      "url": "https://www.deccanherald.com/india/amit-shah-calls-modi-bluff-2111288",
+      "summary": "Shah said Modi's intent was to bring back black money stashed abroad and use it for the poor; he drew a distinction between jumlas and promises (per search summaries; article not opened)."
+    }
+  ],
+  "chart": null,
+  "analysis": "In a February 2015 ABP News interview, Shah called the Rs 15 lakh statement a 'jumla' and said the money would not be credited to anyone's account (BOOM). He said the thought behind Modi's remark was to recover black money abroad and use it for the poor.\n\nBOOM traces the figure to a 7 November 2013 Modi rally in Kanker, where it described the amount a poor Indian would get if black money abroad were brought back. It reports no scheme to deposit such sums, a PMO RTI reply that avoided the question, and a December 2018 remark by MoS Athawale that the government lacked the funds.\n\nThe ledger records this as Shah's own characterisation. The description that no 15 lakh deposits would be made is accurate on the record found. Whether the original campaign wording amounted to a promise is addressed in the separate Modi entry.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Only the English wording as reported by BOOM; the Hindi original and the video were not found. 'Chunavi jumla' phrase itself is not in the sources I found; BOOM and Deccan Herald say 'jumla' / 'political idiom'. Date 5 Feb 2015 is per BOOM; Delhi assembly election context. Deccan Herald page returned 403, so content is from search summaries. Athawale's remark was an interview/press statement, tagged 'parliament' only for lack of a better type; a human may retag as news. 'true' verdict means his description matched facts, not that the original campaign statement was kept.",
+  "scored": false,
+  "context_for": "modi-2013-black-money-abroad-15-lakh",
+  "scoring_note": "Excluded from benchmark scoring: this is an admission about another claim, not a factual assertion. Shown as context on the linked claim.",
+  "party": "BJP",
+  "role": "BJP President",
+  "level": "party",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

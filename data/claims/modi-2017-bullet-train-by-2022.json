@@ -1,0 +1,73 @@
+{
+  "speaker": "Narendra Modi",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "chart": null,
+  "id": "modi-2017-bullet-train-by-2022",
+  "date": "2017-09-14",
+  "venue": "Foundation stone ceremony with Shinzo Abe, Sabarmati, Ahmedabad",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Mumbai-Ahmedabad high-speed rail (bullet train) to be completed by 2022 (target of 15 August 2022, the 75th anniversary of independence, as reported).",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2022-08-15",
+  "verdict": "missed-deadline",
+  "summary": "The Mumbai-Ahmedabad line was not operational in 2022; the Railways Minister told Lok Sabha in July 2025 that the Gujarat portion is planned for Dec 2027 and the entire project for Dec 2029.",
+  "topics": [
+    "railways",
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM Modi, Abe lay foundation stone of India's first bullet train (Tribune, 14 Sep 2017)",
+      "url": "https://www.tribuneindia.com/news/archive/nation/pm-modi-abe-lay-foundation-stone-of-india-s-first-bullet-train-466949"
+    },
+    {
+      "title": "Modi, Abe lay foundation stone for India's first bullet train (Madhyamam)",
+      "url": "https://english.madhyamam.com/national/2017/sep/14/modi-abe-lay-foundation-stone-indias-first-bullet-train"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "Lok Sabha written reply, Ministry of Railways (via PTI/The Week)",
+      "title": "Entire bullet train project from Maharashtra to Sabarmati expected to be ready by 2029: Vaishnaw",
+      "url": "https://www.theweek.in/wire-updates/national/2025/07/23/des30-lsq-rail-bullet-train.html",
+      "date": "2025-07-23",
+      "key_figure": "Vapi-Sabarmati by Dec 2027; entire project by Dec 2029; 392 km piers, 308 km girders launched; Rs 78,839 crore spent of ~Rs 1.08 lakh crore (to 30 Jun 2025)"
+    },
+    {
+      "type": "news",
+      "publisher": "The Wire",
+      "title": "Modi's 2022 target for fully operational bullet train looks unlikely as delays mount",
+      "url": "https://thewire.in/government/narendra-modi-2022-bullet-train-delays",
+      "date": "2018-09-01",
+      "key_figure": "Railways working towards only the Surat-Bilimora section by 2022 (per search summary; page body not retrievable)"
+    },
+    {
+      "type": "news",
+      "publisher": "Deccan Herald Insight / New Indian Express",
+      "title": "Bullet train from Maharashtra to Sabarmati to be ready by 2029",
+      "url": "https://www.deccanherald.com/dhie/news-and-trends/2025/07/24/bullet-train-from-maharashtra-to-sabarmati-to-be-ready-by-2029",
+      "date": "2025-07-24",
+      "key_figure": "Dec 2029 full corridor"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Minister's written reply, Lok Sabha, 23 July 2025",
+      "url": "https://www.theweek.in/wire-updates/national/2025/07/23/des30-lsq-rail-bullet-train.html",
+      "summary": "Says the project is complex and technology intensive and exact completion timelines can be ascertained only after civil, track, electrical, signalling, telecom and trainset works finish; all civil contracts awarded and full land (1,389.5 ha) acquired; land delays in Maharashtra affected the project until 2021."
+    }
+  ],
+  "analysis": "At the foundation-stone event on 14 September 2017, news reports said the Rs 1.10 lakh crore, 508 km project was expected to be completed by 2022; separate reports said the government aimed for a first run on 15 August 2022 while the official deadline stayed at December 2023.\n\nThe project was not operating in 2022. In a written Lok Sabha reply on 23 July 2025 the Railways Minister gave December 2027 for the Gujarat section (Vapi-Sabarmati) and December 2029 for the whole corridor, adding that exact timelines can be fixed only after all associated works are complete.\n\nAs of 30 June 2025, Rs 78,839 crore had been spent against an estimated cost of about Rs 1.08 lakh crore, with JICA financing 81%. A November 2025 report said the Bilimora-Surat section would be ready by August 2026; this was not confirmed in 2026 coverage found.",
+  "confidence": "medium",
+  "notes": "The 2022 target is reported by news (PTI) as a govt target at the 2017 ceremony; I found no verbatim Modi sentence giving the date, so quote_is_verbatim=false and the 15 Aug 2022 deadline comes from 2017 press reports (Wire, pressreader HT) not fetched in full. No YouTube video located. PMO speech page (pmindia.gov.in/?p=2740421) returned 403. Wire article body not retrievable (headline only). No 2026 Parliament answer found; status after July 2025 unverified.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

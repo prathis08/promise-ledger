@@ -1,0 +1,78 @@
+{
+  "id": "inc-dikshit-2013-delhi-per-capita-income",
+  "speaker": "Sheila Dikshit",
+  "party": "INC",
+  "role": "Chief Minister, Delhi",
+  "level": "state",
+  "state": "Delhi",
+  "date": "2013-09-12",
+  "venue": "Release of the Delhi Statistical Handbook, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The statistics reflect prosperity and sound economic situation in the capital city because of proactive economic policies of Delhi Government. (The report put Delhi's per capita income at Rs 2,01,083 in 2012-13, described as the highest in the country.)",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Delhi's per capita income was at the top among major states, but RBI/NSDP data show Goa's per capita was higher in the same years.",
+  "topics": [
+    "income",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Delhi has highest per capita income in the country, PTI via Economic Times",
+      "url": "https://m.economictimes.com/news/economy/indicators/delhi-has-highest-per-capita-income-in-the-country/articleshow/22525222.cms"
+    },
+    {
+      "title": "Delhiites' per capita income highest in country, Hindustan Times",
+      "url": "https://www.hindustantimes.com/delhi/delhiites-per-capita-income-highest-in-country/story-A3XJ0rx3bT7nsfFJhOCPFL.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "PTI / Economic Times",
+      "title": "Delhi has highest per capita income in the country",
+      "url": "https://m.economictimes.com/news/economy/indicators/delhi-has-highest-per-capita-income-in-the-country/articleshow/22525222.cms",
+      "date": "2013-09-12",
+      "key_figure": "Delhi per capita income Rs 2,01,083 (2012-13) vs national average about Rs 61,564; the report calls it the highest in the country"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Reserve Bank of India (NSDP per capita; via state-wise compilation)",
+      "title": "State-wise NSDP per capita, current prices",
+      "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=23468",
+      "date": "2015-01-01",
+      "key_figure": "2012-13 NSDP per capita: Goa Rs 2,34,354; Delhi Rs 2,05,568; Sikkim Rs 1,74,183"
+    },
+    {
+      "type": "index",
+      "publisher": "Wikipedia (cites RBI Handbook of Statistics on Indian States)",
+      "title": "List of Indian states and union territories by GDP per capita",
+      "url": "https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita",
+      "date": "2026-01-01",
+      "key_figure": "Delhi 2011-12 Rs 1,85,001 and 2012-13 Rs 2,05,568, below Goa's Rs 2,59,444 and Rs 2,34,354"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Delhi government statistical handbook (source of the claim)",
+      "url": "https://m.economictimes.com/news/economy/indicators/delhi-has-highest-per-capita-income-in-the-country/articleshow/22525222.cms",
+      "summary": "The Delhi government's handbook reported Delhi's per capita income as the highest among states and union territories and attributed it to the state government's economic policies."
+    }
+  ],
+  "chart": null,
+  "analysis": "In September 2013 the Delhi Chief Minister released the Delhi Statistical Handbook, which put the capital's per capita income at Rs 2,01,083 for 2012-13 against a national average of about Rs 61,564, and it was widely reported as the highest in the country. A 2011 release of the same handbook made a similar claim for 2009-10.\n\ngovernment/RBI state-wise (NSDP per capita) data for 2012-13 place Goa at about Rs 2,34,354, higher than Delhi's figure, while Delhi remained above other major states and above Sikkim.\n\nThe claim as stated ('highest in the country') is therefore not accurate if Goa is counted; Delhi's income was at the top among the large states/UTs but not the highest nationally. The claim is graded misleading rather than false because it was true relative to most states and was the official position of the Delhi government's own statistics office.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The comparison relies on RBI/NSDP per-capita data accessed via a secondary compilation; the exact RBI table was not opened directly. Delhi government figures (Rs 2,01,083) and RBI series (Rs 2,05,568) differ slightly. No verbatim transcript of the Chief Minister's remarks was located.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

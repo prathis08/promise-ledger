@@ -1,0 +1,81 @@
+{
+  "id": "bjp-modi-2022-5g-rollout",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2022-10-01",
+  "venue": "Launch of 5G services, 6th India Mobile Congress, Pragati Maidan, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Now that it has launched, it won't take time for it to reach everyone.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "At the 5G launch on 1 October 2022 the PM said it would not take long to reach everyone; PIB reported 5G in 99.6% of districts by March 2025 and 99.9% of districts (85% population coverage) by late 2025.",
+  "topics": [
+    "digital",
+    "infrastructure"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "5G launch updates: Our government is working on the goal of internet for all, says PM Modi",
+      "url": "https://www.thehindu.com/news/national/prime-minister-modi-launch-5g-services-live-updates/article65957999.ece",
+      "channel": "The Hindu"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PIB: PM to launch 5G services on 1st October",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1863650"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Department of Telecommunications",
+      "title": "Expansion of 5G Network in the Country",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2113855",
+      "date": "2025-03-21",
+      "key_figure": "5G available in 99.6% of districts; 4.69 lakh 5G BTS installed as on 28 February 2025"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Department of Telecommunications",
+      "title": "DoT makes significant strides in strengthening the Indian telecom ecosystem",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2206477&reg=3&lang=1",
+      "date": "2025-12-19",
+      "key_figure": "5G in 99.9% of districts with 85% population coverage; 5.08 lakh 5G BTS as on 31 October 2025"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Department of Telecommunications (DoT)",
+      "title": "2025 Year End Review for Department of Telecommunications (PDF)",
+      "url": "https://www.dot.gov.in/static/uploads/2026/02/ad331286066f76c0742f08849e9d64e9.pdf",
+      "date": "2025-12-19",
+      "key_figure": "5G rolled out in all states/UTs; 99.9% of districts, 85% population coverage"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB Factsheet: Telecom sector achievements",
+      "url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=149111",
+      "summary": "Government states India has seen the fastest rollout of 5G services in the world, with 4,62,084 BTS deployed across 779 districts as of December 2024."
+    }
+  ],
+  "chart": null,
+  "analysis": "PM Narendra Modi launched 5G services on 1 October 2022 at the India Mobile Congress and said it would not take time to reach everyone.\n\nPIB reported 5G available in 99.6% of districts and about 4.69 lakh 5G base transceiver stations installed as on 28 February 2025. By 31 October 2025, PIB reported 5G in 99.9% of districts with 85% population coverage and about 5.08 lakh base stations. The Department of Telecommunications describes the rollout as among the fastest globally.\n\nDistrict coverage reached near-universal levels within about three years of launch, so the statement is recorded as true, while noting that population coverage was 85% as of late 2025.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The PM's remark is quoted by The Hindu; no full transcript was read, so quote_is_verbatim is false. 'Reach everyone' is not defined with a metric; district coverage (99.9%) and population coverage (85%) are both reported. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "speaker": "Narendra Modi",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "chart": null,
+  "id": "modi-2015-100-smart-cities",
+  "date": "2015-06-25",
+  "venue": "Launch of Smart Cities Mission, AMRUT and Housing for All, Vigyan Bhawan, New Delhi",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Mission to develop 100 smart cities with efficient services, robust infrastructure and a sustainable environment (launch of Smart Cities Mission).",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2025-03-31",
+  "verdict": "missed-deadline",
+  "summary": "The mission period was extended repeatedly (to Mar 2025); official figures put about 90% of projects complete by mid-2024, while a 2023 parliamentary committee said completion counts were inflated by over-performance in 32 cities.",
+  "topics": [
+    "infrastructure",
+    "governance",
+    "digital"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Aaj Tak live coverage of the launch of three urban schemes, 25 Jun 2015",
+      "url": "https://www.aajtak.in/india/story/delhi-pm-narendra-modi-launches-three-schemes-including-smart-cities-mission-live-303096-2015-06-25"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "Standing Committee on Housing and Urban Affairs, Demands for Grants 2023-24 (via IANS/Moneylife)",
+      "title": "68 smart cities haven't achieved physical targets, says Parliament panel",
+      "url": "https://moneylife.in/article/68-smart-cities-havent-achieved-physical-targets-says-parliament-panel/70403.html",
+      "date": "2023-04-10",
+      "key_figure": "As of 31 Jan 2023: 5,343 of 7,821 projects completed; 68 cities below physical targets; 32 cities over-delivered, inflating the total"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Rajya Sabha answer, MoHUA",
+      "title": "Rajya Sabha unstarred question 265, 5 Aug 2024",
+      "url": "https://rsdebate.nic.in/bitstream/123456789/750341/1/PQ_265_05082024_S140_p71_p73.pdf",
+      "date": "2024-08-05",
+      "key_figure": "As of 12 Jul 2024 about 90% of projects (7,218; Rs 1,45,083 crore) complete (as relayed by search summary; PDF not opened)"
+    },
+    {
+      "type": "news",
+      "publisher": "Deccan Herald",
+      "title": "Centre has extended Smart Cities Mission till March 2025",
+      "url": "https://www.deccanherald.com/india/centre-has-extended-smart-cities-mission-till-march-2025-3086907",
+      "date": "2024-07-04",
+      "key_figure": "Second extension, from June 2024 to 31 Mar 2025; about 90% of projects complete"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "MoHUA statements on progress",
+      "url": "https://bwsmartcities.businessworld.in/article/73-Of-Work-Completed-In-Smart-Cities-Informs-Union-Minister-Puri-/23-05-2023-477664/",
+      "summary": "Minister Hardeep Puri said in May 2023 that 73% of the work was complete and the rest would be done by mid-2024; the ministry later reported about 90% completion and extended the mission without additional funds for the remaining roughly 10% of projects."
+    }
+  ],
+  "analysis": "The Smart Cities Mission was launched on 25 June 2015 with a target of 100 cities, selected across rounds between 2016 and 2018, supported by a Rs 48,000 crore central outlay.\n\nA Standing Committee report (2023-24) said that by 31 January 2023, 5,343 of 7,821 projects were complete, that 68 cities had not met physical targets and that 32 cities exceeding their targets inflated the headline figure. The mission period was extended to June 2024 and then to 31 March 2025; by July 2024 the ministry reported about 90% of projects complete.\n\nA secondary source cites a July 2025 committee report with 7,636 of 8,063 projects complete (about 95%); this was not verified against the report.",
+  "confidence": "low",
+  "notes": "Not a single verbatim promise: the claim is the mission's stated aim of 100 smart cities. Modi's launch speech transcript not found (Aaj Tak live blog only). Original mission period/deadline not verified (sources point to June 2024 before the March 2025 extension; a June 2023 date mentioned in the 2023 article is unconfirmed). The 5 Aug 2024 Rajya Sabha PDF and 2025 committee numbers were only seen via search summaries. Verdict 'missed-deadline' is based on repeated extensions; a reviewer may prefer 'in-progress'/'misleading' depending on reading.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

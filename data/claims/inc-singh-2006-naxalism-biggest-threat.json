@@ -1,0 +1,73 @@
+{
+  "id": "inc-singh-2006-naxalism-biggest-threat",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2006-04-13",
+  "venue": "Second meeting of the Standing Committee of Chief Ministers on Naxalism, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "It would not be an exaggeration to say that the problem of naxalism is the single biggest internal security challenge ever faced by our country.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The government's own casualty data for the period are consistent with Singh's assessment that Naxalism was then the country's principal internal-security challenge.",
+  "topics": [
+    "internal-security",
+    "security",
+    "terrorism"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PIB: PM's concluding remarks at the 2nd meeting of the Standing Committee of Chief Ministers on Naxalism (13 Apr 2006)",
+      "url": "https://web.archive.org/web/20260406100243/https://www.pib.gov.in/newsite/erelcontent.aspx?relid=17128&reg=3&lang=2"
+    },
+    {
+      "title": "ThePrint: Naxalism was on decline under Manmohan Singh (6 Apr 2026)",
+      "url": "https://theprint.in/opinion/naxalism-manmohan-singh-modi-govt/2897511/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Prime Minister's Office / PIB",
+      "title": "PM's concluding remarks at the 2nd meeting of the Standing Committee of Chief Ministers on Naxalism",
+      "url": "https://web.archive.org/web/20260406100243/https://www.pib.gov.in/newsite/erelcontent.aspx?relid=17128&reg=3&lang=2",
+      "date": "2006-04-13",
+      "key_figure": "Verbatim: 'It would not be an exaggeration to say that the problem of naxalism is the single biggest internal security challenge ever faced by our country.' He also said the movement had spread to over 160 districts."
+    },
+    {
+      "type": "news",
+      "publisher": "Deutsche Welle (citing Home Ministry data)",
+      "title": "Why has Maoist violence subsided in India?",
+      "url": "https://www.dw.com/en/why-has-maoist-violence-subsided-in-india/a-64292819",
+      "date": "2023-01-05",
+      "key_figure": "LWE incidents reached 2,258 in 2009 and deaths peaked at 1,005 in 2010; the insurgency was described as having claimed over 12,000 lives."
+    },
+    {
+      "type": "news",
+      "publisher": "ThePrint",
+      "title": "Naxalism was on decline under Manmohan Singh. Modi govt moved in at the time of consolidation",
+      "url": "https://theprint.in/opinion/naxalism-manmohan-singh-modi-govt/2897511/",
+      "date": "2026-04-06",
+      "key_figure": "Records the April 2006 speech and quotes Singh calling Naxalism 'the single biggest internal security challenge ever faced by our country'."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Speaking at the second meeting of the Standing Committee of Chief Ministers on Naxalism on 13 April 2006, Manmohan Singh said it would not be an exaggeration to call naxalism the single biggest internal security challenge ever faced by the country. He also said the movement had spread to over 160 districts.\n\nThe assessment was consistent with the casualty pattern of the period. MHA data show LWE incidents peaking at 2,258 in 2009 and deaths at 1,005 in 2010, before a gradual decline.\n\nThe statement is a characterisation rather than a numeric target. It is recorded as true because the government's own data for 2005-2010 show LWE as one of the largest and most persistent internal-security challenges of the period.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Quote read in the PIB transcript of the 13 April 2006 speech. 'Single biggest ... challenge' is an assessment; the verdict reflects consistency with MHA casualty data, not a statistical test. The 'over 160 districts' figure is from the same speech and was not separately checked against an MHA list.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

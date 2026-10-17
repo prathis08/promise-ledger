@@ -1,0 +1,61 @@
+{
+  "id": "inc-chidambaram-2009-nsg-hubs",
+  "speaker": "P. Chidambaram",
+  "party": "INC",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2009-08-12",
+  "venue": "Ministry of Home Affairs / PIB release, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Four Regional hubs of NSG with a total strength of 1086 personnel have been set up by the Government at Chennai, Hyderabad, Kolkata and Mumbai.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The four NSG regional hubs decided on after the 26/11 attacks were set up and inaugurated on 30 June and 1 July 2009.",
+  "topics": [
+    "security",
+    "terrorism",
+    "internal-security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PIB: Four hubs set up to sharpen NSG effectiveness (12 Aug 2009)",
+      "url": "https://web.archive.org/web/20251206051203/https://www.pib.gov.in/newsite/erelcontent.aspx?relid=51795&reg=3&lang=2"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Home Affairs / PIB",
+      "title": "Four hubs set up to sharpen NSG effectiveness",
+      "url": "https://web.archive.org/web/20251206051203/https://www.pib.gov.in/newsite/erelcontent.aspx?relid=51795&reg=3&lang=2",
+      "date": "2009-08-12",
+      "key_figure": "Four NSG regional hubs with 1,086 personnel were set up at Chennai, Hyderabad, Kolkata and Mumbai and formally inaugurated by Home Minister P. Chidambaram on 30 June and 1 July 2009."
+    },
+    {
+      "type": "news",
+      "publisher": "Wikipedia",
+      "title": "National Security Guard",
+      "url": "https://en.wikipedia.org/wiki/National_Security_Guard",
+      "date": null,
+      "key_figure": "The NSG's regional hubs are listed as Chennai, Gandhinagar, Hyderabad, Kolkata and Mumbai."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "After the November 2008 Mumbai attacks, the Home Ministry decided to station NSG teams at more locations to cut reaction time. A PIB release dated 12 August 2009 records that four regional hubs, with a total strength of 1,086 personnel, were set up at Chennai, Hyderabad, Kolkata and Mumbai.\n\nThe release says Home Minister P. Chidambaram formally inaugurated the hubs on 30 June and 1 July 2009, and records plans for regional centres at Hyderabad and Kolkata. The NSG's current list of regional hubs includes the four cities.\n\nThe specific claim that the four hubs were established is supported by the government record and by the NSG's regional structure.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The PIB release is dated 12 August 2009 and reports the hubs as already operational; it is a government source. The date of the original decision or promise was not independently confirmed. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

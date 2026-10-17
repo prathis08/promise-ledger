@@ -1,0 +1,67 @@
+{
+  "id": "inc-chidambaram-2012-21-terror-modules",
+  "speaker": "P. Chidambaram",
+  "party": "INC",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2012-05-05",
+  "venue": "Chief Ministers' meeting on the National Counter Terrorism Centre, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "In 2011 and until March, 2012, 21 terror modules had been neutralised, and ... one half of the cases had been cracked through the joint efforts of the Central Agencies and the State Police concerned.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "unverifiable",
+  "summary": "The figure is a government count given by the Home Minister; no public case-level dataset was found to verify it independently.",
+  "topics": [
+    "terrorism",
+    "security",
+    "internal-security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PIB: P Chidambaram's opening statement at Chief Ministers' meeting on NCTC (5 May 2012)",
+      "url": "https://web.archive.org/web/20220126151746/https://pib.gov.in/newsite/erelcontent.aspx?relid=83154"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Home Affairs / PIB",
+      "title": "Chidambaram's opening statement at the Chief Ministers' meeting on NCTC",
+      "url": "https://web.archive.org/web/20220126151746/https://pib.gov.in/newsite/erelcontent.aspx?relid=83154",
+      "date": "2012-05-05",
+      "key_figure": "Verbatim claim that 21 terror modules were neutralised in 2011 and to March 2012, with about half the cases cracked jointly; no list of modules or cases is given."
+    },
+    {
+      "type": "news",
+      "publisher": "NDTV",
+      "title": "10 big facts on Centre vs state over NCTC, new anti-terror agency",
+      "url": "https://web.archive.org/web/20121229083916/http://www.ndtv.com/article/india/10-big-facts-on-centre-vs-state-over-nctc-new-anti-terror-agency-206533",
+      "date": "2012-05-04",
+      "key_figure": "NDTV's report on the same meeting focuses on the federalism dispute and gives no independent count of neutralised terror modules."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Chidambaram's statement as released by PIB, 5 May 2012",
+      "url": "https://web.archive.org/web/20220126151746/https://pib.gov.in/newsite/erelcontent.aspx?relid=83154",
+      "summary": "Chidambaram cited the 21 neutralised modules as evidence that joint central-state action was working, and then argued that some agencies had failed to act on specific inputs."
+    }
+  ],
+  "chart": null,
+  "analysis": "At the chief ministers' meeting on the NCTC on 5 May 2012, Chidambaram said 21 terror modules had been neutralised in 2011 and up to March 2012, and that about half the cases had been solved jointly by central agencies and state police.\n\nThe figure is a government count. No public, case-level dataset listing the 21 modules was located, and the PIB release gives no further breakdown or definition of 'module' or 'neutralised'.\n\nThe claim is therefore recorded as unverifiable rather than true or false.",
+  "confidence": "low",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "No independent dataset found. The NDTV report used as context does not verify the 21-module figure. A reviewer with access to MHA case files or Parliament answers could upgrade or downgrade this entry. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

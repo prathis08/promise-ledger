@@ -1,0 +1,202 @@
+[
+  {
+    "errors": [
+      "2 evidence URLs dead (404); 1 left"
+    ],
+    "claim": {
+      "id": "inc-gandhi-2004-double-rural-credit",
+      "speaker": "Sonia Gandhi",
+      "party": "INC",
+      "role": "UPA Chairperson",
+      "level": "party",
+      "state": null,
+      "date": "2004-05-27",
+      "venue": "New Delhi (release of the UPA Common Minimum Programme)",
+      "language": "en",
+      "quote_original": "The UPA Government will ensure that the flow of rural credit is doubled in the next three years and that the coverage of small and marginal farmers by institutional lending is expanded substantially.",
+      "quote_english": "The UPA Government will ensure that the flow of rural credit is doubled in the next three years and that the coverage of small and marginal farmers by institutional lending is expanded substantially.",
+      "quote_is_verbatim": true,
+      "claim_type": "promise",
+      "deadline": "2007-05-27",
+      "verdict": "true",
+      "summary": "Agricultural credit more than doubled over the three years from the 2003-04 base, reaching about Rs 2.03 lakh crore in 2006-07 against Rs 86,981 crore in 2003-04.",
+      "topics": [
+        "agriculture",
+        "economy"
+      ],
+      "media": [
+        {
+          "platform": "news",
+          "title": "The Common Minimum Programme: the complete document",
+          "url": "https://m.economictimes.com/news/economy/policy/the-common-minimum-programme-the-complete-document/articleshow/703712.cms",
+          "channel": "The Economic Times"
+        }
+      ],
+      "transcript_sources": [
+        {
+          "title": "UPA Common Minimum Programme, full text (released 27 May 2004)",
+          "url": "http://www.panjab.org.uk/english/cmp.htm"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "govt_data",
+          "publisher": "PIB / Ministry of Agriculture",
+          "title": "Agriculture Minister's address at Economic Editors' Conference, 2010",
+          "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=66616",
+          "date": "2010-10-27",
+          "key_figure": "Agriculture credit rose from Rs 86,981 crore in 2003-04 to Rs 3,66,919 crore in 2009-10"
+        }
+      ],
+      "govt_response": [
+        {
+          "title": "PIB: Agriculture credit exceeded doubling targets",
+          "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=66616",
+          "summary": "The government said the June 2004 decision to double agricultural credit in three years with 2003-04 as the base year was consistently exceeded."
+        }
+      ],
+      "chart": null,
+      "analysis": "The CMP pledge was operationalised through a June 2004 farm credit package that used 2003-04 as the base year. Official data show institutional credit to agriculture rising from Rs 86,981 crore in 2003-04 to Rs 2,03,296 crore in 2006-07, more than double the base. By 2009-10 the flow had reached Rs 3,66,919 crore. The three-year target was therefore met within the stated period.",
+      "confidence": "high",
+      "review_status": "draft",
+      "last_reviewed": "2026-10-17",
+      "notes": "The CMP wording is 'rural credit'; the government's implementation and monitoring used 'agricultural credit'. The quote is from the released CMP text, not a spoken transcript.",
+      "researched_by": "deepseek-v4.1-flash-free"
+    }
+  },
+  {
+    "errors": [
+      "1 evidence URLs dead (404); 1 left"
+    ],
+    "claim": {
+      "id": "inc-singh-2011-record-foodgrain-241mt",
+      "speaker": "Manmohan Singh",
+      "party": "INC",
+      "role": "Prime Minister",
+      "level": "central",
+      "state": null,
+      "date": "2011-07-16",
+      "venue": "ICAR 83rd Foundation Day, New Delhi",
+      "language": "en",
+      "quote_original": "An estimated total production of 241 million tonnes in 2010-11 was achieved because of record production of wheat, maize and pulses.",
+      "quote_english": "An estimated total production of 241 million tonnes in 2010-11 was achieved because of record production of wheat, maize and pulses.",
+      "quote_is_verbatim": false,
+      "claim_type": "statistic",
+      "deadline": null,
+      "verdict": "true",
+      "summary": "The agriculture ministry's final estimate for 2010-11 was 244.49 million tonnes, so the 241 million tonne figure was a record and was subsequently revised slightly upward.",
+      "topics": [
+        "agriculture"
+      ],
+      "media": [
+        {
+          "platform": "news",
+          "title": "Country needs a second green revolution: Manmohan",
+          "url": "https://www.thehindu.com/news/national/country-needs-a-second-green-revolution-manmohan/article2232872.ece",
+          "channel": "The Hindu"
+        },
+        {
+          "platform": "news",
+          "title": "Record foodgrain production in 2010-11",
+          "url": "https://www.hindustantimes.com/business/record-foodgrain-production-in-2010-11/story-GC75iQX79UcFs6AlclAkvL.html",
+          "channel": "Hindustan Times"
+        }
+      ],
+      "transcript_sources": [
+        {
+          "title": "ICAR Foundation Day Lecture, 16 July 2011",
+          "url": "http://www.icar.org.in/en/node/1713"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "govt_data",
+          "publisher": "PIB / Ministry of Agriculture",
+          "title": "Foodgrain Production Estimated at 241.56 MT",
+          "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=73343",
+          "date": "2011-07-19",
+          "key_figure": "4th advance estimate for 2010-11: 241.56 million tonnes, highest ever"
+        }
+      ],
+      "govt_response": [
+        {
+          "title": "PIB: 4th advance estimate confirms record 2010-11 output",
+          "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=73343",
+          "summary": "The Agriculture Ministry's 4th advance estimate put 2010-11 foodgrain production at 241.56 million tonnes, the highest on record at that time."
+        }
+      ],
+      "chart": null,
+      "analysis": "The Prime Minister cited 241 million tonnes for 2010-11 at the ICAR foundation day lecture. The Agriculture Ministry's fourth advance estimate, released three days later, put the crop at 241.56 million tonnes. The final estimate was 244.49 million tonnes, which is higher than the figure cited. The direction and the record character of the claim are supported by the data.",
+      "confidence": "high",
+      "review_status": "draft",
+      "last_reviewed": "2026-10-17",
+      "notes": "The quote is a direct quotation reported by The Hindu BusinessLine/The Hindu; the official ICAR page summarises the speech but does not reproduce the full sentence.",
+      "researched_by": "deepseek-v4.1-flash-free"
+    }
+  },
+  {
+    "errors": [
+      "1 evidence URLs dead (404); 1 left"
+    ],
+    "claim": {
+      "id": "inc-ramesh-2011-pmgsy-60-percent",
+      "speaker": "Jairam Ramesh",
+      "party": "INC",
+      "role": "Union Minister for Rural Development",
+      "level": "central",
+      "state": null,
+      "date": "2011-10-31",
+      "venue": "New Delhi (interview with Rediff.com)",
+      "language": "en",
+      "quote_original": "We have finished 60 percent of the programme, but 40 percent remains to be done.",
+      "quote_english": "We have finished 60 percent of the programme, but 40 percent remains to be done.",
+      "quote_is_verbatim": true,
+      "claim_type": "statistic",
+      "deadline": null,
+      "verdict": "true",
+      "summary": "CAG data show 108,637 of 172,772 eligible habitations, or 60.97%, connected under PMGSY by 31 March 2012, consistent with the minister's 60% figure.",
+      "topics": [
+        "infrastructure",
+        "agriculture"
+      ],
+      "media": [
+        {
+          "platform": "news",
+          "title": "Exclusive! Jairam Ramesh lays out roadmap of rural growth",
+          "url": "https://www.rediff.com/news/slide-show/slide-show-1-exclusive-jairam-ramesh-lays-out-roadmap-of-rural-growth/20111031.htm",
+          "channel": "Rediff.com"
+        }
+      ],
+      "transcript_sources": [
+        {
+          "title": "Interview: Jairam Ramesh on rural development",
+          "url": "https://www.rediff.com/news/slide-show/slide-show-1-exclusive-jairam-ramesh-lays-out-roadmap-of-rural-growth/20111031.htm"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "govt_data",
+          "publisher": "Ministry of Rural Development",
+          "title": "Annual Report 2011-12",
+          "url": "https://www.scribd.com/document/138452008/Annual-Report-2011-12-E",
+          "date": "2012",
+          "key_figure": "Bharat Nirman rural roads: 42,531 habitations connected out of 63,940 targeted by January 2012"
+        }
+      ],
+      "govt_response": [
+        {
+          "title": "PIB: 63% of eligible habitations connected under PMGSY by 2015",
+          "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=131846",
+          "summary": "The Rural Development Ministry reported 1,12,550 habitations (63%) connected in 15 years of PMGSY."
+        }
+      ],
+      "chart": null,
+      "analysis": "In an October 2011 interview the rural development minister said about 60% of the PMGSY programme was complete and 40% remained. CAG data put cumulative connectivity at 108,637 habitations out of 172,772, or 60.97%, by 31 March 2012. The 60% figure is therefore a fair description of progress at the time, although the exact percentage moved during 2011-12.",
+      "confidence": "medium",
+      "review_status": "draft",
+      "last_reviewed": "2026-10-17",
+      "notes": "The minister did not specify whether the 60% referred to habitations, road length or expenditure; the CAG habitation series supports the figure.",
+      "researched_by": "deepseek-v4.1-flash-free"
+    }
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "id": "bjp-jaishankar-2022-operation-ganga-22500",
+  "speaker": "S. Jaishankar",
+  "party": "BJP",
+  "role": "Minister of External Affairs",
+  "level": "central",
+  "state": null,
+  "date": "2022-03-15",
+  "venue": "Rajya Sabha, Parliament of India",
+  "language": "en",
+  "quote_original": "Despite the challenges posed by the serious ongoing conflict, we have ensured that about 22500 citizens have returned home safely.",
+  "quote_english": "Despite the challenges posed by the serious ongoing conflict, we have ensured that about 22,500 citizens have returned home safely.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Ministry of External Affairs answers state that around 22,500 Indian nationals returned from Ukraine in February-March 2022 under Operation Ganga.",
+  "topics": [
+    "foreign-policy"
+  ],
+  "media": [
+    {
+      "platform": "youtube",
+      "title": "We have ensured safe return of about 22500 Indians",
+      "url": "https://www.youtube.com/watch?v=vShLu_m7nLY",
+      "timestamp_seconds": null,
+      "channel": ""
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "Suo-Moto Statement by External Affairs Minister Dr. S. Jaishankar in the Rajya Sabha on the Situation in Ukraine (MEA)",
+      "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl%2F34952"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "Ministry of External Affairs",
+      "title": "Lok Sabha Unstarred Question No. 1635: Operation Ganga Mission",
+      "url": "https://www.mea.gov.in/lok-sabha.htm?dtl%2F36016%2FQUESTION_",
+      "date": null,
+      "key_figure": "Around 22,500 Indian nationals evacuated from Ukraine; 18,278 brought back under Operation Ganga"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Ministry of External Affairs (Rajya Sabha)",
+      "title": "Unstarred Question No. 2149: Details about Operation Kaveri, Operation Ganga and Operation Ajay",
+      "url": "https://www.sansad.in/getFile/annex/262/AU2149.pdf?source=pqars",
+      "date": "2023-12-21",
+      "key_figure": "18,282 Indian nationals brought back by 90 flights (76 commercial, 14 IAF), February-March 2022"
+    },
+    {
+      "type": "news",
+      "publisher": "The Times of India",
+      "title": "India ensured safe evacuation of 22,500 Indians from Ukraine under Operation Ganga: Jaishankar",
+      "url": "https://timesofindia.indiatimes.com/india/india-ensured-safe-evacuation-of-22500-indians-from-ukraine-under-operation-ganga-jaishankar/articleshow/90226442.cms",
+      "date": "2022-03-15",
+      "key_figure": "22,500 citizens returned"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "MEA: Operation Ganga and other evacuation missions in line with welfare of Indians abroad",
+      "url": "https://www.sansad.in/getFile/annex/262/AU2149.pdf?source=pqars",
+      "summary": "The ministry states the government accords the highest priority to the welfare of Indians abroad and that the operations were conducted on that basis."
+    }
+  ],
+  "chart": null,
+  "analysis": "In a suo-motu statement in the Rajya Sabha on 15 March 2022, Jaishankar said that about 22,500 citizens had returned home safely under Operation Ganga.\n\nThe Ministry of External Affairs told Parliament that around 22,500 Indian nationals were evacuated from Ukraine in February-March 2022, with 90 evacuation flights (76 commercial and 14 Indian Air Force).\n\nOther MEA replies give 18,278-18,282 as the number brought back specifically from Ukraine by the 90 flights, while the higher figure of about 22,500 covers all returns in the period. The minister's figure is consistent with the official numbers.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "MEA replies contain two different numbers (about 22,500 total evacuated vs 18,278-18,282 returned by the 90 Operation Ganga flights). The YouTube URL was found in search results; exact timestamp not verified.",
+  "grounding": {
+    "checked": 2,
+    "matched": 1,
+    "score": 0.5
+  }
+}

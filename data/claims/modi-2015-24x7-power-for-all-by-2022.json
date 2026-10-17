@@ -1,0 +1,67 @@
+{
+  "id": "modi-2015-24x7-power-for-all-by-2022",
+  "speaker": "Narendra Modi",
+  "date": "2015-09-04",
+  "venue": "Address reported by PTI as 'Govt targeting 24x7 power supply across the country: PM' (venue not confirmed)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "24x7 electricity for all by 2022 (government target announced 2014; PM tied it to the 75th Independence Day).",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2022-08-15",
+  "verdict": "unverifiable",
+  "summary": "Round-the-clock supply for every household was a stated 2022 goal; no single official dataset confirming it was found, and early surveys showed many electrified rural homes got fewer than 12 hours a day.",
+  "topics": [
+    "energy",
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Govt targeting 24x7 power supply across the country: PM (PTI via Business Standard)",
+      "url": "https://www.business-standard.com/article/pti-stories/govt-targeting-24x7-power-supply-across-the-country-pm-115090400567_1.html"
+    },
+    {
+      "title": "Govt targeting 24x7 power supply across the country: PM (India TV)",
+      "url": "https://www.indiatvnews.com/politics/national/govt-targeting-24-7-power-supply-across-the-country-pm-32145.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "IEEE Spectrum",
+      "title": "Amid Blackouts, India's New Leader Vows 24-7 Power for All",
+      "url": "https://spectrum.ieee.org/amid-blackouts-indias-new-leader-vows-247-power-for-all",
+      "date": "2014-06",
+      "key_figure": "Government vowed round-the-clock power for all by 2022"
+    },
+    {
+      "type": "news",
+      "publisher": "Power for All",
+      "title": "Smart technology, involving people in operations could make 24x7 electricity a reality",
+      "url": "https://powerforall.org/news-media/articles/power-all-always",
+      "date": "",
+      "key_figure": "Cites 2015 CEEW/Columbia survey: about 50% of electrified rural households in six states got under 12 hours a day (per search summary)"
+    },
+    {
+      "type": "news",
+      "publisher": "The Logical Indian",
+      "title": "Fact Check: Every single village of India now has access to electricity",
+      "url": "https://thelogicalindian.com/fact-check-every-single-village-of-india-now-has-access-to-electricity-the-claim-is-away-from-the-reality/",
+      "date": "2018-05",
+      "key_figure": "Electrified village definition does not imply 24x7 power, all households connected, or measured consumption"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "A round-the-clock power-for-all goal for 2022 was announced in 2014 and restated by the PM in 2015. The Saubhagya scheme reported 2.63 crore willing households connected by March 2019, but connection is not hours of supply.\n\nThe sources found here predate 2022 or concern connections, not supply hours. Official post-2022 data on hours of supply (e.g. Ministry of Power or discom reports) was not retrieved, so no verdict on outcome is given.",
+  "confidence": "low",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Both transcript pages could not be opened (Business Standard 403); date from URL id (15090400567) and title only. Needs Ministry of Power data on average hours of supply 2022, Saubhagya PIB data (2.63 crore households as of March 2019 per search summary), and NFHS-5 household electricity. Government response not found.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

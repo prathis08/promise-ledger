@@ -1,0 +1,81 @@
+{
+  "id": "inc-singh-2009-nrega-4-crore-families",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2009-08-15",
+  "venue": "Red Fort, New Delhi (Independence Day address)",
+  "language": "en",
+  "quote_original": "In the year 2008-09, it benefited about 4 crore families.",
+  "quote_english": "In the year 2008-09, it benefited about 4 crore families.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Official NREGA data show 4.51 crore households provided employment in 2008-09, consistent with the Prime Minister's 'about 4 crore families'.",
+  "topics": [
+    "agriculture",
+    "jobs"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "PM's Independence Day Speech, 2009",
+      "url": "https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=780",
+      "channel": "Prime Minister's Office"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PM's Independence Day Speech, 2009 (full text)",
+      "url": "https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=780"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Rural Development",
+      "title": "NREGA: employment and persondays generated",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=52630",
+      "date": "2009",
+      "key_figure": "In 2008-09, 4.5 crore households were provided employment and 216.01 crore persondays were generated"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Rural Development",
+      "title": "NREGA budget and employment data",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=53159",
+      "date": "2009",
+      "key_figure": "4.49 crore households provided employment in 2008-09"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Rural Development",
+      "title": "Annual Report 2009-10",
+      "url": "https://www.yumpu.com/en/document/view/45604356/annual-report-2009-10pdf-ministry-of-rural-development/29",
+      "date": "2010",
+      "key_figure": "4.51 crore households provided employment in 2008-09; 216.32 crore persondays"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: 4.5 crore households employed under NREGA in 2008-09",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=52630",
+      "summary": "The Rural Development Ministry reported 4.5 crore households and 216.01 crore persondays in 2008-09."
+    }
+  ],
+  "chart": null,
+  "analysis": "The Prime Minister's Independence Day address said the National Rural Employment Guarantee Act benefited about 4 crore families in 2008-09. Ministry of Rural Development figures put the number at 4.49-4.51 crore households, with 216 crore persondays generated. The stated figure is therefore consistent with the official data.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The PMO speech page was returned in search results with the exact sentence but could not be re-fetched directly; the same sentence is reproduced in the search snippet. Other official releases give 4.49-4.5 crore. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 2,
+    "score": 0.6666666666666666
+  }
+}

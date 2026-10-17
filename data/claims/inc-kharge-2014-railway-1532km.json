@@ -1,0 +1,60 @@
+{
+  "id": "inc-kharge-2014-railway-1532km",
+  "speaker": "Mallikarjun Kharge",
+  "party": "INC",
+  "role": "Union Minister of Railways",
+  "level": "central",
+  "state": null,
+  "date": "2014-02-12",
+  "venue": "Lok Sabha, New Delhi",
+  "language": "en",
+  "quote_original": "During the year we completed 1,532 km of New Line, Doubling and Gauge Conversion against a revised target of 1,525 km.",
+  "quote_english": "During the year we completed 1,532 km of New Line, Doubling and Gauge Conversion against a revised target of 1,525 km.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Railway Board documents for 2013-14 record 1,532 km of new line, doubling and gauge conversion commissioned against a revised target of 1,525 km.",
+  "topics": [
+    "railways",
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "DNA: Full text of Railway Minister Mallikarjun Kharge's Railway Budget 2014-15 speech",
+      "url": "https://www.dnaindia.com/business/report-full-text-speech-of-railway-minister-mallikarjun-kharge-introducing-the-railway-budget-2014-15-1961431"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Indian Railways",
+      "title": "Railway Budget 2014-15: Speech of Shri Mallikarjun Kharge",
+      "url": "https://sr.indianrailways.gov.in/railwayboard/uploads/directorate/finance_budget/Budget_2014-15/English_Speech_2014-15.pdf",
+      "date": "2014-02-12",
+      "key_figure": "1,532 km of new line, doubling and gauge conversion against a revised target of 1,525 km"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Indian Railways",
+      "title": "Railway Budget 2014-15 Highlights",
+      "url": "https://cr.indianrailways.gov.in/cris/downloadfile.jsp?fileid=386&filename=1392192998973-212-Railway%20Budget%20Highlights.docx",
+      "date": "2014-02-12",
+      "key_figure": "In 2013-14, 1,532 km of new lines, doubling and gauge conversion commissioned"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "In the interim Railway Budget for 2014-15, Kharge reported 1,532 km of new line, doubling and gauge conversion commissioned in 2013-14, against a revised target of 1,525 km.\n\nThe Railway Board's budget highlights for 2014-15 repeat the 1,532 km figure. The budget speech PDF carries the same sentence.\n\nThe figure is an official self-report; no independent CAG audit of the 2013-14 commissioning total was located.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The claim is a narrow year-end commissioning statistic from the Railway Budget speech, not a multi-year promise. Both evidence items are Railway Board documents; no independent audit figure was found. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

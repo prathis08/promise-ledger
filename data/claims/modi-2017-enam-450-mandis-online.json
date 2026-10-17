@@ -1,0 +1,63 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statistic",
+  "deadline": null,
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM addresses HT Leadership Summit (narendramodi.in)",
+      "url": "https://www.narendramodi.in/man/pm-addresses-ht-leadership-summit-385906"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2017-enam-450-mandis-online",
+  "date": "2017-11-30",
+  "venue": "Hindustan Times Leadership Summit, New Delhi",
+  "language": "hi",
+  "quote_english": "e-NAM has brought over 450 mandis online (paraphrase from FactChecker's list).",
+  "verdict": "true",
+  "topics": [
+    "agriculture",
+    "digital"
+  ],
+  "summary": "Government e-NAM data showed 470 mandis enrolled at the time, against a target of 585 by March 2018.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in / BOOM",
+      "title": "9 of Prime Minister Modi's 16 claims on schemes true, 3 false",
+      "url": "https://www.boomlive.in/9-modis-16-claims-govt-schemes-true-3-false",
+      "date": "2017-12-18",
+      "key_figure": "Rated 9 true, 3 false, 2 partly true, 2 unclear across the 30 Nov 2017 HT Leadership Summit speech"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "e-NAM, Government of India",
+      "title": "e-NAM mandi list (as cited by FactChecker)",
+      "url": "https://www.enam.gov.in/NAM/home/mandis.html#",
+      "date": "2017-12",
+      "key_figure": "470 mandis enrolled"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "PIB release on e-NAM (as cited by FactChecker)",
+      "url": "https://pib.nic.in/newsite/PrintRelease.aspx?relid=138891",
+      "date": "2016",
+      "key_figure": "Target of 585 mandis by March 2018"
+    }
+  ],
+  "analysis": "FactChecker rated this claim true. e-NAM listed 470 enrolled mandis as of December 2017, above the 450 stated.\n\nEnrolment does not measure trading volumes or farmer benefit; the check covers only the count.",
+  "confidence": "medium",
+  "notes": "Count of enrolled mandis only; no data on actual online trade. Quote is a paraphrase. The e-NAM page is live and now shows later figures.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

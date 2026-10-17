@@ -1,0 +1,93 @@
+{
+  "id": "bjp-chouhan-2023-ladli-behna-3000",
+  "speaker": "Shivraj Singh Chouhan",
+  "party": "BJP",
+  "role": "Chief Minister, Madhya Pradesh",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "date": "2023-03-01",
+  "venue": "Madhya Pradesh (Mukhyamantri Ladli Behna Yojana launch and rollout events)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "The scheme is starting with ₹1,000 per month; it will gradually be raised to ₹3,000 per month.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "in-progress",
+  "summary": "The monthly transfer began at ₹1,000, rose to ₹1,250, and then to ₹1,500 from November 2025 — below the stated ₹3,000 target.",
+  "topics": [
+    "women"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Ladli Behna Yojana: CM Shivraj Singh Chouhan announces 3000 rupees per month to MP women",
+      "url": "https://www.abplive.com/states/madhya-pradesh/ladli-behna-yojana-cm-shivraj-singh-chouhan-announces-3000-rupees-per-month-to-mp-women-mp-elections-2023-ann-2428680",
+      "timestamp_seconds": null,
+      "channel": "ABP Live"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "Live Hindustan: Shivraj announces ₹3,000 per month under Ladli Behna Yojana",
+      "url": "https://www.livehindustan.com/madhya-pradesh/story-mp-cm-shivraj-singh-chauhan-announced-3000-per-month-will-be-given-in-ladli-behna-yojana-8288821.html"
+    },
+    {
+      "title": "Amar Ujala: Chouhan on raising Ladli Behna amount to ₹3,000",
+      "url": "https://www.amarujala.com/madhya-pradesh/shivraj-singh-chouhan-ladli-behna-yojana-amount-increase-3000-rais-en-madhya-pradesh-2026-10-11"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Dainik Bhaskar (English)",
+      "title": "Ladli Behnas get ₹1,500 in first installment: CM Mohan Yadav transfers funds",
+      "url": "https://www.bhaskarenglish.in/local/mp/news/cm-mohan-yadav-to-release-ladli-behna-funds-from-seoni-scheme-may-be-renamed-devi-subhadra-yojana-136397531.html",
+      "date": null,
+      "key_figure": "The amount was raised from ₹1,250 to ₹1,500 per month; ₹1,587 crore transferred in the first enhanced installment."
+    },
+    {
+      "type": "news",
+      "publisher": "DNP India",
+      "title": "Madhya Pradesh Cabinet approves hike in Ladli Behna monthly allowance to ₹1,500",
+      "url": "https://www.dnpindia.in/states/madhyapradesh/madhya-pradesh-cabinet-approves-hike-in-ladli-behna-monthly-allowance-to-%E2%82%B91500/573631/",
+      "date": null,
+      "key_figure": "Cabinet raised the allowance from ₹1,250 to ₹1,500, effective November 2025."
+    },
+    {
+      "type": "news",
+      "publisher": "Dainik Jagran (MPCG English)",
+      "title": "Shivraj on Ladli Behna Yojana: ₹3,000 aid to rise gradually",
+      "url": "https://english.dainikjagranmpcg.com/states/madhya-pradesh/shivraj-on-ladli-behna-yojana-%E2%82%B93000-aid-to-rise-gradually/article-37915",
+      "date": null,
+      "key_figure": "Chouhan said the monthly assistance would rise gradually toward ₹3,000."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Mukhyamantri Ladli Behna Yojana official portal (Government of Madhya Pradesh)",
+      "url": "https://cmladlibahna.mp.gov.in/",
+      "summary": "The state describes the scheme as providing monthly financial assistance to eligible women and records increases in the transfer amount."
+    }
+  ],
+  "chart": {
+    "series": "ladli-behna-monthly",
+    "target": 3000,
+    "target_label": "₹3,000/month target",
+    "baseline": {
+      "x": "2023-03",
+      "y": 1000
+    }
+  },
+  "analysis": "The Mukhyamantri Ladli Behna Yojana in Madhya Pradesh provides a monthly cash transfer to eligible women. It began at ₹1,000 per month in 2023, and Chief Minister Shivraj Singh Chouhan stated that the amount would be raised gradually to ₹3,000 per month.\n\nReported data show the transfer was increased to ₹1,250 during 2023 and then to ₹1,500 per month from November 2025, on a state Cabinet decision. The Bhaskar report records ₹1,587 crore transferred in the first ₹1,500 installment.\n\nAs of October 2026 the monthly amount remains ₹1,500, half of the stated ₹3,000 target, with no fixed deadline announced.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The exact day of the ₹3,000 pledge is uncertain; it was announced during the 2023 scheme rollout and repeated through the November 2023 state election campaign, so the date is set to 2023-03-01 (day unknown) and the venue is general. Chouhan was Chief Minister until December 2023; the scheme has continued under Chief Minister Mohan Yadav. No specific deadline for reaching ₹3,000 was stated. The official portal URL (cmladlibahna.mp.gov.in) was seen referenced in search results (IMPPRI item) but was not fetched.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

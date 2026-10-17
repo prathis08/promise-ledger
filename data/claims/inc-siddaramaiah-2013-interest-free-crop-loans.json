@@ -1,0 +1,74 @@
+{
+  "id": "inc-siddaramaiah-2013-interest-free-crop-loans",
+  "speaker": "Siddaramaiah",
+  "party": "INC",
+  "role": "Chief Minister, Karnataka",
+  "level": "state",
+  "state": "Karnataka",
+  "date": "2013-07-12",
+  "venue": "Karnataka Legislative Assembly, Bengaluru (revised budget 2013-14)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Interest-free short-term loans will be made available to farmers up to Rs 2 lakh, and at 1 per cent interest for loans between Rs 2 lakh and Rs 3 lakh from cooperative institutions.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The Karnataka government announced the interest-free crop loan scheme in July 2013 and reported disbursals to 10.5 lakh farmers by November 2013.",
+  "topics": [
+    "agriculture",
+    "economy"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Karnataka government announces interest-free farm loan up to Rs 2 lakh",
+      "url": "https://timesofindia.indiatimes.com/india/karnataka-government-announces-interest-free-farm-loan-up-to-rs-2-lakh/articleshow/21037183.cms",
+      "channel": "The Times of India"
+    },
+    {
+      "platform": "news",
+      "title": "Farmers to get interest-free loans up to Rs 2 lakh, says Karnataka",
+      "url": "https://www.business-standard.com/article/economy-policy/farmers-to-get-interest-free-loans-up-to-rs-2-lakh-says-karnataka-113071200491_1.html",
+      "channel": "Business Standard"
+    }
+  ],
+  "transcript_sources": [],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The New Indian Express",
+      "title": "State government to give out Rs 8,000 crore as farm loans, says Minister",
+      "url": "https://www.newindianexpress.com/states/karnataka/2013/Nov/18/state-government-to-give-out-rs-8000-crore-as-farm-loans-says-minister-538566.html",
+      "date": "2013-11-18",
+      "key_figure": "10.5 lakh farmers covered and Rs 4,400 crore distributed; Rs 8,000 crore planned for 20 lakh farmers"
+    },
+    {
+      "type": "news",
+      "publisher": "Business Standard",
+      "title": "K'taka to distribute grains at Re 1 per kg from October 2",
+      "url": "https://www.business-standard.com/article/politics/k-taka-to-distribute-grains-at-re-1-per-kg-from-october-2-113082601140_1.html",
+      "date": "2013-08-26",
+      "key_figure": "Small and marginal farmers to get interest-free loans up to Rs 2 lakh; 1 per cent for Rs 2-3 lakh"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Karnataka government confirms scheme rollout",
+      "url": "https://www.newindianexpress.com/states/karnataka/2013/Nov/18/state-government-to-give-out-rs-8000-crore-as-farm-loans-says-minister-538566.html",
+      "summary": "The cooperation minister said 10.5 lakh farmers had been covered and Rs 4,400 crore distributed under the 2013-14 plan."
+    }
+  ],
+  "chart": null,
+  "analysis": "The scheme was announced in the revised 2013-14 budget and operationalised through cooperative institutions during the year. In August 2013 the government restated the terms: zero interest up to Rs 2 lakh and 1% for Rs 2-3 lakh. By November 2013 the cooperation minister reported 10.5 lakh farmers covered and Rs 4,400 crore disbursed, against a plan of Rs 8,000 crore for 20 lakh farmers. The announced policy was implemented, although disbursal was still in progress at that point.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is the reported budget announcement, not a transcript. The scheme was for short-term crop loans through cooperative institutions.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "inc-shinde-2013-darbha-intelligence",
+  "speaker": "Sushilkumar Shinde",
+  "party": "INC",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2013-05-31",
+  "venue": "Joint press conference with Chhattisgarh Chief Minister Raman Singh, Raipur",
+  "language": "en",
+  "quote_original": "We can't say if it was due to intelligence failure. A judicial commission and our own enquiry is being conducted. We will decide after we get the reports.",
+  "quote_english": "We can't say if it was due to intelligence failure. A judicial commission and our own enquiry is being conducted. We will decide after we get the reports.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "unverifiable",
+  "summary": "Shinde declined to attribute the Darbha valley attack to intelligence failure while two probes were pending; contemporaneous reporting said Congress leaders had been warned of a possible attack, but no public finding by the judicial commission was located.",
+  "topics": [
+    "internal-security",
+    "security",
+    "terrorism"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Siasat: Can't label Maoist attack intelligence failure: Shinde (31 May 2013)",
+      "url": "https://archive.siasat.com/news/cant-label-maoist-attack-intelligence-failure-shinde-439896/"
+    },
+    {
+      "title": "Hill Post: Chhattisgarh Maoist assault a terror attack: Shinde (31 May 2013)",
+      "url": "https://hillpost.in/2013/05/chhattisgarh-maoist-assault-a-terror-attack-shinde/83404/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "250 naxals carried out the killings",
+      "url": "https://indianexpress.com/article/india/250-naxals-carried-out-the-killings/",
+      "date": "2013-05-26",
+      "key_figure": "Around 250 Maoists killed 27 people; 'The Congress leaders were warned about the possibility of an attack as this is the period of Tactical Counter Offensive Campaign (TCOC) of the Maoists,' official sources said."
+    },
+    {
+      "type": "news",
+      "publisher": "Wikipedia",
+      "title": "2013 Naxal attack in Darbha valley",
+      "url": "https://en.wikipedia.org/wiki/2013_Naxal_attack_in_Darbha_valley",
+      "date": null,
+      "key_figure": "At least 27 people were killed on 25 May 2013, including Mahendra Karma and Nand Kumar Patel; the NIA and a judicial commission investigated."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Shinde's press conference, 31 May 2013",
+      "url": "https://archive.siasat.com/news/cant-label-maoist-attack-intelligence-failure-shinde-439896/",
+      "summary": "Shinde said the cause could not be labelled until a judicial commission and an internal enquiry submitted their reports, and that intelligence inputs need verification before action."
+    }
+  ],
+  "chart": null,
+  "analysis": "Shinde's statement was a refusal to assign cause while investigations were pending, not an assertion that no intelligence failure occurred. He said a judicial commission and an internal enquiry were examining the attack.\n\nThe Indian Express reported on 26 May 2013 that Congress leaders had been warned about a possible attack during the Maoists' Tactical Counter Offensive Campaign period. That reporting indicates intelligence warnings existed, but it does not establish whether the warnings were specific enough or whether they were acted upon.\n\nNo public report of the judicial commission was located. On the available record, the claim that the cause could not yet be determined is accurate; a finding that there was or was not an intelligence failure cannot be verified here.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is a statement about the state of the investigation, so the verdict is 'unverifiable' rather than false. The Indian Express report refers to general warnings during the TCOC period, not a specific alert about the Darbha convoy. The judicial commission's report was not found in public sources.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

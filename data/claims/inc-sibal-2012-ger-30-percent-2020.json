@@ -1,0 +1,75 @@
+{
+  "id": "inc-sibal-2012-ger-30-percent-2020",
+  "speaker": "Kapil Sibal",
+  "party": "INC",
+  "role": "Union Minister for Human Resource Development",
+  "level": "central",
+  "state": null,
+  "date": "2012-10-23",
+  "venue": "Public function, Pulwama, Jammu and Kashmir",
+  "language": "en",
+  "quote_original": "I have set a target of 30 per cent enrolment in higher education institutions by 2020-end. Government-run schools and colleges alone cannot do it. If we have to achieve this target, private educational institutions will have to play an important role.",
+  "quote_english": "I have set a target of 30 per cent enrolment in higher education institutions by 2020-end. Government-run schools and colleges alone cannot do it. If we have to achieve this target, private educational institutions will have to play an important role.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2020-12-31",
+  "verdict": "missed-deadline",
+  "summary": "Sibal set a 30 per cent higher-education gross enrolment ratio target for 2020; AISHE reported a GER of 27.3 per cent in 2020-21 and 29.5 per cent in 2022-23.",
+  "topics": [
+    "education"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Kapil Sibal sets target of 30% enrolment in higher education by 2020",
+      "url": "https://economictimes.indiatimes.com/industry/services/education/kapil-sibal-sets-target-of-30-enrolment-in-higher-education-by-2020/articleshow/16928780.cms",
+      "date": "2012-10-23"
+    },
+    {
+      "title": "Mere 12 p.c. enrol for higher education: Sibal",
+      "url": "https://www.thehindu.com/features/education/issues/Mere-12-p.c.-enrol-for-higher-education-Sibal/article16854765.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Education / AISHE",
+      "title": "All India Survey on Higher Education 2020-21: Final Report",
+      "url": "https://educationforallinindia.com/wp-content/uploads/2023/04/AISHE-Final-Report-2020-21.pdf",
+      "key_figure": "Gross Enrolment Ratio in higher education for the 18-23 age group: 27.3 per cent in 2020-21"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau",
+      "title": "Ministry of Education releases All India Survey on Higher Education (AISHE) 2020-2021",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1894517",
+      "key_figure": "Enrolment in higher education 4.14 crore in 2020-21; GER 27.3 per cent"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Rajya Sabha",
+      "title": "Unstarred Question No. 1161: Gross Enrolment Ratio in higher education",
+      "url": "https://sansad.in/getFile/annex/269/AU1161_PUyT9t.pdf?source=pqars",
+      "key_figure": "GER 27.3 per cent in 2020-21, 28.4 per cent in 2021-22 and 29.5 per cent in 2022-23 (provisional)"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: AISHE 2020-21 release",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1894517",
+      "summary": "The Ministry of Education presents the rise in higher-education enrolment and GER as progress, while the specific 30 per cent target for 2020 was not reached."
+    }
+  ],
+  "chart": null,
+  "analysis": "Sibal said in Pulwama on 23 October 2012 that he had set a target of 30 per cent enrolment in higher education by the end of 2020, up from about 19 per cent at the time.\n\nAISHE 2020-21 reported a GER of 27.3 per cent for the 18-23 age group. A subsequent Rajya Sabha answer gave 28.4 per cent for 2021-22 and 29.5 per cent for 2022-23 (provisional). The 30 per cent target was therefore not reached by the end of 2020.\n\nThe government describes the increase from 25.2 per cent in 2016-17 to 27.3 per cent in 2020-21 as progress, but the specific 2020 deadline was missed.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The AISHE final report PDF is a mirror of the official report; the PIB release and the Rajya Sabha answer carry the same GER series. The target applied to higher education generally, not only to universities. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

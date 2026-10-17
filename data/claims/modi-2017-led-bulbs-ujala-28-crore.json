@@ -1,0 +1,54 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statistic",
+  "deadline": null,
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM addresses HT Leadership Summit (narendramodi.in)",
+      "url": "https://www.narendramodi.in/man/pm-addresses-ht-leadership-summit-385906"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2017-led-bulbs-ujala-28-crore",
+  "date": "2017-11-30",
+  "venue": "Hindustan Times Leadership Summit, New Delhi",
+  "language": "hi",
+  "quote_english": "Around 28 crore LED bulbs have been distributed under the Ujala scheme, saving about Rs 14,000 crore (paraphrase from FactChecker's list).",
+  "verdict": "true",
+  "topics": [
+    "energy"
+  ],
+  "summary": "Government Ujala data showed about 27.8 crore LED bulbs distributed and annual savings of about Rs 14,450 crore at the time of the check.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in / BOOM",
+      "title": "9 of Prime Minister Modi's 16 claims on schemes true, 3 false",
+      "url": "https://www.boomlive.in/9-modis-16-claims-govt-schemes-true-3-false",
+      "date": "2017-12-18",
+      "key_figure": "Rated 9 true, 3 false, 2 partly true, 2 unclear across the 30 Nov 2017 HT Leadership Summit speech"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "UJALA / EESL, Ministry of Power",
+      "title": "UJALA dashboard (as cited by FactChecker)",
+      "url": "https://www.ujala.gov.in/",
+      "date": "2017-12-06",
+      "key_figure": "278.2 million bulbs; Rs 14,450 crore annual savings"
+    }
+  ],
+  "analysis": "FactChecker checked 16 claims from Modi's 30 November 2017 HT Leadership Summit speech and rated the LED claim true.\n\nThe UJALA dashboard on 6 December 2017 showed 278.2 million bulbs distributed and estimated annual savings of Rs 14,450 crore. Note the savings are the programme's own estimates; the fact-checker verified the claim against official data, not through independent audit.",
+  "confidence": "medium",
+  "notes": "Figures are the government's own programme data. Quote is a paraphrase; the speech transcript was not retrieved in full. No video link found.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

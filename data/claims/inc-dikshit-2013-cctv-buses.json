@@ -1,0 +1,74 @@
+{
+  "id": "inc-dikshit-2013-cctv-buses",
+  "speaker": "Sheila Dikshit",
+  "party": "INC",
+  "role": "Chief Minister, Delhi",
+  "level": "state",
+  "state": "Delhi",
+  "date": "2013-01-01",
+  "venue": "Review meeting of the Transport Department, Delhi Secretariat",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Every DTC and cluster bus should have a CCTV/webcam, and every member of the crew of a public transport vehicle must have a photo identity card latest by March 1, 2013, duly verified by Delhi Police.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2013-03-01",
+  "verdict": "missed-deadline",
+  "summary": "By July 2013 the Delhi Transport Department had not finalised CCTV specifications for buses; by October 2014 DTC had installed cameras in 80 buses and planned 200 in a first phase, far short of the entire fleet.",
+  "topics": [
+    "security",
+    "internal-security",
+    "women",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "NDTV: Delhi buses to have CCTV, web cameras installed by February 1 (Jan 2013)",
+      "url": "https://www.ndtv.com/delhi-news/delhi-buses-to-have-cctv-web-cameras-installed-by-february-1-509856"
+    },
+    {
+      "title": "The Indian Express: 7 months after Dec 16, no cameras on board (19 Jul 2013)",
+      "url": "https://indianexpress.com/article/cities/delhi/7-months-after-dec-16-no-cameras-on-board/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "7 months after Dec 16, no cameras on board",
+      "url": "https://indianexpress.com/article/cities/delhi/7-months-after-dec-16-no-cameras-on-board/",
+      "date": "2013-07-19",
+      "key_figure": "Seven months after the December 2012 gang rape, the Transport Department had not finalised specifications for purchasing CCTV cameras; a pilot project had been initiated in January 2013."
+    },
+    {
+      "type": "news",
+      "publisher": "The Economic Times / PTI",
+      "title": "Delhi Transport Corporation installs CCTV cameras in its 80 buses",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/delhi-transport-corporation-installs-cctv-cameras-in-its-80-buses/articleshow/44826236.cms",
+      "date": "2014-10-15",
+      "key_figure": "DTC had installed CCTV cameras in 80 buses and planned to cover 200 buses in the first phase; Delhi had around 5,000 buses plying in the evening."
+    },
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "CCTV cameras on buses: 8 months on, it's still on paper",
+      "url": "https://indianexpress.com/article/cities/delhi/cctv-cameras-on-buses-8-months-on-its-still-on-paper/",
+      "date": "2013-08-19",
+      "key_figure": "Eight months after the December 2012 attack, the transport department had only finalised technical specifications for CCTV cameras on DTC and cluster buses."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "In early January 2013, after the December 2016 gang rape case, Dikshit directed that every DTC and cluster bus should have a CCTV/webcam and that crew members should carry photo identity cards verified by Delhi Police by 1 March 2013.\n\nBy July 2013, The Indian Express reported that the Transport Department had still not finalised specifications for purchasing CCTV cameras. In August 2013 it reported that the project remained on paper, with only technical specifications finalised.\n\nBy October 2014, DTC had installed cameras in 80 buses and planned to cover 200 buses in a first phase. That was well short of the entire DTC and cluster fleet, which the same report put at around 5,000 buses plying in the evening. The March 2013 deadline was not met.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The NDTV report was visible in search results and its snippet contains the deadline, but the page returned HTTP 403 during research. The exact meeting date is not stated in the accessible sources; 2013-01-01 is used as an approximate date within the first week of January 2013. The NDTV wording 'photo identify card' is a typographical error for 'photo identity card'.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

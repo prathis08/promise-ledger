@@ -1,0 +1,72 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statement",
+  "deadline": null,
+  "media": [
+    {
+      "platform": "x",
+      "title": "Narendra Modi post on X, 12 Aug 2023 (as cited by Alt News)",
+      "url": "https://twitter.com/narendramodi/status/1690278845050769408",
+      "timestamp_seconds": null,
+      "channel": "Narendra Modi"
+    }
+  ],
+  "transcript_sources": [],
+  "govt_response": [
+    {
+      "title": "Mansukh Mandaviya tweets, 12 Aug 2023",
+      "url": "https://twitter.com/mansukhmandviya/status/1690376264442650624",
+      "summary": "Health Minister said a 27 April 2023 ministry site visit found the Bihar government's proposed Ballia site unsuitable and asked the state for another site."
+    }
+  ],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2023-darbhanga-aiims-opened",
+  "date": "2023-08-12",
+  "venue": "Virtual address to BJP Regional Panchayati Raj Council, West Bengal",
+  "language": "en",
+  "quote_english": "New AIIMS centres have been opened as part of this planning (sentence names Darbhanga, Bihar, among other cities), as quoted by Alt News.",
+  "verdict": "false",
+  "topics": [
+    "health",
+    "governance"
+  ],
+  "summary": "Alt News found no AIIMS had opened at Darbhanga: Rs 1,264 crore was sanctioned but Rs 0 released as of July 2022, and the Centre had found the state's proposed land unsuitable.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "Alt News",
+      "title": "PM Modi's claim that Darbhanga AIIMS is being opened is false",
+      "url": "https://www.altnews.in/pm-modi-claim-that-darbhanga-aiims-being-opened-is-false/",
+      "date": "2023-08-25",
+      "key_figure": "Rated false"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Health",
+      "title": "Rajya Sabha reply on PMSSY AIIMS status (as cited by Alt News)",
+      "url": "https://pib.gov.in/Pressreleaseshare.aspx?PRID=1843848",
+      "date": "2022-07-22",
+      "key_figure": "Darbhanga AIIMS: Rs 1,264 crore sanctioned, Rs 0 released; encroachment-free land not handed over"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PMSSY, Ministry of Health (archived)",
+      "title": "PMSSY website, archived 14 Aug 2023",
+      "url": "https://web.archive.org/web/20230814123214/https://pmssy.mohfw.gov.in/",
+      "date": "2023-08-14",
+      "key_figure": "Shows encroachment-free land not made available for Darbhanga"
+    }
+  ],
+  "analysis": "Modi listed Darbhanga among places where new AIIMS centres have been opened. Darbhanga AIIMS was approved on 15 September 2020 (per PIB; the minister's tweet gives 19 September) but the Health Ministry's July 2022 update showed no funds released and no encroachment-free land provided.\n\nThe Bihar government proposed a 151-acre site at Ballia which, per a letter shared by Tejashwi Yadav, the Centre never approved; the Health Minister's letter said the site was unsuitable. Alt News concluded the facility had not opened.\n\nThe approval is real; what the data does not support is the statement that the institute has been opened.",
+  "confidence": "high",
+  "notes": "Status after August 2023 not checked. Exact full-sentence quote taken from Alt News excerpt. No YouTube link found.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

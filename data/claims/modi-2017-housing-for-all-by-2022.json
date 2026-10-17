@@ -1,0 +1,89 @@
+{
+  "id": "modi-2017-housing-for-all-by-2022",
+  "speaker": "Narendra Modi",
+  "date": "2017-08-15",
+  "venue": "Independence Day address, Red Fort, Delhi",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Every family to have a pucca house (with electricity access) by 2022, the 75th year of independence (paraphrase of the Housing for All / New India 2022 vision).",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2022-12-31",
+  "verdict": "missed-deadline",
+  "summary": "PMAY missed its 2022 deadline: both the rural and urban schemes were extended, and completions were below sanctions and targets at the extended dates found.",
+  "topics": [
+    "housing",
+    "infrastructure"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM reviews preparations for 'Housing for All' (narendramodi.in, January 2015)",
+      "url": "https://narendramodi.in/pm-reviews-preparations-for-housing-for-all"
+    },
+    {
+      "title": "Independence Day: the art of moving goalposts (Deccan Herald, reports 2017 Red Fort speech)",
+      "url": "https://www.deccanherald.com/opinion/independence-day-the-art-of-moving-goalposts-1020044.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "Lok Sabha / Ministry of Rural Development",
+      "title": "PMAY-G completions as of 3 Aug 2026 (reported by NBM&CW)",
+      "url": "https://www.nbmcw.com/news/infra-development/pmay-g-3-12-crore-rural-houses-completed-79-lakh-under-construction.html",
+      "date": "2026-08-12",
+      "key_figure": "3.12 crore completed vs 4.18 crore allocated and 3.91 crore sanctioned; 79 lakh still under construction"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Lok Sabha / MoHUA",
+      "title": "Cabinet extends PMAY-urban deadline till December 2024 (Housing.com)",
+      "url": "https://housing.com/news/govt-extends-pmay-urban-deadline-till-december-2024",
+      "date": "2022-08-10",
+      "key_figure": "PMAY-U extended from 2022 to 31 Dec 2024; later reply (Dec 2023): 118.63 lakh sanctioned, 78.27 lakh completed as of 4 Dec 2023"
+    },
+    {
+      "type": "news",
+      "publisher": "Housing.com",
+      "title": "No plan yet to extend PMAY-G beyond March 2024: Govt",
+      "url": "https://housing.com/news/no-plan-yet-to-extend-pmay-g-beyond-march-2024-govt/",
+      "date": "2023-08",
+      "key_figure": "PMAY-G target 2.95 crore houses; scheme continued beyond March 2021 till March 2024; 2.10 crore completed per Lok Sabha reply of 8 Dec 2022"
+    },
+    {
+      "type": "news",
+      "publisher": "NBM&CW / Parliament",
+      "title": "PMAY-U figures as of 13 July 2026 (The Aarch News)",
+      "url": "https://theaarchnews.com/policy-governance/pmay-u-99-lakh-houses-delivered-scheme-extended-2026/",
+      "date": "2026-07",
+      "key_figure": "127.68 lakh sanctioned (incl. 16.20 lakh under PMAY-U 2.0), 99.07 lakh completed; scheme now to 30 Sept 2026"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Cabinet approval of PMAY-G continuation 2024-25 to 2028-29",
+      "url": "https://www.nbmcw.com/news/infra-development/pmay-g-3-12-crore-rural-houses-completed-79-lakh-under-construction.html",
+      "summary": "Government extended the schemes (Cabinet, Aug 2022 for PMAY-U; 9 Aug 2024 for 2 crore more PMAY-G houses to 2028-29), citing pandemic delays and a revised demand count; it says over 3 crore rural and 99 lakh urban houses have been delivered."
+    }
+  ],
+  "chart": {
+    "series": "pmay-houses-completed",
+    "target": 29500000,
+    "target_label": "PMAY-G cumulative target of 2.95 crore houses (original deadline 2022, extended to March 2024)",
+    "baseline": {
+      "x": "2016-17",
+      "y": 0
+    }
+  },
+  "analysis": "The Housing for All by 2022 aim was set in the President's address (June 2014) and the 2014-15 Budget, and repeated by the PM, including in 2017's 'New India 2022' framing. PMAY-G's cumulative target was 2.95 crore houses; PMAY-U targeted about 1.2 crore.\n\nIn December 2022 about 2.10 crore PMAY-G houses were complete; in February 2024 about 2.55 crore. PMAY-U's deadline was extended to December 2024 and then further. Completions have since risen, but the schemes continue and targets have been enlarged.\n\nThe housing shortfall depends on how demand is counted; this entry only assesses the 2022 deadline for the scheme's own targets.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Speech wording not verified; date set to the 2017 Red Fort speech per a Deccan Herald opinion piece that was not fetched. A Delhi rally statement (Deccan Herald, 'pucca houses to all poor families by 2022') could not be opened (403) and its date is unknown. Several figures (2.10 crore Dec 2022; 2.55 crore Feb 2024; 78.27 lakh PMAY-U) come from search-result summaries of Lok Sabha replies/news, not the PDFs (eparlib fetch failed). Needs human check against the originals. The 'Housing for All' commitment originates with the President's address June 2014.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

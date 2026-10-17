@@ -1,0 +1,78 @@
+{
+  "id": "bjp-modi-2021-500gw-nonfossil-2030",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2021-11-01",
+  "venue": "National Statement at COP26 Summit, Glasgow (delivered 1 November 2021; MEA transcript dated 2 November 2021)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "India will take its non-fossil energy capacity to 500 GW by 2030.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2030-12-31",
+  "verdict": "in-progress",
+  "summary": "At COP26 (1 November 2021) the PM set a target of 500 GW non-fossil generating capacity by 2030; as of 31 July 2026 India had 300.50 GW non-fossil capacity, about 60% of the target, with the deadline still in the future.",
+  "topics": [
+    "energy",
+    "environment"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "National Statement by Prime Minister Shri Narendra Modi at COP26 Summit in Glasgow (MEA)",
+      "url": "https://www.mea.gov.in/Speeches-statements.htm?dtl%2F34466%2FNational%20Statement%20by%20Prime%20Minister%20Shri%20Narendra%20Modi%20at%20COP26%20Summit%20in%20Glasgow"
+    },
+    {
+      "title": "PIB: Panchamrit targets announced by the Hon'ble Prime Minister (PDF)",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251029680001.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of New and Renewable Energy (MNRE)",
+      "title": "Physical Achievements - cumulative installed RE/non-fossil capacity",
+      "url": "https://mnre.gov.in/en/physical-progress/",
+      "date": "2026-09-30",
+      "key_figure": "Total non-fossil capacity 308,026.53 MW (308.03 GW) as on 30 September 2026; solar 171.05 GW, wind 59.20 GW"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of New and Renewable Energy",
+      "title": "India Achieves Landmark 300 GW Non-Fossil Fuel Power Capacity",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2296782",
+      "date": "2026-08-09",
+      "key_figure": "Non-fossil capacity 300.50 GW as on 31 July 2026, over 60% of the 500 GW 2030 target"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Central Electricity Authority (CEA)",
+      "title": "Installed Capacity (MW) of the country as on 30.06.2026",
+      "url": "https://cea.nic.in/wp-content/uploads/installed/2026/06/Website_June.pdf",
+      "date": "2026-07-15",
+      "key_figure": "Non-fossil 297,369 MW = 54.18% of 548,858 MW total installed capacity"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Government declares plan to add 50 GW of renewable energy capacity annually",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1913789",
+      "summary": "Ministry of Power/NRE describe an annual 50 GW bidding plan intended to add 250 GW of renewable capacity and reach 500 GW installed capacity by 2030, and transmission upgrades to evacuate it."
+    }
+  ],
+  "chart": null,
+  "analysis": "At COP26 on 1 November 2021, PM Narendra Modi stated India would take its non-fossil energy capacity to 500 GW by 2030.\n\nMNRE data show total non-fossil installed capacity of 308.03 GW as on 30 September 2026. PIB reported India crossed 300 GW of non-fossil capacity as on 31 July 2026, about 60% of the 500 GW target. CEA data put non-fossil sources at 54.18% of 548.86 GW installed capacity as on 30 June 2026.\n\nThe target year is 2030, so the commitment is still open and is recorded as in progress.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The COP26 speech was delivered on 1 November 2021; the MEA transcript page is dated 2 November 2021, so the date field uses the speech date and this is flagged. The English wording follows the PMO/MEA official translation and is therefore not marked verbatim. The separate COP26 '50% of energy requirements from renewables by 2030' pledge was not used here to avoid overlap with bjp-joshi-2025-50pc-nonfossil-achieved (which concerns installed capacity, not generation). [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

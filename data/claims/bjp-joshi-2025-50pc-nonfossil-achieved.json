@@ -1,0 +1,87 @@
+{
+  "id": "bjp-joshi-2025-50pc-nonfossil-achieved",
+  "speaker": "Pralhad Joshi",
+  "party": "BJP",
+  "role": "Union Minister of New and Renewable Energy",
+  "level": "central",
+  "state": null,
+  "date": "2025-07-14",
+  "venue": "PIB release of the Ministry of New and Renewable Energy, New Delhi",
+  "language": "en",
+  "quote_original": "In a world seeking climate solutions, India is showing the way. Achieving 50% non-fossil fuel capacity five years ahead of the 2030 target is a proud moment for every Indian.",
+  "quote_english": "In a world seeking climate solutions, India is showing the way. Achieving 50% non-fossil fuel capacity five years ahead of the 2030 target is a proud moment for every Indian.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The NRE Minister stated India reached 50% of installed electricity capacity from non-fossil sources five years ahead of the 2030 target; PIB data for 30 June 2025 showed non-fossil capacity at 242.78 GW of 484.82 GW (50.08%).",
+  "topics": [
+    "energy",
+    "environment"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Nearly 70% of Rajasthan's power capacity comes from renewable energy: Pralhad Joshi",
+      "url": "https://energy.economictimes.indiatimes.com/news/renewable/nearly-70-of-rajasthans-power-capacity-comes-from-renewable-energy-pralhad-joshi/122795202",
+      "channel": "ETEnergyworld"
+    },
+    {
+      "platform": "news",
+      "title": "Can India sustain its 50% non-fossil fuel milestone amid rising energy demands?",
+      "url": "https://www.indiatoday.in/india-today-insight/story/can-india-sustain-its-50-non-fossil-fuel-milestone-amid-rising-energy-demands-2757173-2025-07-17",
+      "channel": "India Today"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PIB: India's Renewable Rise - Non-Fossil Sources Now Power Half the Nation's Grid",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2144627&lang=2&reg=48"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Power",
+      "title": "India achieved Historic milestone in power sector: Surpasses 500 GW and Renewable Generation Exceeds 50% of demand",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2183866",
+      "date": "2025-10-29",
+      "key_figure": "Non-fossil capacity 256.09 GW (over 51%) of 500.89 GW total as on 30 September 2025"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Central Electricity Authority (CEA)",
+      "title": "Installed Capacity (MW) of the country as on 30.06.2026",
+      "url": "https://cea.nic.in/wp-content/uploads/installed/2026/06/Website_June.pdf",
+      "date": "2026-07-15",
+      "key_figure": "Non-fossil fuel 297,369 MW = 54.18% of 548,858 MW total installed capacity"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of New and Renewable Energy (MNRE)",
+      "title": "Physical Achievements - non-fossil capacity",
+      "url": "https://mnre.gov.in/en/physical-progress/",
+      "date": "2026-09-30",
+      "key_figure": "Total non-fossil 308.03 GW as on 30 September 2026"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Non-Fossil Fuel Share In Total Installed Power Capacity",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2223720&lang=2&reg=3",
+      "summary": "Government states the 50% non-fossil installed-capacity milestone was reached in June 2025, more than five years ahead of the 2030 NDC target, and lists measures for the 500 GW by 2030 and net-zero by 2070 goals."
+    }
+  ],
+  "chart": null,
+  "analysis": "Union Minister for New and Renewable Energy Pralhad Joshi stated that India had achieved 50% of installed electricity capacity from non-fossil fuel sources, five years ahead of the 2030 target.\n\nPIB data for 30 June 2025 showed non-fossil capacity (renewables, large hydro and nuclear) at 242.78 GW of 484.82 GW, or 50.08%. CEA data for 30 June 2026 showed non-fossil capacity at 297.37 GW, or 54.18% of 548.86 GW installed.\n\nThe 50% milestone refers to installed capacity; the share of renewable sources in actual electricity generation is lower, and press analysis noted fossil fuels still supplied the majority of generation. The installed-capacity milestone as stated is supported by CEA and PIB data, so the claim is recorded as true.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "Joshi's quotation is from the PIB release, which reproduces his statement; because it is an official release rather than a speech transcript it is not marked verbatim. The PIB release is dated 14 July 2025 and the ETEnergyworld report of a related speech is dated 20 July 2025. The distinction between installed capacity and generation share is recorded in the analysis. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "bjp-modi-2024-no-corruption-allegation",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2024-05-04",
+  "venue": "Election rally, Palamu, Jharkhand",
+  "language": "hi",
+  "quote_original": "In 25 years, Modi par ek paise ke ghotale ka aarop nhi laga.",
+  "quote_english": "I have been serving the country as CM and PM for nearly 25 years. In 25 years, there has been no corruption allegation against Modi.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Corruption allegations were levelled against the Modi government during this period (for example over the Rafale deal and electoral bonds), while no court conviction was recorded against the Prime Minister.",
+  "topics": [
+    "corruption",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Held positions of CM & PM for nearly 25 years, not a single corruption charge levelled against me, says PM Modi (The Kashmir Horizon)",
+      "url": "https://thekashmirhorizon.com/2024/05/04/held-positions-of-cm-pm-for-nearly-25-yrs-not-a-single-corruption-charge-leveled-against-me-says-pm-modi"
+    },
+    {
+      "title": "Made govt services faceless: PM Modi spells 5 ways NDA stopped corruption (Mint)",
+      "url": "https://www.livemint.com/politics/news/made-govt-services-faceless-pm-modi-spells-5-ways-nda-stopped-corruption-11712856134101.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Wire",
+      "title": "Now that spotlight of corruption is on BJP, Modi has turned to a dangerous narrative",
+      "url": "https://thewire.in/politics/now-that-spotlight-of-corruption-is-on-bjp-modi-has-turned-to-a-dangerous-narrative",
+      "date": "2024-04-05",
+      "key_figure": "Corruption allegations during the period included electoral-bond funding and disclosure issues"
+    },
+    {
+      "type": "news",
+      "publisher": "The New Indian Express",
+      "title": "Rahul Gandhi attacks Modi over Rafale deal, alleges Dassault paid kickbacks",
+      "url": "https://www.newindianexpress.com/india/2018/Nov/02/rahul-gandhi-attacks-modi-over-rafale-deal-alleges-dassault-aviation-paid-kickbacks-to-ambanis-fir-1893327.html",
+      "date": "2018-11-02",
+      "key_figure": "Corruption allegations made against PM Modi over the Rafale deal"
+    },
+    {
+      "type": "news",
+      "publisher": "Reuters",
+      "title": "India's Supreme Court scraps electoral bonds in setback to Modi's BJP",
+      "url": "https://www.reuters.com/world/india/indias-supreme-court-scraps-opaque-election-funding-system-2024-02-15",
+      "date": "2024-02-15",
+      "key_figure": "Electoral bonds scheme struck down as unconstitutional"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "We respect SC judgement, but electoral bonds were brought in for transparency, says BJP",
+      "url": "https://www.thehindu.com/news/national/electoral-bonds-brought-for-transparency-in-poll-funding-we-respect-supreme-court-verdict-bjp/article67849209.ece",
+      "summary": "The BJP says it respects the Supreme Court verdict but maintains the scheme had the objective of bringing transparency to political funding."
+    }
+  ],
+  "chart": null,
+  "analysis": "At an election rally in Palamu, Jharkhand on 4 May 2024, Modi said that in nearly 25 years as Chief Minister and Prime Minister no corruption allegation had been levelled against him.\n\nCorruption allegations were in fact made against him and his government during this period, including the Congress's Rafale-related allegations in 2018-19 and the electoral-bonds funding controversy. The Supreme Court struck down the electoral bonds scheme as unconstitutional in February 2024.\n\nNo court conviction for corruption was recorded against Modi, and the intended reading may be that no charge has been proved. The literal claim that no allegation was ever levelled is not supported, so the statement is assessed as misleading.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "Hindi quote is as reported by The Kashmir Horizon. The verdict distinguishes allegations (which were made) from proof/conviction (which is absent); reasonable readers may differ on how strictly to read the claim. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

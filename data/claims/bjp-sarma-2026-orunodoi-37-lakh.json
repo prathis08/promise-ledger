@@ -1,0 +1,77 @@
+{
+  "id": "bjp-sarma-2026-orunodoi-37-lakh",
+  "speaker": "Himanta Biswa Sarma",
+  "party": "BJP",
+  "role": "Chief Minister, Assam",
+  "level": "state",
+  "state": "Assam",
+  "date": "2026-07-30",
+  "venue": "Guwahati, Assam",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Aadhaar-seeded transfers under the Orunodoi scheme will resume from August 1, with 37.1 lakh women beneficiaries to receive ₹1,250 per month.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Multiple outlets and Prasar Bharati reported that the Assam government resumed Orunodoi transfers to about 37 lakh women at ₹1,250 per month from 1 August 2026.",
+  "topics": [
+    "women"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "37.1 lakh women to receive Rs 1,250 under Orunodoi scheme from Aug 1: Assam CM Himanta Biswa",
+      "url": "https://www.aninews.in/news/national/general-news/371-lakh-women-to-receive-rs-1250-under-orunodoi-scheme-from-aug-1-assam-cm-himanta-biswa20260730232522/",
+      "timestamp_seconds": null,
+      "channel": "ANI"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "Financial Express: Flood-hit Assam to resume Orunodoi scheme — over 37 lakh women to get Rs 1,250 from Aug 1",
+      "url": "https://www.financialexpress.com/india-news/flood-hit-assam-to-resume-orunodoi-scheme-over-37-lakh-women-to-get-rs-1250-from-aug-1-all-you-need-to-knownbsp/4307190/"
+    },
+    {
+      "title": "Economic Times: Orunodoi 3.0 — Assam to give Rs 1,250 monthly aid to women",
+      "url": "https://economictimes.indiatimes.com/news/india/orunodoi-3-0-assam-to-give-rs-1250-monthly-aid-to-women/articleshow/132796521.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Prasar Bharati (NewsOnAir)",
+      "title": "Assam CM Dr Himanta Biswa Sarma launches Orunodoi 3.0 disbursement",
+      "url": "https://newsonair.gov.in/assam-cm-dr-himanta-biswa-sarma-launches-orunodoi-3-0-disbursement/",
+      "date": null,
+      "key_figure": "Monthly assistance transferred to more than 37 lakh women beneficiaries through DBT under Orunodoi 3.0."
+    },
+    {
+      "type": "news",
+      "publisher": "Mint",
+      "title": "Orunodoi 3.0: Assam's flagship scheme for women",
+      "url": "https://www.livemint.com/money/personal-finance/orunodoi-3-financial-assistance-scheme-assam-cm-social-security-women-family-rs-1250-direct-bank-transfer-beneficiaries-11786201316315.html",
+      "date": null,
+      "key_figure": "More than 37 lakh women to receive monthly assistance from August, per PTI."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "NewsOnAir (Prasar Bharati): Orunodoi 3.0 disbursement launched",
+      "url": "https://newsonair.gov.in/assam-cm-dr-himanta-biswa-sarma-launches-orunodoi-3-0-disbursement/",
+      "summary": "The state government says the scheme provides ₹1,250 per month to over 37 lakh eligible women through direct benefit transfer."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 30 July 2026 the Assam Chief Minister announced that Aadhaar-seeded transfers under the state's Orunodoi scheme would resume from 1 August 2026, with 37.1 lakh women beneficiaries receiving ₹1,250 per month.\n\nANI, the Financial Express and Mint reported the same figures. Prasar Bharati (NewsOnAir) reported the launch of the Orunodoi 3.0 disbursement, describing monthly financial assistance transferred to more than 37 lakh women through DBT.\n\nThe beneficiary count and monthly amount in the claim match the figures carried in these reports.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The claim is a statement of fact about scheme beneficiaries rather than a policy promise, so no deadline applies. Beneficiary counts are state government figures reported by multiple outlets; they are not independently audited. The scheme was launched in 2020 and payments had been paused during floods before resuming in August 2026. LiveMint publication date not confirmed.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

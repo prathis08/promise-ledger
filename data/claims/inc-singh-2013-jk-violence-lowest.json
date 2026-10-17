@@ -1,0 +1,62 @@
+{
+  "id": "inc-singh-2013-jk-violence-lowest",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2013-06-05",
+  "venue": "Conference of Chief Ministers on Internal Security, New Delhi",
+  "language": "en",
+  "quote_original": "Our strategy to prevent cross-border infiltration by militants and our intelligence based counter-terrorism operations in Jammu and Kashmir have resulted in a decline in the level of terrorist violence by about one-third in 2012 as compared to 2011. ... terrorist violence parameters in 2012 have been the lowest since the upsurge in terrorist activities two decades ago.",
+  "quote_english": "Our strategy to prevent cross-border infiltration by militants and our intelligence based counter-terrorism operations in Jammu and Kashmir have resulted in a decline in the level of terrorist violence by about one-third in 2012 as compared to 2011. ... terrorist violence parameters in 2012 have been the lowest since the upsurge in terrorist activities two decades ago.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "SATP data records 117 terrorism-related fatalities in Jammu and Kashmir in 2012, down from 181 in 2013 and well below the levels of the 1990s and 2000s; the 2012 figure was about one-third lower than 2011.",
+  "topics": [
+    "kashmir",
+    "terrorism",
+    "internal-security",
+    "security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Daily Excelsior: Terror related violence on decline, record flow of tourists in J&K: PM (6 Jun 2013)",
+      "url": "https://www.dailyexcelsior.com/terror-related-violence-on-decline-record-flow-of-tourists-in-jk-pm/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "index",
+      "publisher": "South Asia Terrorism Portal (SATP)",
+      "title": "Jammu and Kashmir Assessment - Year 2014",
+      "url": "https://web.archive.org/web/20140215153923/http://satp.org/satporgtp/countries/india/states/jandk/index.html",
+      "date": "2014-02-15",
+      "key_figure": "J&K terrorism-related fatalities: 117 in 2012; 181 in 2013 (a 54.70% rise). SATP notes a sustained decline in fatalities since 2001 before the 2013 reversal."
+    },
+    {
+      "type": "news",
+      "publisher": "Daily Excelsior",
+      "title": "Terror related violence on decline, record flow of tourists in J&K: PM",
+      "url": "https://www.dailyexcelsior.com/terror-related-violence-on-decline-record-flow-of-tourists-in-jk-pm/",
+      "date": "2013-06-06",
+      "key_figure": "Manmohan Singh said violence fell by about one-third in 2012 compared with 2011 and that 2012 parameters were the lowest since the militancy upsurge."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "At the June 2013 conference of chief ministers on internal security, Manmohan Singh said terrorist violence in Jammu and Kashmir had fallen by about one-third in 2012 compared with 2011 and that the 2012 parameters were the lowest since the militancy upsurge.\n\nSATP data records 117 terrorism-related fatalities in J&K in 2012, against 181 in 2013. The 2012 figure is consistent with a decline of roughly one-third from the preceding year and with SATP's statement that fatalities had been on a sustained downward trend since 2001.\n\nThe claim describes a trend in casualties; it does not assert that militancy had ended. Violence rose again in 2013, which SATP records as a 54.70% increase over 2012.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The Daily Excelsior report contains character-encoding artefacts; the quoted sentences were legible and are reproduced without the artefacts. SATP's 2011 fatality figure is not directly quoted on the page used, so the 'about one-third' comparison is checked against the 2012 level and the reported MHA figure of a one-third decline.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

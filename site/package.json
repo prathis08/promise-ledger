@@ -1,0 +1,15 @@
+{
+  "name": "promise-ledger-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^7.4.0",
+    "chart.js": "^4.5.1",
+    "zod": "^4.6.7"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "inc-singh-2005-bharat-nirman-irrigation",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2005-08-15",
+  "venue": "Red Fort, New Delhi (Independence Day address)",
+  "language": "en",
+  "quote_original": "In Bharat Nirman, one crore hectares of unirrigated land will be irrigated.",
+  "quote_english": "In Bharat Nirman, one crore hectares of unirrigated land will be irrigated.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2009-12-31",
+  "verdict": "missed-deadline",
+  "summary": "Against a target of 10 million hectares of additional irrigation potential by 2009, states reported 6.14 million hectares by March 2009 and about 7.3 million hectares by September 2009.",
+  "topics": [
+    "agriculture",
+    "infrastructure"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Independence Day Address by Prime Minister Dr. Manmohan Singh, Red Fort, New Delhi",
+      "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl%2F2657%2FIndependence+Day+Address+by+Prime+Minister+Dr+Manmohan+Singh+Red+Fort+New+Delhi=",
+      "channel": "Ministry of External Affairs"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PM's Independence Day Address, 2005",
+      "url": "https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=160"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Water Resources",
+      "title": "Annual Report 2008-09",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3a70dc40477bc2adceef4d2c90f47eb82/uploads/2023/02/2023022075.pdf",
+      "date": "2009",
+      "key_figure": "6.14 million hectares of irrigation potential reported by states; about 7 million hectares estimated for 2005-06 to 2008-09 against the 10 million hectare target"
+    },
+    {
+      "type": "news",
+      "publisher": "Rediff Business",
+      "title": "Slippage, quality issues dog Bharat Nirman",
+      "url": "https://business.rediff.com/report/2010/feb/23/budget-2010-slippage-quality-issues-dog-bharat-nirman.htm",
+      "date": "2010-02-23",
+      "key_figure": "7,343,632 hectares achieved till September 2009, 73.44% of the 10 million hectare target"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Water Resources",
+      "title": "Bharat Nirman Yojana",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=90560",
+      "date": "2012-12-13",
+      "key_figure": "State-wise irrigation potential creation under Bharat Nirman, April 2005 to March 2012"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Bharat Nirman irrigation progress reported by states",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=90560",
+      "summary": "The government published state-wise achievement data and continued the irrigation component into the 12th Plan."
+    }
+  ],
+  "chart": null,
+  "analysis": "Bharat Nirman set a four-year target of 10 million hectares of additional irrigation potential for 2005-06 to 2008-09. The Ministry of Water Resources reported 6.14 million hectares created by March 2009 and estimated about 7 million hectares by the end of the period. A separate compilation put the figure at 7.34 million hectares by September 2009, 73.4% of the target. The shortfall was about 2.7-3.9 million hectares at the 2009 checkpoint.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 2009 target is stated in the 2005-06 Budget speech ('by the year 2009'); the I-Day speech itself does not give a date. Some later government data use a 2005-2010 window. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

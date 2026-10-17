@@ -1,0 +1,69 @@
+{
+  "id": "inc-manmohan-singh-2009-sharm-el-sheikh",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2009-07-29",
+  "venue": "Statement in Lok Sabha on the Sharm el-Sheikh joint statement, New Delhi",
+  "language": "en",
+  "quote_original": "I stand by what I have said in Parliament — that there has been no dilution of our position in this regard.",
+  "quote_english": "I stand by what I have said in Parliament — that there has been no dilution of our position in this regard.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "The 16 July 2009 India-Pakistan joint statement recorded Pakistan's claim about \"threats in Balochistan and other areas\" and de-linked terrorism from the composite dialogue, which the government said was not a dilution of India's position.",
+  "topics": [
+    "foreign-policy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Text of Prime Minister Manmohan Singh's speech in Parliament on the Sharm el-Sheikh joint statement",
+      "url": "https://www.insightsonindia.com/2009/07/30/text-of-the-prime-minister-manmohan-singhs-speech-in-the-parliament-reiterating-indias-stance-taken-during-nam-summit-at-sharm-al-sheikh-in-delinking-talks-with-terrorism-while-dealing-with-pakist/"
+    },
+    {
+      "title": "MEA: Joint Statement, Prime Minister of India Dr. Manmohan Singh and Prime Minister of Pakistan Syed Yusuf Raza Gilani",
+      "url": "https://www.mea.gov.in/bilateral-documents.htm?dtl/4855/Joint+Statement+Prime+Minister+of+India+Dr+Manmohan+Singh+and+the+Prime+Minister+of+Pakistan+Syed+Yusuf+Raza+Gilani"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "India Today",
+      "title": "What is UPA's 2009 Balochistan blunder of Sharm El-Sheikh",
+      "url": "https://www.indiatoday.in/india/story/how-upa-ended-up-hyphenating-india-pakistan-with-its-balochistan-blunder-manmohan-singh-yusuf-raza-gilani-2762671-2025-07-28",
+      "date": "2025-07-28",
+      "key_figure": "Joint statement text: \"Prime Minister Gilani mentioned that Pakistan has some information on threats in Balochistan and other areas\"; India also de-linked terrorism from the composite dialogue"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of External Affairs",
+      "title": "Joint Statement, Sharm el-Sheikh, 16 July 2009",
+      "url": "https://www.mea.gov.in/bilateral-documents.htm?dtl/4855/Joint+Statement+Prime+Minister+of+India+Dr+Manmohan+Singh+and+the+Prime+Minister+of+Pakistan+Syed+Yusuf+Raza+Gilani",
+      "date": "2009-07-16",
+      "key_figure": "Both leaders agreed that terrorism is the main threat to both countries; the statement referred to Balochistan"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Insights on India: Prime Minister's statement in Parliament reiterating India's stance after Sharm el-Sheikh",
+      "url": "https://www.insightsonindia.com/2009/07/30/text-of-the-prime-minister-manmohan-singhs-speech-in-the-parliament-reiterating-indias-stance-taken-during-nam-summit-at-sharm-al-sheikh-in-delinking-talks-with-terrorism-while-dealing-with-pakist/",
+      "summary": "The Prime Minister told Parliament that India's position had not been diluted, that India had \"no interest in destabilising Pakistan\", and that dialogue and engagement were the only alternatives to war."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 16 July 2009 Prime Minister Manmohan Singh and his Pakistani counterpart Yusuf Raza Gilani issued a joint statement at Sharm el-Sheikh. The text recorded that Prime Minister Gilani \"mentioned that Pakistan has some information on threats in Balochistan and other areas\", and stated that action on terrorism should not be linked to the composite dialogue.\n\nIn Parliament on 29 July 2009 Manmohan Singh defended the statement, saying \"there has been no dilution of our position in this regard\", that India had no interest in destabilising Pakistan, and that dialogue remained the way forward.\n\nOpposition parties and several commentators said the text reversed India's earlier public position linking progress in dialogue to Pakistan's action on terrorism and gave Pakistan a handle on Balochistan. The government maintained the reference did not amount to an admission. The joint statement text and the Prime Minister's Parliament statement are both matters of record; the characterisation of \"no dilution\" remains contested.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The MEA document page did not render its body when fetched (JavaScript page); the joint statement wording is quoted from the fetched India Today explainer, which reproduces the MEA text. The PM's Parliament statement was read in a full transcript.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

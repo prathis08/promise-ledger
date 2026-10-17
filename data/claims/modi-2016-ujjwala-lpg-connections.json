@@ -1,0 +1,73 @@
+{
+  "id": "modi-2016-ujjwala-lpg-connections",
+  "speaker": "Narendra Modi",
+  "date": "2016-05-01",
+  "venue": "Launch of Pradhan Mantri Ujjwala Yojana, Ballia, Uttar Pradesh",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Scheme to provide deposit-free LPG connections to 5 crore women from BPL families over three years (pre-launch PMO description; later target raised to 8 crore by March 2020).",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2019-03-31",
+  "verdict": "true",
+  "summary": "The connection target was met or nearly met (raised from 5 to 8 crore; CAG recorded 7.19 crore by late 2019), but CAG found PMUY households refilled only about 3 cylinders a year, falling over time.",
+  "topics": [
+    "energy",
+    "women"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Shri Narendra Modi to visit Uttar Pradesh on May 1st 2016 (narendramodi.in)",
+      "url": "https://narendramodi.in/ma/shri-narendra-modi-to-visit-uttar-pradesh-on-may-1st-2016"
+    },
+    {
+      "title": "PMUY about page (Ministry of Petroleum and Natural Gas)",
+      "url": "https://pmuy.gov.in/about.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "cag",
+      "publisher": "CAG",
+      "title": "Report No. 14 of 2019, Performance Audit of Pradhan Mantri Ujjwala Yojana (summary by PRS)",
+      "url": "https://prsindia.org/policy/report-summaries/pradhan-mantri-ujjwala-yojana",
+      "date": "2019-12-11",
+      "key_figure": "Average annual refills of PMUY households fell from 3.9 (2016-17) to 3.0 (2018-19) vs 6.7-7.5 for non-PMUY consumers; 7.2 crore connections vs 8 crore target"
+    },
+    {
+      "type": "cag",
+      "publisher": "CAG",
+      "title": "Executive Summary, Report No 14 of 2019",
+      "url": "https://www.cag.gov.in/uploads/download_audit_report/2019/Executive_Summary_of_Report_No_14_of_2019_Performance_Audit_of_Pradhan_Mantri_Ujjwala_Yojana_Ministry_of_Petroleum_and_Natural_Gas_0.pdf",
+      "date": "2019-12-11",
+      "key_figure": "1.93 crore first-year consumers averaged 3.66 refills a year; 3.18 crore consumers averaged 3.21 (per search summary)"
+    },
+    {
+      "type": "news",
+      "publisher": "Down To Earth",
+      "title": "LPG connections not only success metric: CAG on Ujjwala",
+      "url": "https://www.downtoearth.org.in/news/governance/lpg-connections-not-only-success-metric-cag-on-ujjwala-68387",
+      "date": "2019-12",
+      "key_figure": "17.61% (about 56 lakh) never took a second refill; 33.02% took only 1-3 refills; scheme met its goal of distributing connections but sustained use lagging"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Petroleum Minister's reply in Lok Sabha (as summarised in search results; year not confirmed)",
+      "url": "https://prsindia.org/policy/report-summaries/pradhan-mantri-ujjwala-yojana",
+      "summary": "Minister said OMCs report an average of 3.5 refills per PMUY consumer and that about 80% of beneficiaries who completed a year came back for a second refill. Source link is the PRS summary, which does not contain this reply; the original reply was not located."
+    }
+  ],
+  "chart": null,
+  "analysis": "PMUY was launched on 1 May 2016 with a target of 5 crore deposit-free LPG connections for BPL women; the target was later raised to 8 crore by March 2020. The CAG (December 2019) found 7.19 crore PMUY connections, about 90% of the target with a year left.\n\nOn use, the CAG found average refills of PMUY households fell from 3.9 in 2016-17 to 3.0 in 2018-19, compared with 6.7-7.5 for other consumers. It found 17.61% of beneficiaries never took a second refill. It also recorded verification gaps and installation delays.\n\nThe CAG concluded the scheme largely met its connection goal but that sustained LPG use was the real measure of success. This entry assesses the connections promise; it does not address cleaner-cooking outcomes in later years.",
+  "confidence": "low",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "No verbatim Modi quote located; he is cited for the promise as scheme launcher and the 5 crore figure is from pre-launch PMO previews seen only in search summaries. Verdict 'true' applies to the connections target only; a human may prefer 'misleading' if the claim being checked is about LPG adoption. Government rebuttal URL points to PRS summary as placeholder; original Lok Sabha reply not found. Data after Dec 2019 (e.g. 2021-22 refills) not researched. Topic list: 'women' used instead of welfare.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

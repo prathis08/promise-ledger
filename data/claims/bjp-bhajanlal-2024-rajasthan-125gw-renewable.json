@@ -1,0 +1,83 @@
+{
+  "id": "bjp-bhajanlal-2024-rajasthan-125gw-renewable",
+  "speaker": "Bhajan Lal Sharma",
+  "party": "BJP",
+  "role": "Chief Minister, Rajasthan",
+  "level": "state",
+  "state": "Rajasthan",
+  "date": "2024-12-05",
+  "venue": "Foreword to the Rajasthan Integrated Clean Energy Policy, 2024 (Government of Rajasthan)",
+  "language": "en",
+  "quote_original": "With the target of 125 GW of Renewable Power by 2029-30, Rajasthan has potential to play a key role in developing low-carbon and self-reliant economic pathways.",
+  "quote_english": "With the target of 125 GW of Renewable Power by 2029-30, Rajasthan has potential to play a key role in developing low-carbon and self-reliant economic pathways.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2030-03-31",
+  "verdict": "in-progress",
+  "summary": "Rajasthan's Integrated Clean Energy Policy 2024, carrying the CM's foreword, targets 125 GW of renewable power by 2029-30; PIB reported 35.4 GW installed in July 2025 and MNRE-based reporting put the state past 50 GW in August 2026.",
+  "topics": [
+    "energy",
+    "environment"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Rajasthan Aims For 125 Gigawatt (GW) Renewable Capacity By 2030",
+      "url": "https://www.constructionworld.in/energy-infrastructure/power-and-renewable-energy/rajasthan-aims-for-125-gigawatt-gw-renewable-capacity-by-2030/96488",
+      "channel": "Construction World"
+    },
+    {
+      "platform": "news",
+      "title": "Rajasthan targets 125 GW renewable capacity by 2030, seeks investments",
+      "url": "https://www.aninews.in/news/business/rajasthan-targets-125-gw-renewable-capacity-by-2030-seeks-investments-to-accelerate-clean-energy-expansion20260824195849",
+      "channel": "ANI"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "Rajasthan Integrated Clean Energy Policy, 2024 (PDF, includes CM foreword)",
+      "url": "https://www.investindia.gov.in/s3fs-public/2024-12/rajasthan_integrated_clean_energy_policy_2024.pdf"
+    },
+    {
+      "title": "Rajasthan Integrated Clean Energy Policy 2024 (State portal PDF)",
+      "url": "https://jankalyanfile.rajasthan.gov.in/Content/UploadFolder/DepartmentMaster/197/2024/Dec/30409/197b7999796-4748-4300-8898-61b86f301947.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of New and Renewable Energy",
+      "title": "Rajasthan at the Forefront of India's Clean Energy Mission",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2146102",
+      "date": "2025-07-19",
+      "key_figure": "Over 35.4 GW (35,400 MW) renewable capacity installed in Rajasthan as of July 2025 (29.5 GW solar, 5.2 GW wind)"
+    },
+    {
+      "type": "news",
+      "publisher": "The Times of India",
+      "title": "Raj renewable energy capacity powers past 50k MW milestone",
+      "url": "https://timesofindia.indiatimes.com/city/jaipur/raj-renewable-energy-capacity-powers-past-50k-mw-milestone/articleshow/133164829.cms",
+      "date": "2026-08-11",
+      "key_figure": "Rajasthan crossed 50,000 MW renewable installed capacity (MNRE data), 44,135 MW solar"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Union Minister Pralhad Joshi lauds Rajasthan Integrated Clean Energy Policy 2024",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2146102",
+      "summary": "The Union NRE Minister states about 70% of Rajasthan's power capacity is renewable and describes the state as a leader in India's clean energy transition."
+    }
+  ],
+  "chart": null,
+  "analysis": "Rajasthan's Integrated Clean Energy Policy 2024, which carries a foreword by Chief Minister Bhajan Lal Sharma, sets a target of 125,000 MW (125 GW) of renewable power capacity by 2029-30.\n\nThe policy's vision section frames this as Rajasthan's contribution to India's national 500 GW target. PIB reported Rajasthan at over 35.4 GW installed renewable capacity in July 2025. MNRE-based reporting put the state past 50,000 MW in August 2026.\n\nThe target date is 2029-30, so the commitment remains open and is recorded as in progress.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The exact notification/publication date of the policy was not independently confirmed by fetching the PDF; the date field uses the December 2024 PDF publication date seen in search results and this is flagged. The 125 GW figure is the state policy target and appears in the CM's foreword. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

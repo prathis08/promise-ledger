@@ -1,0 +1,63 @@
+name: Record claim review
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: record-review
+  cancel-in-progress: false
+
+jobs:
+  record:
+    if: contains(github.event.issue.labels.*.name, 'claim-review')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Record review
+        id: rec
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        run: |
+          python3 -I scripts/record_review.py > result.json
+          tail -n 1 result.json
+      - name: Commit
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          if git diff --quiet -- data/claims; then echo "nothing to commit"; exit 0; fi
+          git config user.name "review-bot"
+          git config user.email "review-bot@users.noreply.github.com"
+          git add data/claims
+          git commit -m "Record review from issue #${ISSUE_NUMBER}"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+          echo "pushed=1" >> "$GITHUB_ENV"
+      - name: Redeploy site
+        if: env.pushed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
+      - name: Reply on issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python3 -I - <<'PY' > reply.md
+          import json
+          r = json.loads(open("result.json").read().strip().splitlines()[-1])
+          print(r["message"] if r["ok"] else "Could not record this review: " + r["message"] + "\n\nEdit the issue to fix it; the bot will try again.")
+          PY
+          gh issue comment "$ISSUE_NUMBER" --body-file reply.md
+          if python3 -I -c "import json,sys; sys.exit(0 if json.loads(open('result.json').read().strip().splitlines()[-1])['ok'] else 1)"; then
+            gh issue close "$ISSUE_NUMBER" --reason completed
+          fi

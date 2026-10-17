@@ -1,0 +1,73 @@
+{
+  "id": "modi-2019-india-open-defecation-free",
+  "speaker": "Narendra Modi",
+  "date": "2019-10-02",
+  "venue": "Swachh Bharat Diwas event, Sabarmati Riverfront, Ahmedabad, Gujarat",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "In 60 months, 600 million people have been given access to toilets (as quoted by Al Jazeera); he declared India open-defecation free.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "The ODF label rests on government village-level verification; independent surveys and later official data showed continued open defecation and incomplete toilet access, though toilet coverage rose sharply.",
+  "topics": [
+    "sanitation",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Modi declares India open defecation-free, says Swachh Bharat mission will continue (The Week)",
+      "url": "https://www.theweek.in/news/india/2019/10/02/modi-declares-india-open-defecation-free.html"
+    },
+    {
+      "title": "India open defecation free: PM Modi on Gandhi Jayanti (Deccan Herald)",
+      "url": "https://www.deccanherald.com/amp/national/india-open-defecation-free-pm-modi-on-gandhi-jayanti-765689.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Al Jazeera",
+      "title": "Modi declares India open defecation free, claim questioned",
+      "url": "https://www.aljazeera.com/news/2019/10/2/modi-declares-india-open-defecation-free-claim-questioned",
+      "date": "2019-10-02",
+      "key_figure": "RICE survey of 3,235 households in 4 states (2014, 2018): toilet access 37% to 71%, but 23% of toilet owners still defecated in the open; World Bank: over 300 million still practised OD in 2017"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "NFHS-5 (MoHFW/IIPS)",
+      "title": "NFHS-5 2019-21 improved sanitation facility, as summarised by Down To Earth",
+      "url": "https://www.downtoearth.org.in/water/nfhs-5-why-figures-on-improved-sanitation-shouldn-t-be-taken-on-face-value-80515",
+      "date": "2021",
+      "key_figure": "About 70% of households used an improved sanitation facility (about 65% rural), up from 49% in NFHS-4; article cautions against taking figures at face value"
+    },
+    {
+      "type": "news",
+      "publisher": "Down To Earth",
+      "title": "Modi declares India ODF",
+      "url": "https://www.downtoearth.org.in/news/rural-water-and-sanitation/modi-declares-india-odf-67065",
+      "date": "2019-10-02",
+      "key_figure": "Toilet coverage 39% when programme began (2014)"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Government position as reported by Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2019/10/2/modi-declares-india-open-defecation-free-claim-questioned",
+      "summary": "Officials said over 100 million of 120 million planned toilets were built, villages were verified ODF, and the urban target was 100% achieved; the PM said the focus now shifts to sustained use."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 2 October 2019 the PM declared India open-defecation free after the Swachh Bharat Mission built more than 100 million household toilets. ODF under the mission means no visible faeces in a village and access to a toilet, verified by the state, not zero open defecation by every person.\n\nIndependent evidence points to a gap. The RICE survey found 23% of toilet owners in four northern states still defecated in the open, and NFHS-5 (2019-21) found about 70% of households using an improved sanitation facility (about 65% rural). NFHS measures use of improved facilities, a stricter standard than ODF verification, so the figures are not directly comparable.\n\nThe gains are real: coverage rose from about 39% in 2014 by the government's count.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "No verbatim Hindi quote or video located. NSO 76th round (2018) figures not retrieved; add in review. NFHS-5 figures via Down To Earth summary, not the NFHS report directly. Quote in English is Al Jazeera's reported wording.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

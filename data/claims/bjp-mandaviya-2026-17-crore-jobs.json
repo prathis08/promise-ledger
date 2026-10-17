@@ -1,0 +1,90 @@
+{
+  "id": "bjp-mandaviya-2026-17-crore-jobs",
+  "speaker": "Mansukh Mandaviya",
+  "date": "2026-08-04",
+  "venue": "Presentation to NDA MPs during the Monsoon Session of Parliament, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "More than 17 crore jobs were created between 2014 and 2024.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "The 'over 17 crore jobs' figure is an extrapolation from RBI KLEMS and PLFS-based estimates rather than a count of new jobs; the government's own PIB note states a net addition of 16.83 crore for 2017-18 to 2023-24, and analysts dispute the methodology.",
+  "topics": [
+    "jobs"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Centre claims 17 crore jobs created between 2014 and 2024 amid Gen Z job worries (Swarajya, 4 August 2026)",
+      "url": "https://swarajyamag.com/news-brief/centre-claims-17-crore-jobs-created-between-2014-and-2024-amid-gen-z-job-worries"
+    },
+    {
+      "title": "Centre says 17 crore jobs created in 10 years (NDTV, Parliament Monsoon Session 2026)",
+      "url": "https://www.ndtv.com/india-news/parliament-monsoon-session-2026-amid-gen-z-employment-concerns-centre-says-17-crore-jobs-created-in-10-years-11863498"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau / Ministry of Labour and Employment",
+      "title": "Employment in India rose to 64.33 crore in 2023-24 from 47.5 crore in 2017-18",
+      "url": "https://pib.gov.in/PressNoteDetails.aspx?NoteId=155336&ModuleId=3",
+      "date": "",
+      "key_figure": "Net addition of 16.83 crore over six years (2017-18 to 2023-24)"
+    },
+    {
+      "type": "news",
+      "publisher": "The Arabian Post",
+      "title": "Union Ministry of Labour still peddling false narrative on joblessness in India",
+      "url": "https://thearabianpost.com/union-ministry-of-labour-still-peddling-false-narrative-on-joblessness-in-india/",
+      "date": "",
+      "key_figure": "Describes the 17 crore jobs figure as a questionable extrapolation based on RBI's KLEMS database"
+    },
+    {
+      "type": "news",
+      "publisher": "Policy Circle",
+      "title": "India's jobs data masks structural employment crisis",
+      "url": "https://www.policycircle.org/economy/indias-jobs-data-plfs-unemployment/",
+      "date": "",
+      "key_figure": "Notes PLFS counts a person as employed if they worked even one hour in the reference week; underemployment and poor-quality work are not captured"
+    },
+    {
+      "type": "news",
+      "publisher": "ThePrint",
+      "title": "Economist Amit Mitra criticises Centre's data on unemployment, calls it misleading",
+      "url": "https://theprint.in/india/economist-amit-mitra-criticises-centres-data-on-unemployment-calls-it-misleading-masked/2699898/",
+      "date": "",
+      "key_figure": "Criticism of PLFS-based unemployment figures as misleading"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB press note on employment estimates (Ministry of Labour and Employment)",
+      "url": "https://pib.gov.in/PressNoteDetails.aspx?NoteId=155336&ModuleId=3",
+      "summary": "The government cites a net addition of 16.83 crore to employment between 2017-18 and 2023-24 and attributes gains to youth-focused policies and formal-sector expansion."
+    },
+    {
+      "title": "Swarajya report on the Minister's presentation",
+      "url": "https://swarajyamag.com/news-brief/centre-claims-17-crore-jobs-created-between-2014-and-2024-amid-gen-z-job-worries",
+      "summary": "The presentation cited RBI figures for more than 17 crore jobs between 2014 and 2024, average annual creation of 1.7 crore, and an unemployment rate of 3.1% in 2025, and compared the record with the UPA period."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 4 August 2026 Labour and Employment Minister Mansukh Mandaviya presented figures to NDA MPs stating that more than 17 crore jobs were created between 2014 and 2024, citing Reserve Bank of India data.\n\nA PIB press note gives a Ministry of Labour and Employment estimate that employment rose to 64.33 crore in 2023-24 from 47.5 crore in 2017-18, a net addition of 16.83 crore over six years, a different time frame from the Minister's statement.\n\nThe figures are modelled estimates derived from the RBI KLEMS database and Periodic Labour Force Survey data rather than a count of new jobs, and include self-employment and unpaid family labour. Analysts have disputed both the methodology and the magnitude. Because the headline number cannot be reproduced as a direct count and the time frame differs between the statement and the official note, the claim is recorded as misleading.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "quote_english is the reported wording ('more than 17 crore jobs... between 2014 and 2024'), so quote_is_verbatim=false. The PIB press note returned HTTP 403 on direct fetch; its content is taken from search-result text. The time frame of the figure varies across government communications (2014-2024 in the Minister's presentation; 2017-18 to 2023-24 in the PIB note). [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "party": "BJP",
+  "role": "Union Minister of Labour and Employment",
+  "level": "central",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

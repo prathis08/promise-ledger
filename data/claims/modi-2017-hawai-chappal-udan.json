@@ -1,0 +1,73 @@
+{
+  "speaker": "Narendra Modi",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "chart": null,
+  "id": "modi-2017-hawai-chappal-udan",
+  "date": "2017-04-27",
+  "venue": "UDAN launch, Shimla (Jubbarhatti airport), Himachal Pradesh",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "My dream was to see a person who wears a 'hawai chappal' fly on a 'hawai jahaz' (aeroplane). [as reported by Business Today; wording varies across outlets]",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "CAG found that 403 of 774 routes awarded under UDAN rounds 1-3 never commenced and only 54 sustained operations beyond the three-year concession by March 2023, though RCS passengers rose from 2.63 lakh to 24.97 lakh.",
+  "topics": [
+    "infrastructure",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM Modi flags off UDAN flight scheme (Business Today, 27 Apr 2017)",
+      "url": "https://www.businesstoday.in/amp/latest/economy-politics/story/pm-modi-flags-off-udan-flight-scheme-heres-all-you-need-to-know-79545-2017-04-27"
+    },
+    {
+      "title": "PM flags off cheap flight from Shimla to Delhi (Divya Himachal)",
+      "url": "https://www.divyahimachal.com/2017/04/pm-flags-off-cheap-flight-from-shimla-to-delhi/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "cag",
+      "publisher": "CAG of India",
+      "title": "Compliance Audit Report No. 22 of 2023 on Regional Connectivity Scheme (UDAN), via Moneylife",
+      "url": "https://moneylife.in/article/only-52-percentage-of-awarded-routes-under-udan-scheme-commenced-operations-cag/71678.html",
+      "date": "2023-08-01",
+      "key_figure": "403 of 774 awarded routes (52%) never commenced; only 112 of 371 started routes completed 3 years; 54 routes (7% of awarded) operating beyond concession as of Mar 2023; passengers 2.63 lakh (2017-18) to 24.97 lakh (2022-23)"
+    },
+    {
+      "type": "news",
+      "publisher": "Factly",
+      "title": "CAG highlights certain gaps in the implementation of the RCS-UDAN scheme",
+      "url": "https://factly.in/review-cag-highlights-certain-gaps-in-the-implementation-of-the-rcs-udan-scheme",
+      "date": "2023-08-01",
+      "key_figure": "Fact-check summary of the CAG report (page not retrievable by my tool)"
+    },
+    {
+      "type": "news",
+      "publisher": "Tribune India",
+      "title": "Cheaper Delhi flight a dream",
+      "url": "https://m.tribuneindia.com/news/archive/himachal/cheaper-delhi-flight-a-dream-576602",
+      "date": "2017-10-01",
+      "key_figure": "Unsubsidised Shimla-Delhi fares reported around Rs 19,000 while subsidised seats were largely booked in advance"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Scheme positioning (as reported)",
+      "url": "https://www.businesstoday.in/amp/latest/economy-politics/story/pm-modi-flags-off-udan-flight-scheme-heres-all-you-need-to-know-79545-2017-04-27",
+      "summary": "At launch roughly half the seats on each flight were to cost Rs 2,500 for a one-hour flight; a later explainer reports over 580 routes operationalised across 85+ airports/heliports/water aerodromes by April 2026 (secondary source, not verified). No ministry rebuttal of the CAG report was located."
+    }
+  ],
+  "analysis": "Modi launched UDAN (Ude Desh ka Aam Nagrik) at Shimla on 27 April 2017, saying his aim was for ordinary people wearing 'hawai chappal' to travel by air; the scheme capped fares at about Rs 2,500 for 50% of seats on one-hour flights.\n\nThe CAG's 2023 audit of rounds 1-3 found that 403 of 774 awarded routes never started, that 371 routes started, 112 completed the three-year concession and 54 were still operating beyond it in March 2023. It also found RCS passenger numbers rose from 2.63 lakh in 2017-18 to 24.97 lakh in 2022-23 and made 16 recommendations.\n\nThe claim is an aspiration with no numeric target or deadline, so the verdict reflects the gap between awarded and sustained routes rather than a missed date.",
+  "confidence": "low",
+  "notes": "Aspirational statement with no deadline; verdict 'misleading' is a judgement call (alternatives: in-progress/unverifiable). Quote wording is from news reports (BT/Divya Himachal differ); no verbatim transcript or video found. CAG press release URL 404'd and the calm.cag.gov.in PDF refused connection; CAG figures are via Moneylife/National Herald search summaries. Date of Tribune article (2017-10-01) approximate - not verified. 2026 'over 580 routes' figure is from a low-quality explainer and is mentioned only in govt_response as unverified.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

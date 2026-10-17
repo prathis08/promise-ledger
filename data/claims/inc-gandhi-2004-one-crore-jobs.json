@@ -1,0 +1,66 @@
+{
+  "id": "inc-gandhi-2004-one-crore-jobs",
+  "speaker": "Sonia Gandhi",
+  "party": "INC",
+  "role": "Congress President",
+  "level": "party",
+  "state": null,
+  "date": "2004-03-22",
+  "venue": "New Delhi",
+  "language": "en",
+  "quote_original": "Yuva Rozgar, to accelerate growth of productive and secure employment opportunities by around one crore a year and ensure that each family has at least one job.",
+  "quote_english": "Yuva Rozgar: to accelerate growth of productive and secure employment opportunities by around one crore a year and ensure that each family has at least one job.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2009-05-31",
+  "verdict": "unachieved",
+  "summary": "The 2004 Congress manifesto promised about one crore additional employment opportunities a year, but NSSO data show about 1.1 million jobs were added between 2004-05 and 2009-10.",
+  "topics": [
+    "jobs",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Indian National Congress, Lok Sabha Elections 2004 Manifesto (full text, Internet Archive)",
+      "url": "https://archive.org/stream/CongressManifesto2004/Congress%20Manifesto%202004_djvu.txt"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Statistics and Programme Implementation",
+      "title": "Statistical Year Book India: Employment Trends",
+      "url": "https://mospi.gov.in/sites/default/files/Statistical_year_book_india_chapters/Labor%26Employment.pdf",
+      "date": "2013-01-01",
+      "key_figure": "1.1 million jobs created (usual status, ps+ss) between 2004-05 and 2009-10."
+    },
+    {
+      "type": "intl_org",
+      "publisher": "International Labour Organization",
+      "title": "India: Labour market update",
+      "url": "https://www.ilo.org/media/437081/download",
+      "date": "2014-01-01",
+      "key_figure": "Employment 457.9 million (2004-05) to 459.0 million (2009-10)."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "NSS Report No. 537: Employment and Unemployment Situation in India, 2009-10",
+      "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/NSS_Report_No_537.pdf",
+      "summary": "The report argues that aggregate employment growth understates the change and that disaggregated data, especially for workers aged 25 and above, shows a sharper increase."
+    }
+  ],
+  "chart": null,
+  "analysis": "The 2004 Congress manifesto's 'Yuva Rozgar' section said the party would accelerate growth of productive and secure employment opportunities by around one crore a year and ensure that each family had at least one job. The manifesto did not specify an annual measurement method or a formal end-date; the end of the five-year Lok Sabha term is used here as the implied deadline.\n\nNSSO's 61st round (2004-05) and 66th round (2009-10) show total employment rising from 457.9 million to 459.0 million, an increase of about 1.1 million over five years, or roughly 0.2 million a year. The Planning Commission's Eleventh Plan appraisal and the ILO's India employment report use the same 1.1 million figure.\n\nThe government's own statistical report notes that aggregate employment growth looked slow but argues that disaggregated data, especially for workers aged 25 and above, showed stronger growth. Even on that reading, the published aggregate did not approach one crore a year.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Manifesto text from Internet Archive OCR; the OCR has a page break in the sentence. The 2004 manifesto did not state a formal deadline; the end of the 2009 Lok Sabha term is used. The 'each family at least one job' part is not separately measurable. The manifesto was released by Sonia Gandhi; some reports date the release to 22-23 March 2004.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

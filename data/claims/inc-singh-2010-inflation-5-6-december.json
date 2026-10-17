@@ -1,0 +1,74 @@
+{
+  "id": "inc-singh-2010-inflation-5-6-december",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2010-05-24",
+  "venue": "National Press Conference, New Delhi",
+  "language": "en",
+  "quote_original": "I believe in the coming days, by December this year, we can bring down inflation to 5-6 per cent.",
+  "quote_english": "I believe in the coming days, by December this year, we can bring down inflation to 5-6 per cent.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2010-12-31",
+  "verdict": "missed-deadline",
+  "summary": "The Prime Minister said inflation would fall to 5-6% by December 2010; WPI inflation was 8.43% that month.",
+  "topics": [
+    "prices",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Inflation will drop to 5-6% by Dec, says PM (The Indian Express)",
+      "url": "https://indianexpress.com/article/news-archive/web/inflation-will-drop-to-56-by-dec-says-pm/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "Inflation will drop to 5-6% by Dec, says PM",
+      "url": "https://indianexpress.com/article/news-archive/web/inflation-will-drop-to-56-by-dec-says-pm/",
+      "date": "2010-05-24",
+      "key_figure": "PM: inflation can be brought down to 5-6% by December this year; inflation then around 10%."
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Overall inflation surges to 8.43% in Dec",
+      "url": "https://www.thehindu.com/business/Economy/Overall-inflation-surges-to-8.43-in-Dec/article15520960.ece",
+      "date": "2011-01-14",
+      "key_figure": "WPI inflation 8.43% in December 2010, up from 7.48% in November."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Department of Economic Affairs",
+      "title": "Public Debt Management: Third Quarter 2010-11",
+      "url": "http://dea.gov.in/files/public_debt_management_documents/PDM3rdQ.pdf",
+      "date": "2011-01-01",
+      "key_figure": "December 2010 WPI inflation 8.43% year on year."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PM attributes inflation to global crisis, petroleum prices, drought and floods",
+      "url": "https://indianexpress.com/article/news-archive/web/inflation-will-drop-to-56-by-dec-says-pm/",
+      "summary": "The Prime Minister said inflation was largely due to the global crisis, petroleum products, the 2009 drought and floods, and that the government was taking steps to moderate prices."
+    }
+  ],
+  "chart": null,
+  "analysis": "At his national press conference on 24 May 2010, Manmohan Singh said inflation could be brought down to 5-6% by December 2010. Headline WPI inflation was 9.59% in April 2010, according to the same report.\n\nWPI inflation for December 2010 was 8.43%, higher than November's 7.48%, driven by food and fuel prices. The Finance Ministry's debt-management report records the same 8.43% figure.\n\nThe target was missed by about 2.4 to 3.4 percentage points. Inflation remained above 8% through much of 2011.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Quote as reported by The Indian Express; the full press-conference transcript was published by The Hindu and Rediff. WPI is the headline all-commodity index.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

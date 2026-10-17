@@ -1,0 +1,59 @@
+[
+  {
+    "errors": [
+      "1 evidence URLs dead (404); 1 left"
+    ],
+    "claim": {
+      "id": "inc-chidambaram-2013-fiscal-deficit-4-8",
+      "speaker": "P. Chidambaram",
+      "party": "INC",
+      "role": "Union Finance Minister",
+      "level": "central",
+      "state": null,
+      "date": "2013-02-28",
+      "venue": "Lok Sabha, Parliament House, New Delhi (Union Budget 2013-14 speech)",
+      "language": "en",
+      "quote_original": "",
+      "quote_english": "The fiscal deficit for the year 2013-14 is estimated at 4.8 per cent of GDP.",
+      "quote_is_verbatim": false,
+      "claim_type": "promise",
+      "deadline": "2014-03-31",
+      "verdict": "true",
+      "summary": "The 2013-14 Budget set a fiscal deficit target of 4.8% of GDP; provisional actuals for 2013-14 show a deficit of 4.5% of GDP.",
+      "topics": [
+        "economy"
+      ],
+      "media": [],
+      "transcript_sources": [
+        {
+          "title": "Union Budget 2013-14, Speech of Finance Minister P. Chidambaram",
+          "url": "https://indiabudget.gov.in/doc/bspeech/bs201314.pdf"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "news",
+          "publisher": "Reuters",
+          "title": "Fiscal deficit narrows to 4.5 percent of GDP in 2013/14",
+          "url": "https://sg.finance.yahoo.com/news/fiscal-deficit-narrows-4-5-112327325.html",
+          "date": "2014-05-30",
+          "key_figure": "Fiscal deficit for 2013/14 was Rs 5.08 trillion, equivalent to 4.5% of GDP (vs 4.9% a year earlier)"
+        }
+      ],
+      "govt_response": [
+        {
+          "title": "BJP press release: Yashwant Sinha on Chidambaram's fiscal remarks (opposition critique of the figures)",
+          "url": "https://www.bjp.org/pressreleases/press-shri-yashwant-sinha-chidambarams-remarks",
+          "summary": "The BJP argued the deficit was met partly through cuts in plan expenditure and by shifting subsidy liabilities to oil PSUs; this is an opposition critique, not a government statement."
+        }
+      ],
+      "chart": null,
+      "analysis": "In the February 2013 Union Budget the Finance Minister estimated the fiscal deficit for 2013-14 at 4.8% of GDP, after saying the deficit for the current year had been contained at 5.2%.\n\nThe revised estimate published with the interim budget in February 2014 was 4.6% of GDP, and the provisional actuals for 2013-14 reported in May 2014 put the deficit at 4.5% of GDP. The Economic Survey 2014-15 records the same 4.5% provisional actual against the 4.8% budget estimate.\n\nThe target was therefore met, with the deficit coming in below the budgeted figure. Critics noted that the outcome was assisted by lower plan expenditure and by subsidy accounting at state-run oil companies, but the headline fiscal-deficit target itself was achieved.",
+      "confidence": "high",
+      "review_status": "draft",
+      "last_reviewed": "2026-10-17",
+      "notes": "Budget speech wording taken from the indexed speech text (PDF not fetched directly here). FY14 deficit figures were revised several times (BE 4.8%, RE 4.6%, provisional actual 4.5%).",
+      "researched_by": "deepseek-v4.1-flash-free"
+    }
+  }
+]

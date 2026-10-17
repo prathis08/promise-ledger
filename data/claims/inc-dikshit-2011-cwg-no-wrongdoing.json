@@ -1,0 +1,78 @@
+{
+  "id": "inc-dikshit-2011-cwg-no-wrongdoing",
+  "speaker": "Sheila Dikshit",
+  "party": "INC",
+  "role": "Chief Minister, Delhi",
+  "level": "state",
+  "state": "Delhi",
+  "date": "2011-08-03",
+  "venue": "New Delhi",
+  "language": "en",
+  "quote_original": "We have not done anything wrong. Everything was done keeping in mind the national interest and prestige. We were entrusted with certain responsibilities and we delivered them.",
+  "quote_english": "We have not done anything wrong. Everything was done keeping in mind the national interest and prestige. We were entrusted with certain responsibilities and we delivered them.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "The CAG audit found irregularities and excess expenditure in CWG projects, so the blanket denial of wrongdoing is not supported by the audit record.",
+  "topics": [
+    "corruption",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "CWG scam: Not done anything wrong, says Sheila Dikshit",
+      "url": "https://timesofindia.indiatimes.com/city/delhi/CWG-scam-Not-done-anything-wrong-says-Sheila-Dikshit/articleshow/9470916.cms"
+    },
+    {
+      "title": "Delhi leader denies Commonwealth Games allegations",
+      "url": "https://www.bbc.com/news/world-south-asia-14398665"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "BBC News",
+      "title": "Delhi leader denies Commonwealth Games allegations",
+      "url": "https://www.bbc.com/news/world-south-asia-14398665",
+      "date": "2011-08-04",
+      "key_figure": "Audit reportedly blamed the Dikshit government for ill-conceived projects, arbitrary consultant selection and exorbitant contract rates."
+    },
+    {
+      "type": "news",
+      "publisher": "The Economic Times",
+      "title": "CWG scam: CAG report indicts PMO and slams Sheila Dikshit",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/cwg-scam-cag-report-indicts-pmo-slams-sheila-dikshit-by-pointing-to-enormous-bungling/articleshow/9493964.cms",
+      "date": "2011-08-04",
+      "key_figure": "CAG report blamed Dikshit for Rs 31 crore in losses from inflated street-lighting contracts."
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "FIR against Sheila in CWG scam",
+      "url": "https://www.thehindu.com/news/cities/Delhi/fir-against-sheila-in-cwg-scam/article5661469.ece",
+      "date": "2014-02-21",
+      "key_figure": "Delhi Anti-Corruption Branch filed an FIR against Dikshit in the streetlight project scam."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "CWG scam: Not done anything wrong, says Sheila Dikshit",
+      "url": "https://timesofindia.indiatimes.com/city/delhi/CWG-scam-Not-done-anything-wrong-says-Sheila-Dikshit/articleshow/9470916.cms",
+      "summary": "Dikshit said her conscience was clear and that anyone found guilty of wrongdoing would not be spared."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 3 August 2011, Sheila Dikshit said her government had not done anything wrong in Commonwealth Games projects. She said everything was done in the national interest and that her government had delivered on its responsibilities.\n\nThe CAG audit, as reported by the BBC and The Economic Times, found irregularities in the award of CWG contracts. It pointed to arbitrary and non-transparent selection of consultants, execution at exorbitant rates, and excess expenditure of Rs 31.07 crore on street lighting.\n\nA Delhi Anti-Corruption Branch FIR was later filed in the streetlight project. No criminal conviction of Dikshit is recorded in the sources reviewed. The blanket denial is therefore rated misleading rather than false.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "CAG findings are taken from news reports; the CAG report itself was not opened. No criminal conviction of Dikshit is asserted.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

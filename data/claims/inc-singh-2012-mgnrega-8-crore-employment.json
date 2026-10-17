@@ -1,0 +1,68 @@
+{
+  "id": "inc-singh-2012-mgnrega-8-crore-employment",
+  "speaker": "Manmohan Singh",
+  "date": "2012-08-15",
+  "venue": "Red Fort, New Delhi (Independence Day address)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "In only the last one year we have provided employment to more than 8 crore people under this scheme.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "The Prime Minister said MGNREGA had provided employment to more than 8 crore people in the previous year; official programme data for 2011-12 report about 4.99 crore households provided employment with an average of 43 person-days, so the '8 crore' figure rests on a unit (individuals) not used in the programme's headline reporting.",
+  "topics": [
+    "jobs",
+    "agriculture"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Prime Minister Dr. Manmohan Singh's Independence Day Speech, 2012 (official English rendering)",
+      "url": "https://www.indianembassyusa.gov.in/ArchivesDetails?id=1857"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "PRS Legislative Research (summarising Standing Committee on Rural Development data)",
+      "title": "MGNREGA: Review of implementation",
+      "url": "https://prsindia.org/theprsblog/mahatma-gandhi-national-rural-employment-guarantee-act-review-of-implementation",
+      "date": "2013-01-01",
+      "key_figure": "Households provided employment: 5.49 crore (2010-11) and 4.99 crore (2011-12, provisional); average person-days per household 47 (2010-11) and 43 (2011-12)"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Rural Development / PIB",
+      "title": "MGNREGS employment and person-days generated",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1739616",
+      "date": "2021-07-23",
+      "key_figure": "2020-21: 11.19 crore persons provided employment; 2021-22 (as on 23 July 2021): 6.51 crore persons; a separate release reports 6.53 crore households covering 9.39 crore individuals"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "International Labour Organization (using Government of India data)",
+      "title": "Addressing the employment challenge: India's MGNREGA",
+      "url": "https://www.ilo.org/publications/addressing-employment-challenge-indias-mgnrega",
+      "date": "2012-03-08",
+      "key_figure": "55 million families provided 2.5 billion person-days of work in 2010-11"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "In the 2012 Independence Day address the Prime Minister said that in the previous year employment had been provided to more than 8 crore people under MGNREGA. Programme reporting for that reference year is in households, not individuals.\n\nStanding Committee and PRS data record 5.49 crore households provided employment in 2010-11 and 4.99 crore households in 2011-12 (provisional), with average person-days per household of 47 and 43 respectively - well below the 100-day entitlement. An ILO document using government data states that 55 million (5.5 crore) families were provided 2.5 billion person-days in 2010-11.\n\nLater official releases report both households and individuals; on 2021-22 data the ratio of individuals to households is about 1.4. Applying a similar ratio to the roughly 5 crore households of 2011-12 gives an individual count of about 7 crore rather than more than 8 crore. The Prime Minister's figure is therefore not directly reconcilable with the programme's headline household data, and its unit of measurement is not stated.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The verdict turns on the unit of measurement. If 'people' means adult individual workers rather than households, the figure is closer to, but still above, what the household data support. The exact individual-worker count for 2011-12 was not located in a primary MIS release during research; the ratio is inferred from later PIB releases. Quote is from the official English rendering (speech delivered in Hindi). [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 2,
+    "score": 0.6666666666666666
+  }
+}

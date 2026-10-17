@@ -1,0 +1,80 @@
+{
+  "id": "bjp-modi-2021-farm-laws-repeal",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2021-11-19",
+  "venue": "Address to the Nation (televised), New Delhi",
+  "language": "hi",
+  "quote_original": "आज मैं आपको, पूरे देश को, ये बताने आया हूं कि हमने तीनों कृषि कानूनों को वापस लेने का निर्णय लिया है। इस महीने के अंत में शुरू होने जा रहे संसद सत्र में, हम इन तीनों कृषि कानूनों को Repeal करने की संवैधानिक प्रक्रिया को पूरा कर देंगे।",
+  "quote_english": "Today I have come to tell you, the whole country, that we have decided to repeal all three agricultural laws. We will complete the constitutional process to repeal these three agricultural laws in the Parliament session that begins later this month.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Parliament passed the Farm Laws Repeal Bill, 2021 on 29 November 2021 and the President gave assent on 30 November 2021, repealing the three 2020 farm laws within the session the Prime Minister had named.",
+  "topics": [
+    "agriculture",
+    "governance"
+  ],
+  "media": [
+    {
+      "platform": "youtube",
+      "title": "PM Modi's address to the nation | Nov 19, 2021",
+      "url": "https://www.youtube.com/watch?v=q0grrP8ufuo",
+      "timestamp_seconds": null,
+      "channel": null
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PMIndia: PM's address to the Nation",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-to-the-nation-9/"
+    },
+    {
+      "title": "PIB: Prime Minister addresses the Nation",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1773138"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "It's official. Three farm laws scrapped",
+      "url": "https://www.thehindu.com/news/national/president-gives-assent-to-farm-laws-repeal-bill/article37802828.ece",
+      "date": "2021-12-02",
+      "key_figure": "President Ram Nath Kovind gave assent to the Farm Laws Repeal Bill on 30 November 2021"
+    },
+    {
+      "type": "news",
+      "publisher": "PRS Legislative Research",
+      "title": "The Farm Laws Repeal Bill, 2021",
+      "url": "https://prsindia.org/billtrack/the-farm-laws-repeal-bill-2021",
+      "date": "2021-11-29",
+      "key_figure": "Bill introduced in Lok Sabha on 29 November 2021 and passed by both Houses the same day"
+    },
+    {
+      "type": "news",
+      "publisher": "Reuters",
+      "title": "India's parliament passes bill to repeal controversial farm laws",
+      "url": "https://www.reuters.com/markets/commodities/indias-parliament-passes-bill-repeal-controversial-farm-laws-2021-11-29/",
+      "date": "2021-11-29",
+      "key_figure": "Parliament passed the repeal bill on 29 November 2021"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "PM Narendra Modi announced the repeal of the three farm laws in a televised address on 19 November 2021, two months after the government had already suspended the laws.\n\nParliament passed the Farm Laws Repeal Bill, 2021 on 29 November 2021 and the President gave assent on 30 November 2021, completing the process in the session the Prime Minister named in the speech.\n\nThe claim was a statement of intent with a specific legislative timeline; that timeline was met.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "Quotes taken from the PMIndia and PIB transcripts of the 19 November 2021 address. YouTube link is a news upload of the address found in search results; the timestamp was not set. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 2,
+    "matched": 1,
+    "score": 0.5
+  }
+}

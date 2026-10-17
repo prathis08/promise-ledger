@@ -1,0 +1,110 @@
+{
+  "slug": "world-bank-ease-of-doing-business",
+  "name": "Ease of Doing Business (Doing Business report)",
+  "publisher": "World Bank",
+  "url": "https://www.doingbusiness.org/en/rankings",
+  "higher_is_better": false,
+  "metric": "Rank",
+  "out_of_label": "economies ranked",
+  "points": [
+    {
+      "year": 2006,
+      "value": 116,
+      "out_of": 155,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2007,
+      "value": 134,
+      "out_of": 175,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2008,
+      "value": 120,
+      "out_of": 178,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2009,
+      "value": 122,
+      "out_of": 181,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2010,
+      "value": 133,
+      "out_of": 183,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2011,
+      "value": 134,
+      "out_of": 183,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2012,
+      "value": 132,
+      "out_of": 183,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2013,
+      "value": 132,
+      "out_of": 185,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2014,
+      "value": 134,
+      "out_of": 189,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2015,
+      "value": 142,
+      "out_of": 189,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2016,
+      "value": 130,
+      "out_of": 189,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2017,
+      "value": 130,
+      "out_of": 190,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2018,
+      "value": 100,
+      "out_of": 190,
+      "source_url": "https://en.wikipedia.org/wiki/Ease_of_doing_business_index"
+    },
+    {
+      "year": 2019,
+      "value": 77,
+      "out_of": 190,
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1589055"
+    },
+    {
+      "year": 2020,
+      "value": 63,
+      "out_of": 190,
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1589055"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: India ranks 63 in World Bank's Doing Business Report (Oct 2019)",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1589055",
+      "summary": "Government celebrated a 14-place rise from 77 to 63 of 190, India a top-10 improver for the third consecutive year; later PIB material cites a rise from 142 in 2014 to 63."
+    }
+  ],
+  "methodology_note": "'year' is the Doing Business report year (DB2020 = published Oct 2019, data to May 2019). The World Bank discontinued the report in 2021 after data irregularities affecting the DB2018 and DB2020 editions (China, Saudi Arabia, UAE, Azerbaijan). The 142-to-63 rise cited by the government compares DB2015 (142) with DB2020 (63); DB2014 was 134. The Bank restates past ranks with methodology changes, so published ranks are not strictly comparable. Rank for 2014-2018 per Wikipedia's table of the report; 2019/2020 per PIB.\n\nBack-fill (pre-2014 editions, researched by deepseek, unreviewed): 'year' is the Doing Business report year (DB2020 = published Oct 2019, data to May 2019). The World Bank discontinued the report in 2021 after data irregularities affecting the DB2018 and DB2020 editions (China, Saudi Arabia, UAE, Azerbaijan). The 142-to-63 rise cited by the government compares DB2015 (142) with DB2020 (63); DB2014 was 134. The Bank restates past ranks with methodology changes, so published ranks are not strictly comparable. Rank for 2014-2018 per Wikipedia's table of the report; 2019/2020 per PIB. Earlier editions added: ranking was introduced only in the Doing Business 2006 report, so no ranks exist for 2004-2005. India was 116th of 155 in DB2006, 134th of 175 in DB2007, 120th of 178 in DB2008, 122nd of 181 in DB2009, 133rd of 183 in DB2010, 134th of 183 in DB2011, 132nd of 183 in DB2012 and 132nd of 185 in DB2013 (coverage counts confirmed from the World Bank's archived Doing Business 2006 and 2013 report pages). Coverage expanded sharply over this period and the Bank changed/restated indicators (notably DB2015), so these ranks are not strictly comparable with later editions.",
+  "related_claims": []
+}

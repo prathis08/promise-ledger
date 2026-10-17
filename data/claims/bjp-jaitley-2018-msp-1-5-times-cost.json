@@ -1,0 +1,83 @@
+{
+  "id": "bjp-jaitley-2018-msp-1-5-times-cost",
+  "speaker": "Arun Jaitley",
+  "party": "BJP",
+  "role": "Union Finance Minister",
+  "level": "central",
+  "state": null,
+  "date": "2018-02-01",
+  "venue": "Union Budget 2018-19 speech, Parliament (New Delhi)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "as per pre-determined principle, Government has decided to keep MSP for the all unannounced crops of kharif at least at one and half times of their production cost.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "MSP is fixed at 1.5 times the A2+FL cost of production, not the comprehensive C2 cost; on the C2 basis the return is lower, and farmer groups had demanded the C2 formula.",
+  "topics": [
+    "agriculture",
+    "prices",
+    "income"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PIB: Budget 2018-19 announcements for the farm sector",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1518563"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "PRS Legislative Research",
+      "title": "Explained: Recent changes in MSPs",
+      "url": "https://prsindia.org/theprsblog/explained-recent-changes-in-msps",
+      "date": "2021",
+      "key_figure": "MSP gives about 50.1% return over A2+FL cost but about 12.2% over C2 cost (one crop example)"
+    },
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "Explained: How the 1.5-times formula for crops MSP is calculated",
+      "url": "https://indianexpress.com/article/explained/explained-how-the-1-5-times-formula-for-crops-msp-is-calculated-7075865/",
+      "date": "2021",
+      "key_figure": "C2 is a more comprehensive cost than A2+FL; MSP is fixed on A2+FL"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / CACP",
+      "title": "Calculation of MSP",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1605054",
+      "date": "2019",
+      "key_figure": "CACP reckons A2+FL cost for the return; C2 cost is collected for reference"
+    },
+    {
+      "type": "news",
+      "publisher": "Down To Earth",
+      "title": "MSP calculations still continue with old formula, not on comprehensive cost",
+      "url": "https://www.downtoearth.org.in/agriculture/msp-calculations-still-continue-with-old-formula-not-on-comprehensive-cost-92402",
+      "date": "2021",
+      "key_figure": "MSP is not based on the comprehensive (C2) cost of production"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Calculation of MSP",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1605054",
+      "summary": "The government states MSP is fixed at least at 1.5 times the all-India weighted average A2+FL cost of production, and that CACP also collects C2 cost."
+    }
+  ],
+  "chart": null,
+  "analysis": "In the Union Budget 2018-19 speech, the Finance Minister said the government had adopted the principle of fixing MSP for kharif crops at least at one and a half times their cost of production.\n\nMSP is calculated on the A2+FL cost of production (paid-out costs plus imputed family labour). The comprehensive C2 cost, which adds imputed rent and interest on owned assets, gives a lower percentage return; PRS Legislative Research estimated one crop's return at about 50.1% over A2+FL but about 12.2% over C2.\n\nFarmer groups have demanded MSP at 1.5 times the C2 cost. The government states that CACP uses A2+FL for the return and C2 for reference.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "This claim is closely related to the separately recorded promise on doubling farmers' income; it is recorded here as a distinct MSP pricing commitment. No fixed deadline was stated for the MSP principle. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

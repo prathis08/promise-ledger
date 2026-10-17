@@ -1,0 +1,73 @@
+{
+  "id": "bjp-shah-2024-one-nation-one-election",
+  "speaker": "Amit Shah",
+  "party": "BJP",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2024-05-26",
+  "venue": "Interview with PTI, New Delhi",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "We will also make every effort to achieve 'One Nation, One Election'. This should also be discussed. ... Our resolution is for five years. We will bring it during this period.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2029-05-31",
+  "verdict": "in-progress",
+  "summary": "The Constitution (129th Amendment) Bill, 2024 to enable simultaneous Lok Sabha and Assembly elections was introduced in December 2024 and sent to a Joint Parliamentary Committee, which as of July 2026 had not yet submitted its report.",
+  "topics": [
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Uniform Civil Code, 'One Nation, One Election' to be implemented in next term, says Amit Shah (PTI / The Hindu)",
+      "url": "https://www.thehindu.com/elections/lok-sabha/union-home-minister-amit-shah-wide-ranging-interview-with-pti/article68218020.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "PRS Legislative Research",
+      "title": "The Constitution (129th Amendment) Bill, 2024 (Simultaneous Elections / One Nation One Election)",
+      "url": "https://prsindia.org/billtrack/the-constitution-one-hundred-and-twenty-ninth-amendment-bill-2024",
+      "date": "2024-12-17",
+      "key_figure": "Introduced in Lok Sabha 17 December 2024; referred to Joint Parliamentary Committee 19 December 2024"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Lok Sabha Secretariat",
+      "title": "Joint Committee on the Constitution on 'One Nation, One Election' says Goa consultations back simultaneous elections",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283713",
+      "date": "2026-07-11",
+      "key_figure": "JPC still holding nationwide consultations; report to be submitted to Parliament"
+    },
+    {
+      "type": "news",
+      "publisher": "India Today",
+      "title": "One Nation, One Election Bill delayed till Winter Session, panel gets more time",
+      "url": "https://www.indiatoday.in/amp/india/story/one-nation-one-election-bill-lok-sabha-extends-time-for-joint-parliamentary-committee-winter-session-pp-chaudhary-2959893-2026-07-30",
+      "date": "2026-07-30",
+      "key_figure": "JPC report deadline extended; JPC chair indicates simultaneous polls unlikely before 2034"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "One Nation, One Election is in the Best Interest of the Country: JPC Chairman P. P. Chaudhary",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2261858",
+      "summary": "The JPC chair says the reform must be implemented, that it does not mean voting on a single day, and that all elections can be synchronised by 2034."
+    }
+  ],
+  "chart": null,
+  "analysis": "Shah said in a PTI interview published on 26 May 2024 that if the BJP formed the government it would work to implement 'One Nation, One Election' within its five-year term and would bring a bill during that period.\n\nThe Constitution (129th Amendment) Bill, 2024 was introduced in the Lok Sabha on 17 December 2024 and referred to a Joint Parliamentary Committee. Through 2025 and 2026 the JPC continued nationwide consultations; its report deadline was extended to the Winter Session of 2026, and the committee chairman indicated that simultaneous elections are unlikely before 2034.\n\nNo simultaneous Lok Sabha and Assembly elections had been held by October 2026, so the target remains unrealised while the legislative process continues.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "Quote is the reported English wording of a Hindi interview; not a verbatim transcript. The five-year term referenced from 2024 ends in 2029. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

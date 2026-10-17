@@ -1,0 +1,98 @@
+{
+  "id": "bjp-sitharaman-2019-har-ghar-jal-2024",
+  "speaker": "Nirmala Sitharaman",
+  "party": "BJP",
+  "role": "Union Finance Minister",
+  "level": "central",
+  "state": null,
+  "date": "2019-07-05",
+  "venue": "Lok Sabha, Parliament House, New Delhi (Union Budget 2019-20 speech)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "'Har Ghar Jal' — all rural households to have a tap water connection by 2024.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2024-12-31",
+  "verdict": "missed-deadline",
+  "summary": "As of 2025 about 15.7 crore of roughly 19.3 crore rural households (about 81 per cent) had tap water connections; the 2024 universal-coverage target was not met.",
+  "topics": [
+    "sanitation",
+    "health"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "Budget 2019: 'Har Ghar Jal' for all rural houses by 2024, says Sitharaman",
+      "url": "https://www.asianage.com/india/all-india/050719/union-budget-2019-har-ghar-jal-for-all-rural-houses-by-2024-says-sitharaman.html",
+      "timestamp_seconds": null,
+      "channel": "The Asian Age"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "Economic Times video: Budget 2019 — Har Ghar Jal to all rural households by 2024, says FM Sitharaman",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/budget-2019-har-ghar-jal-to-all-rural-households-by-2024-says-fm-sitharaman/videoshow/70087056.cms"
+    },
+    {
+      "title": "PIB: PM's Independence Day address, 15 August 2019 (Jal Jeevan Mission goal)",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1807827"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Department of Drinking Water & Sanitation",
+      "title": "Jal Jeevan Mission (Har Ghar Jal) — status",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251026676401.pdf",
+      "date": "2025-10-22",
+      "key_figure": "Over 81 per cent of rural households with tap water; more than 15.72 crore rural homes as of 22 October 2025."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Jal Shakti",
+      "title": "Jal Jeevan Mission — tap water connections",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2114280",
+      "date": "2025-03-17",
+      "key_figure": "Only 3.23 crore (16.7%) rural households had tap water at the start; about 12.30 crore additional households covered as on 17 March 2025."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "Fund utilization under Har Ghar Jal Yojana",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2196988",
+      "date": null,
+      "key_figure": "Year-wise and State/UT-wise fund allocation, release and utilization under JJM for 2024-25."
+    },
+    {
+      "type": "news",
+      "publisher": "ThePrint",
+      "title": "CAG flags lapses in implementation of Jal Jeevan Mission in Gujarat",
+      "url": "https://theprint.in/india/cag-flags-lapses-in-implementation-of-jal-jeevan-mission-in-gujarat/3040306/",
+      "date": "2026-09-11",
+      "key_figure": "CAG: 88.64% of water samples tested in 48 Gujarat villages were unfit for consumption; delays of 3-25 months in bulk pipeline projects."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Jal Jeevan Mission (Har Ghar Jal) official portal",
+      "url": "https://jaljeevanmission.gov.in/",
+      "summary": "The Ministry of Jal Shakti states the mission is being implemented to provide tap water to every rural household, and reports continuing increases in functional household tap connections."
+    }
+  ],
+  "chart": {
+    "series": "jjm-tap-connections",
+    "target": 193000000,
+    "target_label": "All rural households (2024 target)"
+  },
+  "analysis": "In the Union Budget presented on 5 July 2019, the Finance Minister announced 'Har Ghar Jal' under the Jal Jeevan Mission, with the aim of providing tap water to all rural households by 2024. The mission was subsequently launched and its period was later extended (Jal Jeevan Mission 2.0, aimed at full coverage by 2028).\n\nAt the start of the mission only about 3.23 crore rural households (16.7 per cent) had tap water connections. PIB releases state that around 12.30 crore additional households had been covered by 17 March 2025, and that by 22 October 2025 over 81 per cent of rural households (more than 15.72 crore homes) had tap water. That is short of universal coverage by the 2024 deadline.\n\nA Comptroller and Auditor General audit of implementation in Gujarat, reported in September 2026, found most tested water samples in surveyed villages unfit for consumption and flagged project delays and financial irregularities.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "This claim is distinct from the excluded Swachh Bharat/ODF claim and from the electricity-villages claim; no water-supply claim appears in the exclusion list. Attribution: the budget announcement is reported as Sitharaman's; PM Modi also set out the same 2024 goal in his 15 August 2019 Independence Day speech (PIB PRID 1807827). The 2024 target was superseded by Jal Jeevan Mission 2.0 (approved March 2026) with a 2028 goal; the verdict records the status of the original 2024 deadline. Home-count total (~19.3 crore rural households) is from the mission's reporting. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 2,
+    "score": 0.6666666666666666
+  }
+}

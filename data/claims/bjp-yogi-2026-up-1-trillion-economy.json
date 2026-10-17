@@ -1,0 +1,77 @@
+{
+  "id": "bjp-yogi-2026-up-1-trillion-economy",
+  "speaker": "Yogi Adityanath",
+  "date": "2026-05-11",
+  "venue": "CII Annual Business Summit, New Delhi",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "The state is on track to achieve a $1-trillion economy by 2029-30.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2030-03-31",
+  "verdict": "in-progress",
+  "summary": "The Chief Minister said Uttar Pradesh is on track to become a US$1 trillion economy by 2029-30; state figures put GSDP at about Rs 29.78 lakh crore in 2024-25, well short of US$1 trillion at current exchange rates.",
+  "topics": [
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "We will make UP a $1-trillion economy by 2030, and it is achievable, says CM Yogi Adityanath (Fortune India, 11 May 2026)",
+      "url": "https://www.fortuneindia.com/business-news/we-will-make-up-a-1-trillion-economy-by-2030-and-it-is-achievable-says-cm-yogi-adityanath/137067"
+    },
+    {
+      "title": "Yogi Adityanath pushes Uttar Pradesh toward $1 trillion economy (Free Press Journal / PTI, 17 December 2025)",
+      "url": "https://www.freepressjournal.in/business/yogi-adityanath-pushes-uttar-pradesh-toward-1-trillion-economy-with-accelerated-growth-agriculture-boost-tourism-drive"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Free Press Journal / PTI",
+      "title": "UP CM reviews progress toward a USD 1-trillion economy",
+      "url": "https://www.freepressjournal.in/business/yogi-adityanath-pushes-uttar-pradesh-toward-1-trillion-economy-with-accelerated-growth-agriculture-boost-tourism-drive",
+      "date": "2025-12-17",
+      "key_figure": "UP GSDP Rs 29.78 lakh crore; 9% of national economy in 2024-25, up from 8.6% in 2022-23"
+    },
+    {
+      "type": "news",
+      "publisher": "Fortune India",
+      "title": "We will make UP a $1-trillion economy by 2030, and it is achievable, says CM Yogi Adityanath",
+      "url": "https://www.fortuneindia.com/business-news/we-will-make-up-a-1-trillion-economy-by-2030-and-it-is-achievable-says-cm-yogi-adityanath/137067",
+      "date": "2026-05-11",
+      "key_figure": "CM states UP is on track for a US$1 trillion economy by 2029-30"
+    },
+    {
+      "type": "news",
+      "publisher": "The Economic Times (video)",
+      "title": "UP-Japan investment meet 2026: Yogi pitches UP as $1-trillion economy hub",
+      "url": "https://economictimes.indiatimes.com/news/india/up-japan-investment-meet-2026-yogi-pitches-up-as-1-trillion-economy-hub-to-japanese-investors/videoshow/133344042.cms",
+      "date": "",
+      "key_figure": "CM repeats the US$1 trillion goal at the UP-Japan Investment Meet 2026"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "UP government briefing on the US$1 trillion target (Free Press Journal / PTI)",
+      "url": "https://www.freepressjournal.in/business/yogi-adityanath-pushes-uttar-pradesh-toward-1-trillion-economy-with-accelerated-growth-agriculture-boost-tourism-drive",
+      "summary": "A state government statement said UP is on the right track, that 93% of the GSDP target had been achieved, and that officials were directed to work toward a GSDP of about Rs 42 lakh crore."
+    }
+  ],
+  "chart": null,
+  "analysis": "At the CII Annual Business Summit on 11 May 2026, Yogi Adityanath said Uttar Pradesh was on track to become a US$1 trillion economy by 2029-30, citing 34 sector-specific policies and growth in mobile and electronic component manufacturing.\n\nA state government briefing reported in December 2025 put UP's GSDP at Rs 29.78 lakh crore and its share of the national economy at 9% in 2024-25, up from 8.6% in 2022-23. At prevailing exchange rates, GSDP of that size is far below US$1 trillion.\n\nThe target year is 2029-30 and has not arrived, so the claim is recorded as in progress. Reported timelines for the same goal have varied across statements and years.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Quote is the English wording as published by Fortune India; the speech was likely delivered in Hindi, so quote_original is left blank and quote_is_verbatim=false. Reported timelines for the US$1 trillion goal differ (some outlets reported a 'next three years' framing in 2025, others 2029-30 or 2030); the 2029-30 date is used here. Current US$ conversion assumes roughly Rs 84-88 per dollar and is indicative only.",
+  "party": "BJP",
+  "role": "Chief Minister, Uttar Pradesh",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

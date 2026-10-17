@@ -1,0 +1,78 @@
+{
+  "id": "inc-sonia-gandhi-2009-lokpal",
+  "speaker": "Sonia Gandhi",
+  "party": "INC",
+  "role": "Congress President / Chairperson, UPA",
+  "level": "party",
+  "state": null,
+  "date": "2009-03-01",
+  "venue": "Indian National Congress manifesto for the 2009 Lok Sabha elections",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The Congress party in its manifesto for the 2009 parliamentary elections promised to bring a strong Lokpal to curb corruption (as reported by The Times of India).",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "in-progress",
+  "summary": "The Lokpal and Lokayuktas Bill was passed by Parliament on 17 December 2013 and the Act received assent on 1 January 2014, but the Lokpal body was not constituted until 19 March 2019.",
+  "topics": [
+    "corruption",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Indian National Congress, 2009 Lok Sabha election manifesto",
+      "url": "https://www.iocongress.org/uploads/manifesto/1547546675_Manifesto_2009.pdf"
+    },
+    {
+      "title": "The Times of India: report that the 2009 Congress manifesto promised a strong Lokpal",
+      "url": "https://timesofindia.indiatimes.com/congress-general-secretary-digvijay-singh-gave-credit-to-congress-president-sonia-gandhi-for-taking-imitative-for-a-strong-lokpal-and-hinted-that-the-lokpal-bill-examined-by-the-parliamentary-committee-would-be-different-from-team-annas-version-the-congress-party-in-its-manifesto-for-2009-parliamentary-elections-had-promised-to-bring-a-strong-lokpal-to-curb-corruption-on-the-request-of-congress-president-civil-society-members-aruna-roy-and-harsh-mander-have-prepared-a-lokpal-bill-/articleshow/10379671.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Lokpal, Government of India",
+      "title": "Lokpal – official website",
+      "url": "https://lokpal.gov.in/",
+      "date": "2013-12-17",
+      "key_figure": "The Lokpal and Lokayuktas Bill, 2011 was passed by Parliament on 17 December 2013"
+    },
+    {
+      "type": "news",
+      "publisher": "BBC",
+      "title": "Lokpal: Indian upper house passes anti-corruption bill",
+      "url": "https://www.bbc.co.uk/news/world-asia-india-25411760",
+      "date": "2013-12-17",
+      "key_figure": "Rajya Sabha passed the Lokpal and Lokayuktas Bill on 17 December 2013"
+    },
+    {
+      "type": "news",
+      "publisher": "Wikipedia (citing The Hindu and others)",
+      "title": "Lokpal – formation of the institution",
+      "url": "https://en.wikipedia.org/wiki/Lokpal",
+      "date": "2019-03-19",
+      "key_figure": "Lokpal constituted on 19 March 2019 with the appointment of its first chairperson and members"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "The Hindu: Lokpal Bill – Cong hails Rahul's 'key role', promises more",
+      "url": "https://www.thehindu.com/news/national/lokpal-bill-cong-hails-rahuls-key-role-promises-more/article5474428.ece",
+      "summary": "The Congress said the passage of the Lokpal and Lokayuktas Bill in December 2013 fulfilled its anti-corruption pledge and pointed to Rahul Gandhi's role in the Winter Session."
+    }
+  ],
+  "chart": null,
+  "analysis": "The Congress's 2009 Lok Sabha manifesto promised to bring a strong Lokpal to curb corruption.\n\nThe Lokpal and Lokayuktas Bill, 2011 was passed by Parliament on 17 December 2013 and the Act received the President's assent on 1 January 2014, inside the UPA-II term. The January 2014 Act followed the 2011 anti-corruption movement led by Anna Hazare, whose supporters and several parties argued the enacted version was weaker than the draft Jan Lokpal Bill.\n\nThe Lokpal institution itself was not constituted until 19 March 2019, when its first chairperson and members were appointed. As of the end of the INC era in May 2014, the enabling law existed but the ombudsman was not operational.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 2009 manifesto PDF could not be fetched (PDF content type unsupported) and the release date is approximate; the promise is documented by The Times of India and The Hindu. The Lokpal website text was surfaced through search results rather than a direct fetch.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

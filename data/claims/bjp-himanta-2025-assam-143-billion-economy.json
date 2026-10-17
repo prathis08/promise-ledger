@@ -1,0 +1,77 @@
+{
+  "id": "bjp-himanta-2025-assam-143-billion-economy",
+  "speaker": "Himanta Biswa Sarma",
+  "date": "2025-02-25",
+  "venue": "Advantage Assam 2.0 Investment and Infrastructure Summit, Guwahati",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The State's GDP growth this year will be 15.2 per cent. The economy will reach USD 143 billion by 2030.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2030-12-31",
+  "verdict": "in-progress",
+  "summary": "The Assam Chief Minister said the state's economy would reach US$143 billion by 2030; reported estimates put Assam's economy at roughly Rs 7 lakh crore (about US$80 billion) in the mid-2020s.",
+  "topics": [
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Assam to have $143 billion economy by 2030, says Himanta Biswa Sarma (The Hindu, 25 February 2025)",
+      "url": "https://www.thehindu.com/news/national/assam/assam-to-have-143-bn-economy-by-2030-says-himanta-biswa-sarma/article69262152.ece"
+    },
+    {
+      "title": "Assam to have USD 143 billion economy by 2030: CM Himanta Biswa Sarma (The Indian Express / PTI, 25 February 2025)",
+      "url": "https://indianexpress.com/article/india/assam-to-have-usd-143-billion-economy-by-2030-cm-himanta-biswa-sarma-9855353/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Hindu / PTI",
+      "title": "Assam to have $143 billion economy by 2030, says Himanta Biswa Sarma",
+      "url": "https://www.thehindu.com/news/national/assam/assam-to-have-143-bn-economy-by-2030-says-himanta-biswa-sarma/article69262152.ece",
+      "date": "2025-02-25",
+      "key_figure": "CM claims 15.2% GDP growth and a US$143 billion economy by 2030"
+    },
+    {
+      "type": "news",
+      "publisher": "The Times of India",
+      "title": "Himanta Biswa Sarma flaunts 'New Assam' with Rs 7 lakh crore economy",
+      "url": "https://timesofindia.indiatimes.com/city/guwahati/superlative-quality-of-life-himanta-biswa-sarma-flaunts-new-assam-with-rs-7-lakh-crore-economy-pawan-khera/articleshow/130100954.cms",
+      "date": "",
+      "key_figure": "Assam economy described at about Rs 7 lakh crore"
+    },
+    {
+      "type": "news",
+      "publisher": "ANI",
+      "title": "Assam on track to become Rs 10 lakh crore economy by 2028: CM Sarma",
+      "url": "https://www.aninews.in/news/national/politics/assam-on-track-to-become-rs-10-lakh-crore-economy-by-2028-cm-sarma20260526144152/",
+      "date": "2026-05-26",
+      "key_figure": "CM states Assam is on track for a Rs 10 lakh crore economy by 2028"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Assam government roadshow outlining the US$143 billion GSDP target (Guwahati Plus)",
+      "url": "https://www.guwahatiplus.com/assam/chief-minister-himanta-biswa-sarma-outlines-assams-target-of-143-billion-gsdp-by-2030",
+      "summary": "The state government presented a roadmap to reach a US$143 billion GSDP by 2030 ahead of the Advantage Assam 2.0 summit."
+    }
+  ],
+  "chart": null,
+  "analysis": "Sarma told the Advantage Assam 2.0 summit on 25 February 2025 that Assam's GDP would grow 15.2% that year and that the economy would reach US$143 billion by 2030.\n\nA report in the same period put Assam's economy at about Rs 7 lakh crore, and in May 2026 the Chief Minister said the state was on track to become a Rs 10 lakh crore economy by 2028. At prevailing exchange rates, reaching US$143 billion by 2030 would require the rupee economy to grow several-fold from the mid-2020s level.\n\nThe target year is 2030 and has not arrived, so the claim is recorded as in progress. State GSDP estimates are revised periodically by the state and by national statistics agencies.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Quote is the PTI-backed wording carried by The Hindu and The Indian Express, so quote_is_verbatim=false. No primary state-budget or MoSPI figure for Assam's GSDP was opened; the current-size comparison relies on a Times of India report ('Rs 7 lakh crore'). US$ conversions are indicative, based on roughly Rs 84-88 per dollar.",
+  "party": "BJP",
+  "role": "Chief Minister, Assam",
+  "level": "state",
+  "state": "Assam",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

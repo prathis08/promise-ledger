@@ -1,0 +1,77 @@
+{
+  "id": "modi-2013-black-money-abroad-15-lakh",
+  "speaker": "Narendra Modi",
+  "date": "2013-11-07",
+  "venue": "Rally, Kanker, Chhattisgarh",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "If even once, the money hoarded by these crooks in banks abroad, even if we bring only that back, every poor Indian would get free of cost Rs 15 to Rs 20 lakhs, just like that.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Modi's campaign remark was a conditional illustration of how large black money abroad might be, not a literal pledge of Rs 15 lakh per account; no such deposits have been made and no estimate supporting the figure has been produced.",
+  "topics": [
+    "black-money",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "BOOM: Did Modi promise to deposit Rs 15 lakh in every account? A factcheck (quotes English rendering of Kanker remark)",
+      "url": "https://www.boomlive.in/did-modi-promise-to-deposit-rs-15-lakh-in-every-account-a-factcheck"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "BOOM",
+      "title": "Did Modi promise to deposit Rs 15 lakh in every account? A factcheck",
+      "url": "https://www.boomlive.in/did-modi-promise-to-deposit-rs-15-lakh-in-every-account-a-factcheck",
+      "date": "",
+      "key_figure": "Earliest 15 lakh mention found at Kanker, 7 Nov 2013; amount refers to black money stashed abroad, not a promise to credit each account. Shah, ABP News, 5 Feb 2015: 'this is a jumla. 15 lakhs will not be credited in anyone's account.'"
+    },
+    {
+      "type": "fact_check",
+      "publisher": "The Quint (WebQoof)",
+      "title": "Rajnath Singh ANI interview: PM Modi never promised Rs 15 lakh - fact check",
+      "url": "https://thequint.com/news/webqoof/rajnath-singh-ani-interview-pm-narendra-modi-never-promised-rs-15-lakh-fact-check",
+      "date": "",
+      "key_figure": "Fact-check of the claim that Modi never made the promise (details not opened)"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Factly (reporting Rajya Sabha remarks by Arun Jaitley)",
+      "title": "What did Arun Jaitley say about Narendra Modi's Rs 15 lakh remark on black money?",
+      "url": "https://factly.in/15-lakh-black-money-remark-what-arun-jaitley-say-about-narendra-modis",
+      "date": "",
+      "key_figure": "Jaitley called it an illustrative statement scaling with black-money estimates (per search summary)"
+    },
+    {
+      "type": "news",
+      "publisher": "Deccan Herald",
+      "title": "Amit Shah calls Modi bluff",
+      "url": "https://www.deccanherald.com/india/amit-shah-calls-modi-bluff-2111288",
+      "date": "2015-02-05",
+      "key_figure": "Reports Shah describing the remark as a 'jumla' / idiomatic expression given during Lok Sabha polls"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Arun Jaitley in Rajya Sabha, via Factly",
+      "url": "https://factly.in/15-lakh-black-money-remark-what-arun-jaitley-say-about-narendra-modis",
+      "summary": "Said the remark was illustrative: if higher estimates of black money abroad were accepted, the per-citizen benefit would scale accordingly."
+    }
+  ],
+  "chart": null,
+  "analysis": "BOOM traces the earliest mention to a 7 November 2013 rally at Kanker, where Modi said that if the black money held abroad were brought back, every poor Indian could get Rs 15-20 lakh. Fact-checkers read this as a hypothetical about the size of the hoard, not a promise to deposit money in each account. The English wording above is BOOM's rendering; no Hindi original or video was located.\n\nOn 5 February 2015 Amit Shah told ABP News that '15 lakhs will not be credited in anyone's account' and called it a 'jumla'/metaphor. The Congress called this an admission and demanded an apology. The phrase 'chunavi jumla' appears in a NewsGram paraphrase of Shah's words, not in the direct quotes seen.\n\nNo cash transfer of the kind alleged has occurred. The Black Money (Undisclosed Foreign Income and Assets) Act was passed in 2015 (referred to in the 8 Nov 2016 speech text), but recovered amounts against any estimate were not retrieved here, so the ledger does not assess how much black money was actually brought back. The verdict reflects that the popular 'promise' framing overstates what was said, while the underlying illustration of recoverable wealth has not materialised.",
+  "confidence": "medium",
+  "notes": "Verdict is a judgment call between 'misleading' (popular framing) and 'unachieved' (if the hypothetical is read as an aim). Hindi original, video and other 2014 rally variants not found. Black money recovery data (Black Money Act assessments, Swiss data) not retrieved. Quint fact-check page not opened; the Factly details come from search summary.",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "party": "BJP",
+  "role": "BJP Prime Ministerial candidate",
+  "level": "party",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

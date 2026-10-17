@@ -1,0 +1,70 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statistic",
+  "deadline": null,
+  "media": [
+    {
+      "platform": "x",
+      "title": "Narendra Modi post on X, April 2024 (link as cited by BOOM)",
+      "url": "https://twitter.com/narendramodi/status/1782011466960257379",
+      "timestamp_seconds": null,
+      "channel": "Narendra Modi"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "Outlook India report on the Banswara speech",
+      "url": "https://www.outlookindia.com/amp/story/elections/mangalsutra-mantra-for-lok-sabha-elections-2024-congress-plotting-to-snatch-your-property-distribute-it-to-their-special-people-pm-modi-redoubles-in-rajasthan"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2024-congress-manifesto-wealth-redistribution",
+  "date": "2024-04-21",
+  "venue": "Election rally, Banswara, Rajasthan",
+  "language": "hi",
+  "quote_english": "Does the government have the right to seize your hard-earned assets? (Reported as: the Congress manifesto would survey all assets, including women's gold, and redistribute them, including to 'those who have more children'.)",
+  "verdict": "misleading",
+  "topics": [
+    "governance"
+  ],
+  "summary": "The Congress 2024 manifesto contains no pledge to survey, seize or redistribute private assets such as women's gold; it mentions addressing inequality through policy, a caste census and monitoring land-ceiling distribution.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "BOOM Live",
+      "title": "FactCheck: PM Modi's claims on wealth redistribution in Congress manifesto are misleading",
+      "url": "https://www.boomlive.in/fact-check/factcheck-pm-modis-claims-on-wealth-redistribution-in-congress-manifesto-are-misleading-25038",
+      "date": "2024-04-22",
+      "key_figure": "Rated misleading; manifesto has no mention of wealth redistribution, asset surveys or gold seizure"
+    },
+    {
+      "type": "news",
+      "publisher": "Indian National Congress",
+      "title": "Congress Manifesto 2024 (English PDF), as linked by BOOM",
+      "url": "https://manifesto.inc.in/assets/Congress-Manifesto-English-2024-Dyoxp_4E.pdf",
+      "date": "2024-04-05",
+      "key_figure": "Text promises to address 'growing inequality of wealth and income through suitable changes in policies', a socio-economic and caste census, and an authority to monitor distribution of land-ceiling surplus land"
+    },
+    {
+      "type": "fact_check",
+      "publisher": "Scroll",
+      "title": "Fact-checking five days of Narendra Modi's speeches",
+      "url": "https://scroll.in/article/1067126/fact-checking-five-days-of-narendra-modis-speeches-a-catalogue-of-lies",
+      "date": "2024-04-27",
+      "key_figure": "Scroll reports the manifesto has no reference to confiscating private property or mangalsutras"
+    }
+  ],
+  "analysis": "At Banswara on 21 April 2024 Modi said the Congress manifesto would lead to a survey of assets, including women's gold, and their redistribution. BOOM Live checked the English manifesto text and rated this misleading.\n\nThe manifesto, as read by BOOM, pledges to address wealth and income inequality through policy changes, a nationwide socio-economic and caste census, and an authority to monitor distribution of surplus land under existing land-ceiling laws. It does not mention seizing or redistributing private assets or gold. Rahul Gandhi separately spoke at a Hyderabad event of a survey to find out who holds the country's wealth; BOOM said some outlets reported this as a plan to redistribute wealth.\n\nThis entry rates only the factual claim about what the manifesto says. It takes no position on the separate communal characterisations in the speech, which are not data-checkable here.",
+  "confidence": "high",
+  "notes": "No official video link found in search results; X post link is the one BOOM cited. Quote is a paraphrase/reported wording, not verbatim. Election Commission issued notices over the speech; not assessed here. Hindi original wording not retrieved.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

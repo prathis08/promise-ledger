@@ -1,0 +1,66 @@
+{
+  "id": "inc-gandhi-2009-women-reservation",
+  "speaker": "Sonia Gandhi",
+  "party": "INC",
+  "role": "Congress President and UPA Chairperson",
+  "level": "party",
+  "state": null,
+  "date": "2009-03-24",
+  "venue": "Indian National Congress manifesto for the 2009 Lok Sabha elections, New Delhi",
+  "language": "en",
+  "quote_original": "The Indian National Congress will ensure that the Bill for reserving 33% of the seats in the Lok Sabha and the State legislatures is passed in the 15th Lok Sabha and that the elections to the 16th Lok Sabha are held on the basis of one-third reservation for women.",
+  "quote_english": "The Indian National Congress will ensure that the Bill for reserving 33% of the seats in the Lok Sabha and the State legislatures is passed in the 15th Lok Sabha and that the elections to the 16th Lok Sabha are held on the basis of one-third reservation for women.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2014-05-31",
+  "verdict": "unachieved",
+  "summary": "The bill passed the Rajya Sabha but was never voted on in the Lok Sabha and lapsed in 2014, so the 33% reservation was not in place for the 2014 election.",
+  "topics": [
+    "governance",
+    "women"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Congress manifesto for General Elections 2009 (full text)",
+      "url": "https://www.smetimes.in/smetimes/general-elections-2009/news/2009/Apr/14/congress-manifesto-for-general-elections-2009-full-text.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "PRS Legislative Research",
+      "title": "Women's Reservation Bill [The Constitution (108th Amendment) Bill, 2008]",
+      "url": "https://prsindia.org/billtrack/womens-reservation-bill-the-constitution-108th-amendment-bill-2008-45",
+      "date": "2010-03-09",
+      "key_figure": "Passed by Rajya Sabha on 9 March 2010; no Lok Sabha vote recorded."
+    },
+    {
+      "type": "news",
+      "publisher": "Business Standard / ANI",
+      "title": "Women's Reservation Bill lapses",
+      "url": "https://www.business-standard.com/article/news-ani/women-s-reservation-bill-lapses-114081400714_1.html",
+      "date": "2014-08-14",
+      "key_figure": "Bill lapsed after Rajya Sabha passage; it was never taken up in the Lok Sabha."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Women's Reservation Bill lapses",
+      "url": "https://www.business-standard.com/article/news-ani/women-s-reservation-bill-lapses-114081400714_1.html",
+      "summary": "Congress leader Manish Tewari called the lapse unfortunate and said every attempt should be made to pass the bill."
+    }
+  ],
+  "chart": null,
+  "analysis": "The 2009 Congress manifesto committed the party to passing a bill reserving 33% of Lok Sabha and state legislature seats for women in the 15th Lok Sabha, and to holding the 16th Lok Sabha elections on that basis.\n\nThe Constitution (108th Amendment) Bill was passed by the Rajya Sabha on 9 March 2010. The Lok Sabha did not vote on it. The bill lapsed when the 15th Lok Sabha was dissolved in 2014.\n\nThe 16th Lok Sabha elections were held without one-third reservation for women. The manifesto's target was therefore not achieved within the stated parliamentary term.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Manifesto released on 24 March 2009. The deadline is set to the end of the 15th Lok Sabha term. The bill passed the Rajya Sabha but never reached a Lok Sabha vote.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

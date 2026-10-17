@@ -1,0 +1,78 @@
+{
+  "id": "bjp-shah-2024-jk-statehood-after-polls",
+  "speaker": "Amit Shah",
+  "party": "BJP",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2024-09-07",
+  "venue": "Public meeting, Jammu (Jammu and Kashmir Assembly election campaign)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "After the Assembly elections, statehood will be restored [to Jammu and Kashmir].",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2024-12-31",
+  "verdict": "unachieved",
+  "summary": "Assembly elections were held in September-October 2024, but Jammu and Kashmir remained a Union Territory as of October 2026 and the Centre has given no timeline for statehood.",
+  "topics": [
+    "kashmir",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Akashvani (News on AIR) / PIB: Amit Shah assures restoration of statehood to J&K after Assembly elections (7 Sep 2024)",
+      "url": "https://newsonair.gov.in/home-minister-amit-shah-assures-restoration-of-statehood-to-jk-after-assembly-elections/"
+    },
+    {
+      "title": "Akashvani (News on AIR): only the Central government can restore statehood to Jammu and Kashmir (8 Sep 2024)",
+      "url": "https://newsonair.gov.in/union-home-minister-amit-shah-says-only-central-government-can-restore-statehood-to-jammu-and-kashmir"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Telegraph India",
+      "title": "Omar Abdullah again seeks J&K statehood in meeting with Amit Shah (May 2026)",
+      "url": "https://www.telegraphindia.com/india/omar-abdullah-again-seeks-jammu-and-kashmir-statehood-in-meeting-with-amit-shah-prnt/cid/2160081",
+      "date": "2026-05-12",
+      "key_figure": "Statehood 'remains unfulfilled' despite Shah's 2019 assurance to Parliament that it would be restored at an appropriate time; the Centre says normalcy has been restored."
+    },
+    {
+      "type": "news",
+      "publisher": "The Tribune",
+      "title": "Statehood promise to J&K may be fulfilled soon, says Union Minister Athawale (Oct 2026)",
+      "url": "https://www.tribuneindia.com/news/j-k/statehood-promise-to-jk-may-be-fulfilled-soon-says-union-minister-athawale",
+      "date": "2026-10-11",
+      "key_figure": "As of 11 October 2026 the Centre had not restored statehood and declined to give a timeline; a Union Minister said only the PM and Home Minister know the timing."
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Statehood in Jammu and Kashmir to be restored as promised: Amit Shah",
+      "url": "https://www.thehindu.com/news/national/statehood-in-jammu-and-kashmir-to-be-restored-as-promised-amit-shah/article69389377.ece",
+      "date": null,
+      "key_figure": "Shah said statehood would be restored as promised, without giving any timeline."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Ramdas Athawale (Union MoS) on restoration of statehood, Oct 2026",
+      "url": "https://www.tribuneindia.com/news/j-k/statehood-promise-to-jk-may-be-fulfilled-soon-says-union-minister-athawale",
+      "summary": "The Centre says statehood will be restored 'at an appropriate time' when the timing is right; no date is committed."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 7 September 2024, campaigning for the Jammu and Kashmir Assembly elections, Shah said statehood would be restored to the Union Territory after the polls. On 8 September he said only the Central government and the Prime Minister could take the decision. In Parliament in August 2019 he had said statehood would be restored 'at an appropriate time' after normalcy.\n\nThe Assembly elections were held on 18 September, 25 September and 1 October 2024. A National Conference-led government was sworn in. As of October 2026, Jammu and Kashmir is still a Union Territory.\n\nOmar Abdullah raised restoration again with Shah in May 2026 and September 2026. The Centre has not set a date; in October 2026 a Union Minister said the timing rested with the PM and Home Minister. The specific 2024 post-election target has therefore not been met, although the pledge itself has not been formally withdrawn.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 7 Sep 2024 report is an Akashvani summary, so the exact wording is a paraphrase. The deadline 2024-12-31 is an editorial reading of 'after the Assembly elections' (polls concluded 1 Oct 2024); Shah did not state a date. The Hindu article is undated in search results. No primary PIB release of the 7 Sep 2024 Jammu speech was located. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 0,
+    "score": 0.0
+  }
+}

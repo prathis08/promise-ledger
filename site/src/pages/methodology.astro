@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import Badge from '../components/Badge.astro';
+import { t } from '../i18n/en';
+import { VERDICTS } from '../lib/data';
+import * as S from '../lib/scoring';
+const rows = (o: Record<string, number>) => Object.entries(o);
+const pct = (x: number) => x.toFixed(3);
+---
+<Base title="Methodology">
+  <h1>Methodology</h1>
+  <p>Each claim is a test case. Suites group test cases; global indices are external benchmarks. This page is generated from the constants in <code>scoring.ts</code>, which also computes the scores.</p>
+
+  <h2>Verdict definitions</h2>
+  <dl>{VERDICTS.map((v) => <><dt style="margin-top:.6em"><Badge verdict={v} /></dt><dd style="margin-left:0">{t.verdictDefs[v]}</dd></>)}</dl>
+  <p>Claims with verdict "true" are included and scored on the same terms as every other verdict.</p>
+
+  <h2>Suite A: {S.SUITES.A.name}</h2>
+  <p>Applies to claim types: {S.SUITES.A.claimTypes.join(', ')}. Suite score = mean of case scores. Strict accuracy = share of graded cases with verdict true. Verdicts not listed are not graded (counted as abstained).</p>
+  <table class="dense"><thead><tr><th>Verdict</th><th class="r">Score</th></tr></thead><tbody>{rows(S.VERDICT_SCORES_A).map(([k, v]) => <tr><td>{k}</td><td class="r num">{v}</td></tr>)}</tbody></table>
+
+  <h2>Suite B: {S.SUITES.B.name}</h2>
+  <p>Applies to claim type: {S.SUITES.B.claimTypes.join(', ')}. Suite score = mean of case scores. On-time rate = share of graded promises with verdict true. Unverifiable is not graded.</p>
+  <table class="dense"><thead><tr><th>Verdict</th><th class="r">Score</th></tr></thead><tbody>{rows(S.VERDICT_SCORES_B).map(([k, v]) => <tr><td>{k}</td><td class="r num">{v}</td></tr>)}</tbody></table>
+  <p><strong>Not yet due.</strong> A promise whose deadline is after the evaluation date ({S.AS_OF}) is not graded, whatever its verdict: no credit for early delivery and no penalty for work in progress. It is listed as "not yet due".</p>
+  <p><strong>Gap closed</strong> (promises with a numeric target and a series): (value − baseline) / (target − baseline), clamped to [0, 1]. Baseline is the series point at or before the claim date, else the first point. Reported at the deadline (last point at or before it) and at the latest point. Series labels are read as the end of the period they cover (a financial year such as 2015-16 ends on 31 March 2016). A caveat flag is shown when units or prices differ between series and target, or when the baseline had to fall back to the first point.</p>
+
+  <h2>Parties and eras</h2>
+  <p>Two "models" are evaluated: each claim is attributed to the party of the person who made it (Union ministers and the Prime Minister, Chief Ministers, and party office-bearers).</p>
+  <table class="dense"><thead><tr><th>Party</th><th>Claims counted</th><th>Index era</th></tr></thead><tbody>{S.PARTIES.map((p) => <tr><td>{p.label}</td><td>{p.claimEra}</td><td>{p.indexFrom} → {p.indexTo ?? 'latest'}</td></tr>)}</tbody></table>
+  <p><strong>Selection.</strong> Claims are researched with the same quota for each party and domain: 8 claims, at least 3 promises with a deadline or target, at least 3 statements or statistics, at least 2 by Chief Ministers, chosen from the most prominent and widely reported. Researchers are told to include claims that held up. This reduces, but cannot remove, selection bias.</p>
+  <p><strong>Known asymmetry.</strong> India's dedicated fact-checking organisations mostly started from 2014 onward, so claims from the INC era rely more on CAG reports, Parliament answers and later data, and less on contemporaneous fact-checks.</p>
+  <p><strong>Head to head.</strong> The difference BJP − INC is reported for every suite and for the overall score, with a {Math.round(S.CI_LEVEL * 100)}% bootstrap interval (independent resamples of each party's cases). A difference is called significant only when its interval excludes 0.</p>
+
+  <h2>Suite C: {S.SUITES.C.name}</h2>
+  <p>Each edition is normalised to 0–1, higher is better. Rank indices: 1 − (rank − 1) / (out_of − 1). Score indices: value / out_of, or the value as is when out_of is null and the scale is 0–1. Where out_of is missing for a rank edition, it is taken from the nearest year that has it and flagged.</p>
+  <p>For each party, an index is measured over that party's era: start = the edition at or before the era start (or up to {S.ERA_START_SLACK} years after it, flagged "late-start"); end = the last edition in the era (for a closed era, within {S.ERA_END_SLACK} years of its end). Score per index = {S.C_IMPROVED} if it improved, {S.C_FLAT} if flat (|Δ| ≤ {S.C_EPS}), {S.C_DECLINED} if it declined. Suite score = mean over measurable indices. Also reported: mean Δ and mean Δ per year, because the eras differ in length.</p>
+  <table class="dense"><thead><tr><th>Flagged index</th><th>Flag</th><th>Note</th></tr></thead><tbody>{Object.entries(S.INDEX_FLAGS).map(([k, f]) => <tr><td class="num">{k}</td><td>{f.kind}</td><td>{f.text}</td></tr>)}</tbody></table>
+  <p>The "exclude flagged indices" toggle removes the indices in this table from suite C and the overall score.</p>
+
+  <h2>Domains</h2>
+  <p>A claim is counted only under its first listed topic.</p>
+  <table class="dense"><thead><tr><th>Domain</th><th>Claim topics</th><th>Indices</th></tr></thead><tbody>{S.DOMAINS.map((d) => <tr><td>{d.name}</td><td>{d.topics.join(', ')}</td><td>{d.indices.join(', ') || '—'}</td></tr>)}</tbody></table>
+
+  <h2>Overall score</h2>
+  <p class="num">Overall = (wA·A + wB·B + wC·C) / (wA + wB + wC)</p>
+  <p>Default weights: A = {pct(S.DEFAULT_WEIGHTS.A)}, B = {pct(S.DEFAULT_WEIGHTS.B)}, C = {pct(S.DEFAULT_WEIGHTS.C)}. Weights are adjustable on the leaderboard. A suite with no graded cases is dropped and the remaining weights are renormalised. Overall n = graded cases in A and B plus indices in C.</p>
+
+  <h2>Uncertainty</h2>
+  <ul>
+    <li>Confidence intervals are {Math.round(S.CI_LEVEL * 100)}% percentile bootstrap intervals over test cases ({S.BOOTSTRAP_N} resamples, fixed seed {S.SEED}, so builds are reproducible). For the overall score, each suite pool is resampled and recombined with the weights.</li>
+    <li>A suite or domain with n &lt; {S.MIN_N} is shown greyed out as "insufficient data" without a score.</li>
+    <li>Every score is shown with n.</li>
+  </ul>
+
+  <h2>Unscored entries</h2>
+  <p>A claim with scored = false has its own page but is excluded from all suites, domains, intervals and exported scores. It may be shown as context on a related claim.</p>
+
+  <h2>Sourcing and review</h2>
+  <ul>
+    <li>Each entry needs proof the statement was made (video or transcript/text source) and at least two evidence items for the verdict, preferring government data, Parliament answers, CAG and RBI.</li>
+    <li>Quotes are labelled "paraphrased" unless a primary source supports the wording.</li>
+    <li>Official responses are included where they exist.</li>
+    <li>No entry is final until two human reviewers have checked quote, sources and verdict. Until then it is marked draft. Currently all entries are drafts, so all scores are preliminary.</li>
+  </ul>
+
+  <h2>Corrections</h2>
+  <p>Errors are corrected in the data files; the last-reviewed date and notes record the change. Scores are recomputed at each build.</p>
+</Base>

@@ -1,0 +1,69 @@
+{
+  "id": "inc-azad-2013-mmr-212",
+  "speaker": "Ghulam Nabi Azad",
+  "party": "INC",
+  "role": "Union Minister for Health and Family Welfare",
+  "level": "central",
+  "state": null,
+  "date": "2013-08-30",
+  "venue": "New Delhi",
+  "language": "en",
+  "quote_original": "Maternal mortality rate has declined from 301 per 100,000 live births in 2001-03 to 254 in 2004-05 and further declined to 212 in 2007-09.",
+  "quote_english": "Maternal mortality rate has declined from 301 per 100,000 live births in 2001-03 to 254 in 2004-05 and further declined to 212 in 2007-09.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The SRS special bulletin for 2007-09 estimated India's maternal mortality ratio at 212 per 100,000 live births, down from 254 in 2004-06; the 2001-03 estimate was 301.",
+  "topics": [
+    "health"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Maternal mortality rate declining: Azad",
+      "url": "https://www.business-standard.com/article/pti-stories/maternal-mortality-rate-declining-azad-113083000038_1.html",
+      "date": "2013-08-30"
+    },
+    {
+      "title": "Estimates of Maternal Mortality, Child Mortality and Total Fertility Rates",
+      "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=73084"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Office of the Registrar General, India",
+      "title": "Special Bulletin on Maternal Mortality in India 2007-09",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/34776/download/38464/SRS_MMR_Bulletin_2007_2009.pdf",
+      "date": "2011-06-01",
+      "key_figure": "India MMR 212 (95% CI 198-226) in 2007-09, down from 254 in 2004-06"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau",
+      "title": "Estimates of Maternal Mortality, Child Mortality and Total Fertility Rates",
+      "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=73084",
+      "key_figure": "MMR declined from 254 in 2004-06 to 212 in 2007-09, a fall of 17 per cent"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: SRS maternal mortality estimates 2007-09",
+      "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=73084",
+      "summary": "The government release confirms the decline from 254 to 212 and attributes it to the SRS special bulletin."
+    }
+  ],
+  "chart": null,
+  "analysis": "The statement cites SRS estimates: MMR 301 in 2001-03, 254 in 2004-06 and 212 in 2007-09. The SRS special bulletin for 2007-09, published in June 2011, reports an MMR of 212 with a 95 per cent confidence interval of 198-226.\n\nThe same bulletin reports the decline from 254 to 212, a fall of about 17 per cent. The 301 figure for 2001-03 is consistent with the earlier SRS series.\n\nThe claim is a statistical statement about published SRS estimates and is supported by the primary bulletin.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The SRS PDF was read directly. The Business Standard page returned HTTP 403 to an automated fetch, but the quoted sentence appeared in the search-result snippet. The 301 figure is taken from the earlier SRS round, not from the 2007-09 bulletin itself. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

@@ -1,0 +1,73 @@
+{
+ "slug": "manufacturing-share-gdp",
+ "title": "Manufacturing, value added (% of GDP)",
+ "unit": "% of GDP",
+ "source": {
+  "publisher": "World Bank (World Development Indicators, NV.IND.MANF.ZS)",
+  "title": "Manufacturing, value added (% of GDP) - India",
+  "url": "https://api.worldbank.org/v2/country/IND/indicator/NV.IND.MANF.ZS?format=json&per_page=100&date=2010:2025"
+ },
+ "points": [
+  {
+   "x": "2011-12",
+   "y": 16.14
+  },
+  {
+   "x": "2012-13",
+   "y": 15.82
+  },
+  {
+   "x": "2013-14",
+   "y": 15.25
+  },
+  {
+   "x": "2014-15",
+   "y": 15.07
+  },
+  {
+   "x": "2015-16",
+   "y": 15.58
+  },
+  {
+   "x": "2016-17",
+   "y": 15.16
+  },
+  {
+   "x": "2017-18",
+   "y": 15.02
+  },
+  {
+   "x": "2018-19",
+   "y": 14.88
+  },
+  {
+   "x": "2019-20",
+   "y": 13.46
+  },
+  {
+   "x": "2020-21",
+   "y": 14.12
+  },
+  {
+   "x": "2021-22",
+   "y": 14.38
+  },
+  {
+   "x": "2022-23",
+   "y": 13.33
+  },
+  {
+   "x": "2023-24",
+   "y": 13.31
+  },
+  {
+   "x": "2024-25",
+   "y": 13.14
+  },
+  {
+   "x": "2025-26",
+   "y": 13.47
+  }
+ ],
+ "note": "Retrieved 2026-10-17 from the World Bank API. Fiscal-year labelling as for gdp-usd. Official MoSPI National Accounts shares of manufacturing in GVA differ (about 17-18% at constant 2011-12 prices per Rajya Sabha replies and press reports) because of price basis and GDP-vs-GVA definitions; the 25% target does not specify the basis, so both are shown in the claim evidence."
+}

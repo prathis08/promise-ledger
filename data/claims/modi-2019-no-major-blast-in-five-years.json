@@ -1,0 +1,66 @@
+{
+  "speaker": "Narendra Modi",
+  "claim_type": "statistic",
+  "deadline": null,
+  "media": [
+    {
+      "platform": "youtube",
+      "title": "Modi rally Bengaluru, 13 April 2019 (video link as cited by FactChecker)",
+      "url": "https://www.youtube.com/watch?v=EKaOoKs-SWg",
+      "timestamp_seconds": null,
+      "channel": ""
+    }
+  ],
+  "transcript_sources": [],
+  "govt_response": [],
+  "chart": null,
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "quote_is_verbatim": false,
+  "quote_original": "",
+  "id": "modi-2019-no-major-blast-in-five-years",
+  "date": "2019-04-13",
+  "venue": "BJP election rally, Bengaluru",
+  "language": "hi",
+  "quote_english": "Did any major blast take place in the last five years of your chowkidaar's chowkidaari? (as quoted by FactChecker)",
+  "verdict": "false",
+  "topics": [
+    "security",
+    "terrorism"
+  ],
+  "summary": "FactChecker listed at least ten major attacks since 2014 (e.g. Church Street Bengaluru, Uri, Pathankot, Pulwama) and SATP recorded 942 bombings between January 2014 and April 2019.",
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker.in (IndiaSpend)",
+      "title": "No major bomb blasts/terror attacks since 2014: Modi. Claim is false",
+      "url": "https://factchecker.in/no-major-bomb-blaststerror-attacks-since-2014-modi-claim-is-false",
+      "date": "2019-04-15",
+      "key_figure": "Rated false"
+    },
+    {
+      "type": "index",
+      "publisher": "South Asia Terrorism Portal",
+      "title": "Explosions in India datasheet",
+      "url": "https://www.satp.org/datasheet-terrorist-attack/explosions/india",
+      "date": null,
+      "key_figure": "942 bombings, 451 deaths, 1,589 injuries, 1 Jan 2014 - 11 Apr 2019 (as cited by FactChecker)"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Lok Sabha",
+      "title": "Written reply, 5 Feb 2019 (as cited by FactChecker)",
+      "url": "http://164.100.47.190/loksabhaquestions/annex/17/AU400.pdf",
+      "date": "2019-02-05",
+      "key_figure": "Six terror attacks nationwide 2014-2018 outside J&K, Northeast and Maoist-affected areas, per FactChecker's reading"
+    }
+  ],
+  "analysis": "Modi asked at the Bengaluru rally whether any major blast had occurred in five years. FactChecker rated the implied claim false.\n\nIt listed attacks including Church Street Bengaluru (28 Dec 2014), Pathankot (Jan 2016), Uri (Sep 2016, 17 soldiers), Nagrota (Nov 2016), Sukma (2017, 2018) and Pulwama (14 Feb 2019, 40 CRPF personnel). The government has no official definition of 'major'.\n\nIt is a rhetorical question; the check evaluates the implication that there were none.",
+  "confidence": "high",
+  "notes": "The SATP datasheet link is live-updated so figures now differ; the cited figures are from the FactChecker article. The Lok Sabha PDF's content was not opened directly. Video ID taken from FactChecker's article, not independently verified to be the full rally.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

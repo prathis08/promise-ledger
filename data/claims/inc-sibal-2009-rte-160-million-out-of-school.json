@@ -1,0 +1,69 @@
+{
+  "id": "inc-sibal-2009-rte-160-million-out-of-school",
+  "speaker": "Kapil Sibal",
+  "party": "INC",
+  "role": "Union Minister for Human Resource Development",
+  "level": "central",
+  "state": null,
+  "date": "2009-11-11",
+  "venue": "National Education Day function, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The recently passed Right of Children to Free and Compulsory Education Act will give an estimated 160 million children, who are presently out of school, access to quality education.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "Sibal described the 160 million figure as children 'presently out of school', but the government's own 2009 SRI-IMRB survey put out-of-school children aged 6-14 at about 8 million (4.22%).",
+  "topics": [
+    "education"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "New Act to give quality education to 160 million children: Sibal (The Indian Express)",
+      "url": "https://indianexpress.com/article/india/education-news/new-act-to-give-quality-education-to-160-million-children-sibal/"
+    },
+    {
+      "title": "Address deficiency in teaching quality: Manmohan (The Hindu)",
+      "url": "https://www.thehindu.com/news/national/Address-deficiency-in-teaching-quality-Manmohan/article16891499.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau (Ministry of Human Resource Development)",
+      "title": "English Releases — 100-day agenda / SRI-IMRB survey 2009",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=52554",
+      "date": "2009-01-01",
+      "key_figure": "As per an independent sample survey by SRI-IMRB in 2009, there are 80 lakh children out of school"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau (Ministry of Human Resource Development)",
+      "title": "Year End Review 2009 — School Education and Literacy",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=56534",
+      "date": "2009-12-31",
+      "key_figure": "Independent 2009 study shows the percentage of out-of-school children declined to 4.22% in the 6-14 age group; central outlay for Sarva Shiksha Abhiyan Rs 13,100 crore"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Year End Review 2009 — School Education",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=56534",
+      "summary": "The ministry's own review uses a much smaller out-of-school figure (4.22%, about 80 lakh children) than the 160 million cited by the minister."
+    }
+  ],
+  "chart": null,
+  "analysis": "Speaking at the National Education Day function on 11 November 2009, HRD Minister Kapil Sibal said the Right to Education Act would give an estimated 160 million children, described as 'presently out of school', access to quality education.\n\nThe Ministry of Human Resource Development's own PIB releases from 2009 cite an independent SRI-IMRB sample survey that counted about 80 lakh (8 million) out-of-school children in the 6-14 age group, equal to 4.22%.\n\nThe 160 million figure is of the order of the total child population in the relevant age band rather than the number out of school, so the claim overstates the out-of-school count by roughly an order of magnitude of about twenty.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "PIB URLs were located via search; direct automated fetch of pib.gov.in returned HTTP 403. The 160 million quote is verbatim from the Indian Express report. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

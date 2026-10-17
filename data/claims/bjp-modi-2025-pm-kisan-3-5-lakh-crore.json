@@ -1,0 +1,80 @@
+{
+  "id": "bjp-modi-2025-pm-kisan-3-5-lakh-crore",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2025-02-24",
+  "venue": "PM-KISAN 19th instalment event, Bhagalpur, Bihar",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "In six years, about Rs 3.5 lakh crore has reached farmers' accounts under PM-KISAN.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Cumulative transfers under PM-KISAN were about Rs 3.5 lakh crore over six years at the time of the 19th instalment in February 2025; later government releases reported more than Rs 4.47 lakh crore through 23 instalments.",
+  "topics": [
+    "agriculture",
+    "income"
+  ],
+  "media": [
+    {
+      "platform": "youtube",
+      "title": "LIVE: PM Modi Releases 19th PM Kisan Samman Nidhi Installment in Bhagalpur, Bihar",
+      "url": "https://www.youtube.com/watch?v=0Gy-lABoEKs",
+      "timestamp_seconds": null,
+      "channel": "Doordarshan National"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PIB: PM-KISAN completes 19 successful installments",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2105745"
+    },
+    {
+      "title": "PMIndia: PM releases 19th instalment of PM KISAN, launches development projects from Bhagalpur, Bihar",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pm-releases-19th-instalment-of-pm-kisan-launches-development-projects-from-bhagalpur-bihar/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "PM-KISAN completes 19 successful installments",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2105745",
+      "date": "2025-02-24",
+      "key_figure": "19th instalment released on 24 February 2025"
+    },
+    {
+      "type": "news",
+      "publisher": "DD News",
+      "title": "₹3.5 lakh crore transferred to farmers under PM-KISAN: PM Modi",
+      "url": "https://ddnews.gov.in/en/%E2%82%B93-5-lakh-crore-transferred-to-farmers-under-pm-kisan-pm-modi/",
+      "date": "2025-02-24",
+      "key_figure": "About Rs 3.5 lakh crore transferred to farmers under PM-KISAN over six years"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "Cabinet approves continuation of the PM-KISAN Scheme",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292460&reg=3&lang=1",
+      "date": "2026-06",
+      "key_figure": "More than Rs 4.47 lakh crore transferred directly into farmers' accounts through 23 instalments"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "At the release of the 19th PM-KISAN instalment in Bhagalpur on 24 February 2025, the Prime Minister said about Rs 3.5 lakh crore had been transferred to farmers in six years.\n\nPIB and news reports at the time put cumulative PM-KISAN transfers near that figure; a later PIB release reported more than Rs 4.47 lakh crore through 23 instalments.\n\nPM-KISAN transfers Rs 6,000 a year in three instalments of Rs 2,000 to eligible landholding farmer families.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The exact wording of the Prime Minister's remark was not captured verbatim; the reported English wording is used. Cumulative totals vary slightly across government releases depending on the instalment counted. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

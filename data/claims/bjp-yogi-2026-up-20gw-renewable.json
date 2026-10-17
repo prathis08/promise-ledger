@@ -1,0 +1,87 @@
+{
+  "id": "bjp-yogi-2026-up-20gw-renewable",
+  "speaker": "Yogi Adityanath",
+  "party": "BJP",
+  "role": "Chief Minister, Uttar Pradesh",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "date": "2026-06-27",
+  "venue": "Foundation-stone ceremony of SAEL Industries' solar manufacturing plant, Jewar, Gautam Buddh Nagar, Uttar Pradesh",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Our target is to achieve 20,000 MW of renewable energy generation in Uttar Pradesh within the next two to three years. We are moving rapidly towards that goal.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2029-06-30",
+  "verdict": "in-progress",
+  "summary": "In June 2026 the UP CM set a target of 20,000 MW of renewable capacity in two-to-three years from about 6,000 MW then; MNRE state data showed UP renewable capacity at about 6.18 GW in February 2025.",
+  "topics": [
+    "energy",
+    "environment"
+  ],
+  "media": [
+    {
+      "platform": "news",
+      "title": "UP targets 20,000 MW renewable energy capacity in next 2-3 years: Yogi Adityanath",
+      "url": "https://economictimes.indiatimes.com/industry/renewables/up-targets-20000-mw-renewable-energy-capacity-in-next-2-3-years-yogi-adityanath/articleshow/132033503.cms",
+      "channel": "The Economic Times"
+    },
+    {
+      "platform": "news",
+      "title": "Jewar to become India's solar manufacturing hub, UP targets 20,000 MW of renewable energy: CM Yogi",
+      "url": "https://www.newindianexpress.com/states/uttar-pradesh/2026/Jun/27/jewar-to-become-indias-solar-manufacturing-hub-up-targets-20000-mw-of-renewable-energy-cm-yogi",
+      "channel": "The New Indian Express"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "ETV Bharat report of CM Yogi Adityanath's address at Jewar",
+      "url": "https://www.etvbharat.com/en/state/uttar-pradesh-targets-20000-mw-renewable-energy-capacity-in-next-2-to-3-years-yogi-adityanath-enn26062705137"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of New and Renewable Energy (MNRE)",
+      "title": "State-wise (location based) installed capacity of Renewable Power as on 28.02.2025 (PDF)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2025/03/202503111706572248.pdf",
+      "date": "2025-03-11",
+      "key_figure": "Uttar Pradesh total renewable installed capacity (excluding large hydro) about 6,182 MW in February 2025"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Government of Uttar Pradesh / Invest UP",
+      "title": "Uttar Pradesh Solar Energy Policy 2022",
+      "url": "https://invest.up.gov.in/solar-energy-policy-2022",
+      "date": "2022-11-29",
+      "key_figure": "Policy target of 22,000 MW of solar power projects up to 2026-27"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of New and Renewable Energy (MNRE)",
+      "title": "Physical Achievements and state-wise RE capacity",
+      "url": "https://mnre.gov.in/en/physical-progress/",
+      "date": "2026-09-30",
+      "key_figure": "National cumulative RE and state-wise capacity datasets (used to track UP additions)"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "CMO/state messaging quoted in The Economic Times",
+      "url": "https://economictimes.indiatimes.com/industry/renewables/up-targets-20000-mw-renewable-energy-capacity-in-next-2-3-years-yogi-adityanath/articleshow/132033503.cms",
+      "summary": "The CM's office points to over six lakh rooftop solar installations under PM Surya Ghar, more than 2,000 MW of rooftop solar generation, and UP's position as the largest ethanol-producing state as evidence of progress."
+    }
+  ],
+  "chart": null,
+  "analysis": "At the Jewar foundation-stone ceremony on 27 June 2026, Uttar Pradesh Chief Minister Yogi Adityanath said the state aimed to raise renewable energy generation capacity to 20,000 MW within two to three years, from about 6,000 MW at the time.\n\nMNRE state-wise data showed Uttar Pradesh's installed renewable capacity (excluding large hydro) at about 6,182 MW as of 28 February 2025, consistent with the CM's stated starting figure. The state's Solar Energy Policy 2022 carried a separate target of 22 GW of solar by 2026-27.\n\nThe 20,000 MW target has a window of roughly 2028-29, so it remains open and is recorded as in progress.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The 20,000 MW statement was made in June 2026 with a 'two to three years' horizon; the deadline field uses the outer three-year mark (30 June 2029). Quotation is PTI-sourced reporting, not a transcript, so not marked verbatim. State-wise RE figures are as reported by MNRE; a current UP-specific figure as on the claim date was not independently fetched.",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

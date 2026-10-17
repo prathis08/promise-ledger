@@ -1,0 +1,63 @@
+{
+  "id": "modi-2019-jan-dhan-37-crore-accounts",
+  "speaker": "Narendra Modi",
+  "date": "2019-09-27",
+  "venue": "United Nations General Assembly, New York",
+  "language": "en",
+  "quote_original": "37 crore new bank accounts were added in the past 5 years...",
+  "quote_english": "37 crore new bank accounts were added in the past 5 years...",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "BOOM found the figure matched the Jan Dhan dashboard (37.05 crore beneficiaries on 18 September 2019).",
+  "topics": [
+    "economy",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Public welfare to global welfare: PM Modi's UNGA address (BOOM, quotes the speech)",
+      "url": "https://boomlive.in/public-welfare-to-global-welfare-pm-modis-unga-address-at-new-york"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "fact_check",
+      "publisher": "BOOM",
+      "title": "Public welfare to global welfare: PM Modi's UNGA address",
+      "url": "https://boomlive.in/public-welfare-to-global-welfare-pm-modis-unga-address-at-new-york",
+      "date": "2019-09-27",
+      "key_figure": "PMJDY 37.05 crore beneficiaries as of 18 Sept 2019; rated True"
+    },
+    {
+      "type": "fact_check",
+      "publisher": "Factly",
+      "title": "48 Months of Modi Government: fact-checking government claims",
+      "url": "https://factly.in/fact-checking-government-claims-on-jan-suraksha",
+      "date": "2018",
+      "key_figure": "PMJDY dashboard showed 32.99 crore beneficiaries as of Oct 2018 (per search summary)"
+    },
+    {
+      "type": "fact_check",
+      "publisher": "FactChecker (IndiaSpend)",
+      "title": "Of 12 claims in BJP manifesto 2019, 5 true, 2 false, 4 partly true, 1 unclear",
+      "url": "https://factchecker.in/of-12-claims-in-bjp-manifesto-2019-5-true-2-false-4-partly-true-1-unclear",
+      "date": "2019-04-09",
+      "key_figure": "Related manifesto claim that every family has a bank account rated partly true (search summary); Mudra 14 crore claim rated True"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "At the UNGA on 27 September 2019 the PM said 37 crore new bank accounts were added in five years. BOOM checked this against the PMJDY dashboard, which showed 37.05 crore beneficiaries on 18 September 2019, and rated it true.\n\nThe figure counts accounts opened under the scheme; it does not measure how many are active or whether every household is covered, a point fact-checkers raised about a related manifesto claim.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Quote taken from BOOM's rendering of the speech, so verbatim status not confirmed against the official transcript. Factly and FactChecker pages were seen only in search summaries (FactChecker page partly fetched). No video located. The Jan Dhan 'every family' claim is a different claim.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

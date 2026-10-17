@@ -1,0 +1,74 @@
+{
+  "id": "inc-chidambaram-2008-farm-loan-waiver",
+  "speaker": "P. Chidambaram",
+  "date": "2008-02-29",
+  "venue": "Lok Sabha, Union Budget 2008-09 speech",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "For marginal farmers (i.e., holding upto 1 hectare) and small farmers (1-2 hectare), there will be a complete waiver of all loans that were overdue on December 31, 2007 and which remained unpaid until February 29, 2008. ... Government estimates that about three crore small and marginal farmers and about one crore other farmers will benefit from the scheme. The total value of overdue loans being waived is estimated at Rs.50,000 crore and the OTS relief on the overdue loans is estimated at Rs.10,000 crore.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2008-06-30",
+  "verdict": "true",
+  "summary": "The 2008-09 Budget announced an agricultural debt waiver and debt-relief scheme of about Rs 60,000 crore with implementation to be completed by 30 June 2008; PIB and RBI documents record that the waiver was rolled out and the debt-relief window was later extended to June 2010.",
+  "topics": [
+    "agriculture",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Statement of Estimated Receipts and Expenditure, 29 February 2008 (Indian Kanoon transcript)",
+      "url": "https://indiankanoon.org/doc/1208977"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Finance / PIB",
+      "title": "Implementation of the Agricultural Debt Waiver and Debt Relief Scheme, 2008",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=39107",
+      "date": "2008-05-23",
+      "key_figure": "About 3,69,00,000 small/marginal farmer accounts and 59,75,000 other-farmer accounts covered; estimated cash outgo about Rs 60,416 crore for small/marginal farmers"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Reserve Bank of India",
+      "title": "Agricultural Debt Waiver and Debt Relief Scheme, 2008",
+      "url": "https://www.rbi.org.in/scripts/BS_CircularIndexDisplay.aspx?Id=4190",
+      "date": "2008-05-23",
+      "key_figure": "Waiver portion to be implemented by 30 June 2008; debt-relief (OTS) payments up to June 2009"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Finance",
+      "title": "Debt waiver and debt relief for farmers - estimated amount implemented",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=49835",
+      "date": "2009-07-07",
+      "key_figure": "Estimated amount of Rs 65,318.33 crore disbursed under the scheme as of that release"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Cabinet approves guidelines for Farmers Debt Waiver and Debt Relief Scheme, 2008",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=39107",
+      "summary": "The government said the scheme came into force with immediate effect and covered direct agricultural loans from scheduled commercial banks, RRBs, cooperative credit institutions and local area banks."
+    }
+  ],
+  "chart": null,
+  "analysis": "The scheme announced in the 2008-09 Budget gave a full waiver of eligible overdue direct agricultural loans to small and marginal farmers and a one-time settlement (25 per cent rebate on payment of 75 per cent) to 'other farmers'. The Budget estimated the waiver at Rs 50,000 crore and the OTS relief at Rs 10,000 crore.\n\nPIB's 23 May 2008 release, using RBI and NABARD provisional data, put the small/marginal accounts at about 3.69 crore and other-farmer accounts at about 59.75 lakh, with an estimated cash outgo of roughly Rs 60,416 crore plus about Rs 7,960 crore. A July 2009 PIB release recorded an implemented amount of about Rs 65,318.33 crore.\n\nThe stated completion date of 30 June 2008 applied to the waiver; the debt-relief portion was extended through 2009 and formally closed on 30 June 2010. The final outlay is generally reported at about Rs 71,680 crore, higher than the original Budget estimate.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The Budget speech estimated Rs 50,000 crore waiver + Rs 10,000 crore OTS (about Rs 60,000 crore); later official figures and widely cited reports put the total near Rs 71,680 crore. The deadline field refers to the waiver-implementation date stated in the Budget; the OTS window ran to June 2010. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "party": "INC",
+  "role": "Union Finance Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

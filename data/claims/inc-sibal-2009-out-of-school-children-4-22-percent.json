@@ -1,0 +1,65 @@
+{
+  "id": "inc-sibal-2009-out-of-school-children-4-22-percent",
+  "speaker": "Kapil Sibal",
+  "party": "INC",
+  "role": "Union Minister for Human Resource Development",
+  "level": "central",
+  "state": null,
+  "date": "2009-12-31",
+  "venue": "Ministry of Human Resource Development Year End Review, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "An independent study done in 2009 shows that the percentage of out-of-school children has declined to 4.22% children in the 6-14 age group.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The HRD Ministry's 2009 year-end review reported out-of-school children at 4.22% of the 6-14 age group, based on an independent 2009 SRI-IMRB survey which the same ministry cites as about 80 lakh children.",
+  "topics": [
+    "education"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Year End Review 2009 — School Education and Literacy (PIB)",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=56534"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau (Ministry of Human Resource Development)",
+      "title": "Year End Review 2009 — School Education and Literacy",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=56534",
+      "date": "2009-12-31",
+      "key_figure": "The percentage of out-of-school children declined to 4.22% in the 6-14 age group (independent 2009 study); Sarva Shiksha Abhiyan outlay Rs 13,100 crore"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Press Information Bureau (Ministry of Human Resource Development)",
+      "title": "English Releases — SRI-IMRB sample survey 2009",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=52554",
+      "date": "2009-01-01",
+      "key_figure": "As per an independent sample survey by SRI-IMRB in 2009, there are 80 lakh children out of school"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Year End Review 2009 — School Education",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=56534",
+      "summary": "The ministry attributes the 4.22% figure to an independent 2009 study and cites it as evidence of progress under Sarva Shiksha Abhiyan."
+    }
+  ],
+  "chart": null,
+  "analysis": "In its 2009 year-end review, the Ministry of Human Resource Development stated that an independent 2009 study showed out-of-school children had declined to 4.22% of the 6-14 age group.\n\nThe same government exercise, and a separate PIB release, attribute the underlying finding to a 2009 sample survey by SRI-IMRB that counted about 80 lakh out-of-school children in that age band. The percentage and the absolute number are consistent with each other for the relevant child population.\n\nLater government surveys and the 2011 Census reported continued declines in out-of-school children, so the direction of the claim is supported by later data.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The statement is a Ministry/PIB release rather than a direct ministerial quote; it is attributed here to the HRD Minister who led the ministry. This claim and inc-sibal-2009-rte-160-million-out-of-school use overlapping government sources but are separate statements made in the same period. PIB URLs returned HTTP 403 to automated fetch. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

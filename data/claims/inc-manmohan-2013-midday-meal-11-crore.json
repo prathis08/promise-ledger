@@ -1,0 +1,82 @@
+{
+  "id": "inc-manmohan-2013-midday-meal-11-crore",
+  "speaker": "Manmohan Singh",
+  "party": "INC",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2013-08-15",
+  "venue": "Red Fort, Delhi (Independence Day address)",
+  "language": "en",
+  "quote_original": "About 11 crore children are being provided afternoon meals every day in schools under the Mid-day Meal Scheme.",
+  "quote_english": "About 11 crore children are being provided afternoon meals every day in schools under the Mid-day Meal Scheme.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "The Ministry's mid-day meal data show 10.45 crore children covered in 2013-14, against the Prime Minister's 'about 11 crore'; enrolment in MDM schools was 13.87 crore.",
+  "topics": [
+    "education",
+    "health"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "PM's Independence Day Speech, 2013",
+      "url": "https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=1336",
+      "date": "2013-08-15"
+    },
+    {
+      "title": "Mid-day meal: PM Manmohan Singh calls for reforming the scheme",
+      "url": "https://www.indiatoday.in/india/north/story/mid-day-meal-pm-manmohan-singh-calls-for-reforming-the-scheme-174006-2013-08-15",
+      "date": "2013-08-16"
+    },
+    {
+      "title": "Text of PM's 2013 Independence Day speech",
+      "url": "https://www.reuters.com/article/world/asia-pacific/text-of-pms-2013-independence-day-speech-idUSDEE97E023/",
+      "date": "2013-08-15"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Education, Mid-Day Meal Scheme",
+      "title": "About Mid-Day Meal",
+      "url": "http://pmposhan-ams.education.gov.in/About_mdm.aspx",
+      "key_figure": "10.45 crore children covered in 11.58 lakh schools during 2013-14; 10.68 crore in 2012-13"
+    },
+    {
+      "type": "fact_check",
+      "publisher": "Factly",
+      "title": "Mid-Day Meal Scheme: An overview of enrolment under the scheme and fund utilisation",
+      "url": "https://factly.in/mid-day-meal-scheme-an-overview-of-enrolment-under-the-scheme-and-fund-utilisation/",
+      "key_figure": "Enrolment in MDM-covered schools fell from 14.69 crore in 2009-10 to 13.87 crore in 2013-14"
+    },
+    {
+      "type": "news",
+      "publisher": "Accountability India",
+      "title": "Mid-Day Meal Scheme, GOI, 2013-14",
+      "url": "https://accountabilityindia.in/wp-content/uploads/2020/03/mdms_2013-14.pdf",
+      "key_figure": "Scheme coverage and enrolment data for 2013-14"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Ministry of Education: Mid-Day Meal coverage data",
+      "url": "http://pmposhan-ams.education.gov.in/About_mdm.aspx",
+      "summary": "The Ministry's page records 10.45 crore children covered in 2013-14 and 13.87 crore enrolled in MDM schools, supporting the scale of the scheme while showing the daily coverage figure was below 11 crore."
+    }
+  ],
+  "chart": null,
+  "analysis": "The Prime Minister's Independence Day address said about 11 crore children were being provided afternoon meals every day under the mid-day meal scheme.\n\nThe Ministry of Education's mid-day meal page reports 10.45 crore children covered in 11.58 lakh schools in 2013-14, against enrolment of 13.87 crore in MDM schools. The 2012-13 coverage was 10.68 crore.\n\nThe statement is close to the enrolment/coverage scale but overstates average daily coverage by about 5 per cent; the official figure for 2013-14 was 10.45 crore.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The PM's speech page on archivepmo.nic.in could not be fetched directly during this research; the sentence was confirmed through India Today's direct quotation and the Reuters speech text listed in search results. The Ministry page gives coverage, not enrolment; the 13.87 crore enrolment figure is from Factly's analysis of the scheme.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

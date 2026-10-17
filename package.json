@@ -1,0 +1,10 @@
+{
+  "name": "promise-ledger",
+  "private": true,
+  "scripts": {
+    "install:site": "npm --prefix site install",
+    "dev": "npm --prefix site run dev",
+    "build": "npm --prefix site run build",
+    "preview": "npm --prefix site run preview"
+  }
+}

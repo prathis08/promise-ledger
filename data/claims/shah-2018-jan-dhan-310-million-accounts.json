@@ -1,0 +1,56 @@
+{
+  "id": "shah-2018-jan-dhan-310-million-accounts",
+  "speaker": "Amit Shah",
+  "date": "2018-02-05",
+  "venue": "Rajya Sabha, maiden speech (Motion of Thanks debate)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "We have opened 310 million bank accounts through the Jan Dhan Yojana scheme with deposits worth Rs 73,000 crore. Every family today has a bank account.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "BOOM rated the Jan Dhan figures true: about 310 million accounts and Rs 73,588 crore deposits as of 24 January 2018, per a Lok Sabha reply; the 'every family' sentence was not rated separately.",
+  "topics": [
+    "economy",
+    "income",
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "BOOM: Fact-checking 10 claims in Amit Shah's Rajya Sabha speech",
+      "url": "https://www.boomlive.in/factchecking-10-claims-in-amit-shahs-rajya-sabha-speech"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "Lok Sabha, written reply by Shiv Pratap Shukla (2 Feb 2018)",
+      "title": "Jan Dhan accounts and balances",
+      "url": "https://164.100.47.190/loksabhaquestions/annex/14/AU156.pdf",
+      "date": "2018-02-02",
+      "key_figure": "About 310 million accounts and deposits of Rs 73,588 crore as of 24 Jan 2018 (as cited by BOOM; PDF not opened by me)."
+    },
+    {
+      "type": "fact_check",
+      "publisher": "BOOM",
+      "title": "Fact-checking 10 claims in Amit Shah's Rajya Sabha speech",
+      "url": "https://www.boomlive.in/factchecking-10-claims-in-amit-shahs-rajya-sabha-speech",
+      "date": "2018-02-06",
+      "key_figure": "Verdict True on claim 1 (Jan Dhan). Of the 10 claims, BOOM rated 2 true, 3 partly true, 3 false and 2 unclear. Publication date approximate."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "In his first Rajya Sabha speech on 5 February 2018, Shah said 310 million accounts had been opened under Jan Dhan with Rs 73,000 crore in deposits, and that every family now had a bank account.\n\nBOOM checked the figures against a Lok Sabha reply of 2 February 2018 giving about 310 million accounts and Rs 73,588 crore of deposits as of 24 January 2018, and rated the claim true.\n\nThe check covered the account and deposit numbers. It did not test whether every family has an account, and account counts do not show how many are active or whether any are duplicates.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Wording is BOOM's English rendering. No video found. The Lok Sabha PDF URL appears in the BOOM article; it was not opened by me and uses an IP-address host. BOOM's own summary count of true claims was inconsistent in the page text (two true per individual verdicts). Government response not applicable (claim held up).",
+  "party": "BJP",
+  "role": "BJP President",
+  "level": "party",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

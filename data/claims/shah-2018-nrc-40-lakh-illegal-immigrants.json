@@ -1,0 +1,73 @@
+{
+  "id": "shah-2018-nrc-40-lakh-illegal-immigrants",
+  "speaker": "Amit Shah",
+  "date": "2018-09-22",
+  "venue": "Public meeting, Gangapur, Sawai Madhopur district, Rajasthan (PTI dateline Jaipur)",
+  "language": "hi",
+  "quote_original": "BJP sarkaar ek-ek ghuspaithiye ko chun-chun kar matdata suchi se hatane ka kaam karegi.",
+  "quote_english": "The BJP government brought NRC and prima facie identified nearly 40 lakh illegal immigrants. (He also called Bangladeshi migrants 'termites' to be struck off the voter list.)",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "The 40 lakh figure was the count of people left out of the July 2018 draft Assam NRC, not a count of proven illegal immigrants; the final NRC in August 2019 left out 19.06 lakh, and MHA says it holds no central data on infiltrators.",
+  "topics": [
+    "citizenship",
+    "internal-security"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Daily Excelsior/PTI: Bangladeshi migrants are 'termites', will be removed from voters' list: Shah (23 Sep 2018)",
+      "url": "https://www.dailyexcelsior.com/bangladeshi-migrants-termites-will-removed-voters-list-shah-2/"
+    },
+    {
+      "title": "Al Jazeera: BJP chief slammed for calling Bangladeshi migrants 'termites'",
+      "url": "https://www.aljazeera.com/amp/news/2018/9/24/bjp-chief-slammed-for-calling-bangladeshi-migrants-termites"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Week",
+      "title": "NRC published: 3.11 crore included in list, 19 lakh excluded",
+      "url": "https://www.theweek.in/news/india/2019/08/31/nrc-published-3-crore-included-19-lakh-excluded.amp.html",
+      "date": "2019-08-31",
+      "key_figure": "Final Assam NRC, 31 Aug 2019: 3,11,21,004 included, 19,06,657 excluded (exclusions include those who did not apply), per the state NRC coordinator."
+    },
+    {
+      "type": "news",
+      "publisher": "LiveLaw",
+      "title": "Assam NRC final list published, over 19 lakh people excluded",
+      "url": "https://livelaw.in/top-stories/assam-nrc-final-list-published-147632",
+      "date": "2019-08-31",
+      "key_figure": "Draft list of July 2018 excluded over 40 lakh applicants; final list excluded 19,06,657; excluded persons can appeal to Foreigners Tribunals."
+    },
+    {
+      "type": "parliament",
+      "publisher": "Lok Sabha (Starred Question 197, 31 Jul 2018), MHA",
+      "title": "Reply: not possible to have accurate estimate of illegal migrants including Bangladeshi immigrants",
+      "url": "https://cms.neva.gov.in/NeVA/LS/FileStructure/AssemblyFiles/16/15/20180731/Starred/197.pdf",
+      "date": "2018-07-31",
+      "key_figure": "Per a search summary: 'not possible to have an accurate estimate' and State-wise details not centrally maintained. The PDF returned 404 when I tried to open it."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Assam BJP Barak Valley leader on the 'termite' remark",
+      "url": "https://nenow.in/north-east-news/assam/assam-barak-valley-bjp-says-shahs-termite-remark-meant-bangladeshi-muslims.html",
+      "summary": "A local BJP leader said the remark referred to Bangladeshi Muslim infiltrators rather than Bengali-speaking Hindus (title from search result; article not opened)."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 22 September 2018, speaking at Gangapur in Rajasthan, Shah said Bangladeshi migrants were like termites who would be removed from the voter list, adding that the government had 'prima facie identified nearly 40 lakh illegal immigrants' through the NRC (PTI via Daily Excelsior).\n\nThe 40 lakh number matches the people not included in the draft Assam NRC published on 30 July 2018. Inclusion in or exclusion from the draft was an administrative step: those left out could file claims and were not declared foreigners. The final NRC (31 August 2019) excluded 19,06,657 of about 3.3 crore applicants, less than half the draft figure, and those excluded retain appeal rights to Foreigners Tribunals.\n\nMHA has told Parliament that it cannot estimate the number of illegal migrants (Lok Sabha, July 2018, per press summary), and in an RTI reply dated 23 January 2026 reported by The Wire it said it holds no centrally compiled data on identification or deportation of infiltrators. In January 2026 Shah said at Dhemaji, Assam, that infiltrators in seven districts had reached 64 lakh (reported by Organiser; no verbatim quote available); no official dataset supporting that figure was found.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Hindi quote as printed by PTI/Daily Excelsior; the paper flagged encoding errors, so it is marked non-verbatim. Whether Shah used 'deemak' in Hindi unconfirmed. Date is Saturday 22 Sep 2018 per PTI. The Lok Sabha 197 PDF 404'd and the nenow page was not opened. The January 2026 64-lakh claim is mentioned in analysis only and could be its own entry (Organiser article gave no verbatim quote; The Wire RTI piece, 15 Feb 2026, is the source of the MHA no-data reply: https://m.thewire.in/article/politics/amit-shah-bjp-leaders-raise-infiltrators-pitch-rti-response-reveals-no-data).",
+  "party": "BJP",
+  "role": "BJP President",
+  "level": "party",
+  "state": null,
+  "researched_by": "claude-sonnet"
+}

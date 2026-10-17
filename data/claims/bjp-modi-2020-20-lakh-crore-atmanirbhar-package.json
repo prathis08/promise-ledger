@@ -1,0 +1,90 @@
+{
+  "id": "bjp-modi-2020-20-lakh-crore-atmanirbhar-package",
+  "speaker": "Narendra Modi",
+  "date": "2020-05-12",
+  "venue": "National address on the COVID-19 economic package (television)",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "A special economic package of Rs 20 lakh crore, equivalent to 10% of India's GDP.",
+  "quote_is_verbatim": false,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "misleading",
+  "summary": "The Rs 20 lakh crore package combined new fiscal measures with RBI liquidity operations and previously announced schemes; an RTI-based report said only about 10% had been disbursed.",
+  "topics": [
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Aatma Nirbhar Bharat Package - Progress So Far (PIB)",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1660691"
+    },
+    {
+      "title": "PIB release on the Rs 20 lakh crore package (12 May 2020)",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1638112"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Free Press Journal",
+      "title": "Rs 20L-cr pandemic package: Barely 10% disbursed, says RTI",
+      "url": "https://www.freepressjournal.in/business/rs-20l-cr-pandemic-package-barely-10-disbursed-says-rti",
+      "date": "",
+      "key_figure": "An RTI reply indicated only about 10% of the package had been disbursed"
+    },
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "Breaking down the Centre's Atmanirbhar package of Rs 20 lakh crore",
+      "url": "https://indianexpress.com/article/explained/atmanirbhar-package-full-break-up-of-rs-20-lakh-crore-nirmala-sitharaman-lockdown-6414044/",
+      "date": "2020-05",
+      "key_figure": "Much of the package was liquidity-driven, with little burden on the exchequer"
+    },
+    {
+      "type": "news",
+      "publisher": "The Financial Express",
+      "title": "Atmanirbhar Bharat: Break-up of the Rs 20 lakh crore package",
+      "url": "https://www.financialexpress.com/policy/economy-breakup-of-the-rs-20-lakh-crore-economic-stimulus-package-by-fm-sitharaman-1961843/",
+      "date": "2020-05",
+      "key_figure": "Overall package of Rs 20,97,053 crore included Rs 1.92 lakh crore from measures announced earlier"
+    },
+    {
+      "type": "news",
+      "publisher": "PRS Legislative Research",
+      "title": "Summary of announcements: Aatma Nirbhar Bharat Abhiyaan",
+      "url": "https://prsindia.org/policy/report-summaries/summary-announcements-aatma-nirbhar-bharat-abhiyaan",
+      "date": "2020-05",
+      "key_figure": "Package described as Rs 20 lakh crore, equivalent to about 10% of GDP"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Aatma Nirbhar Bharat Package - Progress So Far",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1660691",
+      "summary": "The government listed measures across five tranches and described the package as a comprehensive response to the pandemic and a step toward self-reliance."
+    },
+    {
+      "title": "Atmanirbhar Bharat Package portal (Union Budget website)",
+      "url": "https://www.indiabudget.gov.in/anbp/",
+      "summary": "The Finance Ministry's page collects the Finance Minister's press conferences announcing the package tranches."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 12 May 2020 Modi announced a 'special economic package' of Rs 20 lakh crore, described at the time as equivalent to about 10% of GDP, to respond to the COVID-19 lockdown.\n\nBreak-ups published by news outlets and PRS Legislative Research show the total combined new announcements with earlier measures (including the Pradhan Mantri Garib Kalyan Package) and with Reserve Bank of India liquidity operations. Several analyses noted that only part of the total was additional central government fiscal spending.\n\nA report based on an RTI reply stated that only around 10% of the package had been disbursed. The Rs 20 lakh crore headline therefore overstated new central government spending, so the claim is recorded as misleading.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "quote_english is the wording used in PIB and press reports; quote_is_verbatim=false. The PIB pages returned HTTP 403 on direct fetch, so their content is taken from search-result text. The RTI-based Free Press Journal report is used for the disbursal figure; its publication date could not be confirmed.",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 3,
+    "score": 1.0
+  }
+}

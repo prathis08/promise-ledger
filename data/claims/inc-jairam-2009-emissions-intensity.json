@@ -1,0 +1,70 @@
+{
+  "id": "inc-jairam-2009-emissions-intensity",
+  "speaker": "Jairam Ramesh",
+  "party": "INC",
+  "role": "Union Minister of Environment and Forests",
+  "level": "central",
+  "state": null,
+  "date": "2009-12-03",
+  "venue": "Parliament, New Delhi (statement ahead of the Copenhagen summit)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "India would reduce its carbon intensity by a minimum of 20 per cent and most likely 25 per cent by the year 2020, on 2005 levels.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2020-12-31",
+  "verdict": "true",
+  "summary": "In December 2009 Environment Minister Jairam Ramesh announced in Parliament that India would cut the emission intensity of its GDP by 20-25 per cent by 2020 from 2005 levels; India's official reporting states that emission intensity fell by 24 per cent between 2005 and 2016.",
+  "topics": [
+    "environment",
+    "energy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Jairam Ramesh: 20-25 pc carbon emission intensity cut by 2020 - The Hindu",
+      "url": "https://www.thehindu.com/news/national/Jairam-Ramesh-20-25-pc-carbon-emission-intensity-cut-by-2020/article16851626.ece"
+    },
+    {
+      "title": "'India can cut emission intensity by 20-25%' - Business Standard",
+      "url": "https://www.business-standard.com/article/economy-policy/-india-can-cut-emission-intensity-by-20-25-109120400064_1.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "intl_org",
+      "publisher": "Ministry of Environment, Forest and Climate Change (India's Biennial Update Report to the UNFCCC), summarised on Wikipedia",
+      "title": "Climate change in India - mitigation",
+      "url": "https://en.wikipedia.org/wiki/Climate_change_in_India",
+      "date": "2018-02-01",
+      "key_figure": "India's emission intensity of GDP reduced by 24 per cent between 2005 and 2016"
+    },
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "India will stand by its commitments on emission intensity cuts",
+      "url": "https://indianexpress.com/article/india/india-others/india-will-stand-by-its-commitments-on-emission-intensity-cuts/",
+      "date": "2010-02-02",
+      "key_figure": "India's reduction in emission intensity of GDP will be higher than 20-25 per cent by 2020 from 2005 levels"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Climate change in India - mitigation (Biennial Update Report summary)",
+      "url": "https://en.wikipedia.org/wiki/Climate_change_in_India",
+      "summary": "India's Biennial Update Report states emission intensity of GDP fell 24 per cent between 2005 and 2016, putting India on track to meet its voluntary 20-25 per cent target."
+    }
+  ],
+  "chart": null,
+  "analysis": "Jairam Ramesh announced India's voluntary target in Parliament on 3 December 2009: a 20-25 per cent reduction in the emission intensity of GDP by 2020 relative to 2005, to be pursued without a legally binding cap.\n\nIndia's Biennial Update Report to the UNFCCC, released in 2018, reports a 24 per cent reduction in emission intensity of GDP between 2005 and 2016. Independent summaries describe India as on track for the 20-25 per cent target.\n\nThe announced target is assessed as met.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 24 per cent figure is taken from the summary of India's Biennial Update Report on the Wikipedia 'Climate change in India' page; the primary BUR PDF was not opened. The Hindu, Business Standard and Indian Express URLs were seen in search results; the Wikipedia page was read.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "inc-ramesh-2009-no-binding-emission-cuts",
+  "speaker": "Jairam Ramesh",
+  "party": "INC",
+  "role": "Union Minister of State for Environment and Forests",
+  "level": "central",
+  "state": null,
+  "date": "2009-12-03",
+  "venue": "Rajya Sabha, Parliament House, New Delhi",
+  "language": "en",
+  "quote_original": "There is no question of India accepting a legally binding emission reduction cut.",
+  "quote_english": "There is no question of India accepting a legally binding emission reduction cut.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "India associated itself with the non-binding Copenhagen Accord and did not accept legally binding emission cuts at Copenhagen.",
+  "topics": [
+    "foreign-policy",
+    "environment"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "India will not sign binding emission cuts",
+      "url": "https://www.reuters.com/article/economy/india-will-not-sign-binding-emission-cuts-idUSDEL485342/"
+    },
+    {
+      "title": "Won't accept legally binding emission cuts",
+      "url": "https://indianexpress.com/article/news-archive/web/won-t-accept-legally-binding-emission-cuts/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Reuters",
+      "title": "India will not sign binding emission cuts",
+      "url": "https://www.reuters.com/article/economy/india-will-not-sign-binding-emission-cuts-idUSDEL485342/",
+      "date": "2009-12-03",
+      "key_figure": "Ramesh told Parliament there was no question of India accepting a legally binding emission reduction cut."
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "Copenhagen Accord not legally binding: UNFCC",
+      "url": "https://www.thehindu.com/news/international/Copenhagen-Accord-not-legally-binding-UNFCC/article16839919.ece",
+      "date": "2010-01-28",
+      "key_figure": "UNFCCC said the Copenhagen Accord was a political document, not a legally binding treaty."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "In the Rajya Sabha on 3 December 2009, Jairam Ramesh said there was no question of India accepting a legally binding emission reduction cut. He said India would accept international verification of reductions only if supported by finance and technology transfers.\n\nThe Copenhagen Accord was noted by the Conference of Parties on 18 December 2009. In January 2010 the UNFCCC clarified that the Accord was a political document and not legally binding. India associated itself with the Accord but did not take on binding emission targets.\n\nThe statement held for the Copenhagen round.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The claim concerns the Copenhagen round. India later associated itself with the non-binding Accord and submitted voluntary mitigation actions. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

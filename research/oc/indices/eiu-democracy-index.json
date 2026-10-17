@@ -1,0 +1,98 @@
+{
+  "slug": "eiu-democracy-index",
+  "name": "EIU Democracy Index",
+  "publisher": "Economist Intelligence Unit",
+  "url": "https://www.eiu.com/n/campaigns/democracy-index-2024/",
+  "higher_is_better": true,
+  "metric": "Score (0-10)",
+  "out_of_label": "not a rank",
+  "points": [
+    {
+      "year": 2013,
+      "value": 7.69,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2014,
+      "value": 7.92,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2015,
+      "value": 7.74,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2016,
+      "value": 7.81,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2017,
+      "value": 7.23,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2018,
+      "value": 7.23,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2019,
+      "value": 6.9,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2020,
+      "value": 6.61,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2021,
+      "value": 6.91,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2022,
+      "value": 7.04,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2023,
+      "value": 7.18,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2024,
+      "value": 7.29,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    },
+    {
+      "year": 2025,
+      "value": 6.96,
+      "out_of": 10,
+      "source_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "EAC-PM paper 'Global Perception Indices' (July 2023)",
+      "url": "https://eacpm.gov.in/wp-content/uploads/2023/07/6-Global-Perception-Indices.pdf",
+      "summary": "Paper from the Prime Minister's Economic Advisory Council critiquing perception-based global indices; listed here as the government's general position, not an EIU-specific rebuttal (content not fully read)."
+    }
+  ],
+  "methodology_note": "Score is used as it is comparable across years. Ranks (from press coverage): 2014: 27th, 2019: 51st of 167 (down 10), 2020: 53rd of 167, 2021: 46th of 167, 2023: 41st (tied with Poland), 2025: 47th (Wikipedia); other years' ranks not confirmed. India is classed 'flawed democracy' throughout. Scores per Wikipedia's table of the EIU data; 2013 edition may reflect the 2012 data year. EIU relies partly on expert assessments and opinion surveys.",
+  "related_claims": []
+}

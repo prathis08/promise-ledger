@@ -1,0 +1,62 @@
+name: Review a claim
+description: Check one claim's quote, sources and verdict. A bot records your review on the claim.
+title: "Review: "
+labels: ["claim-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing. Please judge the entry on evidence only, whichever party it concerns.
+        Guide: the "Review" page on the site. Your latest review on a claim replaces your earlier one.
+  - type: input
+    id: claim_id
+    attributes:
+      label: Claim ID
+      description: Pre-filled when you come from the claim page, e.g. bjp-modi-2021-500gw-nonfossil-2030
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      description: Tick only what you actually checked. Approvals count only with every box ticked.
+      options:
+        - label: I opened the quote source (transcript or video) and the wording is accurate, or correctly marked as paraphrased
+        - label: The speaker, office and date are correct
+        - label: I opened at least two evidence links and they support the key figures cited
+        - label: The verdict follows the definitions on the methodology page
+        - label: The government's or party's response is included where one exists
+        - label: The summary and analysis are neutral (no loaded adjectives, no claims about intent)
+  - type: dropdown
+    id: decision
+    attributes:
+      label: Decision
+      options:
+        - Approve - the entry is correct
+        - Request changes - mostly right but something must be fixed
+        - Reject - the verdict or a key fact is wrong
+    validations:
+      required: true
+  - type: dropdown
+    id: suggested_verdict
+    attributes:
+      label: Suggested verdict (only if you disagree)
+      options:
+        - "(no change)"
+        - "true"
+        - misleading
+        - "false"
+        - unachieved
+        - missed-deadline
+        - in-progress
+        - unverifiable
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: What did you check? What is wrong, if anything? Be specific.
+  - type: textarea
+    id: extra_sources
+    attributes:
+      label: Additional sources
+      description: Links that support your decision, one per line.

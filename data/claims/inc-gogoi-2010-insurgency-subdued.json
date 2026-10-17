@@ -1,0 +1,61 @@
+{
+  "id": "inc-gogoi-2010-insurgency-subdued",
+  "speaker": "Tarun Gogoi",
+  "party": "INC",
+  "role": "Chief Minister, Assam",
+  "level": "state",
+  "state": "Assam",
+  "date": "2010-10-22",
+  "venue": "Press conference, Guwahati",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "We have got phenomenal success in combating insurgency in the last two years. ... The drastic fall in insurgency-related incidents in the state in the last two years only goes to prove that we were right.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "SATP data record Assam insurgency fatalities falling from 392 in 2009 to 158 in 2010 and 94 in 2011, consistent with Gogoi's claim of a sharp decline.",
+  "topics": [
+    "internal-security",
+    "security",
+    "terrorism"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "New Indian Express: 'Defeat militancy through development' (23 Oct 2010)",
+      "url": "https://www.newindianexpress.com/india/2010/Oct/23/defeat-militancy-through-development-197391.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "index",
+      "publisher": "South Asia Terrorism Portal (SATP)",
+      "title": "Assam Assessment 2014",
+      "url": "https://web.archive.org/web/20140215151306/http://satp.org/satporgtp/countries/india/states/assam/index.html",
+      "date": "2014-02-15",
+      "key_figure": "Assam insurgency fatalities: 392 (2009), 158 (2010), 94 (2011), 91 (2012); SATP describes a 'continuously declining trend since 2009'. The 1998 peak was 783."
+    },
+    {
+      "type": "news",
+      "publisher": "Wikipedia",
+      "title": "2008 Assam bombings",
+      "url": "https://en.wikipedia.org/wiki/2008_Assam_bombings",
+      "date": null,
+      "key_figure": "Serial bombings in Assam on 30 October 2008 killed 81 people and injured 470, showing the high-violence baseline before the 2009-2010 decline."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "At a press conference in Guwahati on 22 October 2010, Gogoi said his government had achieved 'phenomenal success' against insurgency and that insurgency-related incidents had fallen sharply over the previous two years.\n\nSATP's Assam assessment records insurgency fatalities of 392 in 2009, 158 in 2010 and 94 in 2011, and describes a continuously declining trend since 2009. The 2008 baseline was high: serial bombings in Assam on 30 October 2008 killed 81 people.\n\nThe direction of the claim is supported by the data. Violence did not end, and Gogoi himself said in 2013 that it would be over-optimistic to declare the nightmare of militant violence over.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Gogoi spoke on a Friday; the New Indian Express report is dated 23 October 2010, so the date is taken as 22 October 2010. SATP data are compiled from official and media reports rather than being primary MHA tables.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

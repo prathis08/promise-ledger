@@ -1,0 +1,72 @@
+{
+  "id": "inc-chidambaram-2009-cctns-2012",
+  "speaker": "P. Chidambaram",
+  "party": "INC",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2009-09-18",
+  "venue": "Conference of small entrepreneurs, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The Rs 2,000-crore project to bring all 16,000 police stations in the country under a single network to counter terror challenges will become operational by 2011-12.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2012-03-31",
+  "verdict": "missed-deadline",
+  "summary": "CCTNS was not operational across all police stations by the end of 2011-12; in December 2014 the Home Ministry told Parliament the project was lagging behind schedule and only 58% of crime records had been digitised.",
+  "topics": [
+    "internal-security",
+    "security",
+    "governance",
+    "digital"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "DNA: All police stations will be linked by 2012: Chidambaram (18 Sep 2009)",
+      "url": "https://www.dnaindia.com/india/report-all-police-stations-will-be-linked-by-2012-chidambaram-1291406"
+    },
+    {
+      "title": "The Hindu: Crime tracking network system by 2011-12: Chidambaram",
+      "url": "https://www.thehindu.com/news/national/Crime-tracking-network-system-by-2011-12-Chidambaram/article16882132.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "The Economic Times",
+      "title": "Only 58% digitalisation of crime records achieved across various states",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/only-58-digitalisation-of-crime-records-achieved-across-various-states/articleshow/45464034.cms",
+      "date": "2014-12-11",
+      "key_figure": "Home Ministry told Parliament CCTNS was 'lagging behind schedule'; 58% of crime records digitised; a senior MHA official said end-2015 was a more realistic deadline."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "National Crime Records Bureau / Wikipedia summary",
+      "title": "Crime and Criminal Tracking Network and Systems",
+      "url": "https://en.wikipedia.org/wiki/Crime_and_Criminal_Tracking_Network_and_Systems",
+      "date": null,
+      "key_figure": "CCTNS was approved in 2009 with a Rs 2,000 crore outlay; only a pilot phase was launched on 4 January 2013."
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Home Ministry statement to Parliament, December 2014",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/only-58-digitalisation-of-crime-records-achieved-across-various-states/articleshow/45464034.cms",
+      "summary": "The Home Ministry acknowledged the project was behind schedule and said a deadline of end-2015 was more realistic for seamless connectivity between police stations."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 18 September 2009, Chidambaram said the Rs 2,000 crore CCTNS project would link all 16,000 police stations and become operational by 2011-12, a target that implied completion by 31 March 2012.\n\nIn December 2014 the Home Ministry told Parliament that CCTNS was 'lagging behind schedule'. Only 58% of crime records had been digitised, Rs 806 crore of the Rs 2,000 crore outlay had been released, and a senior ministry official said end-2015 was a more realistic date for seamless connectivity.\n\nThe project did eventually expand, but the 2011-12 target was not met. The pilot phase itself was launched only on 4 January 2013, after the stated deadline.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The 2009-09-18 date is from contemporaneous reports of the launch; DNA's page carries a later update stamp. The quote is the wording reported by The Economic Times and The Hindu, not a transcript. '2011-12' is treated as the Indian financial year ending 31 March 2012.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "inc-gandhi-2009-right-to-food",
+  "speaker": "Sonia Gandhi",
+  "date": "2009-03-24",
+  "venue": "Release of the Indian National Congress manifesto for the 2009 Lok Sabha elections, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "Along the lines of NREGA, we will enact a National Food Security Act. ... The Indian National Congress pledges that every family living below the poverty line either in rural or urban areas will be entitled, by law, to 25 kgs of rice or wheat per month at Rs 3 per kg.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2014-05-25",
+  "verdict": "true",
+  "summary": "The 2009 Congress manifesto pledged a statutory right to food and a legal entitlement of 25 kg of rice or wheat per family per month at Rs 3/kg; the National Food Security Act was enacted in September 2013, entitling priority households to 5 kg per person per month at Rs 3/2/1 per kg.",
+  "topics": [
+    "agriculture",
+    "prices"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Indian National Congress Manifesto 2009 (Lok Sabha elections)",
+      "url": "https://www.iocongress.org/uploads/manifesto/1547546675_Manifesto_2009.pdf"
+    },
+    {
+      "title": "BBC News: Congress sets out poll manifesto (Sonia Gandhi at manifesto release)",
+      "url": "http://news.bbc.co.uk/2/hi/south_asia/7960588.stm"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Department of Food and Public Distribution / NFSA portal",
+      "title": "National Food Security Act, (NFSA) 2013",
+      "url": "https://nfsa.gov.in/portal/NFSA_Act",
+      "date": "2013-07-05",
+      "key_figure": "Covers up to 75% of rural and 50% of urban population (about two-thirds of the population); priority households entitled to 5 kg of foodgrains per person per month at Rs 3/2/1 per kg"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Government of India (India Code)",
+      "title": "The National Food Security Act, 2013, No. 20 of 2013",
+      "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/6931/1/food_security_act_2013.pdf",
+      "date": "2013-09-10",
+      "key_figure": "Section 3: priority households entitled to five kilograms of foodgrains per person per month; AAY households 35 kg per household per month"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "National Food Security Act coverage",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2179514",
+      "date": "2024-01-01",
+      "key_figure": "Coverage calculated at 81.35 crore persons on Census 2011; about 78.90 crore beneficiaries covered"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "The 2009 manifesto committed the party to a National Food Security Act modelled on the legal-guarantee approach of NREGA, and specified an entitlement of 25 kg of rice or wheat per BPL family per month at Rs 3/kg. The manifesto frame for comparison was the earlier PDS norm of 35 kg per family at higher prices.\n\nThe Act was promulgated as an Ordinance on 5 July 2013 and passed by both Houses in August-September 2013, receiving assent on 10 September 2013. Its structure differs in form from the manifesto wording: entitlement is defined per person (5 kg per person per month for priority households) and AAY households get 35 kg per household per month, with prices capped at Rs 3/2/1 per kg for rice, wheat and coarse grains. A family of five at 5 kg per person equals the 25 kg per family figure in the manifesto.\n\nCoverage is up to 75 per cent of the rural and 50 per cent of the urban population, i.e. about two-thirds of the population once identified. Rollout across states was gradual, and the Act was passed roughly four years into the 2009-2014 term.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is the printed manifesto text, released under Sonia Gandhi as Congress President; quote_is_verbatim=true refers to the manifesto document rather than a spoken transcript. The manifesto frame of reference (35 kg per family at higher prices under the older PDS) was also raised by opposition parties at the time. [ingest: 2 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "party": "INC",
+  "role": "Congress President / UPA Chairperson",
+  "level": "party",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

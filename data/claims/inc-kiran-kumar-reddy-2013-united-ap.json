@@ -1,0 +1,79 @@
+{
+  "id": "inc-kiran-kumar-reddy-2013-united-ap",
+  "speaker": "N. Kiran Kumar Reddy",
+  "party": "INC",
+  "role": "Chief Minister, Andhra Pradesh",
+  "level": "state",
+  "state": "Andhra Pradesh",
+  "date": "2013-11-15",
+  "venue": "Public meetings at Chodavaram and Poduru, Andhra Pradesh (Rachabanda programme)",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "He was prepared to step down if it helped keep the State united, and would continue his fight against division without leaving the Congress; no effort would be spared to stall the bifurcation of Andhra Pradesh (reported wording).",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "unachieved",
+  "summary": "The Andhra Pradesh Reorganisation Act, 2014 divided Andhra Pradesh; Telangana was formed on 2 June 2014, and the promise to keep the State united was not met.",
+  "topics": [
+    "governance"
+  ],
+  "media": [
+    {
+      "platform": "youtube",
+      "title": "'Will do everything to stop bifurcation': Kiran Kumar Reddy",
+      "url": "https://www.youtube.com/watch?v=LXp_6jYlOLU"
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "The Hindu: Kiran prepared to step down to keep AP united",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/kiran-prepared-to-step-down-to-keep-ap-united/article5355953.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "parliament",
+      "publisher": "PRS Legislative Research",
+      "title": "The Andhra Pradesh Reorganisation Bill, 2014 (Telangana)",
+      "url": "https://prsindia.org/billtrack/the-andhra-pradesh-reorganisation-bill-2014-telangana",
+      "date": "2014-02-13",
+      "key_figure": "Bill introduced in the Lok Sabha on 13 February 2014 by the Minister for Home Affairs; carves out Telangana from 10 districts of Andhra Pradesh"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PRS Legislative Research (text of the Act)",
+      "title": "The Andhra Pradesh Reorganisation Act, 2014",
+      "url": "https://prsindia.org/files/bills_acts/acts_states/andhra-pradesh/2014/2014AP6.pdf",
+      "date": "2014-03-01",
+      "key_figure": "\"On and from the appointed day, there shall be formed a new State to be known as the State of Telangana\""
+    },
+    {
+      "type": "news",
+      "publisher": "Wikipedia",
+      "title": "Andhra Pradesh Reorganisation Act, 2014",
+      "url": "https://en.wikipedia.org/wiki/Andhra_Pradesh_Reorganisation_Act,_2014",
+      "date": "2014-06-02",
+      "key_figure": "The Act split Andhra Pradesh into Telangana and residual Andhra Pradesh; the two states were formed on 2 June 2014"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "The Hindu: Kiran prepared to step down to keep AP united",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/kiran-prepared-to-step-down-to-keep-ap-united/article5355953.ece",
+      "summary": "The Chief Minister said he would take the sentiments of the people to the Group of Ministers and would keep fighting bifurcation from within the Congress."
+    }
+  ],
+  "chart": null,
+  "analysis": "In November 2013 Andhra Pradesh Chief Minister N. Kiran Kumar Reddy publicly opposed the bifurcation of the State, saying he was even prepared to step down to keep it united and that he would continue his fight against division while remaining in the Congress. The Hindu reported the remarks from public meetings at Chodavaram and Poduru.\n\nThe Andhra Pradesh Reorganisation Bill, 2014 was introduced in the Lok Sabha on 13 February 2014. The Andhra Pradesh Reorganisation Act, 2014 provided for the formation of Telangana from ten districts of the existing State, with Hyderabad as a common capital for ten years.\n\nTelangana and the residual State of Andhra Pradesh were formed on 2 June 2014. The stated target of keeping the State united was not met.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The exact quote is a paraphrase from The Hindu report; the YouTube link was found in search results and is a news clip titled 'Will do everything to stop bifurcation'. The Act PDF was listed in search results but not parsed as text.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

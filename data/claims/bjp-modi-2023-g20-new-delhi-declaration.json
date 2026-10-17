@@ -1,0 +1,77 @@
+{
+  "id": "bjp-modi-2023-g20-new-delhi-declaration",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2023-09-09",
+  "venue": "G20 Leaders' Summit, Bharat Mandapam, New Delhi",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "Due to the hard work of our team, consensus has been built on New Delhi G20 Leaders' Summit Declaration. My proposal is to adopt this leadership declaration. I announce to adopt this declaration.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The G20 New Delhi Leaders' Declaration was adopted on 9 September 2023 with the support of all G20 member states.",
+  "topics": [
+    "foreign-policy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "G20 New Delhi Leaders' Declaration (PIB)",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1955803"
+    },
+    {
+      "title": "G20 New Delhi Leaders' Declaration (MEA text)",
+      "url": "https://www.mea.gov.in/images/CPV/G20-New-Delhi-Leaders-Declaration.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of External Affairs",
+      "title": "G20 New Delhi Leaders' Declaration (adopted text)",
+      "url": "https://www.mea.gov.in/images/CPV/G20-New-Delhi-Leaders-Declaration.pdf",
+      "date": "2023-09-09",
+      "key_figure": "Declaration adopted by all G20 members at the New Delhi Summit (83 paragraphs)"
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu",
+      "title": "G-20 Summit clinches New Delhi Declaration",
+      "url": "https://www.thehindu.com/news/national/g-20-summit-adopts-new-delhi-declaration/article67289646.ece",
+      "date": "2023-09-09",
+      "key_figure": "G20 members agreed to a joint statement, including the contentious Ukraine paragraphs"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB / Ministry of Information & Broadcasting",
+      "title": "India's G20 Presidency - G20 Summit (New Delhi, September 09-10, 2023)",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/sep/doc2023925255601.pdf",
+      "date": "2023-09-25",
+      "key_figure": "PM announced adoption of the New Delhi Leaders' Declaration at the Summit"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "History has been created with the adoption of the New Delhi Leaders' Declaration (PIB)",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/sep/doc2023925255601.pdf",
+      "summary": "The government records the adoption of the declaration as a key outcome of India's G20 presidency."
+    }
+  ],
+  "chart": null,
+  "analysis": "At the G20 Leaders' Summit in New Delhi on 9 September 2023, Modi announced that consensus had been reached on the New Delhi Leaders' Declaration and adopted it.\n\nThe Declaration was published by India's G20 presidency and by the Ministry of External Affairs, and coverage described the agreement on the text, including the paragraphs on the war in Ukraine, as a breakthrough for India's presidency.\n\nThe statement is supported by the published declaration text and the official Summit record.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "English wording as reported (originally delivered in Hindi). No confirmed YouTube URL collected for the announcement.",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

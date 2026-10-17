@@ -1,0 +1,5 @@
+---
+import { t } from '../i18n/en';
+const { verdict } = Astro.props;
+---
+<span class={`badge v-${verdict}`}>{t.verdicts[verdict] ?? verdict}</span>

@@ -1,0 +1,86 @@
+{
+  "id": "bjp-vaishnaw-2024-top-5-semiconductor-manufacturing",
+  "speaker": "Ashwini Vaishnaw",
+  "date": "2024-03-28",
+  "venue": "Times Now Summit 2024, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "India will be among the top five countries for semiconductor manufacturing within the next five years.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2030-03-31",
+  "verdict": "in-progress",
+  "summary": "India's first front-end fabrication plant at Dholera is expected to be operational around 2028 and several assembly and packaging units have begun commercial output, so the top-five target is not yet met.",
+  "topics": [
+    "manufacturing",
+    "economy"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "India to rank among top five globally in semiconductor manufacturing by 2030: Ashwini Vaishnaw (The Economic Times, 28-29 March 2024)",
+      "url": "https://economictimes.indiatimes.com/tech/technology/indias-semiconductor-manufacturing-to-rank-among-top-five-globally-by-2030-ashwini-vaishnaw/articleshow/108857798.cms"
+    },
+    {
+      "title": "India among top semiconductor producers in next 5 years: Ashwini Vaishnaw (India.com)",
+      "url": "https://www.india.com/business/india-among-top-semiconductor-producers-in-next-5-years-ashwini-vaishnaw-6819934/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Businessworld",
+      "title": "Ashwini Vaishnaw Says India's First Chip Fab Ready By 2028",
+      "url": "https://www.businessworld.in/article/ashwini-vaishnaw-says-india-s-first-chip-fab-ready-by-2028-600199",
+      "date": "",
+      "key_figure": "Dholera fabrication facility expected operational by 2028"
+    },
+    {
+      "type": "news",
+      "publisher": "The Indian Express",
+      "title": "World needs new, trusted chip bases, India ready for it: PM Modi (SEMICON India 2026)",
+      "url": "https://indianexpress.com/article/business/narendra-modi-semicon-india-2026-delhi-chip-bases-10881893/",
+      "date": "",
+      "key_figure": "India described as entering the second phase, toward commercial chip production"
+    },
+    {
+      "type": "news",
+      "publisher": "Hindustan Times (via MSN)",
+      "title": "India's semiconductor story: 5 out of 12 units now producing chips commercially",
+      "url": "https://www.msn.com/en-in/news/other/india-s-semiconductor-story-5-out-of-12-units-now-producing-chips-commercially/ar-AA2cqDMV",
+      "date": "",
+      "key_figure": "5 of 12 approved units reported in commercial production"
+    },
+    {
+      "type": "news",
+      "publisher": "NDTV",
+      "title": "1st Commercial Semiconductor Chip Production Will Begin This Year: Minister",
+      "url": "https://www.ndtv.com/india-news/1st-commercial-semiconductor-chip-production-will-begin-this-year-ashwini-vaishnaw-10873721",
+      "date": "",
+      "key_figure": "Vaishnaw states first commercial chip output in the year of the statement"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "India's semiconductor mission: 5 projects in commercial production (ET Now)",
+      "url": "https://www.etnownews.com/news/indias-semiconductor-mission-ashwini-vaishnaw-says-5-projects-in-commercial-production-article-156336013",
+      "summary": "Vaishnaw said India is building a manufacturing ecosystem and is determined to be embedded in the global semiconductor value chain, with five projects in commercial production."
+    }
+  ],
+  "chart": null,
+  "analysis": "Vaishnaw said in March 2024 that India would be among the top five semiconductor manufacturing countries within five years, as construction began on the Dholera fab and on packaging and testing units in Gujarat and Assam.\n\nLater government and industry reports state that the Dholera front-end fabrication plant is expected to be operational around 2028, that several assembly, testing and packaging units have started commercial production, and that in 2026 five of twelve approved units were producing commercially.\n\nLarge-scale chip fabrication is currently concentrated in Taiwan, South Korea, China, the United States and Japan. India is not presently among the largest chip manufacturing economies, and the target window runs to about 2029-2030, so the claim is in progress.",
+  "confidence": "low",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "Quote taken from The Economic Times report of the Times Now Summit 2024; no transcript opened, so quote_is_verbatim=false. The promise says 'within the next five years' (about 2029) while the ET headline frames it as 'by 2030'; deadline set to 2030-03-31. There is some ambiguity between front-end fab production and back-end assembly/test production in Indian reporting. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually] [QA: automated grounding check could not find the cited figures on the evidence page; confidence lowered to low pending manual review.]",
+  "party": "BJP",
+  "role": "Union Minister of Electronics and Information Technology, Railways and Communications",
+  "level": "central",
+  "state": null,
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 0,
+    "score": 0.0
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "inc-rahul-gandhi-2013-ordinance",
+  "speaker": "Rahul Gandhi",
+  "party": "INC",
+  "role": "Vice-President, Indian National Congress and Member of Parliament",
+  "level": "party",
+  "state": null,
+  "date": "2013-09-27",
+  "venue": "Press conference at the Press Club of India, New Delhi",
+  "language": "en",
+  "quote_original": "My opinion of the ordinance is that it is complete nonsense and should be torn up and thrown away.",
+  "quote_english": "My opinion of the ordinance is that it is complete nonsense and should be torn up and thrown away.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The Union Cabinet withdrew both the ordinance on convicted lawmakers and the accompanying bill on 2 October 2013, five days after Rahul Gandhi publicly opposed them; the Supreme Court's disqualification ruling was left undisturbed.",
+  "topics": [
+    "governance",
+    "corruption"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Hindustan Times: Centre's white paper recalls Rahul Gandhi's 2013 ordinance 'tearing' incident",
+      "url": "https://www.hindustantimes.com/india-news/centres-white-paper-recalls-rahuls-2013-ordinance-tearing-incident-what-had-happened-101707396937991.html"
+    },
+    {
+      "title": "The Hindu: When Rahul dropped a bombshell at press meet",
+      "url": "https://www.thehindu.com/news/national/when-rahul-dropped-a-bombshell-at-press-meet/article5175865.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Wikipedia (citing Business Line and others)",
+      "title": "Disqualification of convicted representatives in India",
+      "url": "https://en.wikipedia.org/wiki/Disqualification_of_convicted_representatives_in_India",
+      "date": "2013-10-02",
+      "key_figure": "Within five days of Gandhi's remarks, both the ordinance and the bill were withdrawn on 2 October 2013"
+    },
+    {
+      "type": "news",
+      "publisher": "The Hindu Business Line",
+      "title": "'Nonsense' ordinance withdrawn",
+      "url": "https://www.thehindubusinessline.com/news/nonsense-ordinance-withdrawn/article5192427.ece",
+      "date": "2013-10-02",
+      "key_figure": "Government withdrew the ordinance on convicted lawmakers on 2 October 2013"
+    },
+    {
+      "type": "news",
+      "publisher": "Hindustan Times",
+      "title": "Centre's white paper recalls Rahul Gandhi's 2013 ordinance 'tearing' incident. What had happened?",
+      "url": "https://www.hindustantimes.com/india-news/centres-white-paper-recalls-rahuls-2013-ordinance-tearing-incident-what-had-happened-101707396937991.html",
+      "date": "2024-02-08",
+      "key_figure": "Rahul Gandhi called the ordinance \"complete nonsense\" and said it should be \"torn up and thrown away\"; the ordinance aimed to negate the Lily Thomas judgment of 10 July 2013"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Rediff: Rahul calls ordinance 'nonsense', PM says will discuss",
+      "url": "https://www.rediff.com/news/report/ordinance-on-convicted-lawmakers-is-complete-nonsense-rahul/20130927.htm",
+      "summary": "Following Rahul Gandhi's remarks, the Prime Minister's Office said the matter would be discussed; the government subsequently withdrew the ordinance and bill."
+    }
+  ],
+  "chart": null,
+  "analysis": "On 27 September 2013 Rahul Gandhi, then Congress vice-president, told a press conference that the ordinance on convicted lawmakers was \"complete nonsense\" and should be \"torn up and thrown away\". The ordinance had been promulgated to negate the Supreme Court's 10 July 2013 ruling in Lily Thomas v. Union of India, which held that a legislator convicted and sentenced to two years or more loses membership with immediate effect.\n\nThe Union Cabinet withdrew both the ordinance and the accompanying bill on 2 October 2013, five days after his remarks. The Supreme Court's ruling remained in force, and Rasheed Masood became the first MP disqualified under it on 1 October 2013.\n\nIn 2019 Rahul Gandhi told Hindustan Times that he had possibly expressed himself \"too aggressive\"ly on that occasion.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The press conference is reported as 27 September 2013 by The Hindu and Rediff and as 28 September 2013 by some outlets; 27 September is used. The Business Line withdrawal article URL was identified through the Wikipedia reference list.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

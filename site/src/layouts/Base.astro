@@ -1,0 +1,32 @@
+---
+import { u } from '../lib/site';
+import '../styles/global.css';
+import { t } from '../i18n/en';
+import { getData } from '../lib/data';
+const { title, description = t.tagline } = Astro.props;
+const path = Astro.url.pathname;
+const { fixture } = getData();
+const nav = [['/', 'Leaderboard'], ['/suites/accuracy/', 'A: Accuracy'], ['/suites/promises/', 'B: Promises'], ['/benchmarks/', 'C: Benchmarks'], ['/claims/', 'Claims'], ['/methodology/', t.nav.methodology], ['/data/', t.nav.data], ['/review/', 'Review']];
+const cur = (h: string) => { const b = u(h); return h === '/' ? path === b || path === u('') : path.startsWith(b); };
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title ? `${title} — ${t.siteName}` : t.siteName}</title>
+  <meta name="description" content={description} />
+  <meta name="robots" content="noindex" />
+  <slot name="head" />
+</head>
+<body>
+  <header class="site"><div class="wrap">
+    <a class="brand" href={u('/')}>{t.siteName}</a>
+    <nav aria-label="Main">{nav.map(([h, l]) => <a href={u(h)} aria-current={cur(h) ? 'page' : undefined}>{l}</a>)}</nav>
+  </div></header>
+  <main><div class="wrap">
+    {fixture && <div class="banner fixture" role="status">{t.fixtureBanner}</div>}
+    <slot />
+  </div></main>
+  <footer class="site"><div class="wrap">{t.footer}</div></footer>
+</body>
+</html>

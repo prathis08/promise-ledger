@@ -1,0 +1,69 @@
+{
+  "id": "inc-shinde-2013-lwe-decline",
+  "speaker": "Sushilkumar Shinde",
+  "party": "INC",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2013-10-10",
+  "venue": "New Delhi",
+  "language": "en",
+  "quote_original": "The LWE violence level has been declining since 2010. The number of incidents has declined from 2213 (with 1005 resultant deaths) in 2010 to 1415 incidents (with 415 resultant deaths) in 2012.",
+  "quote_english": "The LWE violence level has been declining since 2010. The number of incidents has declined from 2213 (with 1005 resultant deaths) in 2010 to 1415 incidents (with 415 resultant deaths) in 2012.",
+  "quote_is_verbatim": true,
+  "claim_type": "statistic",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Home Ministry figures show left-wing extremism incidents fell from 2,213 with 1,005 deaths in 2010 to 1,415 with 415 deaths in 2012, and independent conflict data records the same downward trend after 2010.",
+  "topics": [
+    "internal-security",
+    "security",
+    "terrorism"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Business Standard/ANI: Shinde claims Left-wing extremism is on decline since 2010 (10 Oct 2013)",
+      "url": "https://www.business-standard.com/article/current-affairs/shinde-claims-left-wing-extremism-is-on-decline-since-2010-113101000674_1.html"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Business Standard",
+      "title": "Shinde claims Left-wing extremism is on decline since 2010",
+      "url": "https://www.business-standard.com/article/current-affairs/shinde-claims-left-wing-extremism-is-on-decline-since-2010-113101000674_1.html",
+      "date": "2013-10-10",
+      "key_figure": "2,213 incidents and 1,005 deaths in 2010; 1,415 incidents and 415 deaths in 2012; 27.48% fewer incidents up to 30 August 2013 than in the same period of 2012."
+    },
+    {
+      "type": "index",
+      "publisher": "South Asia Terrorism Portal (SATP)",
+      "title": "India Assessment 2016",
+      "url": "https://www.satp.org/terrorism-assessment/india",
+      "date": "2016-01-01",
+      "key_figure": "LWE fatalities were 1,180 in 2010 and declined continuously to 251 in 2015."
+    },
+    {
+      "type": "news",
+      "publisher": "The Times of India",
+      "title": "2015 saw lowest Naxal violence in 6 years",
+      "url": "https://timesofindia.indiatimes.com/india/2015-saw-lowest-Naxal-violence-in-6-years/articleshow/50791568.cms",
+      "date": "2016-01-02",
+      "key_figure": "Home Ministry statistics record 2,213 LWE incidents in 2010, the base year cited by Shinde."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Shinde's statement used the Home Ministry's LWE series: 2,213 incidents and 1,005 deaths in 2010, falling to 1,415 incidents and 415 deaths in 2012. His additional figure of a 27.48% reduction in incidents up to 30 August 2013 is consistent with the same series.\n\nSATP's independent compilation also records LWE fatalities peaking at 1,180 in 2010 and declining continuously to 251 in 2015. The direction and scale of the decline in the official figures are therefore supported.\n\nThe decline was a trend, not an end to violence. Major attacks continued during the period, including the May 2013 Darbha valley attack in Chhattisgarh.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The Business Standard report was accessible through a reader proxy during research; the direct page returned HTTP 403. Figures are from the Home Ministry series as quoted by the minister and restated by SATP/TOI.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 3,
+    "matched": 2,
+    "score": 0.6666666666666666
+  }
+}

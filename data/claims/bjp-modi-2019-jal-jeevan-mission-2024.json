@@ -1,0 +1,86 @@
+{
+  "id": "bjp-modi-2019-jal-jeevan-mission-2024",
+  "speaker": "Narendra Modi",
+  "party": "BJP",
+  "role": "Prime Minister",
+  "level": "central",
+  "state": null,
+  "date": "2019-08-15",
+  "venue": "Independence Day address, Red Fort, Delhi",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "I want to announce from the Red Fort that we will move forward with Jal Jeevan Mission ... We have promised to spend more than Rs. 3.5 lakh crores on this mission in the coming years.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": "2024-12-31",
+  "verdict": "missed-deadline",
+  "summary": "As on 18 July 2026, about 15.89 crore of 19.36 crore rural households (82.09%) had a tap water connection, against the mission's stated goal of every rural household by 2024.",
+  "topics": [
+    "infrastructure",
+    "governance"
+  ],
+  "media": [
+    {
+      "platform": "youtube",
+      "title": "PM Modi announces 'Jal Jeevan Mission' on 15th August, 2019",
+      "url": "https://www.youtube.com/watch?v=Jz2Yi1cubl4",
+      "timestamp_seconds": null,
+      "channel": null
+    }
+  ],
+  "transcript_sources": [
+    {
+      "title": "PMIndia: PM's address to the Nation from the ramparts of the Red Fort on the 73rd Independence Day",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-to-the-nation-from-the-ramparts-of-the-red-fort-on-the-73rd-independence-day/"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Jal Shakti / Jal Jeevan Mission",
+      "title": "About JJM",
+      "url": "https://jaljeevanmission.gov.in/about_jjm",
+      "date": "2019",
+      "key_figure": "Objective: every rural household to have a Functional Household Tap Connection (FHTC) by 2024"
+    },
+    {
+      "type": "govt_data",
+      "publisher": "PIB",
+      "title": "Initiatives adopted for Quality Drinking Water Supply under Jal Jeevan Mission",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295576&reg=48&lang=1",
+      "date": "2026-07",
+      "key_figure": "As on 18.07.2026, around 15.89 crore (82.09%) of 19.36 crore rural households have tap water connections"
+    },
+    {
+      "type": "news",
+      "publisher": "DD India",
+      "title": "Tap water coverage in rural India crosses 82% under Jal Jeevan Mission",
+      "url": "https://ddindia.co.in/2026/08/tap-water-coverage-in-rural-india-crosses-82-under-jal-jeevan-mission/",
+      "date": "2026-08",
+      "key_figure": "Approximately 15.89 crore rural households (82.09%) with tap water connections"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "PIB: Jal Jeevan Mission achieves historic milestone of 15 crore Rural Tap Connections",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2035722",
+      "summary": "The government states that tap water coverage rose from 3 crore households at launch to over 15 crore within five years, and that states continue work to complete coverage."
+    }
+  ],
+  "chart": {
+    "series": "jjm-tap-coverage",
+    "target": 100,
+    "target_label": "All rural households (target year 2024)"
+  },
+  "analysis": "The Prime Minister announced the Jal Jeevan Mission in his Independence Day address on 15 August 2019, with a stated goal of tap water to every rural household by 2024 and an outlay of more than Rs 3.5 lakh crore.\n\nAt launch, 3.23 crore (about 17%) of rural households had tap water connections. Government data show that as on 18 July 2026, about 15.89 crore of 19.36 crore rural households (82.09%) had a tap water connection.\n\nThe 100% coverage target for 2024 was not met; coverage continued to rise after 2024 and the mission has been extended. Government releases count reported connections, while functionality (regular, adequate supply) is a separate measure.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "Some official communications cite slightly different totals for the same period (e.g. 15.19 crore in October 2024, 15.72 crore later), reflecting updated state reporting. The PMIndia transcript wording on the Rs 3.5 lakh crore outlay is used. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

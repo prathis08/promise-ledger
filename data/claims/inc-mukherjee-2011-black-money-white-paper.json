@@ -1,0 +1,66 @@
+{
+  "id": "inc-mukherjee-2011-black-money-white-paper",
+  "speaker": "Pranab Mukherjee",
+  "party": "INC",
+  "role": "Union Finance Minister",
+  "level": "central",
+  "state": null,
+  "date": "2011-12-14",
+  "venue": "Lok Sabha, Parliament House, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The government would bring out a 'White Paper' on black money.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The government tabled the White Paper on Black Money in Parliament on 16 May 2012, after promising it in the Lok Sabha in December 2011.",
+  "topics": [
+    "black-money",
+    "corruption"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Pranab promises 'White Paper' on black money, The Hindu (14 December 2011)",
+      "url": "https://www.thehindu.com/news/national/pranab-promises-white-paper-on-black-money/article2714674.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Department of Revenue, Ministry of Finance",
+      "title": "White Paper on Black Money",
+      "url": "https://dor.gov.in/sites/default/files/inline-documents/FinalBlackMoney.pdf",
+      "date": "2012-05-16",
+      "key_figure": "White Paper presented to Parliament by Finance Minister Pranab Mukherjee on 16 May 2012; discusses estimates and measures on black money"
+    },
+    {
+      "type": "news",
+      "publisher": "NDTV",
+      "title": "White Paper on black money tabled in Parliament by Pranab Mukherjee",
+      "url": "https://www.ndtv.com/india-news/white-paper-on-black-money-tabled-in-parliament-by-pranab-mukherjee-483801",
+      "date": "2012-05-21",
+      "key_figure": "The government tabled the White Paper on black money in Parliament, without disclosing account-holder names"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Foreword to the White Paper (Finance Minister's statement)",
+      "url": "https://dor.gov.in/sites/default/files/inline-documents/FinalBlackMoney.pdf",
+      "summary": "Pranab Mukherjee wrote that he presented the document in response to an assurance given to Parliament, adding that reports of three institutions tasked with quantifying black money were still awaited."
+    }
+  ],
+  "chart": null,
+  "analysis": "During a Lok Sabha debate on an adjournment motion on black money in December 2011, the Finance Minister said the government would bring out a White Paper on black money. The motion was defeated by voice vote and the government declined to disclose names of foreign account holders, citing treaty constraints.\n\nThe White Paper on Black Money was presented to Parliament on 16 May 2012. It discussed definitions, channels of generation and measures such as double-taxation agreements, but did not give a single official estimate of the quantum of black money; the Finance Minister noted in its foreword that quantification reports were still awaited.\n\nThe specific commitment — to publish a white paper — was fulfilled.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The quote is a reported summary from The Hindu, not a verbatim transcript. No fixed deadline was announced with the promise, so deadline is null. The claim covers the promise to publish the paper, not the separate and unresolved question of recovering black money. [ingest: 1 evidence link(s) blocked/unreachable to the checker; verify manually]",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 0,
+    "matched": 0,
+    "score": null
+  }
+}

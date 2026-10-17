@@ -1,0 +1,98 @@
+{
+  "slug": "vdem-liberal-democracy",
+  "name": "V-Dem Liberal Democracy Index",
+  "publisher": "V-Dem Institute, University of Gothenburg",
+  "url": "https://v-dem.net/",
+  "higher_is_better": true,
+  "metric": "Liberal Democracy Index score (0-1)",
+  "out_of_label": "not a rank",
+  "points": [
+    {
+      "year": 2013,
+      "value": 0.522,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2014,
+      "value": 0.488,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2015,
+      "value": 0.417,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2016,
+      "value": 0.406,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2017,
+      "value": 0.371,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2018,
+      "value": 0.363,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2019,
+      "value": 0.324,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2020,
+      "value": 0.292,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2021,
+      "value": 0.307,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2022,
+      "value": 0.291,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2023,
+      "value": 0.273,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2024,
+      "value": 0.281,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    },
+    {
+      "year": 2025,
+      "value": 0.26,
+      "out_of": null,
+      "source_url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Government/MEA reaction to democracy indices (V-Dem, Freedom House, EIU) in 2021",
+      "url": "https://fithindi.thequint.com/amp/story/news/hot-news/mea-mulls-over-releasing-world-new-democracy-report-press-freedom-index-by-think-tank",
+      "summary": "Per press reports, the MEA considered backing an Indian think-tank's own democracy report and freedom index in response to 2021 downgrades. See also BoomLive on the Chief Election Commissioner saying flawed rankings harm democracy: https://www.boomlive.in/explainers/after-v-dem-report-on-india-cec-says-flawed-rankings-harming-democracy-21306. Exact MEA rejection text not retrieved."
+    }
+  ],
+  "methodology_note": "Values are the Our World in Data series of V-Dem's latest dataset vintage; V-Dem revises historical values each release, so earlier editions published different figures. 'year' is the data year (the report is published the following March). V-Dem's 2021 report (covering 2020) reclassified India from 'electoral democracy' to 'electoral autocracy'; the Democracy Report 2024 said India remained an electoral autocracy at the end of 2023 (Scroll). V-Dem's classification (Regimes of the World) is a separate judgement from the LDI score. The Indian government disputes such indices' methodologies.",
+  "related_claims": []
+}

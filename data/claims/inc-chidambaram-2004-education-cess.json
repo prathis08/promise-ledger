@@ -1,0 +1,76 @@
+{
+  "id": "inc-chidambaram-2004-education-cess",
+  "speaker": "P. Chidambaram",
+  "party": "INC",
+  "role": "Union Finance Minister",
+  "level": "central",
+  "state": null,
+  "date": "2004-07-08",
+  "venue": "Lok Sabha, Parliament of India, New Delhi (Union Budget 2004-05 speech)",
+  "language": "en",
+  "quote_original": "The NCMP mandates Government to levy an education cess. I propose to levy a cess of 2 per cent.",
+  "quote_english": "The NCMP mandates Government to levy an education cess. I propose to levy a cess of 2 per cent.",
+  "quote_is_verbatim": true,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "The 2004-05 Budget proposed a 2 per cent education cess; the Finance (No. 2) Act, 2004 levied it from 2004-05 to fund elementary education and the mid-day meal scheme.",
+  "topics": [
+    "education"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Union Budget 2004-05: Budget speech",
+      "url": "https://www.indiabudget.gov.in/doc/bspeech/bs200405.pdf"
+    },
+    {
+      "title": "Budget 2004-05: Education and health (transcript reproduction)",
+      "url": "http://www.banknetindia.com/banking/budget046.htm"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Ministry of Finance",
+      "title": "Budget 2004-05: Memorandum explaining the provisions of the Finance (No. 2) Bill, 2004",
+      "url": "https://www.indiabudget.gov.in/budget_archive/ub2004-05/mem/mem1.pdf",
+      "date": "2004-07-08",
+      "key_figure": "An additional surcharge called the Education Cess proposed at 2 per cent to finance universal quality basic education"
+    },
+    {
+      "type": "parliament",
+      "publisher": "Lok Sabha, Ministry of Finance",
+      "title": "Unstarred Question No. 969: Education cess",
+      "url": "https://www.sansad.in/getFile/loksabhaquestions/annex/175/AU969.pdf?source=pqals",
+      "key_figure": "Education cess levied at 2 per cent from FY 2004-05 for basic education and the mid-day meal scheme; an additional 1 per cent cess followed in 2007-08"
+    },
+    {
+      "type": "news",
+      "publisher": "Rediff",
+      "title": "Govt levies 2% education cess",
+      "url": "https://www.rediff.com/money/2004/jul/08bud19.htm",
+      "date": "2004-07-08",
+      "key_figure": "Cess proposed on income tax, corporation tax, excise, customs and service tax; expected to yield Rs 4,000-5,000 crore a year"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "Budget 2004-05 memorandum on the education cess",
+      "url": "https://www.indiabudget.gov.in/budget_archive/ub2004-05/mem/mem1.pdf",
+      "summary": "The Finance Ministry described the 2 per cent education cess as financing the government's commitment to universalise quality basic education."
+    }
+  ],
+  "chart": null,
+  "analysis": "The 2004-05 Budget speech proposed a 2 per cent cess on central taxes to fund universal elementary education. The accompanying Finance Ministry memorandum described it as an additional surcharge to finance the government's commitment to universalise quality basic education.\n\nA subsequent Lok Sabha reply records that the education cess was levied at 2 per cent from 2004-05 and was used for basic education and the mid-day meal scheme; an additional 1 per cent cess for secondary and higher education followed in 2007-08.\n\nThe proposal was therefore implemented. The cess is an earmarked surcharge on taxes rather than a direct increase in the education budget.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The exact wording was cross-checked against a transcript reproduction of the Budget speech. The Lok Sabha answer is a later government record of the cess and does not carry a visible date in the search result; the date field was therefore omitted. The budget PDFs are official Ministry of Finance documents.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 1,
+    "matched": 1,
+    "score": 1.0
+  }
+}

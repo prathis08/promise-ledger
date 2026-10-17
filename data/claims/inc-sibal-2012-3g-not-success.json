@@ -1,0 +1,59 @@
+{
+  "id": "inc-sibal-2012-3g-not-success",
+  "speaker": "Kapil Sibal",
+  "party": "INC",
+  "role": "Union Minister for Communications and IT",
+  "level": "central",
+  "state": null,
+  "date": "2012-04-10",
+  "venue": "Launch of Airtel 4G LTE services, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "3G has not delivered so far. The operators have paid huge money to get the bandwidth but they are not able to build the required infrastructure due to illiquidity.",
+  "quote_is_verbatim": false,
+  "claim_type": "statement",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "At the time, 3G had about 10 million subscribers against a mobile base of about 900 million, or roughly 1% penetration.",
+  "topics": [
+    "digital"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "Rediff: 3G services not been a success so far: Sibal",
+      "url": "https://www.rediff.com/business/report/3g-services-not-been-a-success-so-far-sibal/20120410.htm"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Times of India / TRAI",
+      "title": "India's mobile subscriber base crosses 919 million",
+      "url": "https://timesofindia.indiatimes.com/tech-news/Indias-mobile-subscriber-base-crosses-919-million/articleshow/15327277.cms",
+      "date": "2012-08-02",
+      "key_figure": "Wireless subscriber base 919.17 million at the end of March 2012"
+    },
+    {
+      "type": "news",
+      "publisher": "Rediff / PTI",
+      "title": "3G services not been a success so far: Sibal",
+      "url": "https://www.rediff.com/business/report/3g-services-not-been-a-success-so-far-sibal/20120410.htm",
+      "date": "2012-04-10",
+      "key_figure": "3G estimated at over 10 million subscribers by GSMA, against a total mobile base of about 900 million"
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "Sibal spoke at the launch of Airtel's 4G LTE service in April 2012. PTI reported his statement that 3G had 'not delivered so far' because operators lacked the infrastructure.\n\nGSMA estimated over 10 million 3G subscribers, against a total mobile base of about 900 million. TRAI data put wireless subscriptions at 919.17 million at the end of March 2012.\n\nThat is roughly 1% 3G penetration, which supports the qualitative claim that 3G had not been a success at that point.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The 10 million 3G figure is a GSMA estimate reported by PTI, not a TRAI-published 3G subscriber count. The claim is qualitative and time-bound to April 2012.",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

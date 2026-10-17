@@ -1,0 +1,65 @@
+{
+  "id": "inc-chidambaram-2010-overcome-maoism-3-years",
+  "speaker": "P. Chidambaram",
+  "party": "INC",
+  "role": "Union Home Minister",
+  "level": "central",
+  "state": null,
+  "date": "2010-07-29",
+  "venue": "Parliamentary Consultative Committee for the Ministry of Home Affairs, New Delhi",
+  "language": "en",
+  "quote_original": "",
+  "quote_english": "The government was confident that the problem of left wing extremism would be overcome in the next three years.",
+  "quote_is_verbatim": true,
+  "claim_type": "promise",
+  "deadline": "2013-07-29",
+  "verdict": "missed-deadline",
+  "summary": "Left-wing extremism was not overcome by mid-2013; MHA data show violence declined gradually but continued well past the three-year window.",
+  "topics": [
+    "internal-security",
+    "security",
+    "terrorism"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "The Hindu: Maoist problem will be overcome in three years: Chidambaram (29 Jul 2010)",
+      "url": "https://www.thehindu.com/news/Maoist-problem-will-be-overcome-in-three-years-Chidambaram/article16215473.ece"
+    },
+    {
+      "title": "Times of India / PTI: Will overcome Maoist problem in three years: Chidambaram (29 Jul 2010)",
+      "url": "https://timesofindia.indiatimes.com/india/will-overcome-maoist-problem-in-three-years-chidambaram/articleshow/6233378.cms"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "news",
+      "publisher": "Deutsche Welle (citing Home Ministry data)",
+      "title": "Why has Maoist violence subsided in India?",
+      "url": "https://www.dw.com/en/why-has-maoist-violence-subsided-in-india/a-64292819",
+      "date": "2023-01-05",
+      "key_figure": "LWE incidents fell from 2,258 (2009) to 509 (2021); deaths fell from a peak of 1,005 (2010) to 147 (2021); affected districts fell from 96 (2010) to 46."
+    },
+    {
+      "type": "govt_data",
+      "publisher": "Dataful (compiling MHA Left-Wing Extremism Division and Parliament data)",
+      "title": "Final Phase of Naxalism: Fewer Districts, Fewer Incidents, Increased Surrenders",
+      "url": "https://insights.dataful.in/articles/final-phase-of-naxalism-fewer-districts-fewer-incidents-increased-surrenders",
+      "date": "2025-10-31",
+      "key_figure": "Peak year 2010 (1,005 deaths); more than 2,200 attacks in 2009 falling to fewer than 500 in 2024; deaths 908 (2009) to 130 (2024)."
+    }
+  ],
+  "govt_response": [],
+  "chart": null,
+  "analysis": "On 29 July 2010 Chidambaram told the Parliamentary Consultative Committee on Home Affairs that the government was confident left-wing extremism would be overcome in the next three years, an implicit target of mid-2013.\n\nMHA figures compiled by DW show 2,258 LWE incidents in 2009 and 509 in 2021, with deaths falling from a peak of 1,005 in 2010 to 147 in 2021. Dataful's compilation of MHA data records more than 2,200 attacks in 2009 falling to fewer than 500 in 2024, and 130 deaths in 2024.\n\nThe decline was gradual. The data show a falling trend, not the elimination of the problem by 2013, and the government continued to treat LWE as a security challenge after that date.",
+  "confidence": "medium",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "notes": "The three-year window is counted from the 29 July 2010 statement, giving mid-2013; no formal end-date was published. Incident and death figures are MHA data as compiled by DW and Dataful; different MHA series use different definitions, so only same-series comparisons are reliable.",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "grounding": {
+    "checked": 2,
+    "matched": 2,
+    "score": 1.0
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "bjp-dhami-2022-ucc-uttarakhand",
+  "speaker": "Pushkar Singh Dhami",
+  "party": "BJP",
+  "role": "Chief Minister, Uttarakhand",
+  "level": "state",
+  "state": "Uttarakhand",
+  "date": "2022-02-12",
+  "venue": "Election campaign, 2022 Uttarakhand Assembly election",
+  "language": "hi",
+  "quote_original": "",
+  "quote_english": "If re-elected, the BJP will constitute a committee to prepare a draft Uniform Civil Code soon after forming the government.",
+  "quote_is_verbatim": false,
+  "claim_type": "promise",
+  "deadline": null,
+  "verdict": "true",
+  "summary": "Uttarakhand notified its Uniform Civil Code on 27 January 2025, becoming the first Indian state to bring a UCC into force, following the 2022 election promise.",
+  "topics": [
+    "governance"
+  ],
+  "media": [],
+  "transcript_sources": [
+    {
+      "title": "CM Dhami promises Uniform Civil Code if BJP re-elected in Uttarakhand (Hindustan Times)",
+      "url": "https://www.hindustantimes.com/elections/uttarakhand-assembly-election/assembly-polls-cm-dhami-promises-uniform-civil-code-if-bjp-re-elected-in-uttarakhand-101644691548068.html"
+    },
+    {
+      "title": "Dhami thanks people for BJP's win, promises to implement Uniform Civil Code (PTI / The Hindu)",
+      "url": "https://www.thehindu.com/elections/uttarakhand-assembly/uttarakhand-assembly-election-dhami-thanks-people-for-bjps-big-win-in-ukhand-promises-to-implement-uniform-civil-code/article65211563.ece"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "govt_data",
+      "publisher": "Government of Uttarakhand",
+      "title": "Uniform Civil Code, Uttarakhand, Rules, 2025",
+      "url": "https://ucc.uk.gov.in/downloads",
+      "date": "2025-01-27",
+      "key_figure": "UCC notified and in force in Uttarakhand from 27 January 2025"
+    },
+    {
+      "type": "news",
+      "publisher": "DD News",
+      "title": "Uttarakhand becomes first state to implement Uniform Civil Code",
+      "url": "https://ddnews.gov.in/en/uttarakhand-becomes-first-state-to-implement-uniform-civil-code",
+      "date": "2025-01-27",
+      "key_figure": "UCC came into effect on 27 January 2025"
+    },
+    {
+      "type": "news",
+      "publisher": "Akashvani (News On AIR)",
+      "title": "Uttarakhand Govt implements the UCC (Amendment) Ordinance, 2026",
+      "url": "https://newsonair.gov.in/uttarakhand-govt-implements-the-ucc-amendment-ordinance-2026/",
+      "date": "2026-01-27",
+      "key_figure": "UCC in force since 27 January 2025; amendment ordinance issued in 2026"
+    }
+  ],
+  "govt_response": [
+    {
+      "title": "CM Dhami: UCC fulfils the 2022 election promise (DD News)",
+      "url": "https://ddnews.gov.in/en/uttarakhand-becomes-first-state-to-implement-uniform-civil-code",
+      "summary": "Dhami says the BJP has fulfilled its 2022 assembly-election promise and that Uttarakhand is the first state to bring a UCC into force."
+    }
+  ],
+  "chart": null,
+  "analysis": "Campaigning for the 2022 Uttarakhand assembly election, Dhami promised on 12 February 2022 that a re-elected BJP government would set up a committee to draft a Uniform Civil Code and implement it.\n\nThe state cabinet approved the formation of a drafting committee headed by a former Supreme Court judge in its first meeting after the election (March 2022). The UCC Bill was passed by the Assembly in February 2024 and received presidential assent on 11 March 2024.\n\nUttarakhand notified and implemented the UCC on 27 January 2025, becoming the first state in independent India to bring such a code into force.",
+  "confidence": "high",
+  "review_status": "draft",
+  "last_reviewed": "2026-10-17",
+  "researched_by": "deepseek-v4.1-flash-free",
+  "notes": "The promise carried a target (implement a UCC) but no fixed calendar date; deadline is therefore null. Dhami later stated the commitment was made on 12 February 2022.",
+  "grounding": {
+    "checked": 2,
+    "matched": 1,
+    "score": 0.5
+  }
+}

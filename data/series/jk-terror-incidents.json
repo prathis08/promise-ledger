@@ -1,0 +1,19 @@
+{
+  "slug": "jk-terror-incidents",
+  "title": "Terror-initiated incidents in Jammu & Kashmir (MHA)",
+  "unit": "incidents per calendar year",
+  "source": {
+    "publisher": "Ministry of Home Affairs (written reply in Parliament by MoS Nityanand Rai, 6 Dec 2023), as reported by Daily Excelsior",
+    "title": "Terror incidents constantly declining in J&K, lowest in 2023: MHA",
+    "url": "https://www.dailyexcelsior.com/news/archive/terror-incidents-constantly-declining-in-jk-lowest-in-2023-mha"
+  },
+  "points": [
+    { "x": "2018", "y": 228 },
+    { "x": "2019", "y": 153 },
+    { "x": "2020", "y": 126 },
+    { "x": "2021", "y": 129 },
+    { "x": "2022", "y": 125 },
+    { "x": "2023 (to 15 Nov)", "y": 41 }
+  ],
+  "note": "Article 370 was abrogated on 5 Aug 2019, so 2019 is a mixed year. 2023 is a part-year figure (to 15 Nov); a Feb 2024 MHA reply reported 46 for the full year per press reports. MHA has published other series with different definitions (e.g. an April 2022 reply cited 417 incidents in 2018 and 255 in 2019), so compare only within one series. SATP total fatalities (civilians + security forces + terrorists) per its J&K page: 2014: 189; 2015: 175; 2016: 267; 2017: 357; 2018: 452; 2019: 283; 2020: 321; 2021: 274; 2022: 253; 2023: 134 (12 civilians, 33 security forces, 87 terrorists); 2024: 127 (31 civilians, 26 security forces, 69 terrorists). Source for SATP figures: https://satp.org/terrorism-assessment/india-jammukashmir"
+}

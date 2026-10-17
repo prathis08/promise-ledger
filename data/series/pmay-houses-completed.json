@@ -1,0 +1,25 @@
+{
+  "slug": "pmay-houses-completed",
+  "title": "PMAY-G houses completed (cumulative)",
+  "unit": "houses (number)",
+  "source": {
+    "publisher": "Ministry of Rural Development (Lok Sabha replies, via news reports)",
+    "title": "PMAY-G progress",
+    "url": "https://www.nbmcw.com/news/infra-development/pmay-g-3-12-crore-rural-houses-completed-79-lakh-under-construction.html"
+  },
+  "points": [
+    {
+      "x": "2022-12-08",
+      "y": 21000000
+    },
+    {
+      "x": "2024-02-03",
+      "y": 25500000
+    },
+    {
+      "x": "2026-08-03",
+      "y": 31200000
+    }
+  ],
+  "note": "Rounded crore figures as reported in Lok Sabha replies (2.10 crore, about 2.55 crore, 3.12 crore). The first two come from search summaries, not the replies themselves. Original target 2.95 crore by 2022, extended to March 2024, then new phase to 2029."
+}
