@@ -2,7 +2,7 @@
 
 An open benchmark of public claims and promises by Indian political leaders, scored like an ML model evaluation: **BJP (May 2014 → today)** vs **Congress (2000 → May 2014)**, covering Union ministers, Chief Ministers and party leaders.
 
-- **Site:** https://shreyashsiddharth-collab.github.io/promise-ledger/
+- **Site:** https://sarkaribenchmark.site/
 - **Status:** preliminary. Most entries are unreviewed drafts, and many were researched by an AI model (`researched_by`). Read the confidence intervals, and help review.
 
 ## How it works
