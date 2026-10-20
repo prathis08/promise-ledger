@@ -1,0 +1,27 @@
+{
+ "name": "Tarun Gogoi",
+ "slug": "tarun-gogoi",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/assam2011/candidate.php?candidate_id=199",
+  "election": "Assam 2011, Titabor"
+ },
+ "party_in_affidavit": "INC",
+ "pending_cases": 0,
+ "convictions": 0,
+ "corruption_related_cases": 0,
+ "cases_summary": "",
+ "education": {
+  "level": "Graduate Professional",
+  "detail": "BA, LLB"
+ },
+ "note": "Died in November 2020.",
+ "portrait": {
+  "file": "netas/tarun-gogoi.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Tarun_Gogoi_-_Kolkata_2013-02-10_4891_Cropped.JPG",
+  "license": "CC BY 3.0",
+  "author": "Biswarup Ganguly"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

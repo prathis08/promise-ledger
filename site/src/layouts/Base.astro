@@ -7,7 +7,7 @@ import Flag from '../components/Flag.astro';
 const { title, description = t.tagline } = Astro.props;
 const path = Astro.url.pathname;
 const { fixture } = getData();
-const nav = [['/', 'Scoreboard'], ['/claims/', 'All claims'], ['/suites/accuracy/', 'Statements'], ['/suites/promises/', 'Promises'], ['/benchmarks/', 'World rankings'], ['/methodology/', t.nav.methodology], ['/data/', t.nav.data]];
+const nav = [['/', 'Scoreboard'], ['/netas/', 'Neta Ranking'], ['/claims/', 'All claims'], ['/suites/accuracy/', 'Statements'], ['/suites/promises/', 'Promises'], ['/benchmarks/', 'World rankings'], ['/methodology/', t.nav.methodology], ['/data/', t.nav.data]];
 const cur = (h: string) => { const b = u(h); return h === '/' ? path === b || path === u('') : path.startsWith(b); };
 ---
 <!doctype html>

@@ -1,0 +1,26 @@
+{
+ "name": "Bhupinder Singh Hooda",
+ "slug": "bhupinder-singh-hooda",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/Haryana2024/candidate.php?candidate_id=254",
+  "election": "Haryana 2024, Garhi Sampla-Kiloi"
+ },
+ "party_in_affidavit": "INC",
+ "pending_cases": 8,
+ "convictions": 0,
+ "corruption_related_cases": 8,
+ "cases_summary": "Five CBI and police cases under the Prevention of Corruption Act (with IPC 120B, 420, 467, 468, 471; one includes IPC 409) and three Enforcement Directorate money-laundering cases (PMLA)",
+ "education": {
+  "level": "Graduate Professional",
+  "detail": "LLB, Delhi University (1974)"
+ },
+ "portrait": {
+  "file": "netas/bhupinder-singh-hooda.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Bhupinder_Singh_Hooda_in_WEF,_2010.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "World Economic Forum on Flickr / Matthew Jordaan"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

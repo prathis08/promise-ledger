@@ -1,0 +1,26 @@
+{
+ "name": "Pushkar Singh Dhami",
+ "slug": "pushkar-singh-dhami",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/uttarakhand2022/candidate.php?candidate_id=758",
+  "election": "Uttarakhand 2022, Champawat by-election"
+ },
+ "party_in_affidavit": "BJP",
+ "pending_cases": 0,
+ "convictions": 0,
+ "corruption_related_cases": 0,
+ "cases_summary": "",
+ "education": {
+  "level": "Post Graduate",
+  "detail": "Master of HRM & IR, Lucknow University (1999)"
+ },
+ "portrait": {
+  "file": "netas/pushkar-singh-dhami.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Pushkar_Singh_Dhami,_Chief_Minister_of_Uttarakhand.jpg",
+  "license": "GODL-India",
+  "author": "Prime Minister's Office"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+ "name": "Sushilkumar Shinde",
+ "slug": "sushilkumar-shinde",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/LokSabha2019/candidate.php?candidate_id=5177",
+  "election": "Lok Sabha 2019, Solapur"
+ },
+ "party_in_affidavit": "INC",
+ "pending_cases": 0,
+ "convictions": 0,
+ "corruption_related_cases": 0,
+ "cases_summary": "",
+ "education": {
+  "level": "Graduate Professional",
+  "detail": "LLB, Bombay University (1969); BA, Shivaji University (1965)"
+ },
+ "portrait": {
+  "file": "netas/sushilkumar-shinde.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Sushilkumar_Shinde.jpg",
+  "license": "GODL-India",
+  "author": "Ministry of Home Affairs"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

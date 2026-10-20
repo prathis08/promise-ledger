@@ -113,6 +113,25 @@ export function getData() {
 
 export const seriesBySlug = (slug: string) => getData().series.find((s) => s.slug === slug);
 
+// Leaders' sworn election affidavits (data/netas/<slug>.json), used by the Neta Ranking.
+const NetaSchema = z.object({
+  name: z.string(), slug: z.string(),
+  affidavit: z.object({ source: z.string(), url: z.string(), election: z.string(), education_url: z.string().optional() }),
+  party_in_affidavit: z.string(),
+  pending_cases: z.number().int().min(0),
+  convictions: z.number().int().min(0),
+  corruption_related_cases: z.number().int().min(0),
+  cases_summary: z.string().default(''),
+  education: z.object({ level: z.enum(['Literate', '8th Pass', '10th Pass', '12th Pass', 'Graduate', 'Graduate Professional', 'Post Graduate', 'Doctorate', 'Others']), detail: z.string() }),
+  note: z.string().optional(),
+  portrait: z.object({ file: z.string(), source: z.string(), license: z.string(), author: z.string() }),
+  researched_by: z.string().optional(),
+  review_status: z.string().default('draft'),
+});
+export type Neta = z.infer<typeof NetaSchema>;
+let netaCache: Neta[] | null = null;
+export const getNetas = () => (netaCache ??= load('netas', NetaSchema));
+
 export function youtubeId(url: string): string | null {
   try {
     const u = new URL(url);

@@ -1,0 +1,26 @@
+{
+ "name": "Mallikarjun Kharge",
+ "slug": "mallikarjun-kharge",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/rajsab09aff/candidate.php?candidate_id=877",
+  "election": "Rajya Sabha, Karnataka (2020-2026)"
+ },
+ "party_in_affidavit": "INC",
+ "pending_cases": 0,
+ "convictions": 0,
+ "corruption_related_cases": 0,
+ "cases_summary": "",
+ "education": {
+  "level": "Graduate Professional",
+  "detail": "LLB, SSL Law College, Gulbarga (1967)"
+ },
+ "portrait": {
+  "file": "netas/mallikarjun-kharge.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Mallikarjun_Kharge_briefing_the_media_after_presenting_the_Interim_Railway_Budget_2014-15_in_New_Delhi_(cropped).jpg",
+  "license": "GODL-India",
+  "author": "Ministry of Railways"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

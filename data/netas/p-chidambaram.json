@@ -1,0 +1,26 @@
+{
+ "name": "P. Chidambaram",
+ "slug": "p-chidambaram",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/rajsab09aff/candidate.php?candidate_id=970",
+  "election": "Rajya Sabha, Tamil Nadu (2022-2028)"
+ },
+ "party_in_affidavit": "INC",
+ "pending_cases": 4,
+ "convictions": 0,
+ "corruption_related_cases": 4,
+ "cases_summary": "Two CBI cases under the Prevention of Corruption Act (with IPC 120B, 420); two Enforcement Directorate money-laundering cases (PMLA)",
+ "education": {
+  "level": "Post Graduate",
+  "detail": "MBA, Harvard Business School (1968)"
+ },
+ "portrait": {
+  "file": "netas/p-chidambaram.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:P.Chidambaram_in_a_press_conference.jpg",
+  "license": "CC BY 2.0",
+  "author": "Deccan Herald"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

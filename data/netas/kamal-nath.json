@@ -1,0 +1,26 @@
+{
+ "name": "Kamal Nath",
+ "slug": "kamal-nath",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/MadhyaPradesh2023/candidate.php?candidate_id=265",
+  "election": "Madhya Pradesh 2023, Chhindwara"
+ },
+ "party_in_affidavit": "INC",
+ "pending_cases": 2,
+ "convictions": 0,
+ "corruption_related_cases": 0,
+ "cases_summary": "Two cases under IPC 120B, 420, 465, 468, 469, 471, 472, 474 (cheating and forgery)",
+ "education": {
+  "level": "Graduate",
+  "detail": "B.Com, St. Xavier's College, Calcutta (1968)"
+ },
+ "portrait": {
+  "file": "netas/kamal-nath.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Kamal_Nath_2012.jpg",
+  "license": "GODL-India",
+  "author": "Ministry of Parliamentary Affairs"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

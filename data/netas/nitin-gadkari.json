@@ -1,0 +1,27 @@
+{
+ "name": "Nitin Gadkari",
+ "slug": "nitin-gadkari",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=329",
+  "election": "Lok Sabha 2024, Nagpur",
+  "education_url": "https://www.myneta.info/LokSabha2019/candidate.php?candidate_id=5804"
+ },
+ "party_in_affidavit": "BJP",
+ "pending_cases": 10,
+ "convictions": 0,
+ "corruption_related_cases": 0,
+ "cases_summary": "Election-law petitions (RP Act 80, 81, 100, 125A) and complaints under IPC 171H, 176, 186, 188, 417, 420, 467, 468, 471, 500",
+ "education": {
+  "level": "Graduate Professional",
+  "detail": "LLB, Nagpur University (1982), per his 2019 affidavit. The 2024 affidavit lists only two honorary doctorates (2023), which we do not count."
+ },
+ "portrait": {
+  "file": "netas/nitin-gadkari.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Nitin_Jairam_Gadkari.jpg",
+  "license": "GODL-India",
+  "author": "Ministry of Road Transport and Highways"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

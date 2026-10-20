@@ -1,0 +1,27 @@
+{
+ "name": "Pranab Mukherjee",
+ "slug": "pranab-mukherjee",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/ls2009/candidate.php?candidate_id=7308",
+  "election": "Lok Sabha 2009, Jangipur"
+ },
+ "party_in_affidavit": "INC",
+ "pending_cases": 0,
+ "convictions": 0,
+ "corruption_related_cases": 0,
+ "cases_summary": "",
+ "education": {
+  "level": "Doctorate",
+  "detail": "BA (Hons), MA (History), MA (Political Science), LLB, Ph.D."
+ },
+ "note": "Died in August 2020.",
+ "portrait": {
+  "file": "netas/pranab-mukherjee.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Pranab_Mukherjee_Portrait_(cropped).jpg",
+  "license": "GODL-India",
+  "author": "President's Secretariat"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

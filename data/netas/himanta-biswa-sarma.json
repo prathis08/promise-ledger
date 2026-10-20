@@ -1,0 +1,26 @@
+{
+ "name": "Himanta Biswa Sarma",
+ "slug": "himanta-biswa-sarma",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/Assam2026/candidate.php?candidate_id=46",
+  "election": "Assam 2026, Jalukbari"
+ },
+ "party_in_affidavit": "BJP",
+ "pending_cases": 0,
+ "convictions": 0,
+ "corruption_related_cases": 0,
+ "cases_summary": "",
+ "education": {
+  "level": "Doctorate",
+  "detail": "Ph.D., Gauhati University (2006); MA (Political Science), Cotton College (1994); LLB (1995)"
+ },
+ "portrait": {
+  "file": "netas/himanta-biswa-sarma.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Himanta_Biswa_Sarma_in_2026.jpg",
+  "license": "GODL-India",
+  "author": "President's Secretariat"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

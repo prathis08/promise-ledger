@@ -1,0 +1,26 @@
+{
+ "name": "Siddaramaiah",
+ "slug": "siddaramaiah",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/Karnataka2023/candidate.php?candidate_id=8383",
+  "election": "Karnataka 2023, Varuna"
+ },
+ "party_in_affidavit": "INC",
+ "pending_cases": 13,
+ "convictions": 0,
+ "corruption_related_cases": 1,
+ "cases_summary": "Mostly protest and unlawful-assembly cases (IPC 143, 147, 188, 341), election-law cases (IPC 171C, 171F, RP Act 123), and one case under IPC 171E (bribery at elections), under investigation",
+ "education": {
+  "level": "Graduate Professional",
+  "detail": "LLB, Sharada Vilas Law College, Mysore (1972)"
+ },
+ "portrait": {
+  "file": "netas/siddaramaiah.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Siddaramaiah_at_the_function_to_commemorate_the_serving_of_2_billion_meals_of_the_Akshaya_Patra_Foundation_in_Karnataka_(cropped).jpg",
+  "license": "GODL-India",
+  "author": "President's Secretariat"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

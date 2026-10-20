@@ -1,0 +1,26 @@
+{
+ "name": "Shivraj Singh Chouhan",
+ "slug": "shivraj-singh-chouhan",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=4448",
+  "election": "Lok Sabha 2024, Vidisha"
+ },
+ "party_in_affidavit": "BJP",
+ "pending_cases": 1,
+ "convictions": 0,
+ "corruption_related_cases": 0,
+ "cases_summary": "One defamation case (IPC 499, 500, 34)",
+ "education": {
+  "level": "Post Graduate",
+  "detail": "MA (Philosophy), Hamidia College, Bhopal University (1982-83)"
+ },
+ "portrait": {
+  "file": "netas/shivraj-singh-chouhan.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Shivraj_Singh_Chouhan_2025.jpg",
+  "license": "GODL-India",
+  "author": "President's Secretariat"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

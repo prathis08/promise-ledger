@@ -1,0 +1,26 @@
+{
+ "name": "Nirmala Sitharaman",
+ "slug": "nirmala-sitharaman",
+ "affidavit": {
+  "source": "MyNeta (Association for Democratic Reforms), archive of the sworn election affidavit",
+  "url": "https://www.myneta.info/rajsab09aff/candidate.php?candidate_id=986",
+  "election": "Rajya Sabha, Karnataka (2022-2028)"
+ },
+ "party_in_affidavit": "BJP",
+ "pending_cases": 0,
+ "convictions": 0,
+ "corruption_related_cases": 0,
+ "cases_summary": "",
+ "education": {
+  "level": "Post Graduate",
+  "detail": "M.Phil., Jawaharlal Nehru University (1984)"
+ },
+ "portrait": {
+  "file": "netas/nirmala-sitharaman.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Am_11._April_2025_empfing_Au%C3%9Fenministerin_Beate_Meinl-Reisinger_die_indische_Finanzministerin_Nirmala_Sitharaman_in_Wien_(54445397025)_(cropped).jpg",
+  "license": "CC BY 2.0",
+  "author": "Bundesministerium für europäische und internationale Angelegenheiten"
+ },
+ "researched_by": "AI model (Claude), read from MyNeta on 2026-10-19",
+ "review_status": "draft"
+}

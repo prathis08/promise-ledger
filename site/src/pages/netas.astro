@@ -1,0 +1,181 @@
+---
+import { u } from '../lib/site';
+import Base from '../layouts/Base.astro';
+import PartyLogo from '../components/PartyLogo.astro';
+import { getData, getNetas } from '../lib/data';
+import { scoreClaim, isScored } from '../lib/scoring';
+import { NETA_WEIGHTS, EDU_POINTS, PRIOR_WEIGHT, honestyScore, recordScore, corruptionScore, netaOverall } from '../lib/neta';
+
+const { claims } = getData();
+const graded = claims.filter(isScored).map((c) => ({ c, s: scoreClaim(c) })).filter((x) => x.s.score != null);
+const prior = (graded.reduce((a, x) => a + x.s.score!, 0) / Math.max(1, graded.length)) * 100;
+const NAME: Record<string, string> = { BJP: 'BJP', INC: 'Congress', IND: 'Independent' };
+
+const rows = getNetas().map((n) => {
+  const mine = graded.filter((x) => x.c.speaker === n.name);
+  const all = claims.filter((c) => c.speaker === n.name);
+  const party = all[0]?.party ?? n.party_in_affidavit;
+  const role = all[0]?.role ?? '';
+  const sum = mine.reduce((a, x) => a + x.s.score! * 100, 0);
+  const raw = mine.length ? sum / mine.length : null;
+  const parts = {
+    honesty: honestyScore(sum, mine.length, prior),
+    record: recordScore(n.pending_cases, n.convictions),
+    corruption: corruptionScore(n.corruption_related_cases),
+    education: EDU_POINTS[n.education.level] ?? null,
+  };
+  return { n, party, role, claims: all.length, checked: mine.length, raw, parts, overall: netaOverall(parts, NETA_WEIGHTS) };
+}).sort((a, b) => (b.overall ?? -1) - (a.overall ?? -1));
+
+const client = rows.map((r) => ({ id: r.n.slug, p: r.party, parts: r.parts }));
+const f0 = (x: number | null) => (x == null ? '—' : x.toFixed(0));
+const f1 = (x: number | null) => (x == null ? '—' : x.toFixed(1));
+const W = NETA_WEIGHTS;
+---
+<Base title="Neta Ranking">
+  <div class="nh">
+    <h1>Neta Ranking</h1>
+    <p class="lede">{rows.length} BJP and Congress leaders, ranked out of 100 on four things: how often what they said was true and their promises were kept (from the claims on this site), the criminal cases and corruption cases they declared in their own sworn election affidavit, and their education.</p>
+  </div>
+  <div class="banner draft" role="note"><span><b>Read this first.</b> A pending case is an accusation, not a conviction: many are political or defamation complaints, and everyone named here is innocent until proven guilty. Case counts and education are copied from each leader's latest affidavit on MyNeta and have not yet been checked by a person.</span> <a href="#how">How the ranking works</a></div>
+
+  <form class="ncontrols panel" id="nw" onsubmit="return false">
+    <div class="seg" role="radiogroup" aria-label="Party">
+      {[['', 'All'], ['BJP', 'BJP'], ['INC', 'Congress']].map(([v, l]) => <label class={`seg-i${v === '' ? ' on' : ''}`}><input type="radio" name="party" value={v} checked={v === ''} />{v && <PartyLogo party={v} size={14} />}<span>{l}</span></label>)}
+    </div>
+    <div class="wgrid">
+      <p class="kv whint">How much should each part count?</p>
+      <label>Honesty<input type="range" min="0" max="100" step="5" value={W.honesty} id="w-honesty" /><output id="o-honesty">{W.honesty}</output></label>
+      <label>Clean record<input type="range" min="0" max="100" step="5" value={W.record} id="w-record" /><output id="o-record">{W.record}</output></label>
+      <label>No corruption cases<input type="range" min="0" max="100" step="5" value={W.corruption} id="w-corruption" /><output id="o-corruption">{W.corruption}</output></label>
+      <label>Education<input type="range" min="0" max="100" step="5" value={W.education} id="w-education" /><output id="o-education">{W.education}</output></label>
+    </div>
+  </form>
+
+  <ol class="nlist" id="nlist">
+    {rows.map((r, i) => (
+      <li class="nrow panel" data-id={r.n.slug} data-party={r.party}>
+        <div class="nrank" aria-label="Rank">{i + 1}</div>
+        <img class="nphoto" src={u(`/${r.n.portrait.file}`)} alt={`Portrait of ${r.n.name}`} width="64" height="64" loading="lazy" />
+        <div class="nwho">
+          <h2><a href={u(`/claims/?f-s=${encodeURIComponent(r.n.name)}`)}>{r.n.name}</a></h2>
+          <div class="kv"><span class="party"><PartyLogo party={r.party} size={14} />{NAME[r.party] ?? r.party}</span>{r.role && <> · {r.role}</>}</div>
+          {r.n.note && <div class="kv nnote">{r.n.note}</div>}
+        </div>
+        <div class="nscore"><b data-overall>{f1(r.overall)}</b><span>out of 100</span></div>
+        <dl class="nparts">
+          <div><dt>Honesty</dt><dd><span class="nbar"><i style={`width:${r.parts.honesty.toFixed(1)}%`}></i></span><b>{f0(r.parts.honesty)}</b></dd>
+            <dd class="kv">{r.checked ? `${r.checked} checked ${r.checked === 1 ? 'claim' : 'claims'}${r.raw != null ? `, average ${f0(r.raw)}` : ''}` : 'no checked claims yet'}{r.checked < PRIOR_WEIGHT && r.checked > 0 && ' (few, so pulled toward the average)'}</dd></div>
+          <div><dt>Clean record</dt><dd><span class="nbar"><i style={`width:${r.parts.record.toFixed(1)}%`}></i></span><b>{f0(r.parts.record)}</b></dd>
+            <dd class="kv">{r.n.pending_cases === 0 ? 'no pending cases' : `${r.n.pending_cases} pending ${r.n.pending_cases === 1 ? 'case' : 'cases'}${r.n.convictions ? `, ${r.n.convictions} conviction (stayed)` : ''}`}</dd></div>
+          <div><dt>No corruption cases</dt><dd><span class="nbar"><i style={`width:${r.parts.corruption.toFixed(1)}%`}></i></span><b>{f0(r.parts.corruption)}</b></dd>
+            <dd class="kv">{r.n.corruption_related_cases === 0 ? 'no corruption cases' : `${r.n.corruption_related_cases} pending under anti-corruption or money-laundering law`}</dd></div>
+          <div><dt>Education</dt><dd><span class="nbar"><i style={`width:${r.parts.education ?? 0}%`}></i></span><b>{f0(r.parts.education)}</b></dd>
+            <dd class="kv" title={r.n.education.detail}>{r.n.education.level}{r.n.education.level === 'Others' ? ' (not scored)' : ''}</dd></div>
+        </dl>
+        <details class="nmore">
+          <summary>Details and sources</summary>
+          {r.n.cases_summary && <p><b>What the cases are about:</b> {r.n.cases_summary}.</p>}
+          <p><b>Education:</b> {r.n.education.detail}</p>
+          <p class="kv">Affidavit: <a href={r.n.affidavit.url} rel="noopener">{r.n.affidavit.election}</a> (via MyNeta / ADR){r.n.affidavit.education_url && <> · <a href={r.n.affidavit.education_url} rel="noopener">earlier affidavit used for education</a></>}. Party named in that affidavit: {NAME[r.n.party_in_affidavit] ?? r.n.party_in_affidavit}. {r.claims} {r.claims === 1 ? 'claim' : 'claims'} on this site: <a href={u(`/claims/?f-s=${encodeURIComponent(r.n.name)}`)}>see them</a>.</p>
+          <p class="kv">Photo: <a href={r.n.portrait.source} rel="noopener">{r.n.portrait.author}</a>, {r.n.portrait.license}, via Wikimedia Commons.</p>
+        </details>
+      </li>
+    ))}
+  </ol>
+
+  <h2 id="how">How the ranking works</h2>
+  <div class="nhow">
+    <p><b>Honesty</b> is the average score, out of 100, of everything on this site that the leader said or promised: 100 for a true statement or a promise kept on time, less for misleading or late, 0 for false or not delivered. Because some leaders have only one or two checked claims, everyone's average is pulled a little toward the average of all leaders ({prior.toFixed(0)}), as if each had {PRIOR_WEIGHT} extra average claims. The more claims we have checked, the less this matters.</p>
+    <p><b>Clean record</b> counts the pending cases the leader declared in their latest sworn election affidavit. A clean record scores 100; each case lowers it a little less than the one before (1 case 80, 3 cases 57, 10 cases 29). A conviction counts as two cases.</p>
+    <p><b>No corruption cases</b> counts pending cases under the Prevention of Corruption Act, the money-laundering law (PMLA), IPC 409 (criminal breach of trust by a public servant) or IPC 171B/171E (bribery at elections). None scores 100; 1 case 67, 4 cases 33, 8 cases 20.</p>
+    <p><b>Education</b> is the highest degree declared: 12th pass 45, graduate 65, professional degree 75, postgraduate 85, doctorate 100. Honorary degrees don't count. We give it only a small weight by default, because schooling says nothing about honesty.</p>
+    <p class="kv">Affidavits are the leaders' own sworn declarations, collected by the Association for Democratic Reforms on MyNeta. They show the cases at the time of filing, so newer or closed cases may not be reflected. For leaders who have died, we use their last affidavit.</p>
+  </div>
+
+  <script type="application/json" id="neta-data" set:html={JSON.stringify(client)} />
+  <script>
+    import { netaOverall } from '../lib/neta';
+    const D: { id: string; p: string; parts: any }[] = JSON.parse(document.getElementById('neta-data')!.textContent!);
+    const list = document.getElementById('nlist')!;
+    const rows = new Map([...list.querySelectorAll<HTMLElement>('.nrow')].map((el) => [el.dataset.id!, el]));
+    const keys = ['honesty', 'record', 'corruption', 'education'] as const;
+    const radios = [...document.querySelectorAll<HTMLInputElement>('input[name=party]')];
+    function update() {
+      const w = Object.fromEntries(keys.map((k) => [k, +(document.getElementById('w-' + k) as HTMLInputElement).value])) as any;
+      keys.forEach((k) => (document.getElementById('o-' + k)!.textContent = String(w[k])));
+      const party = radios.find((r) => r.checked)?.value ?? '';
+      radios.forEach((r) => r.parentElement!.classList.toggle('on', r.checked));
+      const scored = D.map((d) => ({ d, s: netaOverall(d.parts, w) })).sort((a, b) => (b.s ?? -1) - (a.s ?? -1));
+      let rank = 0;
+      for (const { d, s } of scored) {
+        const el = rows.get(d.id)!;
+        const show = !party || d.p === party;
+        el.hidden = !show;
+        list.appendChild(el);
+        if (!show) continue;
+        el.querySelector('.nrank')!.textContent = String(++rank);
+        el.querySelector('[data-overall]')!.textContent = s == null ? '—' : s.toFixed(1);
+      }
+    }
+    document.getElementById('nw')!.addEventListener('input', update);
+    update();
+  </script>
+</Base>
+
+<style>
+  .nh { margin-bottom: 16px; }
+  .nh .lede { margin: 0; max-width: 90ch; }
+  .ncontrols { display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: center; margin-bottom: 16px; }
+  .seg { display: inline-flex; background: var(--raised); border-radius: var(--r-control); padding: 3px; gap: 2px; }
+  .seg-i { position: relative; display: inline-flex; align-items: center; gap: 7px; height: 34px; padding: 0 14px; border-radius: 4px; cursor: pointer; font-size: 14px; color: var(--muted); }
+  .seg-i input { position: absolute; opacity: 0; pointer-events: none; }
+  .seg-i.on { background: var(--control); color: var(--text); font-weight: 600; }
+  .seg-i .plogo { width: 20px; height: 20px; }
+  .wgrid { display: grid; grid-template-columns: repeat(4, minmax(150px, 1fr)); gap: 6px 20px; flex: 1; }
+  .whint { grid-column: 1 / -1; margin: 0; }
+  .wgrid label { display: grid; grid-template-columns: 1fr 30px; grid-template-rows: auto auto; gap: 2px 8px; font-size: 13px; color: var(--muted); }
+  .wgrid input { grid-column: 1 / -1; grid-row: 2; width: 100%; }
+  .wgrid output { text-align: right; color: var(--text); font-weight: 600; }
+  .nlist { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--gap); }
+  .nrow { display: grid; grid-template-columns: 44px 64px minmax(200px, 1.1fr) 110px minmax(0, 3fr); grid-template-areas: 'rank photo who score parts' 'rank photo more more more'; gap: 4px 18px; align-items: center; padding: 16px 20px; }
+  .nrow[hidden] { display: none; }
+  .nrank { grid-area: rank; font-family: var(--display); font-size: 26px; font-weight: 800; color: var(--muted); text-align: center; letter-spacing: -.03em; }
+  .nphoto { grid-area: photo; width: 64px; height: 64px; border-radius: 50%; object-fit: cover; object-position: center 20%; background: var(--raised); }
+  .nwho { grid-area: who; min-width: 0; }
+  .nwho h2 { margin: 0 0 2px; font-size: 18px; }
+  .nwho h2 a { text-decoration: none; }
+  .nwho h2 a:hover { text-decoration: underline; }
+  .nnote { margin-top: 2px; font-style: italic; }
+  .nscore { grid-area: score; display: flex; flex-direction: column; align-items: flex-start; }
+  .nscore b { font-family: var(--display); font-size: 34px; font-weight: 800; letter-spacing: -.03em; line-height: 1; }
+  .nscore span { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .nparts { grid-area: parts; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 0; }
+  .nparts dt { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+  .nparts dd { margin: 0; display: flex; align-items: center; gap: 8px; }
+  .nparts dd.kv { display: block; margin-top: 3px; line-height: 1.35; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .nparts b { font-family: var(--display); font-size: 17px; font-weight: 700; min-width: 2ch; }
+  .nparts b.nedu { font-family: var(--sans); font-size: 13px; font-weight: 600; white-space: nowrap; }
+  .nbar { position: relative; flex: 1; height: 6px; border-radius: 3px; background: var(--raised); overflow: hidden; min-width: 40px; }
+  .nbar i { position: absolute; inset: 0 auto 0 0; border-radius: 3px; background: var(--v-true); }
+  .nrow[data-party='BJP'] .nparts div:first-child .nbar i { background: var(--p-bjp); }
+  .nrow[data-party='INC'] .nparts div:first-child .nbar i { background: var(--p-inc); }
+  .nmore { grid-area: more; font-size: 14px; }
+  .nmore summary { font-size: 13px; color: var(--muted); padding-top: 6px; }
+  .nmore p { margin: 8px 0 0; max-width: 110ch; }
+  .nhow p { max-width: 90ch; }
+  @media (max-width: 1100px) {
+    .nrow { grid-template-columns: 36px 56px 1fr auto; grid-template-areas: 'rank photo who score' 'parts parts parts parts' 'more more more more'; gap: 10px 14px; }
+    .nphoto { width: 56px; height: 56px; }
+    .nparts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .wgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 560px) {
+    .nrow { grid-template-columns: 28px 48px 1fr; grid-template-areas: 'rank photo who' 'score score score' 'parts parts parts' 'more more more'; padding: 14px 16px; }
+    .nrank { font-size: 20px; }
+    .nphoto { width: 48px; height: 48px; }
+    .nscore { flex-direction: row; align-items: baseline; gap: 8px; }
+    .wgrid { grid-template-columns: 1fr; }
+    .seg { width: 100%; } .seg-i { flex: 1; justify-content: center; }
+  }
+</style>
