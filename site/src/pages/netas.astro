@@ -59,7 +59,7 @@ const W = NETA_WEIGHTS;
         <img class="nphoto" src={u(`/${r.n.portrait.file}`)} alt={`Portrait of ${r.n.name}`} width="64" height="64" loading="lazy" />
         <div class="nwho">
           <h2><a href={u(`/claims/?f-s=${encodeURIComponent(r.n.name)}`)}>{r.n.name}</a></h2>
-          <div class="kv"><span class="party"><PartyLogo party={r.party} size={14} />{NAME[r.party] ?? r.party}</span>{r.role && <> · {r.role}</>}</div>
+          <div class="kv nmeta"><PartyLogo party={r.party} size={14} /><span>{NAME[r.party] ?? r.party}{r.role && <> · {r.role}</>}</span></div>
           {r.n.note && <div class="kv nnote">{r.n.note}</div>}
         </div>
         <div class="nscore"><b data-overall>{f1(r.overall)}</b><span>out of 100</span></div>
@@ -146,6 +146,9 @@ const W = NETA_WEIGHTS;
   .nwho h2 { margin: 0 0 2px; font-size: 18px; }
   .nwho h2 a { text-decoration: none; }
   .nwho h2 a:hover { text-decoration: underline; }
+  /* Logo and text share one line box: the logo is centred on the first line, wrapped text stays aligned to the text. */
+  .nmeta { display: flex; align-items: flex-start; gap: 8px; line-height: 22px; }
+  .nmeta .plogo { margin-top: 0; }
   .nnote { margin-top: 2px; font-style: italic; }
   .nscore { grid-area: score; display: flex; flex-direction: column; align-items: flex-start; }
   .nscore b { font-family: var(--display); font-size: 34px; font-weight: 800; letter-spacing: -.03em; line-height: 1; }
