@@ -28,6 +28,9 @@ const title = (id: string) => { const s = SUM.get(id) ?? id; return s.length > 1
         <td><Badge verdict={c.verdict} /></td><td class="r num">{c.score == null ? '—' : Math.round(c.score * 100)}</td><td>{t.confidence[c.confidence]}</td></tr>
     ))}</tbody>
   </table></div>
-  <p class="kv">— means the claim could not be scored (for example, no data exists). {cases.length} statements listed, {st.n} scored.</p>
-  {unscored.length > 0 && <p class="kv">Background only, not scored: {unscored.map((c, i) => <>{i > 0 && ', '}<a href={u(`/claims/${c.id}/`)}>{title(c.id)}</a></>)}.</p>}
+  <ul class="notes-list">
+    <li><b>—</b> means the claim could not be scored (for example, no data exists).</li>
+    <li><b>{cases.length} statements</b> listed; <b>{st.n}</b> scored.</li>
+    {unscored.length > 0 && <li><b>Background only:</b> these are shown for context but not scored: {unscored.map((c, i) => <>{i > 0 && ', '}<a href={u(`/claims/${c.id}/`)}>{title(c.id)}</a></>)}.</li>}
+  </ul>
 </Base>

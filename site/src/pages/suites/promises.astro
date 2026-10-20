@@ -30,11 +30,18 @@ const title = (id: string) => { const s = SUM.get(id) ?? id; return s.length > 1
         <td><Badge verdict={c.verdict} /></td><td class="r num">{c.notYetDue ? 'not due yet' : c.score == null ? '—' : Math.round(c.score * 100)}</td><td>{t.confidence[c.confidence]}</td></tr>
     ))}</tbody>
   </table></div>
-  <p class="kv">— means the promise could not be scored. {cases.length} promises listed, {st.n} scored.</p>
-  {unscored.length > 0 && <p class="kv">Background only, not scored: {unscored.map((c, i) => <>{i > 0 && ', '}<a href={u(`/claims/${c.id}/`)}>{title(c.id)}</a></>)}.</p>}
+  <ul class="notes-list">
+    <li><b>—</b> means the promise could not be scored.</li>
+    <li><b>{cases.length} promises</b> listed; <b>{st.n}</b> scored.</li>
+    {unscored.length > 0 && <li><b>Background only:</b> these are shown for context but not scored: {unscored.map((c, i) => <>{i > 0 && ', '}<a href={u(`/claims/${c.id}/`)}>{title(c.id)}</a></>)}.</li>}
+  </ul>
 
   <h2>How close did they get to the target?</h2>
-  <p class="muted">For promises with a number attached (say, 175 GW of solar power), how much of the way from the starting point to the target was covered. 100% means the target was reached. We show it at the deadline and for the latest figures.</p>
+  <ul class="notes-list">
+    <li><b>What it shows:</b> for promises with a number attached (say, 175 GW of solar power), how much of the way from the starting point to the target was covered.</li>
+    <li><b>100%</b> means the target was reached.</li>
+    <li><b>Two moments:</b> we show the figure at the deadline and for the latest data.</li>
+  </ul>
   {b.gaps.length === 0 ? <p class="muted">No promises with a number attached yet.</p> : (
     <div class="tablewrap"><table class="dense">
       <thead><tr><th>Promise</th><th>Target</th><th>Starting point</th><th>By the deadline</th><th>Latest</th><th>Things to note</th></tr></thead>

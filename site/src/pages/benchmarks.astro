@@ -41,7 +41,11 @@ const topics = DOMAINS.filter((d) => b.indices.some((r) => r.domain === d.id));
       <tr><th scope="row"><span class="party"><PartyLogo party={p.id} size={14} />{p.label}</span></th><td id={`c-${p.id}`}><Cell st={c} extra={`${c.improved} better · ${c.declined} worse · ${c.flat} no change`} /></td>
         <td class="r num" id={`d-${p.id}`}>{c.meanDelta == null ? '—' : fd(c.meanDelta)}</td><td class="r num" id={`y-${p.id}`}>{c.meanPerYear == null ? '—' : fd(c.meanPerYear)}</td></tr>); })}</tbody>
   </table></div>
-  <p class="kv">Change is in points out of 100. The two periods are different lengths (about 10 and 12 years), so the per-year change is the fairer comparison. Rankings usually come out a year or more late, so the 2014 edition mostly reflects the years before the BJP took over.</p>
+  <ul class="notes-list">
+    <li><b>Scale:</b> change is measured in points out of 100.</li>
+    <li><b>Fair comparison:</b> the two periods are different lengths (about 10 and 12 years), so the per-year change is the fairer comparison.</li>
+    <li><b>Publication lag:</b> rankings usually come out a year or more late, so the 2014 edition mostly reflects the years before the BJP took over.</li>
+  </ul>
 
   <form class="filters" id="bf-filters" role="search" onsubmit="return false">
     <label class="search">Search<input type="search" id="bf-q" placeholder="Ranking, topic or publisher" autocomplete="off" /></label>
@@ -67,7 +71,12 @@ const topics = DOMAINS.filter((d) => b.indices.some((r) => r.domain === d.id));
     ); })}</tbody>
   </table></div>
   <p id="bf-none" class="muted" hidden>No rankings match these filters.</p>
-  <p class="kv">To compare different rankings, we turn each one into a score out of 100, where 100 is the top spot. "Where India stands now" uses the newest edition: a full ring would mean first place. Exact formulas are on the <a href={u('/methodology/')}>How we score</a> page.</p>
+  <ul class="notes-list">
+    <li><b>Scale:</b> each ranking is turned into a score out of 100, where 100 is the top spot.</li>
+    <li><b>Change:</b> the party columns compare the start and end of each party's period.</li>
+    <li><b>Where India stands now:</b> this uses the newest edition; a full ring means first place.</li>
+    <li><b>Formulas:</b> the exact rules are on the <a href={u('/methodology/')}>How we score</a> page.</li>
+  </ul>
 
   <h2>About each ranking</h2>
   <p class="lede">Open a ranking to see what it measures, the caveats, the government's response and related claims.</p>
