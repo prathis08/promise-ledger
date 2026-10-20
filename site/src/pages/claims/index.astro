@@ -1,72 +1,162 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ClaimCard from '../../components/ClaimCard.astro';
-import Badge from '../../components/Badge.astro';
+import PartyLogo from '../../components/PartyLogo.astro';
 import { t } from '../../i18n/en';
 import { getData, VERDICTS, year } from '../../lib/data';
-const { claims } = getData();
+const { claims: all } = getData();
+const claims = [...all].sort((a, b) => b.date.localeCompare(a.date));
 const count = (f: (c: any) => boolean) => claims.filter(f).length;
 const speakers = [...new Set(claims.map((c) => c.speaker))].sort();
 const topics = [...new Set(claims.flatMap((c) => c.topics))].sort();
 const years = [...new Set(claims.map((c) => year(c.date)))].sort().reverse();
 const types = [...new Set(claims.map((c) => c.claim_type))].sort();
 const drafts = count((c) => c.review_status === 'draft');
+const PARTY = [['', 'All parties'], ['BJP', 'BJP'], ['INC', 'Congress']] as const;
 const index = claims.map((c) => ({
-  id: c.id, s: c.speaker, v: c.verdict, t: c.topics, y: year(c.date), ct: c.claim_type,
-  q: [c.quote_english, c.quote_original, c.summary, c.venue, c.speaker, c.topics.join(' ')].join(' ').toLowerCase(),
+  id: c.id, p: c.party, s: c.speaker, v: c.verdict, t: c.topics, y: year(c.date), ct: c.claim_type, d: c.date,
+  q: [c.quote_english, c.quote_original, c.summary, c.venue, c.speaker, c.role, c.topics.join(' ')].join(' ').toLowerCase(),
 }));
 const h = t.home;
 ---
 <Base title={h.title}>
-  <h1>Every claim we checked</h1>
-  <p class="muted">{t.tagline}</p>
-  {drafts > 0 && <p class="banner draft">{t.draftCount(drafts)}</p>}
-
-  <h2 style="border:0;margin-top:1em">{h.byVerdict}</h2>
-  <div class="counters">
-    {VERDICTS.map((v) => <div class="counter"><b>{count((c) => c.verdict === v)}</b><Badge verdict={v} /></div>)}
-  </div>
-  <h2 style="border:0;margin-top:.5em">{h.bySpeaker}</h2>
-  <div class="counters">
-    {speakers.map((s) => <div class="counter"><b>{count((c) => c.speaker === s)}</b>{s}</div>)}
+  <div class="ch-head">
+    <h1>Every claim we checked</h1>
+    <p class="lede">{claims.length} things BJP and Congress leaders said or promised, each checked against official data. {drafts > 0 && <span>{drafts} have not been double-checked by a person yet.</span>}</p>
   </div>
 
-  <form class="filters" id="filters" role="search" onsubmit="return false">
-    <label class="search">{h.search}<input type="search" id="q" placeholder={h.search} autocomplete="off" /></label>
-    <label>{h.speaker}<select id="f-s"><option value="">{h.all}</option>{speakers.map((s) => <option>{s}</option>)}</select></label>
-    <label>{h.verdict}<select id="f-v"><option value="">{h.all}</option>{VERDICTS.map((v) => <option value={v}>{t.verdicts[v]}</option>)}</select></label>
-    <label>{h.topic}<select id="f-t"><option value="">{h.all}</option>{topics.map((s) => <option>{s}</option>)}</select></label>
-    <label>{h.year}<select id="f-y"><option value="">{h.all}</option>{years.map((s) => <option>{s}</option>)}</select></label>
-    <label>{h.type}<select id="f-c"><option value="">{h.all}</option>{types.map((s) => <option value={s}>{t.claimTypes[s] ?? s}</option>)}</select></label>
-    <label>&nbsp;<button type="button" id="reset">{h.reset}</button></label>
+  <form class="fbar" id="filters" role="search" onsubmit="return false">
+    <div class="frow">
+      <label class="fsearch"><span class="sr">{h.search}</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6" /><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg>
+        <input type="search" id="q" placeholder="Search quotes, people, topics…" autocomplete="off" />
+      </label>
+      <div class="seg" role="radiogroup" aria-label="Party">
+        {PARTY.map(([v, l]) => (
+          <label class="seg-i"><input type="radio" name="party" value={v} checked={v === ''} />{v && <PartyLogo party={v} size={14} />}<span>{l}</span><b>{v ? count((c) => c.party === v) : claims.length}</b></label>
+        ))}
+      </div>
+    </div>
+    <div class="chips" role="group" aria-label="Verdict">
+      {VERDICTS.map((v) => (
+        <label class={`chip v-${v}`}><input type="checkbox" name="verdict" value={v} /><i></i>{t.verdicts[v]}<b>{count((c) => c.verdict === v)}</b></label>
+      ))}
+    </div>
+    <details class="mf" id="mf" open><summary>More filters</summary>
+    <div class="frow more">
+      <label>{h.speaker}<select id="f-s"><option value="">Everyone</option>{speakers.map((s) => <option value={s}>{s} ({count((c) => c.speaker === s)})</option>)}</select></label>
+      <label>{h.topic}<select id="f-t"><option value="">All topics</option>{topics.map((s) => <option value={s}>{s}</option>)}</select></label>
+      <label>{h.year}<select id="f-y"><option value="">Any year</option>{years.map((s) => <option>{s}</option>)}</select></label>
+      <label>{h.type}<select id="f-c"><option value="">All kinds</option>{types.map((s) => <option value={s}>{t.claimTypes[s] ?? s}</option>)}</select></label>
+      <label>Sort<select id="sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select></label>
+    </div></details>
   </form>
-  <p class="sans small muted" id="count" aria-live="polite">{h.results(claims.length, claims.length)}</p>
 
-  <div id="list">{claims.map((c) => <ClaimCard claim={c} />)}</div>
-  <p id="none" class="muted" hidden>{h.none}</p>
+  <div class="rbar">
+    <p id="count" aria-live="polite">{h.results(claims.length, claims.length)}</p>
+    <button type="button" class="linkbtn" id="reset" hidden>Clear all filters</button>
+  </div>
+
+  <div id="list" class="cgrid">{claims.map((c) => <ClaimCard claim={c} />)}</div>
+  <div id="none" class="empty panel" hidden>
+    <p><b>{h.none}</b></p>
+    <p class="kv">Try a shorter search, or clear the filters.</p>
+    <button type="button" class="btn" id="reset2">Clear all filters</button>
+  </div>
 
   <script type="application/json" id="claim-index" set:html={JSON.stringify(index).replace(/</g, '\\u003c')} />
   <script is:inline>
     const idx = JSON.parse(document.getElementById('claim-index').textContent);
     const $ = (id) => document.getElementById(id);
-    const cards = new Map([...document.querySelectorAll('#list .card')].map((el) => [el.dataset.id, el]));
-    const ids = ['q', 'f-s', 'f-v', 'f-t', 'f-y', 'f-c'];
+    const list = $('list');
+    const cards = new Map([...list.querySelectorAll('.ccard')].map((el) => [el.dataset.id, el]));
+    const sels = ['f-s', 'f-t', 'f-y', 'f-c'];
+    const radios = [...document.querySelectorAll('input[name=party]')];
+    const boxes = [...document.querySelectorAll('input[name=verdict]')];
+    const party = () => (radios.find((r) => r.checked) || {}).value || '';
+    const verdicts = () => boxes.filter((b) => b.checked).map((b) => b.value);
+    let lastSort = 'new';
     const apply = () => {
       const q = $('q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
-      const [s, v, tp, y, c] = ids.slice(1).map((i) => $(i).value);
+      const [s, tp, y, c] = sels.map((i) => $(i).value);
+      const p = party(), vs = verdicts();
       let n = 0;
       for (const r of idx) {
-        const ok = (!s || r.s === s) && (!v || r.v === v) && (!tp || r.t.includes(tp)) && (!y || r.y === y) && (!c || r.ct === c) && q.every((w) => r.q.includes(w));
+        const ok = (!p || r.p === p) && (!vs.length || vs.includes(r.v)) && (!s || r.s === s) && (!tp || r.t.includes(tp)) && (!y || r.y === y) && (!c || r.ct === c) && q.every((w) => r.q.includes(w));
         cards.get(r.id).hidden = !ok; if (ok) n++;
       }
-      $('count').textContent = n + ' of ' + idx.length + ' claims';
+      const sort = $('sort').value;
+      if (sort !== lastSort) { [...cards.values()].reverse().forEach((el) => list.appendChild(el)); lastSort = sort; }
+      $('count').textContent = n === idx.length ? `All ${idx.length} claims` : `${n} of ${idx.length} claims`;
       $('none').hidden = n > 0;
-      const p = new URLSearchParams(); ids.forEach((i) => $(i).value && p.set(i, $(i).value));
-      history.replaceState(null, '', p.toString() ? '?' + p : location.pathname);
+      radios.forEach((r) => r.parentElement.classList.toggle('on', r.checked));
+      boxes.forEach((b) => b.parentElement.classList.toggle('on', b.checked));
+      const active = q.length || p || vs.length || sels.some((i) => $(i).value);
+      $('reset').hidden = !active;
+      const u = new URLSearchParams();
+      if ($('q').value) u.set('q', $('q').value);
+      if (p) u.set('party', p);
+      if (vs.length) u.set('verdict', vs.join(','));
+      sels.forEach((i) => $(i).value && u.set(i, $(i).value));
+      if (sort !== 'new') u.set('sort', sort);
+      history.replaceState(null, '', u.toString() ? '?' + u : location.pathname);
     };
-    const p = new URLSearchParams(location.search); ids.forEach((i) => { if (p.get(i)) $(i).value = p.get(i); });
-    ids.forEach((i) => $(i).addEventListener('input', apply));
-    $('reset').addEventListener('click', () => { ids.forEach((i) => ($(i).value = '')); apply(); });
+    const reset = () => { $('q').value = ''; radios.forEach((r) => (r.checked = r.value === '')); boxes.forEach((b) => (b.checked = false)); sels.forEach((i) => ($(i).value = '')); apply(); };
+    const init = new URLSearchParams(location.search);
+    if (init.get('q')) $('q').value = init.get('q');
+    if (init.get('party')) radios.forEach((r) => (r.checked = r.value === init.get('party')));
+    (init.get('verdict') || '').split(',').forEach((v) => boxes.forEach((b) => { if (b.value === v) b.checked = true; }));
+    sels.forEach((i) => { if (init.get(i)) $(i).value = init.get(i); });
+    if (init.get('sort')) $('sort').value = init.get('sort');
+    [$('q'), $('sort'), ...sels.map($), ...radios, ...boxes].forEach((el) => el.addEventListener('input', apply));
+    $('reset').addEventListener('click', reset); $('reset2').addEventListener('click', reset);
+    if (matchMedia('(max-width: 760px)').matches && !sels.some((i) => $(i).value) && $('sort').value === 'new') $('mf').open = false;
     apply();
   </script>
 </Base>
+
+<style>
+  .ch-head { margin-bottom: 20px; }
+  .ch-head .lede { margin: 0; }
+  .fbar { display: flex; flex-direction: column; gap: 12px; padding: 14px 16px; margin: 0 0 4px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-card); }
+  .frow { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .fsearch { position: relative; flex: 1 1 320px; display: flex; align-items: center; }
+  .fsearch svg { position: absolute; left: 12px; color: var(--muted); pointer-events: none; }
+  .fsearch input { width: 100%; height: 40px; padding-left: 36px; font-size: 15px; }
+  .seg { display: inline-flex; background: var(--raised); border-radius: var(--r-control); padding: 3px; gap: 2px; }
+  .seg-i { display: inline-flex; align-items: center; gap: 7px; height: 34px; padding: 0 12px; border-radius: 4px; cursor: pointer; font-size: 14px; color: var(--muted); white-space: nowrap; transition: background .15s, color .15s; }
+  .seg-i input { position: absolute; opacity: 0; pointer-events: none; }
+  .seg-i b { font-weight: 500; font-size: 12px; }
+  .seg-i:hover { color: var(--text); }
+  .seg-i.on { background: var(--control); color: var(--text); font-weight: 600; }
+  .seg-i:has(input:focus-visible) { outline: 2px solid var(--p-inc); outline-offset: 1px; }
+  .seg-i .plogo { width: 20px; height: 20px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { display: inline-flex; align-items: center; gap: 7px; height: 32px; padding: 0 12px; border-radius: 999px; font-size: 13px; cursor: pointer; background: var(--raised) !important; color: var(--text) !important; border: 1px solid transparent; transition: border-color .15s, background .15s; user-select: none; }
+  .chip input { position: absolute; opacity: 0; pointer-events: none; }
+  .chip i { width: 8px; height: 8px; border-radius: 50%; }
+  .chip.v-false i { background: var(--v-false); } .chip.v-misleading i { background: var(--v-misleading); } .chip.v-unachieved i { background: var(--v-unachieved); }
+  .chip.v-missed-deadline i { background: var(--v-missed-deadline); } .chip.v-in-progress i { background: var(--v-in-progress); } .chip.v-true i { background: var(--v-true); } .chip.v-unverifiable i { background: var(--v-unverifiable); }
+  .chip b { font-weight: 500; color: var(--muted); }
+  .chip:hover { border-color: var(--control); }
+  .chip.on { border-color: var(--text); background: var(--control) !important; font-weight: 600; }
+  .chip:has(input:focus-visible) { outline: 2px solid var(--p-inc); outline-offset: 1px; }
+  .mf summary { display: none; cursor: pointer; font-size: 14px; color: var(--text); font-weight: 500; }
+  .mf[open] summary { margin-bottom: 10px; }
+  .more label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); flex: 1 1 150px; }
+  .more select { width: 100%; }
+  .rbar { display: flex; align-items: center; gap: 16px; margin: 16px 0 12px; }
+  .rbar p { margin: 0; font-size: 14px; color: var(--muted); }
+  .linkbtn { background: none; border: 0; padding: 0; min-height: 0; color: var(--text); text-decoration: underline; text-underline-offset: 3px; font-size: 14px; }
+  .linkbtn:hover { background: none; }
+  /* Cards fill the width in as many columns as fit, each at a readable line length. */
+  .cgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); gap: var(--gap); align-items: stretch; }
+  .empty { text-align: center; padding: 40px 20px; }
+  .empty .btn { margin-top: 8px; }
+  @media (max-width: 760px) {
+    .seg { width: 100%; } .seg-i { flex: 1; justify-content: center; padding: 0 6px; } .seg-i b { display: none; }
+    .chips { flex-wrap: nowrap; overflow-x: auto; margin: 0 -16px; padding: 0 16px 2px; scrollbar-width: none; } .chip { flex: none; }
+    .mf summary { display: list-item; }
+    .more label { flex: 1 1 40%; }
+  }
+</style>

@@ -196,3 +196,22 @@ p.kv { margin-top:10px; }
 @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
 .clink { display:block; min-width:240px; max-width:440px; font-weight:500; }
 table.dense td.num { white-space:nowrap; }
+
+/* Claim cards */
+.ccard { position:relative; display:flex; flex-direction:column; gap:12px; padding:18px 20px; background:var(--surface); border:1px solid var(--border); border-radius:var(--r-card); transition:border-color .15s, transform .15s; }
+.ccard[hidden] { display:none; }
+.ccard:hover { border-color:var(--control); }
+.ccard:active { transform:translateY(1px); }
+.ccard:has(.ccard-link:focus-visible) { outline:2px solid var(--p-inc); outline-offset:2px; }
+.ccard-h { display:flex; align-items:center; gap:10px; }
+.ccard-who { display:flex; flex-direction:column; min-width:0; flex:1; line-height:1.3; }
+.ccard-who b { font-weight:600; font-size:14px; }
+.ccard-who span { font-size:12px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.ccard-q { margin:0; font-size:17px; line-height:1.45; color:var(--text); display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden; }
+.ccard-s { margin:0; font-size:14px; line-height:1.5; color:var(--muted); display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+.ccard-s span { display:block; font-size:12px; font-weight:500; color:var(--text); margin-bottom:2px; }
+.ccard-f { margin-top:auto; padding-top:10px; border-top:1px solid var(--rule); display:flex; justify-content:space-between; align-items:center; gap:12px; font-size:12px; color:var(--muted); }
+.ccard-link { font-size:13px; font-weight:500; color:var(--text); text-decoration:none; white-space:nowrap; }
+.ccard-link::after { content:""; position:absolute; inset:0; border-radius:inherit; }
+.ccard:hover .ccard-link { text-decoration:underline; }
+.ccard-link:focus-visible { outline:none; }

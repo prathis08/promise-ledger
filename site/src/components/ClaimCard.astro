@@ -1,13 +1,25 @@
 ---
+// One claim in the claims grid. The whole card is the link (a stretched ::after on the title link).
 import { u } from '../lib/site';
+import { t } from '../i18n/en';
 import Badge from './Badge.astro';
 import PartyLogo from './PartyLogo.astro';
 const { claim } = Astro.props;
-const q = (claim.quote_english || claim.quote_original || '');
-const snip = q.length > 220 ? q.slice(0, 217).trimEnd() + '…' : q;
+const q = claim.quote_english || claim.quote_original || '';
+// Format from the string itself so no timezone can shift the day.
+const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const when = (() => { const m = /^(\d{4})-(\d{2})(?:-(\d{2}))?/.exec(claim.date ?? ''); return m ? `${m[3] ? `${+m[3]} ` : ''}${MON[+m[2] - 1]} ${m[1]}` : claim.date; })();
 ---
-<article class="card" data-id={claim.id}>
-  <div class="meta"><Badge verdict={claim.verdict} /><span class="party"><PartyLogo party={claim.party} size={14} />{claim.speaker}</span><time datetime={claim.date}>{claim.date}</time>{claim.scored === false && <span class="nscored">background only, not scored</span>}{claim.review_status === 'draft' && <span>(not checked yet)</span>}</div>
-  <blockquote>“{snip}”</blockquote>
-  <a class="title sans small" href={u(`/claims/${claim.id}/`)}>{claim.summary || 'Read the full check'} →</a>
+<article class="ccard" data-id={claim.id} data-party={claim.party}>
+  <header class="ccard-h">
+    <PartyLogo party={claim.party} size={22} />
+    <div class="ccard-who"><b>{claim.speaker}</b><span><time datetime={claim.date}>{when}</time>{claim.role && <> · {claim.role}</>}</span></div>
+    <Badge verdict={claim.verdict} />
+  </header>
+  {q && <blockquote class="ccard-q">“{q}”</blockquote>}
+  {claim.summary && <p class="ccard-s"><span>What we found</span>{claim.summary}</p>}
+  <footer class="ccard-f">
+    <span>{t.claimTypes[claim.claim_type] ?? claim.claim_type}{claim.topics[0] && ` · ${claim.topics[0]}`}{claim.scored === false && ' · background only, not scored'}{claim.review_status === 'draft' && ' · not checked yet'}</span>
+    <a class="ccard-link" href={u(`/claims/${claim.id}/`)} aria-label={`Read the full check: ${claim.summary || claim.speaker}`}>Read the full check →</a>
+  </footer>
 </article>
