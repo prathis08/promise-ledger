@@ -98,6 +98,24 @@ const dtxt = (d: { diff: number | null; significant: boolean }) => d.diff == nul
       </article>); }))}
   </div>
 
+  <h2>Which party did better on each topic?</h2>
+  <div class="panel spread" role="img" aria-label={`Score by topic, out of 100: ${b.domains.map((d) => `${d.name}: ${PARTIES.map((p) => `${p.name} ${d.byParty[p.id].AB.sufficient ? f3(d.byParty[p.id].AB.mean) : 'too few to score'}`).join(', ')}`).join('; ')}`}>
+    <ul class="legend sp-legend">{PARTIES.map((p) => <li data-party={p.id}><PartyLogo party={p.id} size={14} />{p.label}</li>)}<li class="sp-mid">The line marks 50</li></ul>
+    {b.domains.map((d) => (
+      <div class="sp-row">
+        <div class="sp-name">{d.name}</div>
+        <div class="sp-bars">
+          {PARTIES.map((p) => { const st = d.byParty[p.id].AB; return (
+            <div class="sp-bar" data-party={p.id} title={`${p.name} · ${d.name}: ${st.sufficient ? f3(st.mean) : 'too few to score'} (from ${st.n} claims)`}>
+              <div class="sp-track">{st.sufficient && <i style={`width:${(st.mean! * 100).toFixed(1)}%`}></i>}</div>
+              <span class="sp-val">{st.sufficient ? f3(st.mean) : <span class="kv">too few to score</span>}{st.sufficient && <span class="kv"> from {st.n}</span>}</span>
+            </div>); })}
+        </div>
+      </div>
+    ))}
+  </div>
+  <p class="kv">Each bar is the party's average score, out of 100, for everything they said or promised on that topic. Longer is better. When a party has fewer than {MIN_N} claims on a topic, we don't draw a bar.</p>
+
   <h2>The three parts of the score</h2>
   <div class="tablewrap"><table class="dense">
     <thead><tr><th>Part</th>{partyRows.map((r) => <th><span class="party"><PartyLogo party={r.party} size={14} />{r.label}</span></th>)}<th>Difference (BJP minus Congress)</th></tr></thead>
@@ -195,6 +213,23 @@ const dtxt = (d: { diff: number | null; significant: boolean }) => d.diff == nul
   .foot { margin-top: auto; font-size: 13px; font-weight: 500; }
   .mixbody { display: flex; flex-direction: column; align-items: center; gap: 14px; }
   .mixbody .vlist { width: 100%; }
+  .spread { display: flex; flex-direction: column; gap: 4px; }
+  .sp-legend { margin-bottom: 10px; }
+  .sp-legend li { display: inline-flex; align-items: center; gap: 6px; }
+  .sp-mid { margin-left: auto; }
+  .sp-row { display: grid; grid-template-columns: minmax(150px, 240px) 1fr; gap: 20px; align-items: center; padding: 10px 0; border-top: 1px solid var(--rule); }
+  .sp-name { font-size: 14px; font-weight: 500; }
+  .sp-bars { display: flex; flex-direction: column; gap: 6px; }
+  .sp-bar { display: grid; grid-template-columns: 1fr 120px; gap: 12px; align-items: center; }
+  .sp-track { position: relative; height: 14px; background: var(--raised); border-radius: 3px; overflow: hidden; }
+  .sp-track::after { content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; margin-left: -1px; background: var(--text); opacity: .45; z-index: 1; }
+  .sp-track i { position: absolute; inset: 0 auto 0 0; border-radius: 3px; transition: opacity .15s; }
+  .sp-bar[data-party='BJP'] i { background: var(--p-bjp); }
+  .sp-bar[data-party='INC'] i { background: var(--p-inc); }
+  .sp-bar:hover i { opacity: .8; }
+  .sp-val { font-size: 14px; font-weight: 600; white-space: nowrap; }
+  .sp-val .kv { font-weight: 400; }
+  @media (max-width: 640px) { .sp-row { grid-template-columns: 1fr; gap: 8px; } .sp-bar { grid-template-columns: 1fr 96px; } .sp-mid { margin-left: 0; } }
   .heat2 td.c { text-align: center; min-width: 4.5rem; }
   .heat2 td.c b { display: block; font-weight: 600; }
   .heat2 td.c span { font-size: 12px; color: var(--text); }
