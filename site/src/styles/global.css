@@ -1,5 +1,5 @@
 /* Achromatic ledger (tasteskill app style, seed 1544805096). The chrome is ink and grey; colour goes on data only:
-   the two parties and the verdicts. Face: a blue-grey ledger ground, white sheets on it. One face, Geist. */
+   the two parties and the verdicts. Face: a blue-grey ledger ground, white sheets on it. Type: Bricolage Grotesque for display, Geist for text. */
 :root {
   --ground:#f2f4f7; --surface:#ffffff; --raised:#eef0f3; --border:#e3e6ea; --rule:#eef0f3; --control:#cfd4da;
   --text:#0a0a0a; --muted:#5e636b; --accent:#141414;
@@ -11,6 +11,8 @@
   --r-card:8px; --r-control:6px; --gap:12px; --pad:24px;
   --fs-title:28px; --fs-section:18px; --fs-kpi:44px; --fs-body:15px; --fs-small:13px;
   --sans:"Geist", Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Display face for headings, big figures and the wordmark; Geist carries body text and tables. */
+  --display:"Bricolage Grotesque", "Geist", system-ui, sans-serif;
   /* legacy names still used by page styles and Chart.js */
   --bg:var(--ground); --fg:var(--text); --line:var(--border); --card:var(--surface); --link:var(--text);
   --serif:var(--sans); --mono:var(--sans);
@@ -215,3 +217,11 @@ table.dense td.num { white-space:nowrap; }
 .ccard-link::after { content:""; position:absolute; inset:0; border-radius:inherit; }
 .ccard:hover .ccard-link { text-decoration:underline; }
 .ccard-link:focus-visible { outline:none; }
+
+/* Display type */
+h1, h2, h3, .brand, .gapfig, .progfig, .donut .hole b, .rates .big2, .cell .main, .sp-val, .ccard-who b, .counter b { font-family:var(--display); font-optical-sizing:auto; }
+h1 { font-size:clamp(28px, 2.6vw, 40px); font-weight:700; letter-spacing:-.025em; line-height:1.05; }
+h2 { font-size:clamp(19px, 1.5vw, 24px); font-weight:650; letter-spacing:-.015em; }
+h3 { font-weight:600; letter-spacing:-.01em; }
+.brand { font-weight:700; letter-spacing:-.02em; font-size:17px; }
+.gapfig, .donut .hole b { font-weight:800; letter-spacing:-.035em; }
