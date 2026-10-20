@@ -16,7 +16,6 @@ const dn = (id: string | null) => DOMAINS.find((d) => d.id === id)?.name ?? '';
 const num = (x: number) => (Math.abs(x) >= 1000 ? x.toLocaleString('en-US') : String(x));
 const Bar = (v: number | null) => v;
 ---
-import PartyLogo from '../../components/PartyLogo.astro';
 <Base title="Suite B: Promise Delivery">
   <h1>Suite B: {SUITES.B.name}</h1>
   <p class="muted">Test cases: claims of type promise. Score by verdict: {Object.entries(VERDICT_SCORES_B).map(([k, v]) => `${k} = ${v}`).join(', ')}. Unverifiable is not graded.</p>

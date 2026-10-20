@@ -19,7 +19,6 @@ const queue = claims.filter((c) => c.review_status !== 'verified').sort((a, b) =
 const newIssue = (id: string) => `${REPO_URL}/issues/new?template=claim-review.yml&title=${encodeURIComponent(`Review: ${id}`)}&claim_id=${encodeURIComponent(id)}`;
 const pct = (n: number) => `${((n / Math.max(1, claims.length)) * 100).toFixed(0)}%`;
 ---
-import PartyLogo from '../components/PartyLogo.astro';
 <Base title="Review claims">
   <h1>Review claims</h1>
   <p class="muted">Every entry starts as a draft, many of them researched by an AI model. Nothing should be trusted until people have checked it. Anyone can review; reviews from the trusted reviewer list count toward verification.</p>
