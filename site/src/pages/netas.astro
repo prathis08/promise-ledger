@@ -133,7 +133,7 @@ const ld = JSON.stringify({
 
 <style>
   .nh { margin-bottom: 16px; }
-  .nh .lede { margin: 0; max-width: 90ch; }
+  .nh .lede { margin: 0; max-width: none; }
   .ncontrols { display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: center; margin-bottom: 16px; }
   .seg { display: inline-flex; background: var(--raised); border-radius: var(--r-control); padding: 3px; gap: 2px; }
   .seg-i { position: relative; display: inline-flex; align-items: center; gap: 7px; height: 34px; padding: 0 14px; border-radius: 4px; cursor: pointer; font-size: 14px; color: var(--muted); }
@@ -173,8 +173,8 @@ const ld = JSON.stringify({
   .nrow[data-party='INC'] .nparts div:first-child .nbar i { background: var(--p-inc); }
   .nmore { grid-area: more; font-size: 14px; }
   .nmore summary { font-size: 13px; color: var(--muted); padding-top: 6px; }
-  .nmore p { margin: 8px 0 0; max-width: 110ch; }
-  .nhow p { max-width: 90ch; }
+  .nmore p { margin: 8px 0 0; }
+  .nhow p { max-width: none; }
   @media (max-width: 1100px) {
     .nrow { grid-template-columns: 36px 56px 1fr auto; grid-template-areas: 'rank photo who score' 'parts parts parts parts' 'more more more more'; gap: 10px 14px; }
     .nphoto { width: 56px; height: 56px; }
