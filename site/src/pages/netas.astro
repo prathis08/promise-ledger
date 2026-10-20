@@ -31,8 +31,16 @@ const client = rows.map((r) => ({ id: r.n.slug, p: r.party, parts: r.parts }));
 const f0 = (x: number | null) => (x == null ? '—' : x.toFixed(0));
 const f1 = (x: number | null) => (x == null ? '—' : x.toFixed(1));
 const W = NETA_WEIGHTS;
+// Structured data: the ranking as an ordered list of people, for search engines.
+const siteUrl = Astro.site ?? new URL('https://sarkaribenchmark.site');
+const PARTY_FULL: Record<string, string> = { INC: 'Indian National Congress', BJP: 'Bharatiya Janata Party' };
+const ld = JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'ItemList', name: 'Neta Ranking', itemListOrder: 'https://schema.org/ItemListOrderDescending',
+  itemListElement: rows.map((r, i) => ({ '@type': 'ListItem', position: i + 1, item: { '@type': 'Person', name: r.n.name, image: new URL(u(`/${r.n.portrait.file}`), siteUrl).href, affiliation: { '@type': 'PoliticalParty', name: PARTY_FULL[r.party] ?? r.party } } })),
+}).replace(/</g, '\\u003c');
 ---
-<Base title="Neta Ranking">
+<Base title="Neta Ranking: Indian politicians ranked on honesty, criminal cases and education" description={`${rows.length} BJP and Congress leaders, including Narendra Modi, Rahul Gandhi, Amit Shah and Yogi Adityanath, ranked on fact-checked honesty, criminal and corruption cases from their election affidavits, and education.`}>
+  <script slot="head" type="application/ld+json" set:html={ld} />
   <div class="nh">
     <h1>Neta Ranking</h1>
     <p class="lede">{rows.length} BJP and Congress leaders, ranked out of 100 on four things: how often what they said was true and their promises were kept (from the claims on this site), the criminal cases and corruption cases they declared in their own sworn election affidavit, and their education.</p>

@@ -17,7 +17,7 @@ const dn = (id: string | null) => DOMAINS.find((d) => d.id === id)?.name ?? '';
 const SUM = new Map(getData().claims.map((x) => [x.id, x.summary || x.id]));
 const title = (id: string) => { const s = SUM.get(id) ?? id; return s.length > 110 ? s.slice(0, 107).trimEnd() + '…' : s; };
 ---
-<Base title="Were their statements true?">
+<Base title="Were their statements true? BJP vs Congress fact-check" description="Every statement and number claim by BJP and Congress leaders that we checked, with the result and points for each.">
   <h1>Were their statements true?</h1>
   <p class="lede">Every statement or claim about numbers we checked. Each one earns points: {Object.entries(VERDICT_SCORES_A).map(([k, v]) => `${(t.verdicts[k] ?? k).toLowerCase()} = ${Math.round(v * 100)}`).join(', ')}. A party's score is the average, out of 100.</p>
   <div class="tablewrap"><table class="dense"><thead><tr><th>Party</th><th>Score</th></tr></thead><tbody>{prow.map((r) => <tr><th scope="row"><span class="party"><PartyLogo party={r.party} size={16} />{r.label}</span></th><td><Cell st={r.A} extra={`fully true: ${Math.round((r.A.share ?? 0) * 100)}% · could not be scored: ${r.A.abstained}`} /></td></tr>)}</tbody></table></div>

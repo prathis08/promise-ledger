@@ -16,7 +16,7 @@ const arrow = (d: number) => (d > 0.0005 ? '▲' : d < -0.0005 ? '▼' : '●');
 const pv = (p: { year: number; value: number; outOf: number | null }, rank: boolean) => `${p.year}: ${p.value}${rank && p.outOf ? `/${p.outOf}` : ''}`;
 const data = b.indices.map((r) => ({ x: r.excludable, e: Object.fromEntries(PARTIES.map((p) => [p.id, r.eras[p.id] ? { s: r.eras[p.id]!.score, d: r.eras[p.id]!.delta, y: r.eras[p.id]!.perYear } : null])) }));
 ---
-<Base title="World rankings">
+<Base title="India in world rankings under BJP and Congress" description="How India moved in global indices for hunger, press freedom, corruption, democracy and happiness under Congress (2004-2014) and the BJP (2014 to now).">
   <h1>Did India's world rankings get better?</h1>
   <p class="lede">Independent groups around the world rank countries on things like hunger, press freedom, corruption and happiness. We looked at where India stood when each party came to power and where it stood when they left (or today): <b>Congress</b> from 2004 to 2014, and <b>BJP</b> from 2014 to now. A ranking counts in a party's favour if India moved up while they were in charge.</p>
   <div class="eras">

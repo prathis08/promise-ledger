@@ -43,9 +43,13 @@ const ld = {
   itemReviewed: { '@type': 'Claim', author: { '@type': 'Person', name: c.speaker }, datePublished: c.date, appearance: c.transcript_sources.concat(c.media as any).filter((x) => x.url).map((x) => x.url) },
   reviewRating: { '@type': 'Rating', ratingValue: ratingValue[c.verdict], bestRating: 5, worstRating: 1, alternateName: t.verdicts[c.verdict] },
 };
+// Search titles lead with who said it and the result, then the start of the quote.
+const qText = (c.quote_english || c.quote_original || c.summary || '').replace(/\s+/g, ' ').trim();
+const seoTitle = `${c.speaker} fact-check: ${t.verdicts[c.verdict] ?? c.verdict} — “${qText.length > 70 ? qText.slice(0, 67).trimEnd() + '…' : qText}”`;
+const seoDesc = `${c.speaker} (${c.party === 'INC' ? 'Congress' : c.party}, ${c.date.slice(0, 4)}): ${c.summary || qText}`;
 const fmt = (u?: string) => u && /^https?:\/\//.test(u) ? u : undefined;
 ---
-<Base title={c.summary || c.id} description={c.summary}>
+<Base title={seoTitle} description={seoDesc} type="article">
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld).replace(/</g, '\\u003c')} />
   {draft && <div class="banner draft" role="alert">{t.draftBanner}</div>}
   {c.review_status === 'disputed' && <div class="banner draft" role="alert">Disputed: a trusted reviewer thinks this entry is wrong or needs changes. See the review section at the bottom.</div>}

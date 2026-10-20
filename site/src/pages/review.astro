@@ -23,7 +23,7 @@ const pct = (n: number) => `${((n / Math.max(1, claims.length)) * 100).toFixed(0
 const SUM = new Map(getData().claims.map((x) => [x.id, x.summary || x.id]));
 const title = (id: string) => { const s = SUM.get(id) ?? id; return s.length > 110 ? s.slice(0, 107).trimEnd() + '…' : s; };
 ---
-<Base title="Help check claims">
+<Base title="Help check claims" description="Help double-check Sarkari Benchmark: review a claim, its sources and its result with a short checklist on GitHub.">
   <h1>Help check claims</h1>
   <p class="lede">Every entry starts as a rough draft, and many were first researched with AI. None of it should be trusted until people have checked it. Anyone can help; reviews from people on our trusted list count toward marking an entry as double-checked.</p>
 

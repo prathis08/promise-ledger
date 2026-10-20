@@ -8,7 +8,7 @@ const rows = (o: Record<string, number>) => Object.entries(o);
 const pts = (x: number) => Math.round(x * 100);
 const vname = (k: string) => t.verdicts[k] ?? k;
 ---
-<Base title="How we score">
+<Base title="How we score" description="Exactly how Sarkari Benchmark checks claims and promises, gives points, compares BJP and Congress, and handles uncertainty.">
   <h1>How we score</h1>
   <p class="lede">The short version: we collect things leaders said or promised, check each one against official data, give it points, and average the points for each party. Below is exactly how, so anyone can check our work. Everything on this page is generated from the same code that calculates the scores (<code>scoring.ts</code>).</p>
 

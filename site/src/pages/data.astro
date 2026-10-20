@@ -5,7 +5,7 @@ import { t } from '../i18n/en';
 import { getData } from '../lib/data';
 const { claims, indices, series } = getData();
 ---
-<Base title={t.data.title}>
+<Base title={t.data.title} description="Download every fact-checked claim and promise as JSON or CSV, free to reuse.">
   <h1>{t.data.title}</h1>
   <p class="lede">Everything on this site comes from simple data files that anyone can download and reuse: one file per claim, plus the world rankings and the official number series. Right now there are <strong>{claims.length}</strong> claims, <strong>{indices.length}</strong> rankings and <strong>{series.length}</strong> number series.</p>
   <p>The download includes every claim, even ones not checked yet (see the <code>review_status</code> field). Each claim has these fields: speaker, date, venue, quote_original, quote_english, quote_is_verbatim, claim_type, deadline, verdict, summary, topics, media, evidence, govt_response, analysis, confidence, review_status, last_reviewed, notes.</p>

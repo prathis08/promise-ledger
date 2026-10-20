@@ -4,20 +4,43 @@ import '../styles/global.css';
 import { t } from '../i18n/en';
 import { getData } from '../lib/data';
 import Flag from '../components/Flag.astro';
-const { title, description = t.tagline } = Astro.props;
+// title: the page's own name ("Neta Ranking"), shown as "<title> — Sarkari Benchmark".
+// fullTitle: replaces the whole <title> (the home page uses it to lead with the site name and what it is).
+const { title, fullTitle, description = t.tagline, image = '/og.png', type = 'website' } = Astro.props;
 const path = Astro.url.pathname;
+const site = Astro.site ?? new URL('https://sarkaribenchmark.site');
+const pageTitle = fullTitle ?? (title ? `${title} — ${t.siteName}` : t.siteName);
+const canonical = new URL(path, site).href;
+const ogImage = new URL(u(image), site).href;
+const desc = description.length > 160 ? description.slice(0, 157).trimEnd() + '…' : description;
 const { fixture } = getData();
 const nav = [['/', 'Scoreboard'], ['/netas/', 'Neta Ranking'], ['/claims/', 'All claims'], ['/suites/accuracy/', 'Statements'], ['/suites/promises/', 'Promises'], ['/benchmarks/', 'World rankings'], ['/methodology/', t.nav.methodology], ['/data/', t.nav.data]];
 const cur = (h: string) => { const b = u(h); return h === '/' ? path === b || path === u('') : path.startsWith(b); };
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en-IN">
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{title ? `${title} — ${t.siteName}` : t.siteName}</title>
-  <meta name="description" content={description} />
-  <meta name="robots" content="noindex" />
+  <title>{pageTitle}</title>
+  <meta name="description" content={desc} />
+  <link rel="canonical" href={canonical} />
+  <meta name="theme-color" content="#0e0f11" />
+  <meta property="og:site_name" content={t.siteName} />
+  <meta property="og:type" content={type} />
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={desc} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_IN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={pageTitle} />
+  <meta name="twitter:description" content={desc} />
+  <meta name="twitter:image" content={ogImage} />
   <link rel="icon" type="image/svg+xml" href={u('/favicon.svg')} />
+  <link rel="icon" type="image/png" sizes="192x192" href={u('/icon-192.png')} />
+  <link rel="apple-touch-icon" href={u('/icon-192.png')} />
+  <link rel="sitemap" type="application/xml" href={u('/sitemap.xml')} />
   <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <script is:inline>try { if (localStorage.getItem('theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch (e) {}</script>

@@ -32,8 +32,19 @@ const who = (d: { diff: number | null; significant: boolean }) => d.diff == null
 const VLABEL: Record<string, string> = { true: 'True / kept', 'in-progress': 'Still in progress', 'missed-deadline': 'Missed the deadline', misleading: 'Misleading', unachieved: 'Not delivered', false: 'False', unverifiable: "Can't be checked", 'not-yet-due': 'Deadline not reached' };
 const w = (k: 'A' | 'B' | 'C') => Math.round(DEFAULT_WEIGHTS[k] * 100);
 const dtxt = (d: { diff: number | null; significant: boolean }) => d.diff == null ? '—' : `${fd(d.diff)} · ${d.significant ? 'a real gap' : 'too close to call'}`;
+// Structured data: the site and its publisher, plus a search box Google can show.
+const siteUrl = Astro.site ?? new URL('https://sarkaribenchmark.site');
+const ld = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [
+      { '@type': 'WebSite', '@id': new URL('/#website', siteUrl).href, name: 'Sarkari Benchmark', alternateName: 'Promise Ledger', url: new URL(u('/'), siteUrl).href, inLanguage: 'en-IN',
+        potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: new URL(u('/claims/'), siteUrl).href + '?q={search_term_string}' }, 'query-input': 'required name=search_term_string' } },
+      { '@type': 'Organization', '@id': new URL('/#org', siteUrl).href, name: 'Sarkari Benchmark', url: new URL(u('/'), siteUrl).href, logo: new URL(u('/icon-192.png'), siteUrl).href, sameAs: ['https://github.com/shreyashsiddharth-collab/promise-ledger'] },
+    ],
+}).replace(/</g, '\\u003c');
 ---
-<Base title="Scoreboard">
+<Base fullTitle="Sarkari Benchmark: BJP vs Congress promises and claims, fact-checked" description={`Did BJP and Congress keep their word? ${claims.length} statements and promises by Narendra Modi, Manmohan Singh, Amit Shah, Rahul Gandhi and other leaders, checked against official data and scored out of 100.`}>
+  <script slot="head" type="application/ld+json" set:html={ld} />
   <div class="titlerow">
     <div>
       <h1>BJP vs Congress: who kept their word?</h1>

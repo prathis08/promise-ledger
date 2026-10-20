@@ -19,7 +19,7 @@ const Bar = (v: number | null) => v;
 const SUM = new Map(getData().claims.map((x) => [x.id, x.summary || x.id]));
 const title = (id: string) => { const s = SUM.get(id) ?? id; return s.length > 110 ? s.slice(0, 107).trimEnd() + '…' : s; };
 ---
-<Base title="Did they keep their promises?">
+<Base title="Did they keep their promises? BJP vs Congress promise tracker" description="Every promise by BJP and Congress leaders we checked: kept on time, late, not delivered or still in progress, and how close each came to its target.">
   <h1>Did they keep their promises?</h1>
   <p class="lede">Every promise we checked. Each one earns points: {Object.entries(VERDICT_SCORES_B).map(([k, v]) => `${(t.verdicts[k] ?? k).toLowerCase()} = ${Math.round(v * 100)}`).join(', ')}. Promises whose deadline hasn't come yet are not scored. A party's score is the average, out of 100.</p>
   <div class="tablewrap"><table class="dense"><thead><tr><th>Party</th><th>Score</th></tr></thead><tbody>{prow.map((r) => <tr><th scope="row"><span class="party"><PartyLogo party={r.party} size={16} />{r.label}</span></th><td><Cell st={r.B} extra={`kept on time: ${Math.round((r.B.share ?? 0) * 100)}% · deadline not reached: ${r.B.pending} · could not be scored: ${r.B.abstained}`} /></td></tr>)}</tbody></table></div>

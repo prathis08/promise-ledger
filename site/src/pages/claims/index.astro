@@ -19,7 +19,7 @@ const index = claims.map((c) => ({
 }));
 const h = t.home;
 ---
-<Base title={h.title}>
+<Base title="All fact-checked claims and promises" description={`Search ${claims.length} fact-checked statements and promises by BJP and Congress leaders, filtered by party, result, speaker, topic and year.`}>
   <div class="ch-head">
     <h1>Every claim we checked</h1>
     <p class="lede">{claims.length} things BJP and Congress leaders said or promised, each checked against official data. {drafts > 0 && <span>{drafts} have not been double-checked by a person yet.</span>}</p>
