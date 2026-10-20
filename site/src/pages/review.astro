@@ -3,7 +3,7 @@ import PartyLogo from '../components/PartyLogo.astro';
 import Base from '../layouts/Base.astro';
 import Badge from '../components/Badge.astro';
 import { t } from '../i18n/en';
-import { getData } from '../lib/data';
+import { getData, VERDICTS } from '../lib/data';
 import { u, REPO_URL } from '../lib/site';
 const { claims } = getData();
 const STATUSES = ['verified', 'in-review', 'disputed', 'draft'] as const;
@@ -18,6 +18,7 @@ const queue = claims.filter((c) => c.review_status !== 'verified').sort((a, b) =
   conf[a.confidence] - conf[b.confidence] ||
   (a.grounding?.score ?? 0.5) - (b.grounding?.score ?? 0.5) ||
   a.id.localeCompare(b.id));
+const queueVerdicts = VERDICTS.filter((v) => queue.some((c) => c.verdict === v));
 const newIssue = (id: string) => `${REPO_URL}/issues/new?template=claim-review.yml&title=${encodeURIComponent(`Review: ${id}`)}&claim_id=${encodeURIComponent(id)}`;
 const pct = (n: number) => `${((n / Math.max(1, claims.length)) * 100).toFixed(0)}%`;
 const SUM = new Map(getData().claims.map((x) => [x.id, x.summary || x.id]));
@@ -45,13 +46,77 @@ const title = (id: string) => { const s = SUM.get(id) ?? id; return s.length > 1
 
   <h2>Claims waiting to be checked ({queue.length})</h2>
   <p class="kv">Disputed claims come first, then the ones closest to being double-checked, then the ones we are least sure about.</p>
-  <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Claim</th><th>Party</th><th>Who</th><th>Result</th><th>How sure</th><th class="r">Sources matched</th><th>Status</th><th class="r">Approvals</th><th></th></tr></thead>
-    <tbody>{queue.map((c) => (
-      <tr><td><a href={u(`/claims/${c.id}/`)} class="clink">{title(c.id)}</a></td><td><span class="party"><PartyLogo party={c.party} size={14} />{c.party}</span></td><td>{c.speaker}</td><td><Badge verdict={c.verdict} /></td>
-        <td>{t.confidence[c.confidence]}</td><td class="r num">{c.grounding?.checked ? `${c.grounding.matched}/${c.grounding.checked}` : '—'}</td>
-        <td>{STATUS[c.review_status] ?? c.review_status}</td><td class="r num">{approvals(c)}/2</td>
-        <td><a href={newIssue(c.id)} rel="noopener">Check it</a></td></tr>
-    ))}</tbody>
-  </table></div>
+  <form class="filters" id="queue-filters" role="search" onsubmit="return false">
+    <label class="search">Search<input type="search" id="qf-q" placeholder="Claim, person or summary" autocomplete="off" /></label>
+    <label>Party<select id="qf-party"><option value="">All parties</option><option value="BJP">BJP</option><option value="INC">Congress</option></select></label>
+    <label>Status<select id="qf-status"><option value="">All statuses</option>{STATUSES.filter((s) => s !== 'verified').map((s) => <option value={s}>{STATUS[s]}</option>)}</select></label>
+    <label>Certainty<select id="qf-conf"><option value="">Any certainty</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select></label>
+    <label>Result<select id="qf-verdict"><option value="">All results</option>{queueVerdicts.map((v) => <option value={v}>{t.verdicts[v]}</option>)}</select></label>
+    <label>&nbsp;<button type="button" id="qf-reset">Reset filters</button></label>
+  </form>
+  <p class="kv" id="qf-count" aria-live="polite">Showing {queue.length} of {queue.length} claims</p>
+
+  <div class="tablewrap queue-wrap">
+    <table class="dense queue-table" id="queue-table">
+      <thead><tr><th>Claim</th><th>Party</th><th>Who</th><th>Result</th><th>How sure</th><th class="r">Sources matched</th><th>Status</th><th class="r">Approvals</th><th></th></tr></thead>
+      <tbody>{queue.map((c) => (
+        <tr data-party={c.party} data-status={c.review_status} data-conf={c.confidence} data-verdict={c.verdict} data-q={`${c.id} ${c.speaker} ${SUM.get(c.id) ?? ''}`.toLowerCase()}>
+          <td data-label="Claim"><a href={u(`/claims/${c.id}/`)} class="clink">{title(c.id)}</a></td>
+          <td data-label="Party"><span class="party"><PartyLogo party={c.party} size={14} />{c.party}</span></td>
+          <td data-label="Who">{c.speaker}</td>
+          <td data-label="Result"><Badge verdict={c.verdict} /></td>
+          <td data-label="How sure">{t.confidence[c.confidence]}</td>
+          <td class="r num" data-label="Sources matched">{c.grounding?.checked ? `${c.grounding.matched}/${c.grounding.checked}` : '—'}</td>
+          <td data-label="Status">{STATUS[c.review_status] ?? c.review_status}</td>
+          <td class="r num" data-label="Approvals">{approvals(c)}/2</td>
+          <td><a href={newIssue(c.id)} rel="noopener">Check it</a></td>
+        </tr>
+      ))}</tbody>
+    </table>
+  </div>
+  <p id="qf-none" class="muted" hidden>No claims match these filters.</p>
+
+  <script is:inline>
+    const $ = (id) => document.getElementById(id);
+    const rows = [...document.querySelectorAll('#queue-table tbody tr')];
+    const ids = ['qf-q', 'qf-party', 'qf-status', 'qf-conf', 'qf-verdict'];
+    const apply = () => {
+      const q = $('qf-q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      const [party, status, confidence, verdict] = ids.slice(1).map((i) => $(i).value);
+      let n = 0;
+      for (const r of rows) {
+        const ok = (!party || r.dataset.party === party)
+          && (!status || r.dataset.status === status)
+          && (!confidence || r.dataset.conf === confidence)
+          && (!verdict || r.dataset.verdict === verdict)
+          && q.every((w) => r.dataset.q.includes(w));
+        r.hidden = !ok;
+        if (ok) n++;
+      }
+      $('qf-count').textContent = `Showing ${n} of ${rows.length} claims`;
+      $('qf-none').hidden = n > 0;
+    };
+    ids.forEach((i) => $(i).addEventListener('input', apply));
+    $('qf-reset').addEventListener('click', () => { ids.forEach((i) => ($(i).value = '')); apply(); });
+    apply();
+  </script>
 </Base>
+
+<style>
+  .queue-table tbody tr[hidden] { display:none; }
+  @media (max-width:760px) {
+    .queue-wrap { border:0; background:transparent; overflow:visible; }
+    .queue-table, .queue-table tbody, .queue-table tr, .queue-table td { display:block; width:100%; }
+    .queue-table thead { display:none; }
+    .queue-table tr { border:1px solid var(--border); border-radius:var(--r-card); background:var(--surface); padding:12px 14px; margin:0 0 10px; }
+    .queue-table td { border:0; padding:3px 0; }
+    .queue-table td::before { content:attr(data-label); display:inline-block; min-width:108px; margin-right:8px; font-size:12px; color:var(--muted); vertical-align:middle; }
+    #queue-table td.r { text-align:left; }
+    .queue-table td:first-child { margin-bottom:6px; }
+    .queue-table td:first-child::before { display:none; }
+    .queue-table td:first-child .clink { max-width:none; white-space:normal; }
+    .queue-table td:last-child { border-top:1px solid var(--border); margin-top:8px; padding-top:8px; }
+    .queue-table td:last-child::before { display:none; }
+    .queue-table td:last-child a { display:block; text-align:center; padding:9px; border:1px solid var(--border); border-radius:var(--r-control); text-decoration:none; font-weight:500; }
+  }
+</style>
