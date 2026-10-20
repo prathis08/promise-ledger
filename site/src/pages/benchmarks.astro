@@ -15,6 +15,7 @@ const FLAG: Record<string, string> = { comparability: 'hard to compare', discont
 const arrow = (d: number) => (d > 0.0005 ? '▲' : d < -0.0005 ? '▼' : '●');
 const pv = (p: { year: number; value: number; outOf: number | null }, rank: boolean) => `${p.year}: ${p.value}${rank && p.outOf ? `/${p.outOf}` : ''}`;
 const data = b.indices.map((r) => ({ x: r.excludable, e: Object.fromEntries(PARTIES.map((p) => [p.id, r.eras[p.id] ? { s: r.eras[p.id]!.score, d: r.eras[p.id]!.delta, y: r.eras[p.id]!.perYear } : null])) }));
+const topics = DOMAINS.filter((d) => b.indices.some((r) => r.domain === d.id));
 ---
 <Base title="India in world rankings under BJP and Congress" description="How India moved in global indices for hunger, press freedom, corruption, democracy and happiness under Congress (2004-2014) and the BJP (2014 to now).">
   <h1>Did India's world rankings get better?</h1>
@@ -42,43 +43,75 @@ const data = b.indices.map((r) => ({ x: r.excludable, e: Object.fromEntries(PART
   </table></div>
   <p class="kv">Change is in points out of 100. The two periods are different lengths (about 10 and 12 years), so the per-year change is the fairer comparison. Rankings usually come out a year or more late, so the 2014 edition mostly reflects the years before the BJP took over.</p>
 
-  <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Ranking</th><th>Topic</th>{PARTIES.map((p) => <th class="r"><span class="party"><PartyLogo party={p.id} size={14} />{p.id === 'INC' ? 'Congress' : p.name} years: start → end</span></th>)}<th>Where India stands now</th><th>Things to note</th></tr></thead>
-    <tbody>{b.indices.map((r) => (
-      <tr data-x={r.excludable ? '1' : '0'}>
-        <th scope="row"><a href={`#${r.slug}`}>{r.name}</a></th><td>{dn(r.domain)}</td>
+  <form class="filters" id="bf-filters" role="search" onsubmit="return false">
+    <label class="search">Search<input type="search" id="bf-q" placeholder="Ranking, topic or publisher" autocomplete="off" /></label>
+    <label>Topic<select id="bf-domain"><option value="">All topics</option>{topics.map((d) => <option value={d.id}>{d.name}</option>)}</select></label>
+    <label>Coverage<select id="bf-coverage"><option value="">Any coverage</option><option value="both">Both periods</option><option value="gaps">Missing one period</option></select></label>
+    <label>&nbsp;<button type="button" id="bf-reset">Reset filters</button></label>
+  </form>
+  <p class="kv" id="bf-count" aria-live="polite">Showing {b.indices.length} of {b.indices.length} rankings</p>
+
+  <div class="tablewrap"><table class="dense" id="index-table">
+    <thead><tr><th>Ranking</th><th class="b-hide">Topic</th>{PARTIES.map((p) => <th class="r"><span class="party"><PartyLogo party={p.id} size={14} />{p.id === 'INC' ? 'Congress' : p.name}</span> <span class="b-hide">years: start → end</span><span class="b-only">change</span></th>)}<th class="b-hide">Where India stands now</th><th class="b-hide">Things to note</th></tr></thead>
+    <tbody>{b.indices.map((r) => { const m = idxMeta.get(r.slug); return (
+      <tr data-x={r.excludable ? '1' : '0'} data-domain={r.domain ?? ''} data-bjp={r.eras.BJP ? '1' : '0'} data-inc={r.eras.INC ? '1' : '0'} data-name={`${r.name} ${m?.publisher ?? ''} ${dn(r.domain)}`.toLowerCase()}>
+        <th scope="row"><a href={`#${r.slug}`}>{r.name}</a></th><td class="b-hide">{dn(r.domain)}</td>
         {PARTIES.map((p) => { const e = r.eras[p.id]; return e
-          ? <td class="r num">{pv(e.start, r.isRank)} → {pv(e.end, r.isRank)}<br /><span class={cls(e.delta)}>{arrow(e.delta)} {fd(e.delta)}</span>{e.perYear != null && <span class="kv"> ({fd(e.perYear)} a year)</span>}</td>
-          : <td class="r kv">can't compare: {r.eraGaps[p.id]}</td>; })}
-        <td>{(() => { const l = r.series.at(-1); return l ? (
+          ? <td class="r num"><span class="b-hide">{pv(e.start, r.isRank)} → {pv(e.end, r.isRank)}<br /></span><span class={cls(e.delta)}>{arrow(e.delta)} {fd(e.delta)}</span>{e.perYear != null && <span class="kv b-peryear"> ({fd(e.perYear)} a year)</span>}</td>
+          : <td class="r kv" title={`can't compare: ${r.eraGaps[p.id]}`}><span class="b-hide">can't compare: {r.eraGaps[p.id]}</span><span class="b-only">No data</span></td>; })}
+        <td class="b-hide">{(() => { const l = r.series.at(-1); return l ? (
           <div class="pos-cell"><Donut size={44} thick={7} gap={0} segments={[{ value: l.norm, color: 'var(--p-inc)', label: `${l.year} position` }, { value: 1 - l.norm, color: 'var(--raised)', label: 'Below the top' }]} label={`${r.name}, ${l.year}: ${(l.norm * 100).toFixed(0)}% of the way to the top`} /><span class="num">{(l.norm * 100).toFixed(0)}%<span class="kv"> in {l.year}</span></span></div>
         ) : <span class="na">—</span>; })()}</td>
-        <td>{r.flags.map((f) => <div><span class="flag">{FLAG[f.kind] ?? f.kind}</span> <span class="kv">{f.text}</span></div>)}</td>
+        <td class="b-hide">{r.flags.map((f) => <div><span class="flag">{FLAG[f.kind] ?? f.kind}</span> <span class="kv">{f.text}</span></div>)}</td>
       </tr>
-    ))}</tbody>
+    ); })}</tbody>
   </table></div>
+  <p id="bf-none" class="muted" hidden>No rankings match these filters.</p>
   <p class="kv">To compare different rankings, we turn each one into a score out of 100, where 100 is the top spot. "Where India stands now" uses the newest edition: a full ring would mean first place. Exact formulas are on the <a href={u('/methodology/')}>How we score</a> page.</p>
 
   <h2>About each ranking</h2>
-  {b.indices.map((r) => { const m = idxMeta.get(r.slug)!; return (
-    <section id={r.slug} data-x={r.excludable ? '1' : '0'}>
-      <h3>{r.name}</h3>
-      <p class="kv">{m.publisher}{m.url && /^https?:/.test(m.url) && <> · <a href={m.url} rel="noopener">source</a></>} · measures: {m.metric}{m.out_of_label && ` · ${m.out_of_label}`}</p>
-      {m.methodology_note && <p><strong>How they measure it.</strong> {m.methodology_note}</p>}
-      {m.govt_response.length > 0 && <>{m.govt_response.map((g) => <p><strong>What the government says.</strong> {g.url && /^https?:/.test(g.url) ? <a href={g.url} rel="noopener">{g.title || g.url}</a> : g.title} {g.summary}</p>)}</>}
-      {m.related_claims.length > 0 && <p class="kv">Related claims: {m.related_claims.map((id, i) => <>{i > 0 && ', '}{getData().claims.some((c) => c.id === id) ? <a href={u(`/claims/${id}/`)}>{id}</a> : id}</>)}</p>}
-    </section>); })}
+  <p class="lede">Open a ranking to see what it measures, the caveats, the government's response and related claims.</p>
+  <div class="rank-details">
+    {b.indices.map((r) => { const m = idxMeta.get(r.slug)!; return (
+      <details class="rank-detail" id={r.slug} data-x={r.excludable ? '1' : '0'}>
+        <summary><span>{r.name}</span><span class="rank-topic">{dn(r.domain)}</span>{r.flags.length > 0 && <span class="flag">{r.flags.length} flag{r.flags.length > 1 ? 's' : ''}</span>}</summary>
+        <div class="rank-body">
+          <p class="kv">{m.publisher}{m.url && /^https?:/.test(m.url) && <> · <a href={m.url} rel="noopener">source</a></>} · measures: {m.metric}{m.out_of_label && ` · ${m.out_of_label}`}</p>
+          {m.methodology_note && <p><strong>How they measure it.</strong> {m.methodology_note}</p>}
+          {r.flags.length > 0 && <p class="kv">Caveats: {r.flags.map((f) => `${FLAG[f.kind] ?? f.kind} — ${f.text}`).join(' · ')}</p>}
+          {m.govt_response.length > 0 && <>{m.govt_response.map((g) => <p><strong>What the government says.</strong> {g.url && /^https?:/.test(g.url) ? <a href={g.url} rel="noopener">{g.title || g.url}</a> : g.title} {g.summary}</p>)}</>}
+          {m.related_claims.length > 0 && <p class="kv">Related claims: {m.related_claims.map((id, i) => <>{i > 0 && ', '}{getData().claims.some((c) => c.id === id) ? <a href={u(`/claims/${id}/`)}>{id}</a> : id}</>)}</p>}
+        </div>
+      </details>); })}</div>
 
   <script type="application/json" id="bd" set:html={JSON.stringify(data)} />
   <script>
     import { stat, PARTIES } from '../lib/scoring';
     const D = JSON.parse(document.getElementById('bd')!.textContent!);
-    const cb = document.getElementById('excl') as HTMLInputElement;
+    const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
+    const cb = $('excl');
+    const rows = [...document.querySelectorAll<HTMLTableRowElement>('#index-table tbody tr')];
     const f3 = (x: number | null) => (x == null ? '—' : (x * 100).toFixed(1));
     const sg = (x: number | null) => (x == null ? '—' : (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(1));
     const avg = (v: number[]) => (v.length ? v.reduce((a, b) => a + b, 0) / v.length : null);
     function upd() {
-      document.querySelectorAll<HTMLElement>('[data-x]').forEach((el) => (el.hidden = cb.checked && el.dataset.x === '1'));
+      const q = $('bf-q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      const domain = $('bf-domain').value;
+      const coverage = $('bf-coverage').value;
+      let shown = 0;
+      for (const r of rows) {
+        const isExcluded = cb.checked && r.dataset.x === '1';
+        const okDomain = !domain || r.dataset.domain === domain;
+        const okCoverage = !coverage || (coverage === 'both' ? r.dataset.bjp === '1' && r.dataset.inc === '1' : r.dataset.bjp === '0' || r.dataset.inc === '0');
+        const okQuery = q.every((w) => (r.dataset.name ?? '').includes(w));
+        const ok = !isExcluded && okDomain && okCoverage && okQuery;
+        r.hidden = !ok;
+        if (ok) shown++;
+      }
+      $('bf-count').textContent = `Showing ${shown} of ${rows.length} rankings`;
+      ($('bf-none') as HTMLElement).hidden = shown > 0;
+      document.querySelectorAll<HTMLElement>('.rank-detail').forEach((el) => (el.hidden = cb.checked && el.dataset.x === '1'));
+
       for (const p of PARTIES) {
         const e = D.filter((r: any) => !(cb.checked && r.x)).map((r: any) => r.e[p.id]).filter(Boolean);
         const s = stat(e.map((x: any) => x.s));
@@ -88,7 +121,18 @@ const data = b.indices.map((r) => ({ x: r.excludable, e: Object.fromEntries(PART
         document.getElementById('y-' + p.id)!.textContent = sg(avg(e.filter((x: any) => x.y != null).map((x: any) => x.y)));
       }
     }
-    cb.addEventListener('input', upd); upd();
+    ['bf-q', 'bf-domain', 'bf-coverage', 'excl'].forEach((id) => $(id).addEventListener('input', upd));
+    $('bf-reset').addEventListener('click', () => {
+      $('bf-q').value = '';
+      $('bf-domain').value = '';
+      $('bf-coverage').value = '';
+      upd();
+    });
+    document.querySelectorAll<HTMLAnchorElement>('#index-table a[href^="#"]').forEach((a) => a.addEventListener('click', () => {
+      const target = document.getElementById(a.getAttribute('href')!.slice(1)) as HTMLDetailsElement | null;
+      if (target) target.open = true;
+    }));
+    upd();
   </script>
 </Base>
 
@@ -101,6 +145,25 @@ const data = b.indices.map((r) => ({ x: r.excludable, e: Object.fromEntries(PART
   .vlist { flex-direction: column; gap: 5px; }
   .vlist li { display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; min-width: 160px; }
   .pos-cell { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
-  section[id] { scroll-margin-top: 72px; }
-  @media (max-width: 640px) { .eras { grid-template-columns: 1fr; } }
+  section[id], .rank-detail[id] { scroll-margin-top: 72px; }
+  .b-only { display:none; }
+  .rank-details { display:grid; gap:10px; margin:16px 0; }
+  .rank-detail { border:1px solid var(--border); border-radius:var(--r-card); background:var(--surface); }
+  .rank-detail[hidden] { display:none; }
+  .rank-detail summary { display:flex; align-items:center; gap:10px; padding:12px 16px; font-weight:500; color:var(--text); }
+  .rank-detail summary .rank-topic { margin-left:auto; font-size:var(--fs-small); font-weight:400; color:var(--muted); }
+  .rank-detail summary .flag { white-space:nowrap; }
+  .rank-detail[open] summary { border-bottom:1px solid var(--border); }
+  .rank-body { padding:12px 18px 16px; }
+  .rank-body p { max-width:90ch; }
+  #index-table tbody tr[hidden] { display:none; }
+  @media (max-width: 760px) {
+    .eras { grid-template-columns: 1fr; }
+    .b-hide, .b-peryear { display:none !important; }
+    #index-table { font-size:13px; }
+    #index-table th, #index-table td { padding:8px; }
+    .b-only { display:inline; }
+    .rank-detail summary { flex-wrap:wrap; row-gap:4px; }
+    .rank-detail summary .rank-topic { margin-left:0; width:100%; }
+  }
 </style>
