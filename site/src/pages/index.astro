@@ -94,7 +94,10 @@ const ld = JSON.stringify({
         <td>{who(b.rateDiffs[r.id])}</td></tr>
     ))}</tbody>
   </table></div>
-  <p class="kv">"Too close to call" means the gap is small enough that it could be down to chance or to which claims were picked. Promises whose deadline hasn't come yet, and claims that can't be checked, are left out.</p>
+  <ul class="notes-list">
+    <li><b>Too close to call:</b> the gap is small enough that it could be down to chance or to which claims were picked.</li>
+    <li><b>Left out:</b> promises whose deadline hasn't come yet, and claims that can't be checked.</li>
+  </ul>
 
   <h2>What happened to each claim</h2>
   <div class="mixgrid">
@@ -136,7 +139,11 @@ const ld = JSON.stringify({
       <tr><th scope="row"><a href={u('/benchmarks/')}>Did India's world rankings improve?</a></th>{partyRows.map((r) => <td>{r.C && <Cell st={r.C} extra={`${r.C.improved} got better, ${r.C.declined} got worse`} />}</td>)}<td class="num">{dtxt(b.h2h.C)}</td></tr>
     </tbody>
   </table></div>
-  <p class="kv">All scores are out of 100; higher is better. World rankings compare India's place in global indices at the start and end of each party's time in power (Congress: 2004 to 2014, BJP: 2014 to now). Where there are fewer than {MIN_N} claims, we don't show a score.</p>
+  <ul class="notes-list">
+    <li><b>Scale:</b> all scores are out of 100, and higher is better.</li>
+    <li><b>World rankings:</b> compare India's place at the start and end of each party's time in power (Congress: 2004 to 2014; BJP: 2014 to now).</li>
+    <li><b>Too few claims:</b> when there are fewer than {MIN_N} claims, no score is shown.</li>
+  </ul>
 
   <h2>Scores by leader</h2>
   <div class="tablewrap"><table class="dense">
@@ -152,7 +159,11 @@ const ld = JSON.stringify({
       ))}
     </tbody>
   </table></div>
-  <p class="kv">First each party, then by job (Union ministers, Chief Ministers, party leaders), then each person with at least 3 checked claims.</p>
+  <ul class="notes-list">
+    <li><b>Order:</b> each party first.</li>
+    <li><b>Then by job:</b> Union ministers, Chief Ministers, and party leaders.</li>
+    <li><b>Then people:</b> only those with at least 3 checked claims get their own row.</li>
+  </ul>
 
   <h2>Scores by topic</h2>
   <div class="tablewrap"><table class="dense heat2">
@@ -163,7 +174,11 @@ const ld = JSON.stringify({
         : <td class="c na">{st.n === 0 ? 'none' : `only ${st.n}`}</td>))}</tr>
     ))}</tbody>
   </table></div>
-  <p class="kv">Scores out of 100. Green means mostly good, red mostly bad. Each claim is counted under its main topic only. Grey cells have too few claims to score.</p>
+  <ul class="notes-list">
+    <li><b>Scale:</b> scores out of 100. Green means mostly good; red means mostly bad.</li>
+    <li><b>Counting:</b> each claim is counted under its main topic only.</li>
+    <li><b>Grey cells:</b> there are too few claims to score.</li>
+  </ul>
 
   <script type="application/json" id="bench-data" set:html={JSON.stringify(clientData)} />
   <script>
