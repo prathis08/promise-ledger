@@ -5,6 +5,7 @@ export function getBench() {
   if (!cache) { const d = getData(); cache = computeBenchmark(d.claims, d.indices, d.series); }
   return cache;
 }
-export const f3 = (x: number | null | undefined) => (x == null ? '—' : x.toFixed(3));
-export const fci = (ci: [number, number] | null) => (ci ? `[${ci[0].toFixed(2)}, ${ci[1].toFixed(2)}]` : '');
-export const fd = (x: number) => (x >= 0 ? '+' : '−') + Math.abs(x).toFixed(3);
+// Scores are computed on a 0–1 scale and shown out of 100, which reads more easily.
+export const f3 = (x: number | null | undefined) => (x == null ? '—' : (x * 100).toFixed(1));
+export const fci = (ci: [number, number] | null) => (ci ? `${(ci[0] * 100).toFixed(0)} to ${(ci[1] * 100).toFixed(0)}` : '');
+export const fd = (x: number) => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(1);

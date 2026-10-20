@@ -5,65 +5,66 @@ import { t } from '../i18n/en';
 import { VERDICTS } from '../lib/data';
 import * as S from '../lib/scoring';
 const rows = (o: Record<string, number>) => Object.entries(o);
-const pct = (x: number) => x.toFixed(3);
+const pts = (x: number) => Math.round(x * 100);
+const vname = (k: string) => t.verdicts[k] ?? k;
 ---
-<Base title="Methodology">
-  <h1>Methodology</h1>
-  <p>Each claim is a test case. Suites group test cases; global indices are external benchmarks. This page is generated from the constants in <code>scoring.ts</code>, which also computes the scores.</p>
+<Base title="How we score">
+  <h1>How we score</h1>
+  <p class="lede">The short version: we collect things leaders said or promised, check each one against official data, give it points, and average the points for each party. Below is exactly how, so anyone can check our work. Everything on this page is generated from the same code that calculates the scores (<code>scoring.ts</code>).</p>
 
-  <h2>Verdict definitions</h2>
+  <h2>What each result means</h2>
   <dl>{VERDICTS.map((v) => <><dt style="margin-top:.6em"><Badge verdict={v} /></dt><dd style="margin-left:0">{t.verdictDefs[v]}</dd></>)}</dl>
-  <p>Claims with verdict "true" are included and scored on the same terms as every other verdict.</p>
+  <p>Claims that turned out true are scored exactly like every other claim.</p>
 
-  <h2>Suite A: {S.SUITES.A.name}</h2>
-  <p>Applies to claim types: {S.SUITES.A.claimTypes.join(', ')}. Suite score = mean of case scores. Strict accuracy = share of graded cases with verdict true. Verdicts not listed are not graded (counted as abstained).</p>
-  <table class="dense"><thead><tr><th>Verdict</th><th class="r">Score</th></tr></thead><tbody>{rows(S.VERDICT_SCORES_A).map(([k, v]) => <tr><td>{k}</td><td class="r num">{v}</td></tr>)}</tbody></table>
+  <h2>Part 1: Were their statements true?</h2>
+  <p>This covers statements and claims about numbers. Each one gets points by its result, and the party's score is the average. "Fully true" is the share that were completely true. Results not in this table are not scored.</p>
+  <table class="dense"><thead><tr><th>Result</th><th class="r">Points out of 100</th></tr></thead><tbody>{rows(S.VERDICT_SCORES_A).map(([k, v]) => <tr><td>{vname(k)}</td><td class="r num">{pts(v)}</td></tr>)}</tbody></table>
 
-  <h2>Suite B: {S.SUITES.B.name}</h2>
-  <p>Applies to claim type: {S.SUITES.B.claimTypes.join(', ')}. Suite score = mean of case scores. On-time rate = share of graded promises with verdict true. Unverifiable is not graded.</p>
-  <table class="dense"><thead><tr><th>Verdict</th><th class="r">Score</th></tr></thead><tbody>{rows(S.VERDICT_SCORES_B).map(([k, v]) => <tr><td>{k}</td><td class="r num">{v}</td></tr>)}</tbody></table>
-  <p><strong>Not yet due.</strong> A promise whose deadline is after the evaluation date ({S.AS_OF}) is not graded, whatever its verdict: no credit for early delivery and no penalty for work in progress. It is listed as "not yet due".</p>
-  <p><strong>Gap closed</strong> (promises with a numeric target and a series): (value − baseline) / (target − baseline), clamped to [0, 1]. Baseline is the series point at or before the claim date, else the first point. Reported at the deadline (last point at or before it) and at the latest point. Series labels are read as the end of the period they cover (a financial year such as 2015-16 ends on 31 March 2016). A caveat flag is shown when units or prices differ between series and target, or when the baseline had to fall back to the first point.</p>
+  <h2>Part 2: Did they keep their promises?</h2>
+  <p>This covers promises. Each one gets points by its result, and the party's score is the average. "Kept on time" is the share fully delivered by the deadline. "Can't be checked" is not scored.</p>
+  <table class="dense"><thead><tr><th>Result</th><th class="r">Points out of 100</th></tr></thead><tbody>{rows(S.VERDICT_SCORES_B).map(([k, v]) => <tr><td>{vname(k)}</td><td class="r num">{pts(v)}</td></tr>)}</tbody></table>
+  <p><strong>Deadline not reached.</strong> If a promise's deadline is after {S.AS_OF}, it is not scored at all: no extra credit for finishing early and no penalty for work still going on.</p>
+  <p><strong>How close to the target.</strong> For promises with a number attached, we measure how much of the way from the starting point to the target was covered: (value − start) ÷ (target − start), kept between 0% and 100%. The starting point is the figure from just before the promise was made (or the earliest figure we have). We show this at the deadline and for the latest figures. Financial years like 2015-16 are treated as ending on 31 March 2016. A note is shown when units or prices don't match, or when we had to use the earliest figure as the start.</p>
 
-  <h2>Parties and eras</h2>
-  <p>Two "models" are evaluated: each claim is attributed to the party of the person who made it (Union ministers and the Prime Minister, Chief Ministers, and party office-bearers).</p>
-  <table class="dense"><thead><tr><th>Party</th><th>Claims counted</th><th>Index era</th></tr></thead><tbody>{S.PARTIES.map((p) => <tr><td>{p.label}</td><td>{p.claimEra}</td><td>{p.indexFrom} → {p.indexTo ?? 'latest'}</td></tr>)}</tbody></table>
-  <p><strong>Selection.</strong> Claims are researched with the same quota for each party and domain: 8 claims, at least 3 promises with a deadline or target, at least 3 statements or statistics, at least 2 by Chief Ministers, chosen from the most prominent and widely reported. Researchers are told to include claims that held up. This reduces, but cannot remove, selection bias.</p>
-  <p><strong>Known asymmetry.</strong> India's dedicated fact-checking organisations mostly started from 2014 onward, so claims from the INC era rely more on CAG reports, Parliament answers and later data, and less on contemporaneous fact-checks.</p>
-  <p><strong>Head to head.</strong> The difference BJP − INC is reported for every suite and for the overall score, with a {Math.round(S.CI_LEVEL * 100)}% bootstrap interval (independent resamples of each party's cases). A difference is called significant only when its interval excludes 0.</p>
+  <h2>Who counts for which party</h2>
+  <p>Each claim counts for the party of the person who made it: Union ministers and the Prime Minister, Chief Ministers, and party office-bearers.</p>
+  <table class="dense"><thead><tr><th>Party</th><th>Claims from</th><th>Rankings measured</th></tr></thead><tbody>{S.PARTIES.map((p) => <tr><td>{p.label}</td><td>{p.claimEra}</td><td>{p.indexFrom} → {p.indexTo ?? 'latest'}</td></tr>)}</tbody></table>
+  <p><strong>How claims are picked.</strong> We look for the same number of claims for each party and each topic: 8 claims, at least 3 promises with a deadline or target, at least 3 statements or number claims, and at least 2 by Chief Ministers, chosen from the best-known and most widely reported. Researchers are told to include claims that turned out true. This makes the picking fairer, but it can't make it perfect.</p>
+  <p><strong>A known imbalance.</strong> Most of India's fact-checking groups started around 2014, so Congress-era claims lean more on CAG audits, answers in Parliament and later data, and less on fact-checks from the time.</p>
+  <p><strong>Comparing the two parties.</strong> For every part and for the overall score we show BJP minus Congress, with a likely range ({Math.round(S.CI_LEVEL * 100)}% confidence, worked out by re-sampling each party's claims many times). We only call a gap real when that whole range is above zero or below zero. Otherwise we say "too close to call".</p>
 
-  <h2>Suite C: {S.SUITES.C.name}</h2>
-  <p>Each edition is normalised to 0–1, higher is better. Rank indices: 1 − (rank − 1) / (out_of − 1). Score indices: value / out_of, or the value as is when out_of is null and the scale is 0–1. Where out_of is missing for a rank edition, it is taken from the nearest year that has it and flagged.</p>
-  <p>For each party, an index is measured over that party's era: start = the edition at or before the era start (or up to {S.ERA_START_SLACK} years after it, flagged "late-start"); end = the last edition in the era (for a closed era, within {S.ERA_END_SLACK} years of its end). Score per index = {S.C_IMPROVED} if it improved, {S.C_FLAT} if flat (|Δ| ≤ {S.C_EPS}), {S.C_DECLINED} if it declined. Suite score = mean over measurable indices. Also reported: mean Δ and mean Δ per year, because the eras differ in length.</p>
-  <table class="dense"><thead><tr><th>Flagged index</th><th>Flag</th><th>Note</th></tr></thead><tbody>{Object.entries(S.INDEX_FLAGS).map(([k, f]) => <tr><td class="num">{k}</td><td>{f.kind}</td><td>{f.text}</td></tr>)}</tbody></table>
-  <p>The "exclude flagged indices" toggle removes the indices in this table from suite C and the overall score.</p>
+  <h2>Part 3: Did India's world rankings improve?</h2>
+  <p>Each ranking is turned into a score out of 100, where higher is better. For a rank (say, 80th of 120 countries): 1 − (rank − 1) ÷ (number of countries − 1). For a score (say, 40 out of 100): score ÷ maximum, or the score as it is when it is already on a 0 to 1 scale. If the number of countries is missing for a year, we borrow it from the nearest year that has it and show a note.</p>
+  <p>For each party we compare the edition at the start of their time in power with the last edition during it. The start can be up to {S.ERA_START_SLACK} years late (shown as "starts late"); for a party no longer in power, the last edition must be within {S.ERA_END_SLACK} years of them leaving. A ranking scores {pts(S.C_IMPROVED)} if India moved up, {pts(S.C_FLAT)} if it barely changed (less than {S.C_EPS * 100} points), and {pts(S.C_DECLINED)} if it moved down. The part's score is the average. We also show the average change and the change per year, because the two periods are different lengths.</p>
+  <table class="dense"><thead><tr><th>Ranking with a known problem</th><th>Problem</th><th>Details</th></tr></thead><tbody>{Object.entries(S.INDEX_FLAGS).map(([k, f]) => <tr><td class="num">{k}</td><td>{f.kind === 'comparability' ? 'hard to compare across years' : 'no longer published'}</td><td>{f.text}</td></tr>)}</tbody></table>
+  <p>The "skip rankings with known problems" switch leaves these out of Part 3 and the overall score.</p>
 
-  <h2>Domains</h2>
-  <p>A claim is counted only under its first listed topic.</p>
-  <table class="dense"><thead><tr><th>Domain</th><th>Claim topics</th><th>Indices</th></tr></thead><tbody>{S.DOMAINS.map((d) => <tr><td>{d.name}</td><td>{d.topics.join(', ')}</td><td>{d.indices.join(', ') || '—'}</td></tr>)}</tbody></table>
+  <h2>Topics</h2>
+  <p>Each claim is counted only under its first (main) topic.</p>
+  <table class="dense"><thead><tr><th>Topic</th><th>Claim tags</th><th>Rankings</th></tr></thead><tbody>{S.DOMAINS.map((d) => <tr><td>{d.name}</td><td>{d.topics.join(', ')}</td><td>{d.indices.join(', ') || '—'}</td></tr>)}</tbody></table>
 
-  <h2>Overall score</h2>
-  <p class="num">Overall = (wA·A + wB·B + wC·C) / (wA + wB + wC)</p>
-  <p>Default weights: A = {pct(S.DEFAULT_WEIGHTS.A)}, B = {pct(S.DEFAULT_WEIGHTS.B)}, C = {pct(S.DEFAULT_WEIGHTS.C)}. Weights are adjustable on the leaderboard. A suite with no graded cases is dropped and the remaining weights are renormalised. Overall n = graded cases in A and B plus indices in C.</p>
+  <h2>The overall score</h2>
+  <p>Overall = (weight 1 × Part 1 + weight 2 × Part 2 + weight 3 × Part 3) ÷ (sum of the weights)</p>
+  <p>By default the three parts count {pts(S.DEFAULT_WEIGHTS.A)}%, {pts(S.DEFAULT_WEIGHTS.B)}% and {pts(S.DEFAULT_WEIGHTS.C)}%. You can change this with the sliders on the scoreboard. A part with nothing to score is left out and the others are scaled up to fill in.</p>
 
-  <h2>Uncertainty</h2>
+  <h2>How sure are the numbers?</h2>
   <ul>
-    <li>Confidence intervals are {Math.round(S.CI_LEVEL * 100)}% percentile bootstrap intervals over test cases ({S.BOOTSTRAP_N} resamples, fixed seed {S.SEED}, so builds are reproducible). For the overall score, each suite pool is resampled and recombined with the weights.</li>
-    <li>A suite or domain with n &lt; {S.MIN_N} is shown greyed out as "insufficient data" without a score.</li>
-    <li>Every score is shown with n.</li>
+    <li>The "likely" ranges are {Math.round(S.CI_LEVEL * 100)}% ranges from re-sampling the claims {S.BOOTSTRAP_N} times (statisticians call this a bootstrap). We use a fixed starting point ({S.SEED}) so every rebuild gives the same numbers.</li>
+    <li>When something has fewer than {S.MIN_N} claims, we show "too few to score" instead of a number.</li>
+    <li>Every score says how many claims it is based on.</li>
   </ul>
 
-  <h2>Unscored entries</h2>
-  <p>A claim with scored = false has its own page but is excluded from all suites, domains, intervals and exported scores. It may be shown as context on a related claim.</p>
+  <h2>Background entries</h2>
+  <p>Some entries are marked "background only". They have their own page but are left out of every score. They may appear as extra context on a related claim.</p>
 
-  <h2>Sourcing and review</h2>
+  <h2>Sources and checking</h2>
   <ul>
-    <li>Each entry needs proof the statement was made (video or transcript/text source) and at least two evidence items for the verdict, preferring government data, Parliament answers, CAG and RBI.</li>
-    <li>Quotes are labelled "paraphrased" unless a primary source supports the wording.</li>
-    <li>Official responses are included where they exist.</li>
-    <li>No entry is final until two human reviewers have checked quote, sources and verdict. Until then it is marked draft. Currently all entries are drafts, so all scores are preliminary.</li>
+    <li>Every entry needs proof the person really said it (a video or written record) and at least two sources for the result, preferring government data, answers in Parliament, CAG audits and the RBI.</li>
+    <li>Quotes are marked "not word for word" unless an original source has the exact words.</li>
+    <li>If the government has responded, we include its response.</li>
+    <li>An entry isn't final until two people have checked the quote, the sources and the result. Until then it is marked "not checked yet". Right now every entry is unchecked, so all scores are early results.</li>
   </ul>
 
   <h2>Corrections</h2>
-  <p>Errors are corrected in the data files; the last-reviewed date and notes record the change. Scores are recomputed at each build.</p>
+  <p>Mistakes are fixed in the data files, with the date and a note saying what changed. Scores are recalculated every time the site is rebuilt.</p>
 </Base>

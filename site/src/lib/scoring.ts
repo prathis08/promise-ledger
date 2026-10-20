@@ -9,9 +9,9 @@ export const DEFAULT_WEIGHTS = { A: 1 / 3, B: 1 / 3, C: 1 / 3 };
 export type Weights = { A: number; B: number; C: number };
 
 export const SUITES = {
-  A: { id: 'A', slug: 'accuracy', name: 'Factual Accuracy', claimTypes: ['statement', 'statistic'] },
-  B: { id: 'B', slug: 'promises', name: 'Promise Delivery', claimTypes: ['promise'] },
-  C: { id: 'C', slug: 'benchmarks', name: 'External Benchmarks', claimTypes: [] as string[] },
+  A: { id: 'A', slug: 'accuracy', name: 'Truthful statements', claimTypes: ['statement', 'statistic'] },
+  B: { id: 'B', slug: 'promises', name: 'Promises kept', claimTypes: ['promise'] },
+  C: { id: 'C', slug: 'benchmarks', name: 'World rankings', claimTypes: [] as string[] },
 } as const;
 
 // verdict -> score; verdicts absent from a table are excluded from that suite (abstained / ungradable).
@@ -287,10 +287,10 @@ export function diffOverall(pa: Pools, pb: Pools, w: Weights): Diff {
 // Plain shares of verdicts, independent of how many claims a party has. Each rate is the mean of a 0/1 indicator,
 // so it gets the same bootstrap CI as the suites, and head-to-head differences use diffMeans.
 export const RATES = [
-  { id: 'false', label: 'False claims', of: 'A', verdicts: ['false'], help: 'share of graded statements/statistics rated false' },
-  { id: 'falseOrMisleading', label: 'False or misleading claims', of: 'A', verdicts: ['false', 'misleading'], help: 'share of graded statements/statistics rated false or misleading' },
-  { id: 'broken', label: 'Promises not delivered', of: 'B', verdicts: ['unachieved', 'false', 'missed-deadline', 'misleading'], help: 'share of due, graded promises not delivered on time (unachieved, false, missed deadline, misleading)' },
-  { id: 'brokenOutright', label: 'Promises unachieved or false', of: 'B', verdicts: ['unachieved', 'false'], help: 'share of due, graded promises rated unachieved or false (excludes late delivery)' },
+  { id: 'false', label: 'False statements', of: 'A', verdicts: ['false'], help: 'Of the statements we could check, how many were false' },
+  { id: 'falseOrMisleading', label: 'False or misleading statements', of: 'A', verdicts: ['false', 'misleading'], help: 'Of the statements we could check, how many were false or misleading' },
+  { id: 'broken', label: 'Promises not kept on time', of: 'B', verdicts: ['unachieved', 'false', 'missed-deadline', 'misleading'], help: 'Of the promises whose deadline has passed, how many were not delivered on time' },
+  { id: 'brokenOutright', label: 'Promises not kept at all', of: 'B', verdicts: ['unachieved', 'false'], help: 'Of the promises whose deadline has passed, how many were never delivered (late ones are not counted here)' },
 ] as const;
 export type RateId = (typeof RATES)[number]['id'];
 export function rateIndicators(cases: Case[], r: (typeof RATES)[number]): number[] {

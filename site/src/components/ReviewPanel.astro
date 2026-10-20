@@ -3,27 +3,27 @@ import { REPO_URL } from '../lib/site';
 import { u } from '../lib/site';
 const { claim: c } = Astro.props;
 const STATUS: Record<string, { label: string; text: string }> = {
-  draft: { label: 'Draft', text: 'No human review yet.' },
-  'in-review': { label: 'In review', text: 'At least one review recorded; needs two approvals from trusted reviewers.' },
-  verified: { label: 'Verified', text: 'Approved by two trusted reviewers with the full checklist.' },
-  disputed: { label: 'Disputed', text: 'A trusted reviewer rejected this entry or asked for changes.' },
+  draft: { label: 'Not checked yet', text: 'No person has reviewed this entry yet.' },
+  'in-review': { label: 'Being checked', text: 'At least one person has reviewed it. It needs two trusted reviewers to approve it.' },
+  verified: { label: 'Double-checked', text: 'Two trusted reviewers went through the full checklist and approved it.' },
+  disputed: { label: 'Disputed', text: 'A trusted reviewer thinks this entry is wrong or needs changes.' },
 };
 const st = STATUS[c.review_status] ?? STATUS.draft;
 const newIssue = `${REPO_URL}/issues/new?template=claim-review.yml&title=${encodeURIComponent(`Review: ${c.id}`)}&claim_id=${encodeURIComponent(c.id)}`;
-const DEC: Record<string, string> = { approve: 'Approved', 'request-changes': 'Requested changes', reject: 'Rejected' };
+const DEC: Record<string, string> = { approve: 'Approved', 'request-changes': 'Asked for changes', reject: 'Rejected' };
 ---
 <section class={`review st-${c.review_status}`} aria-labelledby="rv-h">
-  <h2 id="rv-h">Human review <span class="rv-badge">{st.label}</span></h2>
+  <h2 id="rv-h">Checked by people? <span class="rv-badge">{st.label}</span></h2>
   <p class="sans small">{st.text}</p>
   {c.reviews.length > 0 && (
     <ul class="rv-list">{c.reviews.map((r: any) => (
       <li><b>{DEC[r.decision]}</b> by <a href={`https://github.com/${r.reviewer}`} rel="noopener">@{r.reviewer}</a>{r.trusted ? '' : ' (community)'} · {r.date}
-        {!r.checks_complete && r.decision === 'approve' && <span class="kv"> · checklist incomplete, not counted</span>}
-        {r.suggested_verdict && <span class="kv"> · suggested verdict: {r.suggested_verdict}</span>}
+        {!r.checks_complete && r.decision === 'approve' && <span class="kv"> · checklist not finished, so not counted</span>}
+        {r.suggested_verdict && <span class="kv"> · thinks the result should be: {r.suggested_verdict}</span>}
         {r.issue && <> · <a href={r.issue} rel="noopener">discussion</a></>}
         {r.notes && <div class="kv">{r.notes}</div>}</li>))}</ul>
   )}
-  <p><a class="rv-btn" href={newIssue} rel="noopener">Review this claim on GitHub</a> <span class="kv">Opens a checklist form. Needs a free GitHub account. <a href={u('/review/')}>How reviewing works</a></span></p>
+  <p><a class="rv-btn" href={newIssue} rel="noopener">Check this claim yourself</a> <span class="kv">Opens a short checklist on GitHub (free account needed). <a href={u('/review/')}>How reviewing works</a></span></p>
 </section>
 <style>
   .review { border: 1px solid var(--line); border-left: 4px solid var(--v-unverifiable); border-radius: 6px; padding: 0.75rem 1rem; margin: 1.5rem 0; background: var(--card); }

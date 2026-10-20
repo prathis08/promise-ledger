@@ -3,6 +3,7 @@ import PartyLogo from '../../components/PartyLogo.astro';
 import { u } from '../../lib/site';
 import Base from '../../layouts/Base.astro';
 import Badge from '../../components/Badge.astro';
+import { t } from '../../i18n/en';
 import Cell from '../../components/Cell.astro';
 import { getData } from '../../lib/data';
 import { getBench, f3 } from '../../lib/bench';
@@ -13,18 +14,20 @@ const prow = b.rows.filter((r) => r.kind === 'party');
 const st = { n: prow.reduce((a, r) => a + r.A.n, 0) };
 const unscored = getData().claims.filter((c) => c.scored === false && c.claim_type !== 'promise');
 const dn = (id: string | null) => DOMAINS.find((d) => d.id === id)?.name ?? '';
+const SUM = new Map(getData().claims.map((x) => [x.id, x.summary || x.id]));
+const title = (id: string) => { const s = SUM.get(id) ?? id; return s.length > 110 ? s.slice(0, 107).trimEnd() + '…' : s; };
 ---
-<Base title="Suite A: Factual Accuracy">
-  <h1>Suite A: {SUITES.A.name}</h1>
-  <p class="muted">Test cases: claims of type statement or statistic. Score by verdict: {Object.entries(VERDICT_SCORES_A).map(([k, v]) => `${k} = ${v}`).join(', ')}. Other verdicts are not graded.</p>
-  <div class="tablewrap"><table class="dense"><thead><tr><th>Party</th><th>Suite A</th></tr></thead><tbody>{prow.map((r) => <tr><th scope="row"><span class="party"><PartyLogo party={r.party} size={16} />{r.label}</span></th><td><Cell st={r.A} extra={`strict accuracy ${f3(r.A.share)} · abstained ${r.A.abstained}`} /></td></tr>)}</tbody></table></div>
+<Base title="Were their statements true?">
+  <h1>Were their statements true?</h1>
+  <p class="lede">Every statement or claim about numbers we checked. Each one earns points: {Object.entries(VERDICT_SCORES_A).map(([k, v]) => `${(t.verdicts[k] ?? k).toLowerCase()} = ${Math.round(v * 100)}`).join(', ')}. A party's score is the average, out of 100.</p>
+  <div class="tablewrap"><table class="dense"><thead><tr><th>Party</th><th>Score</th></tr></thead><tbody>{prow.map((r) => <tr><th scope="row"><span class="party"><PartyLogo party={r.party} size={16} />{r.label}</span></th><td><Cell st={r.A} extra={`fully true: ${Math.round((r.A.share ?? 0) * 100)}% · could not be scored: ${r.A.abstained}`} /></td></tr>)}</tbody></table></div>
   <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Test case</th><th>Date</th><th>Party</th><th>Speaker</th><th>Domain</th><th>Verdict</th><th class="r">Score</th><th>Confidence</th></tr></thead>
+    <thead><tr><th>Claim</th><th>When</th><th>Party</th><th>Who</th><th>Topic</th><th>Result</th><th class="r">Points</th><th>How sure</th></tr></thead>
     <tbody>{cases.map((c) => (
-      <tr><td><a href={u(`/claims/${c.id}/`)} class="num">{c.id}</a></td><td class="num">{c.date}</td><td><span class="party"><PartyLogo party={c.party} size={14} />{c.party}</span></td><td>{c.speaker}</td><td>{dn(c.domain)}</td>
-        <td><Badge verdict={c.verdict} /></td><td class="r num">{c.score == null ? 'n/a' : c.score.toFixed(2)}</td><td>{c.confidence}</td></tr>
+      <tr><td><a href={u(`/claims/${c.id}/`)} class="clink">{title(c.id)}</a></td><td class="num">{c.date}</td><td><span class="party"><PartyLogo party={c.party} size={14} />{c.party}</span></td><td>{c.speaker}</td><td>{dn(c.domain)}</td>
+        <td><Badge verdict={c.verdict} /></td><td class="r num">{c.score == null ? '—' : Math.round(c.score * 100)}</td><td>{t.confidence[c.confidence]}</td></tr>
     ))}</tbody>
   </table></div>
-  <p class="kv">n/a = not graded in this suite (abstained). {cases.length} cases listed, {st.n} graded.</p>
-  {unscored.length > 0 && <p class="kv">Not scored (context only): {unscored.map((c, i) => <>{i > 0 && ', '}<a href={u(`/claims/${c.id}/`)}>{c.id}</a></>)}.</p>}
+  <p class="kv">— means the claim could not be scored (for example, no data exists). {cases.length} statements listed, {st.n} scored.</p>
+  {unscored.length > 0 && <p class="kv">Background only, not scored: {unscored.map((c, i) => <>{i > 0 && ', '}<a href={u(`/claims/${c.id}/`)}>{title(c.id)}</a></>)}.</p>}
 </Base>

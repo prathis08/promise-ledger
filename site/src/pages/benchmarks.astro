@@ -11,60 +11,61 @@ const b = getBench();
 const idxMeta = new Map(getData().indices.map((i) => [i.slug, i]));
 const dn = (id: string | null) => DOMAINS.find((d) => d.id === id)?.name ?? '';
 const cls = (d: number) => (d > 0.0005 ? 'pos' : d < -0.0005 ? 'neg' : 'flat');
+const FLAG: Record<string, string> = { comparability: 'hard to compare', discontinued: 'no longer published', 'late-start': 'starts late', 'out-of-imputed': 'estimated' };
 const arrow = (d: number) => (d > 0.0005 ? '▲' : d < -0.0005 ? '▼' : '●');
 const pv = (p: { year: number; value: number; outOf: number | null }, rank: boolean) => `${p.year}: ${p.value}${rank && p.outOf ? `/${p.outOf}` : ''}`;
 const data = b.indices.map((r) => ({ x: r.excludable, e: Object.fromEntries(PARTIES.map((p) => [p.id, r.eras[p.id] ? { s: r.eras[p.id]!.score, d: r.eras[p.id]!.delta, y: r.eras[p.id]!.perYear } : null])) }));
 ---
-<Base title="Benchmarks">
-  <h1>Suite C: External Benchmarks by era</h1>
-  <p class="muted">India's position in global indices, measured over each party's era at the centre: <b>INC (UPA)</b> from the edition at or before 2004 to the 2014 edition, and <b>BJP (NDA)</b> from the 2014 edition to the latest. Every edition is normalised to 0–1, higher is better. An index scores 1 for a party if it improved during that era, 0.5 if flat, 0 if it declined.</p>
+<Base title="World rankings">
+  <h1>Did India's world rankings get better?</h1>
+  <p class="lede">Independent groups around the world rank countries on things like hunger, press freedom, corruption and happiness. We looked at where India stood when each party came to power and where it stood when they left (or today): <b>Congress</b> from 2004 to 2014, and <b>BJP</b> from 2014 to now. A ranking counts in a party's favour if India moved up while they were in charge.</p>
   <div class="eras">
     {PARTIES.map((p) => { const c = cStat(b.indices, p.id, false); return (
       <article class="panel era" data-party={p.id}>
-        <Donut size={132} thick={16} segments={[{ value: c.improved, color: 'var(--v-true)', label: 'Improved' }, { value: c.flat, color: 'var(--v-unverifiable)', label: 'Flat' }, { value: c.declined, color: 'var(--v-false)', label: 'Declined' }]} center={`${c.improved}/${c.improved + c.flat + c.declined}`} sub="improved" label={`${p.label}: ${c.improved} indices improved, ${c.flat} flat, ${c.declined} declined`} />
+        <Donut size={132} thick={16} segments={[{ value: c.improved, color: 'var(--v-true)', label: 'Got better' }, { value: c.flat, color: 'var(--v-unverifiable)', label: 'No change' }, { value: c.declined, color: 'var(--v-false)', label: 'Got worse' }]} center={`${c.improved}/${c.improved + c.flat + c.declined}`} sub="got better" label={`${p.label}: ${c.improved} rankings got better, ${c.flat} no change, ${c.declined} got worse`} />
         <div>
           <h2 class="era-h"><PartyLogo party={p.id} size={20} />{p.label}</h2>
           <ul class="legend vlist">
-            <li><i style="background:var(--v-true)"></i>Improved<b>{c.improved}</b></li>
-            <li><i style="background:var(--v-unverifiable)"></i>Flat<b>{c.flat}</b></li>
-            <li><i style="background:var(--v-false)"></i>Declined<b>{c.declined}</b></li>
+            <li><i style="background:var(--v-true)"></i>Got better<b>{c.improved}</b></li>
+            <li><i style="background:var(--v-unverifiable)"></i>No change<b>{c.flat}</b></li>
+            <li><i style="background:var(--v-false)"></i>Got worse<b>{c.declined}</b></li>
           </ul>
         </div>
       </article>); })}
   </div>
-  <p class="toggle"><label><input type="checkbox" id="excl" /> Exclude flagged indices (comparability or discontinuation)</label></p>
+  <p class="toggle"><label><input type="checkbox" id="excl" /> Skip rankings with known problems (changed method, or no longer published)</label></p>
   <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Party (era)</th><th>Share of indices improved</th><th class="r">Mean Δ</th><th class="r">Mean Δ per year</th></tr></thead>
+    <thead><tr><th>Party (years in power)</th><th>Score</th><th class="r">Average change</th><th class="r">Average change per year</th></tr></thead>
     <tbody>{PARTIES.map((p) => { const c = cStat(b.indices, p.id, false); return (
-      <tr><th scope="row"><span class="party"><PartyLogo party={p.id} size={14} />{p.label}</span></th><td id={`c-${p.id}`}><Cell st={c} extra={`up ${c.improved} / down ${c.declined} / flat ${c.flat}`} /></td>
+      <tr><th scope="row"><span class="party"><PartyLogo party={p.id} size={14} />{p.label}</span></th><td id={`c-${p.id}`}><Cell st={c} extra={`${c.improved} better · ${c.declined} worse · ${c.flat} no change`} /></td>
         <td class="r num" id={`d-${p.id}`}>{c.meanDelta == null ? '—' : fd(c.meanDelta)}</td><td class="r num" id={`y-${p.id}`}>{c.meanPerYear == null ? '—' : fd(c.meanPerYear)}</td></tr>); })}</tbody>
   </table></div>
-  <p class="kv">Eras are of different length (about 10 and 12 years), so compare Δ per year as well as total Δ. The 2014 edition is the end of the INC era and the start of the BJP era; most indices publish with a lag of a year or more, so it mostly reflects conditions under the previous government.</p>
+  <p class="kv">Change is in points out of 100. The two periods are different lengths (about 10 and 12 years), so the per-year change is the fairer comparison. Rankings usually come out a year or more late, so the 2014 edition mostly reflects the years before the BJP took over.</p>
 
   <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Index</th><th>Domain</th>{PARTIES.map((p) => <th class="r"><span class="party"><PartyLogo party={p.id} size={14} />{p.name} era: start → end, Δ</span></th>)}<th>Latest position</th><th>Flags</th></tr></thead>
+    <thead><tr><th>Ranking</th><th>Topic</th>{PARTIES.map((p) => <th class="r"><span class="party"><PartyLogo party={p.id} size={14} />{p.id === 'INC' ? 'Congress' : p.name} years: start → end</span></th>)}<th>Where India stands now</th><th>Things to note</th></tr></thead>
     <tbody>{b.indices.map((r) => (
       <tr data-x={r.excludable ? '1' : '0'}>
         <th scope="row"><a href={`#${r.slug}`}>{r.name}</a></th><td>{dn(r.domain)}</td>
         {PARTIES.map((p) => { const e = r.eras[p.id]; return e
-          ? <td class="r num">{pv(e.start, r.isRank)} → {pv(e.end, r.isRank)}<br /><span class={cls(e.delta)}>{arrow(e.delta)} {fd(e.delta)}</span>{e.perYear != null && <span class="kv"> ({fd(e.perYear)}/yr)</span>}</td>
-          : <td class="r kv">not measurable: {r.eraGaps[p.id]}</td>; })}
+          ? <td class="r num">{pv(e.start, r.isRank)} → {pv(e.end, r.isRank)}<br /><span class={cls(e.delta)}>{arrow(e.delta)} {fd(e.delta)}</span>{e.perYear != null && <span class="kv"> ({fd(e.perYear)} a year)</span>}</td>
+          : <td class="r kv">can't compare: {r.eraGaps[p.id]}</td>; })}
         <td>{(() => { const l = r.series.at(-1); return l ? (
           <div class="pos-cell"><Donut size={44} thick={7} gap={0} segments={[{ value: l.norm, color: 'var(--p-inc)', label: `${l.year} position` }, { value: 1 - l.norm, color: 'var(--raised)', label: 'Below the top' }]} label={`${r.name}, ${l.year}: ${(l.norm * 100).toFixed(0)}% of the way to the top`} /><span class="num">{(l.norm * 100).toFixed(0)}%<span class="kv"> in {l.year}</span></span></div>
         ) : <span class="na">—</span>; })()}</td>
-        <td>{r.flags.map((f) => <div><span class="flag">{f.kind}</span> <span class="kv">{f.text}</span></div>)}</td>
+        <td>{r.flags.map((f) => <div><span class="flag">{FLAG[f.kind] ?? f.kind}</span> <span class="kv">{f.text}</span></div>)}</td>
       </tr>
     ))}</tbody>
   </table></div>
-  <p class="kv">Rank indices: 1 − (rank − 1) / (out_of − 1). Score indices: value / out_of (value as is when out_of is null, as in V-Dem). An era's first edition may be up to {ERA_START_SLACK} years after the era starts (flagged "late-start"); a closed era's last edition must be within {ERA_END_SLACK} years of its end. Vertical line in the trend: 2014. Latest position: the newest edition on the 0–1 scale, where a full ring is the top of the index. The toggle removes indices with a comparability or discontinuation flag.</p>
+  <p class="kv">To compare different rankings, we turn each one into a score out of 100, where 100 is the top spot. "Where India stands now" uses the newest edition: a full ring would mean first place. Exact formulas are on the <a href={u('/methodology/')}>How we score</a> page.</p>
 
-  <h2>Index details</h2>
+  <h2>About each ranking</h2>
   {b.indices.map((r) => { const m = idxMeta.get(r.slug)!; return (
     <section id={r.slug} data-x={r.excludable ? '1' : '0'}>
       <h3>{r.name}</h3>
-      <p class="kv">{m.publisher}{m.url && /^https?:/.test(m.url) && <> · <a href={m.url} rel="noopener">source</a></>} · metric: {m.metric}{m.out_of_label && ` · ${m.out_of_label}`}</p>
-      {m.methodology_note && <p><strong>Methodology.</strong> {m.methodology_note}</p>}
-      {m.govt_response.length > 0 && <>{m.govt_response.map((g) => <p><strong>Government response.</strong> {g.url && /^https?:/.test(g.url) ? <a href={g.url} rel="noopener">{g.title || g.url}</a> : g.title} {g.summary}</p>)}</>}
+      <p class="kv">{m.publisher}{m.url && /^https?:/.test(m.url) && <> · <a href={m.url} rel="noopener">source</a></>} · measures: {m.metric}{m.out_of_label && ` · ${m.out_of_label}`}</p>
+      {m.methodology_note && <p><strong>How they measure it.</strong> {m.methodology_note}</p>}
+      {m.govt_response.length > 0 && <>{m.govt_response.map((g) => <p><strong>What the government says.</strong> {g.url && /^https?:/.test(g.url) ? <a href={g.url} rel="noopener">{g.title || g.url}</a> : g.title} {g.summary}</p>)}</>}
       {m.related_claims.length > 0 && <p class="kv">Related claims: {m.related_claims.map((id, i) => <>{i > 0 && ', '}{getData().claims.some((c) => c.id === id) ? <a href={u(`/claims/${id}/`)}>{id}</a> : id}</>)}</p>}
     </section>); })}
 
@@ -73,8 +74,8 @@ const data = b.indices.map((r) => ({ x: r.excludable, e: Object.fromEntries(PART
     import { stat, PARTIES } from '../lib/scoring';
     const D = JSON.parse(document.getElementById('bd')!.textContent!);
     const cb = document.getElementById('excl') as HTMLInputElement;
-    const f3 = (x: number | null) => (x == null ? '—' : x.toFixed(3));
-    const sg = (x: number | null) => (x == null ? '—' : (x >= 0 ? '+' : '−') + Math.abs(x).toFixed(3));
+    const f3 = (x: number | null) => (x == null ? '—' : (x * 100).toFixed(1));
+    const sg = (x: number | null) => (x == null ? '—' : (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(1));
     const avg = (v: number[]) => (v.length ? v.reduce((a, b) => a + b, 0) / v.length : null);
     function upd() {
       document.querySelectorAll<HTMLElement>('[data-x]').forEach((el) => (el.hidden = cb.checked && el.dataset.x === '1'));
@@ -82,7 +83,7 @@ const data = b.indices.map((r) => ({ x: r.excludable, e: Object.fromEntries(PART
         const e = D.filter((r: any) => !(cb.checked && r.x)).map((r: any) => r.e[p.id]).filter(Boolean);
         const s = stat(e.map((x: any) => x.s));
         const up = e.filter((x: any) => x.s === 1).length, dn = e.filter((x: any) => x.s === 0).length;
-        document.getElementById('c-' + p.id)!.innerHTML = `<span class="cell${s.sufficient ? '' : ' na'}"><span class="main">${s.sufficient ? f3(s.mean) : 'insufficient data'}</span><span class="sub">${s.ci && s.sufficient ? `CI [${s.ci[0].toFixed(2)}, ${s.ci[1].toFixed(2)}] · ` : ''}n=${s.n}</span><span class="sub">up ${up} / down ${dn} / flat ${e.length - up - dn}</span></span>`;
+        document.getElementById('c-' + p.id)!.innerHTML = `<span class="cell${s.sufficient ? '' : ' na'}"><span class="main">${s.sufficient ? f3(s.mean) + '<span class="kv"> / 100</span>' : 'Too few to score'}</span><span class="sub">${s.ci && s.sufficient ? `likely ${Math.round(s.ci[0] * 100)} to ${Math.round(s.ci[1] * 100)} · ` : ''}from ${s.n} rankings</span><span class="sub">${up} better · ${dn} worse · ${e.length - up - dn} no change</span></span>`;
         document.getElementById('d-' + p.id)!.textContent = sg(avg(e.map((x: any) => x.d)));
         document.getElementById('y-' + p.id)!.textContent = sg(avg(e.filter((x: any) => x.y != null).map((x: any) => x.y)));
       }

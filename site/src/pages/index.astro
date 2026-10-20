@@ -6,7 +6,7 @@ import Donut from '../components/Donut.astro';
 import PartyLogo from '../components/PartyLogo.astro';
 import { getData } from '../lib/data';
 import { getBench, f3, fci, fd } from '../lib/bench';
-import { DEFAULT_WEIGHTS, MIN_N, BOOTSTRAP_N, PARTIES, RATES } from '../lib/scoring';
+import { DEFAULT_WEIGHTS, MIN_N, PARTIES, RATES } from '../lib/scoring';
 const b = getBench();
 const { claims } = getData();
 const drafts = claims.filter((c) => c.review_status === 'draft').length;
@@ -14,134 +14,136 @@ const verified = claims.filter((c) => c.review_status === 'verified').length;
 const count = (p: string) => claims.filter((c) => c.party === p && c.scored !== false).length;
 const partyRows = b.rows.filter((r) => r.kind === 'party');
 const bg = (s: number | null) => s == null ? '' : s >= 0.5 ? `background:color-mix(in srgb, var(--v-true) ${Math.round((s - 0.5) * 120)}%, var(--card))` : `background:color-mix(in srgb, var(--v-false) ${Math.round((0.5 - s) * 120)}%, var(--card))`;
-// Verdict mix across both claim suites, for the party scorecards.
+// Verdict mix across statements and promises, for the party scorecards.
 const combined = (pid: string) => {
   const acc = new Map<string, number>();
   for (const k of ['A', 'B'] as const) for (const x of b.mix[pid][k]) acc.set(x.verdict, (acc.get(x.verdict) ?? 0) + x.n);
   return [...acc].map(([verdict, n]) => ({ verdict, n })).filter((x) => x.n > 0);
 };
+const NAME: Record<string, string> = { BJP: 'BJP', INC: 'Congress' };
 const ov = Object.fromEntries(partyRows.map((r) => [r.party, r.overall?.score ?? null]));
-const lead = ov.BJP != null && ov.INC != null ? (ov.BJP > ov.INC ? PARTIES[0] : PARTIES[1]) : null;
-const finding = lead == null ? '' : `${lead.name} leads overall (${f3(Math.max(ov.BJP!, ov.INC!))} to ${f3(Math.min(ov.BJP!, ov.INC!))}), ${b.h2h.overall.significant ? 'and the gap is outside the 95% interval.' : 'but the 95% interval of the gap includes 0, so there is no clear winner yet.'}`;
+const lead = ov.BJP != null && ov.INC != null ? (ov.BJP > ov.INC ? 'BJP' : 'INC') : null;
+const finding = lead == null ? '' : `Right now ${NAME[lead]} scores a little higher (${f3(Math.max(ov.BJP!, ov.INC!))} vs ${f3(Math.min(ov.BJP!, ov.INC!))} out of 100), ${b.h2h.overall.significant ? 'and the gap is big enough to be real.' : 'but the gap is small enough that it could be down to which claims were picked, so neither party is clearly ahead.'}`;
 const clientData = { parties: b.parties.map((p) => ({ id: p.id, A: p.pools.A, B: p.pools.B, C: p.cPool })), defaults: DEFAULT_WEIGHTS };
-const pct = (x: number | null | undefined) => (x == null ? '—' : `${(x * 100).toFixed(1)}%`);
-const pci = (c: [number, number] | null) => (c ? `[${(c[0] * 100).toFixed(0)}–${(c[1] * 100).toFixed(0)}%]` : '');
-const pp = (d: { diff: number | null; ci: [number, number] | null }) => d.diff == null ? '—' : `${d.diff >= 0 ? '+' : '−'}${Math.abs(d.diff * 100).toFixed(1)} pp ${d.ci ? `[${(d.ci[0] * 100).toFixed(0)}, ${(d.ci[1] * 100).toFixed(0)}]` : ''}`;
-const who = (d: { diff: number | null; significant: boolean }) => d.diff == null ? '—' : !d.significant ? 'no clear difference' : d.diff > 0 ? `${PARTIES[0].name} higher` : `${PARTIES[1].name} higher`;
-const VLABEL: Record<string, string> = { true: 'true / met', 'in-progress': 'in progress', 'missed-deadline': 'missed deadline', misleading: 'misleading', unachieved: 'unachieved', false: 'false', unverifiable: 'unverifiable', 'not-yet-due': 'not yet due' };
+const pct = (x: number | null | undefined) => (x == null ? '—' : `${(x * 100).toFixed(0)}%`);
+const pci = (c: [number, number] | null) => (c ? `likely ${(c[0] * 100).toFixed(0)}–${(c[1] * 100).toFixed(0)}%` : '');
+const pp = (d: { diff: number | null }) => d.diff == null ? '—' : `${d.diff >= 0 ? '+' : '−'}${Math.abs(d.diff * 100).toFixed(0)} points`;
+const who = (d: { diff: number | null; significant: boolean }) => d.diff == null ? '—' : !d.significant ? 'Too close to call' : d.diff > 0 ? `${NAME[PARTIES[0].id]} worse` : `${NAME[PARTIES[1].id]} worse`;
+const VLABEL: Record<string, string> = { true: 'True / kept', 'in-progress': 'Still in progress', 'missed-deadline': 'Missed the deadline', misleading: 'Misleading', unachieved: 'Not delivered', false: 'False', unverifiable: "Can't be checked", 'not-yet-due': 'Deadline not reached' };
 const w = (k: 'A' | 'B' | 'C') => Math.round(DEFAULT_WEIGHTS[k] * 100);
-const dtxt = (d: { diff: number | null; ci: [number, number] | null; significant: boolean }) => d.diff == null ? '—' : `${fd(d.diff)} ${fci(d.ci)}${d.significant ? '' : ' · not significant'}`;
+const dtxt = (d: { diff: number | null; significant: boolean }) => d.diff == null ? '—' : `${fd(d.diff)} · ${d.significant ? 'a real gap' : 'too close to call'}`;
 ---
-<Base title="Leaderboard">
+<Base title="Scoreboard">
   <div class="titlerow">
     <div>
-      <h1>BJP vs Congress, scored like two models</h1>
-      <p class="lede">Every claim or promise by a party's Union ministers, Chief Ministers or leaders is a test case. {finding} <a href={u('/methodology/')}>How it is scored</a></p>
+      <h1>BJP vs Congress: who kept their word?</h1>
+      <p class="lede">We collected {claims.length} things that ministers, Chief Ministers and party leaders said or promised, and checked each one against official data. Each party gets a score out of 100: higher means more of what they said was true and more of what they promised was delivered. {finding} <a href={u('/methodology/')}>How we score</a></p>
     </div>
   </div>
-  <div class="banner draft" role="status"><span>Preliminary: {verified} of {claims.length} entries are human-verified and {drafts} are unreviewed drafts. Read the confidence intervals.</span> <a href={u('/review/')}>Help review claims</a></div>
+  <div class="banner draft" role="status"><span>Early results: {verified === 0 ? 'none' : verified} of the {claims.length} entries have been double-checked by people yet, and many were first researched with AI. Treat the scores as rough.</span> <a href={u('/review/')}>Help check them</a></div>
 
   <section class="vs" aria-label="Head to head">
     {partyRows.map((r) => { const m = combined(r.party); return (
       <article class="vs-card panel" data-party={r.party}>
         <header class="vs-h"><PartyLogo party={r.party} size={24} /><h2>{r.label}</h2></header>
         <div class="vs-body">
-          <Donut size={156} thick={18} segments={m.map((x) => ({ value: x.n, color: `var(--v-${x.verdict})`, label: VLABEL[x.verdict] }))} center={f3(r.overall?.score)} centerId={`ov-${r.party}`} sub="overall score" label={`${r.label}: verdicts ${m.map((x) => `${VLABEL[x.verdict]} ${x.n}`).join(', ')}`} />
+          <Donut size={156} thick={18} segments={m.map((x) => ({ value: x.n, color: `var(--v-${x.verdict})`, label: VLABEL[x.verdict] }))} center={f3(r.overall?.score)} centerId={`ov-${r.party}`} sub="score out of 100" label={`${r.label}: ${m.map((x) => `${VLABEL[x.verdict]} ${x.n}`).join(', ')}`} />
           <div class="vs-side">
-            <div class="kv nowrap" id={`ci-${r.party}`}>95% CI {fci(r.overall?.ci ?? null)} · n={r.overall?.n}</div>
+            <div class="kv nowrap" id={`ci-${r.party}`}>Likely range: {fci(r.overall?.ci ?? null)}</div>
             <ul class="legend vlist">{m.map((x) => <li><i style={`background:var(--v-${x.verdict})`}></i>{VLABEL[x.verdict]}<b>{x.n}</b></li>)}</ul>
           </div>
         </div>
-        <a class="foot" href={u('/claims/')}>{count(r.party)} scored claims · browse all claims →</a>
+        <a class="foot" href={u('/claims/')}>Based on {count(r.party)} claims · see them all →</a>
       </article>); })}
     <article class="vs-card panel diff">
-      <header class="vs-h"><h2>Gap, BJP − Congress</h2></header>
+      <header class="vs-h"><h2>Difference (BJP minus Congress)</h2></header>
       <div class="gapfig" id="ov-diff">{b.h2h.overall.diff == null ? '—' : fd(b.h2h.overall.diff)}</div>
-      <div class="kv" id="ci-diff">95% CI {fci(b.h2h.overall.ci)}</div>
-      <p class="gapread" id="sig-diff">{b.h2h.overall.significant ? 'The interval excludes 0: a real difference.' : 'The interval includes 0: no clear difference yet.'}</p>
+      <div class="kv" id="ci-diff">Likely range: {fci(b.h2h.overall.ci)} points</div>
+      <p class="gapread" id="sig-diff">{b.h2h.overall.significant ? 'This gap is big enough to be real.' : 'Too close to call: the gap could easily be zero.'}</p>
       <form class="sliders" id="weights" onsubmit="return false">
-        <label>Accuracy weight<input type="range" min="0" max="100" step="5" value={w('A')} id="wA" /><output class="num" id="oA"></output></label>
-        <label>Promises weight<input type="range" min="0" max="100" step="5" value={w('B')} id="wB" /><output class="num" id="oB"></output></label>
-        <label>Indices weight<input type="range" min="0" max="100" step="5" value={w('C')} id="wC" /><output class="num" id="oC"></output></label>
-        <label class="toggle"><span><input type="checkbox" id="excl" /> Leave out flagged indices</span></label>
+        <p class="kv slhint">What matters most to you? Move the sliders to change the score.</p>
+        <label>True statements<input type="range" min="0" max="100" step="5" value={w('A')} id="wA" /><output class="num" id="oA"></output></label>
+        <label>Promises kept<input type="range" min="0" max="100" step="5" value={w('B')} id="wB" /><output class="num" id="oB"></output></label>
+        <label>World rankings<input type="range" min="0" max="100" step="5" value={w('C')} id="wC" /><output class="num" id="oC"></output></label>
+        <label class="toggle"><span><input type="checkbox" id="excl" /> Skip rankings with known problems</span></label>
       </form>
     </article>
   </section>
-  <p class="kv" id="formula">Weights are normalised to sum to 1. CI: {BOOTSTRAP_N} bootstrap resamples, fixed seed.</p>
+  <p class="kv" id="formula">The score mixes the three parts equally unless you change the sliders.</p>
 
-  <h2>False claim rate</h2>
-  <p class="muted">Rates are shares of each party's own graded claims, so a party with fewer claims is not penalised. Lower is better for every row.</p>
+  <h2>How often were they wrong?</h2>
+  <p class="muted">Each number is a share of that party's own claims, so a party with fewer claims is not punished for it. Lower is better on every row.</p>
   <div class="tablewrap"><table class="dense rates">
-    <thead><tr><th>Rate</th>{PARTIES.map((p) => <th class="r"><span class="party"><PartyLogo party={p.id} size={14} />{p.name}</span></th>)}<th class="r">{PARTIES[0].name} − {PARTIES[1].name} (95% CI)</th><th>Reading</th></tr></thead>
+    <thead><tr><th>What we counted</th>{PARTIES.map((p) => <th class="r"><span class="party"><PartyLogo party={p.id} size={14} />{NAME[p.id]}</span></th>)}<th class="r">Difference</th><th>Verdict</th></tr></thead>
     <tbody>{RATES.map((r) => (
       <tr><th scope="row">{r.label}<div class="kv">{r.help}</div></th>
         {PARTIES.map((p) => { const st = b.rates[p.id][r.id]; return (
-          <td class="r"><span class={`big2 ${st.sufficient ? '' : 'na'}`}>{pct(st.mean)}</span><div class="kv">{st.n ? `${Math.round((st.mean ?? 0) * st.n)} of ${st.n}` : 'n=0'} {st.sufficient ? pci(st.ci) : `· n < ${MIN_N}`}</div></td>); })}
+          <td class="r"><span class={`big2 ${st.sufficient ? '' : 'na'}`}>{st.sufficient ? pct(st.mean) : '—'}</span><div class="kv">{st.n ? `${Math.round((st.mean ?? 0) * st.n)} out of ${st.n}` : 'none yet'}</div>{st.sufficient ? <div class="kv">{pci(st.ci)}</div> : <div class="kv">too few to judge</div>}</td>); })}
         <td class="r num">{pp(b.rateDiffs[r.id])}</td>
         <td>{who(b.rateDiffs[r.id])}</td></tr>
     ))}</tbody>
   </table></div>
-  <p class="kv">pp = percentage points. "Higher" is stated only when the 95% bootstrap interval of the difference excludes 0. Promises not yet due and unverifiable claims are not counted in any rate.</p>
+  <p class="kv">"Too close to call" means the gap is small enough that it could be down to chance or to which claims were picked. Promises whose deadline hasn't come yet, and claims that can't be checked, are left out.</p>
 
-  <h2>Verdict mix by suite</h2>
+  <h2>What happened to each claim</h2>
   <div class="mixgrid">
     {PARTIES.map((p) => (['A', 'B'] as const).map((k) => { const m = b.mix[p.id][k]; const tot = m.reduce((a, x) => a + x.n, 0); return (
       <article class="panel mixcard">
-        <header class="vs-h" data-party={p.id}><PartyLogo party={p.id} size={18} /><h3>{p.name} · {k === 'A' ? 'statements & statistics' : 'promises'}</h3></header>
+        <header class="vs-h" data-party={p.id}><PartyLogo party={p.id} size={18} /><h3>{NAME[p.id]} · {k === 'A' ? 'things they said' : 'things they promised'}</h3></header>
         <div class="mixbody">
-          <Donut size={128} thick={16} segments={m.map((x) => ({ value: x.n, color: `var(--v-${x.verdict})`, label: VLABEL[x.verdict] }))} center={String(tot)} sub={k === 'A' ? 'claims' : 'promises'} label={`${p.name} ${k === 'A' ? 'statements' : 'promises'}: ${m.map((x) => `${VLABEL[x.verdict]} ${x.n}`).join(', ')}`} />
+          <Donut size={128} thick={16} segments={m.map((x) => ({ value: x.n, color: `var(--v-${x.verdict})`, label: VLABEL[x.verdict] }))} center={String(tot)} sub={k === 'A' ? 'statements' : 'promises'} label={`${NAME[p.id]} ${k === 'A' ? 'statements' : 'promises'}: ${m.map((x) => `${VLABEL[x.verdict]} ${x.n}`).join(', ')}`} />
           <ul class="legend vlist">{m.map((x) => <li><i style={`background:var(--v-${x.verdict})`}></i>{VLABEL[x.verdict]}<b>{x.n} · {(x.share * 100).toFixed(0)}%</b></li>)}</ul>
         </div>
-        <a class="foot" href={u(k === 'A' ? '/suites/accuracy/' : '/suites/promises/')}>Open the {k === 'A' ? 'accuracy' : 'promises'} suite →</a>
+        <a class="foot" href={u(k === 'A' ? '/suites/accuracy/' : '/suites/promises/')}>See every {k === 'A' ? 'statement' : 'promise'} →</a>
       </article>); }))}
   </div>
 
-  <h2>Head to head by suite</h2>
+  <h2>The three parts of the score</h2>
   <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Suite</th>{partyRows.map((r) => <th><span class="party"><PartyLogo party={r.party} size={14} />{r.label}</span></th>)}<th>BJP − INC (95% CI)</th></tr></thead>
+    <thead><tr><th>Part</th>{partyRows.map((r) => <th><span class="party"><PartyLogo party={r.party} size={14} />{r.label}</span></th>)}<th>Difference (BJP minus Congress)</th></tr></thead>
     <tbody>
-      <tr><th scope="row"><a href={u('/suites/accuracy/')}>A: Factual Accuracy</a></th>{partyRows.map((r) => <td><Cell st={r.A} extra={`strict ${f3(r.A.share)} · abstained ${r.A.abstained}`} /></td>)}<td class="num">{dtxt(b.h2h.A)}</td></tr>
-      <tr><th scope="row"><a href={u('/suites/promises/')}>B: Promise Delivery</a></th>{partyRows.map((r) => <td><Cell st={r.B} extra={`on-time ${f3(r.B.share)} · abstained ${r.B.abstained} · not yet due ${r.B.pending}`} /></td>)}<td class="num">{dtxt(b.h2h.B)}</td></tr>
-      <tr><th scope="row"><a href={u('/benchmarks/')}>C: Index change in era</a></th>{partyRows.map((r) => <td>{r.C && <Cell st={r.C} extra={`up ${r.C.improved} / down ${r.C.declined} · mean Δ/yr ${r.C.meanPerYear == null ? '—' : fd(r.C.meanPerYear)}`} />}</td>)}<td class="num">{dtxt(b.h2h.C)}</td></tr>
+      <tr><th scope="row"><a href={u('/suites/accuracy/')}>Were their statements true?</a></th>{partyRows.map((r) => <td><Cell st={r.A} extra={`fully true: ${pct(r.A.share)}`} /></td>)}<td class="num">{dtxt(b.h2h.A)}</td></tr>
+      <tr><th scope="row"><a href={u('/suites/promises/')}>Did they keep their promises?</a></th>{partyRows.map((r) => <td><Cell st={r.B} extra={`kept on time: ${pct(r.B.share)} · deadline not reached: ${r.B.pending}`} /></td>)}<td class="num">{dtxt(b.h2h.B)}</td></tr>
+      <tr><th scope="row"><a href={u('/benchmarks/')}>Did India's world rankings improve?</a></th>{partyRows.map((r) => <td>{r.C && <Cell st={r.C} extra={`${r.C.improved} got better, ${r.C.declined} got worse`} />}</td>)}<td class="num">{dtxt(b.h2h.C)}</td></tr>
     </tbody>
   </table></div>
-  <p class="kv">Scores 0–1, higher is better. Suite C = share of indices that improved during the party's era (INC: 2004 → 2014 edition; BJP: 2014 → latest). Cells with n &lt; {MIN_N} show no score. A difference is "significant" here only when its 95% CI excludes 0.</p>
+  <p class="kv">All scores are out of 100; higher is better. World rankings compare India's place in global indices at the start and end of each party's time in power (Congress: 2004 to 2014, BJP: 2014 to now). Where there are fewer than {MIN_N} claims, we don't show a score.</p>
 
-  <h2>Leaderboard</h2>
+  <h2>Scores by leader</h2>
   <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Model</th><th>Party</th><th>A: Factual Accuracy</th><th>B: Promise Delivery</th></tr></thead>
+    <thead><tr><th>Who</th><th>Party</th><th>True statements</th><th>Promises kept</th></tr></thead>
     <tbody>
       {b.rows.map((r) => (
         <tr class={`k-${r.kind}`}>
           <th scope="row">{r.kind === 'party' ? <b>{r.label}</b> : r.kind === 'level' ? <span>↳ {r.label}</span> : <span class="muted">· {r.label}</span>}</th>
-          <td><span class="party"><PartyLogo party={r.party} size={14} />{r.party}</span></td>
+          <td><span class="party"><PartyLogo party={r.party} size={14} />{NAME[r.party] ?? r.party}</span></td>
           <td><Cell st={r.A} /></td>
           <td><Cell st={r.B} /></td>
         </tr>
       ))}
     </tbody>
   </table></div>
-  <p class="kv">Rows: each party, then by office (Union ministers, Chief Ministers, party office-bearers), then individual speakers with at least 3 graded claims.</p>
+  <p class="kv">First each party, then by job (Union ministers, Chief Ministers, party leaders), then each person with at least 3 checked claims.</p>
 
-  <h2>Domain × suite</h2>
+  <h2>Scores by topic</h2>
   <div class="tablewrap"><table class="dense heat2">
-    <thead><tr><th rowspan="2">Domain</th>{PARTIES.map((p) => <th colspan="3"><span class="party"><PartyLogo party={p.id} size={14} />{p.name}</span></th>)}</tr><tr>{PARTIES.map(() => <><th>A</th><th>B</th><th>C</th></>)}</tr></thead>
+    <thead><tr><th rowspan="2">Topic</th>{PARTIES.map((p) => <th colspan="3"><span class="party"><PartyLogo party={p.id} size={14} />{NAME[p.id]}</span></th>)}</tr><tr>{PARTIES.map(() => <><th>Said</th><th>Promised</th><th>Rankings</th></>)}</tr></thead>
     <tbody>{b.domains.map((d) => (
       <tr><th scope="row">{d.name}</th>{PARTIES.map((p) => [d.byParty[p.id].A, d.byParty[p.id].B, d.byParty[p.id].C].map((st) => st.sufficient
-        ? <td class="c" style={bg(st.mean)}><b>{f3(st.mean)}</b><span>n={st.n}</span></td>
-        : <td class="c na">n={st.n}</td>))}</tr>
+        ? <td class="c" style={bg(st.mean)}><b>{f3(st.mean)}</b><span>{st.n} checked</span></td>
+        : <td class="c na">{st.n === 0 ? 'none' : `only ${st.n}`}</td>))}</tr>
     ))}</tbody>
   </table></div>
-  <p class="kv">Claims are assigned to the domain of their first topic. Shade: scale from 0 to 1 around 0.5; the value is always printed. Greyed: n &lt; {MIN_N}.</p>
+  <p class="kv">Scores out of 100. Green means mostly good, red mostly bad. Each claim is counted under its main topic only. Grey cells have too few claims to score.</p>
 
   <script type="application/json" id="bench-data" set:html={JSON.stringify(clientData)} />
   <script>
     import { overall, diffOverall } from '../lib/scoring';
     const $ = (id: string) => document.getElementById(id)!;
     const D = JSON.parse($('bench-data').textContent!);
-    const f3 = (x: number | null) => (x == null ? '—' : x.toFixed(3));
-    const fci = (c: number[] | null) => (c ? `[${c[0].toFixed(2)}, ${c[1].toFixed(2)}]` : '');
-    const sg = (x: number) => (x >= 0 ? '+' : '−') + Math.abs(x).toFixed(3);
+    const f3 = (x: number | null) => (x == null ? '—' : (x * 100).toFixed(1));
+    const fci = (c: number[] | null) => (c ? `${(c[0] * 100).toFixed(0)} to ${(c[1] * 100).toFixed(0)}` : '');
+    const sg = (x: number) => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(1);
     function update() {
       const w = { A: +($('wA') as HTMLInputElement).value, B: +($('wB') as HTMLInputElement).value, C: +($('wC') as HTMLInputElement).value };
       const excl = ($('excl') as HTMLInputElement).checked;
@@ -150,14 +152,15 @@ const dtxt = (d: { diff: number | null; ci: [number, number] | null; significant
       D.parties.forEach((p: any, i: number) => {
         const o = overall(pools[i], w);
         $('ov-' + p.id).textContent = f3(o.score);
-        $('ci-' + p.id).textContent = `95% CI ${fci(o.ci)} · n=${o.n}`;
+        $('ci-' + p.id).textContent = `Likely range: ${fci(o.ci)}`;
       });
       const d = diffOverall(pools[0], pools[1], w);
       $('ov-diff').textContent = d.diff == null ? '—' : sg(d.diff);
-      $('ci-diff').textContent = `95% CI ${fci(d.ci)}`;
-      $('sig-diff').textContent = d.significant ? 'The interval excludes 0: a real difference.' : 'The interval includes 0: no clear difference yet.';
+      $('ci-diff').textContent = `Likely range: ${fci(d.ci)} points`;
+      $('sig-diff').textContent = d.significant ? 'This gap is big enough to be real.' : 'Too close to call: the gap could easily be zero.';
       const t = w.A + w.B + w.C;
-      $('formula').textContent = t ? `Overall = ${(w.A / t).toFixed(2)}·A + ${(w.B / t).toFixed(2)}·B + ${(w.C / t).toFixed(2)}·C for each party (suites with no data are dropped and weights renormalised).` : 'All weights are zero.';
+      const part = (x: number) => `${Math.round((x / t) * 100)}%`;
+      $('formula').textContent = t ? `The score is ${part(w.A)} true statements, ${part(w.B)} promises kept and ${part(w.C)} world rankings.` : 'All sliders are at zero, so there is nothing to score.';
     }
     ['wA', 'wB', 'wC', 'excl'].forEach((i) => $(i).addEventListener('input', update));
     update();
@@ -183,6 +186,7 @@ const dtxt = (d: { diff: number | null; ci: [number, number] | null; significant
   .nowrap { white-space: nowrap; }
   .gapfig { font-size: var(--fs-kpi); font-weight: 700; letter-spacing: -.03em; line-height: 1; }
   .gapread { margin: 0; font-size: 14px; }
+  .slhint { margin: 0 0 4px; }
   .diff .sliders label { grid-template-columns: max-content minmax(0, 1fr) 28px; }
   .diff .sliders input[type=range] { min-width: 0; width: 100%; }
   .diff .sliders { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--rule); }

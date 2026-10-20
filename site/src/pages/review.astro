@@ -2,10 +2,12 @@
 import PartyLogo from '../components/PartyLogo.astro';
 import Base from '../layouts/Base.astro';
 import Badge from '../components/Badge.astro';
+import { t } from '../i18n/en';
 import { getData } from '../lib/data';
 import { u, REPO_URL } from '../lib/site';
 const { claims } = getData();
 const STATUSES = ['verified', 'in-review', 'disputed', 'draft'] as const;
+const STATUS: Record<string, string> = { verified: 'Double-checked', 'in-review': 'Being checked', disputed: 'Disputed', draft: 'Not checked yet' };
 const count = (s: string, p?: string) => claims.filter((c) => c.review_status === s && (!p || c.party === p)).length;
 const conf = { low: 0, medium: 1, high: 2 } as const;
 const approvals = (c: (typeof claims)[number]) => c.reviews.filter((r) => r.trusted && r.decision === 'approve' && r.checks_complete).length;
@@ -18,36 +20,38 @@ const queue = claims.filter((c) => c.review_status !== 'verified').sort((a, b) =
   a.id.localeCompare(b.id));
 const newIssue = (id: string) => `${REPO_URL}/issues/new?template=claim-review.yml&title=${encodeURIComponent(`Review: ${id}`)}&claim_id=${encodeURIComponent(id)}`;
 const pct = (n: number) => `${((n / Math.max(1, claims.length)) * 100).toFixed(0)}%`;
+const SUM = new Map(getData().claims.map((x) => [x.id, x.summary || x.id]));
+const title = (id: string) => { const s = SUM.get(id) ?? id; return s.length > 110 ? s.slice(0, 107).trimEnd() + '…' : s; };
 ---
-<Base title="Review claims">
-  <h1>Review claims</h1>
-  <p class="muted">Every entry starts as a draft, many of them researched by an AI model. Nothing should be trusted until people have checked it. Anyone can review; reviews from the trusted reviewer list count toward verification.</p>
+<Base title="Help check claims">
+  <h1>Help check claims</h1>
+  <p class="lede">Every entry starts as a rough draft, and many were first researched with AI. None of it should be trusted until people have checked it. Anyone can help; reviews from people on our trusted list count toward marking an entry as double-checked.</p>
 
   <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Status</th><th class="r">All</th><th class="r">BJP</th><th class="r">INC</th></tr></thead>
-    <tbody>{STATUSES.map((s) => <tr><th scope="row">{s}</th><td class="r num">{count(s)} <span class="kv">({pct(count(s))})</span></td><td class="r num">{count(s, 'BJP')}</td><td class="r num">{count(s, 'INC')}</td></tr>)}</tbody>
+    <thead><tr><th>Status</th><th class="r">All</th><th class="r">BJP</th><th class="r">Congress</th></tr></thead>
+    <tbody>{STATUSES.map((s) => <tr><th scope="row">{STATUS[s]}</th><td class="r num">{count(s)} <span class="kv">({pct(count(s))})</span></td><td class="r num">{count(s, 'BJP')}</td><td class="r num">{count(s, 'INC')}</td></tr>)}</tbody>
   </table></div>
 
-  <h2>How to review a claim</h2>
+  <h2>How to check a claim</h2>
   <ol>
-    <li>Open the claim page and read the quote, verdict, evidence and analysis.</li>
-    <li><b>Check the quote.</b> Open the transcript or video source. Is the wording right, or correctly labelled "paraphrased"? Was it said by this person, on this date?</li>
-    <li><b>Check the evidence.</b> Open at least two evidence links. Do they say what the "key figure" says? Prefer primary data (ministry data, Parliament answers, CAG, RBI, NSO).</li>
-    <li><b>Check the verdict</b> against the definitions on the <a href={u('/methodology/')}>methodology</a> page. Would a careful person from either side of politics agree with it?</li>
-    <li><b>Check the wording</b> is neutral, and that any government or party response is included.</li>
-    <li>Press <b>Review this claim on GitHub</b>, tick the checklist, choose a decision and submit. A bot records your review on the claim within a few minutes and the site updates.</li>
+    <li>Open the claim and read the quote, the result, the proof and our reading of it.</li>
+    <li><b>Check the quote.</b> Open the video or written source. Are the words right (or correctly marked "not word for word")? Did this person really say it, on this date?</li>
+    <li><b>Check the proof.</b> Open at least two of the sources. Do they really show what we say they show? Official sources (ministry data, answers in Parliament, CAG, RBI, NSO) are best.</li>
+    <li><b>Check the result</b> against what each result means on the <a href={u('/methodology/')}>How we score</a> page. Would a fair-minded supporter of either party agree with it?</li>
+    <li><b>Check the tone.</b> Is it neutral? Is the government's or party's response included if there is one?</li>
+    <li>Press <b>Check this claim yourself</b>, tick the checklist, pick your decision and submit. Your review shows up on the claim within a few minutes.</li>
   </ol>
-  <p class="kv">Rules: a claim is <b>verified</b> after two approvals from different trusted reviewers with the full checklist ticked. Any trusted "reject" or "request changes" marks it <b>disputed</b> until the entry is fixed. Your latest review replaces your earlier one on the same claim. Corrections to the data itself: open a pull request against <code>data/claims/&lt;id&gt;.json</code>. Trusted reviewers are listed in <a href={`${REPO_URL}/blob/main/reviewers.json`} rel="noopener">reviewers.json</a>.</p>
+  <p class="kv">Rules: a claim becomes <b>double-checked</b> when two different trusted reviewers approve it with the full checklist ticked. If a trusted reviewer rejects it or asks for changes, it is marked <b>disputed</b> until it is fixed. If you review the same claim twice, only your latest review counts. To fix the data directly, open a pull request on <code>data/claims/&lt;id&gt;.json</code>. Trusted reviewers are listed in <a href={`${REPO_URL}/blob/main/reviewers.json`} rel="noopener">reviewers.json</a>.</p>
 
-  <h2>Review queue ({queue.length})</h2>
-  <p class="kv">Order: disputed first, then entries closest to verification, then lowest confidence and weakest automated grounding.</p>
+  <h2>Claims waiting to be checked ({queue.length})</h2>
+  <p class="kv">Disputed claims come first, then the ones closest to being double-checked, then the ones we are least sure about.</p>
   <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Claim</th><th>Party</th><th>Speaker</th><th>Verdict</th><th>Confidence</th><th class="r">Grounding</th><th>Status</th><th class="r">Approvals</th><th></th></tr></thead>
+    <thead><tr><th>Claim</th><th>Party</th><th>Who</th><th>Result</th><th>How sure</th><th class="r">Sources matched</th><th>Status</th><th class="r">Approvals</th><th></th></tr></thead>
     <tbody>{queue.map((c) => (
-      <tr><td><a href={u(`/claims/${c.id}/`)} class="num">{c.id}</a></td><td><span class="party"><PartyLogo party={c.party} size={14} />{c.party}</span></td><td>{c.speaker}</td><td><Badge verdict={c.verdict} /></td>
-        <td>{c.confidence}</td><td class="r num">{c.grounding?.checked ? `${c.grounding.matched}/${c.grounding.checked}` : '—'}</td>
-        <td>{c.review_status}</td><td class="r num">{approvals(c)}/2</td>
-        <td><a href={newIssue(c.id)} rel="noopener">Review</a></td></tr>
+      <tr><td><a href={u(`/claims/${c.id}/`)} class="clink">{title(c.id)}</a></td><td><span class="party"><PartyLogo party={c.party} size={14} />{c.party}</span></td><td>{c.speaker}</td><td><Badge verdict={c.verdict} /></td>
+        <td>{t.confidence[c.confidence]}</td><td class="r num">{c.grounding?.checked ? `${c.grounding.matched}/${c.grounding.checked}` : '—'}</td>
+        <td>{STATUS[c.review_status] ?? c.review_status}</td><td class="r num">{approvals(c)}/2</td>
+        <td><a href={newIssue(c.id)} rel="noopener">Check it</a></td></tr>
     ))}</tbody>
   </table></div>
 </Base>

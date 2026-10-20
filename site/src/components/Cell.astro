@@ -4,7 +4,7 @@ import { f3, fci } from '../lib/bench';
 const { st, extra } = Astro.props;
 ---
 {st == null ? <span class="na">{'—'}</span> : st.sufficient ? (
-  <span class="cell"><span class="main">{f3(st.mean)}</span><span class="sub">CI {fci(st.ci)} · n={st.n}</span>{extra && <span class="sub">{extra}</span>}</span>
+  <span class="cell"><span class="main">{f3(st.mean)}<span class="kv"> / 100</span></span><span class="sub">likely {fci(st.ci)} · from {st.n} {st.n === 1 ? 'claim' : 'claims'}</span>{extra && <span class="sub">{extra}</span>}</span>
 ) : (
-  <span class="cell na"><span class="sub">insufficient data</span><span class="sub">n={st.n} (min {MIN_N}){st.mean != null && ` · mean ${f3(st.mean)}`}</span></span>
+  <span class="cell na"><span class="sub">Too few to score</span><span class="sub">{st.n} checked, need at least {MIN_N}</span></span>
 )}

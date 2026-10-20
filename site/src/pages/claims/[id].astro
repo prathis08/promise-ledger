@@ -48,16 +48,16 @@ const fmt = (u?: string) => u && /^https?:\/\//.test(u) ? u : undefined;
 <Base title={c.summary || c.id} description={c.summary}>
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(ld).replace(/</g, '\\u003c')} />
   {draft && <div class="banner draft" role="alert">{t.draftBanner}</div>}
-  {c.review_status === 'disputed' && <div class="banner draft" role="alert">DISPUTED: a trusted reviewer has rejected this entry or asked for changes. See the review section below.</div>}
+  {c.review_status === 'disputed' && <div class="banner draft" role="alert">Disputed: a trusted reviewer thinks this entry is wrong or needs changes. See the review section at the bottom.</div>}
   <p class="sans small"><a href={u('/')}>← {t.nav.home}</a></p>
-  <p><Badge verdict={c.verdict} /> <span class="sans small muted">{t.claimTypes[c.claim_type]} · {t.confidence[c.confidence]} confidence</span></p>
+  <p><Badge verdict={c.verdict} /> <span class="sans small muted">{t.claimTypes[c.claim_type]} · {t.confidence[c.confidence]} about this result</span></p>
   <h1>{c.summary}</h1>
-  {unscored && <p><span class="nscored">Not scored</span> <span class="sans small">{c.scoring_note}</span></p>}
-  {sc && <p class="kv">Test case in Suite {sc.suite} · score {sc.score == null ? 'n/a (not graded)' : sc.score.toFixed(2)}</p>}
+  {unscored && <p><span class="nscored">Background only, not scored</span> <span class="sans small">{c.scoring_note}</span></p>}
+  {sc && <p class="kv">Counts toward: {sc.suite === 'A' ? 'true statements' : 'promises kept'} · {sc.score == null ? 'not scored' : `${Math.round(sc.score * 100)} out of 100 points`}</p>}
   {ctx.map((x) => (
-    <aside class="ctxbox"><strong>Context</strong> <span class="kv">(not scored)</span>
+    <aside class="ctxbox"><strong>Background</strong> <span class="kv">(not scored)</span>
       <blockquote style="margin:6px 0">“{x.quote_english || x.quote_original}”</blockquote>
-      <div class="sans small">{x.speaker}, {x.date}. {x.summary} <a href={u(`/claims/${x.id}/`)}>Open entry</a></div></aside>
+      <div class="sans small">{x.speaker}, {x.date}. {x.summary} <a href={u(`/claims/${x.id}/`)}>Read it</a></div></aside>
   ))}
 
   {c.quote_original && <blockquote class="quote" lang={c.language || undefined}><span class="lbl">{L.original}</span>{c.quote_original}</blockquote>}
@@ -65,15 +65,15 @@ const fmt = (u?: string) => u && /^https?:\/\//.test(u) ? u : undefined;
   {!c.quote_is_verbatim && <p class="sans small muted">{L.paraphrasedNote}</p>}
 
   <dl class="facts">
-    <dt>Speaker</dt><dd>{c.speaker}</dd>
+    <dt>Who said it</dt><dd>{c.speaker}</dd>
     <dt>Party</dt><dd><span class="party"><PartyLogo party={c.party} size={16} />{c.party}</span></dd>
-    {c.role && <><dt>Office</dt><dd>{c.role}{c.state && c.level === 'state' && !c.role.includes(c.state) ? `, ${c.state}` : ''}</dd></>}
+    {c.role && <><dt>Their job</dt><dd>{c.role}{c.state && c.level === 'state' && !c.role.includes(c.state) ? `, ${c.state}` : ''}</dd></>}
     {c.venue && <><dt>{L.venue}</dt><dd>{c.venue}</dd></>}
     <dt>{L.date}</dt><dd>{c.date}</dd>
     {c.deadline && <><dt>{L.deadline}</dt><dd>{c.deadline}</dd></>}
-    {c.topics.length > 0 && <><dt>Topics</dt><dd>{c.topics.join(', ')}</dd></>}
-    {c.researched_by && <><dt>Researched by</dt><dd class="kv">{c.researched_by}</dd></>}
-    {c.grounding && <><dt>Grounding check</dt><dd class="kv">{c.grounding.checked ? `${c.grounding.matched} of ${c.grounding.checked} checkable evidence pages contain the cited figures` : 'no evidence page could be checked automatically (PDF or blocked)'}</dd></>}
+    {c.topics.length > 0 && <><dt>Topic</dt><dd>{c.topics.join(', ')}</dd></>}
+    {c.researched_by && <><dt>First researched by</dt><dd class="kv">{c.researched_by}</dd></>}
+    {c.grounding && <><dt>Automatic source check</dt><dd class="kv">{c.grounding.checked ? `the quoted numbers were found in ${c.grounding.matched} of ${c.grounding.checked} source pages we could open` : 'none of the sources could be opened automatically (PDFs or blocked sites)'}</dd></>}
   </dl>
 
   {media.some((m) => m.url) && <h2>{L.video}</h2>}
@@ -126,10 +126,10 @@ const fmt = (u?: string) => u && /^https?:\/\//.test(u) ? u : undefined;
 
   {paras.length > 0 && <><h2>{L.analysis}</h2>{paras.map((p) => <p>{p}</p>)}</>}
 
-  <h2>{L.confidence} & review</h2>
+  <h2>{L.confidence}</h2>
   <dl class="facts">
     <dt>{L.confidence}</dt><dd>{t.confidence[c.confidence]}</dd>
-    <dt>{L.reviewStatus}</dt><dd>{c.review_status}</dd>
+    <dt>{L.reviewStatus}</dt><dd>{({ draft: 'Not checked yet', 'in-review': 'Being checked', verified: 'Double-checked', disputed: 'Disputed' } as Record<string, string>)[c.review_status] ?? c.review_status}</dd>
     {c.last_reviewed && <><dt>{L.lastReviewed}</dt><dd>{c.last_reviewed}</dd></>}
   </dl>
   {c.notes && <><h2>{L.notes}</h2><p class="sans small">{c.notes}</p></>}

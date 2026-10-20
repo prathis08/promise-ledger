@@ -7,11 +7,11 @@ const { claims, indices, series } = getData();
 ---
 <Base title={t.data.title}>
   <h1>{t.data.title}</h1>
-  <p>The whole site is generated from plain JSON files: one file per claim, plus index rankings and time series. This build contains <strong>{claims.length}</strong> claims, <strong>{indices.length}</strong> indices and <strong>{series.length}</strong> series.</p>
-  <p>The merged claims file includes every claim, including drafts (see the <code>review_status</code> field). Fields follow the project schema: speaker, date, venue, quote_original, quote_english, quote_is_verbatim, claim_type, deadline, verdict, summary, topics, media, evidence, govt_response, analysis, confidence, review_status, last_reviewed, notes.</p>
+  <p class="lede">Everything on this site comes from simple data files that anyone can download and reuse: one file per claim, plus the world rankings and the official number series. Right now there are <strong>{claims.length}</strong> claims, <strong>{indices.length}</strong> rankings and <strong>{series.length}</strong> number series.</p>
+  <p>The download includes every claim, even ones not checked yet (see the <code>review_status</code> field). Each claim has these fields: speaker, date, venue, quote_original, quote_english, quote_is_verbatim, claim_type, deadline, verdict, summary, topics, media, evidence, govt_response, analysis, confidence, review_status, last_reviewed, notes.</p>
   <p>
     <a href={u('/downloads/claims.json')} download><button type="button">{t.data.downloadJson}</button></a>
     <a href={u('/downloads/claims.csv')} download><button type="button">{t.data.downloadCsv}</button></a>
   </p>
-  <p class="sans small muted">CSV flattens lists: topics and URLs are joined with “ | ”. Use the JSON for full detail.</p>
+  <p class="sans small muted">The spreadsheet (CSV) version squeezes lists into one cell, separated by “ | ”. The JSON version has full detail.</p>
 </Base>
