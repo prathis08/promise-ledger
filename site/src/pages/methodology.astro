@@ -1,4 +1,5 @@
 ---
+import { u } from '../lib/site';
 import Base from '../layouts/Base.astro';
 import Badge from '../components/Badge.astro';
 import { t } from '../i18n/en';
@@ -6,65 +7,273 @@ import { VERDICTS } from '../lib/data';
 import * as S from '../lib/scoring';
 const rows = (o: Record<string, number>) => Object.entries(o);
 const pts = (x: number) => Math.round(x * 100);
-const vname = (k: string) => t.verdicts[k] ?? k;
+const pname = (id: string) => (id === 'INC' ? 'Congress' : id);
+const flagCount = Object.keys(S.INDEX_FLAGS).length;
 ---
 <Base title="How we score" description="Exactly how Sarkari Benchmark checks claims and promises, gives points, compares BJP and Congress, and handles uncertainty.">
-  <h1>How we score</h1>
-  <p class="lede">The short version: we collect things leaders said or promised, check each one against official data, give it points, and average the points for each party. Below is exactly how, so anyone can check our work. Everything on this page is generated from the same code that calculates the scores (<code>scoring.ts</code>).</p>
+  <div class="page-head">
+    <div>
+      <p class="eyebrow">Methodology</p>
+      <h1>How we score</h1>
+      <p class="lede">We collect things leaders said or promised, check each one against official data, give it points, and average the points for each party. Here is exactly how, so anyone can check our work.</p>
+    </div>
+  </div>
 
-  <h2>What each result means</h2>
-  <dl>{VERDICTS.map((v) => <><dt style="margin-top:.6em"><Badge verdict={v} /></dt><dd style="margin-left:0">{t.verdictDefs[v]}</dd></>)}</dl>
-  <p>Claims that turned out true are scored exactly like every other claim.</p>
+  <section class="method-hero">
+    <div class="method-card">
+      <h2>The short version</h2>
+      <ol class="method-steps">
+        <li><b>Collect claims.</b> Statements, number claims and promises from BJP and Congress leaders.</li>
+        <li><b>Check each one.</b> Every entry needs proof that it was said, plus sources for the result.</li>
+        <li><b>Give points.</b> Part 1 covers statements, Part 2 covers promises, and Part 3 covers India's world rankings.</li>
+        <li><b>Compare.</b> Each party's average becomes a score out of 100, with a likely range to show how sure we are.</li>
+      </ol>
+    </div>
+    <aside class="method-aside">
+      <b>The core idea</b>
+      <p>Think of the two parties as two students taking the same exam. The questions are their public claims, and we mark every answer with the same rules.</p>
+      <a href={u('/')}>See the scoreboard →</a>
+    </aside>
+  </section>
 
-  <h2>Part 1: Were their statements true?</h2>
-  <p>This covers statements and claims about numbers. Each one gets points by its result, and the party's score is the average. "Fully true" is the share that were completely true. Results not in this table are not scored.</p>
-  <table class="dense"><thead><tr><th>Result</th><th class="r">Points out of 100</th></tr></thead><tbody>{rows(S.VERDICT_SCORES_A).map(([k, v]) => <tr><td>{vname(k)}</td><td class="r num">{pts(v)}</td></tr>)}</tbody></table>
+  <nav class="method-toc" aria-label="On this page">
+    <a href="#results">1. Results</a>
+    <a href="#part-1">2. Statements</a>
+    <a href="#part-2">3. Promises</a>
+    <a href="#parties">4. Parties</a>
+    <a href="#part-3">5. World rankings</a>
+    <a href="#topics">6. Topics</a>
+    <a href="#overall">7. Overall score</a>
+    <a href="#uncertainty">8. Uncertainty</a>
+    <a href="#sources">9. Sources</a>
+  </nav>
 
-  <h2>Part 2: Did they keep their promises?</h2>
-  <p>This covers promises. Each one gets points by its result, and the party's score is the average. "Kept on time" is the share fully delivered by the deadline. "Can't be checked" is not scored.</p>
-  <table class="dense"><thead><tr><th>Result</th><th class="r">Points out of 100</th></tr></thead><tbody>{rows(S.VERDICT_SCORES_B).map(([k, v]) => <tr><td>{vname(k)}</td><td class="r num">{pts(v)}</td></tr>)}</tbody></table>
-  <p><strong>Deadline not reached.</strong> If a promise's deadline is after {S.AS_OF}, it is not scored at all: no extra credit for finishing early and no penalty for work still going on.</p>
-  <p><strong>How close to the target.</strong> For promises with a number attached, we measure how much of the way from the starting point to the target was covered: (value − start) ÷ (target − start), kept between 0% and 100%. The starting point is the figure from just before the promise was made (or the earliest figure we have). We show this at the deadline and for the latest figures. Financial years like 2015-16 are treated as ending on 31 March 2016. A note is shown when units or prices don't match, or when we had to use the earliest figure as the start.</p>
+  <h2 id="results"><span class="sec-num">1</span> What each result means</h2>
+  <p class="lede">Every entry gets one result. The result sets its points in the relevant part of the score.</p>
+  <div class="verdict-defs">
+    {VERDICTS.map((v) => (
+      <div class="verdict-def">
+        <Badge verdict={v} />
+        <p>{t.verdictDefs[v]}</p>
+      </div>
+    ))}
+  </div>
+  <p class="method-callout"><b>True claims are included on purpose.</b> A test made only of failures would be misleading, so claims that turned out true are scored exactly like every other claim.</p>
 
-  <h2>Who counts for which party</h2>
+  <h2 id="part-1"><span class="sec-num">2</span> Part 1: Were their statements true?</h2>
+  <div class="method-grid">
+    <div class="method-card">
+      <h3>What counts</h3>
+      <ul>
+        <li><b>Statements</b> and claims about numbers.</li>
+        <li>Each one gets points from its result; the party's score is the average.</li>
+        <li><b>Fully true</b> is the share of scored statements that were completely true.</li>
+        <li>Results not listed in the table are <b>not scored</b>.</li>
+      </ul>
+    </div>
+    <div class="method-card">
+      <h3>Points by result</h3>
+      <table class="score-table">
+        <thead><tr><th>Result</th><th class="r">Points out of 100</th></tr></thead>
+        <tbody>{rows(S.VERDICT_SCORES_A).map(([k, v]) => <tr><td><Badge verdict={k} /></td><td class="r num">{pts(v)}</td></tr>)}</tbody>
+      </table>
+    </div>
+  </div>
+
+  <h2 id="part-2"><span class="sec-num">3</span> Part 2: Did they keep their promises?</h2>
+  <div class="method-grid">
+    <div class="method-card">
+      <h3>What counts</h3>
+      <ul>
+        <li>Promises only.</li>
+        <li>Each one gets points from its result; the party's score is the average.</li>
+        <li><b>Kept on time</b> is the share that was fully delivered by the deadline.</li>
+        <li><b>Can't be checked</b> promises are not scored.</li>
+      </ul>
+    </div>
+    <div class="method-card">
+      <h3>Points by result</h3>
+      <table class="score-table">
+        <thead><tr><th>Result</th><th class="r">Points out of 100</th></tr></thead>
+        <tbody>{rows(S.VERDICT_SCORES_B).map(([k, v]) => <tr><td><Badge verdict={k} /></td><td class="r num">{pts(v)}</td></tr>)}</tbody>
+      </table>
+    </div>
+  </div>
+
+  <p class="method-callout"><b>Deadline not reached.</b> If a promise's deadline is after {S.AS_OF}, it is not scored at all: no extra credit for finishing early and no penalty for work still going on.</p>
+
+  <details class="method-details">
+    <summary>How close a promise got to its target</summary>
+    <p>For promises with a number attached, we measure how much of the way from the start to the target was covered:</p>
+    <p class="formula-line">(value − start) ÷ (target − start), kept between 0% and 100%</p>
+    <ul>
+      <li><b>Start:</b> the figure from just before the promise was made, or the earliest figure we have.</li>
+      <li><b>At the deadline:</b> the last figure at or before the deadline.</li>
+      <li><b>Latest:</b> the most recent figure.</li>
+      <li>Financial years such as 2015-16 are treated as ending on 31 March 2016.</li>
+      <li>A note is shown when units or prices do not match, or when we had to use the earliest figure as the start.</li>
+    </ul>
+  </details>
+
+  <h2 id="parties"><span class="sec-num">4</span> Who counts for which party</h2>
   <p>Each claim counts for the party of the person who made it: Union ministers and the Prime Minister, Chief Ministers, and party office-bearers.</p>
-  <table class="dense"><thead><tr><th>Party</th><th>Claims from</th><th>Rankings measured</th></tr></thead><tbody>{S.PARTIES.map((p) => <tr><td>{p.label}</td><td>{p.claimEra}</td><td>{p.indexFrom} → {p.indexTo ?? 'latest'}</td></tr>)}</tbody></table>
-  <p><strong>How claims are picked.</strong> We look for the same number of claims for each party and each topic: 8 claims, at least 3 promises with a deadline or target, at least 3 statements or number claims, and at least 2 by Chief Ministers, chosen from the best-known and most widely reported. Researchers are told to include claims that turned out true. This makes the picking fairer, but it can't make it perfect.</p>
-  <p><strong>A known imbalance.</strong> Most of India's fact-checking groups started around 2014, so Congress-era claims lean more on CAG audits, answers in Parliament and later data, and less on fact-checks from the time.</p>
-  <p><strong>Comparing the two parties.</strong> For every part and for the overall score we show BJP minus Congress, with a likely range ({Math.round(S.CI_LEVEL * 100)}% confidence, worked out by re-sampling each party's claims many times). We only call a gap real when that whole range is above zero or below zero. Otherwise we say "too close to call".</p>
+  <div class="method-grid">
+    {S.PARTIES.map((p) => (
+      <div class="method-card">
+        <h3>{pname(p.id)}</h3>
+        <p class="kv">Claims: {p.claimEra}</p>
+        <p class="kv">Rankings measured: {p.indexFrom} → {p.indexTo ?? 'latest'}</p>
+      </div>
+    ))}
+  </div>
 
-  <h2>Part 3: Did India's world rankings improve?</h2>
-  <p>Each ranking is turned into a score out of 100, where higher is better. For a rank (say, 80th of 120 countries): 1 − (rank − 1) ÷ (number of countries − 1). For a score (say, 40 out of 100): score ÷ maximum, or the score as it is when it is already on a 0 to 1 scale. If the number of countries is missing for a year, we borrow it from the nearest year that has it and show a note.</p>
-  <p>For each party we compare the edition at the start of their time in power with the last edition during it. The start can be up to {S.ERA_START_SLACK} years late (shown as "starts late"); for a party no longer in power, the last edition must be within {S.ERA_END_SLACK} years of them leaving. A ranking scores {pts(S.C_IMPROVED)} if India moved up, {pts(S.C_FLAT)} if it barely changed (less than {S.C_EPS * 100} points), and {pts(S.C_DECLINED)} if it moved down. The part's score is the average. We also show the average change and the change per year, because the two periods are different lengths.</p>
-  <table class="dense"><thead><tr><th>Ranking with a known problem</th><th>Problem</th><th>Details</th></tr></thead><tbody>{Object.entries(S.INDEX_FLAGS).map(([k, f]) => <tr><td class="num">{k}</td><td>{f.kind === 'comparability' ? 'hard to compare across years' : 'no longer published'}</td><td>{f.text}</td></tr>)}</tbody></table>
-  <p>The "skip rankings with known problems" switch leaves these out of Part 3 and the overall score.</p>
+  <div class="method-grid">
+    <div class="method-card">
+      <h3>How claims are picked</h3>
+      <ul>
+        <li>Same quota for each party and topic: <b>8 claims</b>.</li>
+        <li>At least <b>3 promises</b> with a deadline or target.</li>
+        <li>At least <b>3 statements or number claims</b>.</li>
+        <li>At least <b>2 by Chief Ministers</b>.</li>
+        <li>Chosen from the best-known and most widely reported claims. Researchers are told to include claims that turned out true.</li>
+      </ul>
+    </div>
+    <aside class="method-card warn">
+      <h3>A known imbalance</h3>
+      <p>Most of India's fact-checking groups started around 2014, so Congress-era claims lean more on CAG audits, answers in Parliament and later data, and less on fact-checks from the time.</p>
+      <p class="kv">This makes the comparison fairer, but it cannot make it perfect.</p>
+    </aside>
+  </div>
 
-  <h2>Topics</h2>
-  <p>Each claim is counted only under its first (main) topic.</p>
-  <table class="dense"><thead><tr><th>Topic</th><th>Claim tags</th><th>Rankings</th></tr></thead><tbody>{S.DOMAINS.map((d) => <tr><td>{d.name}</td><td>{d.topics.join(', ')}</td><td>{d.indices.join(', ') || '—'}</td></tr>)}</tbody></table>
+  <p class="method-callout"><b>Comparing the two parties.</b> For every part and for the overall score we show BJP minus Congress, with a likely range ({Math.round(S.CI_LEVEL * 100)}% confidence, from re-sampling each party's claims many times). We only call a gap real when that whole range is above zero or below zero. Otherwise we say "too close to call".</p>
 
-  <h2>The overall score</h2>
-  <p>Overall = (weight 1 × Part 1 + weight 2 × Part 2 + weight 3 × Part 3) ÷ (sum of the weights)</p>
-  <p>By default the three parts count {pts(S.DEFAULT_WEIGHTS.A)}%, {pts(S.DEFAULT_WEIGHTS.B)}% and {pts(S.DEFAULT_WEIGHTS.C)}%. You can change this with the sliders on the scoreboard. A part with nothing to score is left out and the others are scaled up to fill in.</p>
-
-  <h2>How sure are the numbers?</h2>
-  <ul>
-    <li>The "likely" ranges are {Math.round(S.CI_LEVEL * 100)}% ranges from re-sampling the claims {S.BOOTSTRAP_N} times (statisticians call this a bootstrap). We use a fixed starting point ({S.SEED}) so every rebuild gives the same numbers.</li>
-    <li>When something has fewer than {S.MIN_N} claims, we show "too few to score" instead of a number.</li>
-    <li>Every score says how many claims it is based on.</li>
+  <h2 id="part-3"><span class="sec-num">5</span> Part 3: Did India's world rankings improve?</h2>
+  <p class="lede">This part asks a simple question: did India move up or down in independent world rankings during each party's time in power?</p>
+  <ol class="method-steps compact">
+    <li><b>Turn every ranking into a score out of 100.</b> For ranks: <span class="num">1 − (rank − 1) ÷ (number of countries − 1)</span>. For scores: <span class="num">score ÷ maximum</span>, or the score as it is when it is already on a 0–1 scale.</li>
+    <li><b>Compare the start and end of each period.</b> For each party, compare the edition at the start of its time in power with the last edition during it.</li>
+    <li><b>Score each ranking.</b> Moved up = {pts(S.C_IMPROVED)}, barely changed = {pts(S.C_FLAT)}, moved down = {pts(S.C_DECLINED)}. The part's score is the average.</li>
+    <li><b>Allow for different lengths.</b> We also show the average change per year, because the two periods are different lengths.</li>
+  </ol>
+  <ul class="notes-list">
+    <li><b>Late start:</b> an era's first edition may be up to {S.ERA_START_SLACK} years after it began (shown as "starts late").</li>
+    <li><b>Closed era:</b> for a party no longer in power, the last edition must be within {S.ERA_END_SLACK} years of them leaving.</li>
+    <li><b>Barely changed:</b> a movement of less than {S.C_EPS * 100} points.</li>
   </ul>
+  <details class="method-details">
+    <summary>Rankings with a known problem ({flagCount})</summary>
+    <p>The "skip rankings with known problems" switch leaves these out of Part 3 and the overall score.</p>
+    <div class="tablewrap"><table class="dense">
+      <thead><tr><th>Ranking</th><th>Problem</th><th>Details</th></tr></thead>
+      <tbody>{Object.entries(S.INDEX_FLAGS).map(([k, f]) => <tr><td class="num">{k}</td><td>{f.kind === 'comparability' ? 'hard to compare across years' : 'no longer published'}</td><td>{f.text}</td></tr>)}</tbody>
+    </table></div>
+  </details>
 
-  <h2>Background entries</h2>
-  <p>Some entries are marked "background only". They have their own page but are left out of every score. They may appear as extra context on a related claim.</p>
+  <h2 id="topics"><span class="sec-num">6</span> Topics</h2>
+  <p>A claim is counted only under its <b>first (main) topic</b>. This avoids counting the same claim twice.</p>
+  <details class="method-details">
+    <summary>View the topic mapping</summary>
+    <div class="tablewrap"><table class="dense">
+      <thead><tr><th>Topic</th><th>Claim tags</th><th>Rankings</th></tr></thead>
+      <tbody>{S.DOMAINS.map((d) => <tr><td>{d.name}</td><td>{d.topics.join(', ')}</td><td>{d.indices.join(', ') || '—'}</td></tr>)}</tbody>
+    </table></div>
+  </details>
 
-  <h2>Sources and checking</h2>
-  <ul>
-    <li>Every entry needs proof the person really said it (a video or written record) and at least two sources for the result, preferring government data, answers in Parliament, CAG audits and the RBI.</li>
-    <li>Quotes are marked "not word for word" unless an original source has the exact words.</li>
-    <li>If the government has responded, we include its response.</li>
-    <li>An entry isn't final until two people have checked the quote, the sources and the result. Until then it is marked "not checked yet". Right now every entry is unchecked, so all scores are early results.</li>
-  </ul>
+  <h2 id="overall"><span class="sec-num">7</span> The overall score</h2>
+  <div class="method-card formula-card">
+    <div class="formula-big">Overall = (weight 1 × Part 1 + weight 2 × Part 2 + weight 3 × Part 3) ÷ (sum of the weights)</div>
+    <div class="weight-chips">
+      <span><b>Part 1</b> Statements · {pts(S.DEFAULT_WEIGHTS.A)}%</span>
+      <span><b>Part 2</b> Promises · {pts(S.DEFAULT_WEIGHTS.B)}%</span>
+      <span><b>Part 3</b> World rankings · {pts(S.DEFAULT_WEIGHTS.C)}%</span>
+    </div>
+    <ul>
+      <li>By default the three parts count equally. You can change this with the sliders on the <a href={u('/')}>scoreboard</a>.</li>
+      <li>If a part has nothing to score, it is left out and the other weights are scaled up to fill in.</li>
+      <li>Every score shows how many claims or rankings it is based on.</li>
+    </ul>
+  </div>
 
-  <h2>Corrections</h2>
-  <p>Mistakes are fixed in the data files, with the date and a note saying what changed. Scores are recalculated every time the site is rebuilt.</p>
+  <h2 id="uncertainty"><span class="sec-num">8</span> How sure are the numbers?</h2>
+  <div class="method-grid">
+    <div class="method-card">
+      <h3>Likely ranges</h3>
+      <p>Instead of pretending a score is exact, we show a range. It comes from re-sampling the claims {S.BOOTSTRAP_N} times with a fixed starting point ({S.SEED}), so every rebuild gives the same numbers.</p>
+      <p class="kv">Statisticians call this a bootstrap. Plainly: if the sample were repeated many times, about {Math.round(S.CI_LEVEL * 100)}% of the resulting ranges would contain the true score.</p>
+    </div>
+    <div class="method-card">
+      <h3>Small groups are not scored</h3>
+      <p>When something has fewer than <b>{S.MIN_N} claims</b>, we show <i>too few to score</i> instead of a number.</p>
+      <p class="kv">This avoids ranking noise as if it were a result.</p>
+    </div>
+    <div class="method-card">
+      <h3>Always check n</h3>
+      <p>A score based on 5 claims is much less stable than one based on 50. Every score says how many claims it is based on.</p>
+      <p class="kv">Wide ranges that overlap mean "too close to call", not "no difference".</p>
+    </div>
+  </div>
+
+  <h2 id="sources"><span class="sec-num">9</span> Sources and checking</h2>
+  <ol class="method-steps">
+    <li><b>Prove the quote.</b> Every entry needs a video or written record showing who said it and when.</li>
+    <li><b>Require sources.</b> At least two sources support the result, preferring government data, answers in Parliament, CAG audits and the RBI.</li>
+    <li><b>Label paraphrases.</b> Quotes are marked "not word for word" unless an original source has the exact words.</li>
+    <li><b>Include the response.</b> If the government has responded, we include its response.</li>
+    <li><b>Get two checks.</b> An entry is not final until two people have checked the quote, the sources and the result. Until then it is marked "not checked yet".</li>
+  </ol>
+  <p class="method-callout"><b>Background entries.</b> Some entries are marked "background only". They have their own page but are left out of every score.</p>
+  <p class="method-callout"><b>Corrections.</b> Mistakes are fixed in the data files, with the date and a note saying what changed. Scores are recalculated every time the site is rebuilt.</p>
 </Base>
+
+<style>
+  .eyebrow { font:600 12px var(--sans); letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:0 0 4px; }
+  .sec-num { display:inline-flex; align-items:center; justify-content:center; width:1.55em; height:1.55em; margin-right:.5em; border-radius:50%; background:var(--text); color:var(--ground); font:700 .72em var(--mono, monospace); vertical-align:.08em; }
+  .method-hero { display:grid; grid-template-columns:minmax(0,1.55fr) minmax(0,1fr); gap:var(--gap); margin:22px 0; align-items:start; }
+  .method-hero h2 { margin:0 0 12px; }
+  .method-aside { border:1px solid var(--border); border-left:4px solid var(--p-inc); border-radius:var(--r-card); background:var(--surface); padding:var(--pad); }
+  .method-aside b { display:block; font-size:var(--fs-small); letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+  .method-aside p { margin:0 0 10px; max-width:36ch; }
+  .method-aside a { font-size:14px; font-weight:500; }
+  .method-toc { display:flex; flex-wrap:wrap; gap:8px; margin:20px 0 6px; }
+  .method-toc a { padding:6px 11px; border:1px solid var(--border); border-radius:999px; background:var(--surface); color:var(--muted); font-size:13px; text-decoration:none; }
+  .method-toc a:hover { color:var(--text); border-color:var(--muted); }
+  .method-steps { list-style:none; counter-reset:step; padding:0; margin:0; display:grid; gap:14px; }
+  .method-steps li { position:relative; padding-left:42px; counter-increment:step; }
+  .method-steps li::before { content:counter(step); position:absolute; left:0; top:1px; display:flex; align-items:center; justify-content:center; width:26px; height:26px; border-radius:50%; background:var(--raised); border:1px solid var(--border); font:700 12px var(--mono, monospace); color:var(--muted); }
+  .method-steps li b { display:block; margin-bottom:1px; }
+  .method-steps.compact { margin:14px 0 10px; }
+  .method-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:var(--gap); margin:16px 0; align-items:start; }
+  .method-card { border:1px solid var(--border); border-radius:var(--r-card); background:var(--surface); padding:var(--pad); }
+  .method-card h3 { margin:0 0 6px; }
+  .method-card p:last-child, .method-card ul:last-child { margin-bottom:0; }
+  .method-card ul { padding-left:1.1em; }
+  .method-card li { margin:.3em 0; max-width:70ch; }
+  .method-card.warn { border-left:4px solid var(--v-missed-deadline); background:color-mix(in srgb, var(--v-missed-deadline) 5%, var(--surface)); }
+  .verdict-defs { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:10px; margin:14px 0; }
+  .verdict-def { border:1px solid var(--border); border-radius:var(--r-card); background:var(--surface); padding:12px 14px; }
+  .verdict-def p { margin:8px 0 0; font-size:14px; color:var(--muted); max-width:none; }
+  .method-callout { border:1px solid var(--border); border-left:4px solid var(--accent); border-radius:var(--r-control); background:var(--surface); padding:12px 16px; margin:14px 0; font-size:14px; }
+  .score-table { margin-top:12px; }
+  .score-table th, .score-table td { padding:6px 8px; }
+  .method-details { border:1px solid var(--border); border-radius:var(--r-card); background:var(--surface); padding:0 16px; margin:14px 0; }
+  .method-details summary { padding:12px 0; font-weight:500; color:var(--text); }
+  .method-details[open] { padding-bottom:4px; }
+  .method-details[open] summary { border-bottom:1px solid var(--border); }
+  .method-details > p, .method-details > ul { margin-top:12px; }
+  .method-details .tablewrap { margin:12px 0; }
+  .formula-line { font:13px/1.6 var(--mono, monospace); background:var(--raised); border:1px solid var(--border); border-radius:var(--r-control); padding:10px 12px; }
+  .formula-card { margin:16px 0; }
+  .formula-big { font:13px/1.6 var(--mono, monospace); background:var(--raised); border:1px solid var(--border); border-radius:var(--r-control); padding:12px 14px; overflow-wrap:anywhere; }
+  .weight-chips { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
+  .weight-chips span { border:1px solid var(--border); border-radius:999px; background:var(--ground); padding:5px 11px; font-size:13px; color:var(--muted); }
+  .weight-chips b { color:var(--text); }
+  .formula-card ul { margin-bottom:0; }
+  .notes-list { margin:12px 0 20px; padding-left:1.15em; color:var(--muted); font-size:14px; }
+  .notes-list li { margin:.3em 0; max-width:88ch; }
+  .notes-list b { color:var(--text); }
+  @media (max-width:820px) {
+    .method-hero { grid-template-columns:1fr; }
+    .method-toc { gap:6px; }
+    .method-toc a { font-size:12px; padding:5px 9px; }
+  }
+</style>
