@@ -169,7 +169,7 @@ const dtxt = (d: { diff: number | null; significant: boolean }) => d.diff == nul
 
 <style>
   .lede { max-width: 72ch; }
-  /* 1088 = 3 x 354.67 + 2 x 12: three scorecards land on the column edges. */
+  /* Three equal scorecards with one gap span the full column at every width. */
   .vs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); margin: 0 0 8px; }
   .vs-card { display: flex; flex-direction: column; gap: 14px; }
   .vs-h { display: flex; align-items: center; gap: 8px; }
