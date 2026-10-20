@@ -3,10 +3,11 @@ import { u } from '../lib/site';
 import '../styles/global.css';
 import { t } from '../i18n/en';
 import { getData } from '../lib/data';
+import Flag from '../components/Flag.astro';
 const { title, description = t.tagline } = Astro.props;
 const path = Astro.url.pathname;
 const { fixture } = getData();
-const nav = [['/', 'Leaderboard'], ['/suites/accuracy/', 'A: Accuracy'], ['/suites/promises/', 'B: Promises'], ['/benchmarks/', 'C: Benchmarks'], ['/claims/', 'Claims'], ['/methodology/', t.nav.methodology], ['/data/', t.nav.data], ['/review/', 'Review']];
+const nav = [['/', 'Leaderboard'], ['/suites/accuracy/', 'Accuracy'], ['/suites/promises/', 'Promises'], ['/benchmarks/', 'Benchmarks'], ['/claims/', 'Claims'], ['/methodology/', t.nav.methodology], ['/data/', t.nav.data]];
 const cur = (h: string) => { const b = u(h); return h === '/' ? path === b || path === u('') : path.startsWith(b); };
 ---
 <!doctype html>
@@ -17,17 +18,37 @@ const cur = (h: string) => { const b = u(h); return h === '/' ? path === b || pa
   <meta name="description" content={description} />
   <meta name="robots" content="noindex" />
   <link rel="icon" type="image/svg+xml" href={u('/favicon.svg')} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script is:inline>try { if (localStorage.getItem('theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch (e) {}</script>
   <slot name="head" />
 </head>
 <body>
-  <header class="site"><div class="wrap">
-    <a class="brand" href={u('/')}>{t.siteName}</a>
-    <nav aria-label="Main">{nav.map(([h, l]) => <a href={u(h)} aria-current={cur(h) ? 'page' : undefined}>{l}</a>)}</nav>
+  <header class="site" id="top"><div class="wrap">
+    <a class="brand" href={u('/')}>
+      <Flag height={16} />
+      {t.siteName}
+    </a>
+    <nav class="main" aria-label="Main" id="nav">{nav.map(([h, l]) => <a href={u(h)} aria-current={cur(h) ? 'page' : undefined}>{l}</a>)}<a class="only-phone" href={u('/review/')} aria-current={cur('/review/') ? 'page' : undefined}>Review</a></nav>
+    <button class="btn ghost theme-btn" type="button" id="theme" aria-label="Switch to light mode" title="Switch to light mode"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.25" fill="none" stroke="currentColor" stroke-width="1.5" /><path d="M8 1.75a6.25 6.25 0 0 1 0 12.5z" fill="currentColor" /></svg></button>
+    <a class="btn cta" href={u('/review/')}>Review a claim</a>
+    <button class="btn ghost menu-btn" type="button" aria-controls="nav" aria-expanded="false" id="menu">Menu</button>
   </div></header>
   <main><div class="wrap">
     {fixture && <div class="banner fixture" role="status">{t.fixtureBanner}</div>}
     <slot />
   </div></main>
-  <footer class="site"><div class="wrap">{t.footer}</div></footer>
+  <footer class="site"><div class="wrap">
+    <a class="brand" href={u('/')}><Flag height={14} />{t.siteName}</a>
+    <span>{t.footer}</span>
+  </div></footer>
+  <script is:inline>
+    (() => { const b = document.getElementById('menu'), h = document.getElementById('top');
+      b && b.addEventListener('click', () => { const o = h.classList.toggle('open'); b.setAttribute('aria-expanded', String(o)); b.textContent = o ? 'Close' : 'Menu'; }); })();
+    (() => { const t = document.getElementById('theme'), d = document.documentElement;
+      const label = () => { const l = d.dataset.theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'; t.setAttribute('aria-label', l); t.title = l; };
+      label();
+      t.addEventListener('click', () => { if (d.dataset.theme === 'light') { delete d.dataset.theme; try { localStorage.removeItem('theme'); } catch (e) {} } else { d.dataset.theme = 'light'; try { localStorage.setItem('theme', 'light'); } catch (e) {} } label(); location.reload(); }); })();
+  </script>
 </body>
 </html>

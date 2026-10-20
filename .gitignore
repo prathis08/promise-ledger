@@ -6,3 +6,4 @@ scripts/link-report.json
 research/raw/*.tmp
 research/raw/*.aborted.md
 __pycache__/
+.taste-skill/

@@ -3,6 +3,8 @@ import { u } from '../../lib/site';
 import Base from '../../layouts/Base.astro';
 import Badge from '../../components/Badge.astro';
 import Chart from '../../components/Chart.astro';
+import Donut from '../../components/Donut.astro';
+import PartyLogo from '../../components/PartyLogo.astro';
 import ReviewPanel from '../../components/ReviewPanel.astro';
 import { t } from '../../i18n/en';
 import { getData, seriesBySlug, youtubeId, startSeconds } from '../../lib/data';
@@ -19,9 +21,16 @@ const sc = unscored ? null : scoreClaim(c);
 const paras = c.analysis.split(/\n\s*\n/).filter(Boolean);
 const series = c.chart ? seriesBySlug(c.chart.series) : undefined;
 const chartCfg = series && series.points.length ? {
-  kind: series.points.length > 8 ? 'line' : 'bar', labels: series.points.map((p) => p.x), values: series.points.map((p) => p.y),
-  label: series.title, yTitle: series.unit, target: c.chart!.target ?? null, targetLabel: c.chart!.target_label,
+  labels: series.points.map((p) => p.x), values: series.points.map((p) => p.y),
+  label: series.title, yTitle: series.unit,
 } : null;
+// Progress doughnut: the latest value against the promised target (only when a higher value means closer to it).
+const tgt = c.chart?.target ?? null;
+const latest = series?.points.at(-1);
+const first = series?.points[0];
+const prog = chartCfg && tgt != null && tgt > 0 && latest && first && latest.y >= 0 && latest.y >= first.y
+  ? { done: Math.min(latest.y, tgt), left: Math.max(tgt - latest.y, 0), pct: Math.round((latest.y / tgt) * 100), latest } : null;
+const nf = (x: number) => x.toLocaleString('en-IN', { maximumFractionDigits: 3 });
 const media = c.media.map((m) => {
   const id = youtubeId(m.url);
   return { ...m, yt: id, start: id ? startSeconds(m.url, m.timestamp_seconds) : 0 };
@@ -57,7 +66,7 @@ const fmt = (u?: string) => u && /^https?:\/\//.test(u) ? u : undefined;
 
   <dl class="facts">
     <dt>Speaker</dt><dd>{c.speaker}</dd>
-    <dt>Party</dt><dd>{c.party}</dd>
+    <dt>Party</dt><dd><span class="party"><PartyLogo party={c.party} size={16} />{c.party}</span></dd>
     {c.role && <><dt>Office</dt><dd>{c.role}{c.state && c.level === 'state' && !c.role.includes(c.state) ? `, ${c.state}` : ''}</dd></>}
     {c.venue && <><dt>{L.venue}</dt><dd>{c.venue}</dd></>}
     <dt>{L.date}</dt><dd>{c.date}</dd>
@@ -94,7 +103,19 @@ const fmt = (u?: string) => u && /^https?:\/\//.test(u) ? u : undefined;
 
   {chartCfg && <>
     <h2>{L.chart}</h2>
-    <Chart config={chartCfg} label={series!.title} />
+    <div class={prog ? 'datagrid' : undefined}>
+      {prog && (
+        <div class="panel progress">
+          <Donut size={168} thick={20} segments={[{ value: prog.done, color: 'var(--p-inc)', label: `Reached by ${prog.latest.x}` }, { value: prog.left, color: 'var(--raised)', label: 'Still to go' }]} center={`${prog.pct}%`} sub="of target" label={`${nf(prog.latest.y)} of ${nf(tgt!)} ${series!.unit} reached by ${prog.latest.x}`} />
+          <div>
+            <div class="kv">{L.target}{c.chart!.target_label ? `: ${c.chart!.target_label}` : ''}</div>
+            <div class="progfig">{nf(prog.latest.y)} <span class="kv">of {nf(tgt!)}</span></div>
+            <div class="kv">{series!.unit} · latest {prog.latest.x}</div>
+          </div>
+        </div>
+      )}
+      <Chart config={chartCfg} label={series!.title} />
+    </div>
     <p class="sans small muted">{series!.title} ({series!.unit}){series!.source?.publisher && <> — {L.source}: {fmt(series!.source.url) ? <a href={series!.source.url} rel="noopener">{series!.source.publisher}{series!.source.title ? `, ${series!.source.title}` : ''}</a> : series!.source.publisher}</>}. {c.chart!.target != null && `${L.target}: ${c.chart!.target}${c.chart!.target_label ? ` (${c.chart!.target_label})` : ''}.`} {series!.note}</p>
   </>}
 
@@ -114,3 +135,10 @@ const fmt = (u?: string) => u && /^https?:\/\//.test(u) ? u : undefined;
   {c.notes && <><h2>{L.notes}</h2><p class="sans small">{c.notes}</p></>}
   <ReviewPanel claim={c} />
 </Base>
+
+<style>
+  .datagrid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: var(--gap); align-items: stretch; }
+  .progress { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 16px; text-align: center; }
+  .progfig { font-size: 28px; font-weight: 700; letter-spacing: -.02em; margin: 4px 0; }
+  @media (max-width: 760px) { .datagrid { grid-template-columns: 1fr; } }
+</style>

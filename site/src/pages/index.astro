@@ -2,6 +2,8 @@
 import { u } from '../lib/site';
 import Base from '../layouts/Base.astro';
 import Cell from '../components/Cell.astro';
+import Donut from '../components/Donut.astro';
+import PartyLogo from '../components/PartyLogo.astro';
 import { getData } from '../lib/data';
 import { getBench, f3, fci, fd } from '../lib/bench';
 import { DEFAULT_WEIGHTS, MIN_N, BOOTSTRAP_N, PARTIES, RATES } from '../lib/scoring';
@@ -12,7 +14,15 @@ const verified = claims.filter((c) => c.review_status === 'verified').length;
 const count = (p: string) => claims.filter((c) => c.party === p && c.scored !== false).length;
 const partyRows = b.rows.filter((r) => r.kind === 'party');
 const bg = (s: number | null) => s == null ? '' : s >= 0.5 ? `background:color-mix(in srgb, var(--v-true) ${Math.round((s - 0.5) * 120)}%, var(--card))` : `background:color-mix(in srgb, var(--v-false) ${Math.round((0.5 - s) * 120)}%, var(--card))`;
-const radar = { labels: b.domains.map((d) => d.name), sets: PARTIES.map((p) => ({ label: p.name, data: b.domains.map((d) => (d.byParty[p.id].AB.sufficient ? d.byParty[p.id].AB.mean : null)) })) };
+// Verdict mix across both claim suites, for the party scorecards.
+const combined = (pid: string) => {
+  const acc = new Map<string, number>();
+  for (const k of ['A', 'B'] as const) for (const x of b.mix[pid][k]) acc.set(x.verdict, (acc.get(x.verdict) ?? 0) + x.n);
+  return [...acc].map(([verdict, n]) => ({ verdict, n })).filter((x) => x.n > 0);
+};
+const ov = Object.fromEntries(partyRows.map((r) => [r.party, r.overall?.score ?? null]));
+const lead = ov.BJP != null && ov.INC != null ? (ov.BJP > ov.INC ? PARTIES[0] : PARTIES[1]) : null;
+const finding = lead == null ? '' : `${lead.name} leads overall (${f3(Math.max(ov.BJP!, ov.INC!))} to ${f3(Math.min(ov.BJP!, ov.INC!))}), ${b.h2h.overall.significant ? 'and the gap is outside the 95% interval.' : 'but the 95% interval of the gap includes 0, so there is no clear winner yet.'}`;
 const clientData = { parties: b.parties.map((p) => ({ id: p.id, A: p.pools.A, B: p.pools.B, C: p.cPool })), defaults: DEFAULT_WEIGHTS };
 const pct = (x: number | null | undefined) => (x == null ? '—' : `${(x * 100).toFixed(1)}%`);
 const pci = (c: [number, number] | null) => (c ? `[${(c[0] * 100).toFixed(0)}–${(c[1] * 100).toFixed(0)}%]` : '');
@@ -23,31 +33,46 @@ const w = (k: 'A' | 'B' | 'C') => Math.round(DEFAULT_WEIGHTS[k] * 100);
 const dtxt = (d: { diff: number | null; ci: [number, number] | null; significant: boolean }) => d.diff == null ? '—' : `${fd(d.diff)} ${fci(d.ci)}${d.significant ? '' : ' · not significant'}`;
 ---
 <Base title="Leaderboard">
-  <h1>Promise Ledger: BJP vs Congress</h1>
-  <p class="muted">Two parties evaluated like two models on the same benchmark. Each claim or promise by a party's Union ministers, Chief Ministers or leaders is a test case; global indices measure the change during each party's era at the centre. Rules: <a href={u('/methodology/')}>methodology</a>.</p>
-  <div class="banner draft" role="alert">Preliminary: {verified} of {claims.length} entries are human-verified; {drafts} are unreviewed drafts. Sample sizes are small; read the confidence intervals. <a href={u('/review/')}>Help review claims</a>.</div>
+  <div class="titlerow">
+    <div>
+      <h1>BJP vs Congress, scored like two models</h1>
+      <p class="lede">Every claim or promise by a party's Union ministers, Chief Ministers or leaders is a test case. {finding} <a href={u('/methodology/')}>How it is scored</a></p>
+    </div>
+  </div>
+  <div class="banner draft" role="status"><span>Preliminary: {verified} of {claims.length} entries are human-verified and {drafts} are unreviewed drafts. Read the confidence intervals.</span> <a href={u('/review/')}>Help review claims</a></div>
 
   <section class="vs" aria-label="Head to head">
-    {partyRows.map((r) => (
-      <div class="vs-card" data-party={r.party}>
-        <div class="sans small muted">{r.label}</div>
-        <div class="big" id={`ov-${r.party}`}>{f3(r.overall?.score)}</div>
-        <div class="ci" id={`ci-${r.party}`}>95% CI {fci(r.overall?.ci ?? null)} · n={r.overall?.n}</div>
-        <div class="kv">{count(r.party)} scored claims</div>
-      </div>
-    ))}
-    <div class="vs-card diff">
-      <div class="sans small muted">Difference (BJP − INC), overall</div>
-      <div class="big" id="ov-diff">{b.h2h.overall.diff == null ? '—' : fd(b.h2h.overall.diff)}</div>
-      <div class="ci" id="ci-diff">95% CI {fci(b.h2h.overall.ci)}</div>
-      <div class="kv" id="sig-diff">{b.h2h.overall.significant ? 'CI excludes 0' : 'CI includes 0: no clear difference'}</div>
-    </div>
+    {partyRows.map((r) => { const m = combined(r.party); return (
+      <article class="vs-card panel" data-party={r.party}>
+        <header class="vs-h"><PartyLogo party={r.party} size={24} /><h2>{r.label}</h2></header>
+        <div class="vs-body">
+          <Donut size={156} thick={18} segments={m.map((x) => ({ value: x.n, color: `var(--v-${x.verdict})`, label: VLABEL[x.verdict] }))} center={f3(r.overall?.score)} centerId={`ov-${r.party}`} sub="overall score" label={`${r.label}: verdicts ${m.map((x) => `${VLABEL[x.verdict]} ${x.n}`).join(', ')}`} />
+          <div class="vs-side">
+            <div class="kv nowrap" id={`ci-${r.party}`}>95% CI {fci(r.overall?.ci ?? null)} · n={r.overall?.n}</div>
+            <ul class="legend vlist">{m.map((x) => <li><i style={`background:var(--v-${x.verdict})`}></i>{VLABEL[x.verdict]}<b>{x.n}</b></li>)}</ul>
+          </div>
+        </div>
+        <a class="foot" href={u('/claims/')}>{count(r.party)} scored claims · browse all claims →</a>
+      </article>); })}
+    <article class="vs-card panel diff">
+      <header class="vs-h"><h2>Gap, BJP − Congress</h2></header>
+      <div class="gapfig" id="ov-diff">{b.h2h.overall.diff == null ? '—' : fd(b.h2h.overall.diff)}</div>
+      <div class="kv" id="ci-diff">95% CI {fci(b.h2h.overall.ci)}</div>
+      <p class="gapread" id="sig-diff">{b.h2h.overall.significant ? 'The interval excludes 0: a real difference.' : 'The interval includes 0: no clear difference yet.'}</p>
+      <form class="sliders" id="weights" onsubmit="return false">
+        <label>Accuracy weight<input type="range" min="0" max="100" step="5" value={w('A')} id="wA" /><output class="num" id="oA"></output></label>
+        <label>Promises weight<input type="range" min="0" max="100" step="5" value={w('B')} id="wB" /><output class="num" id="oB"></output></label>
+        <label>Indices weight<input type="range" min="0" max="100" step="5" value={w('C')} id="wC" /><output class="num" id="oC"></output></label>
+        <label class="toggle"><span><input type="checkbox" id="excl" /> Leave out flagged indices</span></label>
+      </form>
+    </article>
   </section>
+  <p class="kv" id="formula">Weights are normalised to sum to 1. CI: {BOOTSTRAP_N} bootstrap resamples, fixed seed.</p>
 
   <h2>False claim rate</h2>
   <p class="muted">Rates are shares of each party's own graded claims, so a party with fewer claims is not penalised. Lower is better for every row.</p>
   <div class="tablewrap"><table class="dense rates">
-    <thead><tr><th>Rate</th>{PARTIES.map((p) => <th class="r">{p.name}</th>)}<th class="r">{PARTIES[0].name} − {PARTIES[1].name} (95% CI)</th><th>Reading</th></tr></thead>
+    <thead><tr><th>Rate</th>{PARTIES.map((p) => <th class="r"><span class="party"><PartyLogo party={p.id} size={14} />{p.name}</span></th>)}<th class="r">{PARTIES[0].name} − {PARTIES[1].name} (95% CI)</th><th>Reading</th></tr></thead>
     <tbody>{RATES.map((r) => (
       <tr><th scope="row">{r.label}<div class="kv">{r.help}</div></th>
         {PARTIES.map((p) => { const st = b.rates[p.id][r.id]; return (
@@ -58,31 +83,22 @@ const dtxt = (d: { diff: number | null; ci: [number, number] | null; significant
   </table></div>
   <p class="kv">pp = percentage points. "Higher" is stated only when the 95% bootstrap interval of the difference excludes 0. Promises not yet due and unverifiable claims are not counted in any rate.</p>
 
-  <h3>Verdict mix</h3>
-  {PARTIES.map((p) => (
-    <div class="mix">
-      <div class="mix-h"><b>{p.label}</b></div>
-      {(['A', 'B'] as const).map((k) => { const m = b.mix[p.id][k]; const tot = m.reduce((a, x) => a + x.n, 0); return (
-        <div class="mix-row"><span class="kv">{k === 'A' ? 'Statements & statistics' : 'Promises'} · {tot}</span>
-          <div class="stack" role="img" aria-label={`${p.name} ${k === 'A' ? 'statements' : 'promises'}: ${m.map((x) => `${VLABEL[x.verdict]} ${x.n}`).join(', ')}`}>
-            {m.map((x) => <i style={`width:${(x.share * 100).toFixed(2)}%;background:var(--v-${x.verdict})`} title={`${VLABEL[x.verdict]}: ${x.n} (${(x.share * 100).toFixed(0)}%)`}></i>)}
-          </div>
-          <div class="legend">{m.map((x) => <span><i style={`background:var(--v-${x.verdict})`}></i>{VLABEL[x.verdict]} {x.n} ({(x.share * 100).toFixed(0)}%)</span>)}</div>
-        </div>); })}
-    </div>
-  ))}
-
-  <form class="sliders" id="weights" onsubmit="return false">
-    <label>Suite A weight<input type="range" min="0" max="100" step="5" value={w('A')} id="wA" /><output class="num" id="oA"></output></label>
-    <label>Suite B weight<input type="range" min="0" max="100" step="5" value={w('B')} id="wB" /><output class="num" id="oB"></output></label>
-    <label>Suite C weight<input type="range" min="0" max="100" step="5" value={w('C')} id="wC" /><output class="num" id="oC"></output></label>
-    <label class="toggle" style="grid-template-columns:auto"><span><input type="checkbox" id="excl" /> Exclude flagged indices from suite C</span></label>
-    <div class="kv" id="formula">Weights are normalised to sum to 1. CI: {BOOTSTRAP_N} bootstrap resamples, fixed seed.</div>
-  </form>
+  <h2>Verdict mix by suite</h2>
+  <div class="mixgrid">
+    {PARTIES.map((p) => (['A', 'B'] as const).map((k) => { const m = b.mix[p.id][k]; const tot = m.reduce((a, x) => a + x.n, 0); return (
+      <article class="panel mixcard">
+        <header class="vs-h" data-party={p.id}><PartyLogo party={p.id} size={18} /><h3>{p.name} · {k === 'A' ? 'statements & statistics' : 'promises'}</h3></header>
+        <div class="mixbody">
+          <Donut size={128} thick={16} segments={m.map((x) => ({ value: x.n, color: `var(--v-${x.verdict})`, label: VLABEL[x.verdict] }))} center={String(tot)} sub={k === 'A' ? 'claims' : 'promises'} label={`${p.name} ${k === 'A' ? 'statements' : 'promises'}: ${m.map((x) => `${VLABEL[x.verdict]} ${x.n}`).join(', ')}`} />
+          <ul class="legend vlist">{m.map((x) => <li><i style={`background:var(--v-${x.verdict})`}></i>{VLABEL[x.verdict]}<b>{x.n} · {(x.share * 100).toFixed(0)}%</b></li>)}</ul>
+        </div>
+        <a class="foot" href={u(k === 'A' ? '/suites/accuracy/' : '/suites/promises/')}>Open the {k === 'A' ? 'accuracy' : 'promises'} suite →</a>
+      </article>); }))}
+  </div>
 
   <h2>Head to head by suite</h2>
   <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Suite</th>{partyRows.map((r) => <th>{r.label}</th>)}<th>BJP − INC (95% CI)</th></tr></thead>
+    <thead><tr><th>Suite</th>{partyRows.map((r) => <th><span class="party"><PartyLogo party={r.party} size={14} />{r.label}</span></th>)}<th>BJP − INC (95% CI)</th></tr></thead>
     <tbody>
       <tr><th scope="row"><a href={u('/suites/accuracy/')}>A: Factual Accuracy</a></th>{partyRows.map((r) => <td><Cell st={r.A} extra={`strict ${f3(r.A.share)} · abstained ${r.A.abstained}`} /></td>)}<td class="num">{dtxt(b.h2h.A)}</td></tr>
       <tr><th scope="row"><a href={u('/suites/promises/')}>B: Promise Delivery</a></th>{partyRows.map((r) => <td><Cell st={r.B} extra={`on-time ${f3(r.B.share)} · abstained ${r.B.abstained} · not yet due ${r.B.pending}`} /></td>)}<td class="num">{dtxt(b.h2h.B)}</td></tr>
@@ -98,7 +114,7 @@ const dtxt = (d: { diff: number | null; ci: [number, number] | null; significant
       {b.rows.map((r) => (
         <tr class={`k-${r.kind}`}>
           <th scope="row">{r.kind === 'party' ? <b>{r.label}</b> : r.kind === 'level' ? <span>↳ {r.label}</span> : <span class="muted">· {r.label}</span>}</th>
-          <td>{r.party}</td>
+          <td><span class="party"><PartyLogo party={r.party} size={14} />{r.party}</span></td>
           <td><Cell st={r.A} /></td>
           <td><Cell st={r.B} /></td>
         </tr>
@@ -109,7 +125,7 @@ const dtxt = (d: { diff: number | null; ci: [number, number] | null; significant
 
   <h2>Domain × suite</h2>
   <div class="tablewrap"><table class="dense heat2">
-    <thead><tr><th rowspan="2">Domain</th>{PARTIES.map((p) => <th colspan="3">{p.name}</th>)}</tr><tr>{PARTIES.map(() => <><th>A</th><th>B</th><th>C</th></>)}</tr></thead>
+    <thead><tr><th rowspan="2">Domain</th>{PARTIES.map((p) => <th colspan="3"><span class="party"><PartyLogo party={p.id} size={14} />{p.name}</span></th>)}</tr><tr>{PARTIES.map(() => <><th>A</th><th>B</th><th>C</th></>)}</tr></thead>
     <tbody>{b.domains.map((d) => (
       <tr><th scope="row">{d.name}</th>{PARTIES.map((p) => [d.byParty[p.id].A, d.byParty[p.id].B, d.byParty[p.id].C].map((st) => st.sufficient
         ? <td class="c" style={bg(st.mean)}><b>{f3(st.mean)}</b><span>n={st.n}</span></td>
@@ -118,15 +134,9 @@ const dtxt = (d: { diff: number | null; ci: [number, number] | null; significant
   </table></div>
   <p class="kv">Claims are assigned to the domain of their first topic. Shade: scale from 0 to 1 around 0.5; the value is always printed. Greyed: n &lt; {MIN_N}.</p>
 
-  <h2>Radar by domain (A and B combined)</h2>
-  <div class="radarbox"><canvas id="radar" role="img" aria-label="Radar chart of combined claim scores by domain for each party"></canvas></div>
-  <p class="kv">Each point is the mean of all graded claims (suites A and B) in that domain. Domains with n &lt; {MIN_N} for a party are left out of its polygon.</p>
-
   <script type="application/json" id="bench-data" set:html={JSON.stringify(clientData)} />
-  <script type="application/json" id="radar-data" set:html={JSON.stringify(radar)} />
   <script>
     import { overall, diffOverall } from '../lib/scoring';
-    import { Chart, RadarController, RadialLinearScale, PointElement, LineElement, Filler, Legend, Tooltip } from 'chart.js';
     const $ = (id: string) => document.getElementById(id)!;
     const D = JSON.parse($('bench-data').textContent!);
     const f3 = (x: number | null) => (x == null ? '—' : x.toFixed(3));
@@ -145,44 +155,52 @@ const dtxt = (d: { diff: number | null; ci: [number, number] | null; significant
       const d = diffOverall(pools[0], pools[1], w);
       $('ov-diff').textContent = d.diff == null ? '—' : sg(d.diff);
       $('ci-diff').textContent = `95% CI ${fci(d.ci)}`;
-      $('sig-diff').textContent = d.significant ? 'CI excludes 0' : 'CI includes 0: no clear difference';
+      $('sig-diff').textContent = d.significant ? 'The interval excludes 0: a real difference.' : 'The interval includes 0: no clear difference yet.';
       const t = w.A + w.B + w.C;
       $('formula').textContent = t ? `Overall = ${(w.A / t).toFixed(2)}·A + ${(w.B / t).toFixed(2)}·B + ${(w.C / t).toFixed(2)}·C for each party (suites with no data are dropped and weights renormalised).` : 'All weights are zero.';
     }
     ['wA', 'wB', 'wC', 'excl'].forEach((i) => $(i).addEventListener('input', update));
     update();
-
-    Chart.register(RadarController, RadialLinearScale, PointElement, LineElement, Filler, Legend, Tooltip);
-    const css = getComputedStyle(document.documentElement), v = (n: string) => css.getPropertyValue(n).trim();
-    Chart.defaults.color = v('--muted'); Chart.defaults.borderColor = v('--line'); Chart.defaults.font.family = v('--sans');
-    const R = JSON.parse($('radar-data').textContent!);
-    const colors = [v('--p-bjp') || '#e07b00', v('--p-inc') || '#1f6fd1'];
-    new Chart($('radar') as HTMLCanvasElement, {
-      type: 'radar',
-      data: { labels: R.labels, datasets: R.sets.map((s: any, i: number) => ({ label: s.label, data: s.data, borderColor: colors[i], backgroundColor: colors[i] + '22', pointBackgroundColor: colors[i], spanGaps: false, borderWidth: 2 })) },
-      options: { responsive: true, maintainAspectRatio: false, scales: { r: { min: 0, max: 1, ticks: { backdropColor: 'transparent' } } } },
-    });
   </script>
 </Base>
 
 <style>
-  .vs { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; margin: 1.25rem 0; }
-  .vs-card { border: 1px solid var(--line); border-radius: 8px; padding: 1rem; background: var(--card); }
-  .vs-card[data-party='BJP'] { border-top: 4px solid var(--p-bjp, #e07b00); }
-  .vs-card[data-party='INC'] { border-top: 4px solid var(--p-inc, #1f6fd1); }
-  .vs-card.diff { border-top: 4px solid var(--line); }
+  .lede { max-width: 72ch; }
+  /* 1088 = 3 x 354.67 + 2 x 12: three scorecards land on the column edges. */
+  .vs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); margin: 0 0 8px; }
+  .vs-card { display: flex; flex-direction: column; gap: 14px; }
+  .vs-h { display: flex; align-items: center; gap: 8px; }
+  .vs-h h2, .vs-h h3 { margin: 0; font-size: 15px; font-weight: 600; }
+  .pdot { width: 10px; height: 10px; border-radius: 50%; background: var(--muted); flex: none; }
+  [data-party='BJP'] .pdot, [data-party='BJP'].vs-h .pdot { background: var(--p-bjp); }
+  [data-party='INC'] .pdot, [data-party='INC'].vs-h .pdot { background: var(--p-inc); }
+  .vs-body { display: flex; gap: 18px; align-items: center; }
+  .vs-side { display: flex; flex-direction: column; gap: 10px; min-width: 0; flex: 1; }
+  .vs-side .vlist li { white-space: nowrap; }
+  .vlist { flex-direction: column; gap: 5px; }
+  .vlist li { display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; }
+  .vlist b { text-align: right; }
+  .nowrap { white-space: nowrap; }
+  .gapfig { font-size: var(--fs-kpi); font-weight: 700; letter-spacing: -.03em; line-height: 1; }
+  .gapread { margin: 0; font-size: 14px; }
+  .diff .sliders label { grid-template-columns: max-content minmax(0, 1fr) 28px; }
+  .diff .sliders input[type=range] { min-width: 0; width: 100%; }
+  .diff .sliders { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--rule); }
+  .mixgrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gap); }
+  .mixcard { display: flex; flex-direction: column; gap: 14px; padding: 18px; }
+  .foot { margin-top: auto; font-size: 13px; font-weight: 500; }
+  .mixbody { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .mixbody .vlist { width: 100%; }
   .heat2 td.c { text-align: center; min-width: 4.5rem; }
-  .heat2 td.c b { display: block; font-family: var(--mono, monospace); }
-  .heat2 td.c span { font-size: 0.75rem; color: var(--muted); }
-  .heat2 td.na { color: var(--muted); font-size: 0.75rem; }
-  tr.k-party th, tr.k-party td { border-top: 2px solid var(--line); }
-  .rates .big2 { font-family: var(--mono, monospace); font-size: 1.35rem; font-weight: 600; }
+  .heat2 td.c b { display: block; font-weight: 600; }
+  .heat2 td.c span { font-size: 12px; color: var(--text); }
+  .heat2 td.na { color: var(--muted); font-size: 12px; text-align: center; }
+  tr.k-party th, tr.k-party td { border-top: 1px solid var(--border); background: var(--ground); }
+  .rates .big2 { font-size: 20px; font-weight: 700; letter-spacing: -.01em; }
   .rates .big2.na { color: var(--muted); }
-  .mix { margin: 0.75rem 0 1.25rem; }
-  .mix-row { margin: 0.4rem 0; }
-  .stack { display: flex; height: 18px; border-radius: 4px; overflow: hidden; border: 1px solid var(--line); background: var(--card); }
-  .stack i { display: block; height: 100%; }
-  .stack i + i { border-left: 1px solid var(--card); }
-  .legend { display: flex; flex-wrap: wrap; gap: 0.25rem 0.9rem; font-size: 0.78rem; color: var(--muted); margin-top: 0.25rem; }
-  .legend i { display: inline-block; width: 0.7rem; height: 0.7rem; border-radius: 2px; margin-right: 0.3rem; vertical-align: -1px; }
+  .rates td .kv, .rates td.num { white-space: nowrap; }
+  @media (max-width: 1180px) { .vs-body { flex-direction: column; align-items: stretch; } .vs-body .donut { align-self: center; } .nowrap { white-space: normal; } }
+  @media (max-width: 1000px) { .vs { grid-template-columns: repeat(2, minmax(0, 1fr)); } .vs .diff { grid-column: 1 / -1; } .mixgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .vs-body { flex-direction: column; align-items: stretch; } .vs-body .donut { align-self: center; } .nowrap { white-space: normal; } }
+  @media (max-width: 640px) { .vs, .mixgrid { grid-template-columns: 1fr; } .vs-body { flex-direction: column; align-items: stretch; } .vs-body .donut { align-self: center; } }
 </style>

@@ -2,17 +2,14 @@
 import { u } from '../lib/site';
 import Base from '../layouts/Base.astro';
 import Cell from '../components/Cell.astro';
+import Donut from '../components/Donut.astro';
+import PartyLogo from '../components/PartyLogo.astro';
 import { getData } from '../lib/data';
 import { getBench, f3, fd } from '../lib/bench';
 import { cStat, DOMAINS, PARTIES, ERA_START_SLACK, ERA_END_SLACK } from '../lib/scoring';
 const b = getBench();
 const idxMeta = new Map(getData().indices.map((i) => [i.slug, i]));
 const dn = (id: string | null) => DOMAINS.find((d) => d.id === id)?.name ?? '';
-const W = 150, H = 30;
-const allYears = b.indices.flatMap((r) => r.series.map((p) => p.year));
-const y0 = Math.min(...allYears), y1 = Math.max(...allYears);
-const X = (y: number) => 3 + ((y - y0) / Math.max(1, y1 - y0)) * (W - 6), Y = (n: number) => 3 + (1 - n) * (H - 6);
-const spark = (r: (typeof b.indices)[number]) => r.series.map((p) => `${X(p.year).toFixed(1)},${Y(p.norm).toFixed(1)}`).join(' ');
 const cls = (d: number) => (d > 0.0005 ? 'pos' : d < -0.0005 ? 'neg' : 'flat');
 const arrow = (d: number) => (d > 0.0005 ? '▲' : d < -0.0005 ? '▼' : '●');
 const pv = (p: { year: number; value: number; outOf: number | null }, rank: boolean) => `${p.year}: ${p.value}${rank && p.outOf ? `/${p.outOf}` : ''}`;
@@ -21,30 +18,45 @@ const data = b.indices.map((r) => ({ x: r.excludable, e: Object.fromEntries(PART
 <Base title="Benchmarks">
   <h1>Suite C: External Benchmarks by era</h1>
   <p class="muted">India's position in global indices, measured over each party's era at the centre: <b>INC (UPA)</b> from the edition at or before 2004 to the 2014 edition, and <b>BJP (NDA)</b> from the 2014 edition to the latest. Every edition is normalised to 0–1, higher is better. An index scores 1 for a party if it improved during that era, 0.5 if flat, 0 if it declined.</p>
+  <div class="eras">
+    {PARTIES.map((p) => { const c = cStat(b.indices, p.id, false); return (
+      <article class="panel era" data-party={p.id}>
+        <Donut size={132} thick={16} segments={[{ value: c.improved, color: 'var(--v-true)', label: 'Improved' }, { value: c.flat, color: 'var(--v-unverifiable)', label: 'Flat' }, { value: c.declined, color: 'var(--v-false)', label: 'Declined' }]} center={`${c.improved}/${c.improved + c.flat + c.declined}`} sub="improved" label={`${p.label}: ${c.improved} indices improved, ${c.flat} flat, ${c.declined} declined`} />
+        <div>
+          <h2 class="era-h"><PartyLogo party={p.id} size={20} />{p.label}</h2>
+          <ul class="legend vlist">
+            <li><i style="background:var(--v-true)"></i>Improved<b>{c.improved}</b></li>
+            <li><i style="background:var(--v-unverifiable)"></i>Flat<b>{c.flat}</b></li>
+            <li><i style="background:var(--v-false)"></i>Declined<b>{c.declined}</b></li>
+          </ul>
+        </div>
+      </article>); })}
+  </div>
   <p class="toggle"><label><input type="checkbox" id="excl" /> Exclude flagged indices (comparability or discontinuation)</label></p>
   <div class="tablewrap"><table class="dense">
     <thead><tr><th>Party (era)</th><th>Share of indices improved</th><th class="r">Mean Δ</th><th class="r">Mean Δ per year</th></tr></thead>
     <tbody>{PARTIES.map((p) => { const c = cStat(b.indices, p.id, false); return (
-      <tr><th scope="row">{p.label}</th><td id={`c-${p.id}`}><Cell st={c} extra={`up ${c.improved} / down ${c.declined} / flat ${c.flat}`} /></td>
+      <tr><th scope="row"><span class="party"><PartyLogo party={p.id} size={14} />{p.label}</span></th><td id={`c-${p.id}`}><Cell st={c} extra={`up ${c.improved} / down ${c.declined} / flat ${c.flat}`} /></td>
         <td class="r num" id={`d-${p.id}`}>{c.meanDelta == null ? '—' : fd(c.meanDelta)}</td><td class="r num" id={`y-${p.id}`}>{c.meanPerYear == null ? '—' : fd(c.meanPerYear)}</td></tr>); })}</tbody>
   </table></div>
   <p class="kv">Eras are of different length (about 10 and 12 years), so compare Δ per year as well as total Δ. The 2014 edition is the end of the INC era and the start of the BJP era; most indices publish with a lag of a year or more, so it mostly reflects conditions under the previous government.</p>
 
   <div class="tablewrap"><table class="dense">
-    <thead><tr><th>Index</th><th>Domain</th>{PARTIES.map((p) => <th class="r">{p.name} era: start → end, Δ</th>)}<th>Trend {y0}–{y1}</th><th>Flags</th></tr></thead>
+    <thead><tr><th>Index</th><th>Domain</th>{PARTIES.map((p) => <th class="r"><span class="party"><PartyLogo party={p.id} size={14} />{p.name} era: start → end, Δ</span></th>)}<th>Latest position</th><th>Flags</th></tr></thead>
     <tbody>{b.indices.map((r) => (
       <tr data-x={r.excludable ? '1' : '0'}>
         <th scope="row"><a href={`#${r.slug}`}>{r.name}</a></th><td>{dn(r.domain)}</td>
         {PARTIES.map((p) => { const e = r.eras[p.id]; return e
           ? <td class="r num">{pv(e.start, r.isRank)} → {pv(e.end, r.isRank)}<br /><span class={cls(e.delta)}>{arrow(e.delta)} {fd(e.delta)}</span>{e.perYear != null && <span class="kv"> ({fd(e.perYear)}/yr)</span>}</td>
           : <td class="r kv">not measurable: {r.eraGaps[p.id]}</td>; })}
-        <td><svg class="spark" width={W} height={H} viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`${r.name} normalised trend`}>
-          <line x1={X(2014)} x2={X(2014)} y1="0" y2={H} class="era" /><polyline points={spark(r)} /></svg></td>
+        <td>{(() => { const l = r.series.at(-1); return l ? (
+          <div class="pos-cell"><Donut size={44} thick={7} gap={0} segments={[{ value: l.norm, color: 'var(--p-inc)', label: `${l.year} position` }, { value: 1 - l.norm, color: 'var(--raised)', label: 'Below the top' }]} label={`${r.name}, ${l.year}: ${(l.norm * 100).toFixed(0)}% of the way to the top`} /><span class="num">{(l.norm * 100).toFixed(0)}%<span class="kv"> in {l.year}</span></span></div>
+        ) : <span class="na">—</span>; })()}</td>
         <td>{r.flags.map((f) => <div><span class="flag">{f.kind}</span> <span class="kv">{f.text}</span></div>)}</td>
       </tr>
     ))}</tbody>
   </table></div>
-  <p class="kv">Rank indices: 1 − (rank − 1) / (out_of − 1). Score indices: value / out_of (value as is when out_of is null, as in V-Dem). An era's first edition may be up to {ERA_START_SLACK} years after the era starts (flagged "late-start"); a closed era's last edition must be within {ERA_END_SLACK} years of its end. Vertical line in the trend: 2014. The toggle removes indices with a comparability or discontinuation flag.</p>
+  <p class="kv">Rank indices: 1 − (rank − 1) / (out_of − 1). Score indices: value / out_of (value as is when out_of is null, as in V-Dem). An era's first edition may be up to {ERA_START_SLACK} years after the era starts (flagged "late-start"); a closed era's last edition must be within {ERA_END_SLACK} years of its end. Vertical line in the trend: 2014. Latest position: the newest edition on the 0–1 scale, where a full ring is the top of the index. The toggle removes indices with a comparability or discontinuation flag.</p>
 
   <h2>Index details</h2>
   {b.indices.map((r) => { const m = idxMeta.get(r.slug)!; return (
@@ -80,5 +92,14 @@ const data = b.indices.map((r) => ({ x: r.excludable, e: Object.fromEntries(PART
 </Base>
 
 <style>
-  .spark .era { stroke: var(--muted); stroke-dasharray: 2 2; stroke-width: 1; }
+  .eras { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); margin: 8px 0 16px; }
+  .era { display: flex; align-items: center; gap: 24px; }
+  .era-h { margin: 0 0 10px; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+  .pdot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+  [data-party='BJP'] .pdot { background: var(--p-bjp); } [data-party='INC'] .pdot { background: var(--p-inc); }
+  .vlist { flex-direction: column; gap: 5px; }
+  .vlist li { display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; min-width: 160px; }
+  .pos-cell { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  section[id] { scroll-margin-top: 72px; }
+  @media (max-width: 640px) { .eras { grid-template-columns: 1fr; } }
 </style>

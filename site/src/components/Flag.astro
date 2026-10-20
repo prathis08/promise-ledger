@@ -1,0 +1,15 @@
+---
+// The flag of India, drawn to its 3:2 proportions: saffron, white, green, and the 24-spoke Ashoka Chakra in navy.
+const { height = 16 } = Astro.props;
+const spokes = Array.from({ length: 24 }, (_, i) => (i * 15 * Math.PI) / 180);
+---
+<svg class="flag-in" width={height * 1.5} height={height} viewBox="0 0 30 20" role="img" aria-label="Flag of India">
+  <rect width="30" height="20" fill="#fff" />
+  <rect width="30" height="6.67" fill="#FF9933" />
+  <rect y="13.33" width="30" height="6.67" fill="#138808" />
+  <g stroke="#000080" fill="none">
+    <circle cx="15" cy="10" r="2.9" stroke-width=".5" />
+    {spokes.map((a) => <line x1="15" y1="10" x2={(15 + 2.9 * Math.cos(a)).toFixed(3)} y2={(10 + 2.9 * Math.sin(a)).toFixed(3)} stroke-width=".18" />)}
+  </g>
+  <circle cx="15" cy="10" r=".6" fill="#000080" />
+</svg>

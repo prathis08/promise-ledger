@@ -1,0 +1,12 @@
+---
+// Party symbol on a white tile (the BJP lotus has black linework, so the tile keeps it legible in dark mode).
+// Logos: Wikimedia Commons, "Logo of the Bharatiya Janata Party.svg" and "Indian National Congress hand logo.svg" (public domain).
+import { u } from '../lib/site';
+const { party, size = 20 } = Astro.props;
+const LOGOS: Record<string, { src: string; alt: string }> = {
+  BJP: { src: '/logos/bjp.svg', alt: 'BJP' },
+  INC: { src: '/logos/inc.svg', alt: 'Congress' },
+};
+const l = LOGOS[party];
+---
+{l && <span class="plogo" style={`--s:${size}px`}><img src={u(l.src)} alt={`${l.alt} logo`} width={size} height={size} loading="lazy" /></span>}

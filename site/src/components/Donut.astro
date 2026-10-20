@@ -1,0 +1,28 @@
+---
+// Server-rendered SVG doughnut. Works without script; every segment carries a <title> for hover.
+// segments: [{ value, color, label }]. center/sub: text in the hole. An all-zero ring draws as an empty track.
+type Seg = { value: number; color: string; label: string };
+const { segments = [] as Seg[], size = 160, thick = 18, center = '', sub = '', label = '', gap = 1.5, centerId } = Astro.props;
+const r = (size - thick) / 2, C = 2 * Math.PI * r;
+const total = segments.reduce((a: number, s: Seg) => a + Math.max(0, s.value), 0);
+const live = segments.filter((s: Seg) => s.value > 0);
+const g = live.length > 1 ? gap : 0;
+let off = 0;
+const arcs = total > 0 ? live.map((s: Seg) => {
+  const len = (s.value / total) * C;
+  const a = { ...s, dash: `${Math.max(0, len - g).toFixed(2)} ${(C - Math.max(0, len - g)).toFixed(2)}`, offset: (-off).toFixed(2), pct: Math.round((s.value / total) * 100) };
+  off += len;
+  return a;
+}) : [];
+---
+<figure class="donut" style={`--d:${size}px`}>
+  <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} role="img" aria-label={label || `${center} ${sub}`.trim()}>
+    <g transform={`rotate(-90 ${size / 2} ${size / 2})`}>
+      <circle class="track" cx={size / 2} cy={size / 2} r={r} stroke-width={thick} fill="none" />
+      {arcs.map((a) => (
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke={a.color} stroke-width={thick} stroke-dasharray={a.dash} stroke-dashoffset={a.offset}><title>{`${a.label}: ${a.value} (${a.pct}%)`}</title></circle>
+      ))}
+    </g>
+  </svg>
+  {(center || sub) && <figcaption class="hole"><b id={centerId}>{center}</b>{sub && <span>{sub}</span>}</figcaption>}
+</figure>

@@ -1,4 +1,5 @@
 ---
+import PartyLogo from '../../components/PartyLogo.astro';
 import { u } from '../../lib/site';
 import Base from '../../layouts/Base.astro';
 import Badge from '../../components/Badge.astro';
@@ -15,14 +16,15 @@ const dn = (id: string | null) => DOMAINS.find((d) => d.id === id)?.name ?? '';
 const num = (x: number) => (Math.abs(x) >= 1000 ? x.toLocaleString('en-US') : String(x));
 const Bar = (v: number | null) => v;
 ---
+import PartyLogo from '../../components/PartyLogo.astro';
 <Base title="Suite B: Promise Delivery">
   <h1>Suite B: {SUITES.B.name}</h1>
   <p class="muted">Test cases: claims of type promise. Score by verdict: {Object.entries(VERDICT_SCORES_B).map(([k, v]) => `${k} = ${v}`).join(', ')}. Unverifiable is not graded.</p>
-  <div class="tablewrap"><table class="dense"><thead><tr><th>Party</th><th>Suite B</th></tr></thead><tbody>{prow.map((r) => <tr><th scope="row">{r.label}</th><td><Cell st={r.B} extra={`on-time rate ${f3(r.B.share)} · abstained ${r.B.abstained} · not yet due ${r.B.pending}`} /></td></tr>)}</tbody></table></div>
+  <div class="tablewrap"><table class="dense"><thead><tr><th>Party</th><th>Suite B</th></tr></thead><tbody>{prow.map((r) => <tr><th scope="row"><span class="party"><PartyLogo party={r.party} size={16} />{r.label}</span></th><td><Cell st={r.B} extra={`on-time rate ${f3(r.B.share)} · abstained ${r.B.abstained} · not yet due ${r.B.pending}`} /></td></tr>)}</tbody></table></div>
   <div class="tablewrap"><table class="dense">
     <thead><tr><th>Test case</th><th>Date</th><th>Party</th><th>Speaker</th><th>Domain</th><th>Verdict</th><th class="r">Score</th><th>Confidence</th></tr></thead>
     <tbody>{cases.map((c) => (
-      <tr><td><a href={u(`/claims/${c.id}/`)} class="num">{c.id}</a></td><td class="num">{c.date}</td><td>{c.party}</td><td>{c.speaker}</td><td>{dn(c.domain)}</td>
+      <tr><td><a href={u(`/claims/${c.id}/`)} class="num">{c.id}</a></td><td class="num">{c.date}</td><td><span class="party"><PartyLogo party={c.party} size={14} />{c.party}</span></td><td>{c.speaker}</td><td>{dn(c.domain)}</td>
         <td><Badge verdict={c.verdict} /></td><td class="r num">{c.notYetDue ? 'not yet due' : c.score == null ? 'n/a' : c.score.toFixed(2)}</td><td>{c.confidence}</td></tr>
     ))}</tbody>
   </table></div>

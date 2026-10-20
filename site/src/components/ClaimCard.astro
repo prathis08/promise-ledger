@@ -1,12 +1,13 @@
 ---
 import { u } from '../lib/site';
 import Badge from './Badge.astro';
+import PartyLogo from './PartyLogo.astro';
 const { claim } = Astro.props;
 const q = (claim.quote_english || claim.quote_original || '');
 const snip = q.length > 220 ? q.slice(0, 217).trimEnd() + '…' : q;
 ---
 <article class="card" data-id={claim.id}>
-  <div class="meta"><Badge verdict={claim.verdict} /><span>{claim.speaker}</span><time datetime={claim.date}>{claim.date}</time>{claim.scored === false && <span class="nscored">not scored</span>}{claim.review_status === 'draft' && <span>(draft)</span>}</div>
+  <div class="meta"><Badge verdict={claim.verdict} /><span class="party"><PartyLogo party={claim.party} size={14} />{claim.speaker}</span><time datetime={claim.date}>{claim.date}</time>{claim.scored === false && <span class="nscored">not scored</span>}{claim.review_status === 'draft' && <span>(draft)</span>}</div>
   <blockquote>“{snip}”</blockquote>
   <a class="title sans small" href={u(`/claims/${claim.id}/`)}>{claim.summary || 'Read the full entry'} →</a>
 </article>

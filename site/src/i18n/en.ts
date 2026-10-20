@@ -1,6 +1,6 @@
 // All user-facing UI strings live here. Add src/i18n/hi.ts with the same shape for a Hindi UI.
 export const t = {
-  siteName: 'Promise Ledger',
+  siteName: 'Sarkari Benchmark',
   tagline: 'A neutral, sourced fact-check ledger of public claims and promises by Narendra Modi and Amit Shah.',
   nav: { home: 'Claims', promises: 'Promises', indices: 'Indices', methodology: 'Methodology', data: 'Data' },
   fixtureBanner: 'Showing FIXTURE data (no files found in data/). Nothing here is a real claim or verdict.',
